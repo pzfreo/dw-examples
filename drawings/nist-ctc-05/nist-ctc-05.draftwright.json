@@ -1,0 +1,5371 @@
+{
+  "lint": {
+    "assessment": {
+      "axes": {
+        "completeness": {
+          "affected_count": 7,
+          "denominator": 65,
+          "denominator_reason": null,
+          "status": "affected",
+          "unavailable_reasons": []
+        },
+        "fidelity": {
+          "affected_count": 0,
+          "denominator": null,
+          "denominator_reason": "no fixed opportunity denominator is reported for finding-based axes",
+          "status": "clear-within-assessed-scope",
+          "unavailable_reasons": []
+        },
+        "legibility": {
+          "affected_count": 4,
+          "denominator": null,
+          "denominator_reason": "no fixed opportunity denominator is reported for finding-based axes",
+          "status": "affected",
+          "unavailable_reasons": []
+        },
+        "lint": {
+          "affected_count": 1,
+          "denominator": 13,
+          "denominator_reason": null,
+          "status": "affected",
+          "unavailable_reasons": []
+        },
+        "recognition": {
+          "affected_count": 16,
+          "denominator": 67,
+          "denominator_reason": null,
+          "status": "affected",
+          "unavailable_reasons": []
+        },
+        "requirements": {
+          "affected_count": 7,
+          "denominator": 65,
+          "denominator_reason": null,
+          "status": "affected",
+          "unavailable_reasons": []
+        },
+        "restraint": {
+          "affected_count": 0,
+          "denominator": null,
+          "denominator_reason": "no evidence-backed redundancy denominator is available",
+          "status": "unavailable",
+          "unavailable_reasons": [
+            "measurement provenance and physical requirement equivalence are incomplete"
+          ]
+        }
+      },
+      "basis": "evidence-vector-no-scalar",
+      "remediation": {
+        "items": [
+          {
+            "annotation_names": [],
+            "declaration_ids": [],
+            "domain": "missing-carrier",
+            "finding_ids": [
+              "lint:11",
+              "lint:12",
+              "lint:3"
+            ],
+            "no_supported_action_reason": "no bounded public remedy is classified for this evidence",
+            "occurrence_ids": [
+              "section_recesses:3",
+              "section_recesses:4"
+            ],
+            "owner_ids": [],
+            "preserve": [
+              "measurement-owner",
+              "parameter-meaning",
+              "source-provenance",
+              "unrelated-requirement-outcomes"
+            ],
+            "requirement_ids": [],
+            "severity": "error",
+            "source_ids": [],
+            "subjects": [
+              {
+                "evidence_ref": "section_recesses:3",
+                "family": "section_recesses",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "supported_owner_missing"
+              },
+              {
+                "evidence_ref": "section_recesses:4",
+                "family": "section_recesses",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "supported_owner_missing"
+              }
+            ],
+            "supported_actions": [],
+            "unaddressed_evidence_refs": [
+              "lint:11",
+              "lint:12",
+              "lint:3",
+              "section_recesses:3",
+              "section_recesses:4"
+            ]
+          },
+          {
+            "annotation_names": [
+              "dim_height",
+              "m_steplen0"
+            ],
+            "declaration_ids": [],
+            "domain": "layout",
+            "finding_ids": [
+              "lint:0",
+              "lint:1",
+              "lint:10",
+              "lint:9"
+            ],
+            "no_supported_action_reason": "no bounded public remedy is classified for this evidence",
+            "occurrence_ids": [],
+            "owner_ids": [
+              "hole:1",
+              "hole:3",
+              "pattern:2"
+            ],
+            "preserve": [
+              "measurement-owner",
+              "parameter-meaning",
+              "source-provenance",
+              "unrelated-requirement-outcomes"
+            ],
+            "requirement_ids": [
+              "requirement:40",
+              "requirement:51",
+              "requirement:61"
+            ],
+            "severity": "warning",
+            "source_ids": [],
+            "subjects": [
+              {
+                "evidence_ref": "requirement:40",
+                "family": "holes",
+                "kind": "requirement",
+                "parameter_id": "location.location.x",
+                "reason_code": "semantic_requirement_dropped"
+              },
+              {
+                "evidence_ref": "requirement:51",
+                "family": "holes",
+                "kind": "requirement",
+                "parameter_id": "location.location.x",
+                "reason_code": "semantic_requirement_dropped"
+              },
+              {
+                "evidence_ref": "requirement:61",
+                "family": "hole_patterns",
+                "kind": "requirement",
+                "parameter_id": "pitch.length",
+                "reason_code": "semantic_requirement_dropped"
+              }
+            ],
+            "supported_actions": [
+              {
+                "applies_to": [
+                  "lint:0"
+                ],
+                "arguments": {},
+                "verb": "Drawing.repair"
+              }
+            ],
+            "unaddressed_evidence_refs": [
+              "lint:1",
+              "lint:10",
+              "lint:9",
+              "requirement:40",
+              "requirement:51",
+              "requirement:61"
+            ]
+          },
+          {
+            "annotation_names": [],
+            "declaration_ids": [],
+            "domain": "importer-lowering",
+            "finding_ids": [
+              "lint:4",
+              "lint:5",
+              "lint:8"
+            ],
+            "no_supported_action_reason": "no bounded public remedy is classified for this evidence",
+            "occurrence_ids": [
+              "section_recesses:1",
+              "section_recesses:2",
+              "section_recesses:5",
+              "section_recesses:6"
+            ],
+            "owner_ids": [],
+            "preserve": [
+              "measurement-owner",
+              "parameter-meaning",
+              "source-provenance",
+              "unrelated-requirement-outcomes"
+            ],
+            "requirement_ids": [
+              "requirement:1",
+              "requirement:2",
+              "requirement:3",
+              "requirement:4"
+            ],
+            "severity": "warning",
+            "source_ids": [],
+            "subjects": [
+              {
+                "evidence_ref": "requirement:1",
+                "family": "section_recesses",
+                "kind": "requirement",
+                "parameter_id": null,
+                "reason_code": "consumer_semantics_unsupported"
+              },
+              {
+                "evidence_ref": "requirement:2",
+                "family": "section_recesses",
+                "kind": "requirement",
+                "parameter_id": null,
+                "reason_code": "consumer_semantics_unsupported"
+              },
+              {
+                "evidence_ref": "requirement:3",
+                "family": "section_recesses",
+                "kind": "requirement",
+                "parameter_id": null,
+                "reason_code": "consumer_semantics_unsupported"
+              },
+              {
+                "evidence_ref": "requirement:4",
+                "family": "section_recesses",
+                "kind": "requirement",
+                "parameter_id": null,
+                "reason_code": "consumer_semantics_unsupported"
+              },
+              {
+                "evidence_ref": "section_recesses:1",
+                "family": "section_recesses",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "consumer_semantics_unsupported"
+              },
+              {
+                "evidence_ref": "section_recesses:2",
+                "family": "section_recesses",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "consumer_semantics_unsupported"
+              },
+              {
+                "evidence_ref": "section_recesses:5",
+                "family": "section_recesses",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "recognition_refused"
+              },
+              {
+                "evidence_ref": "section_recesses:6",
+                "family": "section_recesses",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "recognition_refused"
+              }
+            ],
+            "supported_actions": [],
+            "unaddressed_evidence_refs": [
+              "lint:4",
+              "lint:5",
+              "lint:8",
+              "requirement:1",
+              "requirement:2",
+              "requirement:3",
+              "requirement:4",
+              "section_recesses:1",
+              "section_recesses:2",
+              "section_recesses:5",
+              "section_recesses:6"
+            ]
+          },
+          {
+            "annotation_names": [],
+            "declaration_ids": [],
+            "domain": "source-ambiguity",
+            "finding_ids": [
+              "lint:2",
+              "lint:6",
+              "lint:7"
+            ],
+            "no_supported_action_reason": "no bounded public remedy is classified for this evidence",
+            "occurrence_ids": [],
+            "owner_ids": [],
+            "preserve": [
+              "measurement-owner",
+              "parameter-meaning",
+              "source-provenance",
+              "unrelated-requirement-outcomes"
+            ],
+            "requirement_ids": [],
+            "severity": "warning",
+            "source_ids": [],
+            "subjects": [],
+            "supported_actions": [],
+            "unaddressed_evidence_refs": [
+              "lint:2",
+              "lint:6",
+              "lint:7"
+            ]
+          },
+          {
+            "annotation_names": [],
+            "declaration_ids": [],
+            "domain": "evidence-unavailable",
+            "finding_ids": [],
+            "no_supported_action_reason": "no bounded public remedy is classified for this evidence",
+            "occurrence_ids": [
+              "step_levels:1",
+              "step_levels:2",
+              "step_levels:3",
+              "step_levels:4",
+              "step_levels:5",
+              "step_levels:6",
+              "step_levels:7"
+            ],
+            "owner_ids": [],
+            "preserve": [
+              "measurement-owner",
+              "parameter-meaning",
+              "source-provenance",
+              "unrelated-requirement-outcomes"
+            ],
+            "requirement_ids": [],
+            "severity": "warning",
+            "source_ids": [],
+            "subjects": [
+              {
+                "evidence_ref": "step_levels:1",
+                "family": "step_levels",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "step_level_projection_evidence"
+              },
+              {
+                "evidence_ref": "step_levels:2",
+                "family": "step_levels",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "step_level_projection_evidence"
+              },
+              {
+                "evidence_ref": "step_levels:3",
+                "family": "step_levels",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "step_level_projection_evidence"
+              },
+              {
+                "evidence_ref": "step_levels:4",
+                "family": "step_levels",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "step_level_projection_evidence"
+              },
+              {
+                "evidence_ref": "step_levels:5",
+                "family": "step_levels",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "step_level_projection_evidence"
+              },
+              {
+                "evidence_ref": "step_levels:6",
+                "family": "step_levels",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "step_level_projection_evidence"
+              },
+              {
+                "evidence_ref": "step_levels:7",
+                "family": "step_levels",
+                "kind": "occurrence",
+                "parameter_id": null,
+                "reason_code": "step_level_projection_evidence"
+              }
+            ],
+            "supported_actions": [],
+            "unaddressed_evidence_refs": [
+              "step_levels:1",
+              "step_levels:2",
+              "step_levels:3",
+              "step_levels:4",
+              "step_levels:5",
+              "step_levels:6",
+              "step_levels:7"
+            ]
+          }
+        ],
+        "ordering": "severity(error,warning,info)-then-domain-then-evidence-id",
+        "unclassified_finding_ids": []
+      },
+      "status": "needs-attention",
+      "status_reasons": [
+        {
+          "affected_count": 1,
+          "axis": "lint",
+          "code": "lint_failed",
+          "denominator": 13,
+          "evidence_refs": [
+            "lint-code:plan_incomplete"
+          ]
+        },
+        {
+          "affected_count": 13,
+          "axis": "recognition",
+          "code": "attention_disposition",
+          "denominator": 67,
+          "evidence_refs": [
+            "section_recesses:1",
+            "section_recesses:2",
+            "section_recesses:3",
+            "section_recesses:4",
+            "section_recesses:5"
+          ]
+        },
+        {
+          "affected_count": 7,
+          "axis": "requirements",
+          "code": "requirement_not_satisfied",
+          "denominator": 65,
+          "evidence_refs": [
+            "requirement:1",
+            "requirement:2",
+            "requirement:3",
+            "requirement:4",
+            "requirement:40"
+          ]
+        },
+        {
+          "affected_count": 5,
+          "axis": "recognition",
+          "code": "occurrence_coverage_unresolved",
+          "denominator": 67,
+          "evidence_refs": [
+            "bosses:1",
+            "bosses:2",
+            "bosses:3",
+            "section_recesses:3",
+            "section_recesses:4"
+          ]
+        }
+      ],
+      "summary": "needs-attention: lint lint_failed (1/13); recognition attention_disposition (13/67); requirements requirement_not_satisfied (7/65); recognition occurrence_coverage_unresolved (5/67)"
+    },
+    "by_code": {
+      "annotation_ink_overlap": 1,
+      "feature_not_located": 1,
+      "hole_pattern_dim_dropped": 1,
+      "location_ref_dropped": 1,
+      "nominal_rounded": 1,
+      "plan_incomplete": 1,
+      "pmi_present_but_ignored": 1,
+      "prismatic_pocket_requirement_unsupported": 2,
+      "section_dropped": 1,
+      "section_recess_recognition_refused": 2,
+      "view_annotation_inside_extents": 1
+    },
+    "diagnostic_score": 0.35000000000000003,
+    "errors": 1,
+    "geometry_issues": 7,
+    "infos": 3,
+    "issues": [
+      {
+        "annotation_name": "m_steplen0",
+        "code": "annotation_ink_overlap",
+        "location": [
+          191.5094933440627,
+          184.24450190312498
+        ],
+        "message": "'482.6' draws 2.2 mm of line-work through the label '25.4' — the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
+        "related_annotation_names": [
+          "dim_height"
+        ],
+        "severity": "warning",
+        "suggestion": "# Try bounded shared-solver repair for axis-aligned dimension ink.\n# Pins and measurements are preserved; infeasible crossings remain visible.\ndwg.repair()\nissues = dwg.lint()"
+      },
+      {
+        "code": "view_annotation_inside_extents",
+        "location": null,
+        "message": "label of annotation '102.5°' lies inside view 'side' extents [x=266.5–378.3, y=182.9–279.4] over a blank region — legitimate for callouts on large faces",
+        "severity": "info"
+      },
+      {
+        "code": "nominal_rounded",
+        "location": null,
+        "message": "15 dimension(s) print a nominal the model does not have, rounded to the sheet's precision; the largest is '57.1' for 57.1500 (0.0500 mm). Within a general tolerance this is ordinary. Where a fit depends on it, raise that dimension's places with .format(decimals=...)",
+        "severity": "info"
+      },
+      {
+        "code": "feature_not_located",
+        "location": null,
+        "message": "3 hole(s) have no locating dimension",
+        "severity": "warning"
+      },
+      {
+        "code": "prismatic_pocket_requirement_unsupported",
+        "location": null,
+        "message": "recognised 20-sided blind prismatic recess 2.032 mm deep (1 of 2) is not represented by Draftwright dimensions: general pocket requires a rounded rectangular profile; review and define its manufacturing section outside automatic drawing approval",
+        "severity": "warning"
+      },
+      {
+        "code": "prismatic_pocket_requirement_unsupported",
+        "location": null,
+        "message": "recognised 12-sided blind prismatic recess 2.032 mm deep (2 of 2) is not represented by Draftwright dimensions: general pocket requires a rounded rectangular profile; review and define its manufacturing section outside automatic drawing approval",
+        "severity": "warning"
+      },
+      {
+        "code": "section_recess_recognition_refused",
+        "location": null,
+        "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+        "severity": "warning"
+      },
+      {
+        "code": "section_recess_recognition_refused",
+        "location": null,
+        "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+        "severity": "warning"
+      },
+      {
+        "code": "pmi_present_but_ignored",
+        "location": null,
+        "message": "AP242 PMI is present but ignored because PMI annotation is disabled by default (15 datum references, 28 dimensions, 10 geometric tolerances); use --pmi report to inspect it or --pmi annotate to place supported PMI",
+        "severity": "info"
+      },
+      {
+        "code": "hole_pattern_dim_dropped",
+        "location": null,
+        "message": "hole pattern pitch 35.8 not placed (no clear room beside the side)",
+        "severity": "warning"
+      },
+      {
+        "code": "location_ref_dropped",
+        "location": null,
+        "message": "2 X location dim(s) too closely spaced to dimension legibly (use a detail view)",
+        "severity": "warning"
+      },
+      {
+        "code": "section_dropped",
+        "location": null,
+        "message": "section A–A not placed (final cutting-plane ink crosses required feature leaders: m_flat_z2/section_line:segment:17)",
+        "outcome_stage": "validation",
+        "severity": "warning"
+      },
+      {
+        "code": "plan_incomplete",
+        "location": null,
+        "message": "the automatically planned sheet drops 2 required annotation outcome(s) (hole_pattern_dim_dropped, location_ref_dropped)",
+        "severity": "error"
+      }
+    ],
+    "passed": false,
+    "pmi": {
+      "by_category": {
+        "datum": 15,
+        "dimension": 28,
+        "geometric_tolerance": 10
+      },
+      "dropped": 0,
+      "extracted": 31,
+      "lowered": 0,
+      "mode": "off",
+      "rendered": 0,
+      "source": {
+        "name": "nist_ctc_05_asme1_ap242.stp",
+        "sha256": "59bbc09a34621c03106e4c1b2a5bc909fdb67463117c16c4965ee7a6fe5c1521"
+      },
+      "sources": 53
+    },
+    "quality": {
+      "completeness": {
+        "audited_families": [
+          "outer_profile_angles",
+          "section_recesses",
+          "angled_steps",
+          "blends",
+          "chamfers",
+          "channels",
+          "circular_blind_steps",
+          "fillets",
+          "paired_ramp_steps",
+          "flats",
+          "grooves",
+          "gusset_ribs",
+          "hole_patterns",
+          "holes",
+          "oriented_slots",
+          "passages",
+          "pads",
+          "plates",
+          "polygonal_bosses",
+          "polygonal_stock",
+          "pockets",
+          "pocket_patterns",
+          "prismatic_pockets",
+          "rectangular_blind_slots",
+          "round_bottom_blind_slots",
+          "slot_patterns",
+          "slots",
+          "through_steps",
+          "turned_steps"
+        ],
+        "audited_score": 0.8923076923076924,
+        "available": true,
+        "by_family": {
+          "blends": 10,
+          "chamfers": 2,
+          "channels": 0,
+          "circular_blind_steps": 0,
+          "fillets": 11,
+          "flats": 3,
+          "grooves": 0,
+          "gusset_ribs": 0,
+          "hole_patterns": 12,
+          "holes": 16,
+          "oriented_slots": 0,
+          "outer_profile_angles": 1,
+          "pads": 0,
+          "paired_ramp_steps": 0,
+          "plates": 0,
+          "pocket_patterns": 0,
+          "pockets": 0,
+          "polygonal_bosses": 0,
+          "polygonal_stock": 0,
+          "rectangular_blind_slots": 0,
+          "round_bottom_blind_slots": 0,
+          "section_recesses": 4,
+          "slot_patterns": 0,
+          "slots": 0,
+          "through_steps": 0,
+          "turned_steps": 6
+        },
+        "coverage": "partial",
+        "denominator": "recognition",
+        "dropped": 3,
+        "excludes": [
+          "physical geometry that recognition did not identify",
+          "recognized families without a semantic outcome ledger"
+        ],
+        "inapplicable": 0,
+        "known_requirement_count": 65,
+        "missing": 0,
+        "placed": 58,
+        "reason": "audited_score covers recognized requirements in audited families only; it is not evidence that the drawing is complete",
+        "requirements": 65,
+        "satisfied_by_structured_note": 0,
+        "scope": "audited_recognized_requirements",
+        "suppressed": 0,
+        "unknown_cardinality": [],
+        "unknown_cardinality_rows": 0,
+        "unrecognised_geometry_reports": 0,
+        "unscored_recognized_families": [
+          "bosses"
+        ],
+        "unsupported": 4,
+        "unverifiable": 0
+      },
+      "fidelity": {
+        "affected_pairs": 0,
+        "available": true,
+        "basis": "drawn_assertion_contradicted_by_its_source",
+        "by_code": {},
+        "errors": 0,
+        "infos": 0,
+        "placement_drops": 0,
+        "primary_by_code": {},
+        "primary_errors": 0,
+        "primary_infos": 0,
+        "primary_issues": 0,
+        "primary_warnings": 0,
+        "raw_issues": 0,
+        "score": 1.0,
+        "score_inventory": "primary_issues",
+        "warnings": 0
+      },
+      "legibility": {
+        "affected_pairs": 1,
+        "available": true,
+        "basis": "layout_issue_severity_with_info_floor",
+        "by_code": {
+          "annotation_ink_overlap": 1,
+          "hole_pattern_dim_dropped": 1,
+          "location_ref_dropped": 1,
+          "view_annotation_inside_extents": 1
+        },
+        "errors": 0,
+        "infos": 1,
+        "placement_drops": 2,
+        "primary_by_code": {
+          "annotation_ink_overlap": 1,
+          "hole_pattern_dim_dropped": 1,
+          "location_ref_dropped": 1,
+          "view_annotation_inside_extents": 1
+        },
+        "primary_errors": 0,
+        "primary_infos": 1,
+        "primary_issues": 4,
+        "primary_warnings": 3,
+        "raw_issues": 4,
+        "score": 0.8,
+        "score_inventory": "primary_issues",
+        "warnings": 3
+      },
+      "restraint": {
+        "available": false,
+        "reason": "measurement provenance and physical requirement equivalence are incomplete",
+        "score": null
+      },
+      "unscored": {
+        "available": true,
+        "by_code": {
+          "feature_not_located": 1,
+          "nominal_rounded": 1,
+          "plan_incomplete": 1,
+          "pmi_present_but_ignored": 1,
+          "prismatic_pocket_requirement_unsupported": 2,
+          "section_dropped": 1,
+          "section_recess_recognition_refused": 2
+        },
+        "issues": 9,
+        "reason": "reported by lint and deliberately scored on no quality component",
+        "score": null,
+        "unclassified": []
+      }
+    },
+    "review": {
+      "coverage": "Of 65 audited recognized requirements: 58 placed, 0 satisfied by structured note, 0 suppressed, 3 dropped, 0 missing, 0 unverifiable, 4 unsupported. This is partial coverage; see quality.completeness for excluded evidence.",
+      "fidelity": "0 findings in the checks performed (score 1); absence of findings is not proof beyond those checks.",
+      "legibility": "4 findings in the checks performed (score 0.8); absence of findings is not proof beyond those checks.",
+      "manufacturing_intent": "Not assessed: material, process, finish, thread, fit and tolerance intent require author input. Free text does not establish requirement coverage.",
+      "summary": "1 errors, 9 warnings. passed=false; passed is true only with no error-severity findings. diagnostic_score=0.35 is the legacy severity penalty, not a drawing-quality or completeness score."
+    },
+    "score": 0.35000000000000003,
+    "warnings": 9
+  },
+  "outputs": {},
+  "producer": {
+    "draftwright": "0.4.32",
+    "quiddity": "0.3.3"
+  },
+  "recognition": {
+    "coverage": "accepted-occurrences-and-profile-requirements",
+    "identity_scope": "report-local",
+    "occurrences": [
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:1",
+        "owners": [
+          {
+            "id": "hole:1",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 7.9375,
+          "location": [
+            -234.95,
+            0.0,
+            45.72
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:37",
+            "requirement:38",
+            "requirement:39",
+            "requirement:40",
+            "requirement:41"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:2",
+        "owners": [
+          {
+            "id": "hole:1",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 7.9375,
+          "location": [
+            -203.2,
+            0.0,
+            45.72
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:37",
+            "requirement:38",
+            "requirement:39",
+            "requirement:40",
+            "requirement:41"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:3",
+        "owners": [
+          {
+            "id": "hole:1",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 7.9375,
+          "location": [
+            203.2,
+            0.0,
+            45.72
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:37",
+            "requirement:38",
+            "requirement:39",
+            "requirement:40",
+            "requirement:41"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:4",
+        "owners": [
+          {
+            "id": "hole:1",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 7.9375,
+          "location": [
+            234.95,
+            0.0,
+            45.72
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:37",
+            "requirement:38",
+            "requirement:39",
+            "requirement:40",
+            "requirement:41"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "holes",
+        "id": "holes:5",
+        "owners": [
+          {
+            "id": "hole:2",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "hole_adapter",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bottom": "flat",
+          "cbore": null,
+          "csink": null,
+          "depth": 92.07,
+          "diameter": 254.0,
+          "location": [
+            0.0,
+            0.0,
+            9.525
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:42",
+            "requirement:43",
+            "requirement:44",
+            "requirement:45"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:6",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            -192.47414599,
+            -111.125,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:7",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            -192.47414599,
+            111.125,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:8",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            -111.1127812,
+            -192.4812,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:9",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            -111.1127812,
+            192.4812,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:10",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            0.0,
+            -222.25,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:11",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            0.0,
+            222.25,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:12",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            111.1127812,
+            192.4812,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:13",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            111.1127812,
+            -192.4812,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:14",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            192.47414599,
+            -111.125,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:15",
+        "owners": [
+          {
+            "id": "hole:3",
+            "kind": "hole"
+          }
+        ],
+        "reason_code": "grouped_hole_member",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bottom": "through",
+          "cbore": {
+            "depth": 12.7,
+            "diameter": 38.1
+          },
+          "csink": null,
+          "depth": 12.7,
+          "diameter": 19.05,
+          "location": [
+            192.47414599,
+            111.125,
+            25.4
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:46",
+            "requirement:47",
+            "requirement:48",
+            "requirement:49",
+            "requirement:50",
+            "requirement:51",
+            "requirement:52"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:16",
+        "owners": [
+          {
+            "id": "pattern:1",
+            "kind": "pattern"
+          }
+        ],
+        "reason_code": "hole_pattern_member",
+        "record": {
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 10.7163,
+          "location": [
+            -88.9,
+            -48.710972582,
+            171.45
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:53",
+            "requirement:54",
+            "requirement:55",
+            "requirement:56",
+            "requirement:57",
+            "requirement:58"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:17",
+        "owners": [
+          {
+            "id": "pattern:2",
+            "kind": "pattern"
+          }
+        ],
+        "reason_code": "hole_pattern_member",
+        "record": {
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 10.7163,
+          "location": [
+            88.9,
+            -48.710972582,
+            171.45
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:59",
+            "requirement:60",
+            "requirement:61",
+            "requirement:62",
+            "requirement:63",
+            "requirement:64"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:18",
+        "owners": [
+          {
+            "id": "pattern:1",
+            "kind": "pattern"
+          }
+        ],
+        "reason_code": "hole_pattern_member",
+        "record": {
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 10.7163,
+          "location": [
+            -88.9,
+            -40.968286489,
+            206.375
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:53",
+            "requirement:54",
+            "requirement:55",
+            "requirement:56",
+            "requirement:57",
+            "requirement:58"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:19",
+        "owners": [
+          {
+            "id": "pattern:2",
+            "kind": "pattern"
+          }
+        ],
+        "reason_code": "hole_pattern_member",
+        "record": {
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 10.7163,
+          "location": [
+            88.9,
+            -40.968286489,
+            206.375
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:59",
+            "requirement:60",
+            "requirement:61",
+            "requirement:62",
+            "requirement:63",
+            "requirement:64"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:20",
+        "owners": [
+          {
+            "id": "pattern:1",
+            "kind": "pattern"
+          }
+        ],
+        "reason_code": "hole_pattern_member",
+        "record": {
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 10.7163,
+          "location": [
+            -88.9,
+            -33.225600396,
+            241.3
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:53",
+            "requirement:54",
+            "requirement:55",
+            "requirement:56",
+            "requirement:57",
+            "requirement:58"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "holes",
+        "id": "holes:21",
+        "owners": [
+          {
+            "id": "pattern:2",
+            "kind": "pattern"
+          }
+        ],
+        "reason_code": "hole_pattern_member",
+        "record": {
+          "axis": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "bottom": "drill_point",
+          "cbore": null,
+          "csink": null,
+          "depth": 30.48,
+          "diameter": 10.7163,
+          "location": [
+            88.9,
+            -33.225600396,
+            241.3
+          ],
+          "spotface": null
+        },
+        "record_schema_version": 1,
+        "record_type": "HoleRecord",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:59",
+            "requirement:60",
+            "requirement:61",
+            "requirement:62",
+            "requirement:63",
+            "requirement:64"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "absorbed",
+        "family": "bosses",
+        "id": "bosses:1",
+        "owners": [
+          {
+            "id": "step:1",
+            "kind": "step"
+          }
+        ],
+        "reason_code": "boss_turned_step_owner",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "diameter": 558.8,
+          "height": 25.4,
+          "location": [
+            0.0,
+            0.0,
+            25.4
+          ]
+        },
+        "record_schema_version": 1,
+        "record_type": "BossRecord",
+        "requirements": {
+          "coverage": "not-projected",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "bosses",
+        "id": "bosses:2",
+        "owners": [
+          {
+            "id": "boss:1",
+            "kind": "boss"
+          }
+        ],
+        "reason_code": "boss_adapter",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "diameter": 304.8,
+          "height": 88.9,
+          "location": [
+            0.0,
+            0.0,
+            120.65
+          ]
+        },
+        "record_schema_version": 1,
+        "record_type": "BossRecord",
+        "requirements": {
+          "coverage": "not-projected",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "bosses",
+        "id": "bosses:3",
+        "owners": [
+          {
+            "id": "boss:2",
+            "kind": "boss"
+          }
+        ],
+        "reason_code": "boss_adapter",
+        "record": {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "diameter": 63.5,
+          "height": 190.5,
+          "location": [
+            0.0,
+            0.0,
+            476.25
+          ]
+        },
+        "record_schema_version": 1,
+        "record_type": "BossRecord",
+        "requirements": {
+          "coverage": "not-projected",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "flats",
+        "id": "flats:1",
+        "owners": [
+          {
+            "id": "flat:1",
+            "kind": "flat"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "across": 403.86,
+          "at": [
+            -199.469,
+            -0.0,
+            54.61
+          ],
+          "axis": "x",
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "axis_line": [
+            0.0,
+            -146.05
+          ],
+          "stock_span": [
+            -263.525,
+            -141.467
+          ]
+        },
+        "record_schema_version": 1,
+        "record_type": "Flat",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:34"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "flats",
+        "id": "flats:2",
+        "owners": [
+          {
+            "id": "flat:2",
+            "kind": "flat"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "across": 403.86,
+          "at": [
+            199.469,
+            0.0,
+            54.61
+          ],
+          "axis": "x",
+          "axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "axis_line": [
+            0.0,
+            -146.05
+          ],
+          "stock_span": [
+            141.467,
+            263.525
+          ]
+        },
+        "record_schema_version": 1,
+        "record_type": "Flat",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:35"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "flats",
+        "id": "flats:3",
+        "owners": [
+          {
+            "id": "flat:3",
+            "kind": "flat"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "across": 527.05,
+          "at": [
+            -263.525,
+            -0.0,
+            23.302
+          ],
+          "axis": "z",
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "axis_line": [
+            0.0,
+            0.0
+          ],
+          "stock_span": [
+            0.0,
+            25.4
+          ]
+        },
+        "record_schema_version": 1,
+        "record_type": "Flat",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:36"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "flats",
+        "id": "flats:4",
+        "owners": [
+          {
+            "id": "flat:4",
+            "kind": "flat"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "across": 527.05,
+          "at": [
+            263.525,
+            0.0,
+            23.302
+          ],
+          "axis": "z",
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "axis_line": [
+            0.0,
+            0.0
+          ],
+          "stock_span": [
+            0.0,
+            25.4
+          ]
+        },
+        "record_schema_version": 1,
+        "record_type": "Flat",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:36"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "turned_steps",
+        "id": "turned_steps:1",
+        "owners": [
+          {
+            "id": "step:1",
+            "kind": "step"
+          }
+        ],
+        "reason_code": "turned_step_adapter",
+        "record": {
+          "axis": "z",
+          "diameter": 558.8,
+          "hi": 25.4,
+          "lo": 0.0,
+          "profile": {
+            "axis": "z",
+            "axis_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "body_bounds": [
+              -263.5250001,
+              263.5250001,
+              -279.4,
+              279.4,
+              -1e-07,
+              482.6000001
+            ],
+            "body_key": [
+              -263.525,
+              -279.4,
+              0.0,
+              263.525,
+              279.4,
+              482.6,
+              12694917.7154,
+              861243.35075
+            ]
+          }
+        },
+        "record_schema_version": 2,
+        "record_type": "TurnedStep",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:28",
+            "requirement:29"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "turned_steps",
+        "id": "turned_steps:2",
+        "owners": [
+          {
+            "id": "step:2",
+            "kind": "step"
+          }
+        ],
+        "reason_code": "turned_step_adapter",
+        "record": {
+          "axis": "z",
+          "diameter": 304.8,
+          "hi": 127.0,
+          "lo": 25.4,
+          "profile": {
+            "axis": "z",
+            "axis_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "body_bounds": [
+              -263.5250001,
+              263.5250001,
+              -279.4,
+              279.4,
+              -1e-07,
+              482.6000001
+            ],
+            "body_key": [
+              -263.525,
+              -279.4,
+              0.0,
+              263.525,
+              279.4,
+              482.6,
+              12694917.7154,
+              861243.35075
+            ]
+          }
+        },
+        "record_schema_version": 2,
+        "record_type": "TurnedStep",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:30",
+            "requirement:31"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "turned_steps",
+        "id": "turned_steps:3",
+        "owners": [
+          {
+            "id": "step:3",
+            "kind": "step"
+          }
+        ],
+        "reason_code": "turned_step_adapter",
+        "record": {
+          "axis": "z",
+          "diameter": 63.5,
+          "hi": 482.6,
+          "lo": 279.4,
+          "profile": {
+            "axis": "z",
+            "axis_origin": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "body_bounds": [
+              -263.5250001,
+              263.5250001,
+              -279.4,
+              279.4,
+              -1e-07,
+              482.6000001
+            ],
+            "body_key": [
+              -263.525,
+              -279.4,
+              0.0,
+              263.525,
+              279.4,
+              482.6,
+              12694917.7154,
+              861243.35075
+            ]
+          }
+        },
+        "record_schema_version": 2,
+        "record_type": "TurnedStep",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:32",
+            "requirement:33"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "evidence_only",
+        "family": "step_levels",
+        "id": "step_levels:1",
+        "owners": [],
+        "reason_code": "step_level_projection_evidence",
+        "record": {
+          "body_key": [
+            -263.525,
+            -279.4,
+            0.0,
+            263.525,
+            279.4,
+            482.6,
+            12694917.7154,
+            861243.35075
+          ],
+          "x_span": [
+            -211.52414599109153,
+            211.52414599109153
+          ],
+          "y_span": [
+            -241.3,
+            241.3
+          ],
+          "z": 12.7
+        },
+        "record_schema_version": 2,
+        "record_type": "FaceLevel",
+        "requirements": {
+          "coverage": "not-applicable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "evidence_only",
+        "family": "step_levels",
+        "id": "step_levels:2",
+        "owners": [],
+        "reason_code": "step_level_projection_evidence",
+        "record": {
+          "body_key": [
+            -263.525,
+            -279.4,
+            0.0,
+            263.525,
+            279.4,
+            482.6,
+            12694917.7154,
+            861243.35075
+          ],
+          "x_span": [
+            -263.5250000000001,
+            263.52500000000003
+          ],
+          "y_span": [
+            -279.4,
+            279.4
+          ],
+          "z": 25.4
+        },
+        "record_schema_version": 2,
+        "record_type": "FaceLevel",
+        "requirements": {
+          "coverage": "not-applicable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "evidence_only",
+        "family": "step_levels",
+        "id": "step_levels:3",
+        "owners": [],
+        "reason_code": "step_level_projection_evidence",
+        "record": {
+          "body_key": [
+            -263.525,
+            -279.4,
+            0.0,
+            263.525,
+            279.4,
+            482.6,
+            12694917.7154,
+            861243.35075
+          ],
+          "x_span": [
+            -263.525,
+            263.525
+          ],
+          "y_span": [
+            -19.049999999999997,
+            19.050000000000008
+          ],
+          "z": 45.72
+        },
+        "record_schema_version": 2,
+        "record_type": "FaceLevel",
+        "requirements": {
+          "coverage": "not-applicable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "evidence_only",
+        "family": "step_levels",
+        "id": "step_levels:4",
+        "owners": [],
+        "reason_code": "step_level_projection_evidence",
+        "record": {
+          "body_key": [
+            -263.525,
+            -279.4,
+            0.0,
+            263.525,
+            279.4,
+            482.6,
+            12694917.7154,
+            861243.35075
+          ],
+          "x_span": [
+            -263.525,
+            263.525
+          ],
+          "y_span": [
+            -32.028181340813,
+            32.028181340813035
+          ],
+          "z": 54.60999999999999
+        },
+        "record_schema_version": 2,
+        "record_type": "FaceLevel",
+        "requirements": {
+          "coverage": "not-applicable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "evidence_only",
+        "family": "step_levels",
+        "id": "step_levels:5",
+        "owners": [],
+        "reason_code": "step_level_projection_evidence",
+        "record": {
+          "body_key": [
+            -263.525,
+            -279.4,
+            0.0,
+            263.525,
+            279.4,
+            482.6,
+            12694917.7154,
+            861243.35075
+          ],
+          "x_span": [
+            -127.0,
+            127.0
+          ],
+          "y_span": [
+            -127.0,
+            127.0
+          ],
+          "z": 101.6
+        },
+        "record_schema_version": 2,
+        "record_type": "FaceLevel",
+        "requirements": {
+          "coverage": "not-applicable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "evidence_only",
+        "family": "step_levels",
+        "id": "step_levels:6",
+        "owners": [],
+        "reason_code": "step_level_projection_evidence",
+        "record": {
+          "body_key": [
+            -263.525,
+            -279.4,
+            0.0,
+            263.525,
+            279.4,
+            482.6,
+            12694917.7154,
+            861243.35075
+          ],
+          "x_span": [
+            -146.04999999999998,
+            146.04999999999998
+          ],
+          "y_span": [
+            -146.04999999999998,
+            146.04999999999998
+          ],
+          "z": 127.0
+        },
+        "record_schema_version": 2,
+        "record_type": "FaceLevel",
+        "requirements": {
+          "coverage": "not-applicable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "evidence_only",
+        "family": "step_levels",
+        "id": "step_levels:7",
+        "owners": [],
+        "reason_code": "step_level_projection_evidence",
+        "record": {
+          "body_key": [
+            -263.525,
+            -279.4,
+            0.0,
+            263.525,
+            279.4,
+            482.6,
+            12694917.7154,
+            861243.35075
+          ],
+          "x_span": [
+            -88.9,
+            88.89999999999999
+          ],
+          "y_span": [
+            -50.795733413215984,
+            76.2
+          ],
+          "z": 279.4
+        },
+        "record_schema_version": 2,
+        "record_type": "FaceLevel",
+        "requirements": {
+          "coverage": "not-applicable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "chamfers",
+        "id": "chamfers:1",
+        "owners": [
+          {
+            "id": "chamfer:1",
+            "kind": "chamfer"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "angle": 45.0,
+          "at": [
+            -149.225,
+            -0.0,
+            123.825
+          ],
+          "axis": "z",
+          "corner": null,
+          "leg1": 6.35,
+          "leg2": 6.35,
+          "turned": true
+        },
+        "record_schema_version": 3,
+        "record_type": "Chamfer",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:5"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "chamfers",
+        "id": "chamfers:2",
+        "owners": [
+          {
+            "id": "chamfer:2",
+            "kind": "chamfer"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "angle": 45.0,
+          "at": [
+            -28.575,
+            -0.0,
+            479.425
+          ],
+          "axis": "z",
+          "corner": null,
+          "leg1": 6.35,
+          "leg2": 6.35,
+          "turned": true
+        },
+        "record_schema_version": 3,
+        "record_type": "Chamfer",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:6"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:1",
+        "owners": [
+          {
+            "id": "blend:1",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              -95.25,
+              -57.154,
+              133.35
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "radius": 6.35,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:7"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:2",
+        "owners": [
+          {
+            "id": "blend:2",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              -78.226,
+              -24.637,
+              133.35
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "radius": 6.35,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:8"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:3",
+        "owners": [
+          {
+            "id": "blend:3",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              -69.85,
+              15.898,
+              133.35
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "radius": 6.35,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:9"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:4",
+        "owners": [
+          {
+            "id": "blend:4",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              -0.0,
+              -89.678,
+              133.35
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "radius": 6.35,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:10"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:5",
+        "owners": [
+          {
+            "id": "blend:5",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              62.484,
+              35.946,
+              240.723
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "radius": 4.196,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:11"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:6",
+        "owners": [
+          {
+            "id": "blend:6",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              62.484,
+              42.993,
+              263.058
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "radius": 0.54,
+          "side": "convex"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:12"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:7",
+        "owners": [
+          {
+            "id": "blend:7",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              62.484,
+              43.912,
+              263.439
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "radius": 3.261,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:13"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:8",
+        "owners": [
+          {
+            "id": "blend:8",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              69.85,
+              15.898,
+              133.35
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "radius": 6.35,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:14"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:9",
+        "owners": [
+          {
+            "id": "blend:9",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              78.226,
+              -24.637,
+              133.35
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "radius": 6.35,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:15"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "blends",
+        "id": "blends:10",
+        "owners": [
+          {
+            "id": "blend:10",
+            "kind": "blend"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "path": {
+            "at": [
+              95.25,
+              -57.154,
+              133.35
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "radius": 6.35,
+          "side": "concave"
+        },
+        "record_schema_version": 3,
+        "record_type": "Blend",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:16"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:1",
+        "owners": [
+          {
+            "id": "fillet:1",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            -202.496,
+            -51.166,
+            50.603
+          ],
+          "axis": "x",
+          "radius": 203.2,
+          "side": "convex",
+          "turned": false
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:17"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:2",
+        "owners": [
+          {
+            "id": "fillet:2",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            -202.496,
+            51.166,
+            50.603
+          ],
+          "axis": "x",
+          "radius": 203.2,
+          "side": "convex",
+          "turned": false
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:18"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:3",
+        "owners": [
+          {
+            "id": "fillet:3",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            62.484,
+            35.173,
+            241.467
+          ],
+          "axis": "x",
+          "radius": 1.093,
+          "side": "convex",
+          "turned": false
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:19"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:4",
+        "owners": [
+          {
+            "id": "fillet:4",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            202.496,
+            -51.166,
+            50.603
+          ],
+          "axis": "x",
+          "radius": 203.2,
+          "side": "convex",
+          "turned": false
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:20"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:5",
+        "owners": [
+          {
+            "id": "fillet:5",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            202.496,
+            51.166,
+            50.603
+          ],
+          "axis": "x",
+          "radius": 203.2,
+          "side": "convex",
+          "turned": false
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:21"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:6",
+        "owners": [
+          {
+            "id": "fillet:6",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            -154.26,
+            0.0,
+            56.47
+          ],
+          "axis": "z",
+          "radius": 6.35,
+          "side": "convex",
+          "turned": true
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:22"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:7",
+        "owners": [
+          {
+            "id": "fillet:7",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            -33.61,
+            0.0,
+            281.26
+          ],
+          "axis": "z",
+          "radius": 6.35,
+          "side": "convex",
+          "turned": true
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:23"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:8",
+        "owners": [
+          {
+            "id": "fillet:8",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            0.0,
+            -154.26,
+            27.26
+          ],
+          "axis": "z",
+          "radius": 6.35,
+          "side": "convex",
+          "turned": true
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:24"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:9",
+        "owners": [
+          {
+            "id": "fillet:9",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            0.0,
+            78.06,
+            128.86
+          ],
+          "axis": "z",
+          "radius": 6.35,
+          "side": "convex",
+          "turned": true
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:25"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:10",
+        "owners": [
+          {
+            "id": "fillet:10",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            0.0,
+            154.26,
+            27.26
+          ],
+          "axis": "z",
+          "radius": 6.35,
+          "side": "convex",
+          "turned": true
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:26"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "represented",
+        "family": "fillets",
+        "id": "fillets:11",
+        "owners": [
+          {
+            "id": "fillet:11",
+            "kind": "fillet"
+          }
+        ],
+        "reason_code": "direct_adapter",
+        "record": {
+          "at": [
+            154.26,
+            0.0,
+            56.47
+          ],
+          "axis": "z",
+          "radius": 6.35,
+          "side": "convex",
+          "turned": true
+        },
+        "record_schema_version": 3,
+        "record_type": "Fillet",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:27"
+          ]
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "unsupported",
+        "family": "section_recesses",
+        "id": "section_recesses:1",
+        "owners": [],
+        "reason_code": "consumer_semantics_unsupported",
+        "record": {
+          "body": 0,
+          "classification": {
+            "feature_kind": "pocket",
+            "section_shape": "general"
+          },
+          "evidence": {
+            "constituent_faces": [
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142
+            ],
+            "defining_faces": [
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141
+            ]
+          },
+          "geometry": {
+            "ends": {
+              "high": {
+                "condition": "open",
+                "surface": {
+                  "gradient": [
+                    0.0,
+                    0.0
+                  ],
+                  "type": "plane"
+                }
+              },
+              "low": {
+                "condition": "capped",
+                "surface": {
+                  "gradient": [
+                    0.0,
+                    0.0
+                  ],
+                  "type": "plane"
+                }
+              }
+            },
+            "frame": {
+              "origin": [
+                0.0,
+                39.782,
+                229.342
+              ],
+              "run": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "u": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "v": [
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "profile": {
+              "boundary": [
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -8.032,
+                    -13.1
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    3.807,
+                    -13.1
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    3.807,
+                    -19.509
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    6.968,
+                    -19.509
+                  ]
+                },
+                {
+                  "bulge": 1.038592228113,
+                  "point": [
+                    6.968,
+                    6.094
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -2.113,
+                    5.75
+                  ]
+                },
+                {
+                  "bulge": -0.898212774164,
+                  "point": [
+                    -2.113,
+                    -3.302
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -4.929,
+                    -3.359
+                  ]
+                },
+                {
+                  "bulge": -0.414213562373,
+                  "point": [
+                    -4.929,
+                    11.352
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -3.837,
+                    12.445
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    6.968,
+                    12.445
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    6.968,
+                    15.577
+                  ]
+                },
+                {
+                  "bulge": 0.414213562373,
+                  "point": [
+                    -3.837,
+                    15.577
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -8.032,
+                    11.381
+                  ]
+                },
+                {
+                  "bulge": 0.85335558379,
+                  "point": [
+                    -8.032,
+                    -3.819
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    0.991,
+                    -3.819
+                  ]
+                },
+                {
+                  "bulge": -1.041664453279,
+                  "point": [
+                    0.991,
+                    5.807
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    3.807,
+                    5.692
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    3.807,
+                    -9.998
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -8.032,
+                    -9.998
+                  ]
+                }
+              ],
+              "closure": "closed"
+            },
+            "run_interval": [
+              61.468,
+              63.5
+            ],
+            "type": "section_recess"
+          },
+          "index": 0
+        },
+        "record_schema_version": 3,
+        "record_type": "SectionRecess",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:1"
+          ]
+        },
+        "tracking": "https://github.com/pzfreo/draftwright/issues/1471"
+      },
+      {
+        "disposition": "unsupported",
+        "family": "section_recesses",
+        "id": "section_recesses:2",
+        "owners": [],
+        "reason_code": "consumer_semantics_unsupported",
+        "record": {
+          "body": 0,
+          "classification": {
+            "feature_kind": "pocket",
+            "section_shape": "general"
+          },
+          "evidence": {
+            "constituent_faces": [
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155
+            ],
+            "defining_faces": [
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154
+            ]
+          },
+          "geometry": {
+            "ends": {
+              "high": {
+                "condition": "open",
+                "surface": {
+                  "gradient": [
+                    0.0,
+                    0.0
+                  ],
+                  "type": "plane"
+                }
+              },
+              "low": {
+                "condition": "capped",
+                "surface": {
+                  "gradient": [
+                    0.0,
+                    0.0
+                  ],
+                  "type": "plane"
+                }
+              }
+            },
+            "frame": {
+              "origin": [
+                0.0,
+                39.377,
+                256.922
+              ],
+              "run": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "u": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "v": [
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            "profile": {
+              "boundary": [
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -7.627,
+                    6.676
+                  ]
+                },
+                {
+                  "bulge": -0.683329299323,
+                  "point": [
+                    3.617,
+                    6.676
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    3.982,
+                    5.738
+                  ]
+                },
+                {
+                  "bulge": 0.708879398905,
+                  "point": [
+                    -6.307,
+                    -3.729
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -4.11,
+                    -9.992
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    7.373,
+                    -9.992
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    7.373,
+                    -6.86
+                  ]
+                },
+                {
+                  "bulge": -0.713547793515,
+                  "point": [
+                    -4.035,
+                    -6.86
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -4.351,
+                    -6.142
+                  ]
+                },
+                {
+                  "bulge": 0.68240722844,
+                  "point": [
+                    6.749,
+                    4.123
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    4.535,
+                    9.778
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -7.627,
+                    9.778
+                  ]
+                }
+              ],
+              "closure": "closed"
+            },
+            "run_interval": [
+              61.468,
+              63.5
+            ],
+            "type": "section_recess"
+          },
+          "index": 1
+        },
+        "record_schema_version": 3,
+        "record_type": "SectionRecess",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:2"
+          ]
+        },
+        "tracking": "https://github.com/pzfreo/draftwright/issues/1471"
+      },
+      {
+        "disposition": "unexpectedly_missing",
+        "family": "section_recesses",
+        "id": "section_recesses:3",
+        "owners": [],
+        "reason_code": "supported_owner_missing",
+        "record": {
+          "body": 0,
+          "classification": {
+            "feature_kind": "channel",
+            "section_shape": "rectangular"
+          },
+          "evidence": {
+            "constituent_faces": [
+              128,
+              134,
+              142
+            ],
+            "defining_faces": [
+              128,
+              134
+            ]
+          },
+          "geometry": {
+            "ends": {
+              "high": {
+                "condition": "open",
+                "surface": {
+                  "gradient": [
+                    0.0,
+                    0.0
+                  ],
+                  "type": "plane"
+                }
+              },
+              "low": {
+                "condition": "open",
+                "surface": {
+                  "gradient": [
+                    0.0,
+                    0.0
+                  ],
+                  "type": "plane"
+                }
+              }
+            },
+            "frame": {
+              "origin": [
+                62.484,
+                33.302,
+                0.0
+              ],
+              "run": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "u": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "v": [
+                0.0,
+                1.0,
+                0.0
+              ]
+            },
+            "profile": {
+              "boundary": [
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    1.016,
+                    -1.5516
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -1.016,
+                    -1.5516
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -1.016,
+                    1.5516
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    1.016,
+                    1.5516
+                  ]
+                }
+              ],
+              "closure": "open",
+              "material_side": "left",
+              "opening": [
+                [
+                  1.016,
+                  1.5516
+                ],
+                [
+                  1.016,
+                  -1.5516
+                ]
+              ]
+            },
+            "run_interval": [
+              225.983,
+              240.694
+            ],
+            "type": "section_recess"
+          },
+          "index": 2
+        },
+        "record_schema_version": 3,
+        "record_type": "SectionRecess",
+        "requirements": {
+          "coverage": "unavailable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "unexpectedly_missing",
+        "family": "section_recesses",
+        "id": "section_recesses:4",
+        "owners": [],
+        "reason_code": "supported_owner_missing",
+        "record": {
+          "body": 0,
+          "classification": {
+            "feature_kind": "channel",
+            "section_shape": "rectangular"
+          },
+          "evidence": {
+            "constituent_faces": [
+              126,
+              136,
+              142
+            ],
+            "defining_faces": [
+              126,
+              136
+            ]
+          },
+          "geometry": {
+            "ends": {
+              "high": {
+                "condition": "open",
+                "surface": {
+                  "gradient": [
+                    0.0,
+                    0.0
+                  ],
+                  "type": "plane"
+                }
+              },
+              "low": {
+                "condition": "open",
+                "surface": {
+                  "gradient": [
+                    0.0,
+                    0.0
+                  ],
+                  "type": "plane"
+                }
+              }
+            },
+            "frame": {
+              "origin": [
+                62.484,
+                39.221,
+                0.0
+              ],
+              "run": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "u": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "v": [
+                0.0,
+                1.0,
+                0.0
+              ]
+            },
+            "profile": {
+              "boundary": [
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    1.016,
+                    -1.5516
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -1.016,
+                    -1.5516
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    -1.016,
+                    1.5517
+                  ]
+                },
+                {
+                  "bulge": 0.0,
+                  "point": [
+                    1.016,
+                    1.5517
+                  ]
+                }
+              ],
+              "closure": "open",
+              "material_side": "left",
+              "opening": [
+                [
+                  1.016,
+                  1.5517
+                ],
+                [
+                  1.016,
+                  -1.5516
+                ]
+              ]
+            },
+            "run_interval": [
+              226.04,
+              235.092
+            ],
+            "type": "section_recess"
+          },
+          "index": 3
+        },
+        "record_schema_version": 3,
+        "record_type": "SectionRecess",
+        "requirements": {
+          "coverage": "unavailable",
+          "ids": []
+        },
+        "tracking": null
+      },
+      {
+        "disposition": "unsupported",
+        "family": "section_recesses",
+        "id": "section_recesses:5",
+        "owners": [],
+        "reason_code": "recognition_refused",
+        "record": {
+          "body": 0,
+          "evidence": {
+            "constituent_faces": [
+              21,
+              22,
+              23
+            ],
+            "defining_faces": [
+              21,
+              22
+            ]
+          },
+          "reason": "unsupported_support_geometry"
+        },
+        "record_schema_version": 1,
+        "record_type": "SectionRecessRefusal",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:3"
+          ]
+        },
+        "tracking": "https://github.com/pzfreo/draftwright/issues/1471"
+      },
+      {
+        "disposition": "unsupported",
+        "family": "section_recesses",
+        "id": "section_recesses:6",
+        "owners": [],
+        "reason_code": "recognition_refused",
+        "record": {
+          "body": 0,
+          "evidence": {
+            "constituent_faces": [
+              25,
+              26,
+              27
+            ],
+            "defining_faces": [
+              25,
+              26
+            ]
+          },
+          "reason": "unsupported_support_geometry"
+        },
+        "record_schema_version": 1,
+        "record_type": "SectionRecessRefusal",
+        "requirements": {
+          "coverage": "ledger",
+          "ids": [
+            "requirement:4"
+          ]
+        },
+        "tracking": "https://github.com/pzfreo/draftwright/issues/1471"
+      }
+    ],
+    "owners": [
+      {
+        "id": "pattern:1",
+        "kind": "pattern"
+      },
+      {
+        "id": "pattern:2",
+        "kind": "pattern"
+      },
+      {
+        "id": "hole:1",
+        "kind": "hole"
+      },
+      {
+        "id": "hole:2",
+        "kind": "hole"
+      },
+      {
+        "id": "hole:3",
+        "kind": "hole"
+      },
+      {
+        "id": "step:1",
+        "kind": "step"
+      },
+      {
+        "id": "step:2",
+        "kind": "step"
+      },
+      {
+        "id": "step:3",
+        "kind": "step"
+      },
+      {
+        "id": "boss:1",
+        "kind": "boss"
+      },
+      {
+        "id": "boss:2",
+        "kind": "boss"
+      },
+      {
+        "id": "chamfer:1",
+        "kind": "chamfer"
+      },
+      {
+        "id": "chamfer:2",
+        "kind": "chamfer"
+      },
+      {
+        "id": "fillet:1",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:2",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:3",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:4",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:5",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:6",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:7",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:8",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:9",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:10",
+        "kind": "fillet"
+      },
+      {
+        "id": "fillet:11",
+        "kind": "fillet"
+      },
+      {
+        "id": "blend:1",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:2",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:3",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:4",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:5",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:6",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:7",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:8",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:9",
+        "kind": "blend"
+      },
+      {
+        "id": "blend:10",
+        "kind": "blend"
+      },
+      {
+        "id": "flat:1",
+        "kind": "flat"
+      },
+      {
+        "id": "flat:2",
+        "kind": "flat"
+      },
+      {
+        "id": "flat:3",
+        "kind": "flat"
+      },
+      {
+        "id": "flat:4",
+        "kind": "flat"
+      },
+      {
+        "id": "angle:1",
+        "kind": "angle"
+      }
+    ],
+    "requirements": [
+      {
+        "annotations": [],
+        "family": "section_recesses",
+        "id": "requirement:1",
+        "occurrence_ids": [
+          "section_recesses:1"
+        ],
+        "owner_ids": [],
+        "parameter_id": null,
+        "reason_code": "consumer_semantics_unsupported",
+        "representation": null,
+        "representation_reason": null,
+        "state": "unsupported"
+      },
+      {
+        "annotations": [],
+        "family": "section_recesses",
+        "id": "requirement:2",
+        "occurrence_ids": [
+          "section_recesses:2"
+        ],
+        "owner_ids": [],
+        "parameter_id": null,
+        "reason_code": "consumer_semantics_unsupported",
+        "representation": null,
+        "representation_reason": null,
+        "state": "unsupported"
+      },
+      {
+        "annotations": [],
+        "family": "section_recesses",
+        "id": "requirement:3",
+        "occurrence_ids": [
+          "section_recesses:5"
+        ],
+        "owner_ids": [],
+        "parameter_id": null,
+        "reason_code": "consumer_semantics_unsupported",
+        "representation": null,
+        "representation_reason": null,
+        "state": "unsupported"
+      },
+      {
+        "annotations": [],
+        "family": "section_recesses",
+        "id": "requirement:4",
+        "occurrence_ids": [
+          "section_recesses:6"
+        ],
+        "owner_ids": [],
+        "parameter_id": null,
+        "reason_code": "consumer_semantics_unsupported",
+        "representation": null,
+        "representation_reason": null,
+        "state": "unsupported"
+      },
+      {
+        "annotations": [
+          "m_chamfer_z0"
+        ],
+        "family": "chamfers",
+        "id": "requirement:5",
+        "occurrence_ids": [
+          "chamfers:1"
+        ],
+        "owner_ids": [
+          "chamfer:1"
+        ],
+        "parameter_id": "chamfer.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_chamfer_z0"
+        ],
+        "family": "chamfers",
+        "id": "requirement:6",
+        "occurrence_ids": [
+          "chamfers:2"
+        ],
+        "owner_ids": [
+          "chamfer:2"
+        ],
+        "parameter_id": "chamfer.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_y3"
+        ],
+        "family": "blends",
+        "id": "requirement:7",
+        "occurrence_ids": [
+          "blends:1"
+        ],
+        "owner_ids": [
+          "blend:1"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_y3"
+        ],
+        "family": "blends",
+        "id": "requirement:8",
+        "occurrence_ids": [
+          "blends:2"
+        ],
+        "owner_ids": [
+          "blend:2"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_y3"
+        ],
+        "family": "blends",
+        "id": "requirement:9",
+        "occurrence_ids": [
+          "blends:3"
+        ],
+        "owner_ids": [
+          "blend:3"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_y3"
+        ],
+        "family": "blends",
+        "id": "requirement:10",
+        "occurrence_ids": [
+          "blends:4"
+        ],
+        "owner_ids": [
+          "blend:4"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_x2"
+        ],
+        "family": "blends",
+        "id": "requirement:11",
+        "occurrence_ids": [
+          "blends:5"
+        ],
+        "owner_ids": [
+          "blend:5"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_x0"
+        ],
+        "family": "blends",
+        "id": "requirement:12",
+        "occurrence_ids": [
+          "blends:6"
+        ],
+        "owner_ids": [
+          "blend:6"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_x1"
+        ],
+        "family": "blends",
+        "id": "requirement:13",
+        "occurrence_ids": [
+          "blends:7"
+        ],
+        "owner_ids": [
+          "blend:7"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_y3"
+        ],
+        "family": "blends",
+        "id": "requirement:14",
+        "occurrence_ids": [
+          "blends:8"
+        ],
+        "owner_ids": [
+          "blend:8"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_y3"
+        ],
+        "family": "blends",
+        "id": "requirement:15",
+        "occurrence_ids": [
+          "blends:9"
+        ],
+        "owner_ids": [
+          "blend:9"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_blend_y3"
+        ],
+        "family": "blends",
+        "id": "requirement:16",
+        "occurrence_ids": [
+          "blends:10"
+        ],
+        "owner_ids": [
+          "blend:10"
+        ],
+        "parameter_id": "blend.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_x2"
+        ],
+        "family": "fillets",
+        "id": "requirement:17",
+        "occurrence_ids": [
+          "fillets:1"
+        ],
+        "owner_ids": [
+          "fillet:1"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_x2"
+        ],
+        "family": "fillets",
+        "id": "requirement:18",
+        "occurrence_ids": [
+          "fillets:2"
+        ],
+        "owner_ids": [
+          "fillet:2"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_x0"
+        ],
+        "family": "fillets",
+        "id": "requirement:19",
+        "occurrence_ids": [
+          "fillets:3"
+        ],
+        "owner_ids": [
+          "fillet:3"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_x2"
+        ],
+        "family": "fillets",
+        "id": "requirement:20",
+        "occurrence_ids": [
+          "fillets:4"
+        ],
+        "owner_ids": [
+          "fillet:4"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_x2"
+        ],
+        "family": "fillets",
+        "id": "requirement:21",
+        "occurrence_ids": [
+          "fillets:5"
+        ],
+        "owner_ids": [
+          "fillet:5"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_z1"
+        ],
+        "family": "fillets",
+        "id": "requirement:22",
+        "occurrence_ids": [
+          "fillets:6"
+        ],
+        "owner_ids": [
+          "fillet:6"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_z1"
+        ],
+        "family": "fillets",
+        "id": "requirement:23",
+        "occurrence_ids": [
+          "fillets:7"
+        ],
+        "owner_ids": [
+          "fillet:7"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_z1"
+        ],
+        "family": "fillets",
+        "id": "requirement:24",
+        "occurrence_ids": [
+          "fillets:8"
+        ],
+        "owner_ids": [
+          "fillet:8"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_z1"
+        ],
+        "family": "fillets",
+        "id": "requirement:25",
+        "occurrence_ids": [
+          "fillets:9"
+        ],
+        "owner_ids": [
+          "fillet:9"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_z1"
+        ],
+        "family": "fillets",
+        "id": "requirement:26",
+        "occurrence_ids": [
+          "fillets:10"
+        ],
+        "owner_ids": [
+          "fillet:10"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_fillet_z1"
+        ],
+        "family": "fillets",
+        "id": "requirement:27",
+        "occurrence_ids": [
+          "fillets:11"
+        ],
+        "owner_ids": [
+          "fillet:11"
+        ],
+        "parameter_id": "fillet.radius",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_steplen0"
+        ],
+        "family": "turned_steps",
+        "id": "requirement:28",
+        "occurrence_ids": [
+          "turned_steps:1"
+        ],
+        "owner_ids": [
+          "step:1"
+        ],
+        "parameter_id": "step.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_dia_z0"
+        ],
+        "family": "turned_steps",
+        "id": "requirement:29",
+        "occurrence_ids": [
+          "turned_steps:1"
+        ],
+        "owner_ids": [
+          "step:1"
+        ],
+        "parameter_id": "step.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_steplen1"
+        ],
+        "family": "turned_steps",
+        "id": "requirement:30",
+        "occurrence_ids": [
+          "turned_steps:2"
+        ],
+        "owner_ids": [
+          "step:2"
+        ],
+        "parameter_id": "step.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_dia_z1"
+        ],
+        "family": "turned_steps",
+        "id": "requirement:31",
+        "occurrence_ids": [
+          "turned_steps:2"
+        ],
+        "owner_ids": [
+          "step:2"
+        ],
+        "parameter_id": "step.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_steplen2"
+        ],
+        "family": "turned_steps",
+        "id": "requirement:32",
+        "occurrence_ids": [
+          "turned_steps:3"
+        ],
+        "owner_ids": [
+          "step:3"
+        ],
+        "parameter_id": "step.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_dia_z3"
+        ],
+        "family": "turned_steps",
+        "id": "requirement:33",
+        "occurrence_ids": [
+          "turned_steps:3"
+        ],
+        "owner_ids": [
+          "step:3"
+        ],
+        "parameter_id": "step.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_flat_x0"
+        ],
+        "family": "flats",
+        "id": "requirement:34",
+        "occurrence_ids": [
+          "flats:1"
+        ],
+        "owner_ids": [
+          "flat:1"
+        ],
+        "parameter_id": "flat.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_flat_x0"
+        ],
+        "family": "flats",
+        "id": "requirement:35",
+        "occurrence_ids": [
+          "flats:2"
+        ],
+        "owner_ids": [
+          "flat:2"
+        ],
+        "parameter_id": "flat.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_flat_z2"
+        ],
+        "family": "flats",
+        "id": "requirement:36",
+        "occurrence_ids": [
+          "flats:3",
+          "flats:4"
+        ],
+        "owner_ids": [
+          "flat:3",
+          "flat:4"
+        ],
+        "parameter_id": "flat.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_plan2"
+        ],
+        "family": "holes",
+        "id": "requirement:37",
+        "occurrence_ids": [
+          "holes:1",
+          "holes:2",
+          "holes:3",
+          "holes:4"
+        ],
+        "owner_ids": [
+          "hole:1"
+        ],
+        "parameter_id": "bore.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_plan2"
+        ],
+        "family": "holes",
+        "id": "requirement:38",
+        "occurrence_ids": [
+          "holes:1",
+          "holes:2",
+          "holes:3",
+          "holes:4"
+        ],
+        "owner_ids": [
+          "hole:1"
+        ],
+        "parameter_id": "bore.depth",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:39",
+        "occurrence_ids": [
+          "holes:1",
+          "holes:2",
+          "holes:3",
+          "holes:4"
+        ],
+        "owner_ids": [
+          "hole:1"
+        ],
+        "parameter_id": "grouping.count",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:40",
+        "occurrence_ids": [
+          "holes:1",
+          "holes:2",
+          "holes:3",
+          "holes:4"
+        ],
+        "owner_ids": [
+          "hole:1"
+        ],
+        "parameter_id": "location.location.x",
+        "reason_code": "semantic_requirement_dropped",
+        "representation": null,
+        "representation_reason": null,
+        "state": "dropped"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:41",
+        "occurrence_ids": [
+          "holes:1",
+          "holes:2",
+          "holes:3",
+          "holes:4"
+        ],
+        "owner_ids": [
+          "hole:1"
+        ],
+        "parameter_id": "location.location.y",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_plan1"
+        ],
+        "family": "holes",
+        "id": "requirement:42",
+        "occurrence_ids": [
+          "holes:5"
+        ],
+        "owner_ids": [
+          "hole:2"
+        ],
+        "parameter_id": "bore.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_plan1"
+        ],
+        "family": "holes",
+        "id": "requirement:43",
+        "occurrence_ids": [
+          "holes:5"
+        ],
+        "owner_ids": [
+          "hole:2"
+        ],
+        "parameter_id": "bore.depth",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:44",
+        "occurrence_ids": [
+          "holes:5"
+        ],
+        "owner_ids": [
+          "hole:2"
+        ],
+        "parameter_id": "location.location.x",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:45",
+        "occurrence_ids": [
+          "holes:5"
+        ],
+        "owner_ids": [
+          "hole:2"
+        ],
+        "parameter_id": "location.location.y",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_plan0"
+        ],
+        "family": "holes",
+        "id": "requirement:46",
+        "occurrence_ids": [
+          "holes:6",
+          "holes:7",
+          "holes:8",
+          "holes:9",
+          "holes:10",
+          "holes:11",
+          "holes:12",
+          "holes:13",
+          "holes:14",
+          "holes:15"
+        ],
+        "owner_ids": [
+          "hole:3"
+        ],
+        "parameter_id": "bore.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_plan0"
+        ],
+        "family": "holes",
+        "id": "requirement:47",
+        "occurrence_ids": [
+          "holes:6",
+          "holes:7",
+          "holes:8",
+          "holes:9",
+          "holes:10",
+          "holes:11",
+          "holes:12",
+          "holes:13",
+          "holes:14",
+          "holes:15"
+        ],
+        "owner_ids": [
+          "hole:3"
+        ],
+        "parameter_id": "counterbore.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_plan0"
+        ],
+        "family": "holes",
+        "id": "requirement:48",
+        "occurrence_ids": [
+          "holes:6",
+          "holes:7",
+          "holes:8",
+          "holes:9",
+          "holes:10",
+          "holes:11",
+          "holes:12",
+          "holes:13",
+          "holes:14",
+          "holes:15"
+        ],
+        "owner_ids": [
+          "hole:3"
+        ],
+        "parameter_id": "counterbore.depth",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:49",
+        "occurrence_ids": [
+          "holes:6",
+          "holes:7",
+          "holes:8",
+          "holes:9",
+          "holes:10",
+          "holes:11",
+          "holes:12",
+          "holes:13",
+          "holes:14",
+          "holes:15"
+        ],
+        "owner_ids": [
+          "hole:3"
+        ],
+        "parameter_id": "bore.through",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:50",
+        "occurrence_ids": [
+          "holes:6",
+          "holes:7",
+          "holes:8",
+          "holes:9",
+          "holes:10",
+          "holes:11",
+          "holes:12",
+          "holes:13",
+          "holes:14",
+          "holes:15"
+        ],
+        "owner_ids": [
+          "hole:3"
+        ],
+        "parameter_id": "grouping.count",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:51",
+        "occurrence_ids": [
+          "holes:6",
+          "holes:7",
+          "holes:8",
+          "holes:9",
+          "holes:10",
+          "holes:11",
+          "holes:12",
+          "holes:13",
+          "holes:14",
+          "holes:15"
+        ],
+        "owner_ids": [
+          "hole:3"
+        ],
+        "parameter_id": "location.location.x",
+        "reason_code": "semantic_requirement_dropped",
+        "representation": null,
+        "representation_reason": null,
+        "state": "dropped"
+      },
+      {
+        "annotations": [],
+        "family": "holes",
+        "id": "requirement:52",
+        "occurrence_ids": [
+          "holes:6",
+          "holes:7",
+          "holes:8",
+          "holes:9",
+          "holes:10",
+          "holes:11",
+          "holes:12",
+          "holes:13",
+          "holes:14",
+          "holes:15"
+        ],
+        "owner_ids": [
+          "hole:3"
+        ],
+        "parameter_id": "location.location.y",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_side0"
+        ],
+        "family": "hole_patterns",
+        "id": "requirement:53",
+        "occurrence_ids": [
+          "holes:16",
+          "holes:18",
+          "holes:20"
+        ],
+        "owner_ids": [
+          "pattern:1"
+        ],
+        "parameter_id": "bore.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_side0"
+        ],
+        "family": "hole_patterns",
+        "id": "requirement:54",
+        "occurrence_ids": [
+          "holes:16",
+          "holes:18",
+          "holes:20"
+        ],
+        "owner_ids": [
+          "pattern:1"
+        ],
+        "parameter_id": "bore.depth",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "dim_pitch_side0"
+        ],
+        "family": "hole_patterns",
+        "id": "requirement:55",
+        "occurrence_ids": [
+          "holes:16",
+          "holes:18",
+          "holes:20"
+        ],
+        "owner_ids": [
+          "pattern:1"
+        ],
+        "parameter_id": "pitch.length",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "hole_patterns",
+        "id": "requirement:56",
+        "occurrence_ids": [
+          "holes:16",
+          "holes:18",
+          "holes:20"
+        ],
+        "owner_ids": [
+          "pattern:1"
+        ],
+        "parameter_id": "grouping.count",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "hole_patterns",
+        "id": "requirement:57",
+        "occurrence_ids": [
+          "holes:16",
+          "holes:18",
+          "holes:20"
+        ],
+        "owner_ids": [
+          "pattern:1"
+        ],
+        "parameter_id": "location_pattern.location.y",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "hole_patterns",
+        "id": "requirement:58",
+        "occurrence_ids": [
+          "holes:16",
+          "holes:18",
+          "holes:20"
+        ],
+        "owner_ids": [
+          "pattern:1"
+        ],
+        "parameter_id": "location_pattern.location.z",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_side1"
+        ],
+        "family": "hole_patterns",
+        "id": "requirement:59",
+        "occurrence_ids": [
+          "holes:17",
+          "holes:19",
+          "holes:21"
+        ],
+        "owner_ids": [
+          "pattern:2"
+        ],
+        "parameter_id": "bore.diameter",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "hc_side1"
+        ],
+        "family": "hole_patterns",
+        "id": "requirement:60",
+        "occurrence_ids": [
+          "holes:17",
+          "holes:19",
+          "holes:21"
+        ],
+        "owner_ids": [
+          "pattern:2"
+        ],
+        "parameter_id": "bore.depth",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "hole_patterns",
+        "id": "requirement:61",
+        "occurrence_ids": [
+          "holes:17",
+          "holes:19",
+          "holes:21"
+        ],
+        "owner_ids": [
+          "pattern:2"
+        ],
+        "parameter_id": "pitch.length",
+        "reason_code": "semantic_requirement_dropped",
+        "representation": null,
+        "representation_reason": null,
+        "state": "dropped"
+      },
+      {
+        "annotations": [],
+        "family": "hole_patterns",
+        "id": "requirement:62",
+        "occurrence_ids": [
+          "holes:17",
+          "holes:19",
+          "holes:21"
+        ],
+        "owner_ids": [
+          "pattern:2"
+        ],
+        "parameter_id": "grouping.count",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "hole_patterns",
+        "id": "requirement:63",
+        "occurrence_ids": [
+          "holes:17",
+          "holes:19",
+          "holes:21"
+        ],
+        "owner_ids": [
+          "pattern:2"
+        ],
+        "parameter_id": "location_pattern.location.y",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [],
+        "family": "hole_patterns",
+        "id": "requirement:64",
+        "occurrence_ids": [
+          "holes:17",
+          "holes:19",
+          "holes:21"
+        ],
+        "owner_ids": [
+          "pattern:2"
+        ],
+        "parameter_id": "location_pattern.location.z",
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      },
+      {
+        "annotations": [
+          "m_angle_0"
+        ],
+        "family": "outer_profile_angles",
+        "id": "requirement:65",
+        "occurrence_ids": [],
+        "owner_ids": [
+          "angle:1"
+        ],
+        "parameter_id": "included.angle",
+        "profile_source": {
+          "kind": "planar_outer_profile",
+          "profile_id": "profile:1",
+          "support_ids": [
+            "support:1",
+            "support:2"
+          ]
+        },
+        "reason_code": "semantic_measurement_placed",
+        "representation": null,
+        "representation_reason": null,
+        "state": "placed"
+      }
+    ],
+    "summary": {
+      "absorbed": 21,
+      "deferred": 0,
+      "evidence_only": 7,
+      "represented": 33,
+      "total": 67,
+      "unexpectedly_missing": 2,
+      "unsupported": 4
+    }
+  },
+  "schema": "draftwright-report",
+  "schema_version": 3,
+  "source": {
+    "kind": "step",
+    "name": "nist_ctc_05_asme1_ap242.stp"
+  },
+  "status": "needs-attention"
+}

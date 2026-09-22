@@ -1,0 +1,32 @@
+# Every drawing in this repo is one entry here: a STEP file plus the draftwright CLI
+# arguments used to build it. There is no per-drawing code, patching or post-processing —
+# `build.py` passes exactly these arguments to the stock `draftwright` CLI.
+#
+# `args` below is prepended to every drawing's own `args`.
+
+args = ["--format", "pdf", "--no-progress"]
+
+[[drawing]]
+name = "nist-ctc-01"
+step = "steps/nist/nist_ctc_01_asme1_ap242.stp"
+args = ["--title", "NIST CTC-01", "--number", "NIST-CTC-01"]
+
+[[drawing]]
+name = "nist-ctc-02"
+step = "steps/nist/nist_ctc_02_asme1_ap242.stp"
+args = ["--title", "NIST CTC-02", "--number", "NIST-CTC-02"]
+
+[[drawing]]
+name = "nist-ctc-03"
+step = "steps/nist/nist_ctc_03_asme1_ap242.stp"
+args = ["--title", "NIST CTC-03", "--number", "NIST-CTC-03"]
+
+[[drawing]]
+name = "nist-ctc-04"
+step = "steps/nist/nist_ctc_04_asme1_ap242.stp"
+args = ["--title", "NIST CTC-04", "--number", "NIST-CTC-04"]
+
+[[drawing]]
+name = "nist-ctc-05"
+step = "steps/nist/nist_ctc_05_asme1_ap242.stp"
+args = ["--title", "NIST CTC-05", "--number", "NIST-CTC-05"]

@@ -1,0 +1,130 @@
+{
+  "draftwright": "0.4.32",
+  "drawings": [
+    {
+      "name": "nist-ctc-01",
+      "step": "steps/nist/nist_ctc_01_asme1_ap242.stp",
+      "args": [
+        "--format",
+        "pdf",
+        "--no-progress",
+        "--title",
+        "NIST CTC-01",
+        "--number",
+        "NIST-CTC-01"
+      ],
+      "files": [
+        "nist-ctc-01.draftwright.json",
+        "nist-ctc-01.pdf"
+      ],
+      "report": {
+        "status": "needs-attention",
+        "passed": true,
+        "score": 0.95,
+        "errors": 0,
+        "warnings": 1,
+        "infos": 3
+      }
+    },
+    {
+      "name": "nist-ctc-02",
+      "step": "steps/nist/nist_ctc_02_asme1_ap242.stp",
+      "args": [
+        "--format",
+        "pdf",
+        "--no-progress",
+        "--title",
+        "NIST CTC-02",
+        "--number",
+        "NIST-CTC-02"
+      ],
+      "files": [
+        "nist-ctc-02.draftwright.json",
+        "nist-ctc-02.pdf"
+      ],
+      "report": {
+        "status": "needs-attention",
+        "passed": false,
+        "score": 0.0,
+        "errors": 1,
+        "warnings": 24,
+        "infos": 7
+      }
+    },
+    {
+      "name": "nist-ctc-03",
+      "step": "steps/nist/nist_ctc_03_asme1_ap242.stp",
+      "args": [
+        "--format",
+        "pdf",
+        "--no-progress",
+        "--title",
+        "NIST CTC-03",
+        "--number",
+        "NIST-CTC-03"
+      ],
+      "files": [
+        "nist-ctc-03.draftwright.json",
+        "nist-ctc-03.pdf"
+      ],
+      "report": {
+        "status": "needs-attention",
+        "passed": false,
+        "score": 0.45,
+        "errors": 1,
+        "warnings": 7,
+        "infos": 10
+      }
+    },
+    {
+      "name": "nist-ctc-04",
+      "step": "steps/nist/nist_ctc_04_asme1_ap242.stp",
+      "args": [
+        "--format",
+        "pdf",
+        "--no-progress",
+        "--title",
+        "NIST CTC-04",
+        "--number",
+        "NIST-CTC-04"
+      ],
+      "files": [
+        "nist-ctc-04.draftwright.json",
+        "nist-ctc-04.pdf"
+      ],
+      "report": {
+        "status": "needs-attention",
+        "passed": false,
+        "score": 0.0,
+        "errors": 1,
+        "warnings": 30,
+        "infos": 16
+      }
+    },
+    {
+      "name": "nist-ctc-05",
+      "step": "steps/nist/nist_ctc_05_asme1_ap242.stp",
+      "args": [
+        "--format",
+        "pdf",
+        "--no-progress",
+        "--title",
+        "NIST CTC-05",
+        "--number",
+        "NIST-CTC-05"
+      ],
+      "files": [
+        "nist-ctc-05.draftwright.json",
+        "nist-ctc-05.pdf"
+      ],
+      "report": {
+        "status": "needs-attention",
+        "passed": false,
+        "score": 0.35,
+        "errors": 1,
+        "warnings": 9,
+        "infos": 3
+      }
+    }
+  ]
+}
