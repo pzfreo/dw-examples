@@ -190,7 +190,7 @@ wheels = [
 
 [[package]]
 name = "draftwright"
-version = "0.4.32"
+version = "0.4.35"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "antlr4-python3-runtime" },
@@ -208,9 +208,9 @@ dependencies = [
     { name = "typer" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e5/c0/c5146b134efef04e4ef36bdda1eab671c0e085f95fe8cf486deede48fb47/draftwright-0.4.32.tar.gz", hash = "sha256:b16b2f0ea8a5cf942267847a056185b248667a964e03245a2d421068629bab1a", size = 6610713, upload-time = "2026-09-22T05:01:53.242Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/68/58/b7e3fe6ea6265281f1ce1730d872fa9b1e5273ec99d01242016162061c2a/draftwright-0.4.35.tar.gz", hash = "sha256:f8175afcb297fd70dd9ca98396651fc4d8afbac73b82fcdf6c5e487c697d3dfb", size = 6643162, upload-time = "2026-09-23T15:16:28.968Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d8/52/0ec3f4639ac5846f06ca364905f7dd7da5d5c1898afd623868bffc9e013a/draftwright-0.4.32-py3-none-any.whl", hash = "sha256:057a017d764b15926bf22606b819ca86e296f5ebcf119b216402cc316c22f13d", size = 1472823, upload-time = "2026-09-22T05:01:51.483Z" },
+    { url = "https://files.pythonhosted.org/packages/5f/0a/d7ae4bd5678bab42bf13b0955b2e700aae5028adb6254edbfc17c070fc1d/draftwright-0.4.35-py3-none-any.whl", hash = "sha256:e1038f9d52b6155bb0ea29364d608ca929b31ef3d4fff0a42232b39ced6fa7c8", size = 1494775, upload-time = "2026-09-23T15:16:27.067Z" },
 ]
 
 [[package]]
@@ -222,7 +222,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "draftwright", specifier = "==0.4.32" }]
+requires-dist = [{ name = "draftwright", specifier = "==0.4.35" }]
 
 [[package]]
 name = "executing"
