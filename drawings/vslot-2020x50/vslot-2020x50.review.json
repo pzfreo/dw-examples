@@ -1,0 +1,982 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   }
+  ],
+  "supported": 1,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e111:e110/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e111:e110/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e111:e110 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e111:e110",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e111:e110"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e106:e105/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e106:e105/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e106:e105 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e106:e105",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e106:e105"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e104:e103/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e104:e103/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e104:e103 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e104:e103",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e104:e103"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e100:e99/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e100:e99/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e100:e99 requires 45.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e100:e99",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e100:e99"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e99:e98/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e99:e98/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e99:e98 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e99:e98",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e99:e98"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e96:e95/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e96:e95/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e96:e95 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e96:e95",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e96:e95"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e95:e94/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e95:e94/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e95:e94 requires 45.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e95:e94",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e95:e94"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e91:e90/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e91:e90/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e91:e90 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e91:e90",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e91:e90"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e89:e88/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e89:e88/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e89:e88 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e89:e88",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e89:e88"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e85:e84/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e85:e84/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e85:e84 requires 45.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e85:e84",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e85:e84"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e84:e83/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e84:e83/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e84:e83 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e84:e83",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e84:e83"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e81:e80/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e81:e80/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e81:e80 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e81:e80",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e81:e80"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e80:e79/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e80:e79/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e80:e79 requires 45.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e80:e79",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e80:e79"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e76:e75/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e76:e75/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e76:e75 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e76:e75",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e76:e75"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e74:e73/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e74:e73/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e74:e73 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e74:e73",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e74:e73"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e70:e69/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e70:e69/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e70:e69 requires 45.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e70:e69",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e70:e69"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e69:e68/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e69:e68/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e69:e68 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e69:e68",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e69:e68"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e2:e66/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e2:e66/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e2:e66 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e2:e66",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e2:e66"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e66:e124/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e66:e124/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e66:e124 requires 45.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e66:e124",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e66:e124"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e121:e120/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e121:e120/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e121:e120 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e121:e120",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e121:e120"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e119:e118/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e119:e118/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e119:e118 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e119:e118",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e119:e118"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e115:e114/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e115:e114/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e115:e114 requires 45.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e115:e114",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e115:e114"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e114:e113/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e114:e113/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e114:e113 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e114:e113",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e114:e113"
+   ]
+  }
+ ],
+ "problems": [
+  {
+   "code": "features_not_recognised",
+   "group": "features_not_recognised",
+   "id": "p:features_not_recognised:part",
+   "impact": "incomplete",
+   "message": "Unrecognised features on this part: 1 circular face pattern. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "refs": [
+    "circular_face_patterns",
+    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "Python quiddity's recognition (tools/recognise.py) gives these families"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "detail_unplaceable",
+   "group": "detail_unplaceable",
+   "id": "p:detail_unplaceable:v:detail_a",
+   "impact": "readability",
+   "message": "prismatic-steps detail has no reserved room or source view; its dimensions remain on the parent.",
+   "refs": [
+    "v:detail_a"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e111_e110",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e111_e110"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e106_e105",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e106_e105"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e104_e103",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e104_e103"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e100_e99",
+   "impact": "advisory",
+   "message": "The dimension 45\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e100_e99"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e99_e98",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e99_e98"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e96_e95",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e96_e95"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e95_e94",
+   "impact": "advisory",
+   "message": "The dimension 45\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e95_e94"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e91_e90",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e91_e90"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e89_e88",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e89_e88"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e85_e84",
+   "impact": "advisory",
+   "message": "The dimension 45\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e85_e84"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e84_e83",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e84_e83"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e81_e80",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e81_e80"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e80_e79",
+   "impact": "advisory",
+   "message": "The dimension 45\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e80_e79"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e76_e75",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e76_e75"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e74_e73",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e74_e73"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e70_e69",
+   "impact": "advisory",
+   "message": "The dimension 45\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e70_e69"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e69_e68",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e69_e68"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e2_e66",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e2_e66"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e66_e124",
+   "impact": "advisory",
+   "message": "The dimension 45\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e66_e124"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e121_e120",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e121_e120"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e119_e118",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e119_e118"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e115_e114",
+   "impact": "advisory",
+   "message": "The dimension 45\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e115_e114"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e114_e113",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e114_e113"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 23 of 63 faces; 40 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:3",
+    "face:6",
+    "face:7",
+    "face:8",
+    "face:9",
+    "face:11",
+    "face:12",
+    "face:14",
+    "face:15",
+    "face:16",
+    "face:17",
+    "face:18",
+    "face:19",
+    "face:21",
+    "face:22",
+    "face:24",
+    "face:25",
+    "face:26",
+    "face:27",
+    "face:29",
+    "face:34",
+    "face:36",
+    "face:37",
+    "face:38",
+    "face:39",
+    "face:41",
+    "face:42",
+    "face:44",
+    "face:45",
+    "face:46",
+    "face:47",
+    "face:48",
+    "face:49",
+    "face:51",
+    "face:52",
+    "face:54",
+    "face:55",
+    "face:56",
+    "face:57",
+    "face:59"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "angular_dimension_dropped": 23,
+   "angular_requirement_missing:profile_angle.angle": 23,
+   "detail_unplaceable": 1,
+   "features_not_recognised": 1,
+   "general_tolerance_missing": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 24,
+    "groups": 2
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 24,
+    "groups": 2
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
+   }
+  }
+ }
+}

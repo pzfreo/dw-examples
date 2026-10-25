@@ -1,0 +1,3633 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A1/size"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A2/size"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A3/size"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A4/size"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/B2/size"
+    ],
+    "feature": "f:hole:6",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/B3/size"
+    ],
+    "feature": "f:hole:7",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/B4/size"
+    ],
+    "feature": "f:hole:8",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/D1/size"
+    ],
+    "feature": "f:hole:9",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C1/size"
+    ],
+    "feature": "f:hole:10",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/B1/size"
+    ],
+    "feature": "f:hole:11",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:12/bore.diameter"
+    ],
+    "feature": "f:hole:12",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:13",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:14",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:15",
+    "state": "supported"
+   }
+  ],
+  "supported": 15,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "slot_requirement_missing",
+   "fix": "State its low end 112.547 from the part's y edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
+   "fix_description": "State its low end 112.547 from the part's y edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
+   "group": "slot_requirement_missing:location_slot.length",
+   "id": "l:slot_requirement_missing:f:slot:2/location_slot.length",
+   "impact": "incomplete",
+   "measurements": [
+    "f:slot:2/location_slot.length"
+   ],
+   "message": "slot f:slot:2 19.05 \u00d7 107.95, ends R9.52, long along (0, 1, 0): requirement location_slot.length (its low end 112.547 from the part's y edge) is not stated on the sheet",
+   "requirements": [
+    {
+     "feature": "f:slot:2",
+     "parameter": "location_slot.length"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:slot:2"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "fix": "State the location length x of the feature in a view that shows its true size or location.",
+   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:location.length.x",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/location.length.x",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:2/location.length.x"
+   ],
+   "message": "f:hole_pattern:2 has no proven x location of its centre on the drawing.",
+   "related": [
+    "f:hole:3",
+    "f:hole:4",
+    "f:hole:5",
+    "f:hole:2"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:2",
+     "parameter": "location.length.x"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:2"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "fix": "State the location length y of the feature in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:location.length.y",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:2/location.length.y"
+   ],
+   "message": "f:hole_pattern:2 has no proven y location of its centre on the drawing.",
+   "related": [
+    "f:hole:3",
+    "f:hole:4",
+    "f:hole:5",
+    "f:hole:2"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:2",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:2"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "evidence": "Expected 203.2",
+   "fix": "State the grid pitch length col of the feature in a view that shows its true size or location.",
+   "fix_description": "State the grid pitch length col of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:grid_pitch.length.col",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/grid_pitch.length.col",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:2/grid_pitch.length.col"
+   ],
+   "message": "f:hole_pattern:2: grid_pitch.length.col is not proved by the printed drawing.",
+   "related": [
+    "f:hole:3",
+    "f:hole:4",
+    "f:hole:5",
+    "f:hole:2"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:2",
+     "parameter": "grid_pitch.length.col"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:2"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "evidence": "Expected 447.345",
+   "fix": "State the grid pitch length row of the feature in a view that shows its true size or location.",
+   "fix_description": "State the grid pitch length row of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:grid_pitch.length.row",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/grid_pitch.length.row",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:2/grid_pitch.length.row"
+   ],
+   "message": "f:hole_pattern:2: grid_pitch.length.row is not proved by the printed drawing.",
+   "related": [
+    "f:hole:3",
+    "f:hole:4",
+    "f:hole:5",
+    "f:hole:2"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:2",
+     "parameter": "grid_pitch.length.row"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:2"
+   ]
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#97 was discovered but not extracted: the dimension modifier Reference is not carried",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#97",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#97"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#263 was discovered but not extracted: haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#263",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#263"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#264 was discovered but not extracted: haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#264",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#264"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#265 was discovered but not extracted: haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#265",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#265"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#266 was discovered but not extracted: haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#266",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#266"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#267 was discovered but not extracted: haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#267",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#267"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#268 was discovered but not extracted: haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#268",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#268"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#269 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#269",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#269"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#270 was discovered but not extracted: haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#270",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#270"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#271 was discovered but not extracted: haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#271",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#271"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#35 was discovered but not extracted: haecceity nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#35",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#35"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#37 was discovered but not extracted: the unit-basis (per unit area or length) is not carried",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#37",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#37"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#40 was discovered but not extracted: datum compartment modifiers are not carried; haecceity nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#40",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#40"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#41 was discovered but not extracted: haecceity nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#41",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#41"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#42 was discovered but not extracted: haecceity nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#42",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#42"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#43 was discovered but not extracted: haecceity nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#43",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#43"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#44 was discovered but not extracted: haecceity nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#44",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#44"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#45 was discovered but not extracted: haecceity nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#45",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#45"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#79 was discovered but not extracted: haecceity nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#79",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#79"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#80 was discovered but not extracted: haecceity nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#80",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#80"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 datum datum:#95 was discovered but not extracted: haecceity nonconformance on #95 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces",
+   "group": "pmi_not_extracted:datum",
+   "id": "l:pmi_not_extracted:datum:#95",
+   "impact": "incomplete",
+   "message": "A STEP datum annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "datum:#95"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 datum datum:#93 was discovered but not extracted: haecceity nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces",
+   "group": "pmi_not_extracted:datum",
+   "id": "l:pmi_not_extracted:datum:#93",
+   "impact": "incomplete",
+   "message": "A STEP datum annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "datum:#93"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:0 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:0",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:0"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:1 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:1",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:1"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:2 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:2",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:2"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#350 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#350",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#350"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#351 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#351",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#351"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#353 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#353",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#353"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#361 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#361",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#361"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#365 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#365",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#365"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#1058 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#1058",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#1058"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#5810 was discovered but not extracted: haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#5810",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#5810"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#5810 was discovered but not extracted: haecceity not-modelled: property \"\" (\"shape for solid data with which properties are associated\") is not a construct the reader knows; not read",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#5810",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#5810"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "the dimension modifier Reference is not carried",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#97",
+   "impact": "incomplete",
+   "message": "The STEP linear annotation could not be drawn: the dimension modifier Reference is not carried. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#97"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#263",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#263"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#264",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#264"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#265",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#265"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#266",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#266"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#267",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#267"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#268",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#268"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#269",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#269"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#270",
+   "impact": "incomplete",
+   "message": "The STEP thickness annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#270"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#271",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#271"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#35 (profile_surface 0.254) is not drawn: the STEP reader nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#35",
+   "impact": "incomplete",
+   "message": "The STEP profile surface annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#35"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#37 (flatness 0.127) is not drawn: the unit-basis (per unit area or length) is not carried.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#37",
+   "impact": "incomplete",
+   "message": "The STEP flatness annotation could not be drawn: the unit-basis (per unit area or length) is not carried. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#37"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#40 (position 1.27) is not drawn: datum compartment modifiers are not carried; the STEP reader nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#40",
+   "impact": "incomplete",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#40"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#41 (position 1.27) is not drawn: the STEP reader nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#41",
+   "impact": "incomplete",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#41"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#42 (position 0.508) is not drawn: the STEP reader nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#42",
+   "impact": "incomplete",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#42"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#43 (position 1.52) is not drawn: the STEP reader nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#43",
+   "impact": "incomplete",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#43"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#44 (position 2.03) is not drawn: the STEP reader nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#44",
+   "impact": "incomplete",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#44"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#45 (position 0.762) is not drawn: the STEP reader nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#45",
+   "impact": "incomplete",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#45"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#79 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#79",
+   "impact": "incomplete",
+   "message": "The STEP perpendicularity annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#79"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#80 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#80",
+   "impact": "incomplete",
+   "message": "The STEP perpendicularity annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#80"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI datum:#95 (D) is not drawn: the STEP reader nonconformance on #95 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
+   "group": "pmi_not_lowered:datum",
+   "id": "l:pmi_not_lowered:datum:#95",
+   "impact": "incomplete",
+   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "datum:#95"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI datum:#93 (E) is not drawn: the STEP reader nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces; one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "group": "pmi_not_lowered:datum",
+   "id": "l:pmi_not_lowered:datum:#93",
+   "impact": "incomplete",
+   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "datum:#93"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI datum:#96 (F) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "group": "pmi_not_lowered:datum",
+   "id": "l:pmi_not_lowered:datum:#96",
+   "impact": "incomplete",
+   "message": "The STEP datum annotation could not be drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "datum:#96"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length y of the hole in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the hole in a view that shows its true size or location.",
+   "group": "feature_not_located:hole",
+   "id": "l:feature_not_located:f:hole:1/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole:1/location.length.y"
+   ],
+   "message": "f:hole:1 on y: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:hole:1",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length y of the hole in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the hole in a view that shows its true size or location.",
+   "group": "feature_not_located:hole",
+   "id": "l:feature_not_located:f:hole:12/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole:12/location.length.y"
+   ],
+   "message": "f:hole:12 on y: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:hole:12",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:12"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length y of the hole in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the hole in a view that shows its true size or location.",
+   "group": "feature_not_located:hole",
+   "id": "l:feature_not_located:f:hole:13/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole:13/location.length.y"
+   ],
+   "message": "f:hole:13 on y: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:hole:13",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:13"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length y of the hole in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the hole in a view that shows its true size or location.",
+   "group": "feature_not_located:hole",
+   "id": "l:feature_not_located:f:hole:14/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole:14/location.length.y"
+   ],
+   "message": "f:hole:14 on y: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:hole:14",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:14"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length y of the hole in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the hole in a view that shows its true size or location.",
+   "group": "feature_not_located:hole",
+   "id": "l:feature_not_located:f:hole:15/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole:15/location.length.y"
+   ],
+   "message": "f:hole:15 on y: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:hole:15",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:15"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length y of the slot in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the slot in a view that shows its true size or location.",
+   "group": "feature_not_located:slot",
+   "id": "l:feature_not_located:f:slot:2/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:slot:2/location.length.y"
+   ],
+   "message": "f:slot:2 on y: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:slot:2",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:slot:2"
+   ]
+  },
+  {
+   "annotation": "d:f:fillet:1/fillet.radius",
+   "at": [
+    173.41951694459544,
+    62.483809996393504
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:1/fillet.radius",
+    "f:fillet:2/fillet.radius",
+    "f:fillet:3/fillet.radius",
+    "f:fillet:4/fillet.radius",
+    "f:fillet:5/fillet.radius",
+    "f:fillet:6/fillet.radius"
+   ],
+   "message": "d:f:fillet:1/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:1",
+    "f:fillet:2",
+    "f:fillet:3",
+    "f:fillet:4",
+    "f:fillet:5",
+    "f:fillet:6"
+   ],
+   "view": "v:side"
+  },
+  {
+   "annotation": "d:f:fillet:10/fillet.radius",
+   "at": [
+    176.29751694459546,
+    84.4976099963935
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:10/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:9/fillet.radius",
+    "f:fillet:10/fillet.radius"
+   ],
+   "message": "d:f:fillet:10/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:9",
+    "f:fillet:10"
+   ],
+   "view": "v:side"
+  }
+ ],
+ "problems": [
+  {
+   "code": "features_not_recognised",
+   "group": "features_not_recognised",
+   "id": "p:features_not_recognised:part",
+   "impact": "incomplete",
+   "message": "Unrecognised features on this part: 1 sheet metal body, 1 thin wall body. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "refs": [
+    "sheet_metal_bodies",
+    "thin_wall_bodies",
+    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "Python quiddity's recognition (tools/recognise.py) gives these families"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:1",
+   "impact": "incomplete",
+   "message": "The \u23004.763 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:12",
+   "impact": "incomplete",
+   "message": "The \u230027.051 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:12"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:13",
+   "impact": "incomplete",
+   "message": "The \u23004.763 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:13"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:14",
+   "impact": "incomplete",
+   "message": "The \u23004.763 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:14"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:15",
+   "impact": "incomplete",
+   "message": "The \u23004.763 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:15"
+   ]
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#91",
+   "impact": "advisory",
+   "message": "Datum B cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#91"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#92",
+   "impact": "advisory",
+   "message": "Datum C cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#92"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#93",
+   "impact": "advisory",
+   "message": "Datum E cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#93"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#96",
+   "impact": "advisory",
+   "message": "Datum F cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#96"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#97",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#97 (0.750 INCH) is not drawn: the dimension modifier Reference is not carried.",
+   "refs": [
+    "dimension:#97",
+    "the dimension modifier Reference is not carried"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#263",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#263 (\u00f80.438 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#263",
+    "haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#264",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#264 (\u00f80.438 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#264",
+    "haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#265",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#265 (\u00f80.625 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#265",
+    "haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#266",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#266 (\u00f80.438 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#266",
+    "haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#267",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#267 (\u00f82.00 \u00b10.01 INCH) is not drawn: the STEP reader nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#267",
+    "haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#268",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#268 (\u00f81.500 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#268",
+    "haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#269",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#269 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; the STEP reader nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#269",
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#270",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#270 (0.82 \u00b10.06 INCH) is not drawn: the STEP reader nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#270",
+    "haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#271",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#271 (\u00f81.065 \u00b10.003 INCH) is not drawn: the STEP reader nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "dimension:#271",
+    "haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:0",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:0",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:1",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:1",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:2",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:2",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#350",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#350",
+    "composite_shape_aspect",
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#351",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#351",
+    "composite_shape_aspect",
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#353",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#353",
+    "composite_shape_aspect",
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#361",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#361",
+    "composite_shape_aspect",
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#365",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#365",
+    "composite_shape_aspect",
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#1058",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#1058",
+    "shape_aspect",
+    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#5810",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#5810",
+    "property_definition",
+    "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#5810",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#5810",
+    "property_definition",
+    "haecceity not-modelled: property \"\" (\"shape for solid data with which properties are associated\") is not a construct the reader knows; not read"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_presentation_not_read",
+   "group": "pmi_presentation_not_read",
+   "id": "p:pmi_presentation_not_read:part",
+   "impact": "advisory",
+   "message": "The STEP file carries 119 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
+   "refs": [
+    "part"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#35",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#35 (profile_surface 0.254) is not drawn: the STEP reader nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#35",
+    "haecceity nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#37",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#37 (flatness 0.127) is not drawn: the unit-basis (per unit area or length) is not carried.",
+   "refs": [
+    "geometric_tolerance:#37",
+    "the unit-basis (per unit area or length) is not carried"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#40",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#40 (position 1.27) is not drawn: datum compartment modifiers are not carried; the STEP reader nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#40",
+    "datum compartment modifiers are not carried",
+    "haecceity nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#41",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#41 (position 1.27) is not drawn: the STEP reader nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#41",
+    "haecceity nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#42",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#42 (position 0.508) is not drawn: the STEP reader nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#42",
+    "haecceity nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#43",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#43 (position 1.52) is not drawn: the STEP reader nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#43",
+    "haecceity nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#44",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#44 (position 2.03) is not drawn: the STEP reader nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#44",
+    "haecceity nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#45",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#45 (position 0.762) is not drawn: the STEP reader nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#45",
+    "haecceity nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#79",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#79 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#79",
+    "haecceity nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#80",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#80 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "refs": [
+    "geometric_tolerance:#80",
+    "haecceity nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:datum",
+   "id": "p:pmi_not_lowered:datum:#95",
+   "impact": "incomplete",
+   "message": "PMI datum:#95 (D) is not drawn: the STEP reader nonconformance on #95 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
+   "refs": [
+    "datum:#95",
+    "haecceity nonconformance on #95 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:datum",
+   "id": "p:pmi_not_lowered:datum:#93",
+   "impact": "incomplete",
+   "message": "PMI datum:#93 (E) is not drawn: the STEP reader nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces; one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "refs": [
+    "datum:#93",
+    "haecceity nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces",
+    "one datum reference surface is not axis-aligned",
+    "datum reference surface is unavailable"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:datum",
+   "id": "p:pmi_not_lowered:datum:#96",
+   "impact": "incomplete",
+   "message": "PMI datum:#96 (F) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "refs": [
+    "datum:#96",
+    "one datum reference surface is not axis-aligned",
+    "datum reference surface is unavailable"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1width.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1width.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f88,95:t=A|d:envelope/width.length",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol A crosses a line of 302.960.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f88,95:t=A",
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1width.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1width.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|d:envelope/width.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of 302.960.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.angularity:f110:ref=A",
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|d:step_level/step_height.length.h1_908",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of 1.908.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.angularity:f110:ref=A",
+    "d:step_level/step_height.length.h1_908"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|d:step_level/step_height.length.h76_2",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of 76.2.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.angularity:f110:ref=A",
+    "d:step_level/step_height.length.h76_2"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|d:step_level/step_height.length.h78_108",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of 78.108.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.angularity:f110:ref=A",
+    "d:step_level/step_height.length.h78_108"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.angularity:f110:ref=A/place",
+     "value": {
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.angularity:f110:ref=A/place",
+       "value": {
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of the feature control frame \u2313 1.524000000006 A B C.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.angularity:f110:ref=A",
+    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1width.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1width.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:envelope/width.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of 302.960.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.h1_908",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of 1.908.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
+    "d:step_level/step_height.length.h1_908"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.h76_2",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of 76.2.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
+    "d:step_level/step_height.length.h76_2"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.h78_108",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of 78.108.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
+    "d:step_level/step_height.length.h78_108"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C/place",
+     "value": {
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C/place",
+       "value": {
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|pmi:geometric_tolerance.angularity:f110:ref=A",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of the feature control frame \u2220 1.016000000004 A.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
+    "pmi:geometric_tolerance.angularity:f110:ref=A"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
+   "impact": "advisory",
+   "message": "The dimension \"485.445\" has modelled nominal 485.4448 but prints 485.445 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
+   "impact": "advisory",
+   "message": "The dimension \"162.690\" has modelled nominal 162.689737 but prints 162.690 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/height.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
+   "impact": "advisory",
+   "message": "The dimension \"302.960\" has modelled nominal 302.959786 but prints 302.960 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:1/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:13/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:14/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:15/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:slot:1/location_slot.length:d:f:slot:1/location_slot.length",
+   "impact": "advisory",
+   "message": "The dimension \"112.547\" has modelled nominal 112.5474 but prints 112.547 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:slot:1/location_slot.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:slot:1/location_slot_across.length:d:f:slot:1/location_slot_across.length",
+   "impact": "advisory",
+   "message": "The dimension \"59.540\" has modelled nominal 59.54014 but prints 59.540 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:slot:1/location_slot_across.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:slot:2/location_slot_across.length:d:f:slot:2/location_slot_across.length",
+   "impact": "advisory",
+   "message": "The dimension \"123.040\" has modelled nominal 123.04014 but prints 123.040 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:slot:2/location_slot_across.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:step_level/step_height.length.h1_908:d:step_level/step_height.length.h1_908",
+   "impact": "advisory",
+   "message": "The dimension \"1.908\" has modelled nominal 1.90754 but prints 1.908 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:step_level/step_height.length.h1_908"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:step_level/step_height.length.h78_108:d:step_level/step_height.length.h78_108",
+   "impact": "advisory",
+   "message": "The dimension \"78.108\" has modelled nominal 78.10754 but prints 78.108 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:step_level/step_height.length.h78_108"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:10/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"C1 \u230038.1 THRU 186.54 331.521 76.2 / +Z\" has modelled nominal 331.5208 but prints 331.521 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:11/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"B1 \u230015.875 THRU 211.458 96.774 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:2/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230011.125 THRU 27.308 466.395 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:3/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A2 \u230011.125 THRU 230.508 466.395 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:4/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A3 \u230011.125 THRU 230.508 19.05 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:4/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A3 \u230011.125 THRU 230.508 19.05 0 / +Z\" has modelled nominal 230.50754 but prints 230.508 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:5/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A4 \u230011.125 THRU 27.308 19.05 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:5/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A4 \u230011.125 THRU 27.308 19.05 0 / +Z\" has modelled nominal 27.30754 but prints 27.308 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:6/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"B2 \u230015.875 THRU 211.458 230.124 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:7/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"B3 \u230015.875 THRU 211.458 185.674 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:8/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"B4 \u230015.875 THRU 211.458 141.224 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:9/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"D1 \u230050.8 THRU 97.64 356.921 76.2 / +Z\" has modelled nominal 356.9208 but prints 356.921 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:3/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230011.125 THRU 27.308 466.395 0 / +Z A2 \u230011.125 THRU 230.508 466.395 0 / +Z A3 \u230011.125 THRU 230.508 19.05 0 / +Z A4 \u230011.125 THRU 27.308 19.05 0 / +Z B1 \u230015.875 THRU 211.458 96.774 76.2 / +Z B2 \u230015.875 THRU 211.458 230.124 76.2 / +Z B3 \u230015.875 THRU 211.458 185.674 76.2 / +Z B4 \u230015.875 THRU 211.458 141.224 76.2 / +Z C1 \u230038.1 THRU 186.54 331.521 76.2 / +Z D1 \u230050.8 THRU 97.64 356.921 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 75 of 120 faces; 45 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:2",
+    "face:3",
+    "face:6",
+    "face:7",
+    "face:14",
+    "face:20",
+    "face:44",
+    "face:46",
+    "face:60",
+    "face:61",
+    "face:62",
+    "face:64",
+    "face:65",
+    "face:68",
+    "face:70",
+    "face:71",
+    "face:72",
+    "face:73",
+    "face:74",
+    "face:75",
+    "face:76",
+    "face:77",
+    "face:78",
+    "face:80",
+    "face:82",
+    "face:85",
+    "face:87",
+    "face:91",
+    "face:94",
+    "face:96",
+    "face:98",
+    "face:100",
+    "face:102",
+    "face:103",
+    "face:105",
+    "face:107",
+    "face:108",
+    "face:109",
+    "face:110",
+    "face:112",
+    "face:113",
+    "face:115",
+    "face:116",
+    "face:117",
+    "face:118"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 R9.52 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 R9.52 crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 2\u00d7 R9.52 crosses a line of 123.040. [annotation_leader_crossing] The leader of 2\u00d7 R9.52 crosses the \u230050.8 hole. [leader_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:d:f:slot:1/slot_end_radius.radius|d:f:slot:1/location_slot.length",
+   "impact": "advisory",
+   "message": "The leader of 2\u00d7 R9.52 crosses a line of 112.547.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:1/slot_end_radius.radius",
+    "d:f:slot:1/location_slot.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 1.908 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 1.908 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 1.908 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 1.908. [annotation_leader_crossing] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f11,12:t=B|d:step_level/step_height.length.h1_908",
+   "impact": "advisory",
+   "message": "The leader of datum feature symbol B crosses a line of 1.908.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f11,12:t=B",
+    "d:step_level/step_height.length.h1_908"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 76.2 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 76.2 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 76.2 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 76.2. [annotation_leader_crossing] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230038.1 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230050.8 hole. [extension_through_feature] The second extension line of 76.2 crosses the 19.05 wide slot. [extension_through_feature] The second extension line of 76.2 crosses the 19.05 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f11,12:t=B|d:step_level/step_height.length.h76_2",
+   "impact": "advisory",
+   "message": "The leader of datum feature symbol B crosses a line of 76.2.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f11,12:t=B",
+    "d:step_level/step_height.length.h76_2"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 78.108 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 78.108 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 78.108 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 78.108. [annotation_leader_crossing] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230038.1 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230050.8 hole. [extension_through_feature] The second extension line of 78.108 crosses the 19.05 wide slot. [extension_through_feature] The second extension line of 78.108 crosses the 19.05 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f11,12:t=B|d:step_level/step_height.length.h78_108",
+   "impact": "advisory",
+   "message": "The leader of datum feature symbol B crosses a line of 78.108.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f11,12:t=B",
+    "d:step_level/step_height.length.h78_108"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f11,12:t=B|pmi:geometric_tolerance.angularity:f110:ref=A",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of the feature control frame \u2220 1.016000000004 A.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f11,12:t=B",
+    "pmi:geometric_tolerance.angularity:f110:ref=A"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f11,12:t=B|pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of the feature control frame \u2313 1.524000000006 A B C.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f11,12:t=B",
+    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|pmi:datum.datum:f11,12:t=B",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of datum feature symbol B.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.angularity:f110:ref=A",
+    "pmi:datum.datum:f11,12:t=B"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|pmi:datum.datum:f11,12:t=B",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of datum feature symbol B.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
+    "pmi:datum.datum:f11,12:t=B"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:hole",
+   "id": "p:feature_not_located:f:hole:1/location.length.y",
+   "impact": "incomplete",
+   "message": "the \u23004.763 hole on y: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:hole",
+   "id": "p:feature_not_located:f:hole:12/location.length.y",
+   "impact": "incomplete",
+   "message": "the \u230027.051 hole on y: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:12"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:hole",
+   "id": "p:feature_not_located:f:hole:13/location.length.y",
+   "impact": "incomplete",
+   "message": "the \u23004.763 hole on y: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:13"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:hole",
+   "id": "p:feature_not_located:f:hole:14/location.length.y",
+   "impact": "incomplete",
+   "message": "the \u23004.763 hole on y: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:14"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:hole",
+   "id": "p:feature_not_located:f:hole:15/location.length.y",
+   "impact": "incomplete",
+   "message": "the \u23004.763 hole on y: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:15"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:slot",
+   "id": "p:feature_not_located:f:slot:2/location.length.y",
+   "impact": "incomplete",
+   "message": "the 19.05 wide slot on y: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:slot:2"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "d:envelope/profile_angle.angle.f118_e339_e10_e139_e346",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:side:d:envelope/profile_angle.angle.f118_e339_e10_e139_e346",
+   "impact": "advisory",
+   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=163.6\u2013260.6, y=62.0\u201394.5] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:side"
+  }
+ ],
+ "summary": {
+  "groups": {
+   "annotation_leader_crossing:arrow+leader": 2,
+   "annotation_leader_crossing:dimension_line": 3,
+   "annotation_leader_crossing:extension_line": 10,
+   "annotation_leader_crossing:leader": 4,
+   "datum_origin_unusable": 4,
+   "feature_not_dimensioned:hole": 5,
+   "feature_not_located:hole": 10,
+   "feature_not_located:slot": 2,
+   "features_not_recognised": 1,
+   "general_tolerance_missing": 1,
+   "hole_pattern_requirement_missing:grid_pitch.length.col": 1,
+   "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
+   "hole_pattern_requirement_missing:location.length.x": 1,
+   "hole_pattern_requirement_missing:location.length.y": 1,
+   "nominal_rounded": 25,
+   "pmi_not_extracted": 6,
+   "pmi_not_extracted:datum": 2,
+   "pmi_not_extracted:dimension": 10,
+   "pmi_not_extracted:finding": 16,
+   "pmi_not_extracted:geometric_tolerance": 10,
+   "pmi_not_lowered:datum": 6,
+   "pmi_not_lowered:dimension": 20,
+   "pmi_not_lowered:geometric_tolerance": 20,
+   "pmi_presentation_not_read": 1,
+   "radius_leader_not_radial": 2,
+   "slot_requirement_missing:location_slot.length": 1,
+   "unclaimed_geometry": 1,
+   "view_annotation_inside_extents": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 64,
+    "groups": 8
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 91,
+    "groups": 15
+   },
+   "readability": {
+    "findings": 11,
+    "groups": 4
+   }
+  }
+ }
+}

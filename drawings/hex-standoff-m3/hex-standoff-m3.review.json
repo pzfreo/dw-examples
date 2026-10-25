@@ -1,0 +1,181 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   }
+  ],
+  "supported": 1,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "annotation": "d:f:chamfer:1/chamfer.length",
+   "at": [
+    37.5,
+    71.25000999728499
+   ],
+   "code": "chamfer_leader_target_unverifiable",
+   "evidence": "no coaxial turned band holds its station",
+   "group": "chamfer_leader_target_unverifiable",
+   "id": "l:chamfer_leader_target_unverifiable:d:f:chamfer:1/chamfer.length",
+   "impact": "advisory",
+   "measurements": [
+    "f:chamfer:1/chamfer.length"
+   ],
+   "message": "d:f:chamfer:1/chamfer.length: the chamfer leader's target cannot be verified in this view",
+   "severity": "info",
+   "subjects": [
+    "f:chamfer:1"
+   ],
+   "view": "v:front"
+  }
+ ],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "5:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "5:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
+   "impact": "advisory",
+   "message": "The dimension \"6.351\" has modelled nominal 6.350853 but prints 6.351 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/location.length.y:d:f:hole:1/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"3.175\" has modelled nominal 3.175426 but prints 3.175 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/location.length.y"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 7 of 13 faces; 6 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:2",
+    "face:5",
+    "face:6",
+    "face:7",
+    "face:8",
+    "face:12"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "chamfer_leader_target_unverifiable": 1,
+   "general_tolerance_missing": 1,
+   "nominal_rounded": 2,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 4,
+    "groups": 3
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 0,
+    "groups": 0
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}

@@ -1,32 +1,220 @@
-# Every drawing in this repo is one entry here: a STEP file plus the draftwright CLI
-# arguments used to build it. There is no per-drawing code, patching or post-processing —
-# `build.py` passes exactly these arguments to the stock `draftwright` CLI.
+# Every drawing in this repo is one entry here: a STEP file plus what goes in its title
+# block. There is no per-drawing code, patching or post-processing: `build.py` writes the
+# title block into a minimal draftwright Spec beside the drawing and runs the stock
+# `draftwright render` and `draftwright review` commands on it.
 #
-# `args` below is prepended to every drawing's own `args`.
+# `draftwright` is the pzfreo/draftwright-rust release tag that builds every drawing. CI
+# installs exactly that tag; changing it here is what rebuilds the drawings.
 
-args = ["--format", "pdf", "--no-progress"]
+draftwright = "v0.1.0-alpha.14"
+formats = ["pdf"]
 
 [[drawing]]
 name = "nist-ctc-01"
 step = "steps/nist/nist_ctc_01_asme1_ap242.stp"
-args = ["--title", "NIST CTC-01", "--number", "NIST-CTC-01"]
+title = "NIST CTC-01"
+number = "NIST-CTC-01"
 
 [[drawing]]
 name = "nist-ctc-02"
 step = "steps/nist/nist_ctc_02_asme1_ap242.stp"
-args = ["--title", "NIST CTC-02", "--number", "NIST-CTC-02"]
+title = "NIST CTC-02"
+number = "NIST-CTC-02"
 
 [[drawing]]
 name = "nist-ctc-03"
 step = "steps/nist/nist_ctc_03_asme1_ap242.stp"
-args = ["--title", "NIST CTC-03", "--number", "NIST-CTC-03"]
+title = "NIST CTC-03"
+number = "NIST-CTC-03"
 
 [[drawing]]
 name = "nist-ctc-04"
 step = "steps/nist/nist_ctc_04_asme1_ap242.stp"
-args = ["--title", "NIST CTC-04", "--number", "NIST-CTC-04"]
+title = "NIST CTC-04"
+number = "NIST-CTC-04"
 
 [[drawing]]
 name = "nist-ctc-05"
 step = "steps/nist/nist_ctc_05_asme1_ap242.stp"
-args = ["--title", "NIST CTC-05", "--number", "NIST-CTC-05"]
+title = "NIST CTC-05"
+number = "NIST-CTC-05"
+
+[[drawing]]
+name = "nist-ftc-06"
+step = "steps/nist/nist_ftc_06_asme1_ap242-e2.stp"
+title = "NIST FTC-06"
+number = "NIST-FTC-06"
+
+[[drawing]]
+name = "nist-ftc-07"
+step = "steps/nist/nist_ftc_07_asme1_ap242-e2.stp"
+title = "NIST FTC-07"
+number = "NIST-FTC-07"
+
+[[drawing]]
+name = "nist-ftc-08"
+step = "steps/nist/nist_ftc_08_asme1_ap242-e2.stp"
+title = "NIST FTC-08"
+number = "NIST-FTC-08"
+
+[[drawing]]
+name = "nist-ftc-10"
+step = "steps/nist/nist_ftc_10_asme1_ap242-e2.stp"
+title = "NIST FTC-10"
+number = "NIST-FTC-10"
+
+[[drawing]]
+name = "nist-ftc-11"
+step = "steps/nist/nist_ftc_11_asme1_ap242-e3.stp"
+title = "NIST FTC-11"
+number = "NIST-FTC-11"
+
+[[drawing]]
+name = "nist-stc-06"
+step = "steps/nist/nist_stc_06_asme1_ap242-e3.stp"
+title = "NIST STC-06"
+number = "NIST-STC-06"
+
+[[drawing]]
+name = "nist-stc-07"
+step = "steps/nist/nist_stc_07_asme1_ap242-e3.stp"
+title = "NIST STC-07"
+number = "NIST-STC-07"
+
+[[drawing]]
+name = "nist-stc-08"
+step = "steps/nist/nist_stc_08_asme1_ap242-e3.stp"
+title = "NIST STC-08"
+number = "NIST-STC-08"
+
+[[drawing]]
+name = "nist-stc-09"
+step = "steps/nist/nist_stc_09_asme1_ap242-e4.stp"
+title = "NIST STC-09"
+number = "NIST-STC-09"
+
+[[drawing]]
+name = "nist-stc-10"
+step = "steps/nist/nist_stc_10_asme1_ap242-e2.stp"
+title = "NIST STC-10"
+number = "NIST-STC-10"
+
+[[drawing]]
+name = "nema17-mount-bracket"
+step = "steps/freecad/nema17-mount-bracket.step"
+title = "NEMA 17 mount bracket"
+number = "FC-NEMA17-MOUNT-BRACKET"
+
+[[drawing]]
+name = "bearing-608zz"
+step = "steps/freecad/bearing-608zz.step"
+title = "608ZZ ball bearing"
+number = "FC-BEARING-608ZZ"
+
+[[drawing]]
+name = "bearing-lm10uu"
+step = "steps/freecad/bearing-lm10uu.step"
+title = "LM10UU linear bearing"
+number = "FC-BEARING-LM10UU"
+
+[[drawing]]
+name = "sprocket-iso606-z08"
+step = "steps/freecad/sprocket-iso606-z08.step"
+title = "Sprocket ANSI simplex 1/2x1/4 z08"
+number = "FC-SPROCKET-ISO606-Z08"
+
+[[drawing]]
+name = "hirth-joint"
+step = "steps/freecad/hirth-joint.step"
+title = "Hirth joint D20x8 T16x60"
+number = "FC-HIRTH-JOINT"
+
+[[drawing]]
+name = "retaining-ring-din471-m10"
+step = "steps/freecad/retaining-ring-din471-m10.step"
+title = "DIN 471 M10 retaining ring"
+number = "FC-RETAINING-RING-DIN471-M10"
+
+[[drawing]]
+name = "hex-standoff-m3"
+step = "steps/freecad/hex-standoff-m3.step"
+title = "M3 x 12 hex standoff"
+number = "FC-HEX-STANDOFF-M3"
+
+[[drawing]]
+name = "vslot-2020x50"
+step = "steps/freecad/vslot-2020x50.step"
+title = "2020 V-slot extrusion x 50"
+number = "FC-VSLOT-2020X50"
+
+[[drawing]]
+name = "corner-bracket-2020"
+step = "steps/freecad/corner-bracket-2020.step"
+title = "2020 corner bracket"
+number = "FC-CORNER-BRACKET-2020"
+
+[[drawing]]
+name = "gantry-plate"
+step = "steps/freecad/gantry-plate.step"
+title = "Gantry plate 20 mm V-slot"
+number = "FC-GANTRY-PLATE"
+
+[[drawing]]
+name = "l-plate-5-holes"
+step = "steps/freecad/l-plate-5-holes.step"
+title = "L joining plate, 5 holes"
+number = "FC-L-PLATE-5-HOLES"
+
+[[drawing]]
+name = "lm8uu"
+step = "steps/freecad/lm8uu.step"
+title = "LM8UU linear bearing"
+number = "FC-LM8UU"
+
+[[drawing]]
+name = "shf08"
+step = "steps/freecad/shf08.step"
+title = "SHF08 shaft support"
+number = "FC-SHF08"
+
+[[drawing]]
+name = "sk08"
+step = "steps/freecad/sk08.step"
+title = "SK08 shaft support"
+number = "FC-SK08"
+
+[[drawing]]
+name = "t8-housing-bracket"
+step = "steps/freecad/t8-housing-bracket.step"
+title = "T8 housing bracket"
+number = "FC-T8-HOUSING-BRACKET"
+
+[[drawing]]
+name = "t8-flange-nut"
+step = "steps/freecad/t8-flange-nut.step"
+title = "T8 flange nut"
+number = "FC-T8-FLANGE-NUT"
+
+[[drawing]]
+name = "vslot-20x20-100"
+step = "steps/freecad/vslot-20x20-100.step"
+title = "V-slot 20x20 x 100"
+number = "FC-VSLOT-20X20-100"
+
+[[drawing]]
+name = "gt2-pulley"
+step = "steps/freecad/gt2-pulley.stp"
+title = "GT2 pulley"
+number = "FC-GT2-PULLEY"
+
+[[drawing]]
+name = "nema17-bracket"
+step = "steps/build123d/nema-17-bracket.step"
+title = "NEMA 17 bracket"
+number = "B123D-NEMA17-BRACKET"
+
+[[drawing]]
+name = "linkrods"
+step = "steps/occt/linkrods.step"
+title = "Link rods"
+number = "OCCT-LINKRODS"

@@ -1,0 +1,543 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:2/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   }
+  ],
+  "supported": 2,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "features_not_recognised",
+   "group": "features_not_recognised",
+   "id": "p:features_not_recognised:part",
+   "impact": "incomplete",
+   "message": "Unrecognised features on this part: 18 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "refs": [
+    "freeform_surfaces",
+    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "Python quiddity's recognition (tools/recognise.py) gives these families"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "10:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "10:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "layout_recovery_exhausted",
+   "group": "layout_recovery_exhausted",
+   "id": "p:layout_recovery_exhausted:sheet",
+   "impact": "advisory",
+   "message": "A4 at 10:1 has 1 hole location too close to read; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 10:1 fill 17.4% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A4 5:1 fill 8.8% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A3 10:1 fill 8.7% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A3 5:1 fill 4.2% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A4 multi-sheet: 1 sheets at 10:1, 0 hard findings, 1 required drops, required measurements retained true, drawn bounds fit true, additional view conflicts false, blocking problems []; A3 multi-sheet: 1 sheets at 10:1, 0 hard findings, 1 required drops, required measurements retained true, drawn bounds fit true, additional view conflicts false, blocking problems []; A2 10:1 fill 4.1% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A2 5:1 fill 2.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A1 10:1 fill 2.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A1 5:1 fill 1.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A0 10:1 fill 1.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A0 5:1 fill 0.5% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns).",
+   "severity": "info",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1location.length.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
+      "side": "right",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "10:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 0.625 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 0.625 runs through the label of 0.75. [annotation_ink_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 1,
+        "side": "right",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "10:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 5:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "5:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:2/location.length.y|f:hole:1:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 0.625 crosses the \u23001.034 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:2/location.length.y",
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:1~1location.length.y/place",
+     "value": {
+      "offset": [
+       -21.0,
+       0.0
+      ],
+      "pinned": true,
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "10:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 0.75 dimension 21 mm left of where draftwright placed it, in the plan view. Trade-off: adds these findings: The label of 0.75 lies over the plan view. [annotation_over_view] The leader of \u23000.440 THRU crosses a line of 0.75. [annotation_leader_crossing] A line of 0.625 runs through the label of 0.75. [annotation_ink_overlap] A line of 0.75 runs through the label of \u23000.440 THRU. [annotation_ink_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:1~1location.length.y/place",
+       "value": {
+        "offset": [
+         -21.0,
+         0.0
+        ],
+        "pinned": true,
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "10:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 5:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "5:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:1/location.length.y|f:hole:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 0.75 crosses the \u23000.440 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/location.length.y",
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h1_475/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "10:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 1.475 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The second extension line of 1.475 crosses the \u23001.034 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h1_475/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "10:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 5:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "5:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h1_475|f:hole:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 1.475 crosses the \u23000.440 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h1_475",
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
+   "impact": "advisory",
+   "message": "The dimension \"5.020\" has modelled nominal 5.020285 but prints 5.020 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:boss:1/boss.diameter:d:f:boss:1/boss.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"\u00f80.791\" has modelled nominal 0.790569 but prints 0.791 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:boss:1/boss.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:1/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"\u23001.034 THRU\" has modelled nominal 1.03447 but prints 1.034 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:2/bore.diameter:d:f:hole:2/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"\u23000.440 THRU\" has modelled nominal 0.439847 but prints 0.440 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:2/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:step_level/step_height.length.h1_475:d:step_level/step_height.length.h1_475",
+   "impact": "advisory",
+   "message": "The dimension \"1.475\" has modelled nominal 1.474931 but prints 1.475 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:step_level/step_height.length.h1_475"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 12 of 37 faces; 25 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:12",
+    "face:13",
+    "face:14",
+    "face:15",
+    "face:16",
+    "face:17",
+    "face:18",
+    "face:19",
+    "face:20",
+    "face:21",
+    "face:22",
+    "face:23",
+    "face:24",
+    "face:25",
+    "face:26",
+    "face:27",
+    "face:28",
+    "face:29",
+    "face:30",
+    "face:31",
+    "face:32",
+    "face:33",
+    "face:34",
+    "face:35",
+    "face:36"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "extension_through_feature": 3,
+   "features_not_recognised": 1,
+   "general_tolerance_missing": 1,
+   "layout_recovery_exhausted": 1,
+   "nominal_rounded": 5,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 10,
+    "groups": 4
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 1,
+    "groups": 1
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}

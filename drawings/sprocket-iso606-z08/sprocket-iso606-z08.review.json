@@ -1,0 +1,283 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   }
+  ],
+  "supported": 1,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "annotation": "d:f:fillet:13/fillet.radius",
+   "at": [
+    33.24686705690822,
+    30.65801000337601
+   ],
+   "code": "radius_leader_target_unverifiable",
+   "evidence": "the view does not show a proven circular radius section end-on",
+   "group": "radius_leader_target_unverifiable",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:13/fillet.radius",
+   "impact": "advisory",
+   "measurements": [
+    "f:fillet:1/fillet.radius",
+    "f:fillet:2/fillet.radius",
+    "f:fillet:3/fillet.radius",
+    "f:fillet:4/fillet.radius",
+    "f:fillet:5/fillet.radius",
+    "f:fillet:6/fillet.radius",
+    "f:fillet:7/fillet.radius",
+    "f:fillet:8/fillet.radius",
+    "f:fillet:9/fillet.radius",
+    "f:fillet:10/fillet.radius",
+    "f:fillet:11/fillet.radius",
+    "f:fillet:12/fillet.radius",
+    "f:fillet:13/fillet.radius",
+    "f:fillet:14/fillet.radius",
+    "f:fillet:15/fillet.radius",
+    "f:fillet:16/fillet.radius"
+   ],
+   "message": "d:f:fillet:13/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "severity": "info",
+   "subjects": [
+    "f:fillet:1",
+    "f:fillet:2",
+    "f:fillet:3",
+    "f:fillet:4",
+    "f:fillet:5",
+    "f:fillet:6",
+    "f:fillet:7",
+    "f:fillet:8",
+    "f:fillet:9",
+    "f:fillet:10",
+    "f:fillet:11",
+    "f:fillet:12",
+    "f:fillet:13",
+    "f:fillet:14",
+    "f:fillet:15",
+    "f:fillet:16"
+   ],
+   "view": "v:front"
+  }
+ ],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "2:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
+   "impact": "advisory",
+   "message": "The dimension \"36.228\" has modelled nominal 36.227707 but prints 36.228 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
+   "impact": "advisory",
+   "message": "The dimension \"36.228\" has modelled nominal 36.227707 but prints 36.228 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/location.length.x:d:f:hole:1/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"18.114\" has modelled nominal 18.113853 but prints 18.114 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/location.length.x"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/location.length.y:d:f:hole:1/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"18.114\" has modelled nominal 18.113853 but prints 18.114 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/location.length.y"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 38 of 94 faces; 56 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:0",
+    "face:1",
+    "face:6",
+    "face:7",
+    "face:8",
+    "face:9",
+    "face:10",
+    "face:11",
+    "face:13",
+    "face:14",
+    "face:17",
+    "face:18",
+    "face:19",
+    "face:20",
+    "face:23",
+    "face:24",
+    "face:25",
+    "face:26",
+    "face:29",
+    "face:30",
+    "face:31",
+    "face:32",
+    "face:45",
+    "face:46",
+    "face:48",
+    "face:49",
+    "face:51",
+    "face:52",
+    "face:53",
+    "face:54",
+    "face:55",
+    "face:57",
+    "face:59",
+    "face:60",
+    "face:62",
+    "face:63",
+    "face:66",
+    "face:67",
+    "face:68",
+    "face:69",
+    "face:70",
+    "face:71",
+    "face:74",
+    "face:75",
+    "face:77",
+    "face:78",
+    "face:80",
+    "face:81",
+    "face:82",
+    "face:83",
+    "face:84",
+    "face:85",
+    "face:88",
+    "face:89",
+    "face:90",
+    "face:91"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "general_tolerance_missing": 1,
+   "nominal_rounded": 4,
+   "radius_leader_target_unverifiable": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 6,
+    "groups": 3
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 0,
+    "groups": 0
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}

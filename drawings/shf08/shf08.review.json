@@ -1,0 +1,316 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:2/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:2/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   }
+  ],
+  "supported": 5,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e33:e31/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e33:e31/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e33:e31 requires 39.2\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e33:e31",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e33:e31"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e31:e30/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e31:e30/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e31:e30 requires 161.7\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e31:e30",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e31:e30"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e30:e29/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e30:e29/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e30:e29 requires 161.7\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e30:e29",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e30:e29"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e29:e8/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e29:e8/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e29:e8 requires 39.2\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e29:e8",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e29:e8"
+   ]
+  },
+  {
+   "annotation": "d:f:blend:1/blend.radius",
+   "at": [
+    31.78838455719314,
+    93.13845102582528
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:blend:1/blend.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:blend:1/blend.radius",
+    "f:blend:2/blend.radius"
+   ],
+   "message": "d:f:blend:1/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:blend:1",
+    "f:blend:2"
+   ],
+   "view": "v:front"
+  }
+ ],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "2:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e33_e31_e29_e8",
+   "impact": "advisory",
+   "message": "The dimension 2\u00d7 39.180\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e33_e31_e29_e8"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e31_e30_e30_e29",
+   "impact": "advisory",
+   "message": "The dimension 2\u00d7 161.681\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e31_e30_e30_e29"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 13 of 31 faces; 18 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:0",
+    "face:1",
+    "face:2",
+    "face:8",
+    "face:9",
+    "face:10",
+    "face:11",
+    "face:12",
+    "face:14",
+    "face:15",
+    "face:16",
+    "face:19",
+    "face:20",
+    "face:21",
+    "face:22",
+    "face:23",
+    "face:24",
+    "face:29"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "angular_dimension_dropped": 2,
+   "angular_requirement_missing:profile_angle.angle": 4,
+   "general_tolerance_missing": 1,
+   "radius_leader_not_radial": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 3,
+    "groups": 2
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 4,
+    "groups": 1
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
+   }
+  }
+ }
+}

@@ -4,24 +4,20 @@ on:
   push:
     branches: [main]
     paths:
-      - pyproject.toml
-      - uv.lock
       - drawings.toml
       - build.py
       - steps/**
       - .github/workflows/drawings.yml
   pull_request:
     paths:
-      - pyproject.toml
-      - uv.lock
       - drawings.toml
       - build.py
       - steps/**
       - .github/workflows/drawings.yml
   workflow_dispatch:
 
-# A Dependabot PR bumping the draftwright pin builds the drawings as a check; merging it
-# reaches the main-push branch below, which rebuilds them and commits the result.
+# A PR that changes the draftwright tag in drawings.toml builds the drawings as a check;
+# merging it reaches the main-push branch below, which rebuilds them and commits the result.
 
 concurrency:
   group: drawings-${{ github.ref }}
@@ -39,16 +35,27 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
-      - uses: astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39 # v8.2.0
+      - name: Read the draftwright tag
+        id: dw
+        run: echo "tag=$(python3 -c 'import tomllib;print(tomllib.load(open("drawings.toml","rb"))["draftwright"])')" >> "$GITHUB_OUTPUT"
+      # draftwright-rust publishes no binaries, so the CLI is built from its tag once and cached.
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        id: cache
         with:
-          enable-cache: true
-          python-version: "3.12"
-      - name: Install the pinned draftwright
-        run: uv sync --frozen
-      - name: Report the draftwright version
-        run: uv run draftwright --version
+          path: ~/.local/draftwright
+          key: draftwright-${{ steps.dw.outputs.tag }}-${{ runner.os }}
+      - name: Install draftwright ${{ steps.dw.outputs.tag }}
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --branch "${{ steps.dw.outputs.tag }}" https://github.com/pzfreo/draftwright-rust "$RUNNER_TEMP/draftwright-rust"
+          # The repository's rust-toolchain.toml picks the toolchain.
+          cd "$RUNNER_TEMP/draftwright-rust"
+          rustup toolchain install
+          cargo install --locked --path . --bin draftwright --root ~/.local/draftwright
+      - run: echo "$HOME/.local/draftwright/bin" >> "$GITHUB_PATH"
       - name: Rebuild every drawing
-        run: uv run python build.py
+        run: python3 build.py
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         if: always()
         with:
@@ -58,13 +65,12 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           set -euo pipefail
-          if git diff --quiet -- drawings; then
+          if git diff --quiet -- drawings && [ -z "$(git ls-files --others --exclude-standard drawings)" ]; then
             echo "drawings unchanged"
             exit 0
           fi
-          version=$(uv run draftwright --version | awk '{print $NF}')
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add drawings
-          git commit -m "Rebuild drawings with draftwright ${version}"
+          git commit -m "Rebuild drawings with draftwright ${{ steps.dw.outputs.tag }}"
           git push

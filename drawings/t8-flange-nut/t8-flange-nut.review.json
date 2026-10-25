@@ -1,0 +1,448 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:5/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   }
+  ],
+  "supported": 5,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "hole_pattern_requirement_missing",
+   "fix": "State the location length x of the feature in a view that shows its true size or location.",
+   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:location.length.x",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.x",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:1/location.length.x"
+   ],
+   "message": "f:hole_pattern:1 has no proven x location of its physical member anchor on the drawing.",
+   "related": [
+    "f:hole:1",
+    "f:hole:4",
+    "f:hole:3",
+    "f:hole:2"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:1",
+     "parameter": "location.length.x"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:1"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "fix": "State the location length y of the feature in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:location.length.y",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:1/location.length.y"
+   ],
+   "message": "f:hole_pattern:1 has no proven y location of its physical member anchor on the drawing.",
+   "related": [
+    "f:hole:1",
+    "f:hole:4",
+    "f:hole:3",
+    "f:hole:2"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:1",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:1"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_unverifiable",
+   "fix": "State the grid pitch length col of the feature in a view that shows its true size or location.",
+   "fix_description": "State the grid pitch length col of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_unverifiable:grid_pitch.length.col",
+   "id": "l:hole_pattern_requirement_unverifiable:f:hole_pattern:1/grid_pitch.length.col",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:1/grid_pitch.length.col"
+   ],
+   "message": "f:hole_pattern:1: grid_pitch.length.col is not proved by the printed drawing.",
+   "related": [
+    "f:hole:1",
+    "f:hole:4",
+    "f:hole:3",
+    "f:hole:2"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:1",
+     "parameter": "grid_pitch.length.col"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:1"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_unverifiable",
+   "fix": "State the grid pitch length row of the feature in a view that shows its true size or location.",
+   "fix_description": "State the grid pitch length row of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_unverifiable:grid_pitch.length.row",
+   "id": "l:hole_pattern_requirement_unverifiable:f:hole_pattern:1/grid_pitch.length.row",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:1/grid_pitch.length.row"
+   ],
+   "message": "f:hole_pattern:1: grid_pitch.length.row is not proved by the printed drawing.",
+   "related": [
+    "f:hole:1",
+    "f:hole:4",
+    "f:hole:3",
+    "f:hole:2"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:1",
+     "parameter": "grid_pitch.length.row"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:1"
+   ]
+  }
+ ],
+ "problems": [
+  {
+   "code": "features_not_recognised",
+   "group": "features_not_recognised",
+   "id": "p:features_not_recognised:part",
+   "impact": "incomplete",
+   "message": "Unrecognised features on this part: 32 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "refs": [
+    "freeform_surfaces",
+    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "Python quiddity's recognition (tools/recognise.py) gives these families"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "detail_unplaceable",
+   "group": "detail_unplaceable",
+   "id": "p:detail_unplaceable:v:detail_a",
+   "impact": "readability",
+   "message": "turned-head detail has no reserved room or source view; its dimensions remain on the parent.",
+   "refs": [
+    "v:detail_a"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "2:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:5~1bore.diameter/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "2:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8 crosses a line of 19. [annotation_leader_crossing] A line of 19 runs through the label of \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8. [annotation_ink_overlap] The leader of \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8 crosses the \u23003.4 hole. [leader_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:5~1bore.diameter/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:f:hole:5/bore.diameter|f:hole:1:line:0",
+   "impact": "readability",
+   "message": "The leader of \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8 crosses the \u23003.4 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:5/bore.diameter",
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 29 of 60 faces; 31 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:1",
+    "face:4",
+    "face:5",
+    "face:6",
+    "face:14",
+    "face:17",
+    "face:19",
+    "face:20",
+    "face:21",
+    "face:23",
+    "face:25",
+    "face:26",
+    "face:27",
+    "face:29",
+    "face:31",
+    "face:32",
+    "face:33",
+    "face:35",
+    "face:36",
+    "face:37",
+    "face:38",
+    "face:39",
+    "face:40",
+    "face:42",
+    "face:44",
+    "face:46",
+    "face:48",
+    "face:51",
+    "face:52",
+    "face:56",
+    "face:57"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:plate",
+   "id": "p:feature_unplanned:f:plate:1",
+   "impact": "incomplete",
+   "message": "The 3.5 thick plate has no dimension drawn or carried by the hole table; review its omitted or undrawable items.",
+   "severity": "warning",
+   "subjects": [
+    "f:plate:1"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "detail_unplaceable": 1,
+   "feature_not_dimensioned:plate": 1,
+   "features_not_recognised": 1,
+   "general_tolerance_missing": 1,
+   "hole_pattern_requirement_missing:location.length.x": 1,
+   "hole_pattern_requirement_missing:location.length.y": 1,
+   "hole_pattern_requirement_unverifiable:grid_pitch.length.col": 1,
+   "hole_pattern_requirement_unverifiable:grid_pitch.length.row": 1,
+   "leader_through_feature": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 1,
+    "groups": 1
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 6,
+    "groups": 6
+   },
+   "readability": {
+    "findings": 2,
+    "groups": 2
+   }
+  }
+ }
+}

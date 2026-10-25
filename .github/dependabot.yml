@@ -1,15 +1,7 @@
 version: 2
 updates:
-  # The draftwright pin in pyproject.toml/uv.lock. A new release opens a PR here, whose
-  # Drawings check rebuilds everything against it; merging rebuilds and commits the output.
-  - package-ecosystem: uv
-    directory: /
-    schedule:
-      interval: daily
-    labels: [dependencies, draftwright]
-    commit-message:
-      prefix: deps
-
+  # The draftwright tag in drawings.toml is bumped by hand: draftwright-rust is not a
+  # package Dependabot can follow. Changing it rebuilds every drawing (see README).
   - package-ecosystem: github-actions
     directory: /
     schedule:

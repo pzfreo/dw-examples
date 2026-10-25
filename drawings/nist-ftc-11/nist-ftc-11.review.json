@@ -1,0 +1,791 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   }
+  ],
+  "supported": 1,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 0, 8, 10, 20",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:1",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 0, 14, 16, 20",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:2",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 0, 22, 40, 41",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:3",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 0, 24, 38, 41",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:4",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 0, 28, 34, 41",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:5",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 0, 29, 31, 41",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:6",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 0, 32, 34, 41",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:7",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f20:e49:e45/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f20:e49:e45/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f20:e49:e45 requires 42.8\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f20:e49:e45",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f20:e49:e45"
+   ]
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#110 was discovered but not extracted: the dimension modifier Reference is not carried",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#110",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#110"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:0 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:0",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:0"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:1 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:1",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:1"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:2 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:2",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:2"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:3 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:3",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:3"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:4 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:4",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:4"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:5 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:5",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:5"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#11 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#11",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#11"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#281 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#281",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#281"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#283 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#283",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#283"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "the dimension modifier Reference is not carried",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#110",
+   "impact": "incomplete",
+   "message": "The STEP curve length annotation could not be drawn: the dimension modifier Reference is not carried. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#110"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "one radius reference face is not cylindrical",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#112",
+   "impact": "incomplete",
+   "message": "The STEP radius annotation could not be drawn: one radius reference face is not cylindrical. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#112"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "one radius reference face is not cylindrical",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#113",
+   "impact": "incomplete",
+   "message": "The STEP radius annotation could not be drawn: one radius reference face is not cylindrical. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#113"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#52 (flatness 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#52",
+   "impact": "incomplete",
+   "message": "The STEP flatness annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#52"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#53 (profile_surface 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#53",
+   "impact": "incomplete",
+   "message": "The STEP profile surface annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#53"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#72 (circular_runout 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#72",
+   "impact": "incomplete",
+   "message": "The STEP circular runout annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#72"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#78 (circularity 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#78",
+   "impact": "incomplete",
+   "message": "The STEP circularity annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#78"
+   ],
+   "subjects": []
+  }
+ ],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#54",
+   "impact": "advisory",
+   "message": "Datum B cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#54"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#110",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#110 (197.920) is not drawn: the dimension modifier Reference is not carried.",
+   "refs": [
+    "dimension:#110",
+    "the dimension modifier Reference is not carried"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#112",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#112 (R1.5 \u00b10.04) is not drawn: one radius reference face is not cylindrical.",
+   "refs": [
+    "dimension:#112",
+    "one radius reference face is not cylindrical"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#113",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#113 (R0.1 MAX) is not drawn: one radius reference face is not cylindrical.",
+   "refs": [
+    "dimension:#113",
+    "one radius reference face is not cylindrical"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f20_e49_e45",
+   "impact": "advisory",
+   "message": "The dimension 42.760\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f20_e49_e45"
+   ]
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:0",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:0",
+    "property_definition",
+    "not a common label draftwright reads (no named presentation of it): common label has no presentation name"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:1",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:1",
+    "property_definition",
+    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:2",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:2",
+    "property_definition",
+    "not a common label draftwright reads (no named presentation of it): common label has no presentation name"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:3",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:3",
+    "property_definition",
+    "not a common label draftwright reads (no named presentation of it): common label has no presentation name"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:4",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:4",
+    "property_definition_representation",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:5",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:5",
+    "property_definition_representation",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#11",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#11",
+    "default_model_geometric_view",
+    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#281",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#281",
+    "shape_aspect",
+    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#283",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#283",
+    "shape_aspect",
+    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_presentation_not_read",
+   "group": "pmi_presentation_not_read",
+   "id": "p:pmi_presentation_not_read:part",
+   "impact": "advisory",
+   "message": "The STEP file carries 46 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
+   "refs": [
+    "part"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#52",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#52 (flatness 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "refs": [
+    "geometric_tolerance:#52",
+    "geometric-tolerance modifier 'free_state' is not supported"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#53",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#53 (profile_surface 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "refs": [
+    "geometric_tolerance:#53",
+    "geometric-tolerance modifier 'free_state' is not supported"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#72",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#72 (circular_runout 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "refs": [
+    "geometric_tolerance:#72",
+    "geometric-tolerance modifier 'free_state' is not supported"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#78",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#78 (circularity 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "refs": [
+    "geometric_tolerance:#78",
+    "geometric-tolerance modifier 'free_state' is not supported"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 7 of 42 faces; 35 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:0",
+    "face:3",
+    "face:4",
+    "face:6",
+    "face:7",
+    "face:8",
+    "face:9",
+    "face:10",
+    "face:12",
+    "face:13",
+    "face:14",
+    "face:15",
+    "face:16",
+    "face:17",
+    "face:18",
+    "face:20",
+    "face:21",
+    "face:22",
+    "face:24",
+    "face:25",
+    "face:26",
+    "face:27",
+    "face:28",
+    "face:29",
+    "face:30",
+    "face:31",
+    "face:32",
+    "face:33",
+    "face:34",
+    "face:35",
+    "face:36",
+    "face:37",
+    "face:38",
+    "face:40",
+    "face:41"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "pmi:datum.datum:f5:t=B",
+   "at": [
+    18.00001,
+    63.12501
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f5:t=B",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f5:t=B is 25.5 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "l:nominal_rounded",
+   "impact": "advisory",
+   "message": "1 dimension(s) print a nominal the model does not have, rounded to the sheet's precision; the largest is '1.925 \u00b10.08' for 1.9300 (0.0050 mm). Within a general tolerance this is ordinary. Where a fit depends on it, the dimension needs more places (set precision for its measurement ID)",
+   "severity": "info",
+   "subjects": []
+  }
+ ],
+ "summary": {
+  "groups": {
+   "angular_dimension_dropped": 1,
+   "angular_requirement_missing:profile_angle.angle": 1,
+   "datum_leader_remote": 1,
+   "datum_origin_unusable": 1,
+   "general_tolerance_missing": 1,
+   "nominal_rounded": 1,
+   "pmi_not_extracted": 12,
+   "pmi_not_extracted:dimension": 1,
+   "pmi_not_extracted:finding": 6,
+   "pmi_not_lowered:dimension": 6,
+   "pmi_not_lowered:geometric_tolerance": 8,
+   "pmi_presentation_not_read": 1,
+   "section_recess_recognition_refused": 7,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 23,
+    "groups": 7
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 23,
+    "groups": 5
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
+   }
+  }
+ }
+}
