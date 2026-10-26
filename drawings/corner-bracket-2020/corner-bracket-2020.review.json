@@ -1,0 +1,187 @@
+{
+ "drawing_consumer": {
+  "holes": [],
+  "supported": 0,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "angled_step_requirement_unsupported",
+   "fix": "Review and dimension the angle, legs and run of the angled step by hand.",
+   "fix_description": "Review and dimension the angle, legs and run of the angled step by hand.",
+   "group": "angled_step_requirement_unsupported",
+   "id": "l:angled_step_requirement_unsupported:f:angled_step:1",
+   "impact": "incomplete",
+   "message": "angled step f:angled_step:1: recognised angled blind step at 45 degrees with 2 mm run (1 of 2), at (1, -11.5, 11.5) is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:angled_step:1"
+   ]
+  },
+  {
+   "code": "angled_step_requirement_unsupported",
+   "fix": "Review and dimension the angle, legs and run of the angled step by hand.",
+   "fix_description": "Review and dimension the angle, legs and run of the angled step by hand.",
+   "group": "angled_step_requirement_unsupported",
+   "id": "l:angled_step_requirement_unsupported:f:angled_step:2",
+   "impact": "incomplete",
+   "message": "angled step f:angled_step:2: recognised angled blind step at 45 degrees with 2 mm run (2 of 2), at (16, -11.5, 11.5) is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:angled_step:2"
+   ]
+  }
+ ],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "angled_step_requirement_unsupported",
+   "group": "angled_step_requirement_unsupported",
+   "id": "p:angled_step_requirement_unsupported:f:angled_step:1",
+   "impact": "incomplete",
+   "message": "The 45\u00b0 angled step is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval.",
+   "severity": "warning",
+   "subjects": [
+    "f:angled_step:1"
+   ]
+  },
+  {
+   "code": "angled_step_requirement_unsupported",
+   "group": "angled_step_requirement_unsupported",
+   "id": "p:angled_step_requirement_unsupported:f:angled_step:2",
+   "impact": "incomplete",
+   "message": "The 45\u00b0 angled step is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval.",
+   "severity": "warning",
+   "subjects": [
+    "f:angled_step:2"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 26 of 40 faces; 14 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:5",
+    "face:7",
+    "face:10",
+    "face:11",
+    "face:13",
+    "face:15",
+    "face:18",
+    "face:20",
+    "face:22",
+    "face:24",
+    "face:27",
+    "face:28",
+    "face:38",
+    "face:39"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "angled_step_requirement_unsupported": 4,
+   "general_tolerance_missing": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 1,
+    "groups": 1
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 4,
+    "groups": 1
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}

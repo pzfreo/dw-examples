@@ -1,0 +1,2546 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:10/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:2/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:4/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:4/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:6/bore.diameter"
+    ],
+    "feature": "f:hole:6",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:7/bore.diameter"
+    ],
+    "feature": "f:hole:7",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:8/bore.diameter"
+    ],
+    "feature": "f:hole:8",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:10/bore.diameter"
+    ],
+    "feature": "f:hole:9",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:10/bore.diameter"
+    ],
+    "feature": "f:hole:10",
+    "state": "supported"
+   }
+  ],
+  "supported": 10,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#24 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#24",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#24"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#25 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#25",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#25"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#126 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#126",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#126"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#127 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#127",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#127"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:2 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:2",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:2"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:3 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:3",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:3"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:4 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:4",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:4"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#24",
+   "impact": "incomplete",
+   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#24"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#25",
+   "impact": "incomplete",
+   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#25"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#126",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#126"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#127",
+   "impact": "incomplete",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#127"
+   ],
+   "subjects": []
+  },
+  {
+   "annotation": "d:step_level/step_height.length.h50",
+   "code": "closed_dimension_chain",
+   "fix": "State the step height length h50 of the feature in a view that shows its true size or location.",
+   "fix_description": "State the step height length h50 of the feature in a view that shows its true size or location.",
+   "group": "closed_dimension_chain",
+   "id": "l:closed_dimension_chain:step_level/step_height.length.h50",
+   "impact": "advisory",
+   "measurements": [
+    "step_level/step_height.length.h50"
+   ],
+   "message": "A dimension chain and its total are all stated; omit a redundant member or show it in parentheses as reference.",
+   "related": [
+    "d:step_level/step_height.length.h50",
+    "d:envelope/height.length",
+    "d:f:polygonal_boss:1/boss_height.length"
+   ],
+   "requirements": [
+    {
+     "feature": "step_level",
+     "parameter": "step_height.length.h50"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "step_level"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length x of the polygonal boss in a view that shows its true size or location.",
+   "fix_description": "State the location length x of the polygonal boss in a view that shows its true size or location.",
+   "group": "feature_not_located:polygonal_boss",
+   "id": "l:feature_not_located:f:polygonal_boss:1/location.length.x",
+   "impact": "incomplete",
+   "measurements": [
+    "f:polygonal_boss:1/location.length.x"
+   ],
+   "message": "f:polygonal_boss:1 on x: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:polygonal_boss:1",
+     "parameter": "location.length.x"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:polygonal_boss:1"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length y of the slot in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the slot in a view that shows its true size or location.",
+   "group": "feature_not_located:slot",
+   "id": "l:feature_not_located:f:slot:1/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:slot:1/location.length.y"
+   ],
+   "message": "f:slot:1 on y: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:slot:1",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:slot:1"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "State the location length y of the slot in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the slot in a view that shows its true size or location.",
+   "group": "feature_not_located:slot",
+   "id": "l:feature_not_located:f:slot:2/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:slot:2/location.length.y"
+   ],
+   "message": "f:slot:2 on y: no drawn dimension chain reaches an origin.",
+   "requirements": [
+    {
+     "feature": "f:slot:2",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:slot:2"
+   ]
+  },
+  {
+   "annotation": "d:f:blend:23/blend.radius",
+   "at": [
+    114.38268343236508,
+    92.07613046748871
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:blend:23/blend.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:blend:23/blend.radius",
+    "f:blend:24/blend.radius",
+    "f:blend:25/blend.radius",
+    "f:blend:26/blend.radius",
+    "f:blend:27/blend.radius",
+    "f:blend:28/blend.radius"
+   ],
+   "message": "d:f:blend:23/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:blend:23",
+    "f:blend:24",
+    "f:blend:25",
+    "f:blend:26",
+    "f:blend:27",
+    "f:blend:28"
+   ],
+   "view": "v:front"
+  },
+  {
+   "annotation": "d:f:blend:1/blend.radius",
+   "at": [
+    174.61939766255642,
+    226.99257283817457
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:blend:1/blend.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:blend:1/blend.radius",
+    "f:blend:10/blend.radius",
+    "f:blend:4/blend.radius",
+    "f:blend:5/blend.radius"
+   ],
+   "message": "d:f:blend:1/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:blend:1",
+    "f:blend:10",
+    "f:blend:4",
+    "f:blend:5"
+   ],
+   "view": "v:plan"
+  }
+ ],
+ "problems": [
+  {
+   "code": "detail_unplaceable",
+   "group": "detail_unplaceable",
+   "id": "p:detail_unplaceable:v:detail_a",
+   "impact": "readability",
+   "message": "prismatic-steps detail has no reserved room or source view; its dimensions remain on the parent.",
+   "refs": [
+    "v:detail_a"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#35",
+   "impact": "advisory",
+   "message": "Datum B cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#35"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#36",
+   "impact": "advisory",
+   "message": "Datum C cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#36"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "location_on_datum",
+   "group": "location_on_datum",
+   "id": "p:location_on_datum:d:step_level/step_height.length.h100",
+   "impact": "advisory",
+   "message": "A feature lies on the selected datum; its location has no nonzero distance to draw.",
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#24",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#24 (linear) is not drawn: the file states no nominal value; the STEP reader nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one.",
+   "refs": [
+    "dimension:#24",
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#25",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#25 (linear) is not drawn: the file states no nominal value; the STEP reader nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one.",
+   "refs": [
+    "dimension:#25",
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#126",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#126 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one.",
+   "refs": [
+    "dimension:#126",
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#127",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#127 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one.",
+   "refs": [
+    "dimension:#127",
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:2",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:2",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:3",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:3",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:4",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:4",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_presentation_not_read",
+   "group": "pmi_presentation_not_read",
+   "id": "p:pmi_presentation_not_read:part",
+   "impact": "advisory",
+   "message": "The STEP file carries 71 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
+   "refs": [
+    "part"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:blend:23~1blend.radius/place",
+     "value": {
+      "along": "end",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 6\u00d7 R5 callout above the front view, nearest the view. Trade-off: adds these findings: The leader of 6\u00d7 R5 crosses a line of 50. [annotation_leader_crossing] The leader of 6\u00d7 R5 crosses a line of 510. [annotation_leader_crossing] The leader of 6\u00d7 R5 crosses a line of datum feature symbol A. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of 6\u00d7 R5. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:blend:23~1blend.radius/place",
+       "value": {
+        "along": "end",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:d:f:blend:23/blend.radius|pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around",
+   "impact": "readability",
+   "message": "The leader of 6\u00d7 R5 crosses a line of the feature control frame \u2313 0.5 A.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:blend:23/blend.radius",
+    "pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1height.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1height.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f75,76:t=C|d:envelope/height.length",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol C crosses a line of 150.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f75,76:t=C",
+    "d:envelope/height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1location.length.z/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1location.length.z/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f75,76:t=C|d:f:hole:2/location.length.z",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol C crosses a line of 25.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f75,76:t=C",
+    "d:f:hole:2/location.length.z"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h50/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h50/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f75,76:t=C|d:step_level/step_height.length.h50",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol C crosses a line of 50.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f75,76:t=C",
+    "d:step_level/step_height.length.h50"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:polygonal_boss:1~1boss_height.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:polygonal_boss:1~1boss_height.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f97:t=A|d:f:polygonal_boss:1/boss_height.length",
+   "impact": "advisory",
+   "message": "The leader of datum feature symbol A crosses a line of 50.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f97:t=A",
+    "d:f:polygonal_boss:1/boss_height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1depth.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1depth.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f37,41:ref=A,B,C|d:envelope/depth.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 0.75 A B C crosses a line of 450.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f37,41:ref=A,B,C",
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1notch_location_x.length.f97_e92_e96/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1notch_location_x.length.f97_e92_e96/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around|d:envelope/notch_location_x.length.f97_e92_e96",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2313 0.5 A crosses a line of 290.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around",
+    "d:envelope/notch_location_x.length.f97_e92_e96"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:blend:23~1blend.radius/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:blend:23~1blend.radius/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around|d:f:blend:23/blend.radius",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.5 A crosses a line of 6\u00d7 R5.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around",
+    "d:f:blend:23/blend.radius"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1depth.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1depth.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f22,23:ref=A,B,C|d:envelope/depth.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 1.25 A B C crosses a line of 450.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f22,23:ref=A,B,C",
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:10"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.col|f:slot:1:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 650 crosses the 40 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:2/grid_pitch.length.col",
+    "f:slot:1"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:10"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.col|f:slot:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 650 crosses the 50 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:2/grid_pitch.length.col",
+    "f:slot:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:hole:10:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 25 crosses the \u230025 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:2/location.length.z",
+    "f:hole:10"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:hole:4:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 25 crosses the \u230035 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:2/location.length.z",
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:hole:6:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 25 crosses the \u230035 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:2/location.length.z",
+    "f:hole:6"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:hole:8:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 25 crosses the \u230025 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:2/location.length.z",
+    "f:hole:8"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:slot:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 25 crosses the 50 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:2/location.length.z",
+    "f:slot:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 225 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: A line of 225 runs through the label of 2\u00d7 R20. [annotation_ink_overlap] A line of 225 runs through the label of 7\u00d7 R50. [annotation_ink_overlap] The leader of 2\u00d7 R20 crosses a line of 225. [annotation_leader_crossing] A line of 2\u00d7 50 runs through the label of 225. [annotation_ink_overlap] The second extension line of 225 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:1/location.length.y|f:slot:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 225 crosses the 50 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.y",
+    "f:slot:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:slot:2~1slot_length.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 100 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of \u230035 +0.2 -0.0 THRU crosses a line of 100. [annotation_leader_crossing] A line of 100 runs through the label of 3\u00d7 \u230025 THRU. [annotation_ink_overlap] The second extension line of 100 crosses the \u230035 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:2~1slot_length.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:2/slot_length.length|f:hole:4:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 100 crosses the \u230035 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:2/slot_length.length",
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:polygonal_boss:1~1location.length.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 225.000 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 R20 crosses a line of 225.000. [annotation_leader_crossing] A line of 225.000 runs through the label of 2\u00d7 R20. [annotation_ink_overlap] A line of 225.000 runs through the label of 7\u00d7 R50. [annotation_ink_overlap] A line of 2\u00d7 50 runs through the label of 225.000. [annotation_ink_overlap] The second extension line of 225.000 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:polygonal_boss:1~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:polygonal_boss:1/location.length.y|f:slot:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 225.000 crosses the 50 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:polygonal_boss:1/location.length.y",
+    "f:slot:2"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:polygonal_boss:1/location.length.y:d:f:polygonal_boss:1/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"225.000\" has modelled nominal 224.999973 but prints 225.000 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:polygonal_boss:1/location.length.y"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 91 of 117 faces; 26 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:8",
+    "face:10",
+    "face:14",
+    "face:18",
+    "face:20",
+    "face:28",
+    "face:30",
+    "face:31",
+    "face:33",
+    "face:35",
+    "face:36",
+    "face:37",
+    "face:39",
+    "face:41",
+    "face:42",
+    "face:44",
+    "face:48",
+    "face:56",
+    "face:57",
+    "face:58",
+    "face:59",
+    "face:60",
+    "face:61",
+    "face:62",
+    "face:82",
+    "face:86"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:polygonal_boss",
+   "id": "p:feature_not_located:f:polygonal_boss:1/location.length.x",
+   "impact": "incomplete",
+   "message": "the 100 A/F polygonal boss on x: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:polygonal_boss:1"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:slot",
+   "id": "p:feature_not_located:f:slot:1/location.length.y",
+   "impact": "incomplete",
+   "message": "the 40 wide slot on y: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:slot:1"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "group": "feature_not_located:slot",
+   "id": "p:feature_not_located:f:slot:2/location.length.y",
+   "impact": "incomplete",
+   "message": "the 50 wide slot on y: no drawn dimension chain reaches an origin.",
+   "severity": "warning",
+   "subjects": [
+    "f:slot:2"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "d:f:hole:10/bore.diameter",
+   "at": [
+    182.53300000000002,
+    150.86099
+   ],
+   "code": "annotation_ink_overlap",
+   "fix": "move what is drawn, not just the text",
+   "fix_description": "Move what is drawn, not just the text.",
+   "group": "annotation_ink_overlap",
+   "id": "l:annotation_ink_overlap:d:f:hole:10/bore.diameter+d:f:slot:2/location_slot.length",
+   "impact": "readability",
+   "message": "'635' draws 2.2 mm of line-work through the label '3\u00d7 \u230025 THRU' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
+   "related": [
+    "d:f:slot:2/location_slot.length"
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "annotation": "pmi:datum.datum:f75,76:t=C",
+   "at": [
+    238.0,
+    84.00001
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f75,76:t=C",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f75,76:t=C is 51.5 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  }
+ ],
+ "summary": {
+  "groups": {
+   "annotation_ink_overlap": 1,
+   "annotation_leader_crossing:dimension_line": 5,
+   "annotation_leader_crossing:extension_line": 2,
+   "annotation_leader_crossing:leader": 2,
+   "closed_dimension_chain": 1,
+   "datum_leader_remote": 1,
+   "datum_origin_unusable": 2,
+   "detail_unplaceable": 1,
+   "extension_through_feature": 10,
+   "feature_not_located:polygonal_boss": 2,
+   "feature_not_located:slot": 4,
+   "general_tolerance_missing": 1,
+   "location_on_datum": 1,
+   "nominal_rounded": 1,
+   "pmi_not_extracted": 6,
+   "pmi_not_extracted:dimension": 4,
+   "pmi_not_lowered:dimension": 8,
+   "pmi_presentation_not_read": 1,
+   "radius_leader_not_radial": 2,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 25,
+    "groups": 9
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 18,
+    "groups": 4
+   },
+   "readability": {
+    "findings": 12,
+    "groups": 6
+   }
+  }
+ }
+}

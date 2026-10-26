@@ -1,0 +1,517 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   }
+  ],
+  "supported": 5,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f27:e87:e89/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f27:e87:e89/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f27:e87:e89 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f27:e87:e89",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f27:e87:e89"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f27:e89:e91/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f27:e89:e91/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f27:e89:e91 requires 135.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f27:e89:e91",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f27:e89:e91"
+   ]
+  },
+  {
+   "code": "slot_requirement_missing",
+   "fix": "State its low end 8 from the part's x edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
+   "fix_description": "State its low end 8 from the part's x edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
+   "group": "slot_requirement_missing:location_slot.length",
+   "id": "l:slot_requirement_missing:f:slot:2/location_slot.length",
+   "impact": "incomplete",
+   "measurements": [
+    "f:slot:2/location_slot.length"
+   ],
+   "message": "slot f:slot:2 4 \u00d7 34, ends R2, long along (1, 0, 0): requirement location_slot.length (its low end 8 from the part's x edge) is not stated on the sheet",
+   "requirements": [
+    {
+     "feature": "f:slot:2",
+     "parameter": "location_slot.length"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:slot:2"
+   ]
+  },
+  {
+   "annotation": "d:f:fillet:1/fillet.radius",
+   "at": [
+    88.25101,
+    63.3745
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:1/fillet.radius"
+   ],
+   "message": "d:f:fillet:1/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:1"
+   ],
+   "view": "v:front"
+  },
+  {
+   "annotation": "d:f:blend:5/blend.radius",
+   "at": [
+    86.09194976625565,
+    65.80415828381749
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:blend:5/blend.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:blend:5/blend.radius"
+   ],
+   "message": "d:f:blend:5/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:blend:5"
+   ],
+   "view": "v:front"
+  }
+ ],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f27_e87_e89",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f27_e87_e89"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f27_e89_e91",
+   "impact": "advisory",
+   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f27_e89_e91"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of \u230022.5 THRU crosses a line of 31. [annotation_leader_crossing] A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap] A line of 31 runs through the label of 135\u00b0. [annotation_ink_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:2:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 31 crosses the 4 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/grid_pitch.length.col",
+    "f:slot:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of \u230022.5 THRU crosses a line of 31. [annotation_leader_crossing] A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap] A line of 31 runs through the label of 135\u00b0. [annotation_ink_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:1:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 31 crosses the 4 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/grid_pitch.length.col",
+    "f:slot:1"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 31 of 43 faces; 12 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:0",
+    "face:10",
+    "face:20",
+    "face:21",
+    "face:23",
+    "face:24",
+    "face:25",
+    "face:26",
+    "face:31",
+    "face:32",
+    "face:33",
+    "face:36"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "d:envelope/profile_angle.angle.f27_e91_e53",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:side:d:envelope/profile_angle.angle.f27_e91_e53",
+   "impact": "advisory",
+   "message": "label of annotation '135\u00b0' lies inside view 'side' extents [x=134.1\u2013184.1, y=62.5\u2013112.5] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:side"
+  }
+ ],
+ "summary": {
+  "groups": {
+   "angular_dimension_dropped": 2,
+   "angular_requirement_missing:profile_angle.angle": 2,
+   "extension_through_feature": 2,
+   "general_tolerance_missing": 1,
+   "radius_leader_not_radial": 2,
+   "slot_requirement_missing:location_slot.length": 1,
+   "unclaimed_geometry": 1,
+   "view_annotation_inside_extents": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 6,
+    "groups": 4
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 3,
+    "groups": 2
+   },
+   "readability": {
+    "findings": 2,
+    "groups": 1
+   }
+  }
+ }
+}

@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Rebuild the drawings listed in drawings.toml with the installed draftwright CLI.
 
-Each manifest entry is a STEP file plus CLI arguments; nothing else is applied.
+Each manifest entry is a STEP file plus its title block; nothing else is applied. For each
+drawing this writes a minimal Spec holding the title block, then runs the stock
+`draftwright render` (the PDF) and `draftwright review` (problems and lint) on it.
 Run with no arguments to rebuild everything, or name drawings to rebuild a subset.
 """
 
@@ -13,50 +15,58 @@ import shutil
 import subprocess
 import sys
 import tomllib
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 MANIFEST = ROOT / "drawings.toml"
 OUT_ROOT = ROOT / "drawings"
+SPEC_SCHEMA = "draftwright.spec/2"
 
 
-def load_manifest(path: Path) -> tuple[list[str], list[dict]]:
+def load_manifest(path: Path) -> dict:
     data = tomllib.loads(path.read_text())
-    common = list(data.get("args", []))
-    drawings = data.get("drawing", [])
-    names = [d["name"] for d in drawings]
+    names = [d["name"] for d in data.get("drawing", [])]
     duplicates = {n for n in names if names.count(n) > 1}
     if duplicates:
         raise SystemExit(f"duplicate drawing names in {path.name}: {sorted(duplicates)}")
-    return common, drawings
+    if "draftwright" not in data:
+        raise SystemExit(f"{path.name} must name the draftwright release tag")
+    return data
 
 
-def draftwright_version(cli: str) -> str:
-    out = subprocess.run([cli, "--version"], capture_output=True, text=True, check=True)
-    return out.stdout.strip().split()[-1]
+def spec_for(entry: dict) -> dict:
+    title = {k: entry[k] for k in ("title", "number") if k in entry}
+    return {"schema": SPEC_SCHEMA, "sheet": {"title": title}}
 
 
-def report_summary(out_dir: Path, name: str) -> dict | None:
-    """Pull the headline lint numbers out of the CLI's JSON sidecar, if it wrote one."""
-    sidecar = out_dir / f"{name}.draftwright.json"
-    if not sidecar.is_file():
-        return None
-    try:
-        report = json.loads(sidecar.read_text())
-        lint = report["lint"]
-    except (json.JSONDecodeError, KeyError, OSError):
-        return None
+def review_summary(review: dict) -> dict:
+    """The headline numbers of a review, so a draftwright bump shows up as an index.json diff."""
+    findings = review.get("problems", []) + review.get("lint", [])
+    severity = Counter(f.get("severity") for f in findings)
+    impacts = {k: v["findings"] for k, v in review.get("summary", {}).get("impacts", {}).items()}
     return {
-        "status": report.get("status"),
-        "passed": lint.get("passed"),
-        "score": round(float(lint["score"]), 4) if lint.get("score") is not None else None,
-        "errors": lint.get("errors"),
-        "warnings": lint.get("warnings"),
-        "infos": lint.get("infos"),
+        "errors": severity["error"],
+        "warnings": severity["warning"],
+        "infos": severity["info"],
+        "impacts": dict(sorted(impacts.items())),
     }
 
 
-def build(entry: dict, common: list[str], cli: str, out_root: Path) -> dict:
+def run_json(cmd: list[str]) -> tuple[bool, dict]:
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    try:
+        doc = json.loads(result.stdout) if result.stdout.strip() else {}
+    except json.JSONDecodeError:
+        doc = {}
+    ok = result.returncode == 0 and doc.get("ok", True) is not False
+    if not ok:
+        error = doc.get("error") or result.stderr.strip() or f"exit {result.returncode}"
+        print(f"    {cmd[1]} failed: {json.dumps(error) if isinstance(error, dict) else error}")
+    return ok, doc
+
+
+def build(entry: dict, formats: list[str], cli: str, out_root: Path) -> dict:
     name = entry["name"]
     step = ROOT / entry["step"]
     if not step.is_file():
@@ -65,22 +75,22 @@ def build(entry: dict, common: list[str], cli: str, out_root: Path) -> dict:
     if out_dir.exists():
         shutil.rmtree(out_dir)
     out_dir.mkdir(parents=True)
-    args = common + list(entry.get("args", []))
-    cmd = [cli, str(step), "--out", str(out_dir / name), *args]
-    print(f"==> {name}: {' '.join(cmd[1:])}", flush=True)
-    result = subprocess.run(cmd)
-    files = sorted(p.name for p in out_dir.iterdir()) if out_dir.exists() else []
-    record = {
-        "name": name,
-        "step": entry["step"],
-        "args": args,
-        "files": files,
-        "ok": result.returncode == 0,
-    }
-    summary = report_summary(out_dir, name)
-    if summary is not None:
-        # Recorded so a draftwright bump shows any quality regression as an index.json diff.
-        record["report"] = summary
+    spec = out_dir / f"{name}.drawing.json"
+    spec.write_text(json.dumps(spec_for(entry), indent=2) + "\n")
+
+    print(f"==> {name}: {entry['step']}", flush=True)
+    rendered, _ = run_json(
+        [cli, "render", str(step), "--spec", str(spec), "-o", str(out_dir / name),
+         "--formats", ",".join(formats)]
+    )
+    reviewed, review = run_json([cli, "review", str(step), "--spec", str(spec)])
+    record = {"name": name, "step": entry["step"], "title": entry.get("title")}
+    if reviewed:
+        review.pop("svg", None)  # the drawing itself is the PDF beside it
+        (out_dir / f"{name}.review.json").write_text(json.dumps(review, indent=1) + "\n")
+        record["review"] = review_summary(review)
+    record["files"] = sorted(p.name for p in out_dir.iterdir())
+    record["ok"] = rendered and reviewed
     return record
 
 
@@ -93,7 +103,9 @@ def main() -> int:
     parser.add_argument("--list", action="store_true", help="list drawing names and exit")
     opts = parser.parse_args()
 
-    common, drawings = load_manifest(opts.manifest)
+    manifest = load_manifest(opts.manifest)
+    drawings = manifest.get("drawing", [])
+    formats = list(manifest.get("formats", ["pdf"]))
     if opts.list:
         for entry in drawings:
             print(entry["name"])
@@ -106,10 +118,9 @@ def main() -> int:
             raise SystemExit(f"unknown drawing(s): {unknown}; known: {sorted(known)}")
         drawings = [entry for entry in drawings if entry["name"] in opts.names]
 
-    version = draftwright_version(opts.cli)
+    version = manifest["draftwright"]
     print(f"draftwright {version}: building {len(drawings)} drawing(s)", flush=True)
-
-    results = [build(entry, common, opts.cli, opts.out_root) for entry in drawings]
+    results = [build(entry, formats, opts.cli, opts.out_root) for entry in drawings]
 
     index_path = opts.out_root / "index.json"
     index = {"draftwright": version, "drawings": []}
@@ -127,13 +138,8 @@ def main() -> int:
 
     failed = [r["name"] for r in results if not r["ok"]]
     for r in results:
-        summary = r.get("report") or {}
-        detail = ""
-        if summary:
-            detail = (
-                f", lint {summary['errors']}E/{summary['warnings']}W"
-                f" score {summary['score']}"
-            )
+        summary = r.get("review")
+        detail = f", review {summary['errors']}E/{summary['warnings']}W/{summary['infos']}I" if summary else ""
         print(f"{'ok  ' if r['ok'] else 'FAIL'} {r['name']}: {len(r['files'])} file(s){detail}")
     if failed:
         print(f"failed: {', '.join(failed)}", file=sys.stderr)

@@ -1,0 +1,2325 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "hole_schedule_plan/C1/size"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C2/size"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C3/size"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C4/size"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:5/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A7/size"
+    ],
+    "feature": "f:hole:6",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A8/size"
+    ],
+    "feature": "f:hole:7",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A9/size"
+    ],
+    "feature": "f:hole:8",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A10/size"
+    ],
+    "feature": "f:hole:9",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A1/size"
+    ],
+    "feature": "f:hole:10",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A2/size"
+    ],
+    "feature": "f:hole:11",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A3/size"
+    ],
+    "feature": "f:hole:12",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A4/size"
+    ],
+    "feature": "f:hole:13",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A5/size"
+    ],
+    "feature": "f:hole:14",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A6/size"
+    ],
+    "feature": "f:hole:15",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_side/A1/size"
+    ],
+    "feature": "f:hole:16",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_side/A2/size"
+    ],
+    "feature": "f:hole:17",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_side/A3/size"
+    ],
+    "feature": "f:hole:18",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_side/A4/size"
+    ],
+    "feature": "f:hole:19",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_side/A5/size"
+    ],
+    "feature": "f:hole:20",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_side/A6/size"
+    ],
+    "feature": "f:hole:21",
+    "state": "supported"
+   }
+  ],
+  "supported": 21,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "prismatic_pocket_requirement_unsupported",
+   "evidence": "general pocket requires a rounded rectangular profile",
+   "fix": "Review and dimension the section of the section recess by hand.",
+   "fix_description": "Review and dimension the section of the section recess by hand.",
+   "group": "prismatic_pocket_requirement_unsupported",
+   "id": "l:prismatic_pocket_requirement_unsupported:f:section_recess:1",
+   "impact": "incomplete",
+   "message": "recognised 20-sided blind prismatic recess 2.032 mm deep (1 of 2) is not represented by Draftwright dimensions: general pocket requires a rounded rectangular profile; review and define its manufacturing section outside automatic drawing approval",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:section_recess:1"
+   ]
+  },
+  {
+   "code": "prismatic_pocket_requirement_unsupported",
+   "evidence": "general pocket requires a rounded rectangular profile",
+   "fix": "Review and dimension the section of the section recess by hand.",
+   "fix_description": "Review and dimension the section of the section recess by hand.",
+   "group": "prismatic_pocket_requirement_unsupported",
+   "id": "l:prismatic_pocket_requirement_unsupported:f:section_recess:4",
+   "impact": "incomplete",
+   "message": "recognised 12-sided blind prismatic recess 2.032 mm deep (2 of 2) is not represented by Draftwright dimensions: general pocket requires a rounded rectangular profile; review and define its manufacturing section outside automatic drawing approval",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:section_recess:4"
+   ]
+  },
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 21, 22, 23, 24",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:1",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "section_recess_recognition_refused",
+   "evidence": "quiddity refused faces 25, 26, 27, 28",
+   "fix": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "fix_description": "Review those faces by hand and identify any missed recess that matches a supported feature type.",
+   "group": "section_recess_recognition_refused",
+   "id": "l:section_recess_recognition_refused:2",
+   "impact": "incomplete",
+   "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#941 was discovered but not extracted: the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#941",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#941"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#942 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#942",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#942"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#943 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#943",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#943"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#944 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#944",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#944"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 dimension dimension:#945 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_extracted:dimension",
+   "id": "l:pmi_not_extracted:dimension:#945",
+   "impact": "incomplete",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "dimension:#945"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#946 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#946",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#946"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#947 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#947",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#947"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#948 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#948",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#948"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#957 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_extracted:geometric_tolerance",
+   "id": "l:pmi_not_extracted:geometric_tolerance:#957",
+   "impact": "incomplete",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#957"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 datum datum:#1163 was discovered but not extracted: established by 1 datum target(s), which are not carried",
+   "group": "pmi_not_extracted:datum",
+   "id": "l:pmi_not_extracted:datum:#1163",
+   "impact": "incomplete",
+   "message": "A STEP datum annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "datum:#1163"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 datum datum:#1164 was discovered but not extracted: established by 1 datum target(s), which are not carried",
+   "group": "pmi_not_extracted:datum",
+   "id": "l:pmi_not_extracted:datum:#1164",
+   "impact": "incomplete",
+   "message": "A STEP datum annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "datum:#1164"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:0 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:0",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:0"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:1 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:1",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:1"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:2 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:2",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:2"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:3 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:3",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:3"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:4 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:4",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:4"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:5 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:5",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:5"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:6 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:6",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:6"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:7 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:7",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:7"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:8 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:8",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:8"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:9 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:9",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:9"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:10 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:10",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:10"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other attribute_set:0:11 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:attribute_set:0:11",
+   "impact": "advisory",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "attribute_set:0:11"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 datum datum_target:0:0 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:datum_target:0:0",
+   "impact": "incomplete",
+   "message": "A STEP datum target annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "datum_target:0:0"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 datum datum_target:0:1 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)",
+   "group": "pmi_not_extracted",
+   "id": "l:pmi_not_extracted:datum_target:0:1",
+   "impact": "incomplete",
+   "message": "A STEP datum target annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "error",
+   "sources": [
+    "datum_target:0:1"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#935 was discovered but not extracted: haecceity not-modelled: qualifier type_qualifier \"designed\" on a value (through a measure_qualification) is not held; the value is read without it",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#935",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#935"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#935 was discovered but not extracted: haecceity not-modelled: qualifier type_qualifier \"designed\" on a value (through a measure_qualification) is not held; the value is read without it",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#935",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#935"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#938 was discovered but not extracted: haecceity not-modelled: qualifier type_qualifier \"designed\" on a value (through a measure_qualification) is not held; the value is read without it",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#938",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#938"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#938 was discovered but not extracted: haecceity not-modelled: qualifier type_qualifier \"designed\" on a value (through a measure_qualification) is not held; the value is read without it",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#938",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#938"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#936 was discovered but not extracted: haecceity unconsumed: not reached from any part's PMI",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#936",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#936"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#937 was discovered but not extracted: haecceity unconsumed: not reached from any part's PMI",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#937",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#937"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#939 was discovered but not extracted: haecceity unconsumed: not reached from any part's PMI",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#939",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#939"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "evidence": "AP242 other finding:#940 was discovered but not extracted: haecceity unconsumed: not reached from any part's PMI",
+   "group": "pmi_not_extracted:finding",
+   "id": "l:pmi_not_extracted:finding:#940",
+   "impact": "advisory",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "severity": "info",
+   "sources": [
+    "finding:#940"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#941",
+   "impact": "incomplete",
+   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#941"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#942",
+   "impact": "incomplete",
+   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#942"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#943",
+   "impact": "incomplete",
+   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#943"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#944",
+   "impact": "incomplete",
+   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#944"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#945",
+   "impact": "incomplete",
+   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "dimension:#945"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#946 (circular_runout 0.889) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#946",
+   "impact": "incomplete",
+   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#946"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#947 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#947",
+   "impact": "incomplete",
+   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#947"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#948 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#948",
+   "impact": "incomplete",
+   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#948"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI geometric_tolerance:#957 (straightness 0.127) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges.",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "l:pmi_not_lowered:geometric_tolerance:#957",
+   "impact": "incomplete",
+   "message": "The STEP straightness annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "geometric_tolerance:#957"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI datum:#1163 (C) is not drawn: established by 1 datum target(s), which are not carried; referenced geometry is unavailable; datum reference surface is unavailable.",
+   "group": "pmi_not_lowered:datum",
+   "id": "l:pmi_not_lowered:datum:#1163",
+   "impact": "incomplete",
+   "message": "The STEP datum annotation could not be drawn: established by 1 datum target(s), which are not carried; referenced geometry is unavailable; datum reference surface is unavailable. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "datum:#1163"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI datum:#1164 (D) is not drawn: established by 1 datum target(s), which are not carried; referenced geometry is unavailable; datum reference surface is unavailable.",
+   "group": "pmi_not_lowered:datum",
+   "id": "l:pmi_not_lowered:datum:#1164",
+   "impact": "incomplete",
+   "message": "The STEP datum annotation could not be drawn: established by 1 datum target(s), which are not carried; referenced geometry is unavailable; datum reference surface is unavailable. Review its requirement and attachment.",
+   "severity": "error",
+   "sources": [
+    "datum:#1164"
+   ],
+   "subjects": []
+  }
+ ],
+ "problems": [
+  {
+   "code": "features_not_recognised",
+   "group": "features_not_recognised",
+   "id": "p:features_not_recognised:part",
+   "impact": "incomplete",
+   "message": "Unrecognised features on this part: 4 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "refs": [
+    "freeform_surfaces",
+    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "Python quiddity's recognition (tools/recognise.py) gives these families"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "dimensions_not_ported",
+   "group": "dimensions_not_ported:section_recess",
+   "id": "p:dimensions_not_ported:f:section_recess:1",
+   "impact": "incomplete",
+   "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
+   "severity": "warning",
+   "subjects": [
+    "f:section_recess:1"
+   ]
+  },
+  {
+   "code": "dimensions_not_ported",
+   "group": "dimensions_not_ported:section_recess",
+   "id": "p:dimensions_not_ported:f:section_recess:2",
+   "impact": "incomplete",
+   "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
+   "severity": "warning",
+   "subjects": [
+    "f:section_recess:2"
+   ]
+  },
+  {
+   "code": "dimensions_not_ported",
+   "group": "dimensions_not_ported:section_recess",
+   "id": "p:dimensions_not_ported:f:section_recess:3",
+   "impact": "incomplete",
+   "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
+   "severity": "warning",
+   "subjects": [
+    "f:section_recess:3"
+   ]
+  },
+  {
+   "code": "dimensions_not_ported",
+   "group": "dimensions_not_ported:section_recess",
+   "id": "p:dimensions_not_ported:f:section_recess:4",
+   "impact": "incomplete",
+   "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
+   "severity": "warning",
+   "subjects": [
+    "f:section_recess:4"
+   ]
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#1159",
+   "impact": "advisory",
+   "message": "Datum A cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#1159"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#1160",
+   "impact": "advisory",
+   "message": "Datum B cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#1160"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#1163",
+   "impact": "advisory",
+   "message": "Datum C cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#1163"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "datum_origin_unusable",
+   "group": "datum_origin_unusable",
+   "id": "p:datum_origin_unusable:datum:#1164",
+   "impact": "advisory",
+   "message": "Datum D cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "refs": [
+    "datum:#1164"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#941",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#941 (5.000 \u00b10.008 INCH) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers.",
+   "refs": [
+    "dimension:#941",
+    "the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#942",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#942 (1.250 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "refs": [
+    "dimension:#942",
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#943",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#943 (1.250 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "refs": [
+    "dimension:#943",
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#944",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#944 (2.000 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "refs": [
+    "dimension:#944",
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#945",
+   "impact": "incomplete",
+   "message": "PMI dimension dimension:#945 (2.000 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "refs": [
+    "dimension:#945",
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:0",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:0",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:1",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:1",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:2",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:2",
+    "value_representation_item",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:3",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:3",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:4",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:4",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:5",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:5",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:6",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:6",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:7",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:7",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:8",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:8",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:9",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:9",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:10",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:10",
+    "value_representation_item",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:attribute_set:0:11",
+   "impact": "advisory",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "attribute_set:0:11",
+    "general_property_association",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:datum_target:0:0",
+   "impact": "incomplete",
+   "message": "A STEP datum target is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "datum_target:0:0",
+    "shape_representation_with_parameters",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted",
+   "id": "p:pmi_not_extracted:datum_target:0:1",
+   "impact": "incomplete",
+   "message": "A STEP datum target is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "datum_target:0:1",
+    "shape_representation_with_parameters",
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#935",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#935",
+    "type_qualifier",
+    "haecceity not-modelled: qualifier type_qualifier \"designed\" on a value (through a measure_qualification) is not held; the value is read without it"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#935",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#935",
+    "type_qualifier",
+    "haecceity not-modelled: qualifier type_qualifier \"designed\" on a value (through a measure_qualification) is not held; the value is read without it"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#938",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#938",
+    "type_qualifier",
+    "haecceity not-modelled: qualifier type_qualifier \"designed\" on a value (through a measure_qualification) is not held; the value is read without it"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#938",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#938",
+    "type_qualifier",
+    "haecceity not-modelled: qualifier type_qualifier \"designed\" on a value (through a measure_qualification) is not held; the value is read without it"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#936",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#936",
+    "type_qualifier",
+    "haecceity unconsumed: not reached from any part's PMI"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#937",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#937",
+    "type_qualifier",
+    "haecceity unconsumed: not reached from any part's PMI"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#939",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#939",
+    "type_qualifier",
+    "haecceity unconsumed: not reached from any part's PMI"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_extracted",
+   "group": "pmi_not_extracted:finding",
+   "id": "p:pmi_not_extracted:finding:#940",
+   "impact": "advisory",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "refs": [
+    "finding:#940",
+    "type_qualifier",
+    "haecceity unconsumed: not reached from any part's PMI"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_presentation_not_read",
+   "group": "pmi_presentation_not_read",
+   "id": "p:pmi_presentation_not_read:part",
+   "impact": "advisory",
+   "message": "The STEP file carries 54 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
+   "refs": [
+    "part"
+   ],
+   "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#946",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#946 (circular_runout 0.889) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "refs": [
+    "geometric_tolerance:#946",
+    "a compartment of 2 datums (common datum) is carried as separate letters"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#947",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#947 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "refs": [
+    "geometric_tolerance:#947",
+    "a compartment of 2 datums (common datum) is carried as separate letters"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#948",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#948 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "refs": [
+    "geometric_tolerance:#948",
+    "a compartment of 2 datums (common datum) is carried as separate letters"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:geometric_tolerance",
+   "id": "p:pmi_not_lowered:geometric_tolerance:#957",
+   "impact": "incomplete",
+   "message": "PMI geometric_tolerance:#957 (straightness 0.127) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges.",
+   "refs": [
+    "geometric_tolerance:#957",
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:datum",
+   "id": "p:pmi_not_lowered:datum:#1163",
+   "impact": "incomplete",
+   "message": "PMI datum:#1163 (C) is not drawn: established by 1 datum target(s), which are not carried; referenced geometry is unavailable; datum reference surface is unavailable.",
+   "refs": [
+    "datum:#1163",
+    "established by 1 datum target(s), which are not carried",
+    "referenced geometry is unavailable",
+    "datum reference surface is unavailable"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:datum",
+   "id": "p:pmi_not_lowered:datum:#1164",
+   "impact": "incomplete",
+   "message": "PMI datum:#1164 (D) is not drawn: established by 1 datum target(s), which are not carried; referenced geometry is unavailable; datum reference surface is unavailable.",
+   "refs": [
+    "datum:#1164",
+    "established by 1 datum target(s), which are not carried",
+    "referenced geometry is unavailable",
+    "datum reference surface is unavailable"
+   ],
+   "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.circularity:f72/place",
+     "value": {
+      "lane": 0,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation below the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.circularity:f72/place",
+       "value": {
+        "lane": 0,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.circularity:f72|pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u25cb 0.0508 crosses a line of the feature control frame \u25ce \u23000.762 A.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.circularity:f72",
+    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone/place",
+     "value": {
+      "lane": 0,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation below the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone/place",
+       "value": {
+        "lane": 0,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone|pmi:geometric_tolerance.circularity:f72",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u25ce \u23000.762 A crosses a line of the feature control frame \u25cb 0.0508.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
+    "pmi:geometric_tolerance.circularity:f72"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.perpendicularity:f23:ref=D/place",
+     "value": {
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.perpendicularity:f23:ref=D/place",
+       "value": {
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.perpendicularity:f23:ref=D|pmi:geometric_tolerance.perpendicularity:f27:ref=C",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.254 D crosses a line of the feature control frame \u27c2 0.254 C.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f23:ref=D",
+    "pmi:geometric_tolerance.perpendicularity:f27:ref=C"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.perpendicularity:f27:ref=C/place",
+     "value": {
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.perpendicularity:f27:ref=C/place",
+       "value": {
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.perpendicularity:f27:ref=C|pmi:geometric_tolerance.perpendicularity:f23:ref=D",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.254 C crosses a line of the feature control frame \u27c2 0.254 D.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f27:ref=C",
+    "pmi:geometric_tolerance.perpendicularity:f23:ref=D"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.circularity:f72|f:hole:11:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u25cb 0.0508 crosses the \u230019.05 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.circularity:f72",
+    "f:hole:11"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.circularity:f72|v:plan:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u25cb 0.0508 crosses a feature.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.circularity:f72",
+    "v:plan"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone|f:hole:11:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u25ce \u23000.762 A crosses the \u230019.05 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
+    "f:hole:11"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone|v:plan:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u25ce \u23000.762 A crosses a feature.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
+    "v:plan"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.total_runout:f37:ref=A|f:hole:10:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2330 0.0508 A crosses the \u230019.05 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.total_runout:f37:ref=A",
+    "f:hole:10"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.total_runout:f37:ref=A|v:plan:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2330 0.0508 A crosses a feature.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.total_runout:f37:ref=A",
+    "v:plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:1/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"C1 \u23007.938 \u21a7 30.48 28.575 279.4 45.72 / \u2212Z \" has modelled nominal 7.9375 but prints 7.938 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:12/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A3 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 374.638 471.881 25.4 / \u2212Z 60.004\u00b0\" has modelled nominal 374.637781 but prints 374.638 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:12/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A3 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 374.638 471.881 25.4 / \u2212Z 60.004\u00b0\" has modelled nominal 471.8812 but prints 471.881 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:13/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A4 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 374.638 86.919 25.4 / \u2212Z 299.996\u00b0\" has modelled nominal 374.637781 but prints 374.638 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:13/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A4 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 374.638 86.919 25.4 / \u2212Z 299.996\u00b0\" has modelled nominal 86.9188 but prints 86.919 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:14/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A5 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 455.999 168.275 25.4 / \u2212Z 330\u00b0\" has modelled nominal 455.999146 but prints 455.999 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:15/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A6 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 455.999 390.525 25.4 / \u2212Z 30\u00b0\" has modelled nominal 455.999146 but prints 455.999 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:2/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"C2 \u23007.938 \u21a7 30.48 60.325 279.4 45.72 / \u2212Z \" has modelled nominal 7.9375 but prints 7.938 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:3/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"C3 \u23007.938 \u21a7 30.48 466.725 279.4 45.72 / \u2212Z \" has modelled nominal 7.9375 but prints 7.938 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:4/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"C4 \u23007.938 \u21a7 30.48 498.475 279.4 45.72 / \u2212Z \" has modelled nominal 7.9375 but prints 7.938 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:6/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A7 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 71.051 168.275 25.4 / \u2212Z 210\u00b0\" has modelled nominal 71.050854 but prints 71.051 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:7/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A8 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 71.051 390.525 25.4 / \u2212Z 150\u00b0\" has modelled nominal 71.050854 but prints 71.051 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:8/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A9 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 152.412 86.919 25.4 / \u2212Z 240.004\u00b0\" has modelled nominal 152.412219 but prints 152.412 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:8/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A9 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 152.412 86.919 25.4 / \u2212Z 240.004\u00b0\" has modelled nominal 86.9188 but prints 86.919 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:9/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A10 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 152.412 471.881 25.4 / \u2212Z 119.996\u00b0\" has modelled nominal 152.412219 but prints 152.412 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:9/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A10 \u230019.05 THRU \u2334 \u230038.1 \u21a7 12.7 152.412 471.881 25.4 / \u2212Z 119.996\u00b0\" has modelled nominal 471.8812 but prints 471.881 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:16/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230010.716 \u21a7 30.48 230.689 171.45 352.425 / \u2212Z\" has modelled nominal 10.7163 but prints 10.716 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:16/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230010.716 \u21a7 30.48 230.689 171.45 352.425 / \u2212Z\" has modelled nominal 230.689027 but prints 230.689 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:17/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A2 \u230010.716 \u21a7 30.48 238.432 206.375 352.425 / \u2212Z\" has modelled nominal 10.7163 but prints 10.716 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:17/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A2 \u230010.716 \u21a7 30.48 238.432 206.375 352.425 / \u2212Z\" has modelled nominal 238.431714 but prints 238.432 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:18/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A3 \u230010.716 \u21a7 30.48 246.174 241.3 352.425 / \u2212Z\" has modelled nominal 10.7163 but prints 10.716 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:18/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A3 \u230010.716 \u21a7 30.48 246.174 241.3 352.425 / \u2212Z\" has modelled nominal 246.1744 but prints 246.174 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:19/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A4 \u230010.716 \u21a7 30.48 230.689 171.45 174.625 / +Z\" has modelled nominal 10.7163 but prints 10.716 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:19/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A4 \u230010.716 \u21a7 30.48 230.689 171.45 174.625 / +Z\" has modelled nominal 230.689027 but prints 230.689 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:20/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A5 \u230010.716 \u21a7 30.48 238.432 206.375 174.625 / +Z\" has modelled nominal 10.7163 but prints 10.716 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:20/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A5 \u230010.716 \u21a7 30.48 238.432 206.375 174.625 / +Z\" has modelled nominal 238.431714 but prints 238.432 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:21/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A6 \u230010.716 \u21a7 30.48 246.174 241.3 174.625 / +Z\" has modelled nominal 10.7163 but prints 10.716 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_side:d:f:hole:21/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A6 \u230010.716 \u21a7 30.48 246.174 241.3 174.625 / +Z\" has modelled nominal 246.1744 but prints 246.174 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_side"
+   ]
+  },
+  {
+   "code": "relief_profiles_per_model",
+   "group": "relief_profiles_per_model",
+   "id": "p:relief_profiles_per_model",
+   "impact": "advisory",
+   "message": "Grouped shallow relief radii are governed by the placed model-profile note.",
+   "severity": "info",
+   "subjects": [
+    "f:blend:8",
+    "f:blend:9",
+    "f:blend:10",
+    "f:fillet:11",
+    "n:f:blend:relief/profiles"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 94 of 156 faces; 62 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:0",
+    "face:1",
+    "face:4",
+    "face:5",
+    "face:11",
+    "face:12",
+    "face:16",
+    "face:17",
+    "face:20",
+    "face:21",
+    "face:22",
+    "face:23",
+    "face:24",
+    "face:25",
+    "face:26",
+    "face:27",
+    "face:28",
+    "face:29",
+    "face:31",
+    "face:33",
+    "face:35",
+    "face:38",
+    "face:40",
+    "face:43",
+    "face:46",
+    "face:49",
+    "face:52",
+    "face:55",
+    "face:58",
+    "face:61",
+    "face:64",
+    "face:67",
+    "face:69",
+    "face:70",
+    "face:71",
+    "face:74",
+    "face:75",
+    "face:76",
+    "face:77",
+    "face:78",
+    "face:80",
+    "face:82",
+    "face:84",
+    "face:86",
+    "face:88",
+    "face:92",
+    "face:93",
+    "face:95",
+    "face:96",
+    "face:97",
+    "face:98",
+    "face:99",
+    "face:100",
+    "face:102",
+    "face:103",
+    "face:104",
+    "face:105",
+    "face:107",
+    "face:108",
+    "face:109",
+    "face:110",
+    "face:112"
+   ]
+  },
+  {
+   "code": "sheet_preference_exceeded",
+   "group": "sheet_preference_exceeded",
+   "id": "p:sheet_preference_exceeded:sheet",
+   "impact": "advisory",
+   "message": "Preferred paper size exceeded: using 1 sheet(s) of A1 at 1:5. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
+   "severity": "info",
+   "subjects": [
+    "sheet"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "pmi:datum.datum:f72:t=A",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:front:pmi:datum.datum:f72:t=A",
+   "impact": "advisory",
+   "message": "label of annotation 'A' lies inside view 'front' extents [x=67.7\u2013173.1, y=164.0\u2013260.5] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:front"
+  },
+  {
+   "annotation": "pmi:datum.datum:f37:t=B",
+   "at": [
+    65.70000000000005,
+    177.1225
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f37:t=B",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f37:t=B is 29.3 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  }
+ ],
+ "summary": {
+  "groups": {
+   "annotation_leader_crossing:arrow+leader": 4,
+   "datum_leader_remote": 1,
+   "datum_origin_unusable": 4,
+   "dimensions_not_ported:section_recess": 4,
+   "features_not_recognised": 1,
+   "general_tolerance_missing": 1,
+   "leader_through_feature": 6,
+   "nominal_rounded": 28,
+   "pmi_not_extracted": 28,
+   "pmi_not_extracted:datum": 2,
+   "pmi_not_extracted:dimension": 5,
+   "pmi_not_extracted:finding": 16,
+   "pmi_not_extracted:geometric_tolerance": 4,
+   "pmi_not_lowered:datum": 4,
+   "pmi_not_lowered:dimension": 10,
+   "pmi_not_lowered:geometric_tolerance": 8,
+   "pmi_presentation_not_read": 1,
+   "prismatic_pocket_requirement_unsupported": 2,
+   "relief_profiles_per_model": 1,
+   "section_recess_recognition_refused": 2,
+   "sheet_preference_exceeded": 1,
+   "unclaimed_geometry": 1,
+   "view_annotation_inside_extents": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 77,
+    "groups": 9
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 46,
+    "groups": 11
+   },
+   "readability": {
+    "findings": 11,
+    "groups": 3
+   }
+  }
+ }
+}

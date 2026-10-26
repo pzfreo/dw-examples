@@ -1,0 +1,221 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   }
+  ],
+  "supported": 1,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "features_not_recognised",
+   "group": "features_not_recognised",
+   "id": "p:features_not_recognised:part",
+   "impact": "incomplete",
+   "message": "Unrecognised features on this part: 1 circular face pattern, 16 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "refs": [
+    "circular_face_patterns",
+    "freeform_surfaces",
+    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "Python quiddity's recognition (tools/recognise.py) gives these families"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "2:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
+   "impact": "advisory",
+   "message": "The dimension \"4.225\" has modelled nominal 4.225351 but prints 4.225 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/height.length"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 3 of 67 faces; 64 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:2",
+    "face:3",
+    "face:4",
+    "face:5",
+    "face:6",
+    "face:7",
+    "face:8",
+    "face:9",
+    "face:10",
+    "face:11",
+    "face:12",
+    "face:13",
+    "face:14",
+    "face:15",
+    "face:16",
+    "face:17",
+    "face:18",
+    "face:19",
+    "face:20",
+    "face:21",
+    "face:22",
+    "face:23",
+    "face:24",
+    "face:25",
+    "face:26",
+    "face:27",
+    "face:28",
+    "face:29",
+    "face:30",
+    "face:31",
+    "face:32",
+    "face:33",
+    "face:34",
+    "face:35",
+    "face:36",
+    "face:37",
+    "face:38",
+    "face:39",
+    "face:40",
+    "face:41",
+    "face:42",
+    "face:43",
+    "face:44",
+    "face:45",
+    "face:46",
+    "face:47",
+    "face:48",
+    "face:49",
+    "face:50",
+    "face:51",
+    "face:52",
+    "face:53",
+    "face:54",
+    "face:55",
+    "face:56",
+    "face:57",
+    "face:58",
+    "face:59",
+    "face:60",
+    "face:61",
+    "face:62",
+    "face:63",
+    "face:64",
+    "face:65"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "features_not_recognised": 1,
+   "general_tolerance_missing": 1,
+   "nominal_rounded": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 2,
+    "groups": 2
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 1,
+    "groups": 1
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,395 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:2/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:2/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   }
+  ],
+  "supported": 3,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "boss_height_missing",
+   "fix": "State its height 1 for the boss: a linear dimension along the boss's axis, in a view that sees it side-on.",
+   "fix_description": "State its height 1 for the boss: a linear dimension along the boss's axis, in a view that sees it side-on.",
+   "group": "boss_height_missing",
+   "id": "l:boss_height_missing:f:boss:1/boss_height.length",
+   "impact": "incomplete",
+   "measurements": [
+    "f:boss:1/boss_height.length"
+   ],
+   "message": "boss f:boss:1 \u00f812.298, height 1, axis (-0.012, 1.000, 0.001), at (-0.018, 0.999, 0.431): requirement boss_height.length (its height 1) is not stated on the sheet",
+   "requirements": [
+    {
+     "feature": "f:boss:1",
+     "parameter": "boss_height.length"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:boss:1"
+   ]
+  },
+  {
+   "code": "feature_not_located",
+   "fix": "Locate each hole from a datum along each axis named, in the view that looks along it.",
+   "fix_description": "Locate each hole from a datum along each axis named, in the view that looks along it.",
+   "group": "feature_not_located:hole",
+   "id": "l:feature_not_located:holes",
+   "impact": "incomplete",
+   "message": "2 hole(s) have no locating dimension",
+   "requirements": [
+    {
+     "feature": "f:hole:2",
+     "parameter": "location.length.x"
+    },
+    {
+     "feature": "f:hole:2",
+     "parameter": "location.length.z"
+    },
+    {
+     "feature": "f:hole:3",
+     "parameter": "location.length.x"
+    },
+    {
+     "feature": "f:hole:3",
+     "parameter": "location.length.z"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:2",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "blend_requirement_missing",
+   "fix": "State R1.5 for the blend: a radius callout, in a view that sees the blend's arc.",
+   "fix_description": "State R1.5 for the blend: a radius callout, in a view that sees the blend's arc.",
+   "group": "blend_requirement_missing:blend.radius",
+   "id": "l:blend_requirement_missing:f:blend:1/blend.radius",
+   "impact": "incomplete",
+   "measurements": [
+    "f:blend:1/blend.radius"
+   ],
+   "message": "blend f:blend:1 R1.5 convex, straight along (-0.012, 1.000, 0.001) through (-2.552, 0.476, -5.98): requirement blend.radius (R1.5) is not stated on the sheet",
+   "requirements": [
+    {
+     "feature": "f:blend:1",
+     "parameter": "blend.radius"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:blend:1"
+   ]
+  },
+  {
+   "code": "blend_requirement_missing",
+   "fix": "State R1.5 for the blend: a radius callout, in a view that sees the blend's arc.",
+   "fix_description": "State R1.5 for the blend: a radius callout, in a view that sees the blend's arc.",
+   "group": "blend_requirement_missing:blend.radius",
+   "id": "l:blend_requirement_missing:f:blend:2/blend.radius",
+   "impact": "incomplete",
+   "measurements": [
+    "f:blend:2/blend.radius"
+   ],
+   "message": "blend f:blend:2 R1.5 convex, straight along (-0.012, 1.000, 0.001) through (2.716, 0.539, -5.902): requirement blend.radius (R1.5) is not stated on the sheet",
+   "requirements": [
+    {
+     "feature": "f:blend:2",
+     "parameter": "blend.radius"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:blend:2"
+   ]
+  }
+ ],
+ "problems": [
+  {
+   "code": "features_not_recognised",
+   "group": "features_not_recognised",
+   "id": "p:features_not_recognised:part",
+   "impact": "incomplete",
+   "message": "Unrecognised features on this part: 2 flats. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "refs": [
+    "flats",
+    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "Python quiddity's recognition (tools/recognise.py) gives these families"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "10:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "10:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:1",
+   "impact": "incomplete",
+   "message": "The \u23009.297 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:2",
+   "impact": "incomplete",
+   "message": "The \u23001.5 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:3",
+   "impact": "incomplete",
+   "message": "The \u23001.5 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:boss",
+   "id": "p:feature_not_dimensioned:f:boss:1",
+   "impact": "incomplete",
+   "message": "The \u230012.298 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:boss:1"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:blend",
+   "id": "p:feature_not_dimensioned:f:blend:1",
+   "impact": "incomplete",
+   "message": "The R1.5 blend is not dimensioned: no principal view has a proven attachment on its trimmed blend surface.",
+   "severity": "warning",
+   "subjects": [
+    "f:blend:1"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:blend",
+   "id": "p:feature_not_dimensioned:f:blend:2",
+   "impact": "incomplete",
+   "message": "The R1.5 blend is not dimensioned: no principal view has a proven attachment on its trimmed blend surface.",
+   "severity": "warning",
+   "subjects": [
+    "f:blend:2"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
+   "impact": "advisory",
+   "message": "The dimension \"1.147\" has modelled nominal 1.146611 but prints 1.147 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
+   "impact": "advisory",
+   "message": "The dimension \"14.550\" has modelled nominal 14.549668 but prints 14.550 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/height.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
+   "impact": "advisory",
+   "message": "The dimension \"12.309\" has modelled nominal 12.30927 but prints 12.309 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:boss:1/boss.diameter:d:f:boss:1/boss.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"\u00f812.298\" has modelled nominal 12.2983 but prints 12.298 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:boss:1/boss.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:1/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"\u23009.297 THRU\" has modelled nominal 9.29666 but prints 9.297 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features claim 8 of 14 faces; 6 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:0",
+    "face:1",
+    "face:4",
+    "face:5",
+    "face:6",
+    "face:10"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "blend_requirement_missing:blend.radius": 2,
+   "boss_height_missing": 1,
+   "feature_not_dimensioned:blend": 2,
+   "feature_not_dimensioned:boss": 1,
+   "feature_not_dimensioned:hole": 3,
+   "feature_not_located:hole": 1,
+   "features_not_recognised": 1,
+   "general_tolerance_missing": 1,
+   "nominal_rounded": 5,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 6,
+    "groups": 2
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 11,
+    "groups": 7
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}
