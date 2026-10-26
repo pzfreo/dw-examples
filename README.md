@@ -6,7 +6,7 @@ files. Every drawing here is produced by the stock `draftwright` CLI from
 no post-processing. The only thing that varies between drawings is the title block, and that
 lives in [`drawings.toml`](drawings.toml).
 
-The current set is built by draftwright **v0.1.0-alpha.14**. The drawings are unreviewed output, shown
+The current set is built by draftwright **v0.1.0**. The drawings are unreviewed output, shown
 as draftwright draws them, including its mistakes: features are recognised automatically and
 some are missed or misread. Each drawing's `.review.json` lists the problems draftwright found
 in it.
@@ -87,7 +87,7 @@ just as a changed PDF.
 ## How a drawing is defined
 
 ```toml
-draftwright = "v0.1.0-alpha.14"   # the draftwright-rust release tag that builds every drawing
+draftwright = "v0.1.0"   # the draftwright-rust release tag that builds every drawing
 formats = ["pdf"]
 
 [[drawing]]
@@ -114,7 +114,7 @@ draftwright-rust publishes no binaries, so build the CLI from the tag in `drawin
 (the repository pins its Rust toolchain):
 
 ```
-git clone --depth 1 --branch v0.1.0-alpha.14 https://github.com/pzfreo/draftwright-rust
+git clone --depth 1 --branch v0.1.0 https://github.com/pzfreo/draftwright-rust
 (cd draftwright-rust && cargo install --locked --path . --bin draftwright)
 python3 build.py                 # rebuild everything (Python 3.11 or later)
 python3 build.py nist-ctc-03     # rebuild one drawing
