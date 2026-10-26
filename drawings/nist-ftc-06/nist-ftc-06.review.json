@@ -3546,8 +3546,8 @@
   {
    "annotation": "d:f:chamfer:7/chamfer.length",
    "at": [
-    234.99200000024402,
-    170.77814231006
+    243.12201000024402,
+    168.29027794005998
    ],
    "code": "chamfer_leader_target_unverifiable",
    "evidence": "no coaxial turned band holds its station",
@@ -6896,6 +6896,76 @@
   },
   {
    "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h15_24/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 232.41 dimension to the left of the front view, in the second row of dimensions. Trade-off: adds these findings: The dimension 232.41 runs up to 6.5 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 2\u00d7 \u00f831.75 crosses a line of 232.41. [annotation_leader_crossing] The second extension line of 232.41 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 232.41 crosses the \u23007.137 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h15_24/place",
+       "value": {
+        "along": "middle",
+        "lane": 1,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:step_level/step_height.length.h15_24|f:hole:9:line:1",
    "impact": "advisory",
@@ -7024,7 +7094,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 0.500 \u00b10.008 INCH dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 38.1 runs through the label of 0.500 \u00b10.008 INCH. [annotation_ink_overlap].",
+     "description": "Move the 0.500 \u00b10.008 INCH dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 38.1 and 0.500 \u00b10.008 INCH overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7189,7 +7259,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 130 of 187 faces; 57 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 132 of 187 faces; 55 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:6",
@@ -7201,7 +7271,6 @@
     "face:17",
     "face:18",
     "face:21",
-    "face:22",
     "face:46",
     "face:47",
     "face:62",
@@ -7227,7 +7296,6 @@
     "face:98",
     "face:100",
     "face:101",
-    "face:102",
     "face:103",
     "face:106",
     "face:107",

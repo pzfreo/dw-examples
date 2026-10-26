@@ -1122,7 +1122,7 @@
   {
    "annotation": "d:f:fillet:1/fillet.radius",
    "at": [
-    173.41951694459544,
+    176.41951694459544,
     62.483809996393504
    ],
    "code": "radius_leader_not_radial",
@@ -1153,7 +1153,7 @@
   {
    "annotation": "d:f:fillet:10/fillet.radius",
    "at": [
-    176.29751694459546,
+    179.29751694459546,
     84.4976099963935
    ],
    "code": "radius_leader_not_radial",
@@ -1189,6 +1189,17 @@
    ],
    "severity": "warning",
    "subjects": []
+  },
+  {
+   "code": "page_fit_uncertain",
+   "group": "page_fit_uncertain",
+   "id": "p:page_fit_uncertain:sheet",
+   "impact": "readability",
+   "message": "The views may not fit A3 at 1:5, as the spec asks.",
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
   },
   {
    "code": "general_tolerance_missing",
@@ -3046,61 +3057,6 @@
    ]
   },
   {
-   "code": "unclaimed_geometry",
-   "group": "unclaimed_geometry",
-   "id": "p:unclaimed_geometry:sheet",
-   "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 75 of 120 faces; 45 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
-   "severity": "info",
-   "subjects": [
-    "face:2",
-    "face:3",
-    "face:6",
-    "face:7",
-    "face:14",
-    "face:20",
-    "face:44",
-    "face:46",
-    "face:60",
-    "face:61",
-    "face:62",
-    "face:64",
-    "face:65",
-    "face:68",
-    "face:70",
-    "face:71",
-    "face:72",
-    "face:73",
-    "face:74",
-    "face:75",
-    "face:76",
-    "face:77",
-    "face:78",
-    "face:80",
-    "face:82",
-    "face:85",
-    "face:87",
-    "face:91",
-    "face:94",
-    "face:96",
-    "face:98",
-    "face:100",
-    "face:102",
-    "face:103",
-    "face:105",
-    "face:107",
-    "face:108",
-    "face:109",
-    "face:110",
-    "face:112",
-    "face:113",
-    "face:115",
-    "face:116",
-    "face:117",
-    "face:118"
-   ]
-  },
-  {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
     "extension_line"
@@ -3574,7 +3530,7 @@
    "group": "view_annotation_inside_extents",
    "id": "l:view_annotation_inside_extents:v:side:d:envelope/profile_angle.angle.f118_e339_e10_e139_e346",
    "impact": "advisory",
-   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=163.6\u2013260.6, y=62.0\u201394.5] over a blank region \u2014 legitimate for callouts on large faces",
+   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=166.6\u2013263.6, y=62.0\u201394.5] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
    "view": "v:side"
@@ -3597,6 +3553,7 @@
    "hole_pattern_requirement_missing:location.length.x": 1,
    "hole_pattern_requirement_missing:location.length.y": 1,
    "nominal_rounded": 25,
+   "page_fit_uncertain": 1,
    "pmi_not_extracted": 6,
    "pmi_not_extracted:datum": 2,
    "pmi_not_extracted:dimension": 10,
@@ -3608,13 +3565,12 @@
    "pmi_presentation_not_read": 1,
    "radius_leader_not_radial": 2,
    "slot_requirement_missing:location_slot.length": 1,
-   "unclaimed_geometry": 1,
    "view_annotation_inside_extents": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 64,
-    "groups": 8
+    "findings": 63,
+    "groups": 7
    },
    "decision": {
     "findings": 1,
@@ -3625,8 +3581,8 @@
     "groups": 15
    },
    "readability": {
-    "findings": 11,
-    "groups": 4
+    "findings": 12,
+    "groups": 5
    }
   }
  }

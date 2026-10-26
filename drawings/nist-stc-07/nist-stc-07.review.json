@@ -1942,8 +1942,8 @@
   {
    "annotation": "d:f:fillet:11/fillet.radius",
    "at": [
-    376.9044432112363,
-    265.8884391137565
+    304.657296064242,
+    166.92143911375643
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -2006,7 +2006,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -2036,7 +2036,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -2561,6 +2561,92 @@
    ],
    "severity": "error",
    "subjects": []
+  },
+  {
+   "code": "annotation_leader_search_capped",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_search_capped",
+   "id": "p:annotation_leader_search_capped:d:f:hole_pattern:1/bore.diameter|d:f:hole_pattern:2/bore.diameter|d:f:hole:12/bore.diameter|d:f:polygonal_boss:1/polygon_across_flats.length|d:f:fillet:16/fillet.radius|d:f:hole:4/bore.diameter",
+   "impact": "advisory",
+   "message": "The leaders of 6 callouts were placed together by a search that stopped at its bound of 200000 steps: their places are the best found, not proved the best.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/bore.diameter",
+    "d:f:hole_pattern:2/bore.diameter",
+    "d:f:hole:12/bore.diameter",
+    "d:f:polygonal_boss:1/polygon_across_flats.length",
+    "d:f:fillet:16/fillet.radius",
+    "d:f:hole:4/bore.diameter"
+   ]
   },
   {
    "code": "pmi_not_extracted",
@@ -3195,7 +3281,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -3230,7 +3316,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -3280,7 +3366,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -3315,7 +3401,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -3366,7 +3452,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -3401,7 +3487,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -3451,7 +3537,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -3486,7 +3572,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -3536,7 +3622,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -3571,7 +3657,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -3621,7 +3707,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -3656,7 +3742,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -3687,170 +3773,6 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses the \u230015.082 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:hole_pattern:2/bore.diameter|f:hole:3:line:0",
-   "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:2/bore.diameter",
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses the \u230015.082 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:hole_pattern:2/bore.diameter|v:front:line:0",
-   "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses a feature.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:2/bore.diameter",
-    "v:front"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
      "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
      "value": {
       "along": "middle",
@@ -3867,7 +3789,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -3902,7 +3824,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -3949,7 +3871,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -3984,7 +3906,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -4031,7 +3953,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -4066,7 +3988,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -4113,7 +4035,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -4148,7 +4070,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -4195,7 +4117,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -4230,7 +4152,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -4277,7 +4199,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -4312,7 +4234,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -4359,7 +4281,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -4394,7 +4316,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -4441,7 +4363,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -4456,7 +4378,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The labels of 12.7 and 2\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 12.7. [annotation_leader_crossing] The leader of 2\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 12.7 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 12.7. [annotation_leader_crossing] The leader of 2\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -4476,7 +4398,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -4523,7 +4445,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -4538,7 +4460,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 210.006. [annotation_leader_crossing] A line of 210.006 runs through the label of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72). [annotation_ink_overlap] A line of 210.006 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72). [annotation_ink_overlap] A line of 210.006 runs through the label of 2\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62. [annotation_ink_overlap] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 210.006 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 210.006. [annotation_leader_crossing] The leader of 2\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -4558,7 +4480,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -4582,6 +4504,170 @@
    "subjects": [
     "d:step_level/step_height.length.h210_006",
     "f:hole:7"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:pmi:dimension.radius:f162~1radius/place",
+     "value": {
+      "along": "start",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the R0.3048 - R0.5588 callout above the plan view, nearest the view. Trade-off: adds these findings: The labels of R0.3048 - R0.5588 and R0.3048 - R0.5588 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:pmi:dimension.radius:f162~1radius/place",
+       "value": {
+        "along": "start",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:pmi:dimension.radius:f162/radius|f:hole:5:line:0",
+   "impact": "readability",
+   "message": "The leader of R0.3048 - R0.5588 crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:pmi:dimension.radius:f162/radius",
+    "f:hole:5"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:pmi:dimension.radius:f162~1radius/place",
+     "value": {
+      "along": "start",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the R0.3048 - R0.5588 callout above the plan view, nearest the view. Trade-off: adds these findings: The labels of R0.3048 - R0.5588 and R0.3048 - R0.5588 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:pmi:dimension.radius:f162~1radius/place",
+       "value": {
+        "along": "start",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:pmi:dimension.radius:f162/radius|f:hole:6:line:0",
+   "impact": "readability",
+   "message": "The leader of R0.3048 - R0.5588 crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:pmi:dimension.radius:f162/radius",
+    "f:hole:6"
    ]
   },
   {
@@ -5227,10 +5313,11 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 117 of 306 faces; 189 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 133 of 306 faces; 173 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
+    "face:3",
     "face:13",
     "face:14",
     "face:15",
@@ -5240,25 +5327,19 @@
     "face:21",
     "face:22",
     "face:23",
-    "face:24",
-    "face:25",
     "face:26",
     "face:27",
     "face:28",
     "face:29",
     "face:30",
     "face:31",
-    "face:36",
-    "face:37",
-    "face:38",
-    "face:39",
     "face:40",
     "face:41",
     "face:42",
     "face:43",
-    "face:44",
     "face:45",
     "face:46",
+    "face:47",
     "face:48",
     "face:49",
     "face:52",
@@ -5266,7 +5347,6 @@
     "face:54",
     "face:56",
     "face:57",
-    "face:58",
     "face:59",
     "face:60",
     "face:61",
@@ -5295,9 +5375,6 @@
     "face:84",
     "face:85",
     "face:86",
-    "face:87",
-    "face:88",
-    "face:89",
     "face:90",
     "face:91",
     "face:92",
@@ -5333,7 +5410,6 @@
     "face:126",
     "face:127",
     "face:128",
-    "face:129",
     "face:130",
     "face:131",
     "face:132",
@@ -5341,7 +5417,6 @@
     "face:134",
     "face:135",
     "face:136",
-    "face:137",
     "face:138",
     "face:139",
     "face:140",
@@ -5366,13 +5441,13 @@
     "face:179",
     "face:180",
     "face:181",
+    "face:182",
     "face:189",
     "face:190",
     "face:192",
     "face:193",
     "face:194",
     "face:195",
-    "face:196",
     "face:197",
     "face:198",
     "face:200",
@@ -5382,7 +5457,6 @@
     "face:206",
     "face:207",
     "face:208",
-    "face:209",
     "face:210",
     "face:211",
     "face:212",
@@ -5390,7 +5464,6 @@
     "face:214",
     "face:215",
     "face:216",
-    "face:217",
     "face:218",
     "face:219",
     "face:220",
@@ -5398,18 +5471,13 @@
     "face:222",
     "face:223",
     "face:225",
-    "face:231",
-    "face:232",
     "face:233",
-    "face:234",
-    "face:235",
     "face:236",
-    "face:241",
-    "face:242",
     "face:243",
-    "face:250",
-    "face:251",
     "face:252",
+    "face:265",
+    "face:266",
+    "face:267",
     "face:268",
     "face:269",
     "face:270",
@@ -5418,7 +5486,9 @@
     "face:275",
     "face:277",
     "face:278",
-    "face:279"
+    "face:279",
+    "face:304",
+    "face:305"
    ]
   },
   {
@@ -5426,7 +5496,7 @@
    "group": "sheet_preference_exceeded",
    "id": "p:sheet_preference_exceeded:sheet",
    "impact": "advisory",
-   "message": "Preferred paper size exceeded: using 1 sheet(s) of A1 at 1:2. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
+   "message": "Preferred paper size exceeded: using 1 sheet(s) of A2 at 1:2. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -5569,8 +5639,8 @@
   {
    "annotation": "pmi:datum.datum:f145,146:t=B",
    "at": [
-    432.3044432110496,
-    316.9965382574374
+    360.0572960640553,
+    218.02953825743742
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -5589,6 +5659,7 @@
    "annotation_leader_crossing:arrow": 1,
    "annotation_leader_crossing:arrow+leader": 1,
    "annotation_leader_crossing:leader": 4,
+   "annotation_leader_search_capped": 1,
    "datum_leader_remote": 1,
    "datum_origin_unusable": 2,
    "extension_through_feature": 7,
@@ -5621,8 +5692,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 97,
-    "groups": 9
+    "findings": 98,
+    "groups": 10
    },
    "decision": {
     "findings": 1,

@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.1.0-alpha.14",
+  "draftwright": "v0.1.0",
   "drawings": [
     {
       "name": "bearing-608zz",
@@ -70,13 +70,13 @@
       "title": "Gantry plate 20 mm V-slot",
       "review": {
         "errors": 0,
-        "warnings": 24,
+        "warnings": 25,
         "infos": 14,
         "impacts": {
           "advisory": 37,
           "decision": 1,
           "incomplete": 0,
-          "readability": 0
+          "readability": 1
         }
       },
       "files": [
@@ -92,9 +92,9 @@
       "review": {
         "errors": 0,
         "warnings": 2,
-        "infos": 19,
+        "infos": 18,
         "impacts": {
-          "advisory": 20,
+          "advisory": 19,
           "decision": 1,
           "incomplete": 0,
           "readability": 0
@@ -217,13 +217,13 @@
       "title": "NEMA 17 bracket",
       "review": {
         "errors": 0,
-        "warnings": 16,
+        "warnings": 15,
         "infos": 1,
         "impacts": {
           "advisory": 11,
           "decision": 1,
           "incomplete": 4,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -259,13 +259,13 @@
       "title": "NIST CTC-01",
       "review": {
         "errors": 12,
-        "warnings": 30,
+        "warnings": 28,
         "infos": 12,
         "impacts": {
           "advisory": 25,
           "decision": 1,
           "incomplete": 18,
-          "readability": 12
+          "readability": 9
         }
       },
       "files": [
@@ -301,13 +301,13 @@
       "title": "NIST CTC-03",
       "review": {
         "errors": 68,
-        "warnings": 45,
-        "infos": 53,
+        "warnings": 46,
+        "infos": 52,
         "impacts": {
-          "advisory": 64,
+          "advisory": 63,
           "decision": 1,
           "incomplete": 91,
-          "readability": 11
+          "readability": 12
         }
       },
       "files": [
@@ -385,13 +385,13 @@
       "title": "NIST FTC-07",
       "review": {
         "errors": 79,
-        "warnings": 97,
+        "warnings": 102,
         "infos": 111,
         "impacts": {
-          "advisory": 144,
+          "advisory": 148,
           "decision": 1,
           "incomplete": 109,
-          "readability": 35
+          "readability": 37
         }
       },
       "files": [
@@ -406,13 +406,13 @@
       "title": "NIST FTC-08",
       "review": {
         "errors": 86,
-        "warnings": 164,
+        "warnings": 168,
         "infos": 128,
         "impacts": {
           "advisory": 179,
           "decision": 1,
           "incomplete": 98,
-          "readability": 114
+          "readability": 115
         }
       },
       "files": [
@@ -491,9 +491,9 @@
       "review": {
         "errors": 151,
         "warnings": 53,
-        "infos": 90,
+        "infos": 91,
         "impacts": {
-          "advisory": 97,
+          "advisory": 98,
           "decision": 1,
           "incomplete": 185,
           "readability": 12
@@ -510,14 +510,14 @@
       "step": "steps/nist/nist_stc_08_asme1_ap242-e3.stp",
       "title": "NIST STC-08",
       "review": {
-        "errors": 105,
-        "warnings": 95,
-        "infos": 150,
+        "errors": 104,
+        "warnings": 31,
+        "infos": 137,
         "impacts": {
-          "advisory": 169,
+          "advisory": 146,
           "decision": 1,
-          "incomplete": 121,
-          "readability": 72
+          "incomplete": 124,
+          "readability": 3
         }
       },
       "files": [

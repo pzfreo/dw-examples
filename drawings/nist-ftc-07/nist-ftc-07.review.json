@@ -1482,6 +1482,41 @@
    "subjects": [
     "f:polygonal_boss:4"
    ]
+  },
+  {
+   "annotation": "d:f:fillet:11/fillet.radius",
+   "at": [
+    326.10674097348,
+    195.81597737174
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:11/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:5/fillet.radius",
+    "f:fillet:6/fillet.radius",
+    "f:fillet:7/fillet.radius",
+    "f:fillet:8/fillet.radius",
+    "f:fillet:9/fillet.radius",
+    "f:fillet:10/fillet.radius",
+    "f:fillet:11/fillet.radius",
+    "f:fillet:12/fillet.radius"
+   ],
+   "message": "d:f:fillet:11/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:5",
+    "f:fillet:6",
+    "f:fillet:7",
+    "f:fillet:8",
+    "f:fillet:9",
+    "f:fillet:10",
+    "f:fillet:11",
+    "f:fillet:12"
+   ],
+   "view": "v:side"
   }
  ],
  "problems": [
@@ -1515,12 +1550,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -1545,12 +1580,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -2507,12 +2542,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -2522,7 +2557,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -2542,12 +2577,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -2558,7 +2593,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -2568,108 +2603,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole_pattern:1/bore.diameter|d:f:hole_pattern:3/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) crosses a line of 196.85.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/bore.diameter",
-    "d:f:hole_pattern:3/grid_pitch.length.row"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -2688,19 +2622,17 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "extension_line"
+    "leader"
    ],
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:polygonal_boss:1~1polygon_across_flats.length/place",
+     "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
      "value": {
-      "offset": [
-       9.300000000000011,
-       0.6050452565200075
-      ],
-      "pinned": true,
-      "view": "front"
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "side"
      }
     },
     {
@@ -2711,12 +2643,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -2726,18 +2658,16 @@
    ],
    "fixes": [
     {
-     "description": "Move the leader bend of the 4\u00d7 4-SIDED 25.352 A/F callout 9.3 mm right and 0.605 mm up from its tip, in the front view. Trade-off: adds these findings: The label of 4\u00d7 4-SIDED 25.352 A/F lies over the front view. [annotation_over_view].",
+     "description": "Move the 3\u00d7 \u230022.225 \u00b10.254 THRU callout below the side view, nearest the view. Trade-off: adds these findings: The labels of 3\u00d7 \u230022.225 \u00b10.254 THRU and 88.392 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 135.89 runs through the label of 3\u00d7 \u230022.225 \u00b10.254 THRU. [annotation_ink_overlap] The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of 135.89. [annotation_leader_crossing] The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of 88.392. [annotation_leader_crossing] The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of datum feature symbol B. [annotation_leader_crossing] A line of datum feature symbol B runs through the label of 3\u00d7 \u230022.225 \u00b10.254 THRU. [annotation_ink_overlap] The leader of datum feature symbol B crosses a line of 3\u00d7 \u230022.225 \u00b10.254 THRU. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:polygonal_boss:1~1polygon_across_flats.length/place",
+       "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
        "value": {
-        "offset": [
-         9.300000000000011,
-         0.6050452565200075
-        ],
-        "pinned": true,
-        "view": "front"
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "side"
        }
       },
       {
@@ -2748,12 +2678,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -2764,7 +2694,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -2774,20 +2704,723 @@
       {
        "op": "set",
        "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:d:f:hole_pattern:4/bore.diameter|pmi:datum.datum:f17,159,195,222:t=D",
+   "impact": "readability",
+   "message": "The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of datum feature symbol D.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:4/bore.diameter",
+    "pmi:datum.datum:f17,159,195,222:t=D"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1depth.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1depth.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
        "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f145,146:t=B|d:envelope/depth.length",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of 135.89.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f145,146:t=B",
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
     }
    ],
    "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:polygonal_boss:1/polygon_across_flats.length|d:f:hole_pattern:3/grid_pitch.length.row",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f145,146:t=B|d:f:hole_pattern:4/pitch.length",
    "impact": "advisory",
-   "message": "The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 196.85.",
+   "message": "The leader of datum feature symbol B crosses a line of 2\u00d7 47.625.",
    "severity": "warning",
    "subjects": [
-    "d:f:polygonal_boss:1/polygon_across_flats.length",
-    "d:f:hole_pattern:3/grid_pitch.length.row"
+    "pmi:datum.datum:f145,146:t=B",
+    "d:f:hole_pattern:4/pitch.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1location.length.y/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1location.length.y/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f145,146:t=B|d:f:hole_pattern:4/location.length.y",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of 88.392.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f145,146:t=B",
+    "d:f:hole_pattern:4/location.length.y"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f145,146:t=B|d:f:hole_pattern:4/location.length.z",
+   "impact": "advisory",
+   "message": "The leader of datum feature symbol B crosses a line of 63.728.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f145,146:t=B",
+    "d:f:hole_pattern:4/location.length.z"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:datum.datum:f145,146:t=B/place",
+     "value": {
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:datum.datum:f145,146:t=B/place",
+       "value": {
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f145,146:t=B|pmi:datum.datum:f17,159,195,222:t=D",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of datum feature symbol D.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f145,146:t=B",
+    "pmi:datum.datum:f17,159,195,222:t=D"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f17,159,195,222:t=D|d:f:hole_pattern:4/bore.diameter",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol D crosses a line of 3\u00d7 \u230022.225 \u00b10.254 THRU.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f17,159,195,222:t=D",
+    "d:f:hole_pattern:4/bore.diameter"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:datum.datum:f17,159,195,222:t=D/place",
+     "value": {
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:datum.datum:f17,159,195,222:t=D/place",
+       "value": {
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f17,159,195,222:t=D|pmi:datum.datum:f145,146:t=B",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol D crosses a line of datum feature symbol B.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f17,159,195,222:t=D",
+    "pmi:datum.datum:f145,146:t=B"
    ]
   },
   {
@@ -2814,12 +3447,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -2849,12 +3482,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -2865,7 +3498,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -2875,7 +3508,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -2915,12 +3548,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -2950,12 +3583,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -2966,7 +3599,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -2976,7 +3609,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -3016,12 +3649,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -3051,12 +3684,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3067,7 +3700,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -3077,7 +3710,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -3091,6 +3724,311 @@
    "subjects": [
     "pmi:dimension.common_label:f124,125,156,157,168,169,302,303:t=%E2%8C%B4",
     "d:f:hole_pattern:1/location.length.x"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:1~1location.length.x/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1location.length.x/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f244,245,246,247,248,249:t=%EF%81%95|d:f:hole_pattern:1/location.length.x",
+   "impact": "readability",
+   "message": "The leader of \uf055 crosses a line of 155.803.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:dimension.common_label:f244,245,246,247,248,249:t=%EF%81%95",
+    "d:f:hole_pattern:1/location.length.x"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f47:t=F1.1|d:f:hole_pattern:1/grid_pitch.length.col",
+   "impact": "readability",
+   "message": "The leader of F1.1 crosses a line of 241.3.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:dimension.common_label:f47:t=F1.1",
+    "d:f:hole_pattern:1/grid_pitch.length.col"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.col/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.col/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f47:t=F1.1|d:f:hole_pattern:3/grid_pitch.length.col",
+   "impact": "readability",
+   "message": "The leader of F1.1 crosses a line of 285.75.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:dimension.common_label:f47:t=F1.1",
+    "d:f:hole_pattern:3/grid_pitch.length.col"
    ]
   },
   {
@@ -3117,12 +4055,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -3152,12 +4090,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3168,7 +4106,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -3178,322 +4116,20 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
     }
    ],
    "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f244,245,246,247,248,249:t=%EF%81%95|d:f:hole_pattern:1/location.length.x",
+   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f47:t=F1.1|d:f:hole_pattern:1/location.length.x",
    "impact": "readability",
-   "message": "The leader of \uf055 crosses a line of 155.803.",
+   "message": "The leader of F1.1 crosses a line of 155.803.",
    "severity": "warning",
    "subjects": [
-    "pmi:dimension.common_label:f244,245,246,247,248,249:t=%EF%81%95",
+    "pmi:dimension.common_label:f47:t=F1.1",
     "d:f:hole_pattern:1/location.length.x"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f226:ref=A|d:envelope/depth.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of 135.89.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f226:ref=A|d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of 0.30 \u00b10.02 INCH.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.parallelism:f226:ref=A/place",
-     "value": {
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.parallelism:f226:ref=A/place",
-       "value": {
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f226:ref=A|pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C"
    ]
   },
   {
@@ -3520,12 +4156,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -3555,12 +4191,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3571,7 +4207,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -3581,7 +4217,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -3621,12 +4257,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -3656,12 +4292,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3672,7 +4308,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -3682,7 +4318,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -3722,12 +4358,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -3756,12 +4392,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3772,7 +4408,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -3782,7 +4418,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -3822,12 +4458,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -3857,12 +4493,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3873,7 +4509,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -3883,7 +4519,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -3923,12 +4559,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -3958,12 +4594,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3974,7 +4610,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -3984,7 +4620,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4024,12 +4660,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4058,12 +4694,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4074,7 +4710,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4084,7 +4720,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4126,12 +4762,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4161,12 +4797,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4177,7 +4813,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4187,7 +4823,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4227,12 +4863,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4262,12 +4898,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4278,7 +4914,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4288,7 +4924,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4328,12 +4964,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4363,12 +4999,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4379,7 +5015,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4389,7 +5025,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4429,12 +5065,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4463,12 +5099,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4479,7 +5115,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4489,7 +5125,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4531,12 +5167,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4566,12 +5202,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4582,7 +5218,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4592,7 +5228,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4632,12 +5268,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4667,12 +5303,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4683,7 +5319,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4693,7 +5329,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4733,12 +5369,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4768,12 +5404,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4784,7 +5420,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4794,7 +5430,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4834,12 +5470,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4868,12 +5504,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4884,7 +5520,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4894,7 +5530,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -4934,12 +5570,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -4969,12 +5605,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -4985,7 +5621,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -4995,7 +5631,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -5014,7 +5650,110 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "dimension_line"
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:polygonal_boss:1~1boss_height.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:polygonal_boss:1~1boss_height.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C|d:f:polygonal_boss:1/boss_height.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 4\u00d7 2.54.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C",
+    "d:f:polygonal_boss:1/boss_height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
    ],
    "fix": [
     {
@@ -5035,12 +5774,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -5070,12 +5809,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -5086,7 +5825,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -5096,13 +5835,13 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:dimension_line",
+   "group": "annotation_leader_crossing:arrow+dimension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C|d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear",
    "impact": "readability",
    "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 0.30 \u00b10.02 INCH.",
@@ -5115,218 +5854,17 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C/place",
-     "value": {
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C/place",
-       "value": {
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C|pmi:geometric_tolerance.parallelism:f226:ref=A",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2225 0.762 A.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C",
-    "pmi:geometric_tolerance.parallelism:f226:ref=A"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
     "extension_line"
    ],
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f47,182|d:envelope/depth.length",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.381 crosses a line of 135.89.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f47,182",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
+     "path": "dimensions/d:f:hole:12~1location.length.y/place",
      "value": {
       "along": "outside",
       "lane": 0,
       "side": "left",
-      "view": "side"
+      "view": "plan"
      }
     },
     {
@@ -5337,12 +5875,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -5352,16 +5890,16 @@
    ],
    "fixes": [
     {
-     "description": "Move the dimension to the left of the side view, nearest the view.",
+     "description": "Move the dimension to the left of the plan view, nearest the view.",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
+       "path": "dimensions/d:f:hole:12~1location.length.y/place",
        "value": {
         "along": "outside",
         "lane": 0,
         "side": "left",
-        "view": "side"
+        "view": "plan"
        }
       },
       {
@@ -5372,12 +5910,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -5388,7 +5926,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -5398,418 +5936,20 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
     }
    ],
    "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f47,182|d:f:hole_pattern:4/pitch.length",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over|d:f:hole:12/location.length.y",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.381 crosses a line of 2\u00d7 47.625.",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 90.802.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f47,182",
-    "d:f:hole_pattern:4/pitch.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:4~1location.length.y/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:4~1location.length.y/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f47,182|d:f:hole_pattern:4/location.length.y",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.381 crosses a line of 88.392.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f47,182",
-    "d:f:hole_pattern:4/location.length.y"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f47,182|d:f:hole_pattern:4/location.length.z",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.381 crosses a line of 63.728.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f47,182",
-    "d:f:hole_pattern:4/location.length.z"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 3\u00d7 \u230022.225 \u00b10.254 THRU callout above the side view, nearest the view. Trade-off: adds these findings: The dimension 3\u00d7 \u230022.225 \u00b10.254 THRU runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of datum feature symbol D. [annotation_leader_crossing] The leader of datum feature symbol D crosses a line of 3\u00d7 \u230022.225 \u00b10.254 THRU. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:hole_pattern:4/bore.diameter|f:hole:21:line:0",
-   "impact": "readability",
-   "message": "The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses the \u230015.082 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:4/bore.diameter",
-    "f:hole:21"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 3\u00d7 \u230022.225 \u00b10.254 THRU callout above the side view, nearest the view. Trade-off: adds these findings: The dimension 3\u00d7 \u230022.225 \u00b10.254 THRU runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of datum feature symbol D. [annotation_leader_crossing] The leader of datum feature symbol D crosses a line of 3\u00d7 \u230022.225 \u00b10.254 THRU. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:hole_pattern:4/bore.diameter|f:hole:22:line:0",
-   "impact": "readability",
-   "message": "The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses the \u230015.082 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:4/bore.diameter",
-    "f:hole:22"
+    "pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over",
+    "d:f:hole:12/location.length.y"
    ]
   },
   {
@@ -5833,12 +5973,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -5848,7 +5988,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -5868,12 +6008,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -5884,7 +6024,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -5894,7 +6034,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -5931,12 +6071,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -5946,7 +6086,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -5966,12 +6106,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -5982,7 +6122,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -5992,7 +6132,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6029,12 +6169,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6044,7 +6184,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6064,12 +6204,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6080,7 +6220,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6090,7 +6230,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6127,12 +6267,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6142,7 +6282,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6162,12 +6302,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6178,7 +6318,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6188,7 +6328,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6225,12 +6365,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6240,7 +6380,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u2334 crosses a line of 165.1. [annotation_leader_crossing] The leader of \uf055 crosses a line of 165.1. [annotation_leader_crossing] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u2334 crosses a line of 165.1. [annotation_leader_crossing] The leader of \uf055 crosses a line of 165.1. [annotation_leader_crossing] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6260,12 +6400,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6276,7 +6416,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6286,7 +6426,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6323,12 +6463,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6338,7 +6478,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u2334 crosses a line of 165.1. [annotation_leader_crossing] The leader of \uf055 crosses a line of 165.1. [annotation_leader_crossing] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u2334 crosses a line of 165.1. [annotation_leader_crossing] The leader of \uf055 crosses a line of 165.1. [annotation_leader_crossing] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6358,12 +6498,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6374,7 +6514,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6384,7 +6524,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6421,12 +6561,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6436,7 +6576,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 1.5 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 (2\u00d72). [annotation_ink_overlap].",
+     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) and 285.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses a line of 285.75. [annotation_leader_crossing] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 (2\u00d72). [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -6456,12 +6596,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6472,7 +6612,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6482,7 +6622,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6519,12 +6659,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6534,7 +6674,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 1.5 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 (2\u00d72). [annotation_ink_overlap].",
+     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) and 285.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses a line of 285.75. [annotation_leader_crossing] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 (2\u00d72). [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -6554,12 +6694,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6570,7 +6710,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6580,7 +6720,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6617,12 +6757,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6632,7 +6772,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 1.5 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 (2\u00d72). [annotation_ink_overlap].",
+     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) and 285.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses a line of 285.75. [annotation_leader_crossing] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72). [annotation_ink_overlap] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0 \u21a7\n7.62 (2\u00d72). [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -6652,12 +6792,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6668,7 +6808,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6678,7 +6818,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6715,12 +6855,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6730,7 +6870,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6750,12 +6890,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6766,7 +6906,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6776,7 +6916,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6813,12 +6953,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6828,7 +6968,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6848,12 +6988,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6864,7 +7004,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6874,7 +7014,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -6911,12 +7051,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -6926,7 +7066,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6946,12 +7086,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -6962,7 +7102,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6972,7 +7112,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -7009,12 +7149,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -7024,7 +7164,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -7044,12 +7184,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -7060,7 +7200,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -7070,7 +7210,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -7107,12 +7247,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -7122,7 +7262,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -7142,12 +7282,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -7158,7 +7298,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -7168,7 +7308,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -7205,12 +7345,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -7220,7 +7360,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -7240,12 +7380,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -7256,7 +7396,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -7266,7 +7406,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -7303,12 +7443,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -7318,7 +7458,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -7338,12 +7478,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -7354,7 +7494,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -7364,7 +7504,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -7401,12 +7541,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -7416,7 +7556,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -7436,12 +7576,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -7452,7 +7592,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -7462,7 +7602,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -7476,6 +7616,300 @@
    "subjects": [
     "d:f:hole_pattern:3/grid_pitch.length.row",
     "f:hole:13"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:12~1location.length.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "right",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 90.802 dimension to the right of the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:12~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "right",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:12/location.length.y|f:hole:14:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 90.802 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:12/location.length.y",
+    "f:hole:14"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:12~1location.length.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "right",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 90.802 dimension to the right of the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:12~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "right",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:12/location.length.y|f:hole:15:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 90.802 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:12/location.length.y",
+    "f:hole:15"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:12~1location.length.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "right",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 90.802 dimension to the right of the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:12~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "right",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:12/location.length.y|f:hole:16:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 90.802 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:12/location.length.y",
+    "f:hole:16"
    ]
   },
   {
@@ -7499,12 +7933,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -7514,7 +7948,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 88.392 runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
+     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of 88.392. [annotation_leader_crossing] A line of 88.392 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of 13\u00d7 R1.524 crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -7534,12 +7968,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -7550,7 +7984,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -7560,7 +7994,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -7597,12 +8031,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -7612,7 +8046,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 88.392 runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
+     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of 88.392. [annotation_leader_crossing] A line of 88.392 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of 13\u00d7 R1.524 crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -7632,12 +8066,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -7648,7 +8082,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -7658,7 +8092,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -7672,398 +8106,6 @@
    "subjects": [
     "d:f:hole_pattern:4/location.length.y",
     "f:hole:22"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 13\u00d7 R1.524 callout above the side view, nearest the view. Trade-off: adds these findings: The dimension 13\u00d7 R1.524 runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses the \u230015.082 hole. [leader_through_feature] The leader of 13\u00d7 R1.524 crosses the \u230015.082 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:fillet:11/fillet.radius|f:hole:1:line:0",
-   "impact": "readability",
-   "message": "The leader of 13\u00d7 R1.524 crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:fillet:11/fillet.radius",
-    "f:hole:1"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 13\u00d7 R1.524 callout above the side view, nearest the view. Trade-off: adds these findings: The dimension 13\u00d7 R1.524 runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses the \u230015.082 hole. [leader_through_feature] The leader of 13\u00d7 R1.524 crosses the \u230015.082 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:fillet:11/fillet.radius|f:hole:10:line:0",
-   "impact": "readability",
-   "message": "The leader of 13\u00d7 R1.524 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:fillet:11/fillet.radius",
-    "f:hole:10"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 13\u00d7 R1.524 callout above the side view, nearest the view. Trade-off: adds these findings: The dimension 13\u00d7 R1.524 runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses the \u230015.082 hole. [leader_through_feature] The leader of 13\u00d7 R1.524 crosses the \u230015.082 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:fillet:11/fillet.radius|f:hole:11:line:0",
-   "impact": "readability",
-   "message": "The leader of 13\u00d7 R1.524 crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:fillet:11/fillet.radius",
-    "f:hole:11"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 13\u00d7 R1.524 callout above the side view, nearest the view. Trade-off: adds these findings: The dimension 13\u00d7 R1.524 runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses the \u230015.082 hole. [leader_through_feature] The leader of 13\u00d7 R1.524 crosses the \u230015.082 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:fillet:11/fillet.radius|f:hole:23:line:0",
-   "impact": "readability",
-   "message": "The leader of 13\u00d7 R1.524 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:fillet:11/fillet.radius",
-    "f:hole:23"
    ]
   },
   {
@@ -8087,12 +8129,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -8102,7 +8144,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 12.7 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 12.7. [annotation_leader_crossing] The leader of \u2334 crosses a line of 12.7. [annotation_leader_crossing] The leader of \uf055 crosses a line of 12.7. [annotation_leader_crossing] The leader of F1.1 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 12.7 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u2334 crosses a line of 12.7. [annotation_leader_crossing] The leader of \uf055 crosses a line of 12.7. [annotation_leader_crossing] The leader of F1.1 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8122,12 +8164,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -8138,7 +8180,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -8148,7 +8190,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -8185,12 +8227,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -8200,7 +8242,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 210.006 runs up to 12.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 210.006. [annotation_leader_crossing] The leader of \u2334 crosses a line of 210.006. [annotation_leader_crossing] The leader of \uf055 crosses a line of 210.006. [annotation_leader_crossing] The leader of F1.1 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 210.006 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 (2\u00d72) crosses a line of 210.006. [annotation_leader_crossing] The leader of \u2334 crosses a line of 210.006. [annotation_leader_crossing] The leader of \uf055 crosses a line of 210.006. [annotation_leader_crossing] The leader of F1.1 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8220,12 +8262,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -8236,7 +8278,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -8246,7 +8288,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -8283,12 +8325,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -8298,7 +8340,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 0.30 \u00b10.02 INCH dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 0.30 \u00b10.02 INCH runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses a line of 0.30 \u00b10.02 INCH. [annotation_leader_crossing] The first extension line of 0.30 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 0.30 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 0.30 \u00b10.02 INCH dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 13\u00d7 R1.524 crosses a line of 0.30 \u00b10.02 INCH. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 0.30 \u00b10.02 INCH. [annotation_leader_crossing] The first extension line of 0.30 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 0.30 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8318,12 +8360,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -8334,7 +8376,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -8344,7 +8386,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -8381,12 +8423,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -8396,7 +8438,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 0.30 \u00b10.02 INCH dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 0.30 \u00b10.02 INCH runs up to 5.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses a line of 0.30 \u00b10.02 INCH. [annotation_leader_crossing] The first extension line of 0.30 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 0.30 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 0.30 \u00b10.02 INCH dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 13\u00d7 R1.524 crosses a line of 0.30 \u00b10.02 INCH. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 0.30 \u00b10.02 INCH. [annotation_leader_crossing] The first extension line of 0.30 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 0.30 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8416,12 +8458,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -8432,7 +8474,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -8442,7 +8484,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -8469,12 +8511,12 @@
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:2"
+     "value": "1:5"
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -8484,20 +8526,20 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
     }
    ],
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.parallelism:f226:ref=A|f:hole:3:line:0",
+   "id": "p:leader_through_feature:pmi:datum.datum:f145,146:t=B|f:hole:4:line:0",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses the \u23007.137 hole.",
+   "message": "The leader of datum feature symbol B crosses the \u23006.35 hole.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "f:hole:3"
+    "pmi:datum.datum:f145,146:t=B",
+    "f:hole:4"
    ]
   },
   {
@@ -8511,12 +8553,12 @@
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:2"
+     "value": "1:5"
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -8526,20 +8568,20 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
     }
    ],
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.parallelism:f226:ref=A|f:hole:9:line:0",
+   "id": "p:leader_through_feature:pmi:datum.datum:f145,146:t=B|f:hole:6:line:0",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses the \u23007.137 hole.",
+   "message": "The leader of datum feature symbol B crosses the \u23006.35 hole.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "f:hole:9"
+    "pmi:datum.datum:f145,146:t=B",
+    "f:hole:6"
    ]
   },
   {
@@ -8553,12 +8595,12 @@
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:2"
+     "value": "1:5"
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -8568,7 +8610,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -8595,12 +8637,12 @@
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:2"
+     "value": "1:5"
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -8610,7 +8652,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
@@ -9126,10 +9168,11 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 117 of 306 faces; 189 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 133 of 306 faces; 173 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
+    "face:3",
     "face:13",
     "face:14",
     "face:15",
@@ -9139,25 +9182,19 @@
     "face:21",
     "face:22",
     "face:23",
-    "face:24",
-    "face:25",
     "face:26",
     "face:27",
     "face:28",
     "face:29",
     "face:30",
     "face:31",
-    "face:36",
-    "face:37",
-    "face:38",
-    "face:39",
     "face:40",
     "face:41",
     "face:42",
     "face:43",
-    "face:44",
     "face:45",
     "face:46",
+    "face:47",
     "face:48",
     "face:49",
     "face:52",
@@ -9165,7 +9202,6 @@
     "face:54",
     "face:56",
     "face:57",
-    "face:58",
     "face:59",
     "face:60",
     "face:61",
@@ -9194,9 +9230,6 @@
     "face:84",
     "face:85",
     "face:86",
-    "face:87",
-    "face:88",
-    "face:89",
     "face:90",
     "face:91",
     "face:92",
@@ -9232,7 +9265,6 @@
     "face:126",
     "face:127",
     "face:128",
-    "face:129",
     "face:130",
     "face:131",
     "face:132",
@@ -9240,7 +9272,6 @@
     "face:134",
     "face:135",
     "face:136",
-    "face:137",
     "face:138",
     "face:139",
     "face:140",
@@ -9265,13 +9296,13 @@
     "face:179",
     "face:180",
     "face:181",
+    "face:182",
     "face:189",
     "face:190",
     "face:192",
     "face:193",
     "face:194",
     "face:195",
-    "face:196",
     "face:197",
     "face:198",
     "face:200",
@@ -9281,7 +9312,6 @@
     "face:206",
     "face:207",
     "face:208",
-    "face:209",
     "face:210",
     "face:211",
     "face:212",
@@ -9289,7 +9319,6 @@
     "face:214",
     "face:215",
     "face:216",
-    "face:217",
     "face:218",
     "face:219",
     "face:220",
@@ -9297,18 +9326,13 @@
     "face:222",
     "face:223",
     "face:225",
-    "face:231",
-    "face:232",
     "face:233",
-    "face:234",
-    "face:235",
     "face:236",
-    "face:241",
-    "face:242",
     "face:243",
-    "face:250",
-    "face:251",
     "face:252",
+    "face:265",
+    "face:266",
+    "face:267",
     "face:268",
     "face:269",
     "face:270",
@@ -9317,7 +9341,9 @@
     "face:275",
     "face:277",
     "face:278",
-    "face:279"
+    "face:279",
+    "face:304",
+    "face:305"
    ]
   },
   {
@@ -9325,7 +9351,7 @@
    "group": "sheet_preference_exceeded",
    "id": "p:sheet_preference_exceeded:sheet",
    "impact": "advisory",
-   "message": "Preferred paper size exceeded: using 1 sheet(s) of A1 at 1:1. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
+   "message": "Preferred paper size exceeded: using 1 sheet(s) of A2 at 1:2. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -9334,7 +9360,7 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader"
+    "extension_line"
    ],
    "fix": [
     {
@@ -9355,12 +9381,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -9370,7 +9396,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 4\u00d7 4-SIDED 25.352 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 4-SIDED 25.352 A/F runs up to 1.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 215.9. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 165.1. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses the \u230015.082 hole. [leader_through_feature].",
+     "description": "Move the 4\u00d7 4-SIDED 25.352 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The labels of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) and 4\u00d7 4-SIDED 25.352 A/F overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -9390,12 +9416,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -9406,7 +9432,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -9416,20 +9442,121 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:d:f:polygonal_boss:1/polygon_across_flats.length|pmi:dimension.common_label:f47:t=F1.1",
-   "impact": "readability",
-   "message": "The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of F1.1.",
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:d:f:polygonal_boss:1/polygon_across_flats.length|d:f:hole_pattern:2/grid_pitch.length.col",
+   "impact": "advisory",
+   "message": "The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 215.9.",
    "severity": "warning",
    "subjects": [
     "d:f:polygonal_boss:1/polygon_across_flats.length",
-    "pmi:dimension.common_label:f47:t=F1.1"
+    "d:f:hole_pattern:2/grid_pitch.length.col"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.row/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.row/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:d:f:hole_pattern:1/bore.diameter|d:f:hole_pattern:3/grid_pitch.length.row",
+   "impact": "advisory",
+   "message": "The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62\n(2\u00d72) crosses a line of 196.85.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/bore.diameter",
+    "d:f:hole_pattern:3/grid_pitch.length.row"
    ]
   },
   {
@@ -9440,12 +9567,102 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:polygonal_boss:1~1polygon_across_flats.length/place",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f145,146:t=B|pmi:geometric_tolerance.parallelism:f226:ref=A",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of the feature control frame \u2225 0.762 A.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f145,146:t=B",
+    "pmi:geometric_tolerance.parallelism:f226:ref=A"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f226:ref=A|pmi:datum.datum:f145,146:t=B",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of datum feature symbol B.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.parallelism:f226:ref=A",
+    "pmi:datum.datum:f145,146:t=B"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
      "value": {
       "along": "middle",
       "lane": 0,
-      "side": "above",
-      "view": "front"
+      "side": "left",
+      "view": "side"
      }
     },
     {
@@ -9456,12 +9673,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A1"
+     "value": "A2"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -9471,16 +9688,16 @@
    ],
    "fixes": [
     {
-     "description": "Move the 4\u00d7 4-SIDED 25.352 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 4-SIDED 25.352 A/F runs up to 1.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 215.9. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 165.1. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses the \u230015.082 hole. [leader_through_feature].",
+     "description": "Move the 2\u00d7 47.625 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2225 0.762 A crosses a line of 2\u00d7 47.625. [annotation_leader_crossing] The leader of the feature control frame \u2313 1.524 A B C crosses a line of 2\u00d7 47.625. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:polygonal_boss:1~1polygon_across_flats.length/place",
+       "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
        "value": {
         "along": "middle",
         "lane": 0,
-        "side": "above",
-        "view": "front"
+        "side": "left",
+        "view": "side"
        }
       },
       {
@@ -9491,12 +9708,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A1"
+       "value": "A2"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -9507,7 +9724,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -9517,20 +9734,121 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:5"
       }
      ],
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f47:t=F1.1|d:f:polygonal_boss:1/polygon_across_flats.length",
-   "impact": "readability",
-   "message": "The leader of F1.1 crosses a line of 4\u00d7 4-SIDED 25.352 A/F.",
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f47,182|d:f:hole_pattern:4/pitch.length",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2313 0.381 crosses a line of 2\u00d7 47.625.",
    "severity": "warning",
    "subjects": [
-    "pmi:dimension.common_label:f47:t=F1.1",
-    "d:f:polygonal_boss:1/polygon_across_flats.length"
+    "pmi:geometric_tolerance.profile_surface:f47,182",
+    "d:f:hole_pattern:4/pitch.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 63.728 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2313 1.524 A B C crosses a line of 63.728. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f47,182|d:f:hole_pattern:4/location.length.z",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2313 0.381 crosses a line of 63.728.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f47,182",
+    "d:f:hole_pattern:4/location.length.z"
    ]
   },
   {
@@ -9670,8 +9988,8 @@
   {
    "annotation": "pmi:datum.datum:f145,146:t=B",
    "at": [
-    621.96290948823,
-    325.13296474844
+    381.5067409745595,
+    63.0
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -9679,7 +9997,24 @@
    "group": "datum_leader_remote",
    "id": "l:datum_leader_remote:pmi:datum.datum:f145,146:t=B",
    "impact": "readability",
-   "message": "datum leader pmi:datum.datum:f145,146:t=B is 46.2 mm from its surface",
+   "message": "datum leader pmi:datum.datum:f145,146:t=B is 145.3 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "annotation": "pmi:datum.datum:f149,150:t=C",
+   "at": [
+    382.07824097436895,
+    239.92407651503999
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f149,150:t=C",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f149,150:t=C is 28.4 mm from its surface",
    "scope": "sheet",
    "severity": "warning",
    "subjects": []
@@ -9687,8 +10022,8 @@
   {
    "annotation": "pmi:datum.datum:f17,159,195,222:t=D",
    "at": [
-    627.11290948696,
-    253.27141147193927
+    386.74524097347995,
+    204.12068004955267
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -9696,7 +10031,7 @@
    "group": "datum_leader_remote",
    "id": "l:datum_leader_remote:pmi:datum.datum:f17,159,195,222:t=D",
    "impact": "readability",
-   "message": "datum leader pmi:datum.datum:f17,159,195,222:t=D is 118.2 mm from its surface",
+   "message": "datum leader pmi:datum.datum:f17,159,195,222:t=D is 60.4 mm from its surface",
    "scope": "sheet",
    "severity": "warning",
    "subjects": []
@@ -9704,20 +10039,21 @@
  ],
  "summary": {
   "groups": {
+   "annotation_leader_crossing:arrow+dimension_line": 4,
    "annotation_leader_crossing:arrow+dimension_line+extension_line": 2,
-   "annotation_leader_crossing:arrow+leader": 6,
+   "annotation_leader_crossing:arrow+leader": 4,
    "annotation_leader_crossing:dimension_line": 13,
-   "annotation_leader_crossing:extension_line": 10,
-   "annotation_leader_crossing:leader": 2,
-   "datum_leader_remote": 2,
+   "annotation_leader_crossing:extension_line": 11,
+   "annotation_leader_crossing:leader": 6,
+   "datum_leader_remote": 3,
    "datum_origin_unusable": 2,
-   "extension_through_feature": 23,
+   "extension_through_feature": 26,
    "feature_not_dimensioned:hole": 4,
    "feature_not_located:hole": 8,
    "feature_not_located:polygonal_boss": 16,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "leader_through_feature": 10,
+   "leader_through_feature": 4,
    "nominal_rounded": 45,
    "pmi_dimensions_not_ported": 1,
    "pmi_not_extracted": 68,
@@ -9728,13 +10064,14 @@
    "pmi_not_lowered:geometric_tolerance": 36,
    "pmi_not_rendered:dimension": 1,
    "pmi_presentation_not_read": 1,
+   "radius_leader_not_radial": 1,
    "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1,
    "unrecognised_defining_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 144,
+    "findings": 148,
     "groups": 10
    },
    "decision": {
@@ -9746,8 +10083,8 @@
     "groups": 11
    },
    "readability": {
-    "findings": 35,
-    "groups": 6
+    "findings": 37,
+    "groups": 8
    }
   }
  }

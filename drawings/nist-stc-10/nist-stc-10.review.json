@@ -1586,107 +1586,6 @@
    "subjects": [
     "f:slot:1"
    ]
-  },
-  {
-   "annotation": "d:f:fillet:4/fillet.radius",
-   "at": [
-    342.23389330541795,
-    320.73268050992937
-   ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:4/fillet.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:fillet:1/fillet.radius",
-    "f:fillet:2/fillet.radius",
-    "f:fillet:3/fillet.radius",
-    "f:fillet:4/fillet.radius",
-    "f:fillet:5/fillet.radius",
-    "f:fillet:6/fillet.radius",
-    "f:fillet:7/fillet.radius",
-    "f:fillet:8/fillet.radius",
-    "f:fillet:9/fillet.radius",
-    "f:fillet:10/fillet.radius",
-    "f:fillet:11/fillet.radius",
-    "f:fillet:12/fillet.radius",
-    "f:fillet:13/fillet.radius",
-    "f:fillet:14/fillet.radius",
-    "f:fillet:15/fillet.radius",
-    "f:fillet:16/fillet.radius",
-    "f:fillet:17/fillet.radius",
-    "f:fillet:18/fillet.radius",
-    "f:fillet:19/fillet.radius",
-    "f:fillet:20/fillet.radius",
-    "f:fillet:21/fillet.radius",
-    "f:fillet:22/fillet.radius",
-    "f:fillet:23/fillet.radius",
-    "f:fillet:24/fillet.radius",
-    "f:fillet:25/fillet.radius",
-    "f:fillet:26/fillet.radius",
-    "f:fillet:27/fillet.radius",
-    "f:fillet:28/fillet.radius",
-    "f:fillet:29/fillet.radius",
-    "f:fillet:30/fillet.radius",
-    "f:fillet:31/fillet.radius",
-    "f:fillet:32/fillet.radius",
-    "f:fillet:33/fillet.radius",
-    "f:fillet:34/fillet.radius",
-    "f:fillet:35/fillet.radius",
-    "f:fillet:36/fillet.radius",
-    "f:fillet:37/fillet.radius",
-    "f:fillet:38/fillet.radius",
-    "f:fillet:39/fillet.radius",
-    "f:fillet:40/fillet.radius",
-    "f:fillet:41/fillet.radius"
-   ],
-   "message": "d:f:fillet:4/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:fillet:1",
-    "f:fillet:2",
-    "f:fillet:3",
-    "f:fillet:4",
-    "f:fillet:5",
-    "f:fillet:6",
-    "f:fillet:7",
-    "f:fillet:8",
-    "f:fillet:9",
-    "f:fillet:10",
-    "f:fillet:11",
-    "f:fillet:12",
-    "f:fillet:13",
-    "f:fillet:14",
-    "f:fillet:15",
-    "f:fillet:16",
-    "f:fillet:17",
-    "f:fillet:18",
-    "f:fillet:19",
-    "f:fillet:20",
-    "f:fillet:21",
-    "f:fillet:22",
-    "f:fillet:23",
-    "f:fillet:24",
-    "f:fillet:25",
-    "f:fillet:26",
-    "f:fillet:27",
-    "f:fillet:28",
-    "f:fillet:29",
-    "f:fillet:30",
-    "f:fillet:31",
-    "f:fillet:32",
-    "f:fillet:33",
-    "f:fillet:34",
-    "f:fillet:35",
-    "f:fillet:36",
-    "f:fillet:37",
-    "f:fillet:38",
-    "f:fillet:39",
-    "f:fillet:40",
-    "f:fillet:41"
-   ],
-   "view": "v:side"
   }
  ],
  "problems": [
@@ -8417,6 +8316,176 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1width.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1width.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f93,94,95,96,97,98,99,100:ref=A,B,C:mod=diameter_zone|d:envelope/width.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 158.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f93,94,95,96,97,98,99,100:ref=A,B,C:mod=diameter_zone",
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:slot:1~1slot_length.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:1~1slot_length.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f93,94,95,96,97,98,99,100:ref=A,B,C:mod=diameter_zone|d:f:slot:1/slot_length.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 78.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f93,94,95,96,97,98,99,100:ref=A,B,C:mod=diameter_zone",
+    "d:f:slot:1/slot_length.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
     "extension_line"
    ],
    "fix": [
@@ -13388,19 +13457,21 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 127 of 256 faces; 129 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 142 of 256 faces; 114 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
     "face:1",
     "face:2",
     "face:3",
-    "face:4",
-    "face:5",
     "face:6",
     "face:7",
+    "face:8",
+    "face:9",
     "face:10",
     "face:11",
+    "face:12",
+    "face:13",
     "face:14",
     "face:15",
     "face:16",
@@ -13418,16 +13489,8 @@
     "face:32",
     "face:33",
     "face:34",
-    "face:35",
     "face:36",
-    "face:37",
-    "face:39",
-    "face:40",
-    "face:41",
-    "face:42",
-    "face:43",
-    "face:44",
-    "face:45",
+    "face:38",
     "face:46",
     "face:47",
     "face:48",
@@ -13435,14 +13498,6 @@
     "face:57",
     "face:59",
     "face:65",
-    "face:67",
-    "face:70",
-    "face:73",
-    "face:76",
-    "face:78",
-    "face:80",
-    "face:82",
-    "face:84",
     "face:88",
     "face:90",
     "face:92",
@@ -13467,7 +13522,6 @@
     "face:136",
     "face:137",
     "face:138",
-    "face:139",
     "face:141",
     "face:142",
     "face:143",
@@ -13541,91 +13595,6 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_length.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 78 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 78 runs through the label of the feature control frame \u2316 \u23000.5 A B. [annotation_ink_overlap] A line of 78 runs through the label of the feature control frame \u2316 \u23000.65 A B C. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001\u24c2 A B C crosses a line of 78. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_length.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f93,94,95,96,97,98,99,100:ref=A,B,C:mod=diameter_zone|d:f:slot:1/slot_length.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 78.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f93,94,95,96,97,98,99,100:ref=A,B,C:mod=diameter_zone",
-    "d:f:slot:1/slot_length.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
      "path": "dimensions/d:f:hole:5~1location.length.z/place",
      "value": {
       "along": "middle",
@@ -13679,7 +13648,7 @@
   {
    "annotation": "d:envelope/depth.length",
    "at": [
-    326.81001292243604,
+    339.81001292243604,
     224.39699707756395
    ],
    "code": "annotation_ink_overlap",
@@ -13699,7 +13668,7 @@
   {
    "annotation": "pmi:datum.datum:f25:t=C",
    "at": [
-    317.0100100000001,
+    330.0100100000001,
     220.34999707756396
    ],
    "code": "datum_leader_remote",
@@ -13716,7 +13685,7 @@
   {
    "annotation": "pmi:datum.datum:f64:t=G",
    "at": [
-    329.91313229202575,
+    342.9131322920257,
     344.42999707756394
    ],
    "code": "datum_leader_remote",
@@ -13733,7 +13702,7 @@
   {
    "annotation": "pmi:datum.datum:f87:t=E",
    "at": [
-    335.346406103068,
+    348.3464061030679,
     334.42999707756394
    ],
    "code": "datum_leader_remote",
@@ -13753,7 +13722,7 @@
    "annotation_ink_overlap": 2,
    "annotation_leader_crossing:arrow+dimension_line+extension_line": 4,
    "annotation_leader_crossing:arrow+leader": 14,
-   "annotation_leader_crossing:dimension_line": 26,
+   "annotation_leader_crossing:dimension_line": 27,
    "annotation_leader_crossing:extension_line": 43,
    "annotation_leader_crossing:leader": 12,
    "datum_leader_remote": 3,
@@ -13780,7 +13749,6 @@
    "pmi_not_lowered:geometric_tolerance": 24,
    "pmi_presentation_not_read": 1,
    "prismatic_pocket_requirement_unsupported": 1,
-   "radius_leader_not_radial": 1,
    "section_recess_recognition_refused": 2,
    "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1
@@ -13800,7 +13768,7 @@
    },
    "readability": {
     "findings": 115,
-    "groups": 9
+    "groups": 8
    }
   }
  }

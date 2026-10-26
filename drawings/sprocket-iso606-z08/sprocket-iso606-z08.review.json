@@ -17,8 +17,8 @@
   {
    "annotation": "d:f:fillet:13/fillet.radius",
    "at": [
-    33.24686705690822,
-    30.65801000337601
+    46.24686705690822,
+    33.65801000337601
    ],
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
@@ -191,7 +191,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 38 of 94 faces; 56 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 37 of 94 faces; 57 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
@@ -199,9 +199,9 @@
     "face:6",
     "face:7",
     "face:8",
-    "face:9",
     "face:10",
     "face:11",
+    "face:12",
     "face:13",
     "face:14",
     "face:17",
@@ -216,6 +216,7 @@
     "face:30",
     "face:31",
     "face:32",
+    "face:42",
     "face:45",
     "face:46",
     "face:48",
@@ -245,11 +246,11 @@
     "face:82",
     "face:83",
     "face:84",
-    "face:85",
     "face:88",
     "face:89",
     "face:90",
-    "face:91"
+    "face:91",
+    "face:92"
    ]
   }
  ],

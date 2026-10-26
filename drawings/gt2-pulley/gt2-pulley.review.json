@@ -307,8 +307,8 @@
   {
    "annotation": "d:f:chamfer:1/chamfer.length",
    "at": [
-    133.91400000000002,
-    100.375
+    136.91400000000002,
+    136.67367965644038
    ],
    "code": "chamfer_leader_target_unverifiable",
    "evidence": "no coaxial turned band holds its station",
@@ -385,7 +385,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A2"
+     "value": "A3"
     },
     {
      "op": "set",
@@ -415,7 +415,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A2"
+       "value": "A3"
       },
       {
        "op": "set",
@@ -471,14 +471,13 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 49 of 78 faces; 29 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 52 of 78 faces; 26 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:3",
     "face:4",
     "face:15",
     "face:16",
-    "face:24",
     "face:27",
     "face:29",
     "face:31",
@@ -499,21 +498,8 @@
     "face:61",
     "face:63",
     "face:65",
-    "face:67",
     "face:68",
-    "face:72",
-    "face:75"
-   ]
-  },
-  {
-   "code": "sheet_preference_exceeded",
-   "group": "sheet_preference_exceeded",
-   "id": "p:sheet_preference_exceeded:sheet",
-   "impact": "advisory",
-   "message": "Preferred paper size exceeded: using 1 sheet(s) of A2 at 5:1. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
-   "severity": "info",
-   "subjects": [
-    "sheet"
+    "face:72"
    ]
   }
  ],
@@ -526,13 +512,12 @@
    "chamfer_leader_target_unverifiable": 1,
    "general_tolerance_missing": 1,
    "nominal_rounded": 2,
-   "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 20,
-    "groups": 7
+    "findings": 19,
+    "groups": 6
    },
    "decision": {
     "findings": 1,

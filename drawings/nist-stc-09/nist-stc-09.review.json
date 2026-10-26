@@ -1709,7 +1709,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 3\u00d7 \u23007.137 \u00b10.2032 THRU callout below the front view, nearest the view. Trade-off: adds these findings: The labels of 3\u00d7 \u23007.137 \u00b10.2032 THRU and 2\u00d7 19.05 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The labels of 3\u00d7 \u23007.137 \u00b10.2032 THRU and 2\u00d7 19.05 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 190.5 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 190.5. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 165.1. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 123.187. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 133.35. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 146.05. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 152.4. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 165.807. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 173.99. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 10.16. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 38.1. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 120.65. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 139.7. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 178.1. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2\u00d7 25.4. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 130.175. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 38.1. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 123.825. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 128.092. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 0.140 \u00b10.008 INCH. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2X R. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 4X R. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 \u23000.762 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 \u23000.4064\u24c2 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 \u23000.254 A G H. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 0.508 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 1.524 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 \u23001.016 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 1.524\u24c2 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2313 0.2032 A G H. [annotation_leader_crossing] A line of 165.1 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 123.187 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 133.35 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 146.05 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 152.4 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 165.807 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 173.99 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 2\u00d7 25.4 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 130.175 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 38.1 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 123.825 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 0.140 \u00b10.008 INCH runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 2X R runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of 2X R crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of 4X R runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of 4X R crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.762 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.762 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.4064\u24c2 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.4064\u24c2 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.254 A G H runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.254 A G H crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 0.508 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 0.508 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23001.016 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001.016 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524\u24c2 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524\u24c2 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2313 0.2032 A G H runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2313 0.2032 A G H crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 3\u00d7 \u23007.137 \u00b10.2032 THRU callout below the front view, nearest the view. Trade-off: adds these findings: The labels of 3\u00d7 \u23007.137 \u00b10.2032 THRU and 2\u00d7 19.05 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The labels of 3\u00d7 \u23007.137 \u00b10.2032 THRU and 2\u00d7 19.05 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 190.5 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 190.5. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 165.1. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 123.187. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 133.35. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 146.05. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 152.4. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 165.807. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 173.99. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 10.16. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 38.1. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 120.65. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 139.7. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 178.1. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2\u00d7 25.4. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 130.175. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 38.1. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 123.825. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 128.092. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 0.140 \u00b10.008 INCH. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 2X R. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of 4X R. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 \u23000.762 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 \u23000.4064\u24c2 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 \u23000.254 A G H. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 0.508 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 1.524 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 \u23001.016 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2316 1.524\u24c2 A B C. [annotation_leader_crossing] The leader of 3\u00d7 \u23007.137 \u00b10.2032 THRU crosses a line of the feature control frame \u2313 0.2032 A G H. [annotation_leader_crossing] A line of 165.1 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 123.187 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 133.35 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 146.05 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 152.4 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 165.807 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 173.99 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 2\u00d7 25.4 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 130.175 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 38.1 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 123.825 runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 0.140 \u00b10.008 INCH runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] A line of 2X R runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of 2X R crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of 4X R runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of 4X R crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.762 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.762 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.4064\u24c2 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.4064\u24c2 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.254 A G H runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.254 A G H crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 0.508 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 0.508 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23001.016 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001.016 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524\u24c2 A B C runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524\u24c2 A B C crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing] A line of the feature control frame \u2313 0.2032 A G H runs through the label of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_ink_overlap] The leader of the feature control frame \u2313 0.2032 A G H crosses a line of 3\u00d7 \u23007.137 \u00b10.2032 THRU. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -2753,7 +2753,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 R3.18 callout below the front view, nearest the view. Trade-off: adds these findings: A line of 165.1 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2\u00d7 19.05 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 123.187 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 133.35 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 146.05 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 152.4 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 165.807 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 173.99 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2\u00d7 25.4 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 2\u00d7 R3.18 crosses a line of 165.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 123.187. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 133.35. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 146.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 152.4. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 165.807. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 173.99. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 10.16. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 38.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 25.4. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 130.175. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 38.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 123.825. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 0.140 \u00b10.008 INCH. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2X R. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 4X R. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.762 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.4064\u24c2 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.254 A G H. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 0.508 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 1.524 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23001.016 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 1.524\u24c2 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2313 0.2032 A G H. [annotation_leader_crossing] A line of 130.175 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 38.1 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 123.825 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 0.140 \u00b10.008 INCH runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2X R runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 2X R crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of 4X R runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 4X R crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.762 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.762 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.4064\u24c2 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.4064\u24c2 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.254 A G H runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.254 A G H crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 0.508 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 0.508 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23001.016 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001.016 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524\u24c2 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524\u24c2 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2313 0.2032 A G H runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2313 0.2032 A G H crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 2\u00d7 R3.18 callout below the front view, nearest the view. Trade-off: adds these findings: A line of 165.1 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2\u00d7 19.05 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 123.187 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 133.35 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 146.05 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 152.4 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 165.807 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 173.99 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2\u00d7 25.4 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 2\u00d7 R3.18 crosses a line of 165.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 123.187. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 133.35. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 146.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 152.4. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 165.807. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 173.99. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 10.16. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 38.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 25.4. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 130.175. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 38.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 123.825. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 0.140 \u00b10.008 INCH. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2X R. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 4X R. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.762 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.4064\u24c2 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.254 A G H. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 0.508 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 1.524 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23001.016 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 1.524\u24c2 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2313 0.2032 A G H. [annotation_leader_crossing] A line of 130.175 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 38.1 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 123.825 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 0.140 \u00b10.008 INCH runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2X R runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 2X R crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of 4X R runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 4X R crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.762 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.762 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.4064\u24c2 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.4064\u24c2 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.254 A G H runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.254 A G H crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 0.508 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 0.508 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23001.016 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001.016 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524\u24c2 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524\u24c2 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2313 0.2032 A G H runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2313 0.2032 A G H crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -2798,7 +2798,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 R3.18 callout below the front view, nearest the view. Trade-off: adds these findings: A line of 165.1 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2\u00d7 19.05 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 123.187 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 133.35 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 146.05 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 152.4 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 165.807 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 173.99 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2\u00d7 25.4 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 2\u00d7 R3.18 crosses a line of 165.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 123.187. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 133.35. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 146.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 152.4. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 165.807. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 173.99. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 10.16. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 38.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 25.4. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 130.175. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 38.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 123.825. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 0.140 \u00b10.008 INCH. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2X R. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 4X R. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.762 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.4064\u24c2 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.254 A G H. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 0.508 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 1.524 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23001.016 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 1.524\u24c2 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2313 0.2032 A G H. [annotation_leader_crossing] A line of 130.175 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 38.1 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 123.825 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 0.140 \u00b10.008 INCH runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2X R runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 2X R crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of 4X R runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 4X R crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.762 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.762 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.4064\u24c2 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.4064\u24c2 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.254 A G H runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.254 A G H crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 0.508 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 0.508 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23001.016 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001.016 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524\u24c2 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524\u24c2 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2313 0.2032 A G H runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2313 0.2032 A G H crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 2\u00d7 R3.18 callout below the front view, nearest the view. Trade-off: adds these findings: A line of 165.1 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2\u00d7 19.05 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 123.187 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 133.35 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 146.05 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 152.4 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 165.807 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 173.99 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2\u00d7 25.4 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 2\u00d7 R3.18 crosses a line of 165.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 123.187. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 133.35. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 146.05. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 152.4. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 165.807. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 173.99. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 10.16. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 38.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2\u00d7 25.4. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 130.175. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 38.1. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 123.825. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 0.140 \u00b10.008 INCH. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 2X R. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of 4X R. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u27c2 \u23000.254 A. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.762 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.4064\u24c2 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23000.254 A G H. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 0.508 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 1.524 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 \u23001.016 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2316 1.524\u24c2 A B C. [annotation_leader_crossing] The leader of 2\u00d7 R3.18 crosses a line of the feature control frame \u2313 0.2032 A G H. [annotation_leader_crossing] A line of 130.175 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 38.1 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 123.825 runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 0.140 \u00b10.008 INCH runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] A line of 2X R runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 2X R crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of 4X R runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of 4X R crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u27c2 \u23000.254 A runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u27c2 \u23000.254 A crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.762 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.762 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.4064\u24c2 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.4064\u24c2 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23000.254 A G H runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.254 A G H crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 0.508 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 0.508 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 \u23001.016 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001.016 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2316 1.524\u24c2 A B C runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2316 1.524\u24c2 A B C crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing] A line of the feature control frame \u2313 0.2032 A G H runs through the label of 2\u00d7 R3.18. [annotation_ink_overlap] The leader of the feature control frame \u2313 0.2032 A G H crosses a line of 2\u00d7 R3.18. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -23617,25 +23617,21 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 131 of 163 faces; 32 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 133 of 163 faces; 30 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:2",
-    "face:4",
-    "face:6",
+    "face:5",
     "face:8",
+    "face:9",
     "face:10",
-    "face:12",
-    "face:14",
+    "face:13",
     "face:16",
-    "face:56",
+    "face:17",
     "face:58",
     "face:60",
-    "face:62",
-    "face:64",
     "face:66",
     "face:68",
-    "face:70",
     "face:72",
     "face:73",
     "face:74",
@@ -23647,6 +23643,8 @@
     "face:88",
     "face:90",
     "face:91",
+    "face:120",
+    "face:123",
     "face:158",
     "face:159",
     "face:160",
@@ -23659,7 +23657,7 @@
    "group": "layout_recovery_exhausted",
    "id": "p:layout_recovery_exhausted:sheet",
    "impact": "readability",
-   "message": "A1 at 1:5 has 48 hard layout findings, 9 hole locations too close to read; it is below 1:2, the opening legibility floor, or has dimensioned steps shorter than the printed capital height; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 10:1 (principal ink exceeds usable paper; not a fit candidate); A4 5:1 (principal ink exceeds usable paper; not a fit candidate); A4 2:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:2 fill 33.6% (201 hard layout findings, 48 hole locations too close to read, 29 hole items dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 326 annotation conflicts, 0 unreadable step spans, columns); 2 extra material crossings in existing dimensions; A3 10:1 (principal ink exceeds usable paper; not a fit candidate); A3 5:1 (principal ink exceeds usable paper; not a fit candidate); A3 2:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:2 fill 27.0% (200 hard layout findings, 48 hole locations too close to read, 29 hole items dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 326 annotation conflicts, 0 unreadable step spans, columns); 2 extra material crossings in existing dimensions; A2 10:1 (principal ink exceeds usable paper; not a fit candidate); A2 5:1 (principal ink exceeds usable paper; not a fit candidate); A2 2:1 (principal ink exceeds usable paper; not a fit candidate); A2 1:1 fill 40.8% (153 hard layout findings, 39 hole locations too close to read, 26 hole items dropped for want of room, 0 additional view conflicts, 9 additional material crossings, 340 annotation conflicts, 0 unreadable step spans, columns); 7 extra material crossings in existing dimensions; A2 1:2 fill 37.0% (117 hard layout findings, 32 hole locations too close to read, 16 hole items dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 465 annotation conflicts, 0 unreadable step spans, columns); 8 extra leader/extension corridors beyond the established drawing; 3 extra material crossings in existing dimensions; A1 10:1 (principal ink exceeds usable paper; not a fit candidate); A1 5:1 (principal ink exceeds usable paper; not a fit candidate); A1 2:1 fill 62.6% (118 hard layout findings, 34 hole locations too close to read, 21 hole items dropped for want of room, 0 additional view conflicts, 13 additional material crossings, 332 annotation conflicts, 0 unreadable step spans, columns); 12 extra material crossings in existing dimensions; A1 1:1 fill 38.3% (98 hard layout findings, 17 hole locations too close to read, 10 hole items dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 411 annotation conflicts, 0 unreadable step spans, staggered-side); 4 extra leader/extension corridors beyond the established drawing; 3 extra material crossings in existing dimensions; A1 1:2 fill 25.2% (63 hard layout findings, 6 hole locations too close to read, 0 additional view conflicts, 12 additional material crossings, 450 annotation conflicts, 0 unreadable step spans, columns); 46 extra leader/extension corridors beyond the established drawing; 9 extra material crossings in existing dimensions; A0 10:1 (principal ink exceeds usable paper; not a fit candidate); A0 5:1 (principal ink exceeds usable paper; not a fit candidate); A0 2:1 fill 46.8% (73 hard layout findings, 9 hole locations too close to read, 5 hole items dropped for want of room, 0 additional view conflicts, 6 additional material crossings, 449 annotation conflicts, 0 unreadable step spans, staggered-side); 5 extra material crossings in existing dimensions; A0 1:1 fill 24.3% (28 hard layout findings, 1 hole location too close to read, 0 additional view conflicts, 6 additional material crossings, 455 annotation conflicts, 0 unreadable step spans, columns); 4 extra material crossings in existing dimensions; A0 1:2 fill 12.4% (60 hard layout findings, 6 hole locations too close to read, 0 additional view conflicts, 1 additional material crossings, 467 annotation conflicts, 0 unreadable step spans, columns); 46 extra leader/extension corridors beyond the established drawing. Automatic detail alternatives: A4 10:1 (principal ink exceeds usable paper; not a fit candidate); A4 5:1 (principal ink exceeds usable paper; not a fit candidate); A4 2:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 10:1 (principal ink exceeds usable paper; not a fit candidate); A3 5:1 (principal ink exceeds usable paper; not a fit candidate); A3 2:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A2 10:1 (principal ink exceeds usable paper; not a fit candidate); A2 5:1 (principal ink exceeds usable paper; not a fit candidate); A2 2:1 (principal ink exceeds usable paper; not a fit candidate); A1 10:1 (principal ink exceeds usable paper; not a fit candidate); A1 5:1 (principal ink exceeds usable paper; not a fit candidate); A0 10:1 (principal ink exceeds usable paper; not a fit candidate); A0 5:1 (principal ink exceeds usable paper; not a fit candidate).",
+   "message": "A1 at 1:5 has 48 hard layout findings, 9 hole locations too close to read; it is below 1:2, the opening legibility floor, or has dimensioned steps shorter than the printed capital height; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 10:1 (principal ink exceeds usable paper; not a fit candidate); A4 5:1 (principal ink exceeds usable paper; not a fit candidate); A4 2:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:2 fill 34.3% (201 hard layout findings, 48 hole locations too close to read, 29 hole items dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 326 annotation conflicts, 0 unreadable step spans, columns); 2 extra material crossings in existing dimensions; A3 10:1 (principal ink exceeds usable paper; not a fit candidate); A3 5:1 (principal ink exceeds usable paper; not a fit candidate); A3 2:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:2 fill 27.5% (200 hard layout findings, 48 hole locations too close to read, 29 hole items dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 326 annotation conflicts, 0 unreadable step spans, columns); 2 extra material crossings in existing dimensions; A2 10:1 (principal ink exceeds usable paper; not a fit candidate); A2 5:1 (principal ink exceeds usable paper; not a fit candidate); A2 2:1 (principal ink exceeds usable paper; not a fit candidate); A2 1:1 fill 39.7% (156 hard layout findings, 39 hole locations too close to read, 26 hole items dropped for want of room, 0 additional view conflicts, 9 additional material crossings, 341 annotation conflicts, 0 unreadable step spans, columns); 7 extra material crossings in existing dimensions; A2 1:2 fill 35.8% (130 hard layout findings, 32 hole locations too close to read, 16 hole items dropped for want of room, 0 additional view conflicts, 3 additional material crossings, 490 annotation conflicts, 0 unreadable step spans, columns); 23 extra leader/extension corridors beyond the established drawing; 2 extra material crossings in existing dimensions; A1 10:1 (principal ink exceeds usable paper; not a fit candidate); A1 5:1 (principal ink exceeds usable paper; not a fit candidate); A1 2:1 fill 53.4% (133 hard layout findings, 39 hole locations too close to read, 26 hole items dropped for want of room, 0 additional view conflicts, 13 additional material crossings, 294 annotation conflicts, 0 unreadable step spans, columns); 12 extra material crossings in existing dimensions; A1 1:1 fill 41.4% (93 hard layout findings, 1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 455 annotation conflicts, 0 unreadable step spans, columns); 23 extra leader/extension corridors beyond the established drawing; A1 1:2 fill 23.8% (63 hard layout findings, 6 hole locations too close to read, 0 additional view conflicts, 12 additional material crossings, 450 annotation conflicts, 0 unreadable step spans, columns); 46 extra leader/extension corridors beyond the established drawing; 9 extra material crossings in existing dimensions; A0 10:1 (principal ink exceeds usable paper; not a fit candidate); A0 5:1 (principal ink exceeds usable paper; not a fit candidate); A0 2:1 fill 41.8% (72 hard layout findings, 9 hole locations too close to read, 5 hole items dropped for want of room, 0 additional view conflicts, 6 additional material crossings, 449 annotation conflicts, 0 unreadable step spans, staggered-side); 5 extra material crossings in existing dimensions; A0 1:1 fill 21.9% (28 hard layout findings, 1 hole location too close to read, 0 additional view conflicts, 6 additional material crossings, 455 annotation conflicts, 0 unreadable step spans, columns); 4 extra material crossings in existing dimensions; A0 1:2 fill 11.6% (60 hard layout findings, 6 hole locations too close to read, 0 additional view conflicts, 1 additional material crossings, 467 annotation conflicts, 0 unreadable step spans, columns); 46 extra leader/extension corridors beyond the established drawing. Automatic detail alternatives: A4 10:1 (principal ink exceeds usable paper; not a fit candidate); A4 5:1 (principal ink exceeds usable paper; not a fit candidate); A4 2:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 10:1 (principal ink exceeds usable paper; not a fit candidate); A3 5:1 (principal ink exceeds usable paper; not a fit candidate); A3 2:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A2 10:1 (principal ink exceeds usable paper; not a fit candidate); A2 5:1 (principal ink exceeds usable paper; not a fit candidate); A2 2:1 (principal ink exceeds usable paper; not a fit candidate); A1 10:1 (principal ink exceeds usable paper; not a fit candidate); A1 5:1 (principal ink exceeds usable paper; not a fit candidate); A0 10:1 (principal ink exceeds usable paper; not a fit candidate); A0 5:1 (principal ink exceeds usable paper; not a fit candidate).",
    "severity": "warning",
    "subjects": [
     "sheet"
@@ -23782,7 +23780,7 @@
   {
    "annotation": "d:f:hole:1/bore.diameter",
    "at": [
-    247.42269200000004,
+    240.42269200000004,
     464.731216
    ],
    "code": "annotation_ink_overlap",
@@ -23802,7 +23800,7 @@
   {
    "annotation": "d:f:hole:25/bore.diameter",
    "at": [
-    244.67469200000005,
+    237.67469200000002,
     457.841216
    ],
    "code": "annotation_ink_overlap",
@@ -23822,7 +23820,7 @@
   {
    "annotation": "d:f:hole_pattern:1/grid_pitch.length.row",
    "at": [
-    249.193192,
+    242.193192,
     448.57971599999996
    ],
    "code": "annotation_ink_overlap",
@@ -23842,7 +23840,7 @@
   {
    "annotation": "d:f:hole_pattern:1/grid_pitch.length.row",
    "at": [
-    249.193192,
+    242.193192,
     448.57971599999996
    ],
    "code": "annotation_ink_overlap",
@@ -23862,7 +23860,7 @@
   {
    "annotation": "d:f:hole_pattern:1/grid_pitch.length.row",
    "at": [
-    249.193192,
+    242.193192,
     448.57971599999996
    ],
    "code": "annotation_ink_overlap",
@@ -23882,7 +23880,7 @@
   {
    "annotation": "d:f:hole_pattern:1/grid_pitch.length.row",
    "at": [
-    249.193192,
+    242.193192,
     448.57971599999996
    ],
    "code": "annotation_ink_overlap",
@@ -23902,7 +23900,7 @@
   {
    "annotation": "d:f:hole_pattern:1/grid_pitch.length.row",
    "at": [
-    249.193192,
+    242.193192,
     448.57971599999996
    ],
    "code": "annotation_ink_overlap",
@@ -23922,7 +23920,7 @@
   {
    "annotation": "d:f:slot:1/slot_width.length",
    "at": [
-    228.193192,
+    221.193192,
     444.50821599999995
    ],
    "code": "annotation_ink_overlap",
@@ -23942,7 +23940,7 @@
   {
    "annotation": "d:f:slot:3/slot_width.length",
    "at": [
-    235.193192,
+    228.193192,
     451.24771599999997
    ],
    "code": "annotation_ink_overlap",
@@ -23962,8 +23960,8 @@
   {
    "annotation": "d:f:hole:7/location.length.x",
    "at": [
-    190.903192,
-    310.453216
+    183.903192,
+    324.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -23982,8 +23980,8 @@
   {
    "annotation": "d:f:hole:7/location.length.x",
    "at": [
-    190.903192,
-    310.453216
+    183.903192,
+    324.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24002,8 +24000,8 @@
   {
    "annotation": "d:f:hole:7/location.length.x",
    "at": [
-    190.903192,
-    310.453216
+    183.903192,
+    324.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24022,8 +24020,8 @@
   {
    "annotation": "d:f:hole_pattern:1/location.length.x",
    "at": [
-    191.665192,
-    296.453216
+    184.665192,
+    310.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24042,8 +24040,8 @@
   {
    "annotation": "d:f:hole_pattern:1/location.length.x",
    "at": [
-    191.665192,
-    296.453216
+    184.665192,
+    310.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24062,8 +24060,8 @@
   {
    "annotation": "d:f:hole_pattern:1/location.length.x",
    "at": [
-    191.665192,
-    296.453216
+    184.665192,
+    310.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24082,8 +24080,8 @@
   {
    "annotation": "d:f:hole_pattern:3/location.length.x",
    "at": [
-    194.458929237,
-    289.453216
+    187.458929237,
+    303.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24102,8 +24100,8 @@
   {
    "annotation": "d:f:hole_pattern:3/location.length.x",
    "at": [
-    194.458929237,
-    289.453216
+    187.458929237,
+    303.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24122,8 +24120,8 @@
   {
    "annotation": "d:f:hole_pattern:3/location.length.x",
    "at": [
-    194.458929237,
-    289.453216
+    187.458929237,
+    303.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24142,8 +24140,8 @@
   {
    "annotation": "d:f:hole:1/location.length.x",
    "at": [
-    195.475192,
-    268.453216
+    188.475192,
+    282.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24162,8 +24160,8 @@
   {
    "annotation": "d:f:hole:1/location.length.x",
    "at": [
-    195.475192,
-    268.453216
+    188.475192,
+    282.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24182,8 +24180,8 @@
   {
    "annotation": "d:f:hole:1/location.length.x",
    "at": [
-    195.475192,
-    268.453216
+    188.475192,
+    282.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24202,7 +24200,7 @@
   {
    "annotation": "d:f:slot:1/slot_width.length",
    "at": [
-    228.193192,
+    221.193192,
     444.50821599999995
    ],
    "code": "annotation_ink_overlap",
@@ -24222,7 +24220,7 @@
   {
    "annotation": "d:f:slot:1/slot_width.length",
    "at": [
-    228.193192,
+    221.193192,
     444.50821599999995
    ],
    "code": "annotation_ink_overlap",
@@ -24242,7 +24240,7 @@
   {
    "annotation": "d:f:slot:3/slot_width.length",
    "at": [
-    235.193192,
+    228.193192,
     451.24771599999997
    ],
    "code": "annotation_ink_overlap",
@@ -24262,7 +24260,7 @@
   {
    "annotation": "d:f:slot:1/slot_width.length",
    "at": [
-    228.193192,
+    221.193192,
     444.50821599999995
    ],
    "code": "annotation_ink_overlap",
@@ -24282,7 +24280,7 @@
   {
    "annotation": "d:f:slot:3/slot_width.length",
    "at": [
-    235.193192,
+    228.193192,
     451.24771599999997
    ],
    "code": "annotation_ink_overlap",
@@ -24302,7 +24300,7 @@
   {
    "annotation": "d:f:slot:3/slot_width.length",
    "at": [
-    235.193192,
+    228.193192,
     451.24771599999997
    ],
    "code": "annotation_ink_overlap",
@@ -24322,7 +24320,7 @@
   {
    "annotation": "d:f:slot:3/slot_width.length",
    "at": [
-    235.193192,
+    228.193192,
     451.24771599999997
    ],
    "code": "annotation_ink_overlap",
@@ -24342,7 +24340,7 @@
   {
    "annotation": "d:f:slot:1/slot_width.length",
    "at": [
-    228.193192,
+    221.193192,
     444.50821599999995
    ],
    "code": "annotation_ink_overlap",
@@ -24394,7 +24392,7 @@
   {
    "annotation": "d:f:slot:1/slot_width.length",
    "at": [
-    228.193192,
+    221.193192,
     444.50821599999995
    ],
    "code": "annotation_ink_overlap",
@@ -24414,7 +24412,7 @@
   {
    "annotation": "d:f:slot:1/slot_width.length",
    "at": [
-    228.193192,
+    221.193192,
     444.50821599999995
    ],
    "code": "annotation_ink_overlap",
@@ -24434,7 +24432,7 @@
   {
    "annotation": "d:f:slot:1/slot_width.length",
    "at": [
-    228.193192,
+    221.193192,
     444.50821599999995
    ],
    "code": "annotation_ink_overlap",
@@ -24454,7 +24452,7 @@
   {
    "annotation": "d:f:slot:2/slot_end_radius.radius",
    "at": [
-    234.035192,
+    227.035192,
     438.103216
    ],
    "code": "annotation_ink_overlap",
@@ -24474,7 +24472,7 @@
   {
    "annotation": "d:f:slot:3/slot_end_radius.radius",
    "at": [
-    234.02169200000003,
+    227.02169200000003,
     446.1832159999999
    ],
    "code": "annotation_ink_overlap",
@@ -24494,7 +24492,7 @@
   {
    "annotation": "d:f:slot:3/slot_width.length",
    "at": [
-    235.193192,
+    228.193192,
     451.24771599999997
    ],
    "code": "annotation_ink_overlap",
@@ -24514,8 +24512,8 @@
   {
    "annotation": "d:f:slot:1/location_slot.length",
    "at": [
-    195.157692,
-    275.453216
+    188.157692,
+    289.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24534,8 +24532,8 @@
   {
    "annotation": "d:f:slot:1/location_slot.length",
    "at": [
-    195.157692,
-    275.453216
+    188.157692,
+    289.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24554,8 +24552,8 @@
   {
    "annotation": "d:f:slot:1/location_slot.length",
    "at": [
-    195.157692,
-    275.453216
+    188.157692,
+    289.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24574,8 +24572,8 @@
   {
    "annotation": "d:f:slot:3/location_slot.length",
    "at": [
-    194.522692,
-    282.453216
+    187.522692,
+    296.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24594,8 +24592,8 @@
   {
    "annotation": "d:f:slot:3/location_slot.length",
    "at": [
-    194.522692,
-    282.453216
+    187.522692,
+    296.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24614,8 +24612,8 @@
   {
    "annotation": "d:f:slot:3/location_slot.length",
    "at": [
-    194.522692,
-    282.453216
+    187.522692,
+    296.453216
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -24634,7 +24632,7 @@
   {
    "annotation": "pmi:datum.datum:f84,85:t=D",
    "at": [
-    483.746392,
+    476.746392,
     406.406216
    ],
    "code": "annotation_ink_overlap",
@@ -24654,7 +24652,7 @@
   {
    "annotation": "pmi:datum.datum:f84,85:t=D",
    "at": [
-    483.746392,
+    476.746392,
     406.406216
    ],
    "code": "annotation_ink_overlap",
@@ -24674,7 +24672,7 @@
   {
    "annotation": "pmi:datum.datum:f89:t=G",
    "at": [
-    483.746392,
+    476.746392,
     398.406216
    ],
    "code": "annotation_ink_overlap",
@@ -24694,7 +24692,7 @@
   {
    "annotation": "pmi:datum.datum:f84,85:t=D",
    "at": [
-    483.746392,
+    476.746392,
     409.406216
    ],
    "code": "datum_leader_remote",
@@ -24711,7 +24709,7 @@
   {
    "annotation": "pmi:datum.datum:f89:t=G",
    "at": [
-    483.746392,
+    476.746392,
     401.406216
    ],
    "code": "datum_leader_remote",

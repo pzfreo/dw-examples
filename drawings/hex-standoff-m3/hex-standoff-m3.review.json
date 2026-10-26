@@ -17,7 +17,7 @@
   {
    "annotation": "d:f:chamfer:1/chamfer.length",
    "at": [
-    37.5,
+    50.5,
     71.25000999728499
    ],
    "code": "chamfer_leader_target_unverifiable",
@@ -139,14 +139,13 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 7 of 13 faces; 6 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 8 of 13 faces; 5 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
-    "face:2",
-    "face:5",
-    "face:6",
-    "face:7",
-    "face:8",
+    "face:3",
+    "face:4",
+    "face:9",
+    "face:10",
     "face:12"
    ]
   }

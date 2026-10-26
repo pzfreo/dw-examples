@@ -17,8 +17,8 @@
   {
    "annotation": "d:f:chamfer:2/chamfer.length",
    "at": [
-    25.71901,
-    87.31335271999998
+    38.71901,
+    74.31335272999998
    ],
    "code": "chamfer_leader_target_unverifiable",
    "evidence": "no coaxial turned band holds its station",
@@ -119,14 +119,18 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 8 of 14 faces; 6 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 4 of 14 faces; 10 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
+    "face:0",
     "face:2",
     "face:4",
     "face:6",
+    "face:7",
+    "face:8",
     "face:9",
     "face:11",
+    "face:12",
     "face:13"
    ]
   }

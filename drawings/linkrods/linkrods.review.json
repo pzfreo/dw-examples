@@ -116,7 +116,7 @@
    "group": "layout_recovery_exhausted",
    "id": "p:layout_recovery_exhausted:sheet",
    "impact": "advisory",
-   "message": "A4 at 10:1 has 1 hole location too close to read; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 10:1 fill 17.4% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A4 5:1 fill 8.8% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A3 10:1 fill 8.7% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A3 5:1 fill 4.2% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A4 multi-sheet: 1 sheets at 10:1, 0 hard findings, 1 required drops, required measurements retained true, drawn bounds fit true, additional view conflicts false, blocking problems []; A3 multi-sheet: 1 sheets at 10:1, 0 hard findings, 1 required drops, required measurements retained true, drawn bounds fit true, additional view conflicts false, blocking problems []; A2 10:1 fill 4.1% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A2 5:1 fill 2.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A1 10:1 fill 2.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A1 5:1 fill 1.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A0 10:1 fill 1.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A0 5:1 fill 0.5% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns).",
+   "message": "A4 at 10:1 has 1 hole location too close to read; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 10:1 fill 18.4% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A4 5:1 fill 9.3% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A3 10:1 fill 9.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A3 5:1 fill 4.4% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A4 multi-sheet: 1 sheets at 10:1, 0 hard findings, 1 required drops, required measurements retained true, drawn bounds fit true, additional view conflicts false, blocking problems []; A3 multi-sheet: 1 sheets at 10:1, 0 hard findings, 1 required drops, required measurements retained true, drawn bounds fit true, additional view conflicts false, blocking problems []; A2 10:1 fill 4.2% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A2 5:1 fill 2.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A1 10:1 fill 2.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A1 5:1 fill 1.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A0 10:1 fill 1.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A0 5:1 fill 0.5% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns).",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -227,11 +227,9 @@
      "op": "set",
      "path": "dimensions/d:f:hole:1~1location.length.y/place",
      "value": {
-      "offset": [
-       -21.0,
-       0.0
-      ],
-      "pinned": true,
+      "along": "middle",
+      "lane": 1,
+      "side": "left",
       "view": "plan"
      }
     },
@@ -258,17 +256,15 @@
    ],
    "fixes": [
     {
-     "description": "Move the 0.75 dimension 21 mm left of where draftwright placed it, in the plan view. Trade-off: adds these findings: The label of 0.75 lies over the plan view. [annotation_over_view] The leader of \u23000.440 THRU crosses a line of 0.75. [annotation_leader_crossing] A line of 0.625 runs through the label of 0.75. [annotation_ink_overlap] A line of 0.75 runs through the label of \u23000.440 THRU. [annotation_ink_overlap].",
+     "description": "Move the 0.75 dimension to the left of the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 0.75 runs up to 0.1 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:hole:1~1location.length.y/place",
        "value": {
-        "offset": [
-         -21.0,
-         0.0
-        ],
-        "pinned": true,
+        "along": "middle",
+        "lane": 1,
+        "side": "left",
         "view": "plan"
        }
       },
@@ -480,34 +476,20 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 12 of 37 faces; 25 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 26 of 37 faces; 11 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
-    "face:12",
-    "face:13",
-    "face:14",
+    "face:2",
+    "face:4",
+    "face:7",
+    "face:9",
     "face:15",
     "face:16",
-    "face:17",
-    "face:18",
-    "face:19",
-    "face:20",
     "face:21",
-    "face:22",
-    "face:23",
-    "face:24",
-    "face:25",
-    "face:26",
     "face:27",
     "face:28",
     "face:29",
-    "face:30",
-    "face:31",
-    "face:32",
-    "face:33",
-    "face:34",
-    "face:35",
-    "face:36"
+    "face:34"
    ]
   }
  ],

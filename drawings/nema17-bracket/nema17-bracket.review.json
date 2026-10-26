@@ -823,7 +823,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 4.5 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 2.75 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] A line of 5 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The second extension line of 2\u00d7 4.5 crosses the 4.5 wide slot. [extension_through_feature].",
+     "description": "Move the 2\u00d7 4.5 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 2.75 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The leader of 2\u00d7 R2.25 crosses a line of 2\u00d7 4.5. [annotation_leader_crossing] A line of 5 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The second extension line of 2\u00d7 4.5 crosses the 4.5 wide slot. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -921,7 +921,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 4.5 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 2.75 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] A line of 5 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The second extension line of 2\u00d7 4.5 crosses the 4.5 wide slot. [extension_through_feature].",
+     "description": "Move the 2\u00d7 4.5 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 2.75 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The leader of 2\u00d7 R2.25 crosses a line of 2\u00d7 4.5. [annotation_leader_crossing] A line of 5 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The second extension line of 2\u00d7 4.5 crosses the 4.5 wide slot. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -981,104 +981,6 @@
    "subjects": [
     "d:f:slot:2/slot_width.length",
     "f:slot:1"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 R2.25 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 R2.25 crosses a line of 4\u00d7 4.5. [annotation_leader_crossing] The leader of 2\u00d7 R2.25 crosses a line of 2\u00d7 7.5. [annotation_leader_crossing] The leader of 2\u00d7 R2.25 crosses a line of 30.75. [annotation_leader_crossing] A line of 2\u00d7 7.5 runs through the label of 2\u00d7 R2.25. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:slot:1/slot_end_radius.radius|f:hole:4:line:0",
-   "impact": "readability",
-   "message": "The leader of 2\u00d7 R2.25 crosses the \u230032 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_end_radius.radius",
-    "f:hole:4"
    ]
   },
   {
@@ -1170,9 +1072,13 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 30 of 42 faces; 12 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 26 of 42 faces; 16 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
+    "face:1",
+    "face:4",
+    "face:5",
+    "face:17",
     "face:18",
     "face:20",
     "face:22",
@@ -1194,7 +1100,6 @@
    "dimensions_not_ported:through_step": 1,
    "extension_through_feature": 10,
    "general_tolerance_missing": 1,
-   "leader_through_feature": 1,
    "slot_requirement_missing:location_slot.length": 3,
    "unclaimed_geometry": 1
   },
@@ -1212,8 +1117,8 @@
     "groups": 2
    },
    "readability": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    }
   }
  }

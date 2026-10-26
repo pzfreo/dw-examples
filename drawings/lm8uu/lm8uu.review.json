@@ -129,18 +129,13 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 9 of 18 faces; 9 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 14 of 18 faces; 4 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
-    "face:0",
     "face:2",
     "face:3",
     "face:4",
-    "face:8",
-    "face:9",
-    "face:13",
-    "face:14",
-    "face:17"
+    "face:8"
    ]
   }
  ],

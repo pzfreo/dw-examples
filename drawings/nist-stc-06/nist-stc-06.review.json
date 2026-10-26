@@ -6639,7 +6639,7 @@
   {
    "annotation": "d:f:chamfer:4/chamfer.length",
    "at": [
-    93.28999999999999,
+    106.28999999999999,
     176.359
    ],
    "code": "chamfer_leader_target_unverifiable",
@@ -6662,7 +6662,7 @@
   {
    "annotation": "d:f:fillet:4/fillet.radius",
    "at": [
-    78.118,
+    91.118,
     169.687
    ],
    "code": "radius_leader_not_radial",
@@ -18193,7 +18193,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 92 of 144 faces; 52 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 94 of 144 faces; 50 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
@@ -18209,8 +18209,6 @@
     "face:15",
     "face:16",
     "face:18",
-    "face:19",
-    "face:20",
     "face:22",
     "face:30",
     "face:32",
@@ -18255,7 +18253,7 @@
    "group": "layout_recovery_exhausted",
    "id": "p:layout_recovery_exhausted:sheet",
    "impact": "advisory",
-   "message": "A2 at 1:5 has 8 hard layout findings; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:2 fill 44.3% (75 hard layout findings, 12 hole locations too close to read, 10 hole items dropped for want of room, 0 additional view conflicts, 7 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, columns); 2 extra leader/extension corridors beyond the established drawing; 3 extra material crossings in existing dimensions; A4 1:5 fill 46.7% (62 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 103 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:2 fill 38.7% (56 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 85 annotation conflicts, 0 unreadable step spans, columns); A3 1:5 fill 34.4% (29 hard layout findings, 2 hole locations too close to read, 1 hole item dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 93 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A2 1:1 fill 53.1% (44 hard layout findings, 4 hole locations too close to read, 4 hole items dropped for want of room, 0 additional view conflicts, 7 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 3 extra material crossings in existing dimensions; A2 1:2 fill 46.7% (16 hard layout findings, 0 additional view conflicts, 4 additional material crossings, 77 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A2 1:5 fill 18.8% (8 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A1 1:1 fill 64.1% (12 hard layout findings, 2 hole locations too close to read, 1 hole item dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 83 annotation conflicts, 0 unreadable step spans, columns); A1 1:2 fill 27.0% (3 hard layout findings, 0 additional view conflicts, 4 additional material crossings, 69 annotation conflicts, 0 unreadable step spans, columns); A1 1:5 fill 9.2% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A0 1:1 fill 42.9% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:2 fill 13.2% (valid and complete, 0 additional view conflicts, 6 additional material crossings, 66 annotation conflicts, 0 unreadable step spans, columns); 2 extra material crossings in existing dimensions; A0 1:5 fill 4.5% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing. Automatic detail alternatives: A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate).",
+   "message": "A2 at 1:5 has 8 hard layout findings; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:2 fill 44.9% (75 hard layout findings, 12 hole locations too close to read, 10 hole items dropped for want of room, 0 additional view conflicts, 7 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, columns); 2 extra leader/extension corridors beyond the established drawing; 3 extra material crossings in existing dimensions; A4 1:5 fill 43.4% (74 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 107 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:2 fill 37.9% (56 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A3 1:5 fill 35.9% (29 hard layout findings, 3 hole locations too close to read, 2 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, staggered-side); 6 extra leader/extension corridors beyond the established drawing; A2 1:1 fill 51.8% (44 hard layout findings, 4 hole locations too close to read, 4 hole items dropped for want of room, 0 additional view conflicts, 7 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 3 extra material crossings in existing dimensions; A2 1:2 fill 46.5% (16 hard layout findings, 0 additional view conflicts, 4 additional material crossings, 77 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A2 1:5 fill 19.2% (8 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A1 1:1 fill 64.0% (12 hard layout findings, 2 hole locations too close to read, 1 hole item dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 83 annotation conflicts, 0 unreadable step spans, columns); A1 1:2 fill 27.1% (3 hard layout findings, 0 additional view conflicts, 4 additional material crossings, 69 annotation conflicts, 0 unreadable step spans, columns); A1 1:5 fill 9.3% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A0 1:1 fill 42.9% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:2 fill 13.2% (valid and complete, 0 additional view conflicts, 6 additional material crossings, 66 annotation conflicts, 0 unreadable step spans, columns); 2 extra material crossings in existing dimensions; A0 1:5 fill 4.5% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing. Automatic detail alternatives: A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate).",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -18902,7 +18900,7 @@
   {
    "annotation": "d:envelope/width.length",
    "at": [
-    86.792,
+    99.792,
     148.198
    ],
    "code": "annotation_ink_overlap",
@@ -18922,7 +18920,7 @@
   {
    "annotation": "d:envelope/width.length",
    "at": [
-    86.792,
+    99.792,
     148.198
    ],
    "code": "annotation_ink_overlap",
@@ -18942,7 +18940,7 @@
   {
    "annotation": "d:envelope/width.length",
    "at": [
-    86.792,
+    99.792,
     148.198
    ],
    "code": "annotation_ink_overlap",
@@ -18962,7 +18960,7 @@
   {
    "annotation": "d:f:boss:2/boss_height.length",
    "at": [
-    39.953,
+    52.953,
     183.03050000000002
    ],
    "code": "annotation_ink_overlap",
@@ -18982,7 +18980,7 @@
   {
    "annotation": "section_a_left",
    "at": [
-    52.0,
+    65.0,
     254.534
    ],
    "code": "annotation_ink_overlap",
@@ -19002,7 +19000,7 @@
   {
    "annotation": "d:pmi:dimension.linear:f24,26/linear",
    "at": [
-    261.06399999999996,
+    274.06399999999996,
     148.198
    ],
    "code": "annotation_ink_overlap",
@@ -19022,7 +19020,7 @@
   {
    "annotation": "d:pmi:dimension.linear:f24,26/linear",
    "at": [
-    261.06399999999996,
+    274.06399999999996,
     148.198
    ],
    "code": "annotation_ink_overlap",
@@ -19042,7 +19040,7 @@
   {
    "annotation": "d:pmi:dimension.linear:f51,53/linear",
    "at": [
-    303.08399999999995,
+    316.08399999999995,
     141.198
    ],
    "code": "annotation_ink_overlap",
@@ -19062,7 +19060,7 @@
   {
    "annotation": "pmi:datum.datum:f10:t=E",
    "at": [
-    36.87,
+    49.87,
     176.87676923076924
    ],
    "code": "datum_leader_remote",
@@ -19079,7 +19077,7 @@
   {
    "annotation": "pmi:datum.datum:f9:t=D",
    "at": [
-    67.30384615384615,
+    80.30384615384615,
     197.839
    ],
    "code": "datum_leader_remote",
