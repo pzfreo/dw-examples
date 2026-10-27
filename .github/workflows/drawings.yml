@@ -34,7 +34,7 @@ jobs:
       # Needed only by the commit step, which runs on main pushes and manual dispatch.
       contents: write
     steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Read the draftwright tag
         id: dw
         run: echo "tag=$(python3 -c 'import tomllib;print(tomllib.load(open("drawings.toml","rb"))["draftwright"])')" >> "$GITHUB_OUTPUT"
