@@ -42,6 +42,29 @@
    "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
    "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
    "group": "angular_requirement_missing:profile_angle.angle",
+   "id": "l:angular_requirement_missing:outer_profile:f4:e110:e109/profile_angle.angle",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f4:e110:e109/profile_angle.angle"
+   ],
+   "message": "Outer-profile corner outer_profile:f4:e110:e109 requires 45.0\u00b0 on the drawing.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f4:e110:e109",
+     "parameter": "profile_angle.angle"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f4:e110:e109"
+   ]
+  },
+  {
+   "code": "angular_requirement_missing",
+   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
+   "group": "angular_requirement_missing:profile_angle.angle",
    "id": "l:angular_requirement_missing:outer_profile:f4:e106:e105/profile_angle.angle",
    "impact": "incomplete",
    "measurements": [
@@ -521,27 +544,31 @@
    ]
   },
   {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f4:e114:e113/profile_angle.angle",
-   "impact": "incomplete",
+   "annotation": "d:f:blend:1/blend.radius",
+   "at": [
+    33.03806023374436,
+    123.69134171618255
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:blend:1/blend.radius",
+   "impact": "readability",
    "measurements": [
-    "outer_profile:f4:e114:e113/profile_angle.angle"
+    "f:blend:1/blend.radius",
+    "f:blend:2/blend.radius",
+    "f:blend:3/blend.radius",
+    "f:blend:4/blend.radius"
    ],
-   "message": "Outer-profile corner outer_profile:f4:e114:e113 requires 135.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f4:e114:e113",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
+   "message": "d:f:blend:1/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "outer_profile:f4:e114:e113"
-   ]
+    "f:blend:1",
+    "f:blend:2",
+    "f:blend:3",
+    "f:blend:4"
+   ],
+   "view": "v:front"
   }
  ],
  "problems": [
@@ -553,7 +580,7 @@
    "message": "Unrecognised features on this part: 1 circular face pattern. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "circular_face_patterns",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -655,6 +682,17 @@
    "severity": "info",
    "subjects": [
     "d:envelope/profile_angle.angle.f4_e111_e110"
+   ]
+  },
+  {
+   "code": "angular_dimension_dropped",
+   "group": "angular_dimension_dropped",
+   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e110_e109",
+   "impact": "advisory",
+   "message": "The dimension 45\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f4_e110_e109"
    ]
   },
   {
@@ -889,43 +927,608 @@
    ]
   },
   {
-   "code": "angular_dimension_dropped",
-   "group": "angular_dimension_dropped",
-   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f4_e114_e113",
-   "impact": "advisory",
-   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
-   "severity": "info",
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:v_channel:2~1v_channel.angle/place",
+     "value": {
+      "along": "start",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 90\u00b0 V \u00d7 0.2 DEEP callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 90\u00b0 V \u00d7 0.2 DEEP runs up to 1.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The labels of 90\u00b0 V \u00d7 0.2 DEEP and 90\u00b0 V \u00d7 0.2 DEEP overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] A line of 90\u00b0 V \u00d7 0.2 DEEP runs through the label of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_ink_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:v_channel:2~1v_channel.angle/place",
+       "value": {
+        "along": "start",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:d:f:v_channel:2/v_channel.angle|d:f:v_channel:4/v_channel.angle",
+   "impact": "readability",
+   "message": "The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP.",
+   "severity": "warning",
    "subjects": [
-    "d:envelope/profile_angle.angle.f4_e114_e113"
+    "d:f:v_channel:2/v_channel.angle",
+    "d:f:v_channel:4/v_channel.angle"
    ]
   },
   {
-   "code": "unclaimed_geometry",
-   "group": "unclaimed_geometry",
-   "id": "p:unclaimed_geometry:sheet",
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:v_channel:3~1v_channel.angle/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 90\u00b0 V \u00d7 0.2 DEEP callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 90\u00b0 V \u00d7 0.2 DEEP runs up to 1.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The labels of 90\u00b0 V \u00d7 0.2 DEEP and 90\u00b0 V \u00d7 0.2 DEEP overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses the \u23004.2 hole. [leader_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:v_channel:3~1v_channel.angle/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:d:f:v_channel:3/v_channel.angle|d:envelope/width.length",
+   "impact": "readability",
+   "message": "The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 20.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:v_channel:3/v_channel.angle",
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:v_channel:3~1v_channel.angle/place",
+     "value": {
+      "along": "start",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 90\u00b0 V \u00d7 0.2 DEEP callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 90\u00b0 V \u00d7 0.2 DEEP runs up to 1.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The labels of 90\u00b0 V \u00d7 0.2 DEEP and 90\u00b0 V \u00d7 0.2 DEEP overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of \u23004.2 THRU crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of \u23004.2 THRU. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] A line of 90\u00b0 V \u00d7 0.2 DEEP runs through the label of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_ink_overlap] A line of 90\u00b0 V \u00d7 0.2 DEEP runs through the label of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_ink_overlap] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses the \u23004.2 hole. [leader_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:v_channel:3~1v_channel.angle/place",
+       "value": {
+        "along": "start",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:d:f:v_channel:3/v_channel.angle|d:f:hole:1/location.length.x",
    "impact": "advisory",
-   "message": "Analysis features claim 61 of 63 faces; 2 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 10.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:v_channel:3/v_channel.angle",
+    "d:f:hole:1/location.length.x"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:v_channel:4~1v_channel.angle/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 90\u00b0 V \u00d7 0.2 DEEP callout below the front view, nearest the view. Trade-off: adds these findings: The labels of 90\u00b0 V \u00d7 0.2 DEEP and 1.8 overlap. [annotation_overlap] The labels of 90\u00b0 V \u00d7 0.2 DEEP and 4.5 overlap. [annotation_overlap] A line of 20 runs through the label of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_ink_overlap] A line of 90\u00b0 V \u00d7 0.2 DEEP runs through the label of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_ink_overlap] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 20. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 10. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:v_channel:4~1v_channel.angle/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:d:f:v_channel:4/v_channel.angle|d:f:hole:1/location.length.z",
+   "impact": "advisory",
+   "message": "The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 10.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:v_channel:4/v_channel.angle",
+    "d:f:hole:1/location.length.z"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:v_channel:4~1v_channel.angle/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 90\u00b0 V \u00d7 0.2 DEEP callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 90\u00b0 V \u00d7 0.2 DEEP runs up to 1.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The labels of 90\u00b0 V \u00d7 0.2 DEEP and 90\u00b0 V \u00d7 0.2 DEEP overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:v_channel:4~1v_channel.angle/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:d:f:v_channel:4/v_channel.angle|d:f:v_channel:2/v_channel.angle",
+   "impact": "readability",
+   "message": "The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:v_channel:4/v_channel.angle",
+    "d:f:v_channel:2/v_channel.angle"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/width.length|d:f:hole:1/bore.diameter|d:f:hole:1/location.length.x",
+   "impact": "advisory",
+   "message": "Line-work of 20 and of 10 passes less than 0.5 mm from the label of \u23004.2 THRU, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "face:1",
-    "face:4"
+    "d:envelope/width.length",
+    "d:f:hole:1/bore.diameter",
+    "d:f:hole:1/location.length.x"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:v_channel:1/v_channel.angle|d:f:v_channel:2/v_channel.angle",
+   "impact": "advisory",
+   "message": "Line-work of 90\u00b0 V \u00d7 0.2 DEEP passes less than 0.5 mm from the label of 90\u00b0 V \u00d7 0.2 DEEP, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:v_channel:1/v_channel.angle",
+    "d:f:v_channel:2/v_channel.angle"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:v_channel:1/v_channel.angle|d:f:v_channel:4/v_channel.angle",
+   "impact": "advisory",
+   "message": "Line-work of 90\u00b0 V \u00d7 0.2 DEEP passes less than 0.5 mm from the label of 90\u00b0 V \u00d7 0.2 DEEP, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:v_channel:1/v_channel.angle",
+    "d:f:v_channel:4/v_channel.angle"
    ]
   }
  ],
- "structural": [],
+ "structural": [
+  {
+   "annotation": "d:f:hole:1/bore.diameter",
+   "at": [
+    24.3405,
+    101.455
+   ],
+   "code": "annotation_ink_overlap",
+   "fix": "move what is drawn, not just the text",
+   "fix_description": "Move what is drawn, not just the text.",
+   "group": "annotation_ink_overlap",
+   "id": "l:annotation_ink_overlap:d:f:hole:1/bore.diameter+d:envelope/width.length",
+   "impact": "readability",
+   "message": "'20' draws 2.2 mm of line-work through the label '\u23004.2 THRU' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
+   "related": [
+    "d:envelope/width.length"
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "annotation": "d:f:hole:1/bore.diameter",
+   "at": [
+    24.3405,
+    101.455
+   ],
+   "code": "annotation_ink_overlap",
+   "fix": "move what is drawn, not just the text",
+   "fix_description": "Move what is drawn, not just the text.",
+   "group": "annotation_ink_overlap",
+   "id": "l:annotation_ink_overlap:d:f:hole:1/bore.diameter+d:f:hole:1/location.length.x",
+   "impact": "readability",
+   "message": "'10' draws 2.2 mm of line-work through the label '\u23004.2 THRU' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
+   "related": [
+    "d:f:hole:1/location.length.x"
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  }
+ ],
  "summary": {
   "groups": {
    "angular_dimension_dropped": 23,
    "angular_requirement_missing:profile_angle.angle": 23,
+   "annotation_ink_overlap": 2,
+   "annotation_leader_crossing:dimension_line": 1,
+   "annotation_leader_crossing:extension_line": 2,
+   "annotation_leader_crossing:leader": 2,
    "detail_unplaceable": 1,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "unclaimed_geometry": 1
+   "label_crowded": 3,
+   "radius_leader_not_radial": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 24,
-    "groups": 2
+    "findings": 28,
+    "groups": 3
    },
    "decision": {
     "findings": 1,
@@ -936,8 +1539,8 @@
     "groups": 2
    },
    "readability": {
-    "findings": 1,
-    "groups": 1
+    "findings": 7,
+    "groups": 5
    }
   }
  }

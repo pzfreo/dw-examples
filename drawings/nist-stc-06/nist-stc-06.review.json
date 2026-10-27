@@ -164,32 +164,6 @@
    ]
   },
   {
-   "annotation": "d:pmi:dimension.linear:f24,26/linear",
-   "code": "channel_requirement_unverifiable",
-   "evidence": "\"0.500 \u00b10.008 INCH\" does not state 12.7",
-   "fix": "State 12.7 across the channel: a linear dimension in the view that looks along it.",
-   "fix_description": "State 12.7 across the channel: a linear dimension in the view that looks along it.",
-   "group": "channel_requirement_unverifiable:channel_width.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:1/channel.channel_width.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:section_recess:1/channel_width.length"
-   ],
-   "message": "open channel f:section_recess:1 12.7 wide, running along x, at (15.875, -82.55, 59.055): measurement channel.channel_width.length is claimed by d:pmi:dimension.linear:f24,26/linear but its text does not state 12.7",
-   "requirements": [
-    {
-     "feature": "f:section_recess:1",
-     "parameter": "channel_width.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:section_recess:1"
-   ],
-   "view": "v:side"
-  },
-  {
    "code": "channel_requirement_unverifiable",
    "evidence": "0 of quiddity's plates along y run from the part's box to the channel's near wall, not one",
    "group": "channel_requirement_unverifiable:thickness.length",
@@ -211,58 +185,6 @@
    ]
   },
   {
-   "annotation": "d:pmi:dimension.linear:f15,16/linear",
-   "code": "channel_requirement_unverifiable",
-   "evidence": "\"12.00 \u00b10.01 INCH\" does not state 304.8",
-   "fix": "State 304.8 across the channel: a linear dimension in the view that looks along it.",
-   "fix_description": "State 304.8 across the channel: a linear dimension in the view that looks along it.",
-   "group": "channel_requirement_unverifiable:depth.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:1/envelope.depth.length",
-   "impact": "incomplete",
-   "measurements": [
-    "envelope/depth.length"
-   ],
-   "message": "open channel f:section_recess:1 12.7 wide, running along x, at (15.875, -82.55, 59.055): measurement envelope.depth.length is claimed by d:pmi:dimension.linear:f15,16/linear but its text does not state 304.8",
-   "requirements": [
-    {
-     "feature": "envelope",
-     "parameter": "depth.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:section_recess:1"
-   ],
-   "view": "v:side"
-  },
-  {
-   "annotation": "d:pmi:dimension.linear:f24,26/linear",
-   "code": "channel_requirement_unverifiable",
-   "evidence": "\"0.500 \u00b10.008 INCH\" does not state 12.7",
-   "fix": "State 12.7 across the channel: a linear dimension in the view that looks along it.",
-   "fix_description": "State 12.7 across the channel: a linear dimension in the view that looks along it.",
-   "group": "channel_requirement_unverifiable:channel_width.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:2/channel.channel_width.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:section_recess:2/channel_width.length"
-   ],
-   "message": "open channel f:section_recess:2 12.7 wide, running along x, at (15.875, 82.55, 59.055): measurement channel.channel_width.length is claimed by d:pmi:dimension.linear:f24,26/linear but its text does not state 12.7",
-   "requirements": [
-    {
-     "feature": "f:section_recess:2",
-     "parameter": "channel_width.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:section_recess:2"
-   ],
-   "view": "v:side"
-  },
-  {
    "code": "channel_requirement_unverifiable",
    "evidence": "0 of quiddity's plates along y run from the part's box to the channel's near wall, not one",
    "group": "channel_requirement_unverifiable:thickness.length",
@@ -281,55 +203,6 @@
    "severity": "warning",
    "subjects": [
     "f:section_recess:2"
-   ]
-  },
-  {
-   "annotation": "d:pmi:dimension.linear:f15,16/linear",
-   "code": "channel_requirement_unverifiable",
-   "evidence": "\"12.00 \u00b10.01 INCH\" does not state 304.8",
-   "fix": "State 304.8 across the channel: a linear dimension in the view that looks along it.",
-   "fix_description": "State 304.8 across the channel: a linear dimension in the view that looks along it.",
-   "group": "channel_requirement_unverifiable:depth.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:2/envelope.depth.length",
-   "impact": "incomplete",
-   "measurements": [
-    "envelope/depth.length"
-   ],
-   "message": "open channel f:section_recess:2 12.7 wide, running along x, at (15.875, 82.55, 59.055): measurement envelope.depth.length is claimed by d:pmi:dimension.linear:f15,16/linear but its text does not state 304.8",
-   "requirements": [
-    {
-     "feature": "envelope",
-     "parameter": "depth.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:section_recess:2"
-   ],
-   "view": "v:side"
-  },
-  {
-   "code": "missing_principal_dimension",
-   "fix": "State the depth length of the feature in a view that shows its true size or location.",
-   "fix_description": "State the depth length of the feature in a view that shows its true size or location.",
-   "group": "missing_principal_dimension",
-   "id": "l:missing_principal_dimension:envelope/depth.length",
-   "impact": "incomplete",
-   "measurements": [
-    "envelope/depth.length"
-   ],
-   "message": "The overall y extent (304.8) is not stated by a full span, centred diameter or contiguous turned-length chain.",
-   "requirements": [
-    {
-     "feature": "envelope",
-     "parameter": "depth.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "envelope"
    ]
   },
   {
@@ -6818,7 +6691,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#8621",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#8621 (\u00f80.812 \u00b10.02 INCH) is not drawn: standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists.",
+   "message": "PMI dimension dimension:#8621 (\u00f820.6502 \u00b10.508) is not drawn: standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists.",
    "refs": [
     "dimension:#8621",
     "standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists"
@@ -6831,7 +6704,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#8654",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#8654 (0.56 \u00b10.02 INCH) is not drawn: thickness dimension needs two measurable authored reference groups.",
+   "message": "PMI dimension dimension:#8654 (14.224 \u00b10.508) is not drawn: thickness dimension needs two measurable authored reference groups.",
    "refs": [
     "dimension:#8654",
     "thickness dimension needs two measurable authored reference groups"
@@ -6844,7 +6717,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#8765",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#8765 (0.50 \u00b10.05 INCH) is not drawn: thickness dimension needs two measurable authored reference groups.",
+   "message": "PMI dimension dimension:#8765 (12.7 \u00b11.27) is not drawn: thickness dimension needs two measurable authored reference groups.",
    "refs": [
     "dimension:#8765",
     "thickness dimension needs two measurable authored reference groups"
@@ -6857,7 +6730,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#8864",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#8864 (\u00f80.40 \u00b10.01 INCH) is not drawn: standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists.",
+   "message": "PMI dimension dimension:#8864 (\u00f810.16 \u00b10.254) is not drawn: standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists.",
    "refs": [
     "dimension:#8864",
     "standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists"
@@ -6870,7 +6743,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#8885",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#8885 (0.31 \u00b10.02 INCH) is not drawn: thickness dimension needs two measurable authored reference groups.",
+   "message": "PMI dimension dimension:#8885 (7.874 \u00b10.508) is not drawn: thickness dimension needs two measurable authored reference groups.",
    "refs": [
     "dimension:#8885",
     "thickness dimension needs two measurable authored reference groups"
@@ -6883,7 +6756,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#9022",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#9022 (0.50 \u00b10.02 INCH) is not drawn: thickness dimension needs two measurable authored reference groups.",
+   "message": "PMI dimension dimension:#9022 (12.7 \u00b10.508) is not drawn: thickness dimension needs two measurable authored reference groups.",
    "refs": [
     "dimension:#9022",
     "thickness dimension needs two measurable authored reference groups"
@@ -13619,89 +13492,6 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f51,53~1linear/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 0.500 \u00b10.008 INCH dimension above the side view, nearest the view. Trade-off: adds these findings: The labels of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 and 0.500 \u00b10.008 INCH overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of the feature control frame \u2313 1.016 A B C runs through the label of 0.500 \u00b10.008 INCH. [annotation_ink_overlap] The first extension line of 0.500 \u00b10.008 INCH crosses the \u23006.35 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f51,53~1linear/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_ink_overlap",
-   "id": "p:annotation_ink_overlap:d:pmi:dimension.linear:f51,53/linear|d:pmi:dimension.linear:f24,26/linear",
-   "impact": "readability",
-   "ink_is_leader": false,
-   "message": "A line of 0.500 \u00b10.008 INCH runs through the label of 0.500 \u00b10.008 INCH.",
-   "severity": "warning",
-   "subjects": [
-    "d:pmi:dimension.linear:f51,53/linear",
-    "d:pmi:dimension.linear:f24,26/linear"
-   ]
-  },
-  {
-   "code": "annotation_ink_overlap",
-   "fix": [
-    {
-     "op": "set",
      "path": "dimensions/d:f:boss:2~1boss_height.length/place",
      "value": {
       "along": "outside",
@@ -15210,7 +15000,7 @@
    "group": "annotation_leader_crossing:dimension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f24,26:ref=B,C|d:pmi:dimension.linear:f24,26/linear",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 0.635 B C crosses a line of 0.500 \u00b10.008 INCH.",
+   "message": "The leader of the feature control frame \u2316 0.635 B C crosses a line of 12.7 \u00b10.2032.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.position:f24,26:ref=B,C",
@@ -15295,7 +15085,7 @@
    "group": "annotation_leader_crossing:dimension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f24,26:ref=B,C|d:pmi:dimension.linear:f15,16/linear",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 0.635 B C crosses a line of 12.00 \u00b10.01 INCH.",
+   "message": "The leader of the feature control frame \u2316 0.635 B C crosses a line of 304.8 \u00b10.254.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.position:f24,26:ref=B,C",
@@ -16653,89 +16443,6 @@
    ]
   },
   {
-   "code": "annotation_ink_overlap",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f24,26~1linear/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f24,26~1linear/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_ink_overlap",
-   "id": "p:annotation_ink_overlap:pmi:geometric_tolerance.position:f51,53:ref=B,C|d:pmi:dimension.linear:f24,26/linear",
-   "impact": "readability",
-   "ink_is_leader": true,
-   "message": "A line of the feature control frame \u2316 0.635 B C runs through the label of 0.500 \u00b10.008 INCH.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f51,53:ref=B,C",
-    "d:pmi:dimension.linear:f24,26/linear"
-   ]
-  },
-  {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
     "dimension_line"
@@ -16813,7 +16520,7 @@
    "group": "annotation_leader_crossing:dimension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f51,53:ref=B,C|d:pmi:dimension.linear:f51,53/linear",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 0.635 B C crosses a line of 0.500 \u00b10.008 INCH.",
+   "message": "The leader of the feature control frame \u2316 0.635 B C crosses a line of 12.7 \u00b10.2032.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.position:f51,53:ref=B,C",
@@ -16898,7 +16605,7 @@
    "group": "annotation_leader_crossing:dimension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f51,53:ref=B,C|d:pmi:dimension.linear:f15,16/linear",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 0.635 B C crosses a line of 12.00 \u00b10.01 INCH.",
+   "message": "The leader of the feature control frame \u2316 0.635 B C crosses a line of 304.8 \u00b10.254.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.position:f51,53:ref=B,C",
@@ -18193,29 +17900,22 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 94 of 144 faces; 50 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 101 of 144 faces; 43 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
     "face:1",
     "face:2",
     "face:3",
-    "face:4",
-    "face:5",
     "face:6",
     "face:10",
     "face:11",
-    "face:14",
-    "face:15",
-    "face:16",
     "face:18",
     "face:22",
     "face:30",
     "face:32",
     "face:33",
-    "face:34",
     "face:38",
-    "face:39",
     "face:42",
     "face:45",
     "face:48",
@@ -18249,11 +17949,39 @@
    ]
   },
   {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:protrusion",
+   "id": "p:shape_not_recognised:face:0",
+   "impact": "incomplete",
+   "message": "15 faces (0, 1, 2, 3, 6, 10, 11, 90, 91, 92, 93, 94, \u2026) form a protrusion of 25.4 \u00d7 304.8 \u00d7 73.03 mm at (222.25, 0, 36.51); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:protrusion"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:0",
+    "face:1",
+    "face:2",
+    "face:3",
+    "face:6",
+    "face:10",
+    "face:11",
+    "face:90",
+    "face:91",
+    "face:92",
+    "face:93",
+    "face:94",
+    "face:95",
+    "face:96",
+    "face:97"
+   ]
+  },
+  {
    "code": "layout_recovery_exhausted",
    "group": "layout_recovery_exhausted",
    "id": "p:layout_recovery_exhausted:sheet",
    "impact": "advisory",
-   "message": "A2 at 1:5 has 8 hard layout findings; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:2 fill 44.9% (75 hard layout findings, 12 hole locations too close to read, 10 hole items dropped for want of room, 0 additional view conflicts, 7 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, columns); 2 extra leader/extension corridors beyond the established drawing; 3 extra material crossings in existing dimensions; A4 1:5 fill 43.4% (74 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 107 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:2 fill 37.9% (56 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A3 1:5 fill 35.9% (29 hard layout findings, 3 hole locations too close to read, 2 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, staggered-side); 6 extra leader/extension corridors beyond the established drawing; A2 1:1 fill 51.8% (44 hard layout findings, 4 hole locations too close to read, 4 hole items dropped for want of room, 0 additional view conflicts, 7 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 3 extra material crossings in existing dimensions; A2 1:2 fill 46.5% (16 hard layout findings, 0 additional view conflicts, 4 additional material crossings, 77 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A2 1:5 fill 19.2% (8 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A1 1:1 fill 64.0% (12 hard layout findings, 2 hole locations too close to read, 1 hole item dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 83 annotation conflicts, 0 unreadable step spans, columns); A1 1:2 fill 27.1% (3 hard layout findings, 0 additional view conflicts, 4 additional material crossings, 69 annotation conflicts, 0 unreadable step spans, columns); A1 1:5 fill 9.3% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A0 1:1 fill 42.9% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:2 fill 13.2% (valid and complete, 0 additional view conflicts, 6 additional material crossings, 66 annotation conflicts, 0 unreadable step spans, columns); 2 extra material crossings in existing dimensions; A0 1:5 fill 4.5% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing. Automatic detail alternatives: A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate).",
+   "message": "A2 at 1:5 has 6 hard layout findings; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:2 fill 44.9% (76 hard layout findings, 12 hole locations too close to read, 10 hole items dropped for want of room, 0 additional view conflicts, 8 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, columns); 2 extra leader/extension corridors beyond the established drawing; 4 extra material crossings in existing dimensions; A4 1:5 fill 43.4% (77 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 109 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:2 fill 37.9% (57 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 1 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A3 1:5 fill 35.4% (29 hard layout findings, 3 hole locations too close to read, 2 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, staggered-side); 6 extra leader/extension corridors beyond the established drawing; A2 1:1 fill 51.8% (45 hard layout findings, 4 hole locations too close to read, 4 hole items dropped for want of room, 0 additional view conflicts, 8 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 4 extra material crossings in existing dimensions; A2 1:2 fill 46.4% (16 hard layout findings, 0 additional view conflicts, 3 additional material crossings, 79 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A2 1:5 fill 19.0% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 82 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A1 1:1 fill 64.0% (12 hard layout findings, 2 hole locations too close to read, 1 hole item dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 83 annotation conflicts, 0 unreadable step spans, columns); A1 1:2 fill 27.3% (3 hard layout findings, 0 additional view conflicts, 3 additional material crossings, 71 annotation conflicts, 0 unreadable step spans, columns); A1 1:5 fill 9.2% (4 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 85 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A0 1:1 fill 42.9% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:2 fill 13.3% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 68 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:5 fill 4.5% (4 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 85 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing. Automatic detail alternatives: A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate).",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -18739,36 +18467,6 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f47,61,64,67:ref=E,A,B:mod=diameter_zone|pmi:geometric_tolerance.position:f44,81:ref=C,A,B:mod=diameter_zone",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23000.381 E A B crosses a line of the feature control frame \u2316 \u23000.381 C A B.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f47,61,64,67:ref=E,A,B:mod=diameter_zone",
-    "pmi:geometric_tolerance.position:f44,81:ref=C,A,B:mod=diameter_zone"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f49,63,66,69:ref=F:mod=diameter_zone,maximum_material_requirement|pmi:geometric_tolerance.position:f44,81:ref=C,A,B:mod=diameter_zone",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23000.508\u24c2 F crosses a line of the feature control frame \u2316 \u23000.381 C A B.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f49,63,66,69:ref=F:mod=diameter_zone,maximum_material_requirement",
-    "pmi:geometric_tolerance.position:f44,81:ref=C,A,B:mod=diameter_zone"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
     "leader"
    ],
    "fix": [
@@ -18852,6 +18550,188 @@
    ]
   },
   {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.perpendicularity:f13:ref=A,B",
+   "impact": "incomplete",
+   "message": "The feature control frame \u27c2 | 0.3048 | A | B cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f13:ref=A,B"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f24,26:ref=B,C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | 0.635 | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f24,26:ref=B,C"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f32,80:ref=D,B,C:mod=spherical_diameter_zone",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | S\u23000.635 | D | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f32,80:ref=D,B,C:mod=spherical_diameter_zone"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f35,40:ref=A,B,C:mod=diameter_zone",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | \u23000.381 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f35,40:ref=A,B,C:mod=diameter_zone"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f41,42,43,70,71,72,73,74,75,76,77,78:ref=A,B,C:mod=diameter_zone,maximum_material_requirement",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | \u23000.635\u24c2 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f41,42,43,70,71,72,73,74,75,76,77,78:ref=A,B,C:mod=diameter_zone,maximum_material_requirement"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f44,81:ref=C,A,B:mod=diameter_zone",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | \u23000.381 | C | A | B cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f44,81:ref=C,A,B:mod=diameter_zone"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f45,46,82,83:ref=C,A,B:mod=diameter_zone,maximum_material_requirement",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | \u23000.635\u24c2 | C | A | B cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f45,46,82,83:ref=C,A,B:mod=diameter_zone,maximum_material_requirement"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f47,61,64,67:ref=E,A,B:mod=diameter_zone",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | \u23000.381 | E | A | B cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f47,61,64,67:ref=E,A,B:mod=diameter_zone"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f49,63,66,69:ref=F:mod=diameter_zone,maximum_material_requirement",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | \u23000.508\u24c2 | F cites datum F that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum F"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f49,63,66,69:ref=F:mod=diameter_zone,maximum_material_requirement"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f51,53:ref=B,C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2316 | 0.635 | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f51,53:ref=B,C"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f10:ref=A,B,C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2313 | 0.508 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f10:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f17:ref=A,B,C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2313 | 1.016 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f17:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f9:ref=A,B,C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2313 | 0.508 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f9:ref=A,B,C"
+   ]
+  },
+  {
    "code": "feature_not_located",
    "group": "feature_not_located:boss",
    "id": "p:feature_not_located:f:boss:2/location.length.x",
@@ -18892,6 +18772,234 @@
    "message": "the \u230031.75 boss on y: no drawn dimension chain reaches an origin.",
    "severity": "warning",
    "subjects": [
+    "f:boss:4"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:1/bore.diameter|d:f:hole:1/bore.diameter",
+   "impact": "advisory",
+   "message": "Line-work of 4\u00d7 \u230010.541 \u00b10.2032 THRU \u2334\n\u230015.88 \u21a7 12.7 passes less than 0.5 mm from the label of 2\u00d7 \u23006.35 \u00b10.2032 \u21a7 12.7, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/bore.diameter",
+    "d:f:hole:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:1/location.length.x|d:f:hole_pattern:1/grid_pitch.length.col",
+   "impact": "advisory",
+   "message": "Line-work of 120.65 passes less than 0.5 mm from the label of 127, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.x",
+    "d:f:hole_pattern:1/grid_pitch.length.col"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:1/location.length.y|d:f:hole_pattern:1/grid_pitch.length.row",
+   "impact": "advisory",
+   "message": "Line-work of 152.4 passes less than 0.5 mm from the label of 266.7, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.y",
+    "d:f:hole_pattern:1/grid_pitch.length.row"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:2/location.length.y|d:f:hole_pattern:2/pitch.length",
+   "impact": "advisory",
+   "message": "Line-work of 43.815 passes less than 0.5 mm from the label of 3\u00d7 72.39, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:2/location.length.y",
+    "d:f:hole_pattern:2/pitch.length"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/height.length|d:f:boss:3/boss_height.length",
+   "impact": "advisory",
+   "message": "Line-work of 97.79 passes less than 0.5 mm from the label of 2\u00d7 16.34, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/height.length",
+    "d:f:boss:3/boss_height.length"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:pmi:datum.datum:f10:t=E|d:step_level/step_height.length.h52_07",
+   "impact": "advisory",
+   "message": "Line-work of datum feature symbol E passes less than 0.5 mm from the label of 52.07, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "pmi:datum.datum:f10:t=E",
+    "d:step_level/step_height.length.h52_07"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/height.length|d:f:section_recess:5/channel_width.length",
+   "impact": "advisory",
+   "message": "Line-work of 97.79 passes less than 0.5 mm from the label of 2\u00d7 3.103, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/height.length",
+    "d:f:section_recess:5/channel_width.length"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:chamfer:1/chamfer.length|d:f:plate:1/thickness.length",
+   "impact": "advisory",
+   "message": "Line-work of 101.6 \u00d7 26.57\u00b0 passes less than 0.5 mm from the label of 2\u00d7 31.75, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:chamfer:1/chamfer.length",
+    "d:f:plate:1/thickness.length"
+   ]
+  },
+  {
+   "code": "extension_off_centreline",
+   "group": "extension_off_centreline",
+   "id": "p:extension_off_centreline:d:f:boss:3/boss_height.length|ink:v:front:f:hole:5",
+   "impact": "readability",
+   "message": "An extension line of 2\u00d7 16.34 runs 0.09 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:boss:3/boss_height.length",
+    "f:hole:5"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:1/grid_pitch.length.row|ink:v:plan:cut:A:arrow:0",
+   "impact": "advisory",
+   "message": "The dimension 266.7 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/grid_pitch.length.row",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:hole:1/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "readability",
+   "message": "A line of 76.2 runs through the section A cutting-plane arrowhead.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:hole_pattern:1/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "readability",
+   "message": "A line of 152.4 runs through the section A cutting-plane arrowhead.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:hole:2/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "readability",
+   "message": "A line of 228.6 runs through the section A cutting-plane arrowhead.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:2/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:boss:8/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "readability",
+   "message": "A line of 38.1 runs through the section A cutting-plane arrowhead.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:boss:8/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:boss:3/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "readability",
+   "message": "A line of 266.7 runs through the section A cutting-plane arrowhead.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:boss:3/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:boss:8/location.length.y|ink:v:plan:cut:A:letter:0",
+   "impact": "readability",
+   "message": "A line of 38.1 runs through the section A cutting-plane letter.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:boss:8/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:d:f:hole_pattern:2/bore.diameter|ink:v:side:f:hole:7",
+   "impact": "readability",
+   "message": "The leader of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:2/bore.diameter",
+    "f:hole:7"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.position:f24,26:ref=B,C|ink:v:side:f:boss:2",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 0.635 B C runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f24,26:ref=B,C",
+    "f:boss:2"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.position:f51,53:ref=B,C|ink:v:side:f:boss:4",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 0.635 B C runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f51,53:ref=B,C",
     "f:boss:4"
    ]
   }
@@ -18998,66 +19106,6 @@
    "subjects": []
   },
   {
-   "annotation": "d:pmi:dimension.linear:f24,26/linear",
-   "at": [
-    274.06399999999996,
-    148.198
-   ],
-   "code": "annotation_ink_overlap",
-   "fix": "move what is drawn, not just the text",
-   "fix_description": "Move what is drawn, not just the text.",
-   "group": "annotation_ink_overlap",
-   "id": "l:annotation_ink_overlap:d:pmi:dimension.linear:f24,26/linear+d:pmi:dimension.linear:f51,53/linear",
-   "impact": "readability",
-   "message": "'0.500 \u00b10.008 INCH' draws 2.2 mm of line-work through the label '0.500 \u00b10.008 INCH' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
-   "related": [
-    "d:pmi:dimension.linear:f51,53/linear"
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
-  },
-  {
-   "annotation": "d:pmi:dimension.linear:f24,26/linear",
-   "at": [
-    274.06399999999996,
-    148.198
-   ],
-   "code": "annotation_ink_overlap",
-   "fix": "move what is drawn, not just the text",
-   "fix_description": "Move what is drawn, not just the text.",
-   "group": "annotation_ink_overlap",
-   "id": "l:annotation_ink_overlap:d:pmi:dimension.linear:f24,26/linear+pmi:geometric_tolerance.position:f51,53:ref=B,C",
-   "impact": "readability",
-   "message": "'\u2316 0.635 B C' draws 2.2 mm of line-work through the label '0.500 \u00b10.008 INCH' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
-   "related": [
-    "pmi:geometric_tolerance.position:f51,53:ref=B,C"
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
-  },
-  {
-   "annotation": "d:pmi:dimension.linear:f51,53/linear",
-   "at": [
-    316.08399999999995,
-    141.198
-   ],
-   "code": "annotation_ink_overlap",
-   "fix": "move what is drawn, not just the text",
-   "fix_description": "Move what is drawn, not just the text.",
-   "group": "annotation_ink_overlap",
-   "id": "l:annotation_ink_overlap:d:pmi:dimension.linear:f51,53/linear+d:pmi:dimension.linear:f15,16/linear",
-   "impact": "readability",
-   "message": "'12.00 \u00b10.01 INCH' draws 2.2 mm of line-work through the label '0.500 \u00b10.008 INCH' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
-   "related": [
-    "d:pmi:dimension.linear:f15,16/linear"
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
-  },
-  {
    "annotation": "pmi:datum.datum:f10:t=E",
    "at": [
     49.87,
@@ -19094,8 +19142,8 @@
  ],
  "summary": {
   "groups": {
-   "annotation_ink_overlap": 14,
-   "annotation_leader_crossing:arrow": 3,
+   "annotation_ink_overlap": 9,
+   "annotation_leader_crossing:arrow": 1,
    "annotation_leader_crossing:arrow+dimension_line": 1,
    "annotation_leader_crossing:arrow+leader": 11,
    "annotation_leader_crossing:dimension_line": 16,
@@ -19103,18 +19151,20 @@
    "annotation_leader_crossing:leader": 23,
    "annotation_leader_search_capped": 1,
    "chamfer_leader_target_unverifiable": 1,
-   "channel_requirement_unverifiable:channel_width.length": 2,
-   "channel_requirement_unverifiable:depth.length": 2,
    "channel_requirement_unverifiable:thickness.length": 4,
    "datum_leader_remote": 2,
    "datum_origin_unusable": 2,
    "dimensions_not_ported:section_recess": 2,
+   "extension_off_centreline": 1,
    "extension_through_feature": 8,
    "feature_not_located:boss": 8,
+   "frame_datum_not_drawn:geometric_tolerance": 13,
    "general_tolerance_missing": 1,
+   "label_crowded": 9,
+   "label_section_furniture_overlap": 6,
    "layout_recovery_exhausted": 1,
+   "leader_along_centreline": 3,
    "leader_through_feature": 3,
-   "missing_principal_dimension": 1,
    "nominal_rounded": 10,
    "pmi_not_extracted": 890,
    "pmi_not_extracted:dimension": 2,
@@ -19128,25 +19178,26 @@
    "prismatic_pocket_requirement_unsupported": 2,
    "radius_leader_not_radial": 1,
    "relief_profiles_per_model": 1,
+   "shape_not_recognised:protrusion": 1,
    "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 923,
-    "groups": 13
+    "findings": 932,
+    "groups": 14
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 79,
-    "groups": 14
+    "findings": 88,
+    "groups": 13
    },
    "readability": {
-    "findings": 74,
-    "groups": 9
+    "findings": 77,
+    "groups": 12
    }
   }
  }

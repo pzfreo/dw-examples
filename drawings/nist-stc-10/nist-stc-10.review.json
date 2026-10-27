@@ -1597,7 +1597,7 @@
    "message": "Unrecognised features on this part: 1 freeform surface. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -2762,7 +2762,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 (2\u00d72) callout above the front view, nearest the view. Trade-off: adds these findings: The labels of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 (2\u00d72) and the feature control frame \u2316 \u23001\u24c2 A B C overlap. [annotation_overlap] The labels of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 (2\u00d72) and the feature control frame \u2316 \u23000.65 A B C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 (2\u00d72) crosses a line of the feature control frame \u27c2 0.1 A. [annotation_leader_crossing] A line of the feature control frame \u27c2 0.1 A runs through the label of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 (2\u00d72). [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 (2\u00d72). [annotation_leader_crossing].",
+     "description": "Move the 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 callout above the front view, nearest the view. Trade-off: adds these findings: The labels of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 and the feature control frame \u2316 \u23001\u24c2 A B C overlap. [annotation_overlap] The labels of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 and the feature control frame \u2316 \u23000.65 A B C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 crosses a line of the feature control frame \u27c2 0.1 A. [annotation_leader_crossing] A line of the feature control frame \u27c2 0.1 A runs through the label of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -2801,7 +2801,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:d:f:hole_pattern:1/bore.diameter|d:f:slot:1/slot_width.length",
    "impact": "advisory",
-   "message": "The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 (2\u00d72) crosses a line of 50.",
+   "message": "The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 crosses a line of 50.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter",
@@ -13457,7 +13457,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 142 of 256 faces; 114 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 152 of 256 faces; 104 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
@@ -13494,12 +13494,7 @@
     "face:46",
     "face:47",
     "face:48",
-    "face:55",
-    "face:57",
-    "face:59",
     "face:65",
-    "face:88",
-    "face:90",
     "face:92",
     "face:101",
     "face:102",
@@ -13556,11 +13551,6 @@
     "face:195",
     "face:196",
     "face:197",
-    "face:202",
-    "face:204",
-    "face:206",
-    "face:208",
-    "face:210",
     "face:212",
     "face:214",
     "face:215",
@@ -13574,6 +13564,30 @@
     "face:224",
     "face:247",
     "face:250"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:cut",
+   "id": "p:shape_not_recognised:face:212",
+   "impact": "incomplete",
+   "message": "Faces 212, 214, 215, 216, 218, 219, 220, 221, 222, 223, 224 form a cut of 2 \u00d7 4.86 \u00d7 6.23 mm at (140.5, 15.57, 43.34); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:cut"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:212",
+    "face:214",
+    "face:215",
+    "face:216",
+    "face:218",
+    "face:219",
+    "face:220",
+    "face:221",
+    "face:222",
+    "face:223",
+    "face:224"
    ]
   },
   {
@@ -13633,6 +13647,20 @@
    ]
   },
   {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.symmetry:f41,44:ref=A,J",
+   "impact": "incomplete",
+   "message": "The feature control frame \u232f | 0.5 | A | J cites datum J that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum J"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.symmetry:f41,44:ref=A,J"
+   ]
+  },
+  {
    "code": "feature_not_located",
    "group": "feature_not_located:slot",
    "id": "p:feature_not_located:f:slot:1/location.length.z",
@@ -13641,6 +13669,223 @@
    "severity": "warning",
    "subjects": [
     "f:slot:1"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:step_level/step_height.length.h65|d:f:hole_pattern:1/bore.diameter",
+   "impact": "advisory",
+   "message": "Line-work of 65 passes less than 0.5 mm from the label of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:step_level/step_height.length.h65",
+    "d:f:hole_pattern:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:pmi:datum.datum:f25:t=C|d:f:hole:4/location.length.y",
+   "impact": "advisory",
+   "message": "Line-work of datum feature symbol C passes less than 0.5 mm from the label of 15, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "pmi:datum.datum:f25:t=C",
+    "d:f:hole:4/location.length.y"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:pmi:geometric_tolerance.perpendicularity:f64:ref=D:mod=diameter_zone|d:pmi:dimension.linear:f41,44/linear|pmi:geometric_tolerance.position:f64:ref=D,B,C:mod=diameter_zone",
+   "impact": "advisory",
+   "message": "Line-work of the feature control frame \u27c2 \u23000.12 D and of the feature control frame \u2316 \u23000.8 D B C passes less than 0.5 mm from the label of 5 \u00b10.2, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f64:ref=D:mod=diameter_zone",
+    "d:pmi:dimension.linear:f41,44/linear",
+    "pmi:geometric_tolerance.position:f64:ref=D,B,C:mod=diameter_zone"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.cylindricity:f61,62,63|ink:v:front:f:hole:27",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u232d 0.1 runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.cylindricity:f61,62,63",
+    "f:hole:27"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.perpendicularity:f64:ref=D:mod=diameter_zone|ink:v:front:f:hole:3",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 \u23000.12 D runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f64:ref=D:mod=diameter_zone",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.perpendicularity:f86:ref=D:mod=diameter_zone|ink:v:front:f:hole:25",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 \u23000.12 D runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f86:ref=D:mod=diameter_zone",
+    "f:hole:25"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.perpendicularity:f87:ref=D:mod=diameter_zone|ink:v:front:f:hole:26",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 \u23000.12 D runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f87:ref=D:mod=diameter_zone",
+    "f:hole:26"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.position:f61,62,63:ref=D,E,F:mod=diameter_zone,least_material_requirement|ink:v:front:f:hole:27",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.0\u24c1 D E F runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f61,62,63:ref=D,E,F:mod=diameter_zone,least_material_requirement",
+    "f:hole:27"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.position:f64:ref=D,B,C:mod=diameter_zone|ink:v:front:f:hole:3",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.8 D B C runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f64:ref=D,B,C:mod=diameter_zone",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.position:f86:ref=D,B,C:mod=diameter_zone|ink:v:front:f:hole:25",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.8 D B C runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f86:ref=D,B,C:mod=diameter_zone",
+    "f:hole:25"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.position:f87:ref=D,B,C:mod=diameter_zone|ink:v:front:f:hole:26",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.8 D B C runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f87:ref=D,B,C:mod=diameter_zone",
+    "f:hole:26"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.symmetry:f41,44:ref=A,J|ink:v:front:f:hole:27",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u232f 0.5 A J runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.symmetry:f41,44:ref=A,J",
+    "f:hole:27"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:5/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "advisory",
+   "message": "The dimension 23 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:5/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:pmi:geometric_tolerance.position:f66,69,72,75:ref=A,B,C:mod=diameter_zone,maximum_material_requirement|ink:v:plan:cut:A:arrow:1",
+   "impact": "advisory",
+   "message": "The feature control frame \u2316 \u23000.0\u24c2 A B C is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f66,69,72,75:ref=A,B,C:mod=diameter_zone,maximum_material_requirement",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:geometric_tolerance.position:f66,69,72,75:ref=A,B,C:mod=diameter_zone,maximum_material_requirement|ink:v:plan:f:hole:12",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.0\u24c2 A B C runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f66,69,72,75:ref=A,B,C:mod=diameter_zone,maximum_material_requirement",
+    "f:hole:12"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:datum.datum:f64:t=G|ink:v:side:f:hole:5",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol G runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f64:t=G",
+    "f:hole:5"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:pmi:datum.datum:f87:t=E|ink:v:side:f:hole:10",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol E runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f87:t=E",
+    "f:hole:10"
+   ]
+  },
+  {
+   "code": "leader_across_view",
+   "group": "leader_across_view",
+   "id": "p:leader_across_view:d:f:hole:4/bore.diameter",
+   "impact": "readability",
+   "message": "The leader of \u23005.5 \u21a7 35 runs 62.9 mm across the side view, crossing 12 of its lines where a leader leaving the other way would cross 4.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:4/bore.diameter",
+    "v:side"
    ]
   }
  ],
@@ -13732,12 +13977,16 @@
    "extension_through_feature": 51,
    "feature_not_located:slot": 2,
    "features_not_recognised": 1,
+   "frame_datum_not_drawn:geometric_tolerance": 1,
    "general_tolerance_missing": 1,
    "hole_pattern_requirement_missing:grid_pitch.length.col": 1,
    "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
    "hole_pattern_requirement_missing:location.length.x": 2,
    "hole_pattern_requirement_missing:location.length.z": 1,
    "hole_pattern_requirement_missing:pitch.length": 1,
+   "label_crowded": 5,
+   "leader_across_view": 1,
+   "leader_along_centreline": 12,
    "leader_through_feature": 52,
    "nominal_rounded": 1,
    "pmi_not_extracted": 44,
@@ -13750,25 +13999,26 @@
    "pmi_presentation_not_read": 1,
    "prismatic_pocket_requirement_unsupported": 1,
    "section_recess_recognition_refused": 2,
+   "shape_not_recognised:cut": 1,
    "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 160,
-    "groups": 9
+    "findings": 165,
+    "groups": 10
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 114,
-    "groups": 16
+    "findings": 116,
+    "groups": 18
    },
    "readability": {
-    "findings": 115,
-    "groups": 8
+    "findings": 128,
+    "groups": 10
    }
   }
  }

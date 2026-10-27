@@ -113,29 +113,6 @@
  },
  "lint": [
   {
-   "code": "slot_requirement_missing",
-   "fix": "State its low end 112.547 from the part's y edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
-   "fix_description": "State its low end 112.547 from the part's y edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
-   "group": "slot_requirement_missing:location_slot.length",
-   "id": "l:slot_requirement_missing:f:slot:2/location_slot.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:slot:2/location_slot.length"
-   ],
-   "message": "slot f:slot:2 19.05 \u00d7 107.95, ends R9.52, long along (0, 1, 0): requirement location_slot.length (its low end 112.547 from the part's y edge) is not stated on the sheet",
-   "requirements": [
-    {
-     "feature": "f:slot:2",
-     "parameter": "location_slot.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:slot:2"
-   ]
-  },
-  {
    "code": "hole_pattern_requirement_missing",
    "fix": "State the location length x of the feature in a view that shows its true size or location.",
    "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
@@ -1122,8 +1099,8 @@
   {
    "annotation": "d:f:fillet:1/fillet.radius",
    "at": [
-    176.41951694459544,
-    62.483809996393504
+    166.5687672888461,
+    55.3566377963935
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -1153,8 +1130,8 @@
   {
    "annotation": "d:f:fillet:10/fillet.radius",
    "at": [
-    179.29751694459546,
-    84.4976099963935
+    169.44676728884608,
+    77.3704377963935
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -1184,22 +1161,11 @@
    "refs": [
     "sheet_metal_bodies",
     "thin_wall_bodies",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
    "subjects": []
-  },
-  {
-   "code": "page_fit_uncertain",
-   "group": "page_fit_uncertain",
-   "id": "p:page_fit_uncertain:sheet",
-   "impact": "readability",
-   "message": "The views may not fit A3 at 1:5, as the spec asks.",
-   "severity": "warning",
-   "subjects": [
-    "sheet"
-   ]
   },
   {
    "code": "general_tolerance_missing",
@@ -1384,7 +1350,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#97",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#97 (0.750 INCH) is not drawn: the dimension modifier Reference is not carried.",
+   "message": "PMI dimension dimension:#97 (19.05) is not drawn: the dimension modifier Reference is not carried.",
    "refs": [
     "dimension:#97",
     "the dimension modifier Reference is not carried"
@@ -1397,7 +1363,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#263",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#263 (\u00f80.438 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#263 (\u00f811.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#263",
     "haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -1410,7 +1376,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#264",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#264 (\u00f80.438 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#264 (\u00f811.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#264",
     "haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -1423,7 +1389,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#265",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#265 (\u00f80.625 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#265 (\u00f815.875 \u00b10.127) is not drawn: the STEP reader nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#265",
     "haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -1436,7 +1402,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#266",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#266 (\u00f80.438 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#266 (\u00f811.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#266",
     "haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -1449,7 +1415,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#267",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#267 (\u00f82.00 \u00b10.01 INCH) is not drawn: the STEP reader nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#267 (\u00f850.8 \u00b10.254) is not drawn: the STEP reader nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#267",
     "haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -1462,7 +1428,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#268",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#268 (\u00f81.500 \u00b10.005 INCH) is not drawn: the STEP reader nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#268 (\u00f838.1 \u00b10.127) is not drawn: the STEP reader nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#268",
     "haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -1488,7 +1454,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#270",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#270 (0.82 \u00b10.06 INCH) is not drawn: the STEP reader nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#270 (20.828 \u00b11.524) is not drawn: the STEP reader nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#270",
     "haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -1501,7 +1467,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#271",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#271 (\u00f81.065 \u00b10.003 INCH) is not drawn: the STEP reader nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#271 (\u00f827.051 \u00b10.0762) is not drawn: the STEP reader nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#271",
     "haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -2011,7 +1977,7 @@
    "group": "annotation_leader_crossing:dimension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|d:envelope/width.length",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of 302.960.",
+   "message": "The leader of the feature control frame \u2220 1.016 A crosses a line of 302.960.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.angularity:f110:ref=A",
@@ -2096,7 +2062,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|d:step_level/step_height.length.h1_908",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of 1.908.",
+   "message": "The leader of the feature control frame \u2220 1.016 A crosses a line of 1.908.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.angularity:f110:ref=A",
@@ -2181,7 +2147,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|d:step_level/step_height.length.h76_2",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of 76.2.",
+   "message": "The leader of the feature control frame \u2220 1.016 A crosses a line of 76.2.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.angularity:f110:ref=A",
@@ -2266,7 +2232,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|d:step_level/step_height.length.h78_108",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of 78.108.",
+   "message": "The leader of the feature control frame \u2220 1.016 A crosses a line of 78.108.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.angularity:f110:ref=A",
@@ -2350,7 +2316,7 @@
    "group": "annotation_leader_crossing:arrow+leader",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of the feature control frame \u2313 1.524000000006 A B C.",
+   "message": "The leader of the feature control frame \u2220 1.016 A crosses a line of the feature control frame \u2313 1.524 A B C.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.angularity:f110:ref=A",
@@ -2435,7 +2401,7 @@
    "group": "annotation_leader_crossing:dimension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:envelope/width.length",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of 302.960.",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 302.960.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
@@ -2520,7 +2486,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.h1_908",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of 1.908.",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 1.908.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
@@ -2605,7 +2571,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.h76_2",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of 76.2.",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 76.2.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
@@ -2690,7 +2656,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.h78_108",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of 78.108.",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 78.108.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
@@ -2774,7 +2740,7 @@
    "group": "annotation_leader_crossing:arrow+leader",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|pmi:geometric_tolerance.angularity:f110:ref=A",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of the feature control frame \u2220 1.016000000004 A.",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2220 1.016 A.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
@@ -3404,7 +3370,7 @@
    "group": "annotation_leader_crossing:leader",
    "id": "p:annotation_leader_crossing:pmi:datum.datum:f11,12:t=B|pmi:geometric_tolerance.angularity:f110:ref=A",
    "impact": "readability",
-   "message": "The leader of datum feature symbol B crosses a line of the feature control frame \u2220 1.016000000004 A.",
+   "message": "The leader of datum feature symbol B crosses a line of the feature control frame \u2220 1.016 A.",
    "severity": "warning",
    "subjects": [
     "pmi:datum.datum:f11,12:t=B",
@@ -3419,7 +3385,7 @@
    "group": "annotation_leader_crossing:leader",
    "id": "p:annotation_leader_crossing:pmi:datum.datum:f11,12:t=B|pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
    "impact": "readability",
-   "message": "The leader of datum feature symbol B crosses a line of the feature control frame \u2313 1.524000000006 A B C.",
+   "message": "The leader of datum feature symbol B crosses a line of the feature control frame \u2313 1.524 A B C.",
    "severity": "warning",
    "subjects": [
     "pmi:datum.datum:f11,12:t=B",
@@ -3434,7 +3400,7 @@
    "group": "annotation_leader_crossing:leader",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.angularity:f110:ref=A|pmi:datum.datum:f11,12:t=B",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2220 1.016000000004 A crosses a line of datum feature symbol B.",
+   "message": "The leader of the feature control frame \u2220 1.016 A crosses a line of datum feature symbol B.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.angularity:f110:ref=A",
@@ -3449,7 +3415,7 @@
    "group": "annotation_leader_crossing:leader",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|pmi:datum.datum:f11,12:t=B",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524000000006 A B C crosses a line of datum feature symbol B.",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of datum feature symbol B.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
@@ -3521,6 +3487,43 @@
    "subjects": [
     "f:slot:2"
    ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:slot:1/location_slot_across.length|d:f:slot:1/slot_width.length|d:f:slot:2/location_slot_across.length",
+   "impact": "advisory",
+   "message": "Line-work of 59.540 and of 123.040 passes less than 0.5 mm from the label of 2\u00d7 19.05, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:slot:1/location_slot_across.length",
+    "d:f:slot:1/slot_width.length",
+    "d:f:slot:2/location_slot_across.length"
+   ]
+  },
+  {
+   "code": "leader_across_view",
+   "group": "leader_across_view",
+   "id": "p:leader_across_view:d:f:hole:1/bore.diameter",
+   "impact": "readability",
+   "message": "The leader of 4\u00d7 \u23004.763 THRU runs 29.0 mm across the side view, crossing 6 of its lines where a leader leaving the other way would cross 1.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/bore.diameter",
+    "v:side"
+   ]
+  },
+  {
+   "code": "leader_across_view",
+   "group": "leader_across_view",
+   "id": "p:leader_across_view:d:f:hole:12/bore.diameter",
+   "impact": "readability",
+   "message": "The leader of \u230027.051 THRU runs 33.3 mm across the side view, crossing 9 of its lines where a leader leaving the other way would cross 1.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:12/bore.diameter",
+    "v:side"
+   ]
   }
  ],
  "structural": [
@@ -3530,7 +3533,7 @@
    "group": "view_annotation_inside_extents",
    "id": "l:view_annotation_inside_extents:v:side:d:envelope/profile_angle.angle.f118_e339_e10_e139_e346",
    "impact": "advisory",
-   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=166.6\u2013263.6, y=62.0\u201394.5] over a blank region \u2014 legitimate for callouts on large faces",
+   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=156.7\u2013253.8, y=54.9\u201387.4] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
    "view": "v:side"
@@ -3552,8 +3555,9 @@
    "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
    "hole_pattern_requirement_missing:location.length.x": 1,
    "hole_pattern_requirement_missing:location.length.y": 1,
+   "label_crowded": 1,
+   "leader_across_view": 2,
    "nominal_rounded": 25,
-   "page_fit_uncertain": 1,
    "pmi_not_extracted": 6,
    "pmi_not_extracted:datum": 2,
    "pmi_not_extracted:dimension": 10,
@@ -3564,24 +3568,23 @@
    "pmi_not_lowered:geometric_tolerance": 20,
    "pmi_presentation_not_read": 1,
    "radius_leader_not_radial": 2,
-   "slot_requirement_missing:location_slot.length": 1,
    "view_annotation_inside_extents": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 63,
-    "groups": 7
+    "findings": 64,
+    "groups": 8
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 91,
-    "groups": 15
+    "findings": 90,
+    "groups": 14
    },
    "readability": {
-    "findings": 12,
+    "findings": 13,
     "groups": 5
    }
   }

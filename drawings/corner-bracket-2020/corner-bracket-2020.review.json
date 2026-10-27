@@ -138,19 +138,17 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 18 of 40 faces; 22 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 20 of 40 faces; 20 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:2",
     "face:3",
-    "face:4",
     "face:5",
     "face:7",
     "face:10",
     "face:11",
     "face:13",
     "face:15",
-    "face:17",
     "face:18",
     "face:20",
     "face:22",
@@ -164,6 +162,44 @@
     "face:38",
     "face:39"
    ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:protrusion",
+   "id": "p:shape_not_recognised:face:5",
+   "impact": "incomplete",
+   "message": "Faces 5, 7, 33, 13, 15, 34 form 2 congruent shapes, each a protrusion of 4 \u00d7 1 \u00d7 2 mm, the first at (8.5, 0.5, 3); recognition does not give them, so they are neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:protrusion"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:5",
+    "face:7",
+    "face:33",
+    "face:13",
+    "face:15",
+    "face:34"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:protrusion",
+   "id": "p:shape_not_recognised:face:18",
+   "impact": "incomplete",
+   "message": "Faces 18, 20, 36, 22, 24, 37 form 2 congruent shapes, each a protrusion of 4 \u00d7 2 \u00d7 1 mm, the first at (8.5, -18, -0.5); recognition does not give them, so they are neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:protrusion"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:18",
+    "face:20",
+    "face:36",
+    "face:22",
+    "face:24",
+    "face:37"
+   ]
   }
  ],
  "structural": [],
@@ -171,6 +207,7 @@
   "groups": {
    "angled_step_requirement_unsupported": 4,
    "general_tolerance_missing": 1,
+   "shape_not_recognised:protrusion": 2,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -183,8 +220,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 4,
-    "groups": 1
+    "findings": 6,
+    "groups": 2
    },
    "readability": {
     "findings": 0,

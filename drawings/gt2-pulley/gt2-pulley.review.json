@@ -27,318 +27,14 @@
   "unknown": 0,
   "unsupported": 0
  },
- "lint": [
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f11:e24:e14/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f11:e24:e14/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f11:e24:e14 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f11:e24:e14",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f11:e24:e14"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f11:e14:e17/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f11:e14:e17/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f11:e14:e17 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f11:e14:e17",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f11:e14:e17"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f11:e17:e19/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f11:e17:e19/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f11:e17:e19 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f11:e17:e19",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f11:e17:e19"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f11:e19:e21/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f11:e19:e21/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f11:e19:e21 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f11:e19:e21",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f11:e19:e21"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f11:e21:e23/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f11:e21:e23/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f11:e21:e23 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f11:e21:e23",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f11:e21:e23"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f11:e23:e24/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f11:e23:e24/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f11:e23:e24 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f11:e23:e24",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f11:e23:e24"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f23:e49:e39/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f23:e49:e39/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f23:e49:e39 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f23:e49:e39",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f23:e49:e39"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f23:e39:e42/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f23:e39:e42/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f23:e39:e42 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f23:e39:e42",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f23:e39:e42"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f23:e42:e44/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f23:e42:e44/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f23:e42:e44 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f23:e42:e44",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f23:e42:e44"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f23:e44:e46/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f23:e44:e46/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f23:e44:e46 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f23:e44:e46",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f23:e44:e46"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f23:e46:e48/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f23:e46:e48/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f23:e46:e48 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f23:e46:e48",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f23:e46:e48"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f23:e48:e49/profile_angle.angle",
-   "impact": "advisory",
-   "measurements": [
-    "outer_profile:f23:e48:e49/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f23:e48:e49 requires 120.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f23:e48:e49",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "info",
-   "subjects": [
-    "outer_profile:f23:e48:e49"
-   ]
-  },
-  {
-   "annotation": "d:f:chamfer:1/chamfer.length",
-   "at": [
-    136.91400000000002,
-    136.67367965644038
-   ],
-   "code": "chamfer_leader_target_unverifiable",
-   "evidence": "no coaxial turned band holds its station",
-   "group": "chamfer_leader_target_unverifiable",
-   "id": "l:chamfer_leader_target_unverifiable:d:f:chamfer:1/chamfer.length",
-   "impact": "advisory",
-   "measurements": [
-    "f:chamfer:1/chamfer.length",
-    "f:chamfer:2/chamfer.length",
-    "f:chamfer:3/chamfer.length",
-    "f:chamfer:4/chamfer.length"
-   ],
-   "message": "d:f:chamfer:1/chamfer.length: the chamfer leader's target cannot be verified in this view",
-   "severity": "info",
-   "subjects": [
-    "f:chamfer:1",
-    "f:chamfer:2",
-    "f:chamfer:3",
-    "f:chamfer:4"
-   ],
-   "view": "v:front"
-  }
- ],
+ "lint": [],
  "problems": [
   {
-   "code": "assembly_drawn_whole",
-   "group": "assembly_drawn_whole",
-   "id": "p:assembly_drawn_whole:part",
+   "code": "assembly_principal_drawn",
+   "group": "assembly_principal_drawn",
+   "id": "p:assembly_principal_drawn:part",
    "impact": "advisory",
-   "message": "gt2-pulley is an assembly of 3 parts (0: TornilloM3, 1: TornilloM3-2, 2: PoleaGT2); they are drawn together as one. To draw one part alone, choose it by its index: --part K on the command line, or \"part\": K in a request.",
+   "message": "gt2-pulley is an assembly of 3 parts; its largest, part 2 (PoleaGT2), holds the others within its box and is drawn alone, so they (0: TornilloM3, 1: TornilloM3-2) are neither drawn nor dimensioned as its features. To draw another part, choose it by its index: --part K on the command line, or \"part\": K in a request.",
    "refs": [
     "TornilloM3",
     "TornilloM3-2",
@@ -346,28 +42,6 @@
    ],
    "severity": "warning",
    "subjects": []
-  },
-  {
-   "code": "angular_dimension_dropped",
-   "group": "angular_dimension_dropped",
-   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f11",
-   "impact": "advisory",
-   "message": "The dimension 6\u00d7 120\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/profile_angle.angle.f11"
-   ]
-  },
-  {
-   "code": "angular_dimension_dropped",
-   "group": "angular_dimension_dropped",
-   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f23",
-   "impact": "advisory",
-   "message": "The dimension 6\u00d7 120\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/profile_angle.angle.f23"
-   ]
   },
   {
    "code": "general_tolerance_missing",
@@ -445,25 +119,101 @@
    ]
   },
   {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:1/polygon_across_flats.length:d:f:section_recess:1/polygon_across_flats.length",
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:3~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "5:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 12.5 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u00f89.6 crosses a line of 12.5. [annotation_leader_crossing] A line of 12.5 runs through the label of \u00f813.4. [annotation_ink_overlap] A line of 12.5 runs through the label of \u00f89.6. [annotation_ink_overlap] A line of 12.5 runs through the label of 3\u00d7 C0.2. [annotation_ink_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:3~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "5:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:3/location.length.z|f:hole:2:line:1",
    "impact": "advisory",
-   "message": "The dimension \"HEX 2.000 A/F \u00d7 2.5 DEEP\" has modelled nominal 1.999956 but prints 2.000 at the default three-place limit.",
-   "severity": "info",
+   "message": "The second extension line of 12.5 crosses the \u23003 hole.",
+   "severity": "warning",
    "subjects": [
-    "d:f:section_recess:1/polygon_across_flats.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:2/polygon_across_flats.length:d:f:section_recess:2/polygon_across_flats.length",
-   "impact": "advisory",
-   "message": "The dimension \"HEX 2.000 A/F \u00d7 2.5 DEEP\" has modelled nominal 1.999956 but prints 2.000 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:section_recess:2/polygon_across_flats.length"
+    "d:f:hole:3/location.length.z",
+    "f:hole:2"
    ]
   },
   {
@@ -471,13 +221,21 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 52 of 78 faces; 26 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 32 of 54 faces; 22 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:3",
-    "face:4",
+    "face:5",
+    "face:7",
+    "face:9",
+    "face:11",
+    "face:13",
     "face:15",
-    "face:16",
+    "face:17",
+    "face:19",
+    "face:21",
+    "face:23",
+    "face:25",
     "face:27",
     "face:29",
     "face:31",
@@ -486,50 +244,82 @@
     "face:37",
     "face:39",
     "face:41",
-    "face:43",
-    "face:45",
-    "face:47",
-    "face:49",
-    "face:51",
-    "face:53",
-    "face:55",
-    "face:57",
-    "face:59",
-    "face:61",
-    "face:63",
-    "face:65",
-    "face:68",
-    "face:72"
+    "face:44",
+    "face:48"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:teeth",
+   "id": "p:shape_not_recognised:face:3",
+   "impact": "incomplete",
+   "message": "20 faces (3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, \u2026) form a periodic pattern of 20 teeth or notches about the axis through (0, 0, 0.7) along (0, 0, 1), 13.35 \u00d7 13.35 \u00d7 7.6 mm at (0, 0, 4.5); no tooth form or count is drawn. State the gear in the Spec's gears, which withdraws this warning for a gear on this axis, or add a note on one of its faces in the Spec's faces.",
+   "refs": [
+    "shape:teeth"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:3",
+    "face:5",
+    "face:7",
+    "face:9",
+    "face:11",
+    "face:13",
+    "face:15",
+    "face:17",
+    "face:19",
+    "face:21",
+    "face:23",
+    "face:25",
+    "face:27",
+    "face:29",
+    "face:31",
+    "face:33",
+    "face:35",
+    "face:37",
+    "face:39",
+    "face:41"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:plan:f:hole:1",
+   "impact": "readability",
+   "message": "The leader of \u23005 THRU runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/bore.diameter",
+    "f:hole:1"
    ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "angular_dimension_dropped": 2,
-   "angular_requirement_missing:profile_angle.angle": 12,
-   "assembly_drawn_whole": 1,
-   "chamfer_leader_target_unverifiable": 1,
+   "assembly_principal_drawn": 1,
+   "extension_through_feature": 1,
    "general_tolerance_missing": 1,
-   "nominal_rounded": 2,
+   "leader_along_centreline": 1,
+   "shape_not_recognised:teeth": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 19,
-    "groups": 6
+    "findings": 3,
+    "groups": 3
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    }
   }
  }

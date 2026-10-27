@@ -133,29 +133,6 @@
    "subjects": [
     "outer_profile:f4:e29:e8"
    ]
-  },
-  {
-   "annotation": "d:f:blend:1/blend.radius",
-   "at": [
-    34.78838455719314,
-    93.13845102582528
-   ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:blend:1/blend.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:blend:1/blend.radius",
-    "f:blend:2/blend.radius"
-   ],
-   "message": "d:f:blend:1/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:blend:1",
-    "f:blend:2"
-   ],
-   "view": "v:front"
   }
  ],
  "problems": [
@@ -280,6 +257,68 @@
     "face:24",
     "face:29"
    ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:chamfer",
+   "id": "p:shape_not_recognised:face:1",
+   "impact": "incomplete",
+   "message": "Faces 1, 29 form 2 congruent shapes, each a 0.5 \u00d7 45\u00b0 chamfer on the edge of a \u00f84 cylinder, the first at (-9.75, -5, -11); no hole callout or chamfer dimension states them. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
+   "refs": [
+    "shape:chamfer"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:1",
+    "face:29"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:chamfer",
+   "id": "p:shape_not_recognised:face:8",
+   "impact": "incomplete",
+   "message": "Faces 8, 20, 21, 24 form 4 congruent shapes, each a 0.75 \u00d7 45\u00b0 chamfer on the edge of a \u00f85.5 cylinder, the first at (-16.25, -0.37, 0); no hole callout or chamfer dimension states them. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
+   "refs": [
+    "shape:chamfer"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:8",
+    "face:20",
+    "face:21",
+    "face:24"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:chamfer",
+   "id": "p:shape_not_recognised:face:10",
+   "impact": "incomplete",
+   "message": "Faces 10, 11, 22, 23 form 2 congruent shapes, each a 0.2 \u00d7 45\u00b0 chamfer on the edge of a \u00f88 cylinder, the first at (0, -0.1, 0.02); no hole callout or chamfer dimension states them. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
+   "refs": [
+    "shape:chamfer"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:10",
+    "face:11",
+    "face:22",
+    "face:23"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/depth.length|d:f:hole:1/bore.diameter|d:f:hole:1/location.length.z",
+   "impact": "advisory",
+   "message": "Line-work of 10 and of 3 passes less than 0.5 mm from the label of \u23004 THRU, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/depth.length",
+    "d:f:hole:1/bore.diameter",
+    "d:f:hole:1/location.length.z"
+   ]
   }
  ],
  "structural": [],
@@ -288,25 +327,26 @@
    "angular_dimension_dropped": 2,
    "angular_requirement_missing:profile_angle.angle": 4,
    "general_tolerance_missing": 1,
-   "radius_leader_not_radial": 1,
+   "label_crowded": 1,
+   "shape_not_recognised:chamfer": 3,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 3,
-    "groups": 2
+    "findings": 4,
+    "groups": 3
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 4,
-    "groups": 1
+    "findings": 7,
+    "groups": 2
    },
    "readability": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    }
   }
  }

@@ -29,121 +29,37 @@
  },
  "lint": [
   {
-   "code": "boss_height_missing",
-   "fix": "State its height 1 for the boss: a linear dimension along the boss's axis, in a view that sees it side-on.",
-   "fix_description": "State its height 1 for the boss: a linear dimension along the boss's axis, in a view that sees it side-on.",
-   "group": "boss_height_missing",
-   "id": "l:boss_height_missing:f:boss:1/boss_height.length",
+   "code": "slot_requirement_missing",
+   "fix": "State its low end 0.001 from the part's z edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
+   "fix_description": "State its low end 0.001 from the part's z edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
+   "group": "slot_requirement_missing:location_slot.length",
+   "id": "l:slot_requirement_missing:f:slot:1/location_slot.length",
    "impact": "incomplete",
    "measurements": [
-    "f:boss:1/boss_height.length"
+    "f:slot:1/location_slot.length"
    ],
-   "message": "boss f:boss:1 \u00f812.298, height 1, axis (-0.012, 1.000, 0.001), at (-0.018, 0.999, 0.431): requirement boss_height.length (its height 1) is not stated on the sheet",
+   "message": "slot f:slot:1 1.64 \u00d7 3.38, long along (0, 0, 1): requirement location_slot.length (its low end 0.001 from the part's z edge) is not stated on the sheet",
    "requirements": [
     {
-     "feature": "f:boss:1",
-     "parameter": "boss_height.length"
+     "feature": "f:slot:1",
+     "parameter": "location_slot.length"
     }
    ],
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:boss:1"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "fix": "Locate each hole from a datum along each axis named, in the view that looks along it.",
-   "fix_description": "Locate each hole from a datum along each axis named, in the view that looks along it.",
-   "group": "feature_not_located:hole",
-   "id": "l:feature_not_located:holes",
-   "impact": "incomplete",
-   "message": "2 hole(s) have no locating dimension",
-   "requirements": [
-    {
-     "feature": "f:hole:2",
-     "parameter": "location.length.x"
-    },
-    {
-     "feature": "f:hole:2",
-     "parameter": "location.length.z"
-    },
-    {
-     "feature": "f:hole:3",
-     "parameter": "location.length.x"
-    },
-    {
-     "feature": "f:hole:3",
-     "parameter": "location.length.z"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole:2",
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "blend_requirement_missing",
-   "fix": "State R1.5 for the blend: a radius callout, in a view that sees the blend's arc.",
-   "fix_description": "State R1.5 for the blend: a radius callout, in a view that sees the blend's arc.",
-   "group": "blend_requirement_missing:blend.radius",
-   "id": "l:blend_requirement_missing:f:blend:1/blend.radius",
-   "impact": "incomplete",
-   "measurements": [
-    "f:blend:1/blend.radius"
-   ],
-   "message": "blend f:blend:1 R1.5 convex, straight along (-0.012, 1.000, 0.001) through (-2.552, 0.476, -5.98): requirement blend.radius (R1.5) is not stated on the sheet",
-   "requirements": [
-    {
-     "feature": "f:blend:1",
-     "parameter": "blend.radius"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:blend:1"
-   ]
-  },
-  {
-   "code": "blend_requirement_missing",
-   "fix": "State R1.5 for the blend: a radius callout, in a view that sees the blend's arc.",
-   "fix_description": "State R1.5 for the blend: a radius callout, in a view that sees the blend's arc.",
-   "group": "blend_requirement_missing:blend.radius",
-   "id": "l:blend_requirement_missing:f:blend:2/blend.radius",
-   "impact": "incomplete",
-   "measurements": [
-    "f:blend:2/blend.radius"
-   ],
-   "message": "blend f:blend:2 R1.5 convex, straight along (-0.012, 1.000, 0.001) through (2.716, 0.539, -5.902): requirement blend.radius (R1.5) is not stated on the sheet",
-   "requirements": [
-    {
-     "feature": "f:blend:2",
-     "parameter": "blend.radius"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:blend:2"
+    "f:slot:1"
    ]
   }
  ],
  "problems": [
   {
-   "code": "features_not_recognised",
-   "group": "features_not_recognised",
-   "id": "p:features_not_recognised:part",
-   "impact": "incomplete",
-   "message": "Unrecognised features on this part: 2 flats. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
-   "refs": [
-    "flats",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
-    "Python quiddity's recognition (tools/recognise.py) gives these families"
-   ],
-   "severity": "warning",
+   "code": "part_squared_to_axes",
+   "group": "part_squared_to_axes",
+   "id": "p:part_squared_to_axes:part",
+   "impact": "advisory",
+   "message": "retaining-ring-din471-m10 lies 1.09\u00b0 off the file's axes, within 2\u00b0 of them, so it is drawn and dimensioned square, in its own frame: its sizes are its own, not a tilted box's.",
+   "severity": "info",
    "subjects": []
   },
   {
@@ -162,12 +78,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "10:1"
+     "value": "5:1"
     },
     {
      "op": "set",
@@ -192,12 +108,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "10:1"
+       "value": "5:1"
       },
       {
        "op": "set",
@@ -222,80 +138,300 @@
    ]
   },
   {
-   "code": "feature_not_dimensioned",
-   "group": "feature_not_dimensioned:hole",
-   "id": "p:feature_not_dimensioned:f:hole:1",
-   "impact": "incomplete",
-   "message": "The \u23009.297 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
-   "severity": "warning",
-   "subjects": [
-    "f:hole:1"
-   ]
-  },
-  {
-   "code": "feature_not_dimensioned",
-   "group": "feature_not_dimensioned:hole",
-   "id": "p:feature_not_dimensioned:f:hole:2",
-   "impact": "incomplete",
-   "message": "The \u23001.5 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
-   "severity": "warning",
-   "subjects": [
-    "f:hole:2"
-   ]
-  },
-  {
-   "code": "feature_not_dimensioned",
-   "group": "feature_not_dimensioned:hole",
-   "id": "p:feature_not_dimensioned:f:hole:3",
-   "impact": "incomplete",
-   "message": "The \u23001.5 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
-   "severity": "warning",
-   "subjects": [
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "feature_not_dimensioned",
-   "group": "feature_not_dimensioned:boss",
-   "id": "p:feature_not_dimensioned:f:boss:1",
-   "impact": "incomplete",
-   "message": "The \u230012.298 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:1"
-   ]
-  },
-  {
-   "code": "feature_not_dimensioned",
-   "group": "feature_not_dimensioned:blend",
-   "id": "p:feature_not_dimensioned:f:blend:1",
-   "impact": "incomplete",
-   "message": "The R1.5 blend is not dimensioned: no principal view has a proven attachment on its trimmed blend surface.",
-   "severity": "warning",
-   "subjects": [
-    "f:blend:1"
-   ]
-  },
-  {
-   "code": "feature_not_dimensioned",
-   "group": "feature_not_dimensioned:blend",
-   "id": "p:feature_not_dimensioned:f:blend:2",
-   "impact": "incomplete",
-   "message": "The R1.5 blend is not dimensioned: no principal view has a proven attachment on its trimmed blend surface.",
-   "severity": "warning",
-   "subjects": [
-    "f:blend:2"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1bore.diameter/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "5:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 \u23001.5 THRU callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 2\u00d7 \u23001.5 THRU runs up to 8.4 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 2\u00d7 \u23001.5 THRU crosses the \u23009.297 hole. [leader_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1bore.diameter/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "5:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:d:f:hole:2/bore.diameter|d:f:slot:1/slot_length.length",
    "impact": "advisory",
-   "message": "The dimension \"1.147\" has modelled nominal 1.146611 but prints 1.147 at the default three-place limit.",
-   "severity": "info",
+   "message": "The leader of 2\u00d7 \u23001.5 THRU crosses a line of 3.38.",
+   "severity": "warning",
    "subjects": [
-    "d:envelope/depth.length"
+    "d:f:hole:2/bore.diameter",
+    "d:f:slot:1/slot_length.length"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:1~1location.length.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "5:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 6.149 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 6.149 runs up to 8.4 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 6.149 runs through the label of 2\u00d7 8.269 A/F. [annotation_ink_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:1~1location.length.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "5:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:1/location.length.x|f:slot:1:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 6.149 crosses the 1.64 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/location.length.x",
+    "f:slot:1"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:flat:1~1flat.length/place",
+     "value": {
+      "along": "start",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "5:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 8.269 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 2\u00d7 8.269 A/F runs up to 8.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:flat:1~1flat.length/place",
+       "value": {
+        "along": "start",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "5:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "2:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:f:flat:1/flat.length|f:hole:1:line:0",
+   "impact": "readability",
+   "message": "The leader of 2\u00d7 8.269 A/F crosses the \u23009.297 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:flat:1/flat.length",
+    "f:hole:1"
    ]
   },
   {
@@ -303,7 +439,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
    "impact": "advisory",
-   "message": "The dimension \"14.550\" has modelled nominal 14.549668 but prints 14.550 at the default three-place limit.",
+   "message": "The dimension \"14.537\" has modelled nominal 14.537365 but prints 14.537 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:envelope/height.length"
@@ -314,7 +450,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
    "impact": "advisory",
-   "message": "The dimension \"12.309\" has modelled nominal 12.30927 but prints 12.309 at the default three-place limit.",
+   "message": "The dimension \"12.298\" has modelled nominal 12.29826 but prints 12.298 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:envelope/width.length"
@@ -334,12 +470,89 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:boss:1/location.length.z:d:f:boss:1/location.length.z",
+   "impact": "advisory",
+   "message": "The dimension \"8.388\" has modelled nominal 8.388235 but prints 8.388 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:boss:1/location.length.z"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:1/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"\u23009.297 THRU\" has modelled nominal 9.29666 but prints 9.297 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:1/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/location.length.x:d:f:hole:1/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"6.149\" has modelled nominal 6.14913 but prints 6.149 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/location.length.x"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:1/location.length.z:d:f:hole:1/location.length.z",
+   "impact": "advisory",
+   "message": "The dimension \"7.958\" has modelled nominal 7.957962 but prints 7.958 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/location.length.z"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:2/location.length.x:d:f:hole:2/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"8.649\" has modelled nominal 8.64913 but prints 8.649 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:2/location.length.x"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:2/location.length.z:d:f:hole:2/location.length.z",
+   "impact": "advisory",
+   "message": "The dimension \"2.258\" has modelled nominal 2.257962 but prints 2.258 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:2/location.length.z"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:2/location.length.z:d:f:hole:3/location.length.z",
+   "impact": "advisory",
+   "message": "The dimension \"2.258\" has modelled nominal 2.257962 but prints 2.258 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:2/location.length.z"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:3/location.length.x:d:f:hole:3/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"3.649\" has modelled nominal 3.64913 but prints 3.649 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:3/location.length.x"
    ]
   },
   {
@@ -355,38 +568,87 @@
     "face:5",
     "face:10"
    ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/width.length|d:f:hole:2/bore.diameter|d:f:hole:2/location.length.z",
+   "impact": "advisory",
+   "message": "Line-work of 12.298 and of 2.258 passes less than 0.5 mm from the label of 2\u00d7 \u23001.5 THRU, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/width.length",
+    "d:f:hole:2/bore.diameter",
+    "d:f:hole:2/location.length.z"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:2/location.length.x|d:f:slot:1/slot_width.length",
+   "impact": "advisory",
+   "message": "Line-work of 8.649 passes less than 0.5 mm from the label of 1.64, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:2/location.length.x",
+    "d:f:slot:1/slot_width.length"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:2/location.length.z|d:f:slot:1/slot_length.length",
+   "impact": "advisory",
+   "message": "Line-work of 2.258 passes less than 0.5 mm from the label of 3.38, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:2/location.length.z",
+    "d:f:slot:1/slot_length.length"
+   ]
+  },
+  {
+   "code": "leader_across_view",
+   "group": "leader_across_view",
+   "id": "p:leader_across_view:d:f:flat:1/flat.length",
+   "impact": "readability",
+   "message": "The leader of 2\u00d7 8.269 A/F runs 61.1 mm across the front view, crossing 4 of its lines where a leader leaving the other way would cross 0.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:flat:1/flat.length",
+    "v:front"
+   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "blend_requirement_missing:blend.radius": 2,
-   "boss_height_missing": 1,
-   "feature_not_dimensioned:blend": 2,
-   "feature_not_dimensioned:boss": 1,
-   "feature_not_dimensioned:hole": 3,
-   "feature_not_located:hole": 1,
-   "features_not_recognised": 1,
+   "annotation_leader_crossing:extension_line": 1,
+   "extension_through_feature": 1,
    "general_tolerance_missing": 1,
-   "nominal_rounded": 5,
+   "label_crowded": 3,
+   "leader_across_view": 1,
+   "leader_through_feature": 1,
+   "nominal_rounded": 11,
+   "part_squared_to_axes": 1,
+   "slot_requirement_missing:location_slot.length": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 6,
-    "groups": 2
+    "findings": 18,
+    "groups": 6
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 11,
-    "groups": 7
+    "findings": 1,
+    "groups": 1
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 2,
+    "groups": 2
    }
   }
  }

@@ -177,32 +177,6 @@
    ]
   },
   {
-   "annotation": "d:pmi:dimension.linear:f38,40/linear",
-   "code": "channel_requirement_unverifiable",
-   "evidence": "\"0.500 \u00b10.008 INCH\" does not state 12.7",
-   "fix": "State 12.7 across the channel: a linear dimension in the view that looks along it.",
-   "fix_description": "State 12.7 across the channel: a linear dimension in the view that looks along it.",
-   "group": "channel_requirement_unverifiable:channel_width.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:1/channel.channel_width.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:section_recess:1/channel_width.length"
-   ],
-   "message": "open channel f:section_recess:1 12.7 wide, running along z, at (82.55, 59.055, -15.875): measurement channel.channel_width.length is claimed by d:pmi:dimension.linear:f38,40/linear but its text does not state 12.7",
-   "requirements": [
-    {
-     "feature": "f:section_recess:1",
-     "parameter": "channel_width.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:section_recess:1"
-   ],
-   "view": "v:front"
-  },
-  {
    "code": "channel_requirement_unverifiable",
    "evidence": "0 of quiddity's plates along x run from the part's box to the channel's near wall, not one",
    "group": "channel_requirement_unverifiable:thickness.length",
@@ -224,58 +198,6 @@
    ]
   },
   {
-   "annotation": "d:pmi:dimension.linear:f21,106/linear",
-   "code": "channel_requirement_unverifiable",
-   "evidence": "\"12.00 \u00b10.01 INCH\" does not state 304.8",
-   "fix": "State 304.8 across the channel: a linear dimension in the view that looks along it.",
-   "fix_description": "State 304.8 across the channel: a linear dimension in the view that looks along it.",
-   "group": "channel_requirement_unverifiable:width.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:1/envelope.width.length",
-   "impact": "incomplete",
-   "measurements": [
-    "envelope/width.length"
-   ],
-   "message": "open channel f:section_recess:1 12.7 wide, running along z, at (82.55, 59.055, -15.875): measurement envelope.width.length is claimed by d:pmi:dimension.linear:f21,106/linear but its text does not state 304.8",
-   "requirements": [
-    {
-     "feature": "envelope",
-     "parameter": "width.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:section_recess:1"
-   ],
-   "view": "v:front"
-  },
-  {
-   "annotation": "d:pmi:dimension.linear:f38,40/linear",
-   "code": "channel_requirement_unverifiable",
-   "evidence": "\"0.500 \u00b10.008 INCH\" does not state 12.7",
-   "fix": "State 12.7 across the channel: a linear dimension in the view that looks along it.",
-   "fix_description": "State 12.7 across the channel: a linear dimension in the view that looks along it.",
-   "group": "channel_requirement_unverifiable:channel_width.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:2/channel.channel_width.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:section_recess:2/channel_width.length"
-   ],
-   "message": "open channel f:section_recess:2 12.7 wide, running along z, at (-82.55, 59.055, -15.875): measurement channel.channel_width.length is claimed by d:pmi:dimension.linear:f38,40/linear but its text does not state 12.7",
-   "requirements": [
-    {
-     "feature": "f:section_recess:2",
-     "parameter": "channel_width.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:section_recess:2"
-   ],
-   "view": "v:front"
-  },
-  {
    "code": "channel_requirement_unverifiable",
    "evidence": "0 of quiddity's plates along x run from the part's box to the channel's near wall, not one",
    "group": "channel_requirement_unverifiable:thickness.length",
@@ -294,55 +216,6 @@
    "severity": "warning",
    "subjects": [
     "f:section_recess:2"
-   ]
-  },
-  {
-   "annotation": "d:pmi:dimension.linear:f21,106/linear",
-   "code": "channel_requirement_unverifiable",
-   "evidence": "\"12.00 \u00b10.01 INCH\" does not state 304.8",
-   "fix": "State 304.8 across the channel: a linear dimension in the view that looks along it.",
-   "fix_description": "State 304.8 across the channel: a linear dimension in the view that looks along it.",
-   "group": "channel_requirement_unverifiable:width.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:2/envelope.width.length",
-   "impact": "incomplete",
-   "measurements": [
-    "envelope/width.length"
-   ],
-   "message": "open channel f:section_recess:2 12.7 wide, running along z, at (-82.55, 59.055, -15.875): measurement envelope.width.length is claimed by d:pmi:dimension.linear:f21,106/linear but its text does not state 304.8",
-   "requirements": [
-    {
-     "feature": "envelope",
-     "parameter": "width.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:section_recess:2"
-   ],
-   "view": "v:front"
-  },
-  {
-   "code": "missing_principal_dimension",
-   "fix": "State the width length of the feature in a view that shows its true size or location.",
-   "fix_description": "State the width length of the feature in a view that shows its true size or location.",
-   "group": "missing_principal_dimension",
-   "id": "l:missing_principal_dimension:envelope/width.length",
-   "impact": "incomplete",
-   "measurements": [
-    "envelope/width.length"
-   ],
-   "message": "The overall x extent (304.8) is not stated by a full span, centred diameter or contiguous turned-length chain.",
-   "requirements": [
-    {
-     "feature": "envelope",
-     "parameter": "width.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "envelope"
    ]
   },
   {
@@ -3546,7 +3419,7 @@
   {
    "annotation": "d:f:chamfer:7/chamfer.length",
    "at": [
-    243.12201000024402,
+    245.608010000244,
     168.29027794005998
    ],
    "code": "chamfer_leader_target_unverifiable",
@@ -3746,7 +3619,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#149",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#149 (0.50 \u00b10.02 INCH) is not drawn: linear reference groups occupy the same station.",
+   "message": "PMI dimension dimension:#149 (12.7 \u00b10.508) is not drawn: linear reference groups occupy the same station.",
    "refs": [
     "dimension:#149",
     "linear reference groups occupy the same station"
@@ -3759,7 +3632,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#150",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#150 (0.56 \u00b10.02 INCH) is not drawn: linear reference-station span 254 mm differs from nominal 14.2875 mm.",
+   "message": "PMI dimension dimension:#150 (14.224 \u00b10.508) is not drawn: linear reference-station span 254 mm differs from nominal 14.2875 mm.",
    "refs": [
     "dimension:#150",
     "linear reference-station span 254 mm differs from nominal 14.2875 mm"
@@ -3772,7 +3645,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#155",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#155 (1.106 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#155 (28.0924) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
    "refs": [
     "dimension:#155",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
@@ -3785,7 +3658,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#156",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#156 (1.106 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#156 (28.0924) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
    "refs": [
     "dimension:#156",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
@@ -3798,7 +3671,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#157",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#157 (0.50 \u00b10.05 INCH) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(0.19433, -12.7, -0.826404) mm).",
+   "message": "PMI dimension dimension:#157 (12.7 \u00b11.27) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(0.19433, -12.7, -0.826404) mm).",
    "refs": [
     "dimension:#157",
     "linear reference relationship does not lie in a principal projection plane (delta=(0.19433, -12.7, -0.826404) mm)"
@@ -3811,7 +3684,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#158",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#158 (0.50 \u00b10.05 INCH) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(-0.19433, -12.7, 0.826404) mm).",
+   "message": "PMI dimension dimension:#158 (12.7 \u00b11.27) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(-0.19433, -12.7, 0.826404) mm).",
    "refs": [
     "dimension:#158",
     "linear reference relationship does not lie in a principal projection plane (delta=(-0.19433, -12.7, 0.826404) mm)"
@@ -3824,7 +3697,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#270",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#270 (R12.7 \u00b10.508000000002) is not drawn: the dimension modifier ControlledRadius is not carried; the STEP reader nonconformance on #159 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers; the STEP reader nonconformance on #967 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#270 (R12.7 \u00b10.508) is not drawn: the dimension modifier ControlledRadius is not carried; the STEP reader nonconformance on #159 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers; the STEP reader nonconformance on #967 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#270",
     "the dimension modifier ControlledRadius is not carried; haecceity nonconformance on #159 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers; haecceity nonconformance on #967 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3837,7 +3710,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#271",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#271 (\u00f80.563 \u00b10.008 INCH) is not drawn: the STEP reader nonconformance on #968 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#271 (\u00f814.3002 \u00b10.2032) is not drawn: the STEP reader nonconformance on #968 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#271",
     "haecceity nonconformance on #968 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3863,7 +3736,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#273",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#273 (\u00f80.813 \u00b10.020 INCH) is not drawn: the STEP reader nonconformance on #970 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#273 (\u00f820.6502 \u00b10.508) is not drawn: the STEP reader nonconformance on #970 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#273",
     "haecceity nonconformance on #970 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3876,7 +3749,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#274",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#274 (\u00f80.281 \u00b10.008 INCH) is not drawn: the STEP reader nonconformance on #972 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#274 (\u00f87.1374 \u00b10.2032) is not drawn: the STEP reader nonconformance on #972 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#274",
     "haecceity nonconformance on #972 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3889,7 +3762,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#275",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#275 (\u00f80.40 \u00b10.01 INCH) is not drawn: the STEP reader nonconformance on #973 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#275 (\u00f810.16 \u00b10.254) is not drawn: the STEP reader nonconformance on #973 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#275",
     "haecceity nonconformance on #973 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3902,7 +3775,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#276",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#276 (\u00f80.415 \u00b10.008 INCH) is not drawn: the STEP reader nonconformance on #983 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#276 (\u00f810.541 \u00b10.2032) is not drawn: the STEP reader nonconformance on #983 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#276",
     "haecceity nonconformance on #983 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3915,7 +3788,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#277",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#277 (\u00f80.625 \u00b10.020 INCH) is not drawn: the STEP reader nonconformance on #984 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#277 (\u00f815.875 \u00b10.508) is not drawn: the STEP reader nonconformance on #984 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#277",
     "haecceity nonconformance on #984 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3954,7 +3827,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#280",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#280 (\u00f80.250 \u00b10.008 INCH) is not drawn: the STEP reader nonconformance on #995 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#280 (\u00f86.35 \u00b10.2032) is not drawn: the STEP reader nonconformance on #995 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#280",
     "haecceity nonconformance on #995 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3967,7 +3840,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#281",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#281 (\u00f80.250 \u00b10.008 INCH) is not drawn: the STEP reader nonconformance on #996 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#281 (\u00f86.35 \u00b10.2032) is not drawn: the STEP reader nonconformance on #996 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
    "refs": [
     "dimension:#281",
     "haecceity nonconformance on #996 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3980,7 +3853,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#282",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#282 (\u00f81.000 INCH) is not drawn: the dimension modifier Reference is not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; the STEP reader nonconformance on #997 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#282 (\u00f825.4) is not drawn: the dimension modifier Reference is not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; the STEP reader nonconformance on #997 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group; add the required dimension in the Spec and review it manually.",
    "refs": [
     "dimension:#282",
     "the dimension modifier Reference is not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; haecceity nonconformance on #997 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -3993,7 +3866,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#283",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#283 (\u00f81.000 INCH) is not drawn: the dimension modifier Reference is not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; the STEP reader nonconformance on #998 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#283 (\u00f825.4) is not drawn: the dimension modifier Reference is not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; the STEP reader nonconformance on #998 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group; add the required dimension in the Spec and review it manually.",
    "refs": [
     "dimension:#283",
     "the dimension modifier Reference is not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; haecceity nonconformance on #998 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
@@ -6122,19 +5995,16 @@
    "subjects": []
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
+   "code": "annotation_outside_area",
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
+     "path": "dimensions/d:f:fillet:10~1fillet.radius/place",
      "value": {
       "along": "outside",
       "lane": 0,
       "side": "above",
-      "view": "side"
+      "view": "plan"
      }
     },
     {
@@ -6160,16 +6030,16 @@
    ],
    "fixes": [
     {
-     "description": "Move the dimension above the side view, nearest the view.",
+     "description": "Move the dimension above the plan view, nearest the view.",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
+       "path": "dimensions/d:f:fillet:10~1fillet.radius/place",
        "value": {
         "along": "outside",
         "lane": 0,
         "side": "above",
-        "view": "side"
+        "view": "plan"
        }
       },
       {
@@ -6196,271 +6066,14 @@
      "scope": "local"
     }
    ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f45|d:envelope/depth.length",
+   "group": "annotation_outside_area",
+   "id": "p:annotation_outside_area:d:f:fillet:10/fillet.radius|v:plan",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u23e5 0.254000000001 crosses a line of 97.79.",
-   "severity": "warning",
+   "message": "The dimension 2\u00d7 R12.7 runs up to 12.7 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond.",
+   "severity": "info",
    "subjects": [
-    "pmi:geometric_tolerance.flatness:f45",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_position.length.y46_99/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_position.length.y46_99/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f45|d:step_level/step_position.length.y46_99",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.254000000001 crosses a line of 46.99.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f45",
-    "d:step_level/step_position.length.y46_99"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:5~1channel_width.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:5~1channel_width.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f45|d:f:section_recess:5/channel_width.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.254000000001 crosses a line of 2\u00d7 3.103.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f45",
-    "d:f:section_recess:5/channel_width.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:boss:2~1boss_height.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:boss:2~1boss_height.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f8|d:f:boss:2/boss_height.length",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u23e5 0.254000000001 crosses a line of 2\u00d7 12.07.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f8",
-    "d:f:boss:2/boss_height.length"
+    "d:f:fillet:10/fillet.radius",
+    "v:plan"
    ]
   },
   {
@@ -6541,7 +6154,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.perpendicularity:f44:ref=A,B|d:f:boss:1/boss_height.length",
    "impact": "advisory",
-   "message": "The leader of the feature control frame \u27c2 0.3048000000012 A B crosses a line of 2\u00d7 16.34.",
+   "message": "The leader of the feature control frame \u27c2 0.3048 A B crosses a line of 2\u00d7 16.34.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f44:ref=A,B",
@@ -6626,272 +6239,11 @@
    "group": "annotation_leader_crossing:dimension_line",
    "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f55:ref=A,B,C|d:step_level/step_position.length.x168_275",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.016000000004 A B C crosses a line of 168.275.",
+   "message": "The leader of the feature control frame \u2313 1.016 A B C crosses a line of 168.275.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f55:ref=A,B,C",
     "d:step_level/step_position.length.x168_275"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "extension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:boss:1~1boss_height.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:boss:1~1boss_height.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C|d:f:boss:1/boss_height.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.508000000002 A B C crosses a line of 2\u00d7 16.34.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
-    "d:f:boss:1/boss_height.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "extension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:boss:2~1boss_height.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:boss:2~1boss_height.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C|d:f:boss:2/boss_height.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.508000000002 A B C crosses a line of 2\u00d7 12.07.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
-    "d:f:boss:2/boss_height.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "extension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:plate:1~1thickness.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:plate:1~1thickness.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C|d:f:plate:1/thickness.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.508000000002 A B C crosses a line of 2\u00d7 31.75.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
-    "d:f:plate:1/thickness.length"
    ]
   },
   {
@@ -7012,7 +6364,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 0.31 \u00b10.02 INCH dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u00f844.45 crosses a line of 0.31 \u00b10.02 INCH. [annotation_leader_crossing] The second extension line of 0.31 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 0.31 \u00b10.02 INCH crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 7.874 \u00b10.508 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 \u00f831.75 crosses a line of 7.874 \u00b10.508. [annotation_leader_crossing] The leader of 4\u00d7 \u00f844.45 crosses a line of 7.874 \u00b10.508. [annotation_leader_crossing] The second extension line of 7.874 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 7.874 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -7051,93 +6403,11 @@
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:pmi:dimension.linear:f168,171/linear|f:hole:9:line:1",
    "impact": "advisory",
-   "message": "The second extension line of 0.31 \u00b10.02 INCH crosses the \u23007.137 hole.",
+   "message": "The second extension line of 7.874 \u00b10.508 crosses the \u23007.137 hole.",
    "severity": "warning",
    "subjects": [
     "d:pmi:dimension.linear:f168,171/linear",
     "f:hole:9"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f49,51~1linear/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 0.500 \u00b10.008 INCH dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 38.1 and 0.500 \u00b10.008 INCH overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f49,51~1linear/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:pmi:dimension.linear:f49,51/linear|f:hole:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 0.500 \u00b10.008 INCH crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:pmi:dimension.linear:f49,51/linear",
-    "f:hole:1"
    ]
   },
   {
@@ -7259,20 +6529,14 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 132 of 187 faces; 55 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 141 of 187 faces; 46 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:6",
     "face:7",
     "face:11",
     "face:12",
-    "face:13",
-    "face:16",
-    "face:17",
-    "face:18",
-    "face:21",
     "face:46",
-    "face:47",
     "face:62",
     "face:65",
     "face:66",
@@ -7294,10 +6558,8 @@
     "face:95",
     "face:97",
     "face:98",
-    "face:100",
     "face:101",
     "face:103",
-    "face:106",
     "face:107",
     "face:110",
     "face:114",
@@ -7306,7 +6568,6 @@
     "face:117",
     "face:118",
     "face:125",
-    "face:126",
     "face:127",
     "face:162",
     "face:165",
@@ -7320,6 +6581,34 @@
    ]
   },
   {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:protrusion",
+   "id": "p:shape_not_recognised:face:46",
+   "impact": "incomplete",
+   "message": "15 faces (46, 83, 85, 86, 87, 89, 90, 91, 93, 94, 95, 97, \u2026) form a protrusion of 304.8 \u00d7 73.03 \u00d7 25.4 mm at (0, 36.51, -222.25); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:protrusion"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:46",
+    "face:83",
+    "face:85",
+    "face:86",
+    "face:87",
+    "face:89",
+    "face:90",
+    "face:91",
+    "face:93",
+    "face:94",
+    "face:95",
+    "face:97",
+    "face:98",
+    "face:127",
+    "face:180"
+   ]
+  },
+  {
    "code": "sheet_preference_exceeded",
    "group": "sheet_preference_exceeded",
    "id": "p:sheet_preference_exceeded:sheet",
@@ -7328,6 +6617,154 @@
    "severity": "info",
    "subjects": [
     "sheet"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:boss:2~1boss_height.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
+      "side": "below",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 12.07 dimension below the side view, in the second row of dimensions. Trade-off: adds these findings: The labels of 2\u00d7 12.07 and 2\u00d7 3.103 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The second extension line of 2\u00d7 12.07 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 2\u00d7 12.07 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 2\u00d7 12.07 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 2\u00d7 12.07 crosses the \u23007.137 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:boss:2~1boss_height.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 1,
+        "side": "below",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C|d:f:boss:2/boss_height.length",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of 2\u00d7 12.07.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
+    "d:f:boss:2/boss_height.length"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.perpendicularity:f44:ref=A,B",
+   "impact": "incomplete",
+   "message": "The feature control frame \u27c2 | 0.3048 | A | B cites datums A, B that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
+   "refs": [
+    "datum A",
+    "datum B"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f44:ref=A,B"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2313 | 0.508 | A | B | C cites datums A, B, C that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
+   "refs": [
+    "datum A",
+    "datum B",
+    "datum C"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f55:ref=A,B,C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2313 | 1.016 | A | B | C cites datums A, B, C that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
+   "refs": [
+    "datum A",
+    "datum B",
+    "datum C"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f55:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u2313 | 0.508 | A | B | C cites datums A, B, C that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
+   "refs": [
+    "datum A",
+    "datum B",
+    "datum C"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C"
    ]
   },
   {
@@ -7373,6 +6810,54 @@
    "subjects": [
     "f:boss:8"
    ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:boss:2/boss.diameter|d:f:boss:4/boss.diameter",
+   "impact": "advisory",
+   "message": "Line-work of 2\u00d7 \u00f831.75 passes less than 0.5 mm from the label of 4\u00d7 \u00f844.45, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:boss:2/boss.diameter",
+    "d:f:boss:4/boss.diameter"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/depth.length|d:f:section_recess:5/channel_width.length",
+   "impact": "advisory",
+   "message": "Line-work of 97.79 passes less than 0.5 mm from the label of 2\u00d7 3.103, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/depth.length",
+    "d:f:section_recess:5/channel_width.length"
+   ]
+  },
+  {
+   "code": "leader_to_hidden_edge",
+   "group": "leader_to_hidden_edge",
+   "id": "p:leader_to_hidden_edge:d:f:boss:1/boss.diameter",
+   "impact": "readability",
+   "message": "The leader of 2\u00d7 \u00f822.86 ends on an edge the front view shows hidden, so it points at dashed line-work.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:boss:1/boss.diameter",
+    "v:front"
+   ]
+  },
+  {
+   "code": "leader_to_hidden_edge",
+   "group": "leader_to_hidden_edge",
+   "id": "p:leader_to_hidden_edge:d:f:boss:2/boss.diameter",
+   "impact": "readability",
+   "message": "The leader of 2\u00d7 \u00f831.75 ends on an edge the front view shows hidden, so it points at dashed line-work.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:boss:2/boss.diameter",
+    "v:front"
+   ]
   }
  ],
  "structural": [
@@ -7388,27 +6873,25 @@
  ],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:arrow+dimension_line": 1,
-   "annotation_leader_crossing:arrow+dimension_line+extension_line": 3,
    "annotation_leader_crossing:dimension_line": 1,
-   "annotation_leader_crossing:dimension_line+extension_line": 1,
-   "annotation_leader_crossing:extension_line": 3,
+   "annotation_leader_crossing:extension_line": 2,
+   "annotation_outside_area": 1,
    "chamfer_leader_target_unverifiable": 1,
-   "channel_requirement_unverifiable:channel_width.length": 2,
    "channel_requirement_unverifiable:thickness.length": 4,
-   "channel_requirement_unverifiable:width.length": 2,
    "datum_origin_unusable": 6,
    "dimensions_not_ported:section_recess": 2,
-   "extension_through_feature": 3,
+   "extension_through_feature": 2,
    "feature_not_located:boss": 8,
    "feature_not_located:hole": 6,
+   "frame_datum_not_drawn:geometric_tolerance": 4,
    "general_tolerance_missing": 1,
    "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
    "hole_pattern_requirement_missing:location.length.x": 1,
    "hole_pattern_requirement_missing:location.length.y": 1,
    "hole_pattern_requirement_missing:location.length.z": 1,
    "hole_pattern_requirement_missing:pitch.length": 1,
-   "missing_principal_dimension": 1,
+   "label_crowded": 2,
+   "leader_to_hidden_edge": 2,
    "nominal_rounded": 10,
    "pmi_not_extracted": 38,
    "pmi_not_extracted:datum": 8,
@@ -7423,14 +6906,15 @@
    "pmi_presentation_not_read": 1,
    "prismatic_pocket_requirement_unsupported": 2,
    "relief_profiles_per_model": 1,
+   "shape_not_recognised:protrusion": 1,
    "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1,
    "unrecognised_defining_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 243,
-    "groups": 11
+    "findings": 244,
+    "groups": 13
    },
    "decision": {
     "findings": 1,
@@ -7438,11 +6922,11 @@
    },
    "incomplete": {
     "findings": 205,
-    "groups": 24
+    "groups": 23
    },
    "readability": {
-    "findings": 6,
-    "groups": 4
+    "findings": 3,
+    "groups": 2
    }
   }
  }

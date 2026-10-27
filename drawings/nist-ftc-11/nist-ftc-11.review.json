@@ -710,26 +710,82 @@
     "face:37",
     "face:41"
    ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:step",
+   "id": "p:shape_not_recognised:face:0",
+   "impact": "incomplete",
+   "message": "Faces 0, 3, 4, 6, 7 form a turned step or land, its shoulder \u00f856.98, 63 \u00d7 63 \u00d7 3 mm at (0, 0, 0); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:step"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:0",
+    "face:3",
+    "face:4",
+    "face:6",
+    "face:7"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:cut",
+   "id": "p:shape_not_recognised:face:9",
+   "impact": "incomplete",
+   "message": "Faces 9, 12, 13, 15, 17, 18, 20 form a cut of 3.04 \u00d7 3.89 \u00d7 0.11 mm at (-23.6, -3.96, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:cut"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:9",
+    "face:12",
+    "face:13",
+    "face:15",
+    "face:17",
+    "face:18",
+    "face:20"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:cut",
+   "id": "p:shape_not_recognised:face:21",
+   "impact": "incomplete",
+   "message": "Faces 21, 25, 26, 27, 30, 33, 35, 36, 37, 41 form a cut of 2.95 \u00d7 6.91 \u00d7 0.11 mm at (-23.56, 1.83, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:cut"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:21",
+    "face:25",
+    "face:26",
+    "face:27",
+    "face:30",
+    "face:33",
+    "face:35",
+    "face:36",
+    "face:37",
+    "face:41"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:plan:f:hole:1",
+   "impact": "readability",
+   "message": "The leader of \u230032 \u00b10.3 AVG THRU runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/bore.diameter",
+    "f:hole:1"
+   ]
   }
  ],
  "structural": [
-  {
-   "annotation": "pmi:datum.datum:f5:t=B",
-   "at": [
-    28.474,
-    63.12501
-   ],
-   "code": "datum_leader_remote",
-   "fix": "set the datum symbol closer to its surface",
-   "fix_description": "Set the datum symbol closer to its surface.",
-   "group": "datum_leader_remote",
-   "id": "l:datum_leader_remote:pmi:datum.datum:f5:t=B",
-   "impact": "readability",
-   "message": "datum leader pmi:datum.datum:f5:t=B is 25.5 mm from its surface",
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
-  },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
@@ -744,9 +800,9 @@
   "groups": {
    "angular_dimension_dropped": 1,
    "angular_requirement_missing:profile_angle.angle": 1,
-   "datum_leader_remote": 1,
    "datum_origin_unusable": 1,
    "general_tolerance_missing": 1,
+   "leader_along_centreline": 1,
    "nominal_rounded": 1,
    "pmi_not_extracted": 12,
    "pmi_not_extracted:dimension": 1,
@@ -755,6 +811,8 @@
    "pmi_not_lowered:geometric_tolerance": 8,
    "pmi_presentation_not_read": 1,
    "section_recess_recognition_refused": 7,
+   "shape_not_recognised:cut": 2,
+   "shape_not_recognised:step": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -767,8 +825,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 23,
-    "groups": 5
+    "findings": 26,
+    "groups": 7
    },
    "readability": {
     "findings": 1,

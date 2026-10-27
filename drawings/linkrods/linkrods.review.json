@@ -30,7 +30,7 @@
    "message": "Unrecognised features on this part: 18 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -109,213 +109,6 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "layout_recovery_exhausted",
-   "group": "layout_recovery_exhausted",
-   "id": "p:layout_recovery_exhausted:sheet",
-   "impact": "advisory",
-   "message": "A4 at 10:1 has 1 hole location too close to read; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 10:1 fill 18.4% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A4 5:1 fill 9.3% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A3 10:1 fill 9.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A3 5:1 fill 4.4% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A4 multi-sheet: 1 sheets at 10:1, 0 hard findings, 1 required drops, required measurements retained true, drawn bounds fit true, additional view conflicts false, blocking problems []; A3 multi-sheet: 1 sheets at 10:1, 0 hard findings, 1 required drops, required measurements retained true, drawn bounds fit true, additional view conflicts false, blocking problems []; A2 10:1 fill 4.2% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A2 5:1 fill 2.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A1 10:1 fill 2.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A1 5:1 fill 1.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A0 10:1 fill 1.0% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns); A0 5:1 fill 0.5% (1 hole location too close to read, 0 additional view conflicts, 0 additional material crossings, 0 annotation conflicts, 0 unreadable step spans, columns).",
-   "severity": "info",
-   "subjects": [
-    "sheet"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:2~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "10:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 0.625 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 0.625 runs through the label of 0.75. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:2~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "10:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 5:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "5:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:2/location.length.y|f:hole:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 0.625 crosses the \u23001.034 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:2/location.length.y",
-    "f:hole:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:1~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "10:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 0.75 dimension to the left of the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 0.75 runs up to 0.1 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:1~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "10:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 5:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "5:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:1/location.length.y|f:hole:2:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 0.75 crosses the \u23000.440 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:1/location.length.y",
-    "f:hole:2"
    ]
   },
   {
@@ -496,17 +289,16 @@
  "structural": [],
  "summary": {
   "groups": {
-   "extension_through_feature": 3,
+   "extension_through_feature": 1,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "layout_recovery_exhausted": 1,
    "nominal_rounded": 5,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 10,
-    "groups": 4
+    "findings": 7,
+    "groups": 3
    },
    "decision": {
     "findings": 1,

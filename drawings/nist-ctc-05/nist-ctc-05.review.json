@@ -792,7 +792,7 @@
    "message": "Unrecognised features on this part: 4 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -970,7 +970,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#941",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#941 (5.000 \u00b10.008 INCH) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers.",
+   "message": "PMI dimension dimension:#941 (127 \u00b10.2032) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers.",
    "refs": [
     "dimension:#941",
     "the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers"
@@ -983,7 +983,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#942",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#942 (1.250 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#942 (31.75) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
    "refs": [
     "dimension:#942",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
@@ -996,7 +996,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#943",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#943 (1.250 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#943 (31.75) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
    "refs": [
     "dimension:#943",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
@@ -1009,7 +1009,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#944",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#944 (2.000 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#944 (50.8) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
    "refs": [
     "dimension:#944",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
@@ -1022,7 +1022,7 @@
    "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#945",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#945 (2.000 INCH) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#945 (50.8) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
    "refs": [
     "dimension:#945",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
@@ -1819,25 +1819,97 @@
   {
    "code": "leader_through_feature",
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.total_runout:f37:ref=A|f:hole:10:line:0",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.perpendicularity:f23:ref=D|f:hole:1:line:0",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2330 0.0508 A crosses the \u230019.05 hole.",
+   "message": "The leader of the feature control frame \u27c2 0.254 D crosses the \u23007.938 hole.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.total_runout:f37:ref=A",
-    "f:hole:10"
+    "pmi:geometric_tolerance.perpendicularity:f23:ref=D",
+    "f:hole:1"
    ]
   },
   {
    "code": "leader_through_feature",
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.total_runout:f37:ref=A|v:plan:line:0",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.perpendicularity:f23:ref=D|f:hole:2:line:0",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2330 0.0508 A crosses a feature.",
+   "message": "The leader of the feature control frame \u27c2 0.254 D crosses the \u23007.938 hole.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.total_runout:f37:ref=A",
-    "v:plan"
+    "pmi:geometric_tolerance.perpendicularity:f23:ref=D",
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.perpendicularity:f23:ref=D|f:hole:3:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.254 D crosses the \u23007.938 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f23:ref=D",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.perpendicularity:f23:ref=D|f:hole:4:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.254 D crosses the \u23007.938 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f23:ref=D",
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.perpendicularity:f27:ref=C|f:hole:1:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.254 C crosses the \u23007.938 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f27:ref=C",
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.perpendicularity:f27:ref=C|f:hole:2:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.254 C crosses the \u23007.938 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f27:ref=C",
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.perpendicularity:f27:ref=C|f:hole:3:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.254 C crosses the \u23007.938 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f27:ref=C",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.perpendicularity:f27:ref=C|f:hole:4:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.254 C crosses the \u23007.938 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f27:ref=C",
+    "f:hole:4"
    ]
   },
   {
@@ -2168,7 +2240,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 106 of 156 faces; 50 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 116 of 156 faces; 40 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
@@ -2179,10 +2251,6 @@
     "face:24",
     "face:27",
     "face:28",
-    "face:29",
-    "face:31",
-    "face:33",
-    "face:35",
     "face:38",
     "face:40",
     "face:43",
@@ -2202,12 +2270,6 @@
     "face:75",
     "face:76",
     "face:77",
-    "face:78",
-    "face:80",
-    "face:82",
-    "face:84",
-    "face:86",
-    "face:88",
     "face:92",
     "face:95",
     "face:96",
@@ -2224,6 +2286,54 @@
    ]
   },
   {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:cut",
+   "id": "p:shape_not_recognised:face:23",
+   "impact": "incomplete",
+   "message": "Faces 23, 24, 27, 28 form 2 congruent shapes, each a cut of 79.38 \u00d7 38.1 \u00d7 8.89 mm, the first at (-223.84, 0, 50.16); recognition does not give them, so they are neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:cut"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:23",
+    "face:24",
+    "face:27",
+    "face:28"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:cut",
+   "id": "p:shape_not_recognised:face:74",
+   "impact": "incomplete",
+   "message": "Faces 74, 75, 76, 77 form 2 congruent shapes, each a cut of 25.4 \u00d7 90.17 \u00d7 146.05 mm, the first at (76.2, 14.1, 206.38); recognition does not give them, so they are neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:cut"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:74",
+    "face:75",
+    "face:76",
+    "face:77"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:chamfer",
+   "id": "p:shape_not_recognised:face:92",
+   "impact": "incomplete",
+   "message": "Face 92 is a 9.52 \u00d7 45\u00b0 chamfer on the edge of a \u00f8254 cylinder at (0, 0, 4.76); no hole callout or chamfer dimension states it. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
+   "refs": [
+    "shape:chamfer"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:92"
+   ]
+  },
+  {
    "code": "sheet_preference_exceeded",
    "group": "sheet_preference_exceeded",
    "id": "p:sheet_preference_exceeded:sheet",
@@ -2232,6 +2342,94 @@
    "severity": "info",
    "subjects": [
     "sheet"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.perpendicularity:f23:ref=D",
+   "impact": "incomplete",
+   "message": "The feature control frame \u27c2 | 0.254 | D cites datum D that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum D"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f23:ref=D"
+   ]
+  },
+  {
+   "code": "frame_datum_not_drawn",
+   "group": "frame_datum_not_drawn:geometric_tolerance",
+   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.perpendicularity:f27:ref=C",
+   "impact": "incomplete",
+   "message": "The feature control frame \u27c2 | 0.254 | C cites datum C that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
+   "refs": [
+    "datum C"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f27:ref=C"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:turned_step:2/step.length|d:f:chamfer:2/chamfer.length",
+   "impact": "advisory",
+   "message": "Line-work of 101.6 passes less than 0.5 mm from the label of 2\u00d7 C6.35, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:turned_step:2/step.length",
+    "d:f:chamfer:2/chamfer.length"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:5/bore.diameter|ink:v:plan:cut:A:arrow:1",
+   "impact": "advisory",
+   "message": "The dimension \u2300254 \u00b10.0254 \u21a7 92.08 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:5/bore.diameter",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:flat:1/flat.length|ink:v:plan:cut:A:letter:1",
+   "impact": "advisory",
+   "message": "The dimension 527.05 A/F is less than 0.5 mm from the section A cutting-plane letter, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:f:flat:1/flat.length",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "leader_across_view",
+   "group": "leader_across_view",
+   "id": "p:leader_across_view:d:f:turned_step:2/step.diameter",
+   "impact": "readability",
+   "message": "The leader of \u00f8304.8 runs 18.9 mm across the front view, crossing 5 of its lines where a leader leaving the other way would cross 0.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:turned_step:2/step.diameter",
+    "v:front"
+   ]
+  },
+  {
+   "code": "leader_to_hidden_edge",
+   "group": "leader_to_hidden_edge",
+   "id": "p:leader_to_hidden_edge:d:f:hole:5/bore.diameter",
+   "impact": "readability",
+   "message": "The leader of \u2300254 \u00b10.0254 \u21a7 92.08 ends on an edge the plan view shows hidden, so it points at dashed line-work.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:5/bore.diameter",
+    "v:plan"
    ]
   }
  ],
@@ -2246,34 +2444,20 @@
    "severity": "info",
    "subjects": [],
    "view": "v:front"
-  },
-  {
-   "annotation": "pmi:datum.datum:f37:t=B",
-   "at": [
-    65.70000000000005,
-    177.1225
-   ],
-   "code": "datum_leader_remote",
-   "fix": "set the datum symbol closer to its surface",
-   "fix_description": "Set the datum symbol closer to its surface.",
-   "group": "datum_leader_remote",
-   "id": "l:datum_leader_remote:pmi:datum.datum:f37:t=B",
-   "impact": "readability",
-   "message": "datum leader pmi:datum.datum:f37:t=B is 29.3 mm from its surface",
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
   }
  ],
  "summary": {
   "groups": {
    "annotation_leader_crossing:arrow+leader": 4,
-   "datum_leader_remote": 1,
    "datum_origin_unusable": 4,
    "dimensions_not_ported:section_recess": 4,
    "features_not_recognised": 1,
+   "frame_datum_not_drawn:geometric_tolerance": 2,
    "general_tolerance_missing": 1,
-   "leader_through_feature": 6,
+   "label_crowded": 3,
+   "leader_across_view": 1,
+   "leader_through_feature": 12,
+   "leader_to_hidden_edge": 1,
    "nominal_rounded": 28,
    "pmi_not_extracted": 28,
    "pmi_not_extracted:datum": 2,
@@ -2287,26 +2471,28 @@
    "prismatic_pocket_requirement_unsupported": 2,
    "relief_profiles_per_model": 1,
    "section_recess_recognition_refused": 2,
+   "shape_not_recognised:chamfer": 1,
+   "shape_not_recognised:cut": 2,
    "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1,
    "view_annotation_inside_extents": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 77,
-    "groups": 9
+    "findings": 80,
+    "groups": 10
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 46,
-    "groups": 11
+    "findings": 51,
+    "groups": 14
    },
    "readability": {
-    "findings": 11,
-    "groups": 3
+    "findings": 18,
+    "groups": 4
    }
   }
  }

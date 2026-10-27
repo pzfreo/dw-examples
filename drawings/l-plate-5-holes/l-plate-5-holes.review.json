@@ -123,10 +123,32 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 16 of 27 faces; 11 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 17 of 27 faces; 10 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
-    "face:7",
+    "face:9",
+    "face:11",
+    "face:12",
+    "face:13",
+    "face:14",
+    "face:16",
+    "face:17",
+    "face:18",
+    "face:20",
+    "face:21"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:chamfer",
+   "id": "p:shape_not_recognised:face:9",
+   "impact": "incomplete",
+   "message": "Faces 9, 11, 12, 13, 14, 16, 17, 18, 20, 21 form 10 congruent shapes, each a 0.5 \u00d7 45\u00b0 chamfer on the edge of a \u00f85.5 cylinder, the first at (-20, -3.75, 10); no hole callout or chamfer dimension states them. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
+   "refs": [
+    "shape:chamfer"
+   ],
+   "severity": "warning",
+   "subjects": [
     "face:9",
     "face:11",
     "face:12",
@@ -147,7 +169,7 @@
    "group": "view_annotation_inside_extents",
    "id": "l:view_annotation_inside_extents:v:front:d:envelope/profile_angle.angle.f3_e1_e11",
    "impact": "advisory",
-   "message": "label of annotation '135\u00b0' lies inside view 'front' extents [x=33.0\u201393.0, y=56.0\u2013116.0] over a blank region \u2014 legitimate for callouts on large faces",
+   "message": "label of annotation '135\u00b0' lies inside view 'front' extents [x=38.5\u201398.5, y=81.0\u2013141.0] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
    "view": "v:front"
@@ -156,6 +178,7 @@
  "summary": {
   "groups": {
    "general_tolerance_missing": 1,
+   "shape_not_recognised:chamfer": 1,
    "unclaimed_geometry": 1,
    "view_annotation_inside_extents": 1
   },
@@ -169,8 +192,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    },
    "readability": {
     "findings": 0,

@@ -24,7 +24,7 @@
    "refs": [
     "circular_face_patterns",
     "freeform_surfaces",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -126,6 +126,18 @@
    "subjects": [
     "face:1"
    ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:plan:f:hole:1",
+   "impact": "readability",
+   "message": "The leader of \u23008 THRU runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/bore.diameter",
+    "f:hole:1"
+   ]
   }
  ],
  "structural": [],
@@ -133,6 +145,7 @@
   "groups": {
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
+   "leader_along_centreline": 1,
    "nominal_rounded": 1,
    "unclaimed_geometry": 1
   },
@@ -150,8 +163,8 @@
     "groups": 1
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    }
   }
  }

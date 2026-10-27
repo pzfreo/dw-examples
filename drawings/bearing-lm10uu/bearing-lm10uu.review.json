@@ -31,12 +31,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "5:1"
+     "value": "2:1"
     },
     {
      "op": "set",
@@ -61,12 +61,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "5:1"
+       "value": "2:1"
       },
       {
        "op": "set",
@@ -109,12 +109,25 @@
     "face:17",
     "face:19"
    ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:front:f:hole:1",
+   "impact": "readability",
+   "message": "The leader of \u230010 THRU \u2334SF \u230016.4 \u21a7 1.4 runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/bore.diameter",
+    "f:hole:1"
+   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
    "general_tolerance_missing": 1,
+   "leader_along_centreline": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -131,8 +144,8 @@
     "groups": 0
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    }
   }
  }

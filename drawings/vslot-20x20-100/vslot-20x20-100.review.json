@@ -7,39 +7,25 @@
     ],
     "feature": "f:hole:1",
     "state": "supported"
-   },
-   {
-    "carriers": [
-     "d:f:hole:1/bore.diameter"
-    ],
-    "feature": "f:hole:2",
-    "state": "supported"
-   },
-   {
-    "carriers": [
-     "d:f:hole:1/bore.diameter"
-    ],
-    "feature": "f:hole:3",
-    "state": "supported"
    }
   ],
-  "supported": 3,
+  "supported": 1,
   "unknown": 0,
   "unsupported": 0
  },
  "lint": [],
  "problems": [
   {
-   "code": "assembly_drawn_whole",
-   "group": "assembly_drawn_whole",
-   "id": "p:assembly_drawn_whole:part",
+   "code": "coincident_bodies",
+   "group": "coincident_bodies",
+   "id": "p:coincident_bodies:part",
    "impact": "advisory",
-   "message": "vslot-20x20-100 is an assembly of 2 parts (0: V-Slot-20x20-100mm, 1: Pad); they are drawn together as one. To draw one part alone, choose it by its index: --part K on the command line, or \"part\": K in a request.",
+   "message": "Every body of vslot-20x20-100 coincides with part 0 (V-Slot-20x20-100mm), which is drawn alone: the copies (0: V-Slot-20x20-100mm (placement 1), 1: Pad) are not drawn, so their features are not counted again. --part K on the command line, or \"part\": K in a request, draws part K instead.",
    "refs": [
     "V-Slot-20x20-100mm",
     "Pad"
    ],
-   "severity": "warning",
+   "severity": "info",
    "subjects": []
   },
   {
@@ -47,10 +33,10 @@
    "group": "features_not_recognised",
    "id": "p:features_not_recognised:part",
    "impact": "incomplete",
-   "message": "Unrecognised features on this part: 3 circular face patterns. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "message": "Unrecognised features on this part: 1 circular face pattern. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "circular_face_patterns",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -130,36 +116,19 @@
    "subjects": [
     "sheet"
    ]
-  },
-  {
-   "code": "unclaimed_geometry",
-   "group": "unclaimed_geometry",
-   "id": "p:unclaimed_geometry:sheet",
-   "impact": "advisory",
-   "message": "Analysis features claim 159 of 165 faces; 6 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
-   "severity": "info",
-   "subjects": [
-    "face:53",
-    "face:54",
-    "face:108",
-    "face:109",
-    "face:163",
-    "face:164"
-   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "assembly_drawn_whole": 1,
+   "coincident_bodies": 1,
    "features_not_recognised": 1,
-   "general_tolerance_missing": 1,
-   "unclaimed_geometry": 1
+   "general_tolerance_missing": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 2,
-    "groups": 2
+    "findings": 1,
+    "groups": 1
    },
    "decision": {
     "findings": 1,

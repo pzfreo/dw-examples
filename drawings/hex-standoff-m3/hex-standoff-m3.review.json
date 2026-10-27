@@ -15,10 +15,38 @@
  },
  "lint": [
   {
+   "annotation": "d:step_level/step_height.length.h6",
+   "code": "closed_dimension_chain",
+   "fix": "State the step height length h6 of the feature in a view that shows its true size or location.",
+   "fix_description": "State the step height length h6 of the feature in a view that shows its true size or location.",
+   "group": "closed_dimension_chain",
+   "id": "l:closed_dimension_chain:step_level/step_height.length.h6",
+   "impact": "advisory",
+   "measurements": [
+    "step_level/step_height.length.h6"
+   ],
+   "message": "A dimension chain and its total are all stated; omit a redundant member or show it in parentheses as reference.",
+   "related": [
+    "d:f:chamfer:1/chamfer.length",
+    "d:f:boss:1/boss_height.length"
+   ],
+   "requirements": [
+    {
+     "feature": "step_level",
+     "parameter": "step_height.length.h6"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "step_level"
+   ]
+  },
+  {
    "annotation": "d:f:chamfer:1/chamfer.length",
    "at": [
-    50.5,
-    71.25000999728499
+    36.0,
+    60.58301
    ],
    "code": "chamfer_leader_target_unverifiable",
    "evidence": "no coaxial turned band holds its station",
@@ -38,6 +66,28 @@
  ],
  "problems": [
   {
+   "code": "possible_thread",
+   "group": "possible_thread:boss",
+   "id": "p:possible_thread:f:boss:1",
+   "impact": "advisory",
+   "message": "The \u23003 boss is at the major diameter of the M3 this part is named for, but no thread is modelled or recognised, so the sheet states it plain. If it is threaded, set features/f:boss:1/thread to its designation.",
+   "severity": "info",
+   "subjects": [
+    "f:boss:1"
+   ]
+  },
+  {
+   "code": "possible_thread",
+   "group": "possible_thread:hole",
+   "id": "p:possible_thread:f:hole:1",
+   "impact": "advisory",
+   "message": "The \u23003 hole is at the major diameter of the M3 this part is named for, but no thread is modelled or recognised, so the sheet states it plain. If it is threaded, set features/f:hole:1/thread to its designation.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
    "code": "general_tolerance_missing",
    "fix": [
     {
@@ -53,12 +103,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "5:1"
+     "value": "2:1"
     },
     {
      "op": "set",
@@ -83,12 +133,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "5:1"
+       "value": "2:1"
       },
       {
        "op": "set",
@@ -139,14 +189,37 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 8 of 13 faces; 5 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 9 of 13 faces; 4 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:3",
     "face:4",
     "face:9",
-    "face:10",
-    "face:12"
+    "face:10"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:hole:1/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "readability",
+   "message": "A line of 3.175 runs through the section A cutting-plane arrowhead.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/profile_angle.angle.f10|ink:v:plan:cut:A:arrow:1",
+   "impact": "advisory",
+   "message": "The dimension 6\u00d7 120\u00b0 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/profile_angle.angle.f10",
+    "v:section_aa"
    ]
   }
  ],
@@ -154,14 +227,19 @@
  "summary": {
   "groups": {
    "chamfer_leader_target_unverifiable": 1,
+   "closed_dimension_chain": 1,
    "general_tolerance_missing": 1,
+   "label_crowded": 1,
+   "label_section_furniture_overlap": 1,
    "nominal_rounded": 2,
+   "possible_thread:boss": 1,
+   "possible_thread:hole": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 4,
-    "groups": 3
+    "findings": 8,
+    "groups": 7
    },
    "decision": {
     "findings": 1,
@@ -172,8 +250,8 @@
     "groups": 0
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    }
   }
  }

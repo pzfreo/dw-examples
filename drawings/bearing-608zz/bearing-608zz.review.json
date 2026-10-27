@@ -17,8 +17,8 @@
   {
    "annotation": "d:f:chamfer:2/chamfer.length",
    "at": [
-    38.71901,
-    74.31335272999998
+    43.25,
+    43.25001
    ],
    "code": "chamfer_leader_target_unverifiable",
    "evidence": "no coaxial turned band holds its station",
@@ -55,12 +55,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "5:1"
+     "value": "2:1"
     },
     {
      "op": "set",
@@ -85,12 +85,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "5:1"
+       "value": "2:1"
       },
       {
        "op": "set",
@@ -133,6 +133,37 @@
     "face:12",
     "face:13"
    ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:step",
+   "id": "p:shape_not_recognised:face:2",
+   "impact": "incomplete",
+   "message": "Faces 2, 4, 6, 9, 11, 13 form 2 congruent shapes, each a turned step or land, its shoulder \u00f818, 18.5 \u00d7 18.5 \u00d7 0.25 mm, the first at (0, 0, 3.38); recognition does not give them, so they are neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:step"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:2",
+    "face:4",
+    "face:6",
+    "face:9",
+    "face:11",
+    "face:13"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:plan:f:hole:1",
+   "impact": "readability",
+   "message": "The leader of \u23008 THRU runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/bore.diameter",
+    "f:hole:1"
+   ]
   }
  ],
  "structural": [],
@@ -140,6 +171,8 @@
   "groups": {
    "chamfer_leader_target_unverifiable": 1,
    "general_tolerance_missing": 1,
+   "leader_along_centreline": 1,
+   "shape_not_recognised:step": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -152,12 +185,12 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    }
   }
  }

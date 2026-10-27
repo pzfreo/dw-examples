@@ -7,44 +7,23 @@
     ],
     "feature": "f:hole:1",
     "state": "supported"
-   },
-   {
-    "carriers": [
-     "d:f:hole:2/bore.diameter"
-    ],
-    "feature": "f:hole:2",
-    "state": "supported"
    }
   ],
-  "supported": 2,
+  "supported": 1,
   "unknown": 0,
   "unsupported": 0
  },
  "lint": [],
  "problems": [
   {
-   "code": "assembly_drawn_whole",
-   "group": "assembly_drawn_whole",
-   "id": "p:assembly_drawn_whole:part",
+   "code": "assembly_principal_drawn",
+   "group": "assembly_principal_drawn",
+   "id": "p:assembly_principal_drawn:part",
    "impact": "advisory",
-   "message": "lm8uu is an assembly of 2 parts (0: Center, 1: Metal); they are drawn together as one. To draw one part alone, choose it by its index: --part K on the command line, or \"part\": K in a request.",
+   "message": "lm8uu is an assembly of 2 parts; its largest, part 1 (Metal), holds the others within its box and is drawn alone, so they (0: Center) are neither drawn nor dimensioned as its features. To draw another part, choose it by its index: --part K on the command line, or \"part\": K in a request.",
    "refs": [
     "Center",
     "Metal"
-   ],
-   "severity": "warning",
-   "subjects": []
-  },
-  {
-   "code": "features_not_recognised",
-   "group": "features_not_recognised",
-   "id": "p:features_not_recognised:part",
-   "impact": "incomplete",
-   "message": "Unrecognised features on this part: 1 thin wall body. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
-   "refs": [
-    "thin_wall_bodies",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
-    "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
    "subjects": []
@@ -129,22 +108,32 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 14 of 18 faces; 4 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 12 of 14 faces; 2 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
-    "face:2",
-    "face:3",
-    "face:4",
-    "face:8"
+    "face:0",
+    "face:4"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:front:f:hole:1",
+   "impact": "readability",
+   "message": "The leader of \u230012.4 THRU runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/bore.diameter",
+    "f:hole:1"
    ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "assembly_drawn_whole": 1,
-   "features_not_recognised": 1,
+   "assembly_principal_drawn": 1,
    "general_tolerance_missing": 1,
+   "leader_along_centreline": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -157,12 +146,12 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 1,
-    "groups": 1
-   },
-   "readability": {
     "findings": 0,
     "groups": 0
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
    }
   }
  }

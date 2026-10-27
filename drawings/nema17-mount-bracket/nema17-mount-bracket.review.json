@@ -89,29 +89,6 @@
    ]
   },
   {
-   "code": "slot_requirement_missing",
-   "fix": "State its low end 8 from the part's x edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
-   "fix_description": "State its low end 8 from the part's x edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
-   "group": "slot_requirement_missing:location_slot.length",
-   "id": "l:slot_requirement_missing:f:slot:2/location_slot.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:slot:2/location_slot.length"
-   ],
-   "message": "slot f:slot:2 4 \u00d7 34, ends R2, long along (1, 0, 0): requirement location_slot.length (its low end 8 from the part's x edge) is not stated on the sheet",
-   "requirements": [
-    {
-     "feature": "f:slot:2",
-     "parameter": "location_slot.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:slot:2"
-   ]
-  },
-  {
    "annotation": "d:f:fillet:1/fillet.radius",
    "at": [
     94.25101,
@@ -288,7 +265,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of \u230022.5 THRU crosses a line of 31. [annotation_leader_crossing] A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap] A line of 31 runs through the label of 135\u00b0. [annotation_ink_overlap].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -386,7 +363,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of \u230022.5 THRU crosses a line of 31. [annotation_leader_crossing] A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap] A line of 31 runs through the label of 135\u00b0. [annotation_ink_overlap].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -453,13 +430,10 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 29 of 43 faces; 14 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 33 of 43 faces; 10 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
-    "face:5",
-    "face:7",
-    "face:9",
     "face:10",
     "face:20",
     "face:24",
@@ -468,8 +442,99 @@
     "face:31",
     "face:32",
     "face:33",
-    "face:35",
     "face:36"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:protrusion",
+   "id": "p:shape_not_recognised:face:20",
+   "impact": "incomplete",
+   "message": "Faces 20, 25, 26, 24, 31, 32 form 2 congruent shapes, each a protrusion of 14 \u00d7 3 \u00d7 18 mm, the first at (-7, 48.5, 12); recognition does not give them, so they are neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:protrusion"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:20",
+    "face:25",
+    "face:26",
+    "face:24",
+    "face:31",
+    "face:32"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:3/location.length.y|d:f:hole_pattern:1/grid_pitch.length.col",
+   "impact": "advisory",
+   "message": "Line-work of 25 passes less than 0.5 mm from the label of 31, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:3/location.length.y",
+    "d:f:hole_pattern:1/grid_pitch.length.col"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:3/location.length.z|d:f:hole_pattern:1/grid_pitch.length.row|d:f:hole_pattern:1/location.length.z",
+   "impact": "advisory",
+   "message": "Line-work of 28.75 and of 28.85 passes less than 0.5 mm from the label of 31, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:3/location.length.z",
+    "d:f:hole_pattern:1/grid_pitch.length.row",
+    "d:f:hole_pattern:1/location.length.z"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/height.length|d:f:blend:5/blend.radius",
+   "impact": "advisory",
+   "message": "Line-work of 50 passes less than 0.5 mm from the label of R0.5, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/height.length",
+    "d:f:blend:5/blend.radius"
+   ]
+  },
+  {
+   "code": "extension_off_centreline",
+   "group": "extension_off_centreline",
+   "id": "p:extension_off_centreline:d:f:hole:3/location.length.z|ink:v:side:f:hole_pattern:1",
+   "impact": "readability",
+   "message": "An extension line of 28.75 runs 0.10 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:3/location.length.z",
+    "f:hole_pattern:1"
+   ]
+  },
+  {
+   "code": "extension_off_centreline",
+   "group": "extension_off_centreline",
+   "id": "p:extension_off_centreline:d:f:hole_pattern:1/location.length.z|ink:v:side:f:hole:3",
+   "impact": "readability",
+   "message": "An extension line of 28.85 runs 0.10 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.z",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "leader_to_hidden_edge",
+   "group": "leader_to_hidden_edge",
+   "id": "p:leader_to_hidden_edge:d:f:blend:5/blend.radius",
+   "impact": "readability",
+   "message": "The leader of R0.5 ends on an edge the front view shows hidden, so it points at dashed line-work.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:blend:5/blend.radius",
+    "v:front"
    ]
   }
  ],
@@ -490,17 +555,20 @@
   "groups": {
    "angular_dimension_dropped": 2,
    "angular_requirement_missing:profile_angle.angle": 2,
+   "extension_off_centreline": 2,
    "extension_through_feature": 2,
    "general_tolerance_missing": 1,
+   "label_crowded": 3,
+   "leader_to_hidden_edge": 1,
    "radius_leader_not_radial": 2,
-   "slot_requirement_missing:location_slot.length": 1,
+   "shape_not_recognised:protrusion": 1,
    "unclaimed_geometry": 1,
    "view_annotation_inside_extents": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 6,
-    "groups": 4
+    "findings": 9,
+    "groups": 5
    },
    "decision": {
     "findings": 1,
@@ -511,8 +579,8 @@
     "groups": 2
    },
    "readability": {
-    "findings": 2,
-    "groups": 1
+    "findings": 5,
+    "groups": 3
    }
   }
  }

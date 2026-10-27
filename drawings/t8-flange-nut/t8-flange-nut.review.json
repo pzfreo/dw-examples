@@ -28,137 +28,13 @@
     ],
     "feature": "f:hole:4",
     "state": "supported"
-   },
-   {
-    "carriers": [
-     "d:f:hole:5/bore.diameter"
-    ],
-    "feature": "f:hole:5",
-    "state": "supported"
    }
   ],
-  "supported": 5,
+  "supported": 4,
   "unknown": 0,
   "unsupported": 0
  },
- "lint": [
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/location.length.x"
-   ],
-   "message": "f:hole_pattern:1 has no proven x location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:1",
-    "f:hole:4",
-    "f:hole:3",
-    "f:hole:2"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length y of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.y",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/location.length.y"
-   ],
-   "message": "f:hole_pattern:1 has no proven y location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:1",
-    "f:hole:4",
-    "f:hole:3",
-    "f:hole:2"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_unverifiable",
-   "fix": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_unverifiable:grid_pitch.length.col",
-   "id": "l:hole_pattern_requirement_unverifiable:f:hole_pattern:1/grid_pitch.length.col",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/grid_pitch.length.col"
-   ],
-   "message": "f:hole_pattern:1: grid_pitch.length.col is not proved by the printed drawing.",
-   "related": [
-    "f:hole:1",
-    "f:hole:4",
-    "f:hole:3",
-    "f:hole:2"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "grid_pitch.length.col"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_unverifiable",
-   "fix": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_unverifiable:grid_pitch.length.row",
-   "id": "l:hole_pattern_requirement_unverifiable:f:hole_pattern:1/grid_pitch.length.row",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/grid_pitch.length.row"
-   ],
-   "message": "f:hole_pattern:1: grid_pitch.length.row is not proved by the printed drawing.",
-   "related": [
-    "f:hole:1",
-    "f:hole:4",
-    "f:hole:3",
-    "f:hole:2"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "grid_pitch.length.row"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  }
- ],
+ "lint": [],
  "problems": [
   {
    "code": "features_not_recognised",
@@ -168,20 +44,21 @@
    "message": "Unrecognised features on this part: 32 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.0-alpha.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
    "subjects": []
   },
   {
-   "code": "detail_unplaceable",
-   "group": "detail_unplaceable",
-   "id": "p:detail_unplaceable:v:detail_a",
-   "impact": "readability",
-   "message": "turned-head detail has no reserved room or source view; its dimensions remain on the parent.",
+   "code": "modelled_thread_refused",
+   "group": "modelled_thread_refused",
+   "id": "p:modelled_thread_refused:recognition:refusal:0",
+   "impact": "incomplete",
+   "message": "Recognition refused a modelled thread on 43 faces (inconsistent diameters), so its size and designation are not stated and its modelled edges remain drawn. Declare the feature in the Spec's feature_declarations and state its thread (features/<id>/thread).",
    "refs": [
-    "v:detail_a"
+    "recognition:refusal:0",
+    "faces [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]"
    ],
    "severity": "warning",
    "subjects": []
@@ -262,104 +139,6 @@
    ]
   },
   {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:5~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8 crosses a line of 19. [annotation_leader_crossing] A line of 19 runs through the label of \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8. [annotation_ink_overlap] The leader of \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8 crosses the \u23003.4 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:5~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:hole:5/bore.diameter|f:hole:1:line:0",
-   "impact": "readability",
-   "message": "The leader of \u23006.5 THRU \u2334 \u23008.3 \u21a7 14.8 crosses the \u23003.4 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:5/bore.diameter",
-    "f:hole:1"
-   ]
-  },
-  {
    "code": "unclaimed_geometry",
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
@@ -379,6 +158,38 @@
    ]
   },
   {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:chamfer",
+   "id": "p:shape_not_recognised:face:1",
+   "impact": "incomplete",
+   "message": "Faces 1, 4, 5, 6 form 4 congruent shapes, each a 0.25 \u00d7 45\u00b0 chamfer on the edge of a \u00f83.4 cylinder, the first at (0, -8, 4.88); no hole callout or chamfer dimension states them. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
+   "refs": [
+    "shape:chamfer"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:1",
+    "face:4",
+    "face:5",
+    "face:6"
+   ]
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:chamfer",
+   "id": "p:shape_not_recognised:face:14",
+   "impact": "incomplete",
+   "message": "Faces 14, 39 form 2 congruent shapes, each a 1 \u00d7 45\u00b0 chamfer on the edge of a \u00f86.5 cylinder, the first at (0, 0, 14.5); no hole callout or chamfer dimension states them. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
+   "refs": [
+    "shape:chamfer"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:14",
+    "face:39"
+   ]
+  },
+  {
    "code": "feature_not_dimensioned",
    "group": "feature_not_dimensioned:plate",
    "id": "p:feature_unplanned:f:plate:1",
@@ -393,15 +204,11 @@
  "structural": [],
  "summary": {
   "groups": {
-   "detail_unplaceable": 1,
    "feature_not_dimensioned:plate": 1,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "hole_pattern_requirement_missing:location.length.x": 1,
-   "hole_pattern_requirement_missing:location.length.y": 1,
-   "hole_pattern_requirement_unverifiable:grid_pitch.length.col": 1,
-   "hole_pattern_requirement_unverifiable:grid_pitch.length.row": 1,
-   "leader_through_feature": 1,
+   "modelled_thread_refused": 1,
+   "shape_not_recognised:chamfer": 2,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -414,12 +221,12 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 6,
-    "groups": 6
+    "findings": 5,
+    "groups": 4
    },
    "readability": {
-    "findings": 2,
-    "groups": 2
+    "findings": 0,
+    "groups": 0
    }
   }
  }
