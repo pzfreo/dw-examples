@@ -6,7 +6,7 @@
 # `draftwright` is the pzfreo/draftwright-rust release tag that builds every drawing. CI
 # installs exactly that tag; changing it here is what rebuilds the drawings.
 
-draftwright = "v0.1.0"
+draftwright = "v0.2.0"
 formats = ["pdf"]
 
 [[drawing]]
