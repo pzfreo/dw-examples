@@ -963,6 +963,32 @@
   },
   {
    "code": "pmi_not_lowered",
+   "evidence": "PMI common label dimension:#16423 (\uf055) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#16423",
+   "impact": "incomplete",
+   "message": "The STEP common label annotation could not be drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Review its requirement and attachment.",
+   "severity": "warning",
+   "sources": [
+    "dimension:#16423"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "evidence": "PMI common label dimension:#16482 (\u2334) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#16482",
+   "impact": "incomplete",
+   "message": "The STEP common label annotation could not be drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Review its requirement and attachment.",
+   "severity": "warning",
+   "sources": [
+    "dimension:#16482"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
    "evidence": "PMI geometric_tolerance:#13984 (perpendicularity 0.381) is not drawn: the projected tolerance zone is not carried.",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#13984",
@@ -2286,6 +2312,32 @@
   },
   {
    "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#16423",
+   "impact": "incomplete",
+   "message": "PMI common label dimension:#16423 (\uf055) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "refs": [
+    "dimension:#16423",
+    "its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#16482",
+   "impact": "incomplete",
+   "message": "PMI common label dimension:#16482 (\u2334) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "refs": [
+    "dimension:#16482",
+    "its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "p:pmi_not_lowered:geometric_tolerance:#13984",
    "impact": "incomplete",
@@ -3425,410 +3477,6 @@
    "subjects": [
     "pmi:datum.datum:f17,159,195,222:t=D",
     "pmi:datum.datum:f149,150:t=C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.col/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.col/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f124,125,156,157,168,169,302,303:t=%E2%8C%B4|d:f:hole_pattern:3/grid_pitch.length.col",
-   "impact": "readability",
-   "message": "The leader of \u2334 crosses a line of 285.75.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f124,125,156,157,168,169,302,303:t=%E2%8C%B4",
-    "d:f:hole_pattern:3/grid_pitch.length.col"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.row/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:3~1grid_pitch.length.row/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f124,125,156,157,168,169,302,303:t=%E2%8C%B4|d:f:hole_pattern:3/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "The leader of \u2334 crosses a line of 196.85.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f124,125,156,157,168,169,302,303:t=%E2%8C%B4",
-    "d:f:hole_pattern:3/grid_pitch.length.row"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1location.length.x/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1location.length.x/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f124,125,156,157,168,169,302,303:t=%E2%8C%B4|d:f:hole_pattern:1/location.length.x",
-   "impact": "readability",
-   "message": "The leader of \u2334 crosses a line of 155.803.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f124,125,156,157,168,169,302,303:t=%E2%8C%B4",
-    "d:f:hole_pattern:1/location.length.x"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1location.length.x/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1location.length.x/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f244,245,246,247,248,249:t=%EF%81%95|d:f:hole_pattern:1/location.length.x",
-   "impact": "readability",
-   "message": "The leader of \uf055 crosses a line of 155.803.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f244,245,246,247,248,249:t=%EF%81%95",
-    "d:f:hole_pattern:1/location.length.x"
    ]
   },
   {
@@ -6087,7 +5735,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -6185,7 +5833,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -6283,7 +5931,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -6381,7 +6029,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 162.56. [annotation_leader_crossing].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -6479,7 +6127,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u2334 crosses a line of 165.1. [annotation_leader_crossing] The leader of \uf055 crosses a line of 165.1. [annotation_leader_crossing] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6577,7 +6225,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u2334 crosses a line of 165.1. [annotation_leader_crossing] The leader of \uf055 crosses a line of 165.1. [annotation_leader_crossing] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6969,7 +6617,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -7067,7 +6715,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -7165,7 +6813,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -7263,7 +6911,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -7361,7 +7009,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -7459,7 +7107,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -7557,7 +7205,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -7655,7 +7303,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \uf055 crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
      "ops": [
       {
        "op": "set",
@@ -8243,7 +7891,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 12.7 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 12.7. [annotation_leader_crossing] The leader of \u2334 crosses a line of 12.7. [annotation_leader_crossing] The leader of \uf055 crosses a line of 12.7. [annotation_leader_crossing] The leader of F1.1 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 12.7 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 12.7. [annotation_leader_crossing] The leader of F1.1 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8341,7 +7989,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 210.006 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of \u2334 crosses a line of 210.006. [annotation_leader_crossing] The leader of \uf055 crosses a line of 210.006. [annotation_leader_crossing] The leader of F1.1 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 210.006 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of F1.1 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -10254,8 +9902,8 @@
   "groups": {
    "annotation_leader_crossing:arrow+dimension_line+extension_line": 2,
    "annotation_leader_crossing:arrow+leader": 6,
-   "annotation_leader_crossing:dimension_line": 13,
-   "annotation_leader_crossing:extension_line": 12,
+   "annotation_leader_crossing:dimension_line": 10,
+   "annotation_leader_crossing:extension_line": 11,
    "annotation_leader_crossing:leader": 4,
    "datum_leader_remote": 2,
    "datum_origin_unusable": 2,
@@ -10276,7 +9924,7 @@
    "pmi_not_extracted:dimension": 1,
    "pmi_not_extracted:finding": 4,
    "pmi_not_extracted:geometric_tolerance": 17,
-   "pmi_not_lowered:dimension": 12,
+   "pmi_not_lowered:dimension": 16,
    "pmi_not_lowered:geometric_tolerance": 36,
    "pmi_not_rendered:dimension": 1,
    "pmi_presentation_not_read": 1,
@@ -10288,7 +9936,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 157,
+    "findings": 156,
     "groups": 11
    },
    "decision": {
@@ -10296,11 +9944,11 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 110,
+    "findings": 114,
     "groups": 12
    },
    "readability": {
-    "findings": 40,
+    "findings": 37,
     "groups": 10
    }
   }

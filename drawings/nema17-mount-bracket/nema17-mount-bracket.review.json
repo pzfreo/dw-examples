@@ -43,56 +43,10 @@
  },
  "lint": [
   {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f27:e87:e89/profile_angle.angle",
-   "impact": "incomplete",
-   "measurements": [
-    "outer_profile:f27:e87:e89/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f27:e87:e89 requires 135.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f27:e87:e89",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "outer_profile:f27:e87:e89"
-   ]
-  },
-  {
-   "code": "angular_requirement_missing",
-   "fix": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "fix_description": "State the profile angle angle of the feature in a view that shows its true size or location.",
-   "group": "angular_requirement_missing:profile_angle.angle",
-   "id": "l:angular_requirement_missing:outer_profile:f27:e89:e91/profile_angle.angle",
-   "impact": "incomplete",
-   "measurements": [
-    "outer_profile:f27:e89:e91/profile_angle.angle"
-   ],
-   "message": "Outer-profile corner outer_profile:f27:e89:e91 requires 135.0\u00b0 on the drawing.",
-   "requirements": [
-    {
-     "feature": "outer_profile:f27:e89:e91",
-     "parameter": "profile_angle.angle"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "outer_profile:f27:e89:e91"
-   ]
-  },
-  {
    "annotation": "d:f:fillet:1/fillet.radius",
    "at": [
-    94.25101,
-    63.3745
+    67.56049999999999,
+    51.439509999999984
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -112,8 +66,8 @@
   {
    "annotation": "d:f:blend:5/blend.radius",
    "at": [
-    92.09194976625565,
-    65.80415828381749
+    66.48096988312783,
+    52.654339141908736
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -148,12 +102,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -178,12 +132,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -208,28 +162,6 @@
    ]
   },
   {
-   "code": "angular_dimension_dropped",
-   "group": "angular_dimension_dropped",
-   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f27_e87_e89",
-   "impact": "advisory",
-   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/profile_angle.angle.f27_e87_e89"
-   ]
-  },
-  {
-   "code": "angular_dimension_dropped",
-   "group": "angular_dimension_dropped",
-   "id": "p:angular_dimension_dropped:d:envelope/profile_angle.angle.f27_e89_e91",
-   "impact": "advisory",
-   "message": "The dimension 135\u00b0 is not drawn: no clear place was found for it in the view that shows it true. Its corner stays undefined; dimension it linearly (faces/<face>/profile_corners: linear) or make room.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/profile_angle.angle.f27_e89_e91"
-   ]
-  },
-  {
    "code": "extension_through_feature",
    "fix": [
     {
@@ -250,12 +182,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -265,7 +197,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The labels of 31 and 2\u00d7 C4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23004 THRU crosses a line of 31. [annotation_leader_crossing] A line of 31 runs through the label of 4\u00d7 \u23004 THRU. [annotation_ink_overlap] A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -285,12 +217,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -299,22 +231,6 @@
       }
      ],
      "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
     }
    ],
    "group": "extension_through_feature",
@@ -348,12 +264,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -363,7 +279,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The labels of 31 and 2\u00d7 C4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23004 THRU crosses a line of 31. [annotation_leader_crossing] A line of 31 runs through the label of 4\u00d7 \u23004 THRU. [annotation_ink_overlap] A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -383,12 +299,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -397,22 +313,6 @@
       }
      ],
      "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
     }
    ],
    "group": "extension_through_feature",
@@ -423,6 +323,170 @@
    "subjects": [
     "d:f:hole_pattern:1/grid_pitch.length.col",
     "f:slot:1"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 40 dimension to the left of the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 40 runs up to 0.1 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 40 runs through the label of 2\u00d7 C4. [annotation_ink_overlap] The leader of 2\u00d7 C4 crosses a line of 40. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 1,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:1/location_slot_across.length|f:hole:1:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 40 crosses the \u23004 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:1/location_slot_across.length",
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 40 dimension to the left of the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 40 runs up to 0.1 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 40 runs through the label of 2\u00d7 C4. [annotation_ink_overlap] The leader of 2\u00d7 C4 crosses a line of 40. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 1,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:1/location_slot_across.length|f:hole:5:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 40 crosses the \u23004 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:1/location_slot_across.length",
+    "f:hole:5"
    ]
   },
   {
@@ -490,15 +554,15 @@
    ]
   },
   {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:envelope/height.length|d:f:blend:5/blend.radius",
-   "impact": "advisory",
-   "message": "Line-work of 50 passes less than 0.5 mm from the label of R0.5, so it touches the text.",
-   "severity": "info",
+   "code": "extension_off_centreline",
+   "group": "extension_off_centreline",
+   "id": "p:extension_off_centreline:d:f:slot:1/location_slot_across.length|ink:v:plan:f:hole:1",
+   "impact": "readability",
+   "message": "An extension line of 40 runs 0.25 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "severity": "warning",
    "subjects": [
-    "d:envelope/height.length",
-    "d:f:blend:5/blend.radius"
+    "d:f:slot:1/location_slot_across.length",
+    "f:hole:1"
    ]
   },
   {
@@ -506,7 +570,7 @@
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:f:hole:3/location.length.z|ink:v:side:f:hole_pattern:1",
    "impact": "readability",
-   "message": "An extension line of 28.75 runs 0.10 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "message": "An extension line of 28.75 runs 0.05 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
     "d:f:hole:3/location.length.z",
@@ -518,7 +582,7 @@
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:f:hole_pattern:1/location.length.z|ink:v:side:f:hole:3",
    "impact": "readability",
-   "message": "An extension line of 28.85 runs 0.10 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "message": "An extension line of 28.85 runs 0.05 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:1/location.length.z",
@@ -538,48 +602,33 @@
    ]
   }
  ],
- "structural": [
-  {
-   "annotation": "d:envelope/profile_angle.angle.f27_e91_e53",
-   "code": "view_annotation_inside_extents",
-   "group": "view_annotation_inside_extents",
-   "id": "l:view_annotation_inside_extents:v:side:d:envelope/profile_angle.angle.f27_e91_e53",
-   "impact": "advisory",
-   "message": "label of annotation '135\u00b0' lies inside view 'side' extents [x=140.1\u2013190.1, y=62.5\u2013112.5] over a blank region \u2014 legitimate for callouts on large faces",
-   "severity": "info",
-   "subjects": [],
-   "view": "v:side"
-  }
- ],
+ "structural": [],
  "summary": {
   "groups": {
-   "angular_dimension_dropped": 2,
-   "angular_requirement_missing:profile_angle.angle": 2,
-   "extension_off_centreline": 2,
-   "extension_through_feature": 2,
+   "extension_off_centreline": 3,
+   "extension_through_feature": 4,
    "general_tolerance_missing": 1,
-   "label_crowded": 3,
+   "label_crowded": 2,
    "leader_to_hidden_edge": 1,
    "radius_leader_not_radial": 2,
    "shape_not_recognised:protrusion": 1,
-   "unclaimed_geometry": 1,
-   "view_annotation_inside_extents": 1
+   "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 9,
-    "groups": 5
+    "findings": 7,
+    "groups": 3
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 3,
-    "groups": 2
+    "findings": 1,
+    "groups": 1
    },
    "readability": {
-    "findings": 5,
+    "findings": 6,
     "groups": 3
    }
   }

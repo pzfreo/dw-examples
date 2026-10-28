@@ -1949,6 +1949,19 @@
   },
   {
    "code": "pmi_not_lowered",
+   "evidence": "PMI common label dimension:#20386 (\u2334) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "group": "pmi_not_lowered:dimension",
+   "id": "l:pmi_not_lowered:dimension:#20386",
+   "impact": "incomplete",
+   "message": "The STEP common label annotation could not be drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Review its requirement and attachment.",
+   "severity": "warning",
+   "sources": [
+    "dimension:#20386"
+   ],
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
    "evidence": "PMI geometric_tolerance:#18715 (position 1.5) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#18715",
@@ -4247,6 +4260,19 @@
     "part"
    ],
    "severity": "info",
+   "subjects": []
+  },
+  {
+   "code": "pmi_not_lowered",
+   "group": "pmi_not_lowered:dimension",
+   "id": "p:pmi_not_lowered:dimension:#20386",
+   "impact": "incomplete",
+   "message": "PMI common label dimension:#20386 (\u2334) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "refs": [
+    "dimension:#20386",
+    "its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions"
+   ],
+   "severity": "warning",
    "subjects": []
   },
   {
@@ -12311,7 +12337,7 @@
    "pmi_not_extracted:dimension": 3,
    "pmi_not_extracted:finding": 4,
    "pmi_not_extracted:geometric_tolerance": 5,
-   "pmi_not_lowered:dimension": 11,
+   "pmi_not_lowered:dimension": 13,
    "pmi_not_lowered:geometric_tolerance": 10,
    "pmi_not_rendered:dimension": 2,
    "pmi_presentation_not_read": 1,
@@ -12332,7 +12358,7 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 143,
+    "findings": 145,
     "groups": 16
    },
    "readability": {

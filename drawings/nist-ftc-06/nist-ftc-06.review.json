@@ -3032,71 +3032,6 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#141 (D) is not drawn: the STEP reader nonconformance on #141 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#141",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#141"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#143 (B) is not drawn: datum reference faces are not coplanar.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#143",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn: datum reference faces are not coplanar. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#143"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#144 (C) is not drawn: the STEP reader nonconformance on #144 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#144",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#144"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#140 (A) is not drawn: the STEP reader nonconformance on #140 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#140",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#140"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#145 (E) is not drawn: the STEP reader nonconformance on #145 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#145",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#145"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
    "evidence": "PMI datum:#142 (F) is not drawn: datum reference faces are not coaxial.",
    "group": "pmi_not_lowered:datum",
    "id": "l:pmi_not_lowered:datum:#142",
@@ -3110,11 +3045,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#294 (H) is not drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; the STEP reader nonconformance on #1006 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group; referenced geometry is unavailable; datum reference surface is unavailable.",
+   "evidence": "PMI datum:#294 (H) is not drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; referenced geometry is unavailable; datum reference surface is unavailable.",
    "group": "pmi_not_lowered:datum",
    "id": "l:pmi_not_lowered:datum:#294",
    "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP datum annotation could not be drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; referenced geometry is unavailable; datum reference surface is unavailable. Review its requirement and attachment.",
    "severity": "error",
    "sources": [
     "datum:#294"
@@ -3123,11 +3058,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#295 (G) is not drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; the STEP reader nonconformance on #1005 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group; referenced geometry is unavailable; datum reference surface is unavailable.",
+   "evidence": "PMI datum:#295 (G) is not drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; referenced geometry is unavailable; datum reference surface is unavailable.",
    "group": "pmi_not_lowered:datum",
    "id": "l:pmi_not_lowered:datum:#295",
    "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP datum annotation could not be drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; referenced geometry is unavailable; datum reference surface is unavailable. Review its requirement and attachment.",
    "severity": "error",
    "sources": [
     "datum:#295"
@@ -3420,7 +3355,7 @@
    "annotation": "d:f:chamfer:7/chamfer.length",
    "at": [
     245.608010000244,
-    168.29027794005998
+    170.70027794005995
    ],
    "code": "chamfer_leader_target_unverifiable",
    "evidence": "no coaxial turned band holds its station",
@@ -5823,71 +5758,6 @@
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#141",
-   "impact": "incomplete",
-   "message": "PMI datum:#141 (D) is not drawn: the STEP reader nonconformance on #141 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "refs": [
-    "datum:#141",
-    "haecceity nonconformance on #141 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#143",
-   "impact": "incomplete",
-   "message": "PMI datum:#143 (B) is not drawn: datum reference faces are not coplanar.",
-   "refs": [
-    "datum:#143",
-    "datum reference faces are not coplanar"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#144",
-   "impact": "incomplete",
-   "message": "PMI datum:#144 (C) is not drawn: the STEP reader nonconformance on #144 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "refs": [
-    "datum:#144",
-    "haecceity nonconformance on #144 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#140",
-   "impact": "incomplete",
-   "message": "PMI datum:#140 (A) is not drawn: the STEP reader nonconformance on #140 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "refs": [
-    "datum:#140",
-    "haecceity nonconformance on #140 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#145",
-   "impact": "incomplete",
-   "message": "PMI datum:#145 (E) is not drawn: the STEP reader nonconformance on #145 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "refs": [
-    "datum:#145",
-    "haecceity nonconformance on #145 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
    "id": "p:pmi_not_lowered:datum:#142",
    "impact": "incomplete",
    "message": "PMI datum:#142 (F) is not drawn: datum reference faces are not coaxial.",
@@ -5903,12 +5773,11 @@
    "group": "pmi_not_lowered:datum",
    "id": "p:pmi_not_lowered:datum:#294",
    "impact": "incomplete",
-   "message": "PMI datum:#294 (H) is not drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; the STEP reader nonconformance on #1006 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group; referenced geometry is unavailable; datum reference surface is unavailable.",
+   "message": "PMI datum:#294 (H) is not drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; referenced geometry is unavailable; datum reference surface is unavailable.",
    "refs": [
     "datum:#294",
     "established by 1 datum target(s), which are not carried",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
-    "haecceity nonconformance on #1006 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
     "referenced geometry is unavailable",
     "datum reference surface is unavailable"
    ],
@@ -5920,12 +5789,11 @@
    "group": "pmi_not_lowered:datum",
    "id": "p:pmi_not_lowered:datum:#295",
    "impact": "incomplete",
-   "message": "PMI datum:#295 (G) is not drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; the STEP reader nonconformance on #1005 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group; referenced geometry is unavailable; datum reference surface is unavailable.",
+   "message": "PMI datum:#295 (G) is not drawn: established by 1 datum target(s), which are not carried; applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; referenced geometry is unavailable; datum reference surface is unavailable.",
    "refs": [
     "datum:#295",
     "established by 1 datum target(s), which are not carried",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
-    "haecceity nonconformance on #1005 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
     "referenced geometry is unavailable",
     "datum reference surface is unavailable"
    ],
@@ -6079,6 +5947,346 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:datum.datum:f8:t=D/place",
+     "value": {
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:datum.datum:f8:t=D/place",
+       "value": {
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f8:t=D|pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol D crosses a line of the feature control frame \u2313 0.508 A B C.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f8:t=D",
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1depth.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1depth.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f45|d:envelope/depth.length",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u23e5 0.254 crosses a line of 97.79.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.flatness:f45",
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_position.length.y46_99/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_position.length.y46_99/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line+extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f45|d:step_level/step_position.length.y46_99",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u23e5 0.254 crosses a line of 46.99.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.flatness:f45",
+    "d:step_level/step_position.length.y46_99"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:section_recess:5~1channel_width.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:section_recess:5~1channel_width.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f45|d:f:section_recess:5/channel_width.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u23e5 0.254 crosses a line of 2\u00d7 3.103.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.flatness:f45",
+    "d:f:section_recess:5/channel_width.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
     "extension_line"
    ],
    "fix": [
@@ -6164,6 +6372,429 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.perpendicularity:f44:ref=A,B/place",
+     "value": {
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.perpendicularity:f44:ref=A,B/place",
+       "value": {
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.perpendicularity:f44:ref=A,B|pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u27c2 0.3048 A B crosses a line of the feature control frame \u2313 0.508 A B C.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.perpendicularity:f44:ref=A,B",
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "extension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:boss:1~1boss_height.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:boss:1~1boss_height.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C|d:f:boss:1/boss_height.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of 2\u00d7 16.34.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+    "d:f:boss:1/boss_height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:boss:2~1boss_height.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:boss:2~1boss_height.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C|d:f:boss:2/boss_height.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of 2\u00d7 12.07.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+    "d:f:boss:2/boss_height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C/place",
+     "value": {
+      "lane": 0,
+      "side": "below",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation below the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C/place",
+       "value": {
+        "lane": 0,
+        "side": "below",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C|pmi:datum.datum:f8:t=D",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of datum feature symbol D.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+    "pmi:datum.datum:f8:t=D"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C/place",
+     "value": {
+      "lane": 0,
+      "side": "below",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation below the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C/place",
+       "value": {
+        "lane": 0,
+        "side": "below",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C|pmi:geometric_tolerance.perpendicularity:f44:ref=A,B",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of the feature control frame \u27c2 0.3048 A B.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+    "pmi:geometric_tolerance.perpendicularity:f44:ref=A,B"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
     "dimension_line"
    ],
    "fix": [
@@ -6244,6 +6875,267 @@
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f55:ref=A,B,C",
     "d:step_level/step_position.length.x168_275"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "extension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:boss:1~1boss_height.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:boss:1~1boss_height.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C|d:f:boss:1/boss_height.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of 2\u00d7 16.34.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
+    "d:f:boss:1/boss_height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "extension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:boss:2~1boss_height.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:boss:2~1boss_height.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C|d:f:boss:2/boss_height.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of 2\u00d7 12.07.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
+    "d:f:boss:2/boss_height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "extension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:plate:1~1thickness.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:plate:1~1thickness.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C|d:f:plate:1/thickness.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of 2\u00d7 31.75.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
+    "d:f:plate:1/thickness.length"
    ]
   },
   {
@@ -6620,154 +7512,6 @@
    ]
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:boss:2~1boss_height.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 12.07 dimension below the side view, in the second row of dimensions. Trade-off: adds these findings: The labels of 2\u00d7 12.07 and 2\u00d7 3.103 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The second extension line of 2\u00d7 12.07 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 2\u00d7 12.07 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 2\u00d7 12.07 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 2\u00d7 12.07 crosses the \u23007.137 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:boss:2~1boss_height.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C|d:f:boss:2/boss_height.length",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of 2\u00d7 12.07.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
-    "d:f:boss:2/boss_height.length"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.perpendicularity:f44:ref=A,B",
-   "impact": "incomplete",
-   "message": "The feature control frame \u27c2 | 0.3048 | A | B cites datums A, B that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
-   "refs": [
-    "datum A",
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.perpendicularity:f44:ref=A,B"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 0.508 | A | B | C cites datums A, B, C that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
-   "refs": [
-    "datum A",
-    "datum B",
-    "datum C"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f55:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 1.016 | A | B | C cites datums A, B, C that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
-   "refs": [
-    "datum A",
-    "datum B",
-    "datum C"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f55:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 0.508 | A | B | C cites datums A, B, C that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
-   "refs": [
-    "datum A",
-    "datum B",
-    "datum C"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f8:ref=A,B,C"
-   ]
-  },
-  {
    "code": "feature_not_located",
    "group": "feature_not_located:boss",
    "id": "p:feature_not_located:f:boss:2/location.length.x",
@@ -6836,6 +7580,18 @@
    ]
   },
   {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:pmi:datum.datum:f44:t=C|d:pmi:dimension.linear:f49,51/linear",
+   "impact": "advisory",
+   "message": "Line-work of datum feature symbol C passes less than 0.5 mm from the label of 12.7 \u00b10.2032, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "pmi:datum.datum:f44:t=C",
+    "d:pmi:dimension.linear:f49,51/linear"
+   ]
+  },
+  {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
    "id": "p:leader_to_hidden_edge:d:f:boss:1/boss.diameter",
@@ -6862,6 +7618,40 @@
  ],
  "structural": [
   {
+   "annotation": "pmi:datum.datum:f180:t=E",
+   "at": [
+    49.853086923123854,
+    185.93807793989234
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f180:t=E",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f180:t=E is 24.2 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "annotation": "pmi:datum.datum:f8:t=D",
+   "at": [
+    283.1190100003223,
+    174.26269332455777
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f8:t=D",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f8:t=D is 44.4 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
    "id": "l:nominal_rounded",
@@ -6873,24 +7663,29 @@
  ],
  "summary": {
   "groups": {
+   "annotation_leader_crossing:arrow+dimension_line": 2,
+   "annotation_leader_crossing:arrow+dimension_line+extension_line": 4,
+   "annotation_leader_crossing:arrow+leader": 1,
    "annotation_leader_crossing:dimension_line": 1,
+   "annotation_leader_crossing:dimension_line+extension_line": 1,
    "annotation_leader_crossing:extension_line": 2,
+   "annotation_leader_crossing:leader": 3,
    "annotation_outside_area": 1,
    "chamfer_leader_target_unverifiable": 1,
    "channel_requirement_unverifiable:thickness.length": 4,
+   "datum_leader_remote": 2,
    "datum_origin_unusable": 6,
    "dimensions_not_ported:section_recess": 2,
    "extension_through_feature": 2,
    "feature_not_located:boss": 8,
    "feature_not_located:hole": 6,
-   "frame_datum_not_drawn:geometric_tolerance": 4,
    "general_tolerance_missing": 1,
    "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
    "hole_pattern_requirement_missing:location.length.x": 1,
    "hole_pattern_requirement_missing:location.length.y": 1,
    "hole_pattern_requirement_missing:location.length.z": 1,
    "hole_pattern_requirement_missing:pitch.length": 1,
-   "label_crowded": 2,
+   "label_crowded": 3,
    "leader_to_hidden_edge": 2,
    "nominal_rounded": 10,
    "pmi_not_extracted": 38,
@@ -6899,7 +7694,7 @@
    "pmi_not_extracted:finding": 200,
    "pmi_not_extracted:geometric_tolerance": 20,
    "pmi_not_extracted:surface_label": 2,
-   "pmi_not_lowered:datum": 20,
+   "pmi_not_lowered:datum": 10,
    "pmi_not_lowered:dimension": 40,
    "pmi_not_lowered:geometric_tolerance": 40,
    "pmi_not_lowered:surface_label": 4,
@@ -6913,7 +7708,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 244,
+    "findings": 245,
     "groups": 13
    },
    "decision": {
@@ -6921,12 +7716,12 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 205,
-    "groups": 23
+    "findings": 191,
+    "groups": 22
    },
    "readability": {
-    "findings": 3,
-    "groups": 2
+    "findings": 16,
+    "groups": 8
    }
   }
  }

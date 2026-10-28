@@ -251,29 +251,6 @@
   },
   {
    "code": "feature_not_located",
-   "fix": "State the location length x of the polygonal boss in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the polygonal boss in a view that shows its true size or location.",
-   "group": "feature_not_located:polygonal_boss",
-   "id": "l:feature_not_located:f:polygonal_boss:1/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:polygonal_boss:1/location.length.x"
-   ],
-   "message": "f:polygonal_boss:1 on x: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:polygonal_boss:1",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:polygonal_boss:1"
-   ]
-  },
-  {
-   "code": "feature_not_located",
    "fix": "State the location length y of the slot in a view that shows its true size or location.",
    "fix_description": "State the location length y of the slot in a view that shows its true size or location.",
    "group": "feature_not_located:slot",
@@ -2049,126 +2026,6 @@
    ]
   },
   {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:polygonal_boss:1~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 225.000 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 R20 crosses a line of 225.000. [annotation_leader_crossing] A line of 225.000 runs through the label of 2\u00d7 R20. [annotation_ink_overlap] A line of 2\u00d7 50 runs through the label of 225.000. [annotation_ink_overlap] The second extension line of 225.000 crosses the 40 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:polygonal_boss:1~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:polygonal_boss:1/location.length.y|f:slot:2:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 225.000 crosses the 50 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:polygonal_boss:1/location.length.y",
-    "f:slot:2"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:polygonal_boss:1/location.length.y:d:f:polygonal_boss:1/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"225.000\" has modelled nominal 224.999973 but prints 225.000 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:polygonal_boss:1/location.length.y"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:polygonal_boss",
-   "id": "p:feature_not_located:f:polygonal_boss:1/location.length.x",
-   "impact": "incomplete",
-   "message": "the 100 A/F polygonal boss on x: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:polygonal_boss:1"
-   ]
-  },
-  {
    "code": "feature_not_located",
    "group": "feature_not_located:slot",
    "id": "p:feature_not_located:f:slot:1/location.length.y",
@@ -2217,14 +2074,13 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:1/location.length.y|d:f:hole_pattern:2/grid_pitch.length.row|d:f:polygonal_boss:1/location.length.y",
+   "id": "p:label_crowded:d:f:hole_pattern:1/location.length.y|d:f:hole_pattern:2/grid_pitch.length.row",
    "impact": "advisory",
-   "message": "Line-work of 225 and of 225.000 passes less than 0.5 mm from the label of 350, so it touches the text.",
+   "message": "Line-work of 225 passes less than 0.5 mm from the label of 350, so it touches the text.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:1/location.length.y",
-    "d:f:hole_pattern:2/grid_pitch.length.row",
-    "d:f:polygonal_boss:1/location.length.y"
+    "d:f:hole_pattern:2/grid_pitch.length.row"
    ]
   },
   {
@@ -2261,14 +2117,12 @@
    "closed_dimension_chain": 1,
    "datum_origin_unusable": 2,
    "detail_unplaceable": 1,
-   "extension_through_feature": 10,
-   "feature_not_located:polygonal_boss": 2,
+   "extension_through_feature": 9,
    "feature_not_located:slot": 4,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
    "label_crowded": 5,
    "location_on_datum": 1,
-   "nominal_rounded": 1,
    "pmi_not_extracted": 6,
    "pmi_not_extracted:dimension": 4,
    "pmi_not_lowered:dimension": 8,
@@ -2276,16 +2130,16 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 29,
-    "groups": 9
+    "findings": 27,
+    "groups": 8
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 19,
-    "groups": 5
+    "findings": 17,
+    "groups": 4
    },
    "readability": {
     "findings": 5,

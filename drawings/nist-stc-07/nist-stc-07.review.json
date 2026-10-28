@@ -3,28 +3,28 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "hole_schedule_front/D1/size"
     ],
     "feature": "f:hole:1",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "hole_schedule_front/A1/size"
     ],
     "feature": "f:hole:2",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "hole_schedule_front/A2/size"
     ],
     "feature": "f:hole:3",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "hole_schedule_front/A3/size"
     ],
     "feature": "f:hole:4",
     "state": "supported"
@@ -38,7 +38,7 @@
    },
    {
     "carriers": [
-     "d:f:hole:8/bore.diameter"
+     "hole_schedule_front/B1/size"
     ],
     "feature": "f:hole:6",
     "state": "supported"
@@ -52,35 +52,35 @@
    },
    {
     "carriers": [
-     "d:f:hole:8/bore.diameter"
+     "hole_schedule_front/B2/size"
     ],
     "feature": "f:hole:8",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "hole_schedule_front/A4/size"
     ],
     "feature": "f:hole:9",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "hole_schedule_front/D2/size"
     ],
     "feature": "f:hole:10",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "hole_schedule_front/D3/size"
     ],
     "feature": "f:hole:11",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "hole_schedule_front/D4/size"
     ],
     "feature": "f:hole:12",
     "state": "supported"
@@ -1613,45 +1613,6 @@
    "subjects": []
   },
   {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#14026 (A) is not drawn: the STEP reader nonconformance on #14026 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#14026",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#14026"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#14032 (D) is not drawn: the STEP reader nonconformance on #14032 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#14032",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#14032"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#14034 (E) is not drawn: the STEP reader nonconformance on #14034 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#14034",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#14034"
-   ],
-   "subjects": []
-  },
-  {
    "code": "pmi_not_rendered",
    "group": "pmi_not_rendered:dimension",
    "id": "l:pmi_not_rendered:dimension:#14989",
@@ -1942,8 +1903,8 @@
   {
    "annotation": "d:f:fillet:11/fillet.radius",
    "at": [
-    304.657296064242,
-    175.66699999959997
+    313.00452689462304,
+    116.67329538959997
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -3133,43 +3094,89 @@
    "subjects": []
   },
   {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#14026",
-   "impact": "incomplete",
-   "message": "PMI datum:#14026 (A) is not drawn: the STEP reader nonconformance on #14026 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
-   "refs": [
-    "datum:#14026",
-    "haecceity nonconformance on #14026 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
    ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#14032",
-   "impact": "incomplete",
-   "message": "PMI datum:#14032 (D) is not drawn: the STEP reader nonconformance on #14032 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
-   "refs": [
-    "datum:#14032",
-    "haecceity nonconformance on #14032 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
    ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#14034",
-   "impact": "incomplete",
-   "message": "PMI datum:#14034 (E) is not drawn: the STEP reader nonconformance on #14034 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
-   "refs": [
-    "datum:#14034",
-    "haecceity nonconformance on #14034 (composite_shape_aspect+datum_feature+shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+   "fixes": [
+    {
+     "description": "Move the 3\u00d7 \u230022.225 THRU callout below the side view, nearest the view. Trade-off: adds these findings: The labels of 3\u00d7 \u230022.225 THRU and R0.3048 - R0.5588 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 3\u00d7 \u230022.225 THRU runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap] The leader of 3\u00d7 \u230022.225 THRU crosses a line of datum feature symbol C. [annotation_leader_crossing] A line of datum feature symbol C runs through the label of 3\u00d7 \u230022.225 THRU. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 3\u00d7 \u230022.225 THRU. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
    ],
-   "severity": "error",
-   "subjects": []
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:d:f:hole_pattern:4/bore.diameter|pmi:datum.datum:f17,159,195,222:t=D",
+   "impact": "readability",
+   "message": "The leader of 3\u00d7 \u230022.225 THRU crosses a line of datum feature symbol D.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:4/bore.diameter",
+    "pmi:datum.datum:f17,159,195,222:t=D"
+   ]
   },
   {
    "code": "annotation_leader_crossing",
@@ -3179,9 +3186,9 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:pmi:dimension.radius:f107~1radius/place",
+     "path": "dimensions/d:pmi:dimension.radius:f99~1radius/place",
      "value": {
-      "along": "start",
+      "along": "end",
       "lane": 0,
       "side": "above",
       "view": "side"
@@ -3210,13 +3217,13 @@
    ],
    "fixes": [
     {
-     "description": "Move the R0.3048 - R0.5588 callout above the side view, nearest the view. Trade-off: adds these findings: A line of R0.3048 - R0.5588 runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap].",
+     "description": "Move the R0.3048 - R0.5588 callout above the side view, nearest the view. Trade-off: adds these findings: The labels of R0.3048 - R0.5588 and datum feature symbol A overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of 2\u00d7 47.625. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of 63.728. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of datum feature symbol D. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of datum feature symbol A. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of datum feature symbol D crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses the \u23006.35 hole. [leader_through_feature] The leader of R0.3048 - R0.5588 crosses the \u23006.35 hole. [leader_through_feature].",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:pmi:dimension.radius:f107~1radius/place",
+       "path": "dimensions/d:pmi:dimension.radius:f99~1radius/place",
        "value": {
-        "along": "start",
+        "along": "end",
         "lane": 0,
         "side": "above",
         "view": "side"
@@ -3247,13 +3254,13 @@
     }
    ],
    "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:d:pmi:dimension.radius:f107/radius|pmi:datum.datum:f145,146:t=B",
+   "id": "p:annotation_leader_crossing:d:pmi:dimension.radius:f99/radius|pmi:datum.datum:f149,150:t=C",
    "impact": "readability",
-   "message": "The leader of R0.3048 - R0.5588 crosses a line of datum feature symbol B.",
+   "message": "The leader of R0.3048 - R0.5588 crosses a line of datum feature symbol C.",
    "severity": "warning",
    "subjects": [
-    "d:pmi:dimension.radius:f107/radius",
-    "pmi:datum.datum:f145,146:t=B"
+    "d:pmi:dimension.radius:f99/radius",
+    "pmi:datum.datum:f149,150:t=C"
    ]
   },
   {
@@ -3266,7 +3273,7 @@
      "op": "set",
      "path": "dimensions/d:pmi:dimension.radius:f164~1radius/place",
      "value": {
-      "along": "start",
+      "along": "middle",
       "lane": 0,
       "side": "above",
       "view": "side"
@@ -3295,13 +3302,13 @@
    ],
    "fixes": [
     {
-     "description": "Move the R0.3048 - R0.5588 callout above the side view, nearest the view. Trade-off: adds these findings: A line of R0.3048 - R0.5588 runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap].",
+     "description": "Move the R0.3048 - R0.5588 callout above the side view, nearest the view. Trade-off: adds these findings: The labels of R0.3048 - R0.5588 and datum feature symbol B overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of R0.3048 - R0.5588 runs through the label of 3\u00d7 \u230022.225 THRU. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:pmi:dimension.radius:f164~1radius/place",
        "value": {
-        "along": "start",
+        "along": "middle",
         "lane": 0,
         "side": "above",
         "view": "side"
@@ -3332,24 +3339,24 @@
     }
    ],
    "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:d:pmi:dimension.radius:f164/radius|pmi:datum.datum:f145,146:t=B",
+   "id": "p:annotation_leader_crossing:d:pmi:dimension.radius:f164/radius|pmi:datum.datum:f47,182:t=A",
    "impact": "readability",
-   "message": "The leader of R0.3048 - R0.5588 crosses a line of datum feature symbol B.",
+   "message": "The leader of R0.3048 - R0.5588 crosses a line of datum feature symbol A.",
    "severity": "warning",
    "subjects": [
     "d:pmi:dimension.radius:f164/radius",
-    "pmi:datum.datum:f145,146:t=B"
+    "pmi:datum.datum:f47,182:t=A"
    ]
   },
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader"
+    "dimension_line"
    ],
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:pmi:dimension.radius:f107~1radius/place",
+     "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
       "along": "outside",
       "lane": 0,
@@ -3384,7 +3391,347 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:pmi:dimension.radius:f107~1radius/place",
+       "path": "dimensions/d:envelope~1depth.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f149,150:t=C|d:envelope/depth.length",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol C crosses a line of 135.89.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f149,150:t=C",
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f149,150:t=C|d:f:hole_pattern:4/pitch.length",
+   "impact": "advisory",
+   "message": "The leader of datum feature symbol C crosses a line of 2\u00d7 47.625.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f149,150:t=C",
+    "d:f:hole_pattern:4/pitch.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1location.length.y/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1location.length.y/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f149,150:t=C|d:f:hole_pattern:4/location.length.y",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol C crosses a line of 88.392.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f149,150:t=C",
+    "d:f:hole_pattern:4/location.length.y"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f149,150:t=C|d:f:hole_pattern:4/location.length.z",
+   "impact": "advisory",
+   "message": "The leader of datum feature symbol C crosses a line of 63.728.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f149,150:t=C",
+    "d:f:hole_pattern:4/location.length.z"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:pmi:dimension.radius:f99~1radius/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:pmi:dimension.radius:f99~1radius/place",
        "value": {
         "along": "outside",
         "lane": 0,
@@ -3417,13 +3764,264 @@
     }
    ],
    "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f145,146:t=B|d:pmi:dimension.radius:f107/radius",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f149,150:t=C|d:pmi:dimension.radius:f99/radius",
    "impact": "readability",
-   "message": "The leader of datum feature symbol B crosses a line of R0.3048 - R0.5588.",
+   "message": "The leader of datum feature symbol C crosses a line of R0.3048 - R0.5588.",
    "severity": "warning",
    "subjects": [
-    "pmi:datum.datum:f145,146:t=B",
-    "d:pmi:dimension.radius:f107/radius"
+    "pmi:datum.datum:f149,150:t=C",
+    "d:pmi:dimension.radius:f99/radius"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:datum.datum:f149,150:t=C/place",
+     "value": {
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:datum.datum:f149,150:t=C/place",
+       "value": {
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f149,150:t=C|pmi:datum.datum:f17,159,195,222:t=D",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol C crosses a line of datum feature symbol D.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f149,150:t=C",
+    "pmi:datum.datum:f17,159,195,222:t=D"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f17,159,195,222:t=D|d:f:hole_pattern:4/bore.diameter",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol D crosses a line of 3\u00d7 \u230022.225 THRU.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f17,159,195,222:t=D",
+    "d:f:hole_pattern:4/bore.diameter"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:datum.datum:f17,159,195,222:t=D/place",
+     "value": {
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:datum.datum:f17,159,195,222:t=D/place",
+       "value": {
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f17,159,195,222:t=D|pmi:datum.datum:f149,150:t=C",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol D crosses a line of datum feature symbol C.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f17,159,195,222:t=D",
+    "pmi:datum.datum:f149,150:t=C"
    ]
   },
   {
@@ -3502,12 +4100,12 @@
     }
    ],
    "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f145,146:t=B|d:pmi:dimension.radius:f164/radius",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f47,182:t=A|d:pmi:dimension.radius:f164/radius",
    "impact": "readability",
-   "message": "The leader of datum feature symbol B crosses a line of R0.3048 - R0.5588.",
+   "message": "The leader of datum feature symbol A crosses a line of R0.3048 - R0.5588.",
    "severity": "warning",
    "subjects": [
-    "pmi:datum.datum:f145,146:t=B",
+    "pmi:datum.datum:f47,182:t=A",
     "d:pmi:dimension.radius:f164/radius"
    ]
   },
@@ -3518,7 +4116,7 @@
      "op": "set",
      "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
      "value": {
-      "along": "middle",
+      "along": "start",
       "lane": 0,
       "side": "above",
       "view": "side"
@@ -3547,13 +4145,13 @@
    ],
    "fixes": [
     {
-     "description": "Move the 3\u00d7 \u230022.225 THRU callout above the side view, nearest the view. Trade-off: adds these findings: The labels of 3\u00d7 \u230022.225 THRU and R0.3048 - R0.5588 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The labels of 3\u00d7 \u230022.225 THRU and datum feature symbol B overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 3\u00d7 \u230022.225 THRU runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap] A line of 3\u00d7 \u230022.225 THRU runs through the label of R0.3048 - R0.5588. [annotation_ink_overlap] The leader of 3\u00d7 \u230022.225 THRU crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of 3\u00d7 \u230022.225 THRU crosses a line of datum feature symbol B. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of 3\u00d7 \u230022.225 THRU. [annotation_leader_crossing] The leader of datum feature symbol B crosses a line of 3\u00d7 \u230022.225 THRU. [annotation_leader_crossing].",
+     "description": "Move the 3\u00d7 \u230022.225 THRU callout above the side view, nearest the view.",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
        "value": {
-        "along": "middle",
+        "along": "start",
         "lane": 0,
         "side": "above",
         "view": "side"
@@ -3584,13 +4182,13 @@
     }
    ],
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:hole_pattern:4/bore.diameter|f:hole:22:line:0",
+   "id": "p:leader_through_feature:d:f:hole_pattern:4/bore.diameter|f:hole:13:line:0",
    "impact": "readability",
    "message": "The leader of 3\u00d7 \u230022.225 THRU crosses the \u230015.082 hole.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:4/bore.diameter",
-    "f:hole:22"
+    "f:hole:13"
    ]
   },
   {
@@ -3600,7 +4198,7 @@
      "op": "set",
      "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
      "value": {
-      "along": "middle",
+      "along": "start",
       "lane": 0,
       "side": "above",
       "view": "side"
@@ -3629,13 +4227,13 @@
    ],
    "fixes": [
     {
-     "description": "Move the 3\u00d7 \u230022.225 THRU callout above the side view, nearest the view. Trade-off: adds these findings: The labels of 3\u00d7 \u230022.225 THRU and R0.3048 - R0.5588 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The labels of 3\u00d7 \u230022.225 THRU and datum feature symbol B overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 3\u00d7 \u230022.225 THRU runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap] A line of 3\u00d7 \u230022.225 THRU runs through the label of R0.3048 - R0.5588. [annotation_ink_overlap] The leader of 3\u00d7 \u230022.225 THRU crosses a line of R0.3048 - R0.5588. [annotation_leader_crossing] The leader of 3\u00d7 \u230022.225 THRU crosses a line of datum feature symbol B. [annotation_leader_crossing] The leader of R0.3048 - R0.5588 crosses a line of 3\u00d7 \u230022.225 THRU. [annotation_leader_crossing] The leader of datum feature symbol B crosses a line of 3\u00d7 \u230022.225 THRU. [annotation_leader_crossing].",
+     "description": "Move the 3\u00d7 \u230022.225 THRU callout above the side view, nearest the view.",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:hole_pattern:4~1bore.diameter/place",
        "value": {
-        "along": "middle",
+        "along": "start",
         "lane": 0,
         "side": "above",
         "view": "side"
@@ -3666,13 +4264,13 @@
     }
    ],
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:hole_pattern:4/bore.diameter|f:hole:23:line:0",
+   "id": "p:leader_through_feature:d:f:hole_pattern:4/bore.diameter|f:hole:14:line:0",
    "impact": "readability",
    "message": "The leader of 3\u00d7 \u230022.225 THRU crosses the \u230015.082 hole.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:4/bore.diameter",
-    "f:hole:23"
+    "f:hole:14"
    ]
   },
   {
@@ -3957,7 +4555,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The labels of 88.392 and R0.3048 - R0.5588 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 88.392 runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap] The leader of R0.3048 - R0.5588 crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol B crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
+     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 88.392 runs through the label of datum feature symbol B. [annotation_ink_overlap] The leader of R0.3048 - R0.5588 crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -4039,7 +4637,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The labels of 88.392 and R0.3048 - R0.5588 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 88.392 runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap] The leader of R0.3048 - R0.5588 crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol B crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
+     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 88.392 runs through the label of datum feature symbol B. [annotation_ink_overlap] The leader of R0.3048 - R0.5588 crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -4121,7 +4719,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 12.7 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 12.7. [annotation_leader_crossing] The leader of 2\u00d7 \u23006.35 +0.0762 0 \u21a7 7.62 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 12.7 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -4203,7 +4801,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 210.006 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 210.006. [annotation_leader_crossing] The leader of 2\u00d7 \u23006.35 +0.0762 0 \u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 210.006 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -4411,6 +5009,30 @@
    "subjects": [
     "d:pmi:dimension.radius:f162/radius",
     "f:hole:7"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:datum.datum:f149,150:t=C|f:hole:6:line:0",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol C crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f149,150:t=C",
+    "f:hole:6"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:datum.datum:f149,150:t=C|f:hole:8:line:0",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol C crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f149,150:t=C",
+    "f:hole:8"
    ]
   },
   {
@@ -4625,61 +5247,6 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:f:hole:1/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:f:hole:10/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:f:hole:11/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:f:hole:12/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:pmi:dimension.diameter:f1,2,183,184,185,186,187,188/diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:4/location.length.z:d:f:hole_pattern:4/location.length.z",
    "impact": "advisory",
    "message": "The dimension \"63.728\" has modelled nominal 63.727955 but prints 63.728 at the default three-place limit.",
@@ -4834,6 +5401,17 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:1/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"D1 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 35.153 192.633 116.84 / +Z\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_front"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
    "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:1/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"D1 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 35.153 192.633 116.84 / +Z\" has modelled nominal 35.152955 but prints 35.153 at the default three-place limit.",
@@ -4848,6 +5426,17 @@
    "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:1/location.length.z",
    "impact": "advisory",
    "message": "The dimension \"D1 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 35.153 192.633 116.84 / +Z\" has modelled nominal 192.632955 but prints 192.633 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_front"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:10/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"D2 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 35.153 30.073 116.84 / +Z\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "hole_schedule_front"
@@ -4878,6 +5467,17 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:11/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"D3 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 276.453 30.073 116.84 / +Z\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_front"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
    "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:11/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"D3 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 276.453 30.073 116.84 / +Z\" has modelled nominal 276.452955 but prints 276.453 at the default three-place limit.",
@@ -4892,6 +5492,17 @@
    "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:11/location.length.z",
    "impact": "advisory",
    "message": "The dimension \"D3 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 276.453 30.073 116.84 / +Z\" has modelled nominal 30.072955 but prints 30.073 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_front"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:12/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"D4 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 276.453 192.633 116.84 / +Z\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "hole_schedule_front"
@@ -5046,6 +5657,17 @@
    "id": "p:nominal_rounded:hole_schedule_front:d:f:hole:9/location.length.z",
    "impact": "advisory",
    "message": "The dimension \"A4 \u23006.35 +0.0762 -0.0254 \u21a7 7.62 47.853 28.803 116.84 / +Z\" has modelled nominal 28.802955 but prints 28.803 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_front"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_front:d:pmi:dimension.diameter:f1,2,183,184,185,186,187,188/diameter",
+   "impact": "advisory",
+   "message": "The dimension \"D1 \u23007.137 +0.1524 -0.0254 THRU \u2334 \u230011.11 \u21a7 7.62 35.153 192.633 116.84 / +Z\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "hole_schedule_front"
@@ -5373,6 +5995,18 @@
    ]
   },
   {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:pmi:datum.datum:f47,182:t=A|pmi:datum.datum:f145,146:t=B",
+   "impact": "advisory",
+   "message": "Line-work of datum feature symbol A passes less than 0.5 mm from the label of datum feature symbol B, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "pmi:datum.datum:f47,182:t=A",
+    "pmi:datum.datum:f145,146:t=B"
+   ]
+  },
+  {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:step_level/step_height.length.h12_7|ink:v:front:f:hole:8",
@@ -5407,48 +6041,50 @@
     "d:f:plate:2/thickness.length",
     "f:hole:5"
    ]
-  },
-  {
-   "code": "leader_along_centreline",
-   "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:d:f:hole_pattern:4/bore.diameter|ink:v:side:f:hole:22",
-   "impact": "readability",
-   "message": "The leader of 3\u00d7 \u230022.225 THRU runs along a centre line, so the two read as one line.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:4/bore.diameter",
-    "f:hole:22"
-   ]
-  },
-  {
-   "code": "leader_to_hidden_edge",
-   "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:hole_pattern:2/bore.diameter",
-   "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 ends on an edge the front view shows hidden, so it points at dashed line-work.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:2/bore.diameter",
-    "v:front"
-   ]
-  },
-  {
-   "code": "leader_to_hidden_edge",
-   "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:hole:8/bore.diameter",
-   "impact": "readability",
-   "message": "The leader of 2\u00d7 \u23006.35 +0.0762 0 \u21a7 7.62 ends on an edge the front view shows hidden, so it points at dashed line-work.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:8/bore.diameter",
-    "v:front"
-   ]
   }
  ],
- "structural": [],
+ "structural": [
+  {
+   "annotation": "pmi:datum.datum:f149,150:t=C",
+   "at": [
+    368.40452689443634,
+    68.13631801760597
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f149,150:t=C",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f149,150:t=C is 131.3 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "annotation": "pmi:datum.datum:f17,159,195,222:t=D",
+   "at": [
+    373.6430268950421,
+    189.77201875212137
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f17,159,195,222:t=D",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f17,159,195,222:t=D is 60.4 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  }
+ ],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:leader": 4,
+   "annotation_leader_crossing:dimension_line": 2,
+   "annotation_leader_crossing:extension_line": 2,
+   "annotation_leader_crossing:leader": 8,
+   "datum_leader_remote": 2,
    "datum_origin_unusable": 2,
    "extension_off_centreline": 3,
    "extension_through_feature": 7,
@@ -5461,9 +6097,8 @@
    "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
    "hole_pattern_requirement_missing:location.length.x": 1,
    "hole_pattern_requirement_missing:location.length.z": 1,
-   "leader_along_centreline": 1,
-   "leader_through_feature": 4,
-   "leader_to_hidden_edge": 2,
+   "label_crowded": 1,
+   "leader_through_feature": 6,
    "nominal_rounded": 58,
    "pmi_dimensions_not_ported": 9,
    "pmi_not_extracted": 28,
@@ -5471,7 +6106,6 @@
    "pmi_not_extracted:dimension": 7,
    "pmi_not_extracted:finding": 2,
    "pmi_not_extracted:geometric_tolerance": 22,
-   "pmi_not_lowered:datum": 6,
    "pmi_not_lowered:dimension": 56,
    "pmi_not_lowered:geometric_tolerance": 44,
    "pmi_not_rendered:dimension": 1,
@@ -5484,19 +6118,19 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 97,
-    "groups": 9
+    "findings": 100,
+    "groups": 11
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 186,
-    "groups": 18
+    "findings": 180,
+    "groups": 17
    },
    "readability": {
-    "findings": 15,
+    "findings": 22,
     "groups": 6
    }
   }

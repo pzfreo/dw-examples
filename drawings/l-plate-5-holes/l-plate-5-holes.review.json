@@ -162,30 +162,17 @@
    ]
   }
  ],
- "structural": [
-  {
-   "annotation": "d:envelope/profile_angle.angle.f3_e1_e11",
-   "code": "view_annotation_inside_extents",
-   "group": "view_annotation_inside_extents",
-   "id": "l:view_annotation_inside_extents:v:front:d:envelope/profile_angle.angle.f3_e1_e11",
-   "impact": "advisory",
-   "message": "label of annotation '135\u00b0' lies inside view 'front' extents [x=38.5\u201398.5, y=81.0\u2013141.0] over a blank region \u2014 legitimate for callouts on large faces",
-   "severity": "info",
-   "subjects": [],
-   "view": "v:front"
-  }
- ],
+ "structural": [],
  "summary": {
   "groups": {
    "general_tolerance_missing": 1,
    "shape_not_recognised:chamfer": 1,
-   "unclaimed_geometry": 1,
-   "view_annotation_inside_extents": 1
+   "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 2,
-    "groups": 2
+    "findings": 1,
+    "groups": 1
    },
    "decision": {
     "findings": 1,

@@ -1660,32 +1660,6 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#446 (A) is not drawn: the STEP reader nonconformance on #446 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#446",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#446"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#449 (D) is not drawn: the STEP reader nonconformance on #449 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#449",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#449"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
    "evidence": "PMI datum:#450 (E) is not drawn: datum reference faces are not coaxial.",
    "group": "pmi_not_lowered:datum",
    "id": "l:pmi_not_lowered:datum:#450",
@@ -1824,8 +1798,8 @@
   {
    "annotation": "d:f:fillet:7/fillet.radius",
    "at": [
-    90.204250000623,
-    127.44674999945815
+    363.56625000062303,
+    125.40674999945816
    ],
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
@@ -2883,32 +2857,6 @@
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#446",
-   "impact": "incomplete",
-   "message": "PMI datum:#446 (A) is not drawn: the STEP reader nonconformance on #446 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "refs": [
-    "datum:#446",
-    "haecceity nonconformance on #446 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#449",
-   "impact": "incomplete",
-   "message": "PMI datum:#449 (D) is not drawn: the STEP reader nonconformance on #449 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "refs": [
-    "datum:#449",
-    "haecceity nonconformance on #449 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
    "id": "p:pmi_not_lowered:datum:#450",
    "impact": "incomplete",
    "message": "PMI datum:#450 (E) is not drawn: datum reference faces are not coaxial.",
@@ -3093,7 +3041,7 @@
      "path": "dimensions/d:f:slot:1~1slot_width.length/place",
      "value": {
       "along": "middle",
-      "lane": 1,
+      "lane": 0,
       "side": "right",
       "view": "plan"
      }
@@ -3121,14 +3069,14 @@
    ],
    "fixes": [
     {
-     "description": "Move the 192.21 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: The first extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature] The second extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature].",
+     "description": "Move the 192.21 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 C21.075 crosses a line of 192.21. [annotation_leader_crossing] The first extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature] The second extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:slot:1~1slot_width.length/place",
        "value": {
         "along": "middle",
-        "lane": 1,
+        "lane": 0,
         "side": "right",
         "view": "plan"
        }
@@ -3175,7 +3123,7 @@
      "path": "dimensions/d:f:slot:1~1slot_width.length/place",
      "value": {
       "along": "middle",
-      "lane": 1,
+      "lane": 0,
       "side": "right",
       "view": "plan"
      }
@@ -3203,14 +3151,14 @@
    ],
    "fixes": [
     {
-     "description": "Move the 192.21 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: The first extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature] The second extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature].",
+     "description": "Move the 192.21 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 C21.075 crosses a line of 192.21. [annotation_leader_crossing] The first extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature] The second extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:slot:1~1slot_width.length/place",
        "value": {
         "along": "middle",
-        "lane": 1,
+        "lane": 0,
         "side": "right",
         "view": "plan"
        }
@@ -3657,6 +3605,170 @@
    "subjects": [
     "d:f:section_recess:1/seat_location.location.z",
     "f:hole:21"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1profile_location_x.length.f1_0_1/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 12.827 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 36.532 runs through the label of 2\u00d7 12.827. [annotation_ink_overlap] A line of 215.487 runs through the label of 2\u00d7 12.827. [annotation_ink_overlap] The second extension line of 2\u00d7 12.827 crosses the \u23006.032 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1profile_location_x.length.f1_0_1/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:envelope/profile_location_x.length.f1_0_1|f:hole:1:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 2\u00d7 12.827 crosses the \u23006.032 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:envelope/profile_location_x.length.f1_0_1",
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1profile_location_y.length.f1_2_3/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "right",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 11.938 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: A line of 64.992 runs through the label of 2\u00d7 11.938. [annotation_ink_overlap] A line of 157.702 runs through the label of 2\u00d7 11.938. [annotation_ink_overlap] The leader of 4\u00d7 C21.075 crosses a line of 2\u00d7 11.938. [annotation_leader_crossing] The second extension line of 2\u00d7 11.938 crosses the \u23006.032 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1profile_location_y.length.f1_2_3/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "right",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:envelope/profile_location_y.length.f1_2_3|f:hole:1:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 2\u00d7 11.938 crosses the \u23006.032 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:envelope/profile_location_y.length.f1_2_3",
+    "f:hole:1"
    ]
   },
   {
@@ -4553,6 +4665,21 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
+    "extension_line"
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f133,134:t=B|d:step_level/step_height.length.h10_16",
+   "impact": "advisory",
+   "message": "The leader of datum feature symbol B crosses a line of 10.16.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f133,134:t=B",
+    "d:step_level/step_height.length.h10_16"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
     "arrow"
    ],
    "group": "annotation_leader_crossing:arrow",
@@ -4598,39 +4725,10 @@
   {
    "code": "frame_datum_not_drawn",
    "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.parallelism:f1:ref=A",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2225 | 0.762 | A cites datum A that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum A"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f1:ref=A"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.parallelism:f2:ref=D",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2225 | 0.508 | D cites datum D that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum D"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f2:ref=D"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
    "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f15,16,217,218,219,220,221,222,223,224,225,226:ref=D,J,H:mod=all_around",
    "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 0.381 | D | J | H cites datums D, J, H that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
+   "message": "The feature control frame \u2313 | 0.381 | D | J | H cites datums J, H that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
    "refs": [
-    "datum D",
     "datum J",
     "datum H"
    ],
@@ -4642,86 +4740,15 @@
   {
    "code": "frame_datum_not_drawn",
    "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 1.524 | A | B | C cites datum A that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum A"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
    "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around",
    "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 1.016 | D | E cites datums D, E that the drawing does not show, so it cannot be read in full. Draw the datums (see why they are not drawn) or review the frame manually.",
+   "message": "The feature control frame \u2313 | 1.016 | D | E cites datum E that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
    "refs": [
-    "datum D",
     "datum E"
    ],
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 1.524 | A | B | C cites datum A that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum A"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 1.524 | A | B | C cites datum A that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum A"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f67:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 1.27 | A | B | C cites datum A that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum A"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f67:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f83:ref=D,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 0.889 | D | B | C cites datum D that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum D"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f83:ref=D,B,C"
    ]
   },
   {
@@ -4733,6 +4760,30 @@
    "severity": "warning",
    "subjects": [
     "f:slot:1"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:step_level/step_height.length.h10_16|d:f:fillet:7/fillet.radius",
+   "impact": "advisory",
+   "message": "Line-work of 10.16 passes less than 0.5 mm from the label of 8\u00d7 R1.524, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:step_level/step_height.length.h10_16",
+    "d:f:fillet:7/fillet.radius"
+   ]
+  },
+  {
+   "code": "extension_off_centreline",
+   "group": "extension_off_centreline",
+   "id": "p:extension_off_centreline:d:envelope/profile_location_x.length.f1_0_1|ink:v:plan:f:hole:1",
+   "impact": "readability",
+   "message": "An extension line of 2\u00d7 12.827 runs 0.10 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "severity": "warning",
+   "subjects": [
+    "d:envelope/profile_location_x.length.f1_0_1",
+    "f:hole:1"
    ]
   }
  ],
@@ -4751,19 +4802,22 @@
   "groups": {
    "annotation_leader_crossing:arrow": 3,
    "annotation_leader_crossing:dimension_line": 1,
+   "annotation_leader_crossing:extension_line": 1,
    "channel_requirement_unverifiable:thickness.length": 2,
    "datum_origin_unusable": 6,
    "dimensions_not_ported:section_recess": 2,
-   "extension_through_feature": 7,
+   "extension_off_centreline": 1,
+   "extension_through_feature": 9,
    "feature_not_located:hole": 1,
    "feature_not_located:slot": 2,
-   "frame_datum_not_drawn:geometric_tolerance": 9,
+   "frame_datum_not_drawn:geometric_tolerance": 2,
    "general_tolerance_missing": 1,
    "hole_pattern_requirement_missing:grid_pitch.length.col": 1,
    "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
    "hole_pattern_requirement_missing:location.length.x": 3,
    "hole_pattern_requirement_missing:location.length.y": 3,
    "hole_pattern_requirement_missing:pitch.length": 2,
+   "label_crowded": 1,
    "nominal_rounded": 65,
    "pmi_not_extracted": 8,
    "pmi_not_extracted:datum": 2,
@@ -4771,7 +4825,7 @@
    "pmi_not_extracted:finding": 64,
    "pmi_not_extracted:geometric_tolerance": 14,
    "pmi_not_extracted:surface_label": 3,
-   "pmi_not_lowered:datum": 12,
+   "pmi_not_lowered:datum": 8,
    "pmi_not_lowered:dimension": 14,
    "pmi_not_lowered:geometric_tolerance": 36,
    "pmi_not_lowered:surface_label": 6,
@@ -4786,20 +4840,20 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 145,
-    "groups": 9
+    "findings": 149,
+    "groups": 11
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 134,
+    "findings": 123,
     "groups": 23
    },
    "readability": {
-    "findings": 4,
-    "groups": 2
+    "findings": 5,
+    "groups": 3
    }
   }
  }

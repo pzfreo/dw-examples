@@ -34,7 +34,7 @@
    "group": "assembly_principal_drawn",
    "id": "p:assembly_principal_drawn:part",
    "impact": "advisory",
-   "message": "gt2-pulley is an assembly of 3 parts; its largest, part 2 (PoleaGT2), holds the others within its box and is drawn alone, so they (0: TornilloM3, 1: TornilloM3-2) are neither drawn nor dimensioned as its features. To draw another part, choose it by its index: --part K on the command line, or \"part\": K in a request.",
+   "message": "gt2-pulley is an assembly of 3 parts; its largest, part 2 (PoleaGT2), holds the others within its box and is drawn alone, so they (0: TornilloM3, 1: TornilloM3-2) are neither drawn nor dimensioned as its features; a general note on the sheet says so (annotations/n:assembly/omit leaves it out). To draw another part, choose it by its index: --part K on the command line, or \"part\": K in a request.",
    "refs": [
     "TornilloM3",
     "TornilloM3-2",
@@ -280,18 +280,6 @@
     "face:39",
     "face:41"
    ]
-  },
-  {
-   "code": "leader_along_centreline",
-   "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:plan:f:hole:1",
-   "impact": "readability",
-   "message": "The leader of \u23005 THRU runs along a centre line, so the two read as one line.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:1/bore.diameter",
-    "f:hole:1"
-   ]
   }
  ],
  "structural": [],
@@ -300,7 +288,6 @@
    "assembly_principal_drawn": 1,
    "extension_through_feature": 1,
    "general_tolerance_missing": 1,
-   "leader_along_centreline": 1,
    "shape_not_recognised:teeth": 1,
    "unclaimed_geometry": 1
   },
@@ -318,8 +305,8 @@
     "groups": 1
    },
    "readability": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    }
   }
  }

@@ -6369,19 +6369,6 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#8313 (B) is not drawn: datum reference faces are not coplanar.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#8313",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn: datum reference faces are not coplanar. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#8313"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
    "evidence": "PMI datum:#8519 (F) is not drawn: datum reference faces are not coaxial.",
    "group": "pmi_not_lowered:datum",
    "id": "l:pmi_not_lowered:datum:#8519",
@@ -6416,98 +6403,6 @@
     "dimension:#8864"
    ],
    "subjects": []
-  },
-  {
-   "code": "feature_not_located",
-   "fix": "State the location length x of the boss in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the boss in a view that shows its true size or location.",
-   "group": "feature_not_located:boss",
-   "id": "l:feature_not_located:f:boss:2/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:boss:2/location.length.x"
-   ],
-   "message": "f:boss:2 on x: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:boss:2",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:2"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "fix": "State the location length y of the boss in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the boss in a view that shows its true size or location.",
-   "group": "feature_not_located:boss",
-   "id": "l:feature_not_located:f:boss:2/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:boss:2/location.length.y"
-   ],
-   "message": "f:boss:2 on y: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:boss:2",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:2"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "fix": "State the location length x of the boss in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the boss in a view that shows its true size or location.",
-   "group": "feature_not_located:boss",
-   "id": "l:feature_not_located:f:boss:4/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:boss:4/location.length.x"
-   ],
-   "message": "f:boss:4 on x: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:boss:4",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:4"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "fix": "State the location length y of the boss in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the boss in a view that shows its true size or location.",
-   "group": "feature_not_located:boss",
-   "id": "l:feature_not_located:f:boss:4/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:boss:4/location.length.y"
-   ],
-   "message": "f:boss:4 on y: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:boss:4",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:4"
-   ]
   },
   {
    "annotation": "d:f:chamfer:4/chamfer.length",
@@ -6815,93 +6710,6 @@
    ],
    "severity": "error",
    "subjects": []
-  },
-  {
-   "code": "annotation_leader_search_capped",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the plan view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_search_capped",
-   "id": "p:annotation_leader_search_capped:d:f:hole_pattern:1/bore.diameter|d:f:hole:1/bore.diameter|d:f:boss:2/boss.diameter|d:f:boss:3/boss.diameter|d:f:chamfer:4/chamfer.length|d:f:chamfer:1/chamfer.length|d:f:fillet:4/fillet.radius",
-   "impact": "advisory",
-   "message": "The leaders of 7 callouts were placed together by a search that stopped at its bound of 200000 steps: their places are the best found, not proved the best.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:1/bore.diameter",
-    "d:f:hole:1/bore.diameter",
-    "d:f:boss:2/boss.diameter",
-    "d:f:boss:3/boss.diameter",
-    "d:f:chamfer:4/chamfer.length",
-    "d:f:chamfer:1/chamfer.length",
-    "d:f:fillet:4/fillet.radius"
-   ]
   },
   {
    "code": "pmi_not_extracted",
@@ -13294,19 +13102,6 @@
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#8313",
-   "impact": "incomplete",
-   "message": "PMI datum:#8313 (B) is not drawn: datum reference faces are not coplanar.",
-   "refs": [
-    "datum:#8313",
-    "datum reference faces are not coplanar"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
    "id": "p:pmi_not_lowered:datum:#8519",
    "impact": "incomplete",
    "message": "PMI datum:#8519 (F) is not drawn: datum reference faces are not coaxial.",
@@ -17775,7 +17570,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:4/bore.diameter:d:f:hole:12/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"2\u00d7 \u230014.287 \u00b10.2032 THRU \u2334\\n\u230020.64 \u21a7 14.29\" has modelled nominal 14.2875 but prints 14.287 at the default three-place limit.",
+   "message": "The dimension \"2\u00d7 \u230014.287 \u00b10.2032 THRU\\n\u2334 \u230020.64 \u21a7 14.29\" has modelled nominal 14.2875 but prints 14.287 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:4/bore.diameter"
@@ -17786,7 +17581,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:4/bore.diameter:d:f:hole:4/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"2\u00d7 \u230014.287 \u00b10.2032 THRU \u2334\\n\u230020.64 \u21a7 14.29\" has modelled nominal 14.2875 but prints 14.287 at the default three-place limit.",
+   "message": "The dimension \"2\u00d7 \u230014.287 \u00b10.2032 THRU\\n\u2334 \u230020.64 \u21a7 14.29\" has modelled nominal 14.2875 but prints 14.287 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:4/bore.diameter"
@@ -17797,7 +17592,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:4/bore.diameter:d:pmi:dimension.diameter:f44,81/diameter",
    "impact": "advisory",
-   "message": "The dimension \"2\u00d7 \u230014.287 \u00b10.2032 THRU \u2334\\n\u230020.64 \u21a7 14.29\" has modelled nominal 14.2875 but prints 14.287 at the default three-place limit.",
+   "message": "The dimension \"2\u00d7 \u230014.287 \u00b10.2032 THRU\\n\u2334 \u230020.64 \u21a7 14.29\" has modelled nominal 14.2875 but prints 14.287 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:4/bore.diameter"
@@ -17808,7 +17603,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:2/bore.diameter:d:f:hole:5/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\\n\u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU\\n\u2334 \u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:2/bore.diameter"
@@ -17819,7 +17614,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:2/bore.diameter:d:f:hole:6/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\\n\u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU\\n\u2334 \u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:2/bore.diameter"
@@ -17830,7 +17625,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:2/bore.diameter:d:f:hole:7/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\\n\u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU\\n\u2334 \u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:2/bore.diameter"
@@ -17841,7 +17636,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:2/bore.diameter:d:f:hole:8/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\\n\u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU\\n\u2334 \u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:2/bore.diameter"
@@ -17852,7 +17647,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:2/bore.diameter:d:pmi:dimension.diameter:f47,61,64,67/diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\\n\u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 \u00b10.2032 THRU\\n\u2334 \u230010.16 \u21a7 7.94\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:2/bore.diameter"
@@ -17981,7 +17776,7 @@
    "group": "layout_recovery_exhausted",
    "id": "p:layout_recovery_exhausted:sheet",
    "impact": "advisory",
-   "message": "A2 at 1:5 has 6 hard layout findings; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:2 fill 44.9% (76 hard layout findings, 12 hole locations too close to read, 10 hole items dropped for want of room, 0 additional view conflicts, 8 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, columns); 2 extra leader/extension corridors beyond the established drawing; 4 extra material crossings in existing dimensions; A4 1:5 fill 43.4% (77 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 109 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:2 fill 37.9% (57 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 1 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A3 1:5 fill 35.4% (29 hard layout findings, 3 hole locations too close to read, 2 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 101 annotation conflicts, 0 unreadable step spans, staggered-side); 6 extra leader/extension corridors beyond the established drawing; A2 1:1 fill 51.8% (45 hard layout findings, 4 hole locations too close to read, 4 hole items dropped for want of room, 0 additional view conflicts, 8 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 4 extra material crossings in existing dimensions; A2 1:2 fill 46.4% (16 hard layout findings, 0 additional view conflicts, 3 additional material crossings, 79 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A2 1:5 fill 19.0% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 82 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A1 1:1 fill 64.0% (12 hard layout findings, 2 hole locations too close to read, 1 hole item dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 83 annotation conflicts, 0 unreadable step spans, columns); A1 1:2 fill 27.3% (3 hard layout findings, 0 additional view conflicts, 3 additional material crossings, 71 annotation conflicts, 0 unreadable step spans, columns); A1 1:5 fill 9.2% (4 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 85 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A0 1:1 fill 42.9% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:2 fill 13.3% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 68 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:5 fill 4.5% (4 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 85 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing. Automatic detail alternatives: A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate).",
+   "message": "A2 at 1:5 has 6 hard layout findings; no standard sheet and legible scale yields a valid complete drawing, so this drawing and its findings are kept. Tried A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A4 1:2 fill 44.9% (76 hard layout findings, 12 hole locations too close to read, 10 hole items dropped for want of room, 0 additional view conflicts, 8 additional material crossings, 100 annotation conflicts, 0 unreadable step spans, columns); 2 extra leader/extension corridors beyond the established drawing; 4 extra material crossings in existing dimensions; A4 1:5 fill 44.5% (75 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 0 additional material crossings, 109 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A3 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:2 fill 37.9% (57 hard layout findings, 7 hole locations too close to read, 6 hole items dropped for want of room, 0 additional view conflicts, 1 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A3 1:5 fill 35.3% (25 hard layout findings, 3 hole locations too close to read, 2 hole items dropped for want of room, 0 additional view conflicts, 1 additional material crossings, 91 annotation conflicts, 0 unreadable step spans, staggered-side); 6 extra leader/extension corridors beyond the established drawing; A2 1:1 fill 51.9% (45 hard layout findings, 4 hole locations too close to read, 4 hole items dropped for want of room, 0 additional view conflicts, 8 additional material crossings, 87 annotation conflicts, 0 unreadable step spans, columns); 2 extra leader/extension corridors beyond the established drawing; 4 extra material crossings in existing dimensions; A2 1:2 fill 46.4% (16 hard layout findings, 0 additional view conflicts, 3 additional material crossings, 79 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A2 1:5 fill 18.9% (6 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 82 annotation conflicts, 0 unreadable step spans, columns); 3 extra leader/extension corridors beyond the established drawing; A1 1:1 fill 64.0% (12 hard layout findings, 2 hole locations too close to read, 1 hole item dropped for want of room, 0 additional view conflicts, 4 additional material crossings, 83 annotation conflicts, 0 unreadable step spans, columns); A1 1:2 fill 27.4% (3 hard layout findings, 0 additional view conflicts, 3 additional material crossings, 70 annotation conflicts, 0 unreadable step spans, columns); A1 1:5 fill 9.2% (4 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 85 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing; A0 1:1 fill 42.8% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 84 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:2 fill 13.3% (valid and complete, 0 additional view conflicts, 5 additional material crossings, 67 annotation conflicts, 0 unreadable step spans, columns); 1 extra material crossings in existing dimensions; A0 1:5 fill 4.5% (4 hard layout findings, 0 additional view conflicts, 0 additional material crossings, 85 annotation conflicts, 0 unreadable step spans, columns); 1 extra leader/extension corridors beyond the established drawing. Automatic detail alternatives: A4 1:1 (principal ink exceeds usable paper; not a fit candidate); A3 1:1 (principal ink exceeds usable paper; not a fit candidate).",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -17996,91 +17791,6 @@
    "severity": "info",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1bore.diameter/place",
-     "value": {
-      "along": "end",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 callout above the side view, nearest the view. Trade-off: adds these findings: A line of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 runs through the label of 4\u00d7 31.75 \u00d7 25\u00b0. [annotation_ink_overlap] The leader of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 crosses the \u230014.287 hole. [leader_through_feature] The leader of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 crosses a feature. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1bore.diameter/place",
-       "value": {
-        "along": "end",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:d:f:hole_pattern:2/bore.diameter|pmi:geometric_tolerance.profile_surface:f17:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 crosses a line of the feature control frame \u2313 1.016 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:2/bore.diameter",
-    "pmi:geometric_tolerance.profile_surface:f17:ref=A,B,C"
    ]
   },
   {
@@ -18465,203 +18175,6 @@
    ]
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1bore.diameter/place",
-     "value": {
-      "along": "end",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 callout above the side view, nearest the view. Trade-off: adds these findings: A line of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 runs through the label of 4\u00d7 31.75 \u00d7 25\u00b0. [annotation_ink_overlap] The leader of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 crosses the \u230014.287 hole. [leader_through_feature] The leader of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 crosses a feature. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1bore.diameter/place",
-       "value": {
-        "along": "end",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f17:ref=A,B,C|d:f:hole_pattern:2/bore.diameter",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.016 A B C crosses a line of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f17:ref=A,B,C",
-    "d:f:hole_pattern:2/bore.diameter"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.perpendicularity:f13:ref=A,B",
-   "impact": "incomplete",
-   "message": "The feature control frame \u27c2 | 0.3048 | A | B cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.perpendicularity:f13:ref=A,B"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f24,26:ref=B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2316 | 0.635 | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f24,26:ref=B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f32,80:ref=D,B,C:mod=spherical_diameter_zone",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2316 | S\u23000.635 | D | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f32,80:ref=D,B,C:mod=spherical_diameter_zone"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f35,40:ref=A,B,C:mod=diameter_zone",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2316 | \u23000.381 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f35,40:ref=A,B,C:mod=diameter_zone"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f41,42,43,70,71,72,73,74,75,76,77,78:ref=A,B,C:mod=diameter_zone,maximum_material_requirement",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2316 | \u23000.635\u24c2 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f41,42,43,70,71,72,73,74,75,76,77,78:ref=A,B,C:mod=diameter_zone,maximum_material_requirement"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f44,81:ref=C,A,B:mod=diameter_zone",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2316 | \u23000.381 | C | A | B cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f44,81:ref=C,A,B:mod=diameter_zone"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f45,46,82,83:ref=C,A,B:mod=diameter_zone,maximum_material_requirement",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2316 | \u23000.635\u24c2 | C | A | B cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f45,46,82,83:ref=C,A,B:mod=diameter_zone,maximum_material_requirement"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f47,61,64,67:ref=E,A,B:mod=diameter_zone",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2316 | \u23000.381 | E | A | B cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f47,61,64,67:ref=E,A,B:mod=diameter_zone"
-   ]
-  },
-  {
    "code": "frame_datum_not_drawn",
    "group": "frame_datum_not_drawn:geometric_tolerance",
    "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f49,63,66,69:ref=F:mod=diameter_zone,maximum_material_requirement",
@@ -18676,111 +18189,11 @@
    ]
   },
   {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.position:f51,53:ref=B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2316 | 0.635 | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f51,53:ref=B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f10:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 0.508 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f10:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f17:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 1.016 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f17:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f9:ref=A,B,C",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 0.508 | A | B | C cites datum B that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum B"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f9:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:boss",
-   "id": "p:feature_not_located:f:boss:2/location.length.x",
-   "impact": "incomplete",
-   "message": "the \u230031.75 boss on x: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:2"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:boss",
-   "id": "p:feature_not_located:f:boss:2/location.length.y",
-   "impact": "incomplete",
-   "message": "the \u230031.75 boss on y: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:2"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:boss",
-   "id": "p:feature_not_located:f:boss:4/location.length.x",
-   "impact": "incomplete",
-   "message": "the \u230031.75 boss on x: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:4"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:boss",
-   "id": "p:feature_not_located:f:boss:4/location.length.y",
-   "impact": "incomplete",
-   "message": "the \u230031.75 boss on y: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:4"
-   ]
-  },
-  {
    "code": "label_crowded",
    "group": "label_crowded",
    "id": "p:label_crowded:d:f:hole_pattern:1/bore.diameter|d:f:hole:1/bore.diameter",
    "impact": "advisory",
-   "message": "Line-work of 4\u00d7 \u230010.541 \u00b10.2032 THRU \u2334\n\u230015.88 \u21a7 12.7 passes less than 0.5 mm from the label of 2\u00d7 \u23006.35 \u00b10.2032 \u21a7 12.7, so it touches the text.",
+   "message": "Line-work of 4\u00d7 \u230010.541 \u00b10.2032 THRU\n\u2334 \u230015.88 \u21a7 12.7 passes less than 0.5 mm from the label of 2\u00d7 \u23006.35 \u00b10.2032 \u21a7 12.7, so it touches the text.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter",
@@ -18970,18 +18383,6 @@
   {
    "code": "leader_along_centreline",
    "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:d:f:hole_pattern:2/bore.diameter|ink:v:side:f:hole:7",
-   "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23007.137 \u00b10.2032 THRU \u2334\n\u230010.16 \u21a7 7.94 runs along a centre line, so the two read as one line.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:2/bore.diameter",
-    "f:hole:7"
-   ]
-  },
-  {
-   "code": "leader_along_centreline",
-   "group": "leader_along_centreline",
    "id": "p:leader_along_centreline:pmi:geometric_tolerance.position:f24,26:ref=B,C|ink:v:side:f:boss:2",
    "impact": "readability",
    "message": "The leader of the feature control frame \u2316 0.635 B C runs along a centre line, so the two read as one line.",
@@ -19148,8 +18549,7 @@
    "annotation_leader_crossing:arrow+leader": 11,
    "annotation_leader_crossing:dimension_line": 16,
    "annotation_leader_crossing:extension_line": 8,
-   "annotation_leader_crossing:leader": 23,
-   "annotation_leader_search_capped": 1,
+   "annotation_leader_crossing:leader": 21,
    "chamfer_leader_target_unverifiable": 1,
    "channel_requirement_unverifiable:thickness.length": 4,
    "datum_leader_remote": 2,
@@ -19157,20 +18557,19 @@
    "dimensions_not_ported:section_recess": 2,
    "extension_off_centreline": 1,
    "extension_through_feature": 8,
-   "feature_not_located:boss": 8,
-   "frame_datum_not_drawn:geometric_tolerance": 13,
+   "frame_datum_not_drawn:geometric_tolerance": 1,
    "general_tolerance_missing": 1,
    "label_crowded": 9,
    "label_section_furniture_overlap": 6,
    "layout_recovery_exhausted": 1,
-   "leader_along_centreline": 3,
+   "leader_along_centreline": 2,
    "leader_through_feature": 3,
    "nominal_rounded": 10,
    "pmi_not_extracted": 890,
    "pmi_not_extracted:dimension": 2,
    "pmi_not_extracted:finding": 6,
    "pmi_not_extracted:geometric_tolerance": 8,
-   "pmi_not_lowered:datum": 4,
+   "pmi_not_lowered:datum": 2,
    "pmi_not_lowered:dimension": 18,
    "pmi_not_lowered:geometric_tolerance": 16,
    "pmi_not_rendered:dimension": 2,
@@ -19184,19 +18583,19 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 932,
-    "groups": 14
+    "findings": 931,
+    "groups": 13
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 88,
-    "groups": 13
+    "findings": 66,
+    "groups": 12
    },
    "readability": {
-    "findings": 77,
+    "findings": 74,
     "groups": 12
    }
   }

@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.2.0",
+  "draftwright": "v0.2.1",
   "drawings": [
     {
       "name": "bearing-608zz",
@@ -7,13 +7,13 @@
       "title": "608ZZ ball bearing",
       "review": {
         "errors": 0,
-        "warnings": 3,
+        "warnings": 2,
         "infos": 2,
         "impacts": {
           "advisory": 2,
           "decision": 1,
           "incomplete": 1,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -28,13 +28,13 @@
       "title": "LM10UU linear bearing",
       "review": {
         "errors": 0,
-        "warnings": 2,
-        "infos": 1,
+        "warnings": 1,
+        "infos": 2,
         "impacts": {
-          "advisory": 1,
+          "advisory": 2,
           "decision": 1,
           "incomplete": 0,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -50,9 +50,9 @@
       "review": {
         "errors": 0,
         "warnings": 7,
-        "infos": 1,
+        "infos": 3,
         "impacts": {
-          "advisory": 1,
+          "advisory": 3,
           "decision": 1,
           "incomplete": 6,
           "readability": 0
@@ -70,13 +70,13 @@
       "title": "Gantry plate 20 mm V-slot",
       "review": {
         "errors": 0,
-        "warnings": 34,
-        "infos": 3,
+        "warnings": 35,
+        "infos": 6,
         "impacts": {
-          "advisory": 32,
+          "advisory": 36,
           "decision": 1,
           "incomplete": 2,
-          "readability": 2
+          "readability": 3
         }
       },
       "files": [
@@ -91,13 +91,13 @@
       "title": "GT2 pulley",
       "review": {
         "errors": 0,
-        "warnings": 5,
+        "warnings": 4,
         "infos": 1,
         "impacts": {
           "advisory": 3,
           "decision": 1,
           "incomplete": 1,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -133,13 +133,13 @@
       "title": "Hirth joint D20x8 T16x60",
       "review": {
         "errors": 0,
-        "warnings": 3,
+        "warnings": 2,
         "infos": 2,
         "impacts": {
           "advisory": 2,
           "decision": 1,
           "incomplete": 1,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -157,7 +157,7 @@
         "warnings": 2,
         "infos": 1,
         "impacts": {
-          "advisory": 2,
+          "advisory": 1,
           "decision": 1,
           "incomplete": 1,
           "readability": 0
@@ -196,13 +196,13 @@
       "title": "LM8UU linear bearing",
       "review": {
         "errors": 0,
-        "warnings": 3,
+        "warnings": 2,
         "infos": 1,
         "impacts": {
           "advisory": 2,
           "decision": 1,
           "incomplete": 0,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -217,10 +217,10 @@
       "title": "NEMA 17 bracket",
       "review": {
         "errors": 0,
-        "warnings": 12,
+        "warnings": 10,
         "infos": 3,
         "impacts": {
-          "advisory": 13,
+          "advisory": 11,
           "decision": 1,
           "incomplete": 1,
           "readability": 0
@@ -238,13 +238,13 @@
       "title": "NEMA 17 mount bracket",
       "review": {
         "errors": 0,
-        "warnings": 11,
-        "infos": 6,
+        "warnings": 12,
+        "infos": 3,
         "impacts": {
-          "advisory": 9,
+          "advisory": 7,
           "decision": 1,
-          "incomplete": 3,
-          "readability": 5
+          "incomplete": 1,
+          "readability": 6
         }
       },
       "files": [
@@ -259,12 +259,12 @@
       "title": "NIST CTC-01",
       "review": {
         "errors": 12,
-        "warnings": 26,
-        "infos": 16,
+        "warnings": 23,
+        "infos": 15,
         "impacts": {
-          "advisory": 29,
+          "advisory": 27,
           "decision": 1,
-          "incomplete": 19,
+          "incomplete": 17,
           "readability": 5
         }
       },
@@ -279,14 +279,14 @@
       "step": "steps/nist/nist_ctc_02_asme1_ap242.stp",
       "title": "NIST CTC-02",
       "review": {
-        "errors": 108,
-        "warnings": 179,
+        "errors": 106,
+        "warnings": 169,
         "infos": 139,
         "impacts": {
-          "advisory": 163,
+          "advisory": 159,
           "decision": 1,
-          "incomplete": 247,
-          "readability": 15
+          "incomplete": 244,
+          "readability": 10
         }
       },
       "files": [
@@ -300,14 +300,14 @@
       "step": "steps/nist/nist_ctc_03_asme1_ap242.stp",
       "title": "NIST CTC-03",
       "review": {
-        "errors": 68,
-        "warnings": 46,
+        "errors": 66,
+        "warnings": 48,
         "infos": 53,
         "impacts": {
           "advisory": 64,
           "decision": 1,
           "incomplete": 90,
-          "readability": 13
+          "readability": 14
         }
       },
       "files": [
@@ -322,12 +322,12 @@
       "title": "NIST CTC-04",
       "review": {
         "errors": 35,
-        "warnings": 225,
+        "warnings": 227,
         "infos": 93,
         "impacts": {
           "advisory": 170,
           "decision": 1,
-          "incomplete": 143,
+          "incomplete": 145,
           "readability": 45
         }
       },
@@ -363,14 +363,14 @@
       "step": "steps/nist/nist_ftc_06_asme1_ap242-e2.stp",
       "title": "NIST FTC-06",
       "review": {
-        "errors": 172,
-        "warnings": 41,
-        "infos": 239,
+        "errors": 162,
+        "warnings": 48,
+        "infos": 240,
         "impacts": {
-          "advisory": 244,
+          "advisory": 245,
           "decision": 1,
-          "incomplete": 205,
-          "readability": 3
+          "incomplete": 191,
+          "readability": 16
         }
       },
       "files": [
@@ -388,10 +388,10 @@
         "warnings": 110,
         "infos": 117,
         "impacts": {
-          "advisory": 157,
+          "advisory": 156,
           "decision": 1,
-          "incomplete": 110,
-          "readability": 40
+          "incomplete": 114,
+          "readability": 37
         }
       },
       "files": [
@@ -405,14 +405,14 @@
       "step": "steps/nist/nist_ftc_08_asme1_ap242-e2.stp",
       "title": "NIST FTC-08",
       "review": {
-        "errors": 86,
-        "warnings": 172,
-        "infos": 142,
+        "errors": 85,
+        "warnings": 122,
+        "infos": 136,
         "impacts": {
-          "advisory": 193,
+          "advisory": 152,
           "decision": 1,
-          "incomplete": 98,
-          "readability": 119
+          "incomplete": 101,
+          "readability": 96
         }
       },
       "files": [
@@ -448,13 +448,13 @@
       "title": "NIST FTC-11",
       "review": {
         "errors": 15,
-        "warnings": 13,
+        "warnings": 12,
         "infos": 22,
         "impacts": {
           "advisory": 23,
           "decision": 1,
           "incomplete": 26,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -468,14 +468,14 @@
       "step": "steps/nist/nist_stc_06_asme1_ap242-e3.stp",
       "title": "NIST STC-06",
       "review": {
-        "errors": 58,
-        "warnings": 117,
-        "infos": 916,
+        "errors": 56,
+        "warnings": 94,
+        "infos": 915,
         "impacts": {
-          "advisory": 932,
+          "advisory": 931,
           "decision": 1,
-          "incomplete": 88,
-          "readability": 77
+          "incomplete": 66,
+          "readability": 74
         }
       },
       "files": [
@@ -489,14 +489,14 @@
       "step": "steps/nist/nist_stc_07_asme1_ap242-e3.stp",
       "title": "NIST STC-07",
       "review": {
-        "errors": 151,
-        "warnings": 58,
-        "infos": 90,
+        "errors": 145,
+        "warnings": 65,
+        "infos": 91,
         "impacts": {
-          "advisory": 97,
+          "advisory": 100,
           "decision": 1,
-          "incomplete": 186,
-          "readability": 15
+          "incomplete": 180,
+          "readability": 22
         }
       },
       "files": [
@@ -510,14 +510,14 @@
       "step": "steps/nist/nist_stc_08_asme1_ap242-e3.stp",
       "title": "NIST STC-08",
       "review": {
-        "errors": 104,
-        "warnings": 42,
-        "infos": 137,
+        "errors": 100,
+        "warnings": 39,
+        "infos": 138,
         "impacts": {
-          "advisory": 145,
+          "advisory": 149,
           "decision": 1,
-          "incomplete": 134,
-          "readability": 4
+          "incomplete": 123,
+          "readability": 5
         }
       },
       "files": [
@@ -532,13 +532,13 @@
       "title": "NIST STC-09",
       "review": {
         "errors": 36,
-        "warnings": 515,
-        "infos": 104,
+        "warnings": 494,
+        "infos": 100,
         "impacts": {
-          "advisory": 236,
+          "advisory": 229,
           "decision": 1,
           "incomplete": 52,
-          "readability": 414
+          "readability": 385
         }
       },
       "files": [
@@ -552,14 +552,14 @@
       "step": "steps/nist/nist_stc_10_asme1_ap242-e2.stp",
       "title": "NIST STC-10",
       "review": {
-        "errors": 97,
-        "warnings": 238,
-        "infos": 71,
+        "errors": 82,
+        "warnings": 236,
+        "infos": 70,
         "impacts": {
-          "advisory": 165,
+          "advisory": 163,
           "decision": 1,
-          "incomplete": 116,
-          "readability": 128
+          "incomplete": 101,
+          "readability": 127
         }
       },
       "files": [
@@ -637,13 +637,13 @@
       "title": "Sprocket ANSI simplex 1/2x1/4 z08",
       "review": {
         "errors": 0,
-        "warnings": 3,
+        "warnings": 2,
         "infos": 6,
         "impacts": {
           "advisory": 6,
           "decision": 1,
           "incomplete": 1,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -658,12 +658,12 @@
       "title": "T8 flange nut",
       "review": {
         "errors": 0,
-        "warnings": 6,
-        "infos": 1,
+        "warnings": 4,
+        "infos": 3,
         "impacts": {
-          "advisory": 1,
+          "advisory": 3,
           "decision": 1,
-          "incomplete": 5,
+          "incomplete": 3,
           "readability": 0
         }
       },
@@ -700,13 +700,13 @@
       "title": "2020 V-slot extrusion x 50",
       "review": {
         "errors": 0,
-        "warnings": 32,
-        "infos": 26,
+        "warnings": 12,
+        "infos": 9,
         "impacts": {
-          "advisory": 28,
+          "advisory": 9,
           "decision": 1,
-          "incomplete": 24,
-          "readability": 7
+          "incomplete": 9,
+          "readability": 2
         }
       },
       "files": [

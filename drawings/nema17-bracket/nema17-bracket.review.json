@@ -59,12 +59,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
+     "value": "1:1"
     },
     {
      "op": "set",
@@ -89,12 +89,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "2:1"
+       "value": "1:1"
       },
       {
        "op": "set",
@@ -150,12 +150,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
+     "value": "1:1"
     },
     {
      "op": "set",
@@ -165,7 +165,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 31 runs up to 7.6 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -185,12 +185,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "2:1"
+       "value": "1:1"
       },
       {
        "op": "set",
@@ -201,7 +201,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -211,7 +211,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       }
      ],
      "scope": "sheet"
@@ -248,12 +248,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
+     "value": "1:1"
     },
     {
      "op": "set",
@@ -263,7 +263,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 31 runs up to 7.6 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -283,12 +283,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "2:1"
+       "value": "1:1"
       },
       {
        "op": "set",
@@ -299,7 +299,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -309,7 +309,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       }
      ],
      "scope": "sheet"
@@ -346,12 +346,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
+     "value": "1:1"
     },
     {
      "op": "set",
@@ -361,7 +361,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 31 runs up to 7.6 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -381,12 +381,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "2:1"
+       "value": "1:1"
       },
       {
        "op": "set",
@@ -397,7 +397,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -407,7 +407,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       }
      ],
      "scope": "sheet"
@@ -444,12 +444,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
+     "value": "1:1"
     },
     {
      "op": "set",
@@ -459,7 +459,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 31 runs up to 7.6 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -479,12 +479,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "2:1"
+       "value": "1:1"
       },
       {
        "op": "set",
@@ -495,7 +495,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -505,7 +505,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       }
      ],
      "scope": "sheet"
@@ -542,12 +542,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
+     "value": "1:1"
     },
     {
      "op": "set",
@@ -557,7 +557,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 31 runs up to 7.6 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -577,12 +577,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "2:1"
+       "value": "1:1"
       },
       {
        "op": "set",
@@ -593,7 +593,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -603,7 +603,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       }
      ],
      "scope": "sheet"
@@ -640,12 +640,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
+     "value": "1:1"
     },
     {
      "op": "set",
@@ -655,7 +655,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 31 runs up to 7.6 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -675,12 +675,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "2:1"
+       "value": "1:1"
       },
       {
        "op": "set",
@@ -691,7 +691,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -701,7 +701,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       }
      ],
      "scope": "sheet"
@@ -722,11 +722,11 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:slot:2~1slot_width.length/place",
+     "path": "dimensions/d:f:slot:2~1location_slot_across.length/place",
      "value": {
       "along": "middle",
-      "lane": 1,
-      "side": "right",
+      "lane": 0,
+      "side": "left",
       "view": "plan"
      }
     },
@@ -738,198 +738,58 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 4.5 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 2.75 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The leader of 2\u00d7 R2.25 crosses a line of 2\u00d7 4.5. [annotation_leader_crossing] A line of 5 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The second extension line of 2\u00d7 4.5 crosses the 4.5 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:2~1slot_width.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:2/slot_width.length|f:hole:4:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 2\u00d7 4.5 crosses the \u230032 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:2/slot_width.length",
-    "f:hole:4"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:2~1slot_width.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 4.5 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 2.75 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The leader of 2\u00d7 R2.25 crosses a line of 2\u00d7 4.5. [annotation_leader_crossing] A line of 5 runs through the label of 2\u00d7 4.5. [annotation_ink_overlap] The second extension line of 2\u00d7 4.5 crosses the 4.5 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:2~1slot_width.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:2/slot_width.length|f:slot:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 2\u00d7 4.5 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:2/slot_width.length",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
      "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 5 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 5 crosses the \u23003.3 hole. [extension_through_feature] The second extension line of 5 crosses the \u230032 hole. [extension_through_feature] The second extension line of 5 crosses the \u23003.3 hole. [extension_through_feature] The second extension line of 5 crosses the 4.5 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:2~1location_slot_across.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -939,7 +799,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       }
      ],
      "scope": "sheet"
@@ -960,18 +820,74 @@
    "fix": [
     {
      "op": "set",
-     "path": "hole_table",
-     "value": "always"
+     "path": "dimensions/d:f:slot:5~1location_slot_across.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
      "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 36 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 36 crosses the \u23003.3 hole. [extension_through_feature] The second extension line of 36 crosses the \u23003.3 hole. [extension_through_feature] The second extension line of 36 crosses the \u230032 hole. [extension_through_feature] The second extension line of 36 crosses the 4.5 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:5~1location_slot_across.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -981,7 +897,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       }
      ],
      "scope": "sheet"
@@ -1048,14 +964,14 @@
  "summary": {
   "groups": {
    "dimensions_not_ported:through_step": 1,
-   "extension_through_feature": 10,
+   "extension_through_feature": 8,
    "general_tolerance_missing": 1,
    "label_crowded": 2,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 13,
+    "findings": 11,
     "groups": 3
    },
    "decision": {

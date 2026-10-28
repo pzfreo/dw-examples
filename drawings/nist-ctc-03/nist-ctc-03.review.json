@@ -921,24 +921,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#95 (D) is not drawn: the STEP reader nonconformance on #95 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#95",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#95"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#93 (E) is not drawn: the STEP reader nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces; one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "evidence": "PMI datum:#93 (E) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
    "group": "pmi_not_lowered:datum",
    "id": "l:pmi_not_lowered:datum:#93",
    "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP datum annotation could not be drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable. Review its requirement and attachment.",
    "severity": "error",
    "sources": [
     "datum:#93"
@@ -1097,10 +1084,56 @@
    ]
   },
   {
+   "code": "profile_corner_unlocated",
+   "fix": "Locate the corner's stations with linear dimensions (the profile's `linear` choice).",
+   "fix_description": "Locate the corner's stations with linear dimensions (the profile's `linear` choice).",
+   "group": "profile_corner_unlocated:profile_angle.location",
+   "id": "l:profile_corner_unlocated:outer_profile:f118:e339:e10/profile_angle.location",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f118:e339:e10/profile_angle.location"
+   ],
+   "message": "Outer-profile corner outer_profile:f118:e339:e10 is not located: its angle fixes the edge's direction, not where the edge lies.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f118:e339:e10",
+     "parameter": "profile_angle.location"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f118:e339:e10"
+   ]
+  },
+  {
+   "code": "profile_corner_unlocated",
+   "fix": "Locate the corner's stations with linear dimensions (the profile's `linear` choice).",
+   "fix_description": "Locate the corner's stations with linear dimensions (the profile's `linear` choice).",
+   "group": "profile_corner_unlocated:profile_angle.location",
+   "id": "l:profile_corner_unlocated:outer_profile:f118:e139:e346/profile_angle.location",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f118:e139:e346/profile_angle.location"
+   ],
+   "message": "Outer-profile corner outer_profile:f118:e139:e346 is not located: its angle fixes the edge's direction, not where the edge lies.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f118:e139:e346",
+     "parameter": "profile_angle.location"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f118:e139:e346"
+   ]
+  },
+  {
    "annotation": "d:f:fillet:1/fillet.radius",
    "at": [
     166.5687672888461,
-    55.3566377963935
+    70.4466377963935
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -1131,7 +1164,7 @@
    "annotation": "d:f:fillet:10/fillet.radius",
    "at": [
     169.44676728884608,
-    77.3704377963935
+    92.4604377963935
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -1775,25 +1808,11 @@
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#95",
-   "impact": "incomplete",
-   "message": "PMI datum:#95 (D) is not drawn: the STEP reader nonconformance on #95 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "refs": [
-    "datum:#95",
-    "haecceity nonconformance on #95 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
    "id": "p:pmi_not_lowered:datum:#93",
    "impact": "incomplete",
-   "message": "PMI datum:#93 (E) is not drawn: the STEP reader nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces; one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "message": "PMI datum:#93 (E) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
    "refs": [
     "datum:#93",
-    "haecceity nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces",
     "one datum reference surface is not axis-aligned",
     "datum reference surface is unavailable"
    ],
@@ -2748,6 +2767,91 @@
    ]
   },
   {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1width.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1width.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f68:ref=A,B,C|d:envelope/width.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.762 A B C crosses a line of 302.960.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f68:ref=A,B,C",
+    "d:envelope/width.length"
+   ]
+  },
+  {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
@@ -2829,7 +2933,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:slot:1/location_slot.length:d:f:slot:1/location_slot.length",
    "impact": "advisory",
-   "message": "The dimension \"112.547\" has modelled nominal 112.5474 but prints 112.547 at the default three-place limit.",
+   "message": "The dimension \"166.522\" has modelled nominal 166.5224 but prints 166.522 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:slot:1/location_slot.length"
@@ -3030,91 +3134,6 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 R9.52 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 R9.52 crosses a line of 2\u00d7 19.05. [annotation_leader_crossing] The leader of 2\u00d7 R9.52 crosses a line of 123.040. [annotation_leader_crossing] The leader of 2\u00d7 R9.52 crosses the \u230050.8 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:slot:1/slot_end_radius.radius|d:f:slot:1/location_slot.length",
-   "impact": "advisory",
-   "message": "The leader of 2\u00d7 R9.52 crosses a line of 112.547.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_end_radius.radius",
-    "d:f:slot:1/location_slot.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
      "value": {
       "along": "middle",
@@ -3146,7 +3165,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 1.908 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 1.908 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 1.908 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 1.908. [annotation_leader_crossing] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature].",
+     "description": "Move the 1.908 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 1.908 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 1.908 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 1.908. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.762 A B C crosses a line of 1.908. [annotation_leader_crossing] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 1.908 crosses the \u230011.125 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -3231,7 +3250,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 76.2 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 76.2 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 76.2 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 76.2. [annotation_leader_crossing] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230038.1 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230050.8 hole. [extension_through_feature] The second extension line of 76.2 crosses the 19.05 wide slot. [extension_through_feature] The second extension line of 76.2 crosses the 19.05 wide slot. [extension_through_feature].",
+     "description": "Move the 76.2 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 76.2 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 76.2 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 76.2. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.762 A B C crosses a line of 76.2. [annotation_leader_crossing] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 76.2 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230038.1 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 76.2 crosses the \u230050.8 hole. [extension_through_feature] The second extension line of 76.2 crosses the 19.05 wide slot. [extension_through_feature] The second extension line of 76.2 crosses the 19.05 wide slot. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -3316,7 +3335,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 78.108 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 78.108 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 78.108 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 78.108. [annotation_leader_crossing] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230038.1 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230050.8 hole. [extension_through_feature] The second extension line of 78.108 crosses the 19.05 wide slot. [extension_through_feature] The second extension line of 78.108 crosses the 19.05 wide slot. [extension_through_feature].",
+     "description": "Move the 78.108 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 78.108 runs up to 5.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 78.108 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 78.108. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.762 A B C crosses a line of 78.108. [annotation_leader_crossing] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The first extension line of 78.108 crosses the \u230011.125 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230038.1 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230015.875 hole. [extension_through_feature] The second extension line of 78.108 crosses the \u230050.8 hole. [extension_through_feature] The second extension line of 78.108 crosses the 19.05 wide slot. [extension_through_feature] The second extension line of 78.108 crosses the 19.05 wide slot. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -3491,14 +3510,13 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:slot:1/location_slot_across.length|d:f:slot:1/slot_width.length|d:f:slot:2/location_slot_across.length",
+   "id": "p:label_crowded:d:f:chamfer:4/chamfer.length|d:f:slot:1/slot_width.length",
    "impact": "advisory",
-   "message": "Line-work of 59.540 and of 123.040 passes less than 0.5 mm from the label of 2\u00d7 19.05, so it touches the text.",
+   "message": "Line-work of 4\u00d7 C12.7 passes less than 0.5 mm from the label of 2\u00d7 SLOT 19.05 \u00d7 107.95, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "d:f:slot:1/location_slot_across.length",
-    "d:f:slot:1/slot_width.length",
-    "d:f:slot:2/location_slot_across.length"
+    "d:f:chamfer:4/chamfer.length",
+    "d:f:slot:1/slot_width.length"
    ]
   },
   {
@@ -3528,12 +3546,23 @@
  ],
  "structural": [
   {
+   "annotation": "pmi:datum.datum:f68:t=D",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:front:pmi:datum.datum:f68:t=D",
+   "impact": "advisory",
+   "message": "label of annotation 'D' lies inside view 'front' extents [x=29.1\u201389.7, y=70.0\u2013102.5] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:front"
+  },
+  {
    "annotation": "d:envelope/profile_angle.angle.f118_e339_e10_e139_e346",
    "code": "view_annotation_inside_extents",
    "group": "view_annotation_inside_extents",
    "id": "l:view_annotation_inside_extents:v:side:d:envelope/profile_angle.angle.f118_e339_e10_e139_e346",
    "impact": "advisory",
-   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=156.7\u2013253.8, y=54.9\u201387.4] over a blank region \u2014 legitimate for callouts on large faces",
+   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=156.7\u2013253.8, y=70.0\u2013102.5] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
    "view": "v:side"
@@ -3542,8 +3571,8 @@
  "summary": {
   "groups": {
    "annotation_leader_crossing:arrow+leader": 2,
-   "annotation_leader_crossing:dimension_line": 3,
-   "annotation_leader_crossing:extension_line": 10,
+   "annotation_leader_crossing:dimension_line": 4,
+   "annotation_leader_crossing:extension_line": 9,
    "annotation_leader_crossing:leader": 4,
    "datum_origin_unusable": 4,
    "feature_not_dimensioned:hole": 5,
@@ -3563,12 +3592,13 @@
    "pmi_not_extracted:dimension": 10,
    "pmi_not_extracted:finding": 16,
    "pmi_not_extracted:geometric_tolerance": 10,
-   "pmi_not_lowered:datum": 6,
+   "pmi_not_lowered:datum": 4,
    "pmi_not_lowered:dimension": 20,
    "pmi_not_lowered:geometric_tolerance": 20,
    "pmi_presentation_not_read": 1,
+   "profile_corner_unlocated:profile_angle.location": 2,
    "radius_leader_not_radial": 2,
-   "view_annotation_inside_extents": 1
+   "view_annotation_inside_extents": 2
   },
   "impacts": {
    "advisory": {
@@ -3581,10 +3611,10 @@
    },
    "incomplete": {
     "findings": 90,
-    "groups": 14
+    "groups": 15
    },
    "readability": {
-    "findings": 13,
+    "findings": 14,
     "groups": 5
    }
   }

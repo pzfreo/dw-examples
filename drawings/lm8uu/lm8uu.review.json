@@ -20,7 +20,7 @@
    "group": "assembly_principal_drawn",
    "id": "p:assembly_principal_drawn:part",
    "impact": "advisory",
-   "message": "lm8uu is an assembly of 2 parts; its largest, part 1 (Metal), holds the others within its box and is drawn alone, so they (0: Center) are neither drawn nor dimensioned as its features. To draw another part, choose it by its index: --part K on the command line, or \"part\": K in a request.",
+   "message": "lm8uu is an assembly of 2 parts; its largest, part 1 (Metal), holds the others within its box and is drawn alone, so they (0: Center) are neither drawn nor dimensioned as its features; a general note on the sheet says so (annotations/n:assembly/omit leaves it out). To draw another part, choose it by its index: --part K on the command line, or \"part\": K in a request.",
    "refs": [
     "Center",
     "Metal"
@@ -114,18 +114,6 @@
     "face:0",
     "face:4"
    ]
-  },
-  {
-   "code": "leader_along_centreline",
-   "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:front:f:hole:1",
-   "impact": "readability",
-   "message": "The leader of \u230012.4 THRU runs along a centre line, so the two read as one line.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:1/bore.diameter",
-    "f:hole:1"
-   ]
   }
  ],
  "structural": [],
@@ -133,7 +121,6 @@
   "groups": {
    "assembly_principal_drawn": 1,
    "general_tolerance_missing": 1,
-   "leader_along_centreline": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -150,8 +137,8 @@
     "groups": 0
    },
    "readability": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    }
   }
  }

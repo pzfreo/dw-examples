@@ -3,14 +3,14 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "hole_schedule_front/E1/size"
     ],
     "feature": "f:hole:1",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "hole_schedule_front/E2/size"
     ],
     "feature": "f:hole:2",
     "state": "supported"
@@ -38,28 +38,28 @@
    },
    {
     "carriers": [
-     "hole_schedule_front/C3/size"
+     "hole_schedule_front/D1/size"
     ],
     "feature": "f:hole:6",
     "state": "supported"
    },
    {
     "carriers": [
-     "hole_schedule_front/C4/size"
+     "hole_schedule_front/D2/size"
     ],
     "feature": "f:hole:7",
     "state": "supported"
    },
    {
     "carriers": [
-     "hole_schedule_front/C5/size"
+     "hole_schedule_front/D3/size"
     ],
     "feature": "f:hole:8",
     "state": "supported"
    },
    {
     "carriers": [
-     "hole_schedule_front/C6/size"
+     "hole_schedule_front/C3/size"
     ],
     "feature": "f:hole:9",
     "state": "supported"
@@ -199,14 +199,14 @@
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "hole_schedule_front/E3/size"
     ],
     "feature": "f:hole:29",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "hole_schedule_front/E4/size"
     ],
     "feature": "f:hole:30",
     "state": "supported"
@@ -432,45 +432,6 @@
    "subjects": [
     "f:hole_pattern:4"
    ]
-  },
-  {
-   "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#305 was discovered but not extracted: the ISO 286 class G6 is stated without limits; they are not computed",
-   "group": "pmi_not_extracted:dimension",
-   "id": "l:pmi_not_extracted:dimension:#305",
-   "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "error",
-   "sources": [
-    "dimension:#305"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#306 was discovered but not extracted: the ISO 286 class G6 is stated without limits; they are not computed",
-   "group": "pmi_not_extracted:dimension",
-   "id": "l:pmi_not_extracted:dimension:#306",
-   "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "error",
-   "sources": [
-    "dimension:#306"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#309 was discovered but not extracted: the ISO 286 class G6 is stated without limits; they are not computed",
-   "group": "pmi_not_extracted:dimension",
-   "id": "l:pmi_not_extracted:dimension:#309",
-   "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "error",
-   "sources": [
-    "dimension:#309"
-   ],
-   "subjects": []
   },
   {
    "code": "pmi_not_extracted",
@@ -1111,19 +1072,6 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "one diameter reference is not a face",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#296",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn: one diameter reference is not a face. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "dimension:#296"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
    "evidence": "one diameter reference face is not cylindrical; cylindrical reference diameter(s) 6 mm differ from nominal 10 mm",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#299",
@@ -1202,32 +1150,6 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the ISO 286 class G6 is stated without limits; they are not computed",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#305",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn: the ISO 286 class G6 is stated without limits; they are not computed. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "dimension:#305"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "the ISO 286 class G6 is stated without limits; they are not computed",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#306",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn: the ISO 286 class G6 is stated without limits; they are not computed. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "dimension:#306"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
    "evidence": "one diameter reference face is not cylindrical; cylindrical reference diameter(s) 7 mm differ from nominal 10 mm",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#307",
@@ -1249,32 +1171,6 @@
    "severity": "error",
    "sources": [
     "dimension:#308"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "the ISO 286 class G6 is stated without limits; they are not computed",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#309",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn: the ISO 286 class G6 is stated without limits; they are not computed. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "dimension:#309"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "one diameter reference is not a face",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#310",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn: one diameter reference is not a face. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "dimension:#310"
    ],
    "subjects": []
   },
@@ -1379,19 +1275,6 @@
    "severity": "error",
    "sources": [
     "dimension:#318"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "one diameter reference is not a face",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#319",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn: one diameter reference is not a face. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "dimension:#319"
    ],
    "subjects": []
   },
@@ -1820,19 +1703,6 @@
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:dimension",
-   "id": "p:pmi_not_lowered:dimension:#296",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#296 (\u00f82.5 \u00b10.15) is not drawn: one diameter reference is not a face.",
-   "refs": [
-    "dimension:#296",
-    "one diameter reference is not a face"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#299",
    "impact": "incomplete",
    "message": "PMI dimension dimension:#299 (\u00f810 \u00b10.25) is not drawn: one diameter reference face is not cylindrical; cylindrical reference diameter(s) 6 mm differ from nominal 10 mm.",
@@ -1911,32 +1781,6 @@
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:dimension",
-   "id": "p:pmi_not_lowered:dimension:#305",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#305 (\u00f83.5) is not drawn: the ISO 286 class G6 is stated without limits; they are not computed; add the required dimension in the Spec and review it manually.",
-   "refs": [
-    "dimension:#305",
-    "the ISO 286 class G6 is stated without limits; they are not computed"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
-   "id": "p:pmi_not_lowered:dimension:#306",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#306 (\u00f83.5) is not drawn: the ISO 286 class G6 is stated without limits; they are not computed; add the required dimension in the Spec and review it manually.",
-   "refs": [
-    "dimension:#306",
-    "the ISO 286 class G6 is stated without limits; they are not computed"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
    "id": "p:pmi_not_lowered:dimension:#307",
    "impact": "incomplete",
    "message": "PMI dimension dimension:#307 (\u00f810 \u00b10.25) is not drawn: one diameter reference face is not cylindrical; cylindrical reference diameter(s) 7 mm differ from nominal 10 mm.",
@@ -1956,32 +1800,6 @@
    "refs": [
     "dimension:#308",
     "thickness dimension needs two measurable authored reference groups"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
-   "id": "p:pmi_not_lowered:dimension:#309",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#309 (\u00f83.5) is not drawn: the ISO 286 class G6 is stated without limits; they are not computed; add the required dimension in the Spec and review it manually.",
-   "refs": [
-    "dimension:#309",
-    "the ISO 286 class G6 is stated without limits; they are not computed"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
-   "id": "p:pmi_not_lowered:dimension:#310",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#310 (\u00f83.5 \u00b10.2) is not drawn: one diameter reference is not a face.",
-   "refs": [
-    "dimension:#310",
-    "one diameter reference is not a face"
    ],
    "severity": "error",
    "subjects": []
@@ -2086,19 +1904,6 @@
    "refs": [
     "dimension:#318",
     "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
-   "id": "p:pmi_not_lowered:dimension:#319",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#319 (\u00f87 \u00b10.25) is not drawn: one diameter reference is not a face.",
-   "refs": [
-    "dimension:#319",
-    "one diameter reference is not a face"
    ],
    "severity": "error",
    "subjects": []
@@ -2722,91 +2527,6 @@
    ],
    "severity": "error",
    "subjects": []
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 callout above the front view, nearest the view. Trade-off: adds these findings: The labels of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 and the feature control frame \u2316 \u23001\u24c2 A B C overlap. [annotation_overlap] The labels of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 and the feature control frame \u2316 \u23000.65 A B C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 crosses a line of the feature control frame \u27c2 0.1 A. [annotation_leader_crossing] A line of the feature control frame \u27c2 0.1 A runs through the label of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole_pattern:1/bore.diameter|d:f:slot:1/slot_width.length",
-   "impact": "advisory",
-   "message": "The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8 crosses a line of 50.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/bore.diameter",
-    "d:f:slot:1/slot_width.length"
-   ]
   },
   {
    "code": "annotation_leader_crossing",
@@ -3978,50 +3698,6 @@
    "subjects": [
     "pmi:geometric_tolerance.cylindricity:f61,62,63",
     "pmi:geometric_tolerance.symmetry:f41,44:ref=A,J"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.cylindricity:f66,69,72,75/place",
-     "value": {
-      "lane": 0,
-      "side": "below",
-      "view": "plan"
-     }
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation below the plan view, nearest the view. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.cylindricity:f66,69,72,75/place",
-       "value": {
-        "lane": 0,
-        "side": "below",
-        "view": "plan"
-       }
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.cylindricity:f66,69,72,75|pmi:geometric_tolerance.position:f68,71,74,77:ref=A,B,C:mod=diameter_zone",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u232d 0.1 crosses a line of the feature control frame \u2316 \u23000.8 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.cylindricity:f66,69,72,75",
-    "pmi:geometric_tolerance.position:f68,71,74,77:ref=A,B,C:mod=diameter_zone"
    ]
   },
   {
@@ -7497,50 +7173,6 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f64:ref=D,B,C:mod=diameter_zone",
     "pmi:geometric_tolerance.perpendicularity:f64:ref=D:mod=diameter_zone"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.position:f68,71,74,77:ref=A,B,C:mod=diameter_zone/place",
-     "value": {
-      "lane": 0,
-      "side": "below",
-      "view": "plan"
-     }
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation below the plan view, nearest the view. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.position:f68,71,74,77:ref=A,B,C:mod=diameter_zone/place",
-       "value": {
-        "lane": 0,
-        "side": "below",
-        "view": "plan"
-       }
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f68,71,74,77:ref=A,B,C:mod=diameter_zone|pmi:geometric_tolerance.cylindricity:f66,69,72,75",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23000.8 A B C crosses a line of the feature control frame \u232d 0.1.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f68,71,74,77:ref=A,B,C:mod=diameter_zone",
-    "pmi:geometric_tolerance.cylindricity:f66,69,72,75"
    ]
   },
   {
@@ -13012,6 +12644,18 @@
   {
    "code": "leader_through_feature",
    "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.cylindricity:f66,69,72,75|f:slot:1:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u232d 0.1 crosses the 50 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.cylindricity:f66,69,72,75",
+    "f:slot:1"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
    "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f28,249:ref=A,B,C:mod=diameter_zone|f:slot:1:line:0",
    "impact": "readability",
    "message": "The leader of the feature control frame \u2316 \u23000.65 A B C crosses the 50 wide slot.",
@@ -13674,18 +13318,6 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:step_level/step_height.length.h65|d:f:hole_pattern:1/bore.diameter",
-   "impact": "advisory",
-   "message": "Line-work of 65 passes less than 0.5 mm from the label of 4\u00d7 \u23006 \u00b10.15 THRU \u2334SF \u230010\n\u21a7 1.8, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.h65",
-    "d:f:hole_pattern:1/bore.diameter"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
    "id": "p:label_crowded:pmi:datum.datum:f25:t=C|d:f:hole:4/location.length.y",
    "impact": "advisory",
    "message": "Line-work of datum feature symbol C passes less than 0.5 mm from the label of 15, so it touches the text.",
@@ -13893,8 +13525,8 @@
   {
    "annotation": "d:envelope/depth.length",
    "at": [
-    339.81001292243604,
-    224.39699707756395
+    332.81001292243604,
+    224.19699707756396
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -13913,8 +13545,8 @@
   {
    "annotation": "pmi:datum.datum:f25:t=C",
    "at": [
-    330.0100100000001,
-    220.34999707756396
+    323.0100100000001,
+    220.14999707756397
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -13930,8 +13562,8 @@
   {
    "annotation": "pmi:datum.datum:f64:t=G",
    "at": [
-    342.9131322920257,
-    344.42999707756394
+    335.91313229202575,
+    344.22999707756395
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -13947,8 +13579,8 @@
   {
    "annotation": "pmi:datum.datum:f87:t=E",
    "at": [
-    348.3464061030679,
-    334.42999707756394
+    341.346406103068,
+    334.22999707756395
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -13966,9 +13598,9 @@
   "groups": {
    "annotation_ink_overlap": 2,
    "annotation_leader_crossing:arrow+dimension_line+extension_line": 4,
-   "annotation_leader_crossing:arrow+leader": 14,
+   "annotation_leader_crossing:arrow+leader": 12,
    "annotation_leader_crossing:dimension_line": 27,
-   "annotation_leader_crossing:extension_line": 43,
+   "annotation_leader_crossing:extension_line": 42,
    "annotation_leader_crossing:leader": 12,
    "datum_leader_remote": 3,
    "datum_origin_unusable": 6,
@@ -13984,17 +13616,17 @@
    "hole_pattern_requirement_missing:location.length.x": 2,
    "hole_pattern_requirement_missing:location.length.z": 1,
    "hole_pattern_requirement_missing:pitch.length": 1,
-   "label_crowded": 5,
+   "label_crowded": 4,
    "leader_across_view": 1,
    "leader_along_centreline": 12,
-   "leader_through_feature": 52,
+   "leader_through_feature": 53,
    "nominal_rounded": 1,
    "pmi_not_extracted": 44,
-   "pmi_not_extracted:dimension": 9,
+   "pmi_not_extracted:dimension": 6,
    "pmi_not_extracted:finding": 18,
    "pmi_not_extracted:geometric_tolerance": 12,
    "pmi_not_lowered:datum": 2,
-   "pmi_not_lowered:dimension": 44,
+   "pmi_not_lowered:dimension": 32,
    "pmi_not_lowered:geometric_tolerance": 24,
    "pmi_presentation_not_read": 1,
    "prismatic_pocket_requirement_unsupported": 1,
@@ -14005,7 +13637,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 165,
+    "findings": 163,
     "groups": 10
    },
    "decision": {
@@ -14013,11 +13645,11 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 116,
+    "findings": 101,
     "groups": 18
    },
    "readability": {
-    "findings": 128,
+    "findings": 127,
     "groups": 10
    }
   }

@@ -1068,134 +1068,134 @@
    "fix": "State the location length y of the feature in a view that shows its true size or location.",
    "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
    "group": "hole_pattern_requirement_missing:location.length.y",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:7/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:7/location.length.y"
+   ],
+   "message": "f:hole_pattern:7 has no proven y location of its physical member anchor on the drawing.",
+   "related": [
+    "f:hole:63",
+    "f:hole:64",
+    "f:hole:65",
+    "f:hole:66",
+    "f:hole:51"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:7",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:7"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "evidence": "Expected 48",
+   "fix": "State the pitch length of the feature in a view that shows its true size or location.",
+   "fix_description": "State the pitch length of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:pitch.length",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:7/pitch.length",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:7/pitch.length"
+   ],
+   "message": "f:hole_pattern:7: pitch.length is not proved by the printed drawing.",
+   "related": [
+    "f:hole:63",
+    "f:hole:64",
+    "f:hole:65",
+    "f:hole:66",
+    "f:hole:51"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:7",
+     "parameter": "pitch.length"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:7"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "fix": "State the location length y of the feature in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:location.length.y",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:8/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:8/location.length.y"
+   ],
+   "message": "f:hole_pattern:8 has no proven y location of its physical member anchor on the drawing.",
+   "related": [
+    "f:hole:60",
+    "f:hole:59",
+    "f:hole:58",
+    "f:hole:57",
+    "f:hole:56"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:8",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:8"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "evidence": "Expected 48",
+   "fix": "State the pitch length of the feature in a view that shows its true size or location.",
+   "fix_description": "State the pitch length of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:pitch.length",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:8/pitch.length",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:8/pitch.length"
+   ],
+   "message": "f:hole_pattern:8: pitch.length is not proved by the printed drawing.",
+   "related": [
+    "f:hole:60",
+    "f:hole:59",
+    "f:hole:58",
+    "f:hole:57",
+    "f:hole:56"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:8",
+     "parameter": "pitch.length"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:8"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "fix": "State the location length y of the feature in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:location.length.y",
    "id": "l:hole_pattern_requirement_missing:f:hole_pattern:9/location.length.y",
    "impact": "incomplete",
    "measurements": [
     "f:hole_pattern:9/location.length.y"
    ],
    "message": "f:hole_pattern:9 has no proven y location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:63",
-    "f:hole:64",
-    "f:hole:65",
-    "f:hole:66",
-    "f:hole:51"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:9",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:9"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 48",
-   "fix": "State the pitch length of the feature in a view that shows its true size or location.",
-   "fix_description": "State the pitch length of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:pitch.length",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:9/pitch.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:9/pitch.length"
-   ],
-   "message": "f:hole_pattern:9: pitch.length is not proved by the printed drawing.",
-   "related": [
-    "f:hole:63",
-    "f:hole:64",
-    "f:hole:65",
-    "f:hole:66",
-    "f:hole:51"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:9",
-     "parameter": "pitch.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:9"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length y of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.y",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:10/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:10/location.length.y"
-   ],
-   "message": "f:hole_pattern:10 has no proven y location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:60",
-    "f:hole:59",
-    "f:hole:58",
-    "f:hole:57",
-    "f:hole:56"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:10",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:10"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 48",
-   "fix": "State the pitch length of the feature in a view that shows its true size or location.",
-   "fix_description": "State the pitch length of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:pitch.length",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:10/pitch.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:10/pitch.length"
-   ],
-   "message": "f:hole_pattern:10: pitch.length is not proved by the printed drawing.",
-   "related": [
-    "f:hole:60",
-    "f:hole:59",
-    "f:hole:58",
-    "f:hole:57",
-    "f:hole:56"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:10",
-     "parameter": "pitch.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:10"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length y of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.y",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:11/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:11/location.length.y"
-   ],
-   "message": "f:hole_pattern:11 has no proven y location of its physical member anchor on the drawing.",
    "related": [
     "f:hole:70",
     "f:hole:61",
@@ -1204,14 +1204,14 @@
    ],
    "requirements": [
     {
-     "feature": "f:hole_pattern:11",
+     "feature": "f:hole_pattern:9",
      "parameter": "location.length.y"
     }
    ],
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:hole_pattern:11"
+    "f:hole_pattern:9"
    ]
   },
   {
@@ -2784,19 +2784,6 @@
    "severity": "error",
    "sources": [
     "datum:#127"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#79 (D) is not drawn: the STEP reader nonconformance on #79 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "group": "pmi_not_lowered:datum",
-   "id": "l:pmi_not_lowered:datum:#79",
-   "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "datum:#79"
    ],
    "subjects": []
   },
@@ -5245,7 +5232,7 @@
    "annotation": "d:f:blend:31/blend.radius",
    "at": [
     158.78884456098643,
-    241.5607848816633
+    236.65078488166333
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -5272,7 +5259,7 @@
    "annotation": "d:f:blend:21/blend.radius",
    "at": [
     230.31773909567812,
-    173.8898605805612
+    168.97986058056122
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -5303,7 +5290,7 @@
    "annotation": "d:f:blend:10/blend.radius",
    "at": [
     190.92376162132155,
-    370.2644599040026
+    373.3544599040026
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -6851,19 +6838,6 @@
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:datum",
-   "id": "p:pmi_not_lowered:datum:#79",
-   "impact": "incomplete",
-   "message": "PMI datum:#79 (D) is not drawn: the STEP reader nonconformance on #79 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces.",
-   "refs": [
-    "datum:#79",
-    "haecceity nonconformance on #79 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces"
-   ],
-   "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
    "id": "p:pmi_not_lowered:datum:#134",
    "impact": "incomplete",
    "message": "PMI datum:#134 (K) is not drawn: established by 1 datum target(s), which are not carried.",
@@ -6888,176 +6862,6 @@
    ],
    "severity": "error",
    "subjects": []
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:50~1bore.diameter/place",
-     "value": {
-      "along": "start",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the \u230040 THRU \u2334SF \u2300120 \u21a7 8 callout above the front view, nearest the view. Trade-off: adds these findings: The dimension \u230040 THRU \u2334SF \u2300120 \u21a7 8 runs up to 1.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The labels of \u230040 THRU \u2334SF \u2300120 \u21a7 8 and \u230040 THRU \u2334SF \u2300120 \u21a7 8 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of \u230040 THRU \u2334SF \u2300120 \u21a7 8. [annotation_leader_crossing] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 4\u00d7 R6. [annotation_leader_crossing] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of \u230040 THRU \u2334SF \u2300120 \u21a7 8. [annotation_leader_crossing] The leader of 4\u00d7 R6 crosses a line of \u230040 THRU \u2334SF \u2300120 \u21a7 8. [annotation_leader_crossing] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses the \u230010.1 hole. [leader_through_feature] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses the \u230010.1 hole. [leader_through_feature] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses the \u230010.1 hole. [leader_through_feature] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses the \u230022 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:50~1bore.diameter/place",
-       "value": {
-        "along": "start",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:d:f:hole:50/bore.diameter|pmi:geometric_tolerance.flatness:f1",
-   "impact": "readability",
-   "message": "The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of the feature control frame \u23e5 0.05.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:50/bore.diameter",
-    "pmi:geometric_tolerance.flatness:f1"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:50~1bore.diameter/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:50~1bore.diameter/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f1|d:f:hole:50/bore.diameter",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.05 crosses a line of \u230040 THRU \u2334SF \u2300120 \u21a7 8.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f1",
-    "d:f:hole:50/bore.diameter"
-   ]
   },
   {
    "code": "annotation_leader_crossing",
@@ -7404,431 +7208,6 @@
    ]
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1width.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1width.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F|d:envelope/width.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.5 D E F crosses a line of 680.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F",
-    "d:envelope/width.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:50~1location.length.z/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:50~1location.length.z/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F|d:f:hole:50/location.length.z",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.5 D E F crosses a line of 140.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F",
-    "d:f:hole:50/location.length.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F|d:step_level/step_height.length.h8",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.5 D E F crosses a line of 352.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F",
-    "d:step_level/step_height.length.h8"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h70/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h70/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F|d:step_level/step_height.length.h70",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.5 D E F crosses a line of 290.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F",
-    "d:step_level/step_height.length.h70"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F|d:f:section_recess:1/seat_location.location.z",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.5 D E F crosses a line of 310.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F",
-    "d:f:section_recess:1/seat_location.location.z"
-   ]
-  },
-  {
    "code": "extension_through_feature",
    "fix": [
     {
@@ -7864,7 +7243,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 340 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 340 runs up to 1.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 340. [annotation_leader_crossing] A line of 340 runs through the label of \u230040 THRU \u2334SF \u2300120 \u21a7 8. [annotation_ink_overlap] A line of 340 runs through the label of 4\u00d7 R6. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.05 crosses a line of 340. [annotation_leader_crossing].",
+     "description": "Move the 340 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 340. [annotation_leader_crossing] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 340. [annotation_leader_crossing] A line of 340 runs through the label of \u230040 THRU \u2334SF \u2300120 \u21a7 8. [annotation_ink_overlap] A line of 340 runs through the label of 4\u00d7 R6. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.05 crosses a line of 340. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -8766,7 +8145,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of 10\u00d7 R25 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.5 D E F crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
+     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of 10\u00d7 R25 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8848,7 +8227,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of 10\u00d7 R25 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.5 D E F crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
+     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of 10\u00d7 R25 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9877,32 +9256,6 @@
    ]
   },
   {
-   "code": "frame_datum_not_drawn",
-   "group": "frame_datum_not_drawn:geometric_tolerance",
-   "id": "p:frame_datum_not_drawn:pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F",
-   "impact": "incomplete",
-   "message": "The feature control frame \u2313 | 0.5 | D | E | F cites datum D that the drawing does not show, so it cannot be read in full. Draw the datum (see why it is not drawn) or review the frame manually.",
-   "refs": [
-    "datum D"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F"
-   ]
-  },
-  {
-   "code": "leader_along_centreline",
-   "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:d:f:hole:50/bore.diameter|ink:v:front:f:hole:50",
-   "impact": "readability",
-   "message": "The leader of \u230040 THRU \u2334SF \u2300120 \u21a7 8 runs along a centre line, so the two read as one line.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:50/bore.diameter",
-    "f:hole:50"
-   ]
-  },
-  {
    "code": "leader_along_centreline",
    "group": "leader_along_centreline",
    "id": "p:leader_along_centreline:d:f:blend:21/blend.radius|ink:v:front:f:hole:69",
@@ -9912,18 +9265,6 @@
    "subjects": [
     "d:f:blend:21/blend.radius",
     "f:hole:69"
-   ]
-  },
-  {
-   "code": "leader_along_centreline",
-   "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F|ink:v:front:f:hole:11",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.5 D E F runs along a centre line, so the two read as one line.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f550:ref=D,E,F",
-    "f:hole:11"
    ]
   },
   {
@@ -9966,11 +9307,9 @@
  "structural": [],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:arrow": 1,
    "annotation_leader_crossing:arrow+dimension_line+extension_line": 2,
-   "annotation_leader_crossing:dimension_line": 2,
-   "annotation_leader_crossing:extension_line": 5,
-   "annotation_leader_crossing:leader": 1,
+   "annotation_leader_crossing:dimension_line": 1,
+   "annotation_leader_crossing:extension_line": 1,
    "circular_channel_requirement_unverifiable:seat_location.location.y": 2,
    "circular_channel_requirement_unverifiable:seat_location.location.z": 2,
    "datum_origin_unusable": 7,
@@ -9978,13 +9317,13 @@
    "extension_through_feature": 19,
    "feature_not_located:hole": 105,
    "features_not_recognised": 1,
-   "frame_datum_not_drawn:geometric_tolerance": 3,
+   "frame_datum_not_drawn:geometric_tolerance": 2,
    "general_tolerance_missing": 1,
    "hole_bottom_unknown": 6,
    "hole_pattern_requirement_missing:location.length.y": 9,
    "hole_pattern_requirement_missing:pitch.length": 6,
    "leader_across_view": 1,
-   "leader_along_centreline": 3,
+   "leader_along_centreline": 1,
    "leader_to_hidden_edge": 1,
    "location_on_datum": 1,
    "nominal_rounded": 12,
@@ -9994,7 +9333,7 @@
    "pmi_not_extracted:finding": 102,
    "pmi_not_extracted:geometric_tolerance": 17,
    "pmi_not_extracted:surface_label": 1,
-   "pmi_not_lowered:datum": 10,
+   "pmi_not_lowered:datum": 8,
    "pmi_not_lowered:dimension": 14,
    "pmi_not_lowered:geometric_tolerance": 34,
    "pmi_not_lowered:surface_label": 2,
@@ -10010,7 +9349,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 163,
+    "findings": 159,
     "groups": 11
    },
    "decision": {
@@ -10018,12 +9357,12 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 247,
+    "findings": 244,
     "groups": 21
    },
    "readability": {
-    "findings": 15,
-    "groups": 9
+    "findings": 10,
+    "groups": 7
    }
   }
  }

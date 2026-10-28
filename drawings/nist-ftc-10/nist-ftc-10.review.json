@@ -8189,7 +8189,7 @@
    "id": "p:annotation_ink_overlap:pmi:geometric_tolerance.position:f130,131,132,133,135,136,137,138,140,141,142,143,145,146,147,148:ref=A,B,C:mod=diameter_zone|d:f:hole_pattern:5/bore.diameter",
    "impact": "readability",
    "ink_is_leader": true,
-   "message": "A line of the feature control frame \u2316 \u23000.75 A B C runs through the label of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010 \u21a7\n2.",
+   "message": "A line of the feature control frame \u2316 \u23000.75 A B C runs through the label of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010\n\u21a7 2.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.position:f130,131,132,133,135,136,137,138,140,141,142,143,145,146,147,148:ref=A,B,C:mod=diameter_zone",
@@ -15405,7 +15405,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 5 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010 \u21a7\n2 crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 1 A B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.0\u24c1 H K L crosses a line of 5. [annotation_leader_crossing] The second extension line of 5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 5 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010\n\u21a7 2 crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 1 A B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.0\u24c1 H K L crosses a line of 5. [annotation_leader_crossing] The second extension line of 5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -15487,7 +15487,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 10 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010 \u21a7\n2 crosses a line of 10. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 10. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 10. [annotation_leader_crossing] The second extension line of 10 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 10 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010\n\u21a7 2 crosses a line of 10. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 10. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 10. [annotation_leader_crossing] The second extension line of 10 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -15569,7 +15569,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 10 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010 \u21a7\n2 crosses a line of 10. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 10. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 10. [annotation_leader_crossing] The second extension line of 10 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 10 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010\n\u21a7 2 crosses a line of 10. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 10. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 10. [annotation_leader_crossing] The second extension line of 10 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -15651,7 +15651,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 65 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010 \u21a7\n2 crosses a line of 65. [annotation_leader_crossing] The leader of 8\u00d7 \u23002.5 \u00b10.15 THRU crosses a line of 65. [annotation_leader_crossing] A line of 65 runs through the label of the feature control frame \u232d 0.1. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001\u24c2 A B C crosses a line of 65. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 65. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 65. [annotation_leader_crossing] The second extension line of 65 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 65 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010\n\u21a7 2 crosses a line of 65. [annotation_leader_crossing] The leader of 8\u00d7 \u23002.5 \u00b10.15 THRU crosses a line of 65. [annotation_leader_crossing] A line of 65 runs through the label of the feature control frame \u232d 0.1. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001\u24c2 A B C crosses a line of 65. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 65. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 65. [annotation_leader_crossing] The second extension line of 65 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -15733,7 +15733,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 68.5 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010 \u21a7\n2 crosses a line of 68.5. [annotation_leader_crossing] The leader of 8\u00d7 \u23002.5 \u00b10.15 THRU crosses a line of 68.5. [annotation_leader_crossing] A line of 68.5 runs through the label of the feature control frame \u232d 0.1. [annotation_ink_overlap] The leader of 4 crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23001\u24c2 A B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.5 A B crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 1 A B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.0\u24c1 H K L crosses a line of 68.5. [annotation_leader_crossing] The second extension line of 68.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 68.5 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006 \u00b10.15 THRU \u2334 \u230010\n\u21a7 2 crosses a line of 68.5. [annotation_leader_crossing] The leader of 8\u00d7 \u23002.5 \u00b10.15 THRU crosses a line of 68.5. [annotation_leader_crossing] A line of 68.5 runs through the label of the feature control frame \u232d 0.1. [annotation_ink_overlap] The leader of 4 crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23001\u24c2 A B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.75 A B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.5 A B crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.65 A B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 1 A B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.8 D B C crosses a line of 68.5. [annotation_leader_crossing] The leader of the feature control frame \u2316 \u23000.0\u24c1 H K L crosses a line of 68.5. [annotation_leader_crossing] The second extension line of 68.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -17933,7 +17933,7 @@
   {
    "annotation": "d:f:hole_pattern:5/bore.diameter",
    "at": [
-    91.72400000058906,
+    89.69000000058907,
     222.29999999999995
    ],
    "code": "annotation_ink_overlap",

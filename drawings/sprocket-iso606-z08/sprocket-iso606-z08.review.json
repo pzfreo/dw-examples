@@ -318,25 +318,12 @@
     "face:90",
     "face:91"
    ]
-  },
-  {
-   "code": "leader_along_centreline",
-   "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:d:f:hole:1/bore.diameter|ink:v:plan:f:hole:1",
-   "impact": "readability",
-   "message": "The leader of \u230010 THRU runs along a centre line, so the two read as one line.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:1/bore.diameter",
-    "f:hole:1"
-   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
    "general_tolerance_missing": 1,
-   "leader_along_centreline": 1,
    "nominal_rounded": 4,
    "radius_leader_target_unverifiable": 1,
    "shape_not_recognised:teeth": 1,
@@ -356,8 +343,8 @@
     "groups": 1
    },
    "readability": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    }
   }
  }
