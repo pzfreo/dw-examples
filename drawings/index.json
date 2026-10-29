@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.2.1",
+  "draftwright": "v0.2.2",
   "drawings": [
     {
       "name": "bearing-608zz",
@@ -239,9 +239,9 @@
       "review": {
         "errors": 0,
         "warnings": 12,
-        "infos": 3,
+        "infos": 4,
         "impacts": {
-          "advisory": 7,
+          "advisory": 8,
           "decision": 1,
           "incomplete": 1,
           "readability": 6
@@ -280,13 +280,13 @@
       "title": "NIST CTC-02",
       "review": {
         "errors": 106,
-        "warnings": 169,
-        "infos": 139,
+        "warnings": 181,
+        "infos": 140,
         "impacts": {
-          "advisory": 159,
+          "advisory": 160,
           "decision": 1,
           "incomplete": 244,
-          "readability": 10
+          "readability": 23
         }
       },
       "files": [
@@ -322,13 +322,13 @@
       "title": "NIST CTC-04",
       "review": {
         "errors": 35,
-        "warnings": 227,
-        "infos": 93,
+        "warnings": 229,
+        "infos": 94,
         "impacts": {
-          "advisory": 170,
+          "advisory": 171,
           "decision": 1,
           "incomplete": 145,
-          "readability": 45
+          "readability": 47
         }
       },
       "files": [
@@ -385,13 +385,13 @@
       "title": "NIST FTC-07",
       "review": {
         "errors": 79,
-        "warnings": 110,
-        "infos": 117,
+        "warnings": 107,
+        "infos": 118,
         "impacts": {
-          "advisory": 156,
+          "advisory": 157,
           "decision": 1,
           "incomplete": 114,
-          "readability": 37
+          "readability": 34
         }
       },
       "files": [
@@ -406,13 +406,13 @@
       "title": "NIST FTC-08",
       "review": {
         "errors": 85,
-        "warnings": 122,
-        "infos": 136,
+        "warnings": 107,
+        "infos": 135,
         "impacts": {
-          "advisory": 152,
+          "advisory": 151,
           "decision": 1,
           "incomplete": 101,
-          "readability": 96
+          "readability": 81
         }
       },
       "files": [
@@ -490,13 +490,13 @@
       "title": "NIST STC-07",
       "review": {
         "errors": 145,
-        "warnings": 65,
-        "infos": 91,
+        "warnings": 64,
+        "infos": 92,
         "impacts": {
-          "advisory": 100,
+          "advisory": 101,
           "decision": 1,
           "incomplete": 180,
-          "readability": 22
+          "readability": 21
         }
       },
       "files": [

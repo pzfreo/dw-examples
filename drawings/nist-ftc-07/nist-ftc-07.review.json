@@ -1510,39 +1510,47 @@
    ]
   },
   {
-   "annotation": "d:f:fillet:11/fillet.radius",
+   "annotation": "d:f:fillet:20/fillet.radius",
    "at": [
-    499.98291948696004,
-    258.69596034999995
+    46.22601000348,
+    294.44396035
    ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:11/fillet.radius",
-   "impact": "readability",
+   "code": "radius_leader_target_unverifiable",
+   "evidence": "the view does not show a proven circular radius section end-on",
+   "group": "radius_leader_target_unverifiable",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:20/fillet.radius",
+   "impact": "advisory",
    "measurements": [
-    "f:fillet:5/fillet.radius",
-    "f:fillet:6/fillet.radius",
-    "f:fillet:7/fillet.radius",
-    "f:fillet:8/fillet.radius",
-    "f:fillet:9/fillet.radius",
-    "f:fillet:10/fillet.radius",
-    "f:fillet:11/fillet.radius",
-    "f:fillet:12/fillet.radius"
+    "f:fillet:1/fillet.radius",
+    "f:fillet:2/fillet.radius",
+    "f:fillet:3/fillet.radius",
+    "f:fillet:4/fillet.radius",
+    "f:fillet:13/fillet.radius",
+    "f:fillet:14/fillet.radius",
+    "f:fillet:15/fillet.radius",
+    "f:fillet:16/fillet.radius",
+    "f:fillet:17/fillet.radius",
+    "f:fillet:18/fillet.radius",
+    "f:fillet:19/fillet.radius",
+    "f:fillet:20/fillet.radius"
    ],
-   "message": "d:f:fillet:11/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
+   "message": "d:f:fillet:20/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "severity": "info",
    "subjects": [
-    "f:fillet:5",
-    "f:fillet:6",
-    "f:fillet:7",
-    "f:fillet:8",
-    "f:fillet:9",
-    "f:fillet:10",
-    "f:fillet:11",
-    "f:fillet:12"
+    "f:fillet:1",
+    "f:fillet:2",
+    "f:fillet:3",
+    "f:fillet:4",
+    "f:fillet:13",
+    "f:fillet:14",
+    "f:fillet:15",
+    "f:fillet:16",
+    "f:fillet:17",
+    "f:fillet:18",
+    "f:fillet:19",
+    "f:fillet:20"
    ],
-   "view": "v:side"
+   "view": "v:front"
   }
  ],
  "problems": [
@@ -1554,7 +1562,7 @@
    "message": "Unrecognised features on this part: 20 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.2 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -2678,107 +2686,6 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-     "value": {
-      "along": "start",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 13\u00d7 R1.524 callout above the side view, nearest the view. Trade-off: adds these findings: The dimension 13\u00d7 R1.524 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses the \u23007.137 hole. [leader_through_feature] The leader of 13\u00d7 R1.524 crosses the \u23007.137 hole. [leader_through_feature] The leader of 13\u00d7 R1.524 crosses the \u23006.35 hole. [leader_through_feature] The leader of 13\u00d7 R1.524 crosses the \u23006.35 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-       "value": {
-        "along": "start",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:d:f:fillet:11/fillet.radius|pmi:datum.datum:f17,159,195,222:t=D",
-   "impact": "readability",
-   "message": "The leader of 13\u00d7 R1.524 crosses a line of datum feature symbol D.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:fillet:11/fillet.radius",
-    "pmi:datum.datum:f17,159,195,222:t=D"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
     "dimension_line"
    ],
    "fix": [
@@ -3277,107 +3184,6 @@
    "subjects": [
     "pmi:datum.datum:f149,150:t=C",
     "pmi:datum.datum:f17,159,195,222:t=D"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:11~1fillet.radius/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f17,159,195,222:t=D|d:f:fillet:11/fillet.radius",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol D crosses a line of 13\u00d7 R1.524.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f17,159,195,222:t=D",
-    "d:f:fillet:11/fillet.radius"
    ]
   },
   {
@@ -5735,7 +5541,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -5833,7 +5639,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -5931,7 +5737,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -6029,7 +5835,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 162.56 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 162.56 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -6127,7 +5933,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6225,7 +6031,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 165.1 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 165.1 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The first extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 165.1 crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6617,7 +6423,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -6715,7 +6521,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -6813,7 +6619,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -6911,7 +6717,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -7009,7 +6815,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -7107,7 +6913,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -7205,7 +7011,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -7303,7 +7109,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 196.85 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
@@ -7695,7 +7501,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 88.392 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 88.392 runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
+     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 88.392 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -7793,7 +7599,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 88.392 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 88.392 runs through the label of 13\u00d7 R1.524. [annotation_ink_overlap] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
+     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 88.392 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -7891,7 +7697,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 12.7 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 12.7. [annotation_leader_crossing] The leader of F1.1 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 12.7 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 12.7. [annotation_leader_crossing] The leader of F1.1 crosses a line of 12.7. [annotation_leader_crossing] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23004.394 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 12.7 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -7989,7 +7795,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 210.006 runs up to 13.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of F1.1 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of F1.1 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8087,7 +7893,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 7.62 \u00b10.508 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 7.62 \u00b10.508 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8185,7 +7991,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 7.62 \u00b10.508 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 7.62 \u00b10.508 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8283,7 +8089,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 7.62 \u00b10.508 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 7.62 \u00b10.508 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8381,7 +8187,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 7.62 \u00b10.508 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 13\u00d7 R1.524 crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 7.62 \u00b10.508 runs up to 4.9 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9866,7 +9672,7 @@
   {
    "annotation": "pmi:datum.datum:f149,150:t=C",
    "at": [
-    611.925919488738,
+    614.695964748738,
     37.06400560652
    ],
    "code": "datum_leader_remote",
@@ -9883,7 +9689,7 @@
   {
    "annotation": "pmi:datum.datum:f17,159,195,222:t=D",
    "at": [
-    619.2599194869601,
+    622.0299647469601,
     275.3053657056254
    ],
    "code": "datum_leader_remote",
@@ -9904,7 +9710,7 @@
    "annotation_leader_crossing:arrow+leader": 6,
    "annotation_leader_crossing:dimension_line": 10,
    "annotation_leader_crossing:extension_line": 11,
-   "annotation_leader_crossing:leader": 4,
+   "annotation_leader_crossing:leader": 2,
    "datum_leader_remote": 2,
    "datum_origin_unusable": 2,
    "extension_off_centreline": 3,
@@ -9928,7 +9734,7 @@
    "pmi_not_lowered:geometric_tolerance": 36,
    "pmi_not_rendered:dimension": 1,
    "pmi_presentation_not_read": 1,
-   "radius_leader_not_radial": 1,
+   "radius_leader_target_unverifiable": 1,
    "shape_not_recognised:cut": 1,
    "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1,
@@ -9936,8 +9742,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 156,
-    "groups": 11
+    "findings": 157,
+    "groups": 12
    },
    "decision": {
     "findings": 1,
@@ -9948,8 +9754,8 @@
     "groups": 12
    },
    "readability": {
-    "findings": 37,
-    "groups": 10
+    "findings": 34,
+    "groups": 9
    }
   }
  }

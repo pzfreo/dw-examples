@@ -792,7 +792,7 @@
    "message": "Unrecognised features on this part: 4 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.2 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -2231,7 +2231,7 @@
     "f:blend:8",
     "f:blend:9",
     "f:blend:10",
-    "f:fillet:11",
+    "f:fillet:7",
     "n:f:blend:relief/profiles"
    ]
   },
@@ -2240,13 +2240,17 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 116 of 156 faces; 40 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 112 of 156 faces; 44 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
     "face:1",
     "face:8",
     "face:11",
+    "face:13",
+    "face:15",
+    "face:18",
+    "face:19",
     "face:23",
     "face:24",
     "face:27",

@@ -305,7 +305,7 @@
    "message": "Unrecognised features on this part: 2 rectangular through notches. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "rectangular_through_notches",
-    "quiddity-rust 0.2.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.2 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",

@@ -1796,7 +1796,7 @@
    ]
   },
   {
-   "annotation": "d:f:fillet:7/fillet.radius",
+   "annotation": "d:f:fillet:12/fillet.radius",
    "at": [
     363.56625000062303,
     125.40674999945816
@@ -1804,29 +1804,29 @@
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
    "group": "radius_leader_target_unverifiable",
-   "id": "l:radius_leader_target_unverifiable:d:f:fillet:7/fillet.radius",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:12/fillet.radius",
    "impact": "advisory",
    "measurements": [
-    "f:fillet:5/fillet.radius",
-    "f:fillet:6/fillet.radius",
-    "f:fillet:7/fillet.radius",
-    "f:fillet:8/fillet.radius",
-    "f:fillet:9/fillet.radius",
     "f:fillet:10/fillet.radius",
     "f:fillet:11/fillet.radius",
-    "f:fillet:12/fillet.radius"
+    "f:fillet:12/fillet.radius",
+    "f:fillet:13/fillet.radius",
+    "f:fillet:14/fillet.radius",
+    "f:fillet:15/fillet.radius",
+    "f:fillet:16/fillet.radius",
+    "f:fillet:17/fillet.radius"
    ],
-   "message": "d:f:fillet:7/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "message": "d:f:fillet:12/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
    "severity": "info",
    "subjects": [
-    "f:fillet:5",
-    "f:fillet:6",
-    "f:fillet:7",
-    "f:fillet:8",
-    "f:fillet:9",
     "f:fillet:10",
     "f:fillet:11",
-    "f:fillet:12"
+    "f:fillet:12",
+    "f:fillet:13",
+    "f:fillet:14",
+    "f:fillet:15",
+    "f:fillet:16",
+    "f:fillet:17"
    ],
    "view": "v:front"
   }
@@ -3479,7 +3479,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 46.545 dimension to the right of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2225 0.508 D crosses a line of 46.545. [annotation_leader_crossing] The leader of the feature control frame \u2313 1.524 A B C crosses a line of 46.545. [annotation_leader_crossing] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.791 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23006.147 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23006.147 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the 15.24 wide slot. [extension_through_feature].",
+     "description": "Move the 46.545 dimension to the right of the side view, nearest the view. Trade-off: adds these findings: The dimension 46.545 runs up to 11.5 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of the feature control frame \u2225 0.508 D crosses a line of 46.545. [annotation_leader_crossing] The leader of the feature control frame \u2313 1.524 A B C crosses a line of 46.545. [annotation_leader_crossing] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.791 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23006.147 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23006.147 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the 15.24 wide slot. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -4486,7 +4486,7 @@
     "f:blend:15",
     "f:blend:16",
     "f:blend:17",
-    "f:fillet:21",
+    "f:fillet:33",
     "n:f:blend:relief/profiles"
    ]
   },
@@ -4495,14 +4495,10 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 138 of 271 faces; 133 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 150 of 271 faces; 121 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
-    "face:3",
-    "face:5",
-    "face:7",
-    "face:9",
     "face:21",
     "face:23",
     "face:24",
@@ -4540,15 +4536,7 @@
     "face:62",
     "face:63",
     "face:64",
-    "face:65",
     "face:67",
-    "face:75",
-    "face:76",
-    "face:77",
-    "face:78",
-    "face:79",
-    "face:80",
-    "face:81",
     "face:82",
     "face:83",
     "face:84",
@@ -4765,13 +4753,13 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:step_level/step_height.length.h10_16|d:f:fillet:7/fillet.radius",
+   "id": "p:label_crowded:d:step_level/step_height.length.h10_16|d:f:fillet:12/fillet.radius",
    "impact": "advisory",
    "message": "Line-work of 10.16 passes less than 0.5 mm from the label of 8\u00d7 R1.524, so it touches the text.",
    "severity": "info",
    "subjects": [
     "d:step_level/step_height.length.h10_16",
-    "d:f:fillet:7/fillet.radius"
+    "d:f:fillet:12/fillet.radius"
    ]
   },
   {

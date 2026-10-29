@@ -43,7 +43,7 @@
  },
  "lint": [
   {
-   "annotation": "d:f:fillet:1/fillet.radius",
+   "annotation": "d:f:fillet:3/fillet.radius",
    "at": [
     67.56049999999999,
     51.439509999999984
@@ -51,20 +51,20 @@
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:1/fillet.radius",
+   "id": "l:radius_leader_not_radial:d:f:fillet:3/fillet.radius",
    "impact": "readability",
    "measurements": [
-    "f:fillet:1/fillet.radius"
+    "f:fillet:3/fillet.radius"
    ],
-   "message": "d:f:fillet:1/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:fillet:3/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:fillet:1"
+    "f:fillet:3"
    ],
    "view": "v:front"
   },
   {
-   "annotation": "d:f:blend:5/blend.radius",
+   "annotation": "d:f:blend:1/blend.radius",
    "at": [
     66.48096988312783,
     52.654339141908736
@@ -72,15 +72,15 @@
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:blend:5/blend.radius",
+   "id": "l:radius_leader_not_radial:d:f:blend:1/blend.radius",
    "impact": "readability",
    "measurements": [
-    "f:blend:5/blend.radius"
+    "f:blend:1/blend.radius"
    ],
-   "message": "d:f:blend:5/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:blend:1/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:blend:5"
+    "f:blend:1"
    ],
    "view": "v:front"
   }
@@ -197,7 +197,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The labels of 31 and 2\u00d7 C4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23004 THRU crosses a line of 31. [annotation_leader_crossing] A line of 31 runs through the label of 4\u00d7 \u23004 THRU. [annotation_ink_overlap] A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 C4 crosses a line of 31. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -279,7 +279,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The labels of 31 and 2\u00d7 C4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4\u00d7 \u23004 THRU crosses a line of 31. [annotation_leader_crossing] A line of 31 runs through the label of 4\u00d7 \u23004 THRU. [annotation_ink_overlap] A line of 31 runs through the label of \u230022.5 THRU. [annotation_ink_overlap].",
+     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 C4 crosses a line of 31. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -554,6 +554,18 @@
    ]
   },
   {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:3/bore.diameter|d:envelope/profile_chamfer.length.f27_e87",
+   "impact": "advisory",
+   "message": "Line-work of \u230022.5 THRU passes less than 0.5 mm from the label of 2\u00d7 C4, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:3/bore.diameter",
+    "d:envelope/profile_chamfer.length.f27_e87"
+   ]
+  },
+  {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:f:slot:1/location_slot_across.length|ink:v:plan:f:hole:1",
@@ -592,12 +604,12 @@
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:blend:5/blend.radius",
+   "id": "p:leader_to_hidden_edge:d:f:blend:1/blend.radius",
    "impact": "readability",
    "message": "The leader of R0.5 ends on an edge the front view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
-    "d:f:blend:5/blend.radius",
+    "d:f:blend:1/blend.radius",
     "v:front"
    ]
   }
@@ -608,7 +620,7 @@
    "extension_off_centreline": 3,
    "extension_through_feature": 4,
    "general_tolerance_missing": 1,
-   "label_crowded": 2,
+   "label_crowded": 3,
    "leader_to_hidden_edge": 1,
    "radius_leader_not_radial": 2,
    "shape_not_recognised:protrusion": 1,
@@ -616,7 +628,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 7,
+    "findings": 8,
     "groups": 3
    },
    "decision": {

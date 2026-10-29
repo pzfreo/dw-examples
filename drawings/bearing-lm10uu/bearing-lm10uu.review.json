@@ -165,7 +165,7 @@
    "group": "annotation_outside_area",
    "id": "p:annotation_outside_area:d:f:hole:1/bore.diameter|v:front",
    "impact": "advisory",
-   "message": "The dimension \u230010 THRU \u2334SF \u230016.4 \u21a7 1.4 BOTH SIDES runs up to 17.5 mm past the area reserved for the front view and its bands; it may crowd what lies beyond.",
+   "message": "The dimension \u230010 THRU \u2334 \u230016.4 \u21a7 1.4 BOTH SIDES runs up to 16.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond.",
    "severity": "info",
    "subjects": [
     "d:f:hole:1/bore.diameter",

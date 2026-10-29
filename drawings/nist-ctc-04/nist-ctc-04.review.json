@@ -3321,7 +3321,7 @@
    ]
   },
   {
-   "annotation": "d:f:fillet:41/fillet.radius",
+   "annotation": "d:f:fillet:47/fillet.radius",
    "at": [
     245.8986,
     255.62330804912634
@@ -3329,15 +3329,9 @@
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
    "group": "radius_leader_target_unverifiable",
-   "id": "l:radius_leader_target_unverifiable:d:f:fillet:41/fillet.radius",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:47/fillet.radius",
    "impact": "advisory",
    "measurements": [
-    "f:fillet:28/fillet.radius",
-    "f:fillet:29/fillet.radius",
-    "f:fillet:30/fillet.radius",
-    "f:fillet:31/fillet.radius",
-    "f:fillet:32/fillet.radius",
-    "f:fillet:33/fillet.radius",
     "f:fillet:34/fillet.radius",
     "f:fillet:35/fillet.radius",
     "f:fillet:36/fillet.radius",
@@ -3347,17 +3341,17 @@
     "f:fillet:40/fillet.radius",
     "f:fillet:41/fillet.radius",
     "f:fillet:42/fillet.radius",
-    "f:fillet:43/fillet.radius"
+    "f:fillet:43/fillet.radius",
+    "f:fillet:44/fillet.radius",
+    "f:fillet:45/fillet.radius",
+    "f:fillet:46/fillet.radius",
+    "f:fillet:47/fillet.radius",
+    "f:fillet:48/fillet.radius",
+    "f:fillet:49/fillet.radius"
    ],
-   "message": "d:f:fillet:41/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "message": "d:f:fillet:47/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
    "severity": "info",
    "subjects": [
-    "f:fillet:28",
-    "f:fillet:29",
-    "f:fillet:30",
-    "f:fillet:31",
-    "f:fillet:32",
-    "f:fillet:33",
     "f:fillet:34",
     "f:fillet:35",
     "f:fillet:36",
@@ -3367,7 +3361,13 @@
     "f:fillet:40",
     "f:fillet:41",
     "f:fillet:42",
-    "f:fillet:43"
+    "f:fillet:43",
+    "f:fillet:44",
+    "f:fillet:45",
+    "f:fillet:46",
+    "f:fillet:47",
+    "f:fillet:48",
+    "f:fillet:49"
    ],
    "view": "v:front"
   }
@@ -6642,7 +6642,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -6724,7 +6724,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -6806,7 +6806,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -6888,7 +6888,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -6970,7 +6970,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7052,7 +7052,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7134,7 +7134,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7216,7 +7216,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7298,7 +7298,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7380,7 +7380,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7462,7 +7462,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7544,7 +7544,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7626,7 +7626,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7708,7 +7708,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7790,7 +7790,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7872,7 +7872,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -7954,7 +7954,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -8036,7 +8036,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 50 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 50 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 50 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -8200,7 +8200,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 75 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 2\u00d7 75 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 2\u00d7 75 crosses the \u230014 hole. [extension_through_feature] The first extension line of 2\u00d7 75 crosses the 140 wide slot. [extension_through_feature] The second extension line of 2\u00d7 75 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 2\u00d7 75 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 2\u00d7 75 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 2\u00d7 75 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 2\u00d7 75 crosses the \u230014 hole. [extension_through_feature] The first extension line of 2\u00d7 75 crosses the 140 wide slot. [extension_through_feature] The second extension line of 2\u00d7 75 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8282,7 +8282,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 75 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 2\u00d7 75 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 2\u00d7 75 crosses the \u230014 hole. [extension_through_feature] The first extension line of 2\u00d7 75 crosses the 140 wide slot. [extension_through_feature] The second extension line of 2\u00d7 75 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 2\u00d7 75 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 2\u00d7 75 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 2\u00d7 75 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 2\u00d7 75 crosses the \u230014 hole. [extension_through_feature] The first extension line of 2\u00d7 75 crosses the 140 wide slot. [extension_through_feature] The second extension line of 2\u00d7 75 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8364,7 +8364,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 140 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 2\u00d7 140 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 2\u00d7 140 crosses the \u230014 hole. [extension_through_feature] The second extension line of 2\u00d7 140 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 2\u00d7 140 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 2\u00d7 140 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 2\u00d7 140 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 2\u00d7 140 crosses the \u230014 hole. [extension_through_feature] The second extension line of 2\u00d7 140 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8774,7 +8774,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 72 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 72 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 72 crosses the \u230014 hole. [extension_through_feature] The first extension line of 72 crosses the \u230010 hole. [extension_through_feature] The second extension line of 72 crosses the \u230014 hole. [extension_through_feature] The second extension line of 72 crosses the \u230010 hole. [extension_through_feature].",
+     "description": "Move the 72 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 72 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 72 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 72 crosses the \u230014 hole. [extension_through_feature] The first extension line of 72 crosses the \u230010 hole. [extension_through_feature] The second extension line of 72 crosses the \u230014 hole. [extension_through_feature] The second extension line of 72 crosses the \u230010 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8856,7 +8856,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 72 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 72 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 72 crosses the \u230014 hole. [extension_through_feature] The first extension line of 72 crosses the \u230010 hole. [extension_through_feature] The second extension line of 72 crosses the \u230014 hole. [extension_through_feature] The second extension line of 72 crosses the \u230010 hole. [extension_through_feature].",
+     "description": "Move the 72 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 72 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 72 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 72 crosses the \u230014 hole. [extension_through_feature] The first extension line of 72 crosses the \u230010 hole. [extension_through_feature] The second extension line of 72 crosses the \u230014 hole. [extension_through_feature] The second extension line of 72 crosses the \u230010 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -8938,7 +8938,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 72 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 72 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 72 crosses the \u230014 hole. [extension_through_feature] The first extension line of 72 crosses the \u230010 hole. [extension_through_feature] The second extension line of 72 crosses the \u230014 hole. [extension_through_feature] The second extension line of 72 crosses the \u230010 hole. [extension_through_feature].",
+     "description": "Move the 72 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 72 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 72 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 72 crosses the \u230014 hole. [extension_through_feature] The first extension line of 72 crosses the \u230010 hole. [extension_through_feature] The second extension line of 72 crosses the \u230014 hole. [extension_through_feature] The second extension line of 72 crosses the \u230010 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9020,7 +9020,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 72 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 72 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 72 crosses the \u230014 hole. [extension_through_feature] The first extension line of 72 crosses the \u230010 hole. [extension_through_feature] The second extension line of 72 crosses the \u230014 hole. [extension_through_feature] The second extension line of 72 crosses the \u230010 hole. [extension_through_feature].",
+     "description": "Move the 72 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 72 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 72 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The first extension line of 72 crosses the \u230014 hole. [extension_through_feature] The first extension line of 72 crosses the \u230010 hole. [extension_through_feature] The second extension line of 72 crosses the \u230014 hole. [extension_through_feature] The second extension line of 72 crosses the \u230010 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9102,7 +9102,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 76 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 76 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The second extension line of 76 crosses the \u230014 hole. [extension_through_feature] The second extension line of 76 crosses the \u230010 hole. [extension_through_feature].",
+     "description": "Move the 76 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 76 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 76 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The second extension line of 76 crosses the \u230014 hole. [extension_through_feature] The second extension line of 76 crosses the \u230010 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9184,7 +9184,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 76 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 76 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The second extension line of 76 crosses the \u230014 hole. [extension_through_feature] The second extension line of 76 crosses the \u230010 hole. [extension_through_feature].",
+     "description": "Move the 76 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 76 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 76 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap] The second extension line of 76 crosses the \u230014 hole. [extension_through_feature] The second extension line of 76 crosses the \u230010 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9266,7 +9266,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 189.38 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The labels of 2\u00d7 189.38 and the feature control frame \u2316 \u23000.35 A B C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The first extension line of 2\u00d7 189.38 crosses the \u230014 hole. [extension_through_feature] The first extension line of 2\u00d7 189.38 crosses the 50 wide slot. [extension_through_feature].",
+     "description": "Move the 2\u00d7 189.38 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.35 A B C crosses a line of 2\u00d7 189.38. [annotation_leader_crossing] The first extension line of 2\u00d7 189.38 crosses the \u230014 hole. [extension_through_feature] The first extension line of 2\u00d7 189.38 crosses the 50 wide slot. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9348,7 +9348,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 188.325 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 188.325 crosses the \u230014 hole. [extension_through_feature] The second extension line of 188.325 crosses the 50 wide slot. [extension_through_feature].",
+     "description": "Move the 188.325 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The labels of 188.325 and 6\u00d7 R13 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The second extension line of 188.325 crosses the \u230014 hole. [extension_through_feature] The second extension line of 188.325 crosses the 50 wide slot. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9430,7 +9430,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 40 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 40 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
+     "description": "Move the 40 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 40 runs up to 7.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 40 runs through the label of 4\u00d7 \u230012 \u21a7 20 \u2334 \u230020 \u21a7 20. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
@@ -11545,6 +11545,30 @@
    ]
   },
   {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f27,28:ref=A,B,C:mod=diameter_zone|f:hole:15:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.35 A B C crosses the \u230014 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f27,28:ref=A,B,C:mod=diameter_zone",
+    "f:hole:15"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f27,28:ref=A,B,C:mod=diameter_zone|v:plan:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23000.35 A B C crosses a feature.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f27,28:ref=A,B,C:mod=diameter_zone",
+    "v:plan"
+   ]
+  },
+  {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
@@ -11560,7 +11584,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 256 of 484 faces; 228 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 262 of 484 faces; 222 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:67",
@@ -11651,16 +11675,12 @@
     "face:266",
     "face:270",
     "face:271",
-    "face:273",
     "face:274",
     "face:277",
-    "face:278",
     "face:279",
     "face:281",
-    "face:286",
     "face:287",
     "face:293",
-    "face:294",
     "face:300",
     "face:301",
     "face:304",
@@ -11684,7 +11704,6 @@
     "face:341",
     "face:343",
     "face:344",
-    "face:346",
     "face:348",
     "face:349",
     "face:350",
@@ -11696,7 +11715,6 @@
     "face:357",
     "face:358",
     "face:359",
-    "face:360",
     "face:363",
     "face:364",
     "face:365",
@@ -12122,6 +12140,18 @@
    ]
   },
   {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:fillet:4/fillet.radius|ink:v:plan:cut:A:letter:0",
+   "impact": "advisory",
+   "message": "The dimension 8\u00d7 R25 is less than 0.5 mm from the section A cutting-plane letter, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:f:fillet:4/fillet.radius",
+    "v:section_aa"
+   ]
+  },
+  {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:f:slot:1/slot_width.length|ink:v:plan:f:hole:41",
@@ -12196,12 +12226,12 @@
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:fillet:14/fillet.radius",
+   "id": "p:leader_to_hidden_edge:d:f:fillet:18/fillet.radius",
    "impact": "readability",
-   "message": "The leader of 4\u00d7 R13 ends on an edge the plan view shows hidden, so it points at dashed line-work.",
+   "message": "The leader of 6\u00d7 R13 ends on an edge the plan view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:14/fillet.radius",
+    "d:f:fillet:18/fillet.radius",
     "v:plan"
    ]
   }
@@ -12326,10 +12356,10 @@
    "hole_pattern_requirement_missing:location.length.x": 8,
    "hole_pattern_requirement_missing:location.length.y": 4,
    "hole_pattern_requirement_missing:pitch.length": 4,
-   "label_crowded": 4,
+   "label_crowded": 5,
    "label_section_furniture_overlap": 1,
    "leader_along_centreline": 1,
-   "leader_through_feature": 22,
+   "leader_through_feature": 24,
    "leader_to_hidden_edge": 3,
    "nominal_rounded": 2,
    "pmi_dimensions_not_ported": 1,
@@ -12350,7 +12380,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 170,
+    "findings": 171,
     "groups": 14
    },
    "decision": {
@@ -12362,7 +12392,7 @@
     "groups": 16
    },
    "readability": {
-    "findings": 45,
+    "findings": 47,
     "groups": 10
    }
   }

@@ -1418,7 +1418,7 @@
    ]
   },
   {
-   "annotation": "d:f:fillet:19/fillet.radius",
+   "annotation": "d:f:fillet:31/fillet.radius",
    "at": [
     107.76897600000001,
     140.22493999999998
@@ -1426,29 +1426,29 @@
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
    "group": "radius_leader_target_unverifiable",
-   "id": "l:radius_leader_target_unverifiable:d:f:fillet:19/fillet.radius",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:31/fillet.radius",
    "impact": "advisory",
    "measurements": [
-    "f:fillet:13/fillet.radius",
-    "f:fillet:14/fillet.radius",
-    "f:fillet:15/fillet.radius",
-    "f:fillet:16/fillet.radius",
-    "f:fillet:17/fillet.radius",
-    "f:fillet:18/fillet.radius",
-    "f:fillet:19/fillet.radius",
-    "f:fillet:20/fillet.radius"
+    "f:fillet:25/fillet.radius",
+    "f:fillet:26/fillet.radius",
+    "f:fillet:27/fillet.radius",
+    "f:fillet:28/fillet.radius",
+    "f:fillet:29/fillet.radius",
+    "f:fillet:30/fillet.radius",
+    "f:fillet:31/fillet.radius",
+    "f:fillet:32/fillet.radius"
    ],
-   "message": "d:f:fillet:19/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "message": "d:f:fillet:31/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
    "severity": "info",
    "subjects": [
-    "f:fillet:13",
-    "f:fillet:14",
-    "f:fillet:15",
-    "f:fillet:16",
-    "f:fillet:17",
-    "f:fillet:18",
-    "f:fillet:19",
-    "f:fillet:20"
+    "f:fillet:25",
+    "f:fillet:26",
+    "f:fillet:27",
+    "f:fillet:28",
+    "f:fillet:29",
+    "f:fillet:30",
+    "f:fillet:31",
+    "f:fillet:32"
    ],
    "view": "v:front"
   }
@@ -3404,94 +3404,6 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.flatness:f3/place",
-     "value": {
-      "lane": 0,
-      "side": "below",
-      "view": "side"
-     }
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation below the side view, nearest the view. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.flatness:f3/place",
-       "value": {
-        "lane": 0,
-        "side": "below",
-        "view": "side"
-       }
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f3|pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.381 crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f3",
-    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.flatness:f3/place",
-     "value": {
-      "lane": 0,
-      "side": "below",
-      "view": "side"
-     }
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation below the side view, nearest the view. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.flatness:f3/place",
-       "value": {
-        "lane": 0,
-        "side": "below",
-        "view": "side"
-       }
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f3|pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.381 crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f3",
-    "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
     "dimension_line",
     "arrow"
    ],
@@ -3619,49 +3531,6 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C/place",
-     "value": {
-      "lane": 0,
-      "side": "below",
-      "view": "side"
-     }
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation below the side view, nearest the view. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C/place",
-       "value": {
-        "lane": 0,
-        "side": "below",
-        "view": "side"
-       }
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C|pmi:geometric_tolerance.flatness:f3",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u23e5 0.381.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-    "pmi:geometric_tolerance.flatness:f3"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
     "leader",
     "arrow"
    ],
@@ -3742,49 +3611,6 @@
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
     "pmi:geometric_tolerance.flatness:f14"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C/place",
-     "value": {
-      "lane": 0,
-      "side": "below",
-      "view": "side"
-     }
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation below the side view, nearest the view. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C/place",
-       "value": {
-        "lane": 0,
-        "side": "below",
-        "view": "side"
-       }
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C|pmi:geometric_tolerance.flatness:f3",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u23e5 0.381.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
-    "pmi:geometric_tolerance.flatness:f3"
    ]
   },
   {
@@ -4199,7 +4025,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:fillet:19~1fillet.radius/place",
+     "path": "dimensions/d:f:fillet:31~1fillet.radius/place",
      "value": {
       "along": "start",
       "lane": 0,
@@ -4234,7 +4060,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:fillet:19~1fillet.radius/place",
+       "path": "dimensions/d:f:fillet:31~1fillet.radius/place",
        "value": {
         "along": "start",
         "lane": 0,
@@ -4267,12 +4093,12 @@
     }
    ],
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:fillet:19/fillet.radius|f:slot:1:line:0",
+   "id": "p:leader_through_feature:d:f:fillet:31/fillet.radius|f:slot:1:line:0",
    "impact": "readability",
    "message": "The leader of 8\u00d7 R1.524 crosses the 192.23 wide slot.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:19/fillet.radius",
+    "d:f:fillet:31/fillet.radius",
     "f:slot:1"
    ]
   },
@@ -4968,18 +4794,6 @@
    "subjects": [
     "pmi:datum.datum:f73:t=J",
     "f:hole:17"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.flatness:f3|f:slot:4:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.381 crosses the 12.7 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f3",
-    "f:slot:4"
    ]
   },
   {
@@ -5962,7 +5776,7 @@
     "f:blend:11",
     "f:blend:12",
     "f:blend:13",
-    "f:fillet:21",
+    "f:fillet:33",
     "n:f:blend:relief/profiles"
    ]
   },
@@ -5971,7 +5785,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 116 of 247 faces; 131 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 128 of 247 faces; 119 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:4",
@@ -6077,26 +5891,14 @@
     "face:170",
     "face:171",
     "face:172",
-    "face:173",
-    "face:174",
-    "face:175",
     "face:176",
     "face:177",
-    "face:179",
-    "face:180",
     "face:182",
     "face:183",
-    "face:184",
-    "face:185",
-    "face:186",
-    "face:187",
     "face:188",
     "face:189",
-    "face:191",
-    "face:192",
     "face:194",
     "face:195",
-    "face:196",
     "face:198",
     "face:199",
     "face:202",
@@ -6401,48 +6203,16 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f3|pmi:geometric_tolerance.parallelism:f1:ref=A",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.381 crosses a line of the feature control frame \u2225 0.762 A.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f3",
-    "pmi:geometric_tolerance.parallelism:f1:ref=A"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f3|pmi:geometric_tolerance.parallelism:f2:ref=D",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.381 crosses a line of the feature control frame \u2225 0.508 D.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f3",
-    "pmi:geometric_tolerance.parallelism:f2:ref=D"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
     "leader"
    ],
    "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f1:ref=A|pmi:geometric_tolerance.flatness:f3",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f3|pmi:geometric_tolerance.profile_surface:f4:ref=A,B,C",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of the feature control frame \u23e5 0.381.",
+   "message": "The leader of the feature control frame \u23e5 0.381 crosses a line of the feature control frame \u2313 1.27 A B C.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.parallelism:f1:ref=A",
-    "pmi:geometric_tolerance.flatness:f3"
+    "pmi:geometric_tolerance.flatness:f3",
+    "pmi:geometric_tolerance.profile_surface:f4:ref=A,B,C"
    ]
   },
   {
@@ -6464,51 +6234,6 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f1:ref=A|pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f1:ref=A",
-    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f1:ref=A|pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f1:ref=A",
-    "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f2:ref=D|pmi:geometric_tolerance.flatness:f3",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.508 D crosses a line of the feature control frame \u23e5 0.381.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f2:ref=D",
-    "pmi:geometric_tolerance.flatness:f3"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
     "leader",
     "arrow"
    ],
@@ -6520,36 +6245,6 @@
    "subjects": [
     "pmi:geometric_tolerance.parallelism:f2:ref=D",
     "pmi:geometric_tolerance.parallelism:f1:ref=A"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f2:ref=D|pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.508 D crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f2:ref=D",
-    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f2:ref=D|pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.508 D crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f2:ref=D",
-    "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C"
    ]
   },
   {
@@ -6645,61 +6340,16 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "arrow"
+    "leader"
    ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C|pmi:geometric_tolerance.parallelism:f1:ref=A",
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f4:ref=A,B,C|pmi:geometric_tolerance.flatness:f3",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2225 0.762 A.",
+   "message": "The leader of the feature control frame \u2313 1.27 A B C crosses a line of the feature control frame \u23e5 0.381.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-    "pmi:geometric_tolerance.parallelism:f1:ref=A"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C|pmi:geometric_tolerance.parallelism:f2:ref=D",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2225 0.508 D.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-    "pmi:geometric_tolerance.parallelism:f2:ref=D"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C|pmi:geometric_tolerance.parallelism:f1:ref=A",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2225 0.762 A.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
-    "pmi:geometric_tolerance.parallelism:f1:ref=A"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C|pmi:geometric_tolerance.parallelism:f2:ref=D",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2225 0.508 D.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
-    "pmi:geometric_tolerance.parallelism:f2:ref=D"
+    "pmi:geometric_tolerance.profile_surface:f4:ref=A,B,C",
+    "pmi:geometric_tolerance.flatness:f3"
    ]
   },
   {
@@ -6759,20 +6409,6 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f66,67:ref=D,B,C:mod=diameter_zone",
     "d:f:slot:2/slot_width.length"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:pmi:geometric_tolerance.flatness:f3|pmi:geometric_tolerance.flatness:f14|pmi:geometric_tolerance.parallelism:f1:ref=A|pmi:geometric_tolerance.parallelism:f2:ref=D",
-   "impact": "advisory",
-   "message": "Line-work of the feature control frame \u23e5 0.381 and of 2 other items passes less than 0.5 mm from the label of the feature control frame \u23e5 0.381, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f3",
-    "pmi:geometric_tolerance.flatness:f14",
-    "pmi:geometric_tolerance.parallelism:f1:ref=A",
-    "pmi:geometric_tolerance.parallelism:f2:ref=D"
    ]
   },
   {
@@ -6958,13 +6594,12 @@
  "summary": {
   "groups": {
    "annotation_ink_overlap": 5,
-   "annotation_leader_crossing:arrow": 8,
    "annotation_leader_crossing:arrow+dimension_line": 2,
-   "annotation_leader_crossing:arrow+leader": 10,
+   "annotation_leader_crossing:arrow+leader": 6,
    "annotation_leader_crossing:dimension_line": 3,
    "annotation_leader_crossing:dimension_line+extension_line": 7,
    "annotation_leader_crossing:extension_line": 2,
-   "annotation_leader_crossing:leader": 20,
+   "annotation_leader_crossing:leader": 18,
    "channel_requirement_unverifiable:thickness.length": 2,
    "datum_leader_remote": 4,
    "datum_origin_unusable": 9,
@@ -6980,8 +6615,8 @@
    "hole_pattern_requirement_missing:location.length.x": 3,
    "hole_pattern_requirement_missing:location.length.y": 3,
    "hole_pattern_requirement_missing:pitch.length": 2,
-   "label_crowded": 3,
-   "leader_through_feature": 29,
+   "label_crowded": 2,
+   "leader_through_feature": 28,
    "nominal_rounded": 88,
    "pmi_not_extracted": 34,
    "pmi_not_extracted:dimension": 1,
@@ -7001,7 +6636,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 152,
+    "findings": 151,
     "groups": 12
    },
    "decision": {
@@ -7013,8 +6648,8 @@
     "groups": 18
    },
    "readability": {
-    "findings": 96,
-    "groups": 11
+    "findings": 81,
+    "groups": 10
    }
   }
  }
