@@ -5229,140 +5229,162 @@
    ]
   },
   {
-   "annotation": "d:f:fillet:51/fillet.radius",
+   "annotation": "d:f:fillet:102/fillet.radius",
    "at": [
-    165.2301,
-    304.62260499949866
+    46.39407485762419,
+    150.3514
    ],
-   "code": "radius_leader_target_unverifiable",
-   "evidence": "the view does not show a proven circular radius section end-on",
-   "group": "radius_leader_target_unverifiable",
-   "id": "l:radius_leader_target_unverifiable:d:f:fillet:51/fillet.radius",
-   "impact": "advisory",
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:102/fillet.radius",
+   "impact": "readability",
    "measurements": [
-    "f:fillet:28/fillet.radius",
-    "f:fillet:32/fillet.radius",
-    "f:fillet:33/fillet.radius",
-    "f:fillet:37/fillet.radius",
-    "f:fillet:38/fillet.radius",
-    "f:fillet:42/fillet.radius",
-    "f:fillet:43/fillet.radius",
-    "f:fillet:44/fillet.radius",
-    "f:fillet:47/fillet.radius",
-    "f:fillet:48/fillet.radius",
-    "f:fillet:49/fillet.radius",
-    "f:fillet:50/fillet.radius",
-    "f:fillet:51/fillet.radius",
-    "f:fillet:52/fillet.radius",
-    "f:fillet:53/fillet.radius"
+    "f:fillet:97/fillet.radius",
+    "f:fillet:99/fillet.radius",
+    "f:fillet:102/fillet.radius",
+    "f:fillet:104/fillet.radius"
    ],
-   "message": "d:f:fillet:51/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
-   "severity": "info",
+   "message": "d:f:fillet:102/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
    "subjects": [
-    "f:fillet:28",
-    "f:fillet:32",
-    "f:fillet:33",
-    "f:fillet:37",
+    "f:fillet:97",
+    "f:fillet:99",
+    "f:fillet:102",
+    "f:fillet:104"
+   ],
+   "view": "v:front"
+  },
+  {
+   "annotation": "d:f:fillet:61/fillet.radius",
+   "at": [
+    287.7740748576242,
+    83.56060000000001
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:61/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:56/fillet.radius",
+    "f:fillet:57/fillet.radius",
+    "f:fillet:58/fillet.radius",
+    "f:fillet:59/fillet.radius",
+    "f:fillet:60/fillet.radius",
+    "f:fillet:61/fillet.radius"
+   ],
+   "message": "d:f:fillet:61/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:56",
+    "f:fillet:57",
+    "f:fillet:58",
+    "f:fillet:59",
+    "f:fillet:60",
+    "f:fillet:61"
+   ],
+   "view": "v:side"
+  },
+  {
+   "annotation": "d:f:fillet:39/fillet.radius",
+   "at": [
+    113.08587485762419,
+    292.49399999999997
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:39/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:38/fillet.radius",
+    "f:fillet:39/fillet.radius",
+    "f:fillet:40/fillet.radius",
+    "f:fillet:41/fillet.radius",
+    "f:fillet:42/fillet.radius",
+    "f:fillet:43/fillet.radius"
+   ],
+   "message": "d:f:fillet:39/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
     "f:fillet:38",
+    "f:fillet:39",
+    "f:fillet:40",
+    "f:fillet:41",
     "f:fillet:42",
-    "f:fillet:43",
-    "f:fillet:44",
-    "f:fillet:47",
-    "f:fillet:48",
-    "f:fillet:49",
-    "f:fillet:50",
-    "f:fillet:51",
-    "f:fillet:52",
-    "f:fillet:53"
+    "f:fillet:43"
    ],
    "view": "v:plan"
   },
   {
-   "annotation": "d:f:blend:27/blend.radius",
+   "annotation": "d:f:fillet:103/fillet.radius",
    "at": [
-    158.78884456098643,
-    224.6177848816633
+    52.57527485762418,
+    207.74559999999997
    ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:blend:27/blend.radius",
-   "impact": "readability",
+   "code": "radius_leader_target_unverifiable",
+   "evidence": "the view does not show a proven circular radius section end-on",
+   "group": "radius_leader_target_unverifiable",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:103/fillet.radius",
+   "impact": "advisory",
    "measurements": [
-    "f:blend:27/blend.radius",
-    "f:blend:28/blend.radius",
-    "f:blend:29/blend.radius",
-    "f:blend:30/blend.radius"
+    "f:fillet:4/fillet.radius",
+    "f:fillet:9/fillet.radius",
+    "f:fillet:11/fillet.radius",
+    "f:fillet:12/fillet.radius",
+    "f:fillet:13/fillet.radius",
+    "f:fillet:19/fillet.radius",
+    "f:fillet:20/fillet.radius",
+    "f:fillet:21/fillet.radius",
+    "f:fillet:26/fillet.radius",
+    "f:fillet:67/fillet.radius",
+    "f:fillet:68/fillet.radius",
+    "f:fillet:73/fillet.radius",
+    "f:fillet:78/fillet.radius",
+    "f:fillet:79/fillet.radius",
+    "f:fillet:84/fillet.radius",
+    "f:fillet:85/fillet.radius",
+    "f:fillet:90/fillet.radius",
+    "f:fillet:91/fillet.radius",
+    "f:fillet:93/fillet.radius",
+    "f:fillet:96/fillet.radius",
+    "f:fillet:98/fillet.radius",
+    "f:fillet:100/fillet.radius",
+    "f:fillet:101/fillet.radius",
+    "f:fillet:103/fillet.radius",
+    "f:fillet:105/fillet.radius",
+    "f:fillet:106/fillet.radius"
    ],
-   "message": "d:f:blend:27/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
+   "message": "d:f:fillet:103/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "severity": "info",
    "subjects": [
-    "f:blend:27",
-    "f:blend:28",
-    "f:blend:29",
-    "f:blend:30"
-   ],
-   "view": "v:front"
-  },
-  {
-   "annotation": "d:f:blend:17/blend.radius",
-   "at": [
-    230.31773909567812,
-    156.9468605805612
-   ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:blend:17/blend.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:blend:17/blend.radius",
-    "f:blend:18/blend.radius",
-    "f:blend:19/blend.radius",
-    "f:blend:20/blend.radius",
-    "f:blend:21/blend.radius",
-    "f:blend:22/blend.radius"
-   ],
-   "message": "d:f:blend:17/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:blend:17",
-    "f:blend:18",
-    "f:blend:19",
-    "f:blend:20",
-    "f:blend:21",
-    "f:blend:22"
-   ],
-   "view": "v:front"
-  },
-  {
-   "annotation": "d:f:blend:10/blend.radius",
-   "at": [
-    190.92376162132155,
-    373.3544599040026
-   ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:blend:10/blend.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:blend:10/blend.radius",
-    "f:blend:5/blend.radius",
-    "f:blend:6/blend.radius",
-    "f:blend:7/blend.radius",
-    "f:blend:8/blend.radius",
-    "f:blend:9/blend.radius"
-   ],
-   "message": "d:f:blend:10/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:blend:10",
-    "f:blend:5",
-    "f:blend:6",
-    "f:blend:7",
-    "f:blend:8",
-    "f:blend:9"
+    "f:fillet:4",
+    "f:fillet:9",
+    "f:fillet:11",
+    "f:fillet:12",
+    "f:fillet:13",
+    "f:fillet:19",
+    "f:fillet:20",
+    "f:fillet:21",
+    "f:fillet:26",
+    "f:fillet:67",
+    "f:fillet:68",
+    "f:fillet:73",
+    "f:fillet:78",
+    "f:fillet:79",
+    "f:fillet:84",
+    "f:fillet:85",
+    "f:fillet:90",
+    "f:fillet:91",
+    "f:fillet:93",
+    "f:fillet:96",
+    "f:fillet:98",
+    "f:fillet:100",
+    "f:fillet:101",
+    "f:fillet:103",
+    "f:fillet:105",
+    "f:fillet:106"
    ],
    "view": "v:plan"
   }
@@ -5376,7 +5398,7 @@
    "message": "Unrecognised features on this part: 34 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.3 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -5398,7 +5420,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A2"
     },
     {
      "op": "set",
@@ -5428,7 +5450,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A2"
       },
       {
        "op": "set",
@@ -6913,2532 +6935,6 @@
    "subjects": []
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1height.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1height.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:envelope/height.length",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 400.000.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:envelope/height.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:50~1location.length.z/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:50~1location.length.z/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:f:hole:50/location.length.z",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 140.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:f:hole:50/location.length.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.h8",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 352.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:step_level/step_height.length.h8"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h30/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h30/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.h30",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 330.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:step_level/step_height.length.h30"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h70/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h70/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.h70",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 290.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:step_level/step_height.length.h70"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h318_874/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h318_874/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.h318_874",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 41.126.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:step_level/step_height.length.h318_874"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:f:section_recess:1/seat_location.location.z",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 310.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:f:section_recess:1/seat_location.location.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_line:f18:ref=A,B,C|d:envelope/depth.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2312 0.25 A B C crosses a line of 860.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_line:f18:ref=A,B,C",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f365:ref=A,B,C|d:envelope/depth.length",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.75 A B C crosses a line of 860.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f365:ref=A,B,C",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "extension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1width.length/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1width.length/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J|d:envelope/width.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.8 G H J crosses a line of 680.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J",
-    "d:envelope/width.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "extension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:50~1location.length.x/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:50~1location.length.x/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J|d:f:hole:50/location.length.x",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.8 G H J crosses a line of 340.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J",
-    "d:f:hole:50/location.length.x"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:50~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 340 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 340. [annotation_leader_crossing] A line of 340 runs through the label of 4\u00d7 R6. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.05 crosses a line of 340. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:50~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:50/location.length.x|f:hole:85:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 340 crosses the \u2300120 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:50/location.length.x",
-    "f:hole:85"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:50~1location.length.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 140 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2313 0.8 G H J crosses a line of 140. [annotation_leader_crossing] The second extension line of 140 crosses the \u230052 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:50~1location.length.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:50/location.length.z|f:hole:84:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 140 crosses the \u230052 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:50/location.length.z",
-    "f:hole:84"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:2:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 352 crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:2"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:3:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 352 crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:4:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 352 crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:4"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:51:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:51"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:63:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:63"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:64:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:64"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:65:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:65"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:66:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:66"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h8/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of 6\u00d7 R8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h8/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:68:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h8",
-    "f:hole:68"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h30/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h30/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h30|f:hole:3:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 330 crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h30",
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h30/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h30/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h30|f:hole:4:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 330 crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h30",
-    "f:hole:4"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h70/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 290 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 290. [annotation_leader_crossing] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h70/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h70|f:hole:2:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 290 crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h70",
-    "f:hole:2"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h70/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 290 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 290. [annotation_leader_crossing] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h70/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h70|f:hole:3:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 290 crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h70",
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h70/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 290 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 290. [annotation_leader_crossing] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h70/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h70|f:hole:4:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 290 crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.h70",
-    "f:hole:4"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 340.000 dimension below the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 340.000 crosses the \u230040 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.x|f:hole:73:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 340.000 crosses the \u230040 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:section_recess:1/seat_location.location.x",
-    "f:hole:73"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 526 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The leader of 6\u00d7 R18 crosses a line of 526. [annotation_leader_crossing] The second extension line of 526 crosses the \u230010.1 hole. [extension_through_feature] The second extension line of 526 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.y|f:hole:15:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 526 crosses the \u230010.1 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:section_recess:1/seat_location.location.y",
-    "f:hole:15"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 526 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The leader of 6\u00d7 R18 crosses a line of 526. [annotation_leader_crossing] The second extension line of 526 crosses the \u230010.1 hole. [extension_through_feature] The second extension line of 526 crosses the \u23008.38 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.y|f:hole:74:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 526 crosses the \u23008.38 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:section_recess:1/seat_location.location.y",
-    "f:hole:74"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:datum.datum:f620,621:t=F|f:hole:3:line:0",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:datum.datum:f620,621:t=F|f:hole:4:line:0",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses the \u230022 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "f:hole:4"
-   ]
-  },
-  {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
@@ -9575,53 +7071,31 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 476 of 637 faces; 161 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 508 of 637 faces; 129 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:1",
     "face:2",
-    "face:3",
     "face:4",
     "face:6",
-    "face:7",
     "face:8",
     "face:9",
-    "face:10",
-    "face:11",
     "face:12",
     "face:13",
-    "face:14",
     "face:15",
     "face:16",
-    "face:17",
     "face:19",
-    "face:20",
     "face:21",
     "face:22",
-    "face:23",
     "face:24",
-    "face:25",
-    "face:26",
     "face:27",
-    "face:28",
-    "face:29",
     "face:30",
-    "face:31",
-    "face:33",
     "face:34",
-    "face:35",
-    "face:36",
     "face:37",
     "face:39",
     "face:41",
     "face:42",
-    "face:46",
-    "face:47",
-    "face:48",
-    "face:49",
-    "face:50",
     "face:51",
-    "face:52",
     "face:53",
     "face:54",
     "face:57",
@@ -9631,10 +7105,7 @@
     "face:69",
     "face:70",
     "face:71",
-    "face:72",
     "face:74",
-    "face:75",
-    "face:76",
     "face:81",
     "face:82",
     "face:83",
@@ -9710,8 +7181,6 @@
     "face:476",
     "face:477",
     "face:482",
-    "face:484",
-    "face:485",
     "face:486",
     "face:488",
     "face:489",
@@ -9725,15 +7194,10 @@
     "face:506",
     "face:507",
     "face:513",
-    "face:517",
     "face:525",
-    "face:530",
     "face:537",
-    "face:540",
-    "face:547",
     "face:550",
     "face:614",
-    "face:615",
     "face:616",
     "face:617",
     "face:619",
@@ -9857,11 +7321,2537 @@
    ]
   },
   {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1height.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 400.000 dimension to the left of the front view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1height.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:envelope/height.length",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 400.000.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:envelope/height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:50~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 140 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2313 0.8 G H J crosses a line of 140. [annotation_leader_crossing] The second extension line of 140 crosses the \u230052 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:50~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:f:hole:50/location.length.z",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 140.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:f:hole:50/location.length.z"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.h8",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 352.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:step_level/step_height.length.h8"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h30/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h30/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.h30",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 330.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:step_level/step_height.length.h30"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h70/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 290 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 290. [annotation_leader_crossing] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h70/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.h70",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 290.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:step_level/step_height.length.h70"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h318_874/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 41.126 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 41.126. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 41.126. [annotation_leader_crossing] The first extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The first extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The first extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The first extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The first extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The first extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The second extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The second extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The second extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The second extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The second extension line of 41.126 crosses the \u230022 hole. [extension_through_feature] The second extension line of 41.126 crosses the \u230022 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h318_874/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.h318_874",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 41.126.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:step_level/step_height.length.h318_874"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 310 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 310. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 310. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:f:section_recess:1/seat_location.location.z",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 310.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:f:section_recess:1/seat_location.location.z"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1depth.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 860 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 860 runs up to 8.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1depth.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_line:f18:ref=A,B,C|d:envelope/depth.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2312 0.25 A B C crosses a line of 860.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_line:f18:ref=A,B,C",
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1depth.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 860 dimension above the side view, nearest the view. Trade-off: adds these findings: The dimension 860 runs up to 8.7 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1depth.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f365:ref=A,B,C|d:envelope/depth.length",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u2313 0.75 A B C crosses a line of 860.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f365:ref=A,B,C",
+    "d:envelope/depth.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "extension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:envelope~1width.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 680 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 680 and the feature control frame \u23e5 0.05 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 680. [annotation_leader_crossing] The leader of datum feature symbol G crosses a line of 680. [annotation_leader_crossing] The leader of the feature control frame \u23e5 0.05 crosses a line of 680. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.5 D E F crosses a line of 680. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:envelope~1width.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J|d:envelope/width.length",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.8 G H J crosses a line of 680.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J",
+    "d:envelope/width.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "extension_line",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:50~1location.length.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 340 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 340. [annotation_leader_crossing] The leader of the feature control frame \u23e5 0.05 crosses a line of 340. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:50~1location.length.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J|d:f:hole:50/location.length.x",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.8 G H J crosses a line of 340.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J",
+    "d:f:hole:50/location.length.x"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:50~1location.length.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 340 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 340. [annotation_leader_crossing] The leader of the feature control frame \u23e5 0.05 crosses a line of 340. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:50~1location.length.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:50/location.length.x|f:hole:85:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 340 crosses the \u2300120 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:50/location.length.x",
+    "f:hole:85"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:50~1location.length.z/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 140 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2313 0.8 G H J crosses a line of 140. [annotation_leader_crossing] The second extension line of 140 crosses the \u230052 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:50~1location.length.z/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:50/location.length.z|f:hole:84:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 140 crosses the \u230052 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:50/location.length.z",
+    "f:hole:84"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:2:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 352 crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:3:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 352 crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:4:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 352 crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:51:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:51"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:63:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:63"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:64:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:64"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:65:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:65"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:66:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:66"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h8/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 352 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 352. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 352. [annotation_leader_crossing] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The first extension line of 352 crosses the \u230022 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature] The second extension line of 352 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h8/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h8|f:hole:68:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 352 crosses the \u23008.38 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h8",
+    "f:hole:68"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h30/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h30/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h30|f:hole:3:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 330 crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h30",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h30/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 330 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 330. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 330. [annotation_leader_crossing] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature] The first extension line of 330 crosses the \u230022 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h30/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h30|f:hole:4:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 330 crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h30",
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h70/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 290 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 290. [annotation_leader_crossing] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h70/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h70|f:hole:2:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 290 crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h70",
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h70/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 290 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 290. [annotation_leader_crossing] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h70/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h70|f:hole:3:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 290 crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h70",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:step_level~1step_height.length.h70/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 290 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 crosses a line of 290. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.8 G H J crosses a line of 290. [annotation_leader_crossing] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature] The first extension line of 290 crosses the \u230022 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:step_level~1step_height.length.h70/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.h70|f:hole:4:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 290 crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.h70",
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:section_recess:1~1seat_location.location.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 340.000 dimension below the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 340.000 crosses the \u230040 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:section_recess:1~1seat_location.location.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.x|f:hole:73:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 340.000 crosses the \u230040 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:1/seat_location.location.x",
+    "f:hole:73"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:section_recess:1~1seat_location.location.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "right",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 526 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The labels of 6\u00d7 R18 and 526 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 526 runs through the label of 60\u00d7 R10. [annotation_ink_overlap] A line of 526 runs through the label of 4\u00d7 R15. [annotation_ink_overlap] The second extension line of 526 crosses the \u230010.1 hole. [extension_through_feature] The second extension line of 526 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:section_recess:1~1seat_location.location.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "right",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.y|f:hole:30:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 526 crosses the \u230010.1 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:1/seat_location.location.y",
+    "f:hole:30"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:section_recess:1~1seat_location.location.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "right",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 526 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The labels of 6\u00d7 R18 and 526 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 526 runs through the label of 60\u00d7 R10. [annotation_ink_overlap] A line of 526 runs through the label of 4\u00d7 R15. [annotation_ink_overlap] The second extension line of 526 crosses the \u230010.1 hole. [extension_through_feature] The second extension line of 526 crosses the \u23008.38 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:section_recess:1~1seat_location.location.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "right",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.y|f:hole:40:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 526 crosses the \u23008.38 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:1/seat_location.location.y",
+    "f:hole:40"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:datum.datum:f620,621:t=F|f:hole:3:line:0",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:datum.datum:f620,621:t=F|f:hole:4:line:0",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses the \u230022 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "f:hole:4"
+   ]
+  },
+  {
    "code": "sheet_preference_exceeded",
    "group": "sheet_preference_exceeded",
    "id": "p:sheet_preference_exceeded:sheet",
    "impact": "advisory",
-   "message": "Preferred paper size exceeded: using 1 sheet(s) of A0 at 1:5. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
+   "message": "Preferred paper size exceeded: using 1 sheet(s) of A2 at 1:5. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -9912,27 +9902,15 @@
    ]
   },
   {
-   "code": "leader_along_centreline",
-   "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:d:f:blend:17/blend.radius|ink:v:front:f:hole:69",
-   "impact": "readability",
-   "message": "The leader of 6\u00d7 R8 runs along a centre line, so the two read as one line.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:blend:17/blend.radius",
-    "f:hole:69"
-   ]
-  },
-  {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
-   "id": "p:extension_off_centreline:d:f:section_recess:1/seat_location.location.y|ink:v:plan:f:hole:15",
+   "id": "p:extension_off_centreline:d:f:section_recess:1/seat_location.location.y|ink:v:plan:f:hole:30",
    "impact": "readability",
    "message": "An extension line of 526 runs 0.20 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
     "d:f:section_recess:1/seat_location.location.y",
-    "f:hole:15"
+    "f:hole:30"
    ]
   },
   {
@@ -9950,24 +9928,36 @@
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:blend:10/blend.radius",
+   "id": "p:leader_to_hidden_edge:d:f:fillet:81/fillet.radius",
    "impact": "readability",
-   "message": "The leader of 6\u00d7 R18 ends on an edge the plan view shows hidden, so it points at dashed line-work.",
+   "message": "The leader of 60\u00d7 R10 ends on an edge the plan view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
-    "d:f:blend:10/blend.radius",
+    "d:f:fillet:81/fillet.radius",
     "v:plan"
    ]
   },
   {
    "code": "leader_across_view",
    "group": "leader_across_view",
-   "id": "p:leader_across_view:d:f:blend:10/blend.radius",
+   "id": "p:leader_across_view:d:f:fillet:81/fillet.radius",
    "impact": "readability",
-   "message": "The leader of 6\u00d7 R18 runs 53.0 mm across the plan view, crossing 24 of its lines where a leader leaving the other way would cross 9.",
+   "message": "The leader of 60\u00d7 R10 runs 51.3 mm across the plan view, crossing 18 of its lines where a leader leaving the other way would cross 10.",
    "severity": "warning",
    "subjects": [
-    "d:f:blend:10/blend.radius",
+    "d:f:fillet:81/fillet.radius",
+    "v:plan"
+   ]
+  },
+  {
+   "code": "leader_to_hidden_edge",
+   "group": "leader_to_hidden_edge",
+   "id": "p:leader_to_hidden_edge:d:f:fillet:39/fillet.radius",
+   "impact": "readability",
+   "message": "The leader of 6\u00d7 R18 ends on an edge the plan view shows hidden, so it points at dashed line-work.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:39/fillet.radius",
     "v:plan"
    ]
   },
@@ -9988,8 +9978,8 @@
   {
    "annotation": "pmi:datum.datum:f620,621:t=F",
    "at": [
-    350.6975,
-    222.6270050005014
+    238.04267485762418,
+    148.75
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -10023,9 +10013,9 @@
    "hole_pattern_requirement_missing:location.length.y": 9,
    "hole_pattern_requirement_missing:pitch.length": 6,
    "leader_across_view": 3,
-   "leader_along_centreline": 2,
+   "leader_along_centreline": 1,
    "leader_through_feature": 2,
-   "leader_to_hidden_edge": 1,
+   "leader_to_hidden_edge": 2,
    "location_on_datum": 1,
    "nominal_rounded": 12,
    "pmi_not_extracted": 26,

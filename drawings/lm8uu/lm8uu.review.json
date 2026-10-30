@@ -102,31 +102,18 @@
    "subjects": [
     "sheet"
    ]
-  },
-  {
-   "code": "unclaimed_geometry",
-   "group": "unclaimed_geometry",
-   "id": "p:unclaimed_geometry:sheet",
-   "impact": "advisory",
-   "message": "Analysis features claim 12 of 14 faces; 2 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
-   "severity": "info",
-   "subjects": [
-    "face:0",
-    "face:4"
-   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
    "assembly_principal_drawn": 1,
-   "general_tolerance_missing": 1,
-   "unclaimed_geometry": 1
+   "general_tolerance_missing": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 2,
-    "groups": 2
+    "findings": 1,
+    "groups": 1
    },
    "decision": {
     "findings": 1,

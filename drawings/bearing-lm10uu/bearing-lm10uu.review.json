@@ -171,39 +171,18 @@
     "d:f:hole:1/bore.diameter",
     "v:front"
    ]
-  },
-  {
-   "code": "unclaimed_geometry",
-   "group": "unclaimed_geometry",
-   "id": "p:unclaimed_geometry:sheet",
-   "impact": "advisory",
-   "message": "Analysis features claim 10 of 20 faces; 10 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
-   "severity": "info",
-   "subjects": [
-    "face:1",
-    "face:3",
-    "face:5",
-    "face:7",
-    "face:9",
-    "face:11",
-    "face:13",
-    "face:15",
-    "face:17",
-    "face:19"
-   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
    "annotation_outside_area": 1,
-   "general_tolerance_missing": 1,
-   "unclaimed_geometry": 1
+   "general_tolerance_missing": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 2,
-    "groups": 2
+    "findings": 1,
+    "groups": 1
    },
    "decision": {
     "findings": 1,

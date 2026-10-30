@@ -134,88 +134,6 @@
    ]
   },
   {
-   "code": "annotation_outside_area",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_outside_area",
-   "id": "p:annotation_outside_area:d:f:slot:1/slot_end_radius.radius|v:front",
-   "impact": "advisory",
-   "message": "The dimension 2\u00d7 R3 runs up to 0.5 mm past the area reserved for the front view and its bands; it may crowd what lies beyond.",
-   "severity": "info",
-   "subjects": [
-    "d:f:slot:1/slot_end_radius.radius",
-    "v:front"
-   ]
-  },
-  {
    "code": "unclaimed_geometry",
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
@@ -300,7 +218,6 @@
  "summary": {
   "groups": {
    "angled_step_requirement_unsupported": 4,
-   "annotation_outside_area": 1,
    "general_tolerance_missing": 1,
    "label_crowded": 1,
    "shape_not_recognised:protrusion": 2,
@@ -308,8 +225,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 3,
-    "groups": 3
+    "findings": 2,
+    "groups": 2
    },
    "decision": {
     "findings": 1,

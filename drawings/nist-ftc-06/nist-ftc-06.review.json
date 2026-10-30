@@ -3377,6 +3377,104 @@
     "f:chamfer:9"
    ],
    "view": "v:side"
+  },
+  {
+   "annotation": "d:f:fillet:4/fillet.radius",
+   "at": [
+    239.1420060207191,
+    161.80641443674776
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:4/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:1/fillet.radius",
+    "f:fillet:2/fillet.radius",
+    "f:fillet:3/fillet.radius",
+    "f:fillet:4/fillet.radius",
+    "f:fillet:5/fillet.radius",
+    "f:fillet:6/fillet.radius",
+    "f:fillet:7/fillet.radius",
+    "f:fillet:8/fillet.radius",
+    "f:fillet:9/fillet.radius",
+    "f:fillet:10/fillet.radius",
+    "f:fillet:11/fillet.radius",
+    "f:fillet:12/fillet.radius",
+    "f:fillet:13/fillet.radius",
+    "f:fillet:14/fillet.radius",
+    "f:fillet:15/fillet.radius",
+    "f:fillet:16/fillet.radius",
+    "f:fillet:18/fillet.radius",
+    "f:fillet:20/fillet.radius",
+    "f:fillet:21/fillet.radius",
+    "f:fillet:22/fillet.radius",
+    "f:fillet:23/fillet.radius",
+    "f:fillet:24/fillet.radius",
+    "f:fillet:25/fillet.radius",
+    "f:fillet:26/fillet.radius",
+    "f:fillet:27/fillet.radius",
+    "f:fillet:28/fillet.radius",
+    "f:fillet:29/fillet.radius",
+    "f:fillet:30/fillet.radius"
+   ],
+   "message": "d:f:fillet:4/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:1",
+    "f:fillet:2",
+    "f:fillet:3",
+    "f:fillet:4",
+    "f:fillet:5",
+    "f:fillet:6",
+    "f:fillet:7",
+    "f:fillet:8",
+    "f:fillet:9",
+    "f:fillet:10",
+    "f:fillet:11",
+    "f:fillet:12",
+    "f:fillet:13",
+    "f:fillet:14",
+    "f:fillet:15",
+    "f:fillet:16",
+    "f:fillet:18",
+    "f:fillet:20",
+    "f:fillet:21",
+    "f:fillet:22",
+    "f:fillet:23",
+    "f:fillet:24",
+    "f:fillet:25",
+    "f:fillet:26",
+    "f:fillet:27",
+    "f:fillet:28",
+    "f:fillet:29",
+    "f:fillet:30"
+   ],
+   "view": "v:side"
+  },
+  {
+   "annotation": "d:f:fillet:19/fillet.radius",
+   "at": [
+    38.874010000122,
+    292.3400000000599
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:19/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:17/fillet.radius",
+    "f:fillet:19/fillet.radius"
+   ],
+   "message": "d:f:fillet:19/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:17",
+    "f:fillet:19"
+   ],
+   "view": "v:plan"
   }
  ],
  "problems": [
@@ -5863,88 +5961,6 @@
    "subjects": []
   },
   {
-   "code": "annotation_outside_area",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:10~1fillet.radius/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the plan view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:10~1fillet.radius/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_outside_area",
-   "id": "p:annotation_outside_area:d:f:fillet:10/fillet.radius|v:plan",
-   "impact": "advisory",
-   "message": "The dimension 2\u00d7 R12.7 runs up to 12.7 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond.",
-   "severity": "info",
-   "subjects": [
-    "d:f:fillet:10/fillet.radius",
-    "v:plan"
-   ]
-  },
-  {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
     "leader"
@@ -6282,6 +6298,174 @@
    "subjects": [
     "pmi:geometric_tolerance.flatness:f45",
     "d:f:section_recess:5/channel_width.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:boss:2~1boss_height.length/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:boss:2~1boss_height.length/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f8|d:f:boss:2/boss_height.length",
+   "impact": "advisory",
+   "message": "The leader of the feature control frame \u23e5 0.254 crosses a line of 2\u00d7 12.07.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.flatness:f8",
+    "d:f:boss:2/boss_height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.flatness:f8/place",
+     "value": {
+      "lane": 0,
+      "side": "left",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation to the left of the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.flatness:f8/place",
+       "value": {
+        "lane": 0,
+        "side": "left",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f8|pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u23e5 0.254 crosses a line of the feature control frame \u2313 0.508 A B C.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.flatness:f8",
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C"
    ]
   },
   {
@@ -6706,6 +6890,89 @@
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
     "pmi:datum.datum:f8:t=D"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "annotations/pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C/place",
+     "value": {
+      "lane": 0,
+      "side": "below",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the annotation below the side view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "annotations/pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C/place",
+       "value": {
+        "lane": 0,
+        "side": "below",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C|pmi:geometric_tolerance.flatness:f8",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.508 A B C crosses a line of the feature control frame \u23e5 0.254.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f180:ref=A,B,C",
+    "pmi:geometric_tolerance.flatness:f8"
    ]
   },
   {
@@ -7139,6 +7406,334 @@
    ]
   },
   {
+   "code": "leader_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:fillet:4~1fillet.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 28\u00d7 R3.175 callout above the side view, nearest the view. Trade-off: adds these findings: The leader of 28\u00d7 R3.175 crosses a line of 2\u00d7 16.34. [annotation_leader_crossing] The leader of 28\u00d7 R3.175 crosses a line of 2\u00d7 12.07. [annotation_leader_crossing] The leader of 28\u00d7 R3.175 crosses a line of the feature control frame \u2313 0.508 A B C. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.508 A B C crosses a line of 28\u00d7 R3.175. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.508 A B C crosses a line of 28\u00d7 R3.175. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:fillet:4~1fillet.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:f:fillet:4/fillet.radius|f:hole:10:line:0",
+   "impact": "readability",
+   "message": "The leader of 28\u00d7 R3.175 crosses the \u23007.137 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:4/fillet.radius",
+    "f:hole:10"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:fillet:4~1fillet.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 28\u00d7 R3.175 callout above the side view, nearest the view. Trade-off: adds these findings: The leader of 28\u00d7 R3.175 crosses a line of 2\u00d7 16.34. [annotation_leader_crossing] The leader of 28\u00d7 R3.175 crosses a line of 2\u00d7 12.07. [annotation_leader_crossing] The leader of 28\u00d7 R3.175 crosses a line of the feature control frame \u2313 0.508 A B C. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.508 A B C crosses a line of 28\u00d7 R3.175. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.508 A B C crosses a line of 28\u00d7 R3.175. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:fillet:4~1fillet.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:f:fillet:4/fillet.radius|f:hole:11:line:0",
+   "impact": "readability",
+   "message": "The leader of 28\u00d7 R3.175 crosses the \u23007.137 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:4/fillet.radius",
+    "f:hole:11"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:fillet:4~1fillet.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 28\u00d7 R3.175 callout above the side view, nearest the view. Trade-off: adds these findings: The leader of 28\u00d7 R3.175 crosses a line of 2\u00d7 16.34. [annotation_leader_crossing] The leader of 28\u00d7 R3.175 crosses a line of 2\u00d7 12.07. [annotation_leader_crossing] The leader of 28\u00d7 R3.175 crosses a line of the feature control frame \u2313 0.508 A B C. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.508 A B C crosses a line of 28\u00d7 R3.175. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.508 A B C crosses a line of 28\u00d7 R3.175. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:fillet:4~1fillet.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:f:fillet:4/fillet.radius|f:hole:12:line:0",
+   "impact": "readability",
+   "message": "The leader of 28\u00d7 R3.175 crosses the \u23007.137 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:4/fillet.radius",
+    "f:hole:12"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:fillet:4~1fillet.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A2"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 28\u00d7 R3.175 callout above the side view, nearest the view. Trade-off: adds these findings: The leader of 28\u00d7 R3.175 crosses a line of 2\u00d7 16.34. [annotation_leader_crossing] The leader of 28\u00d7 R3.175 crosses a line of 2\u00d7 12.07. [annotation_leader_crossing] The leader of 28\u00d7 R3.175 crosses a line of the feature control frame \u2313 0.508 A B C. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.508 A B C crosses a line of 28\u00d7 R3.175. [annotation_leader_crossing] The leader of the feature control frame \u2313 0.508 A B C crosses a line of 28\u00d7 R3.175. [annotation_leader_crossing].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:fillet:4~1fillet.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A2"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:f:fillet:4/fillet.radius|f:hole:9:line:0",
+   "impact": "readability",
+   "message": "The leader of 28\u00d7 R3.175 crosses the \u23007.137 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:4/fillet.radius",
+    "f:hole:9"
+   ]
+  },
+  {
    "code": "extension_through_feature",
    "fix": [
     {
@@ -7174,7 +7769,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 232.41 dimension to the left of the front view, in the second row of dimensions. Trade-off: adds these findings: The dimension 232.41 runs up to 6.5 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 2\u00d7 \u00f831.75 crosses a line of 232.41. [annotation_leader_crossing] The second extension line of 232.41 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 232.41 crosses the \u23007.137 hole. [extension_through_feature].",
+     "description": "Move the 232.41 dimension to the left of the front view, in the second row of dimensions. Trade-off: adds these findings: The dimension 232.41 runs up to 7.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 2\u00d7 \u00f831.75 crosses a line of 232.41. [annotation_leader_crossing] The second extension line of 232.41 crosses the \u23007.137 hole. [extension_through_feature] The second extension line of 232.41 crosses the \u23007.137 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -7409,10 +8004,10 @@
    "message": "Grouped shallow relief radii are governed by the placed model-profile note.",
    "severity": "info",
    "subjects": [
+    "f:blend:1",
+    "f:blend:2",
     "f:blend:3",
-    "f:blend:4",
-    "f:blend:5",
-    "f:fillet:15",
+    "f:fillet:31",
     "n:f:blend:relief/profiles"
    ]
   },
@@ -7421,7 +8016,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 141 of 187 faces; 46 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 157 of 187 faces; 30 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:6",
@@ -7438,27 +8033,11 @@
     "face:78",
     "face:79",
     "face:82",
-    "face:83",
-    "face:85",
     "face:86",
-    "face:87",
-    "face:89",
     "face:90",
-    "face:91",
-    "face:93",
     "face:94",
-    "face:95",
-    "face:97",
     "face:98",
     "face:101",
-    "face:103",
-    "face:107",
-    "face:110",
-    "face:114",
-    "face:115",
-    "face:116",
-    "face:117",
-    "face:118",
     "face:125",
     "face:127",
     "face:162",
@@ -7477,24 +8056,16 @@
    "group": "shape_not_recognised:protrusion",
    "id": "p:shape_not_recognised:face:46",
    "impact": "incomplete",
-   "message": "15 faces (46, 83, 85, 86, 87, 89, 90, 91, 93, 94, 95, 97, \u2026) form a protrusion of 304.8 \u00d7 73.03 \u00d7 25.4 mm at (0, 36.51, -222.25); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "message": "Faces 46, 86, 90, 94, 98, 127, 180 form a protrusion of 304.8 \u00d7 73.03 \u00d7 25.4 mm at (0, 36.51, -222.25); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
    "refs": [
     "shape:protrusion"
    ],
    "severity": "warning",
    "subjects": [
     "face:46",
-    "face:83",
-    "face:85",
     "face:86",
-    "face:87",
-    "face:89",
     "face:90",
-    "face:91",
-    "face:93",
     "face:94",
-    "face:95",
-    "face:97",
     "face:98",
     "face:127",
     "face:180"
@@ -7565,6 +8136,18 @@
    "subjects": [
     "d:f:boss:2/boss.diameter",
     "d:f:boss:4/boss.diameter"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:envelope/depth.length|d:f:fillet:4/fillet.radius",
+   "impact": "advisory",
+   "message": "Line-work of 97.79 passes less than 0.5 mm from the label of 28\u00d7 R3.175, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/depth.length",
+    "d:f:fillet:4/fillet.radius"
    ]
   },
   {
@@ -7668,9 +8251,8 @@
    "annotation_leader_crossing:arrow+leader": 1,
    "annotation_leader_crossing:dimension_line": 1,
    "annotation_leader_crossing:dimension_line+extension_line": 1,
-   "annotation_leader_crossing:extension_line": 2,
-   "annotation_leader_crossing:leader": 3,
-   "annotation_outside_area": 1,
+   "annotation_leader_crossing:extension_line": 3,
+   "annotation_leader_crossing:leader": 5,
    "chamfer_leader_target_unverifiable": 1,
    "channel_requirement_unverifiable:thickness.length": 4,
    "datum_leader_remote": 2,
@@ -7685,7 +8267,8 @@
    "hole_pattern_requirement_missing:location.length.y": 1,
    "hole_pattern_requirement_missing:location.length.z": 1,
    "hole_pattern_requirement_missing:pitch.length": 1,
-   "label_crowded": 3,
+   "label_crowded": 4,
+   "leader_through_feature": 4,
    "leader_to_hidden_edge": 2,
    "nominal_rounded": 10,
    "pmi_not_extracted": 38,
@@ -7700,6 +8283,7 @@
    "pmi_not_lowered:surface_label": 4,
    "pmi_presentation_not_read": 1,
    "prismatic_pocket_requirement_unsupported": 2,
+   "radius_leader_not_radial": 2,
    "relief_profiles_per_model": 1,
    "shape_not_recognised:protrusion": 1,
    "sheet_preference_exceeded": 1,
@@ -7708,8 +8292,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 245,
-    "groups": 13
+    "findings": 246,
+    "groups": 12
    },
    "decision": {
     "findings": 1,
@@ -7720,8 +8304,8 @@
     "groups": 22
    },
    "readability": {
-    "findings": 16,
-    "groups": 8
+    "findings": 24,
+    "groups": 10
    }
   }
  }

@@ -348,6 +348,48 @@
     "geometric_tolerance:#78"
    ],
    "subjects": []
+  },
+  {
+   "annotation": "d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "at": [
+    49.1695318085257,
+    129.62933980572205
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:cylindrical_profile:1/cylindrical_profile.radius"
+   ],
+   "message": "d:f:cylindrical_profile:1/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:cylindrical_profile:1"
+   ],
+   "view": "v:plan"
+  },
+  {
+   "annotation": "d:f:cylindrical_profile:2/cylindrical_profile.radius",
+   "at": [
+    49.76303585741704,
+    129.4607139383767
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:2/cylindrical_profile.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:cylindrical_profile:2/cylindrical_profile.radius"
+   ],
+   "message": "d:f:cylindrical_profile:2/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:cylindrical_profile:2"
+   ],
+   "view": "v:plan"
   }
  ],
  "problems": [
@@ -679,11 +721,379 @@
    "subjects": []
   },
   {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:cylindrical_profile:1~1cylindrical_profile.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the R0.082 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.082 crosses a line of 31.5. [annotation_leader_crossing] The leader of R0.082 crosses a line of R0.215. [annotation_leader_crossing] The leader of R0.215 crosses a line of R0.082. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:cylindrical_profile:1~1cylindrical_profile.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      }
+     ],
+     "scope": "sheet"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow",
+   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:1/cylindrical_profile.radius|d:f:cylindrical_profile:2/cylindrical_profile.radius",
+   "impact": "readability",
+   "message": "The leader of R0.082 crosses a line of R0.692.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:cylindrical_profile:1/cylindrical_profile.radius",
+    "d:f:cylindrical_profile:2/cylindrical_profile.radius"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:cylindrical_profile:1~1cylindrical_profile.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the R0.082 callout to the left of the plan view, nearest the view. Trade-off: adds these findings: R0.082 runs up to 6.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of R0.082 crosses a line of 31.5. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:cylindrical_profile:1~1cylindrical_profile.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      }
+     ],
+     "scope": "sheet"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow",
+   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:1/cylindrical_profile.radius|d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "message": "The leader of R0.082 crosses a line of R0.826.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:cylindrical_profile:1/cylindrical_profile.radius",
+    "d:f:fillet:1/fillet.radius"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:cylindrical_profile:2~1cylindrical_profile.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the R0.692 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.692 crosses a line of 31.5. [annotation_leader_crossing] The leader of R0.692 crosses a line of R0.215. [annotation_leader_crossing] The leader of R0.215 crosses a line of R0.692. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:cylindrical_profile:2~1cylindrical_profile.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      }
+     ],
+     "scope": "sheet"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow",
+   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:2/cylindrical_profile.radius|d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "impact": "readability",
+   "message": "The leader of R0.692 crosses a line of R0.082.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:cylindrical_profile:2/cylindrical_profile.radius",
+    "d:f:cylindrical_profile:1/cylindrical_profile.radius"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:cylindrical_profile:2~1cylindrical_profile.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the R0.692 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.692 crosses a line of 31.5. [annotation_leader_crossing] The leader of R0.692 crosses a line of R0.215. [annotation_leader_crossing] The leader of R0.215 crosses a line of R0.692. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:cylindrical_profile:2~1cylindrical_profile.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      }
+     ],
+     "scope": "sheet"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:2/cylindrical_profile.radius|d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "message": "The leader of R0.692 crosses a line of R0.826.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:cylindrical_profile:2/cylindrical_profile.radius",
+    "d:f:fillet:1/fillet.radius"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:fillet:1~1fillet.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the R0.826 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.826 crosses a line of 31.5. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:fillet:1~1fillet.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      }
+     ],
+     "scope": "sheet"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow",
+   "id": "p:annotation_leader_crossing:d:f:fillet:1/fillet.radius|d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "impact": "readability",
+   "message": "The leader of R0.826 crosses a line of R0.082.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:1/fillet.radius",
+    "d:f:cylindrical_profile:1/cylindrical_profile.radius"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:fillet:1~1fillet.radius/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the R0.826 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.826 crosses a line of 31.5. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:fillet:1~1fillet.radius/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      }
+     ],
+     "scope": "sheet"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:d:f:fillet:1/fillet.radius|d:f:cylindrical_profile:2/cylindrical_profile.radius",
+   "impact": "readability",
+   "message": "The leader of R0.826 crosses a line of R0.692.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:1/fillet.radius",
+    "d:f:cylindrical_profile:2/cylindrical_profile.radius"
+   ]
+  },
+  {
    "code": "unclaimed_geometry",
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 19 of 42 faces; 23 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 23 of 42 faces; 19 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
@@ -694,20 +1104,16 @@
     "face:7",
     "face:9",
     "face:12",
-    "face:13",
     "face:15",
-    "face:17",
     "face:18",
     "face:20",
     "face:21",
-    "face:25",
     "face:26",
     "face:27",
     "face:30",
     "face:33",
     "face:35",
     "face:36",
-    "face:37",
     "face:41"
    ]
   },
@@ -734,7 +1140,7 @@
    "group": "shape_not_recognised:cut",
    "id": "p:shape_not_recognised:face:9",
    "impact": "incomplete",
-   "message": "Faces 9, 12, 13, 15, 17, 18, 20 form a cut of 3.04 \u00d7 3.89 \u00d7 0.11 mm at (-23.6, -3.96, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "message": "Faces 9, 12, 15, 18, 20 form a cut of 3.04 \u00d7 3.89 \u00d7 0.1 mm at (-23.6, -3.96, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
    "refs": [
     "shape:cut"
    ],
@@ -742,9 +1148,7 @@
    "subjects": [
     "face:9",
     "face:12",
-    "face:13",
     "face:15",
-    "face:17",
     "face:18",
     "face:20"
    ]
@@ -754,22 +1158,32 @@
    "group": "shape_not_recognised:cut",
    "id": "p:shape_not_recognised:face:21",
    "impact": "incomplete",
-   "message": "Faces 21, 25, 26, 27, 30, 33, 35, 36, 37, 41 form a cut of 2.95 \u00d7 6.91 \u00d7 0.11 mm at (-23.56, 1.83, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "message": "Faces 21, 26, 27, 30, 33, 35, 36, 41 form a cut of 2.95 \u00d7 6.91 \u00d7 0.11 mm at (-23.56, 1.83, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
    "refs": [
     "shape:cut"
    ],
    "severity": "warning",
    "subjects": [
     "face:21",
-    "face:25",
     "face:26",
     "face:27",
     "face:30",
     "face:33",
     "face:35",
     "face:36",
-    "face:37",
     "face:41"
+   ]
+  },
+  {
+   "code": "leader_across_view",
+   "group": "leader_across_view",
+   "id": "p:leader_across_view:d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "message": "The leader of R0.826 runs 37.2 mm across the plan view, crossing 7 of its lines where a leader leaving the other way would cross 3.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:1/fillet.radius",
+    "v:plan"
    ]
   }
  ],
@@ -788,8 +1202,11 @@
   "groups": {
    "angular_dimension_dropped": 1,
    "angular_requirement_missing:profile_angle.angle": 1,
+   "annotation_leader_crossing:arrow": 4,
+   "annotation_leader_crossing:arrow+leader": 2,
    "datum_origin_unusable": 1,
    "general_tolerance_missing": 1,
+   "leader_across_view": 1,
    "nominal_rounded": 1,
    "pmi_not_extracted": 12,
    "pmi_not_extracted:dimension": 1,
@@ -797,6 +1214,7 @@
    "pmi_not_lowered:dimension": 6,
    "pmi_not_lowered:geometric_tolerance": 8,
    "pmi_presentation_not_read": 1,
+   "radius_leader_not_radial": 2,
    "section_recess_recognition_refused": 7,
    "shape_not_recognised:cut": 2,
    "shape_not_recognised:step": 1,
@@ -816,8 +1234,8 @@
     "groups": 7
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 9,
+    "groups": 4
    }
   }
  }

@@ -1,0 +1,220 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:2/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   }
+  ],
+  "supported": 2,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "feature_not_located",
+   "fix": "Locate each hole from a datum along each axis named, in the view that looks along it.",
+   "fix_description": "Locate each hole from a datum along each axis named, in the view that looks along it.",
+   "group": "feature_not_located:hole",
+   "id": "l:feature_not_located:holes",
+   "impact": "incomplete",
+   "message": "1 hole(s) have no locating dimension",
+   "requirements": [
+    {
+     "feature": "f:hole:2",
+     "parameter": "location.length.z"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "profile_corner_unlocated",
+   "fix": "Locate the corner's stations with linear dimensions (the profile's `linear` choice).",
+   "fix_description": "Locate the corner's stations with linear dimensions (the profile's `linear` choice).",
+   "group": "profile_corner_unlocated:profile_angle.location",
+   "id": "l:profile_corner_unlocated:outer_profile:f1:e4:e8/profile_angle.location",
+   "impact": "incomplete",
+   "measurements": [
+    "outer_profile:f1:e4:e8/profile_angle.location"
+   ],
+   "message": "Outer-profile corner outer_profile:f1:e4:e8 is not located: its angle fixes the edge's direction, not where the edge lies.",
+   "requirements": [
+    {
+     "feature": "outer_profile:f1:e4:e8",
+     "parameter": "profile_angle.location"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "outer_profile:f1:e4:e8"
+   ]
+  }
+ ],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:2",
+   "impact": "incomplete",
+   "message": "The \u230010 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
+   "impact": "advisory",
+   "message": "The dimension \"38.641\" has modelled nominal 38.641016 but prints 38.641 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/height.length"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 9 of 10 faces; 1 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:8"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "d:envelope/profile_angle.angle.f1_e4_e8",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:front:d:envelope/profile_angle.angle.f1_e4_e8",
+   "impact": "advisory",
+   "message": "label of annotation '120\u00b0' lies inside view 'front' extents [x=28.1\u2013128.1, y=63.0\u2013101.6] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:front"
+  }
+ ],
+ "summary": {
+  "groups": {
+   "feature_not_dimensioned:hole": 1,
+   "feature_not_located:hole": 1,
+   "general_tolerance_missing": 1,
+   "nominal_rounded": 1,
+   "profile_corner_unlocated:profile_angle.location": 1,
+   "unclaimed_geometry": 1,
+   "view_annotation_inside_extents": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 3,
+    "groups": 3
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 3,
+    "groups": 3
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}

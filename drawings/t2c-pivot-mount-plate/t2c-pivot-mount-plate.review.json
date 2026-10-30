@@ -1,0 +1,192 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:4/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   }
+  ],
+  "supported": 5,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "assembly_principal_drawn",
+   "group": "assembly_principal_drawn",
+   "id": "p:assembly_principal_drawn:part",
+   "impact": "advisory",
+   "message": "pivot-mount-plate is an assembly of 3 parts; its largest, part 0 (mount_plate), holds the others within its box and is drawn alone, so they (1: bushing, 2: liner) are neither drawn nor dimensioned as its features; a general note on the sheet says so (annotations/n:assembly/omit leaves it out). To draw another part, choose it by its index: --part K on the command line, or \"part\": K in a request.",
+   "refs": [
+    "mount_plate",
+    "bushing",
+    "liner"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:4/location.length.x|d:f:hole_pattern:1/grid_pitch.length.col",
+   "impact": "advisory",
+   "message": "Line-work of 50 passes less than 0.5 mm from the label of 76, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:4/location.length.x",
+    "d:f:hole_pattern:1/grid_pitch.length.col"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "d:f:hole:4/bore.diameter",
+   "code": "leader_centerline_overlap",
+   "fix": "move the annotation clear of the fixed ink",
+   "fix_description": "Move the annotation clear of the fixed ink.",
+   "group": "leader_centerline_overlap",
+   "id": "l:leader_centerline_overlap:d:f:hole:4/bore.diameter+ink:v:plan:f:hole:4",
+   "impact": "readability",
+   "message": "'\u230016 THRU' touches fixed ink 'ink:v:plan:f:hole:4'",
+   "related": [
+    "ink:v:plan:f:hole:4"
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  }
+ ],
+ "summary": {
+  "groups": {
+   "assembly_principal_drawn": 1,
+   "general_tolerance_missing": 1,
+   "label_crowded": 1,
+   "leader_centerline_overlap": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 2,
+    "groups": 2
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 0,
+    "groups": 0
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
+   }
+  }
+ }
+}

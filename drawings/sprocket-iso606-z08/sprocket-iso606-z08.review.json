@@ -15,7 +15,42 @@
  },
  "lint": [
   {
-   "annotation": "d:f:fillet:13/fillet.radius",
+   "annotation": "d:f:cylindrical_profile:7/cylindrical_profile.radius",
+   "at": [
+    74.64654874464104,
+    113.97858251411587
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:7/cylindrical_profile.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:cylindrical_profile:2/cylindrical_profile.radius",
+    "f:cylindrical_profile:3/cylindrical_profile.radius",
+    "f:cylindrical_profile:6/cylindrical_profile.radius",
+    "f:cylindrical_profile:7/cylindrical_profile.radius",
+    "f:cylindrical_profile:8/cylindrical_profile.radius",
+    "f:cylindrical_profile:9/cylindrical_profile.radius",
+    "f:cylindrical_profile:10/cylindrical_profile.radius",
+    "f:cylindrical_profile:11/cylindrical_profile.radius"
+   ],
+   "message": "d:f:cylindrical_profile:7/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:cylindrical_profile:2",
+    "f:cylindrical_profile:3",
+    "f:cylindrical_profile:6",
+    "f:cylindrical_profile:7",
+    "f:cylindrical_profile:8",
+    "f:cylindrical_profile:9",
+    "f:cylindrical_profile:10",
+    "f:cylindrical_profile:11"
+   ],
+   "view": "v:plan"
+  },
+  {
+   "annotation": "d:f:fillet:14/fillet.radius",
    "at": [
     46.24686705690822,
     33.65801000337601
@@ -23,12 +58,11 @@
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
    "group": "radius_leader_target_unverifiable",
-   "id": "l:radius_leader_target_unverifiable:d:f:fillet:13/fillet.radius",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:14/fillet.radius",
    "impact": "advisory",
    "measurements": [
     "f:fillet:1/fillet.radius",
     "f:fillet:2/fillet.radius",
-    "f:fillet:3/fillet.radius",
     "f:fillet:4/fillet.radius",
     "f:fillet:5/fillet.radius",
     "f:fillet:6/fillet.radius",
@@ -41,14 +75,14 @@
     "f:fillet:13/fillet.radius",
     "f:fillet:14/fillet.radius",
     "f:fillet:15/fillet.radius",
-    "f:fillet:16/fillet.radius"
+    "f:fillet:16/fillet.radius",
+    "f:fillet:17/fillet.radius"
    ],
-   "message": "d:f:fillet:13/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "message": "d:f:fillet:14/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
    "severity": "info",
    "subjects": [
     "f:fillet:1",
     "f:fillet:2",
-    "f:fillet:3",
     "f:fillet:4",
     "f:fillet:5",
     "f:fillet:6",
@@ -61,7 +95,8 @@
     "f:fillet:13",
     "f:fillet:14",
     "f:fillet:15",
-    "f:fillet:16"
+    "f:fillet:16",
+    "f:fillet:17"
    ],
    "view": "v:front"
   }
@@ -191,132 +226,39 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 37 of 94 faces; 57 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 76 of 94 faces; 18 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
-    "face:0",
     "face:1",
-    "face:6",
     "face:7",
-    "face:8",
-    "face:10",
-    "face:11",
     "face:12",
-    "face:13",
-    "face:14",
-    "face:17",
-    "face:18",
-    "face:19",
-    "face:20",
-    "face:23",
-    "face:24",
-    "face:25",
-    "face:26",
-    "face:29",
-    "face:30",
-    "face:31",
-    "face:32",
     "face:42",
-    "face:45",
     "face:46",
     "face:48",
-    "face:49",
-    "face:51",
     "face:52",
     "face:53",
-    "face:54",
-    "face:55",
     "face:57",
-    "face:59",
     "face:60",
-    "face:62",
-    "face:63",
-    "face:66",
     "face:67",
     "face:68",
-    "face:69",
-    "face:70",
     "face:71",
-    "face:74",
     "face:75",
-    "face:77",
-    "face:78",
-    "face:80",
     "face:81",
     "face:82",
-    "face:83",
-    "face:84",
-    "face:88",
     "face:89",
-    "face:90",
-    "face:91",
     "face:92"
    ]
   },
   {
-   "code": "shape_not_recognised",
-   "group": "shape_not_recognised:teeth",
-   "id": "p:shape_not_recognised:face:0",
-   "impact": "incomplete",
-   "message": "53 faces (0, 1, 6, 8, 10, 11, 13, 14, 17, 18, 19, 20, \u2026) form a periodic pattern of 8 teeth or notches about the axis through (0, 0, 0) along (0, 0, 1), 36.23 \u00d7 36.23 \u00d7 5.9 mm at (0, 0, 2.95); no tooth form or count is drawn. State the gear in the Spec's gears, which withdraws this warning for a gear on this axis, or add a note on one of its faces in the Spec's faces.",
-   "refs": [
-    "shape:teeth"
-   ],
-   "severity": "warning",
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:cylindrical_profile:22/cylindrical_profile.radius|d:f:cylindrical_profile:7/cylindrical_profile.radius",
+   "impact": "advisory",
+   "message": "Line-work of 16\u00d7 R6.67 passes less than 0.5 mm from the label of 8\u00d7 R3.932, so it touches the text.",
+   "severity": "info",
    "subjects": [
-    "face:0",
-    "face:1",
-    "face:6",
-    "face:8",
-    "face:10",
-    "face:11",
-    "face:13",
-    "face:14",
-    "face:17",
-    "face:18",
-    "face:19",
-    "face:20",
-    "face:23",
-    "face:24",
-    "face:25",
-    "face:26",
-    "face:29",
-    "face:30",
-    "face:31",
-    "face:32",
-    "face:45",
-    "face:46",
-    "face:48",
-    "face:49",
-    "face:51",
-    "face:52",
-    "face:53",
-    "face:54",
-    "face:55",
-    "face:57",
-    "face:59",
-    "face:60",
-    "face:62",
-    "face:63",
-    "face:66",
-    "face:67",
-    "face:68",
-    "face:69",
-    "face:70",
-    "face:71",
-    "face:74",
-    "face:75",
-    "face:77",
-    "face:78",
-    "face:80",
-    "face:81",
-    "face:82",
-    "face:83",
-    "face:84",
-    "face:88",
-    "face:89",
-    "face:90",
-    "face:91"
+    "d:f:cylindrical_profile:22/cylindrical_profile.radius",
+    "d:f:cylindrical_profile:7/cylindrical_profile.radius"
    ]
   }
  ],
@@ -324,27 +266,28 @@
  "summary": {
   "groups": {
    "general_tolerance_missing": 1,
+   "label_crowded": 1,
    "nominal_rounded": 4,
+   "radius_leader_not_radial": 1,
    "radius_leader_target_unverifiable": 1,
-   "shape_not_recognised:teeth": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 6,
-    "groups": 3
+    "findings": 7,
+    "groups": 4
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 1,
-    "groups": 1
-   },
-   "readability": {
     "findings": 0,
     "groups": 0
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
    }
   }
  }

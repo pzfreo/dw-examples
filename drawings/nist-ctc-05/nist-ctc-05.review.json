@@ -781,6 +781,117 @@
     "datum:#1164"
    ],
    "subjects": []
+  },
+  {
+   "annotation": "d:f:fillet:1/fillet.radius",
+   "at": [
+    89.14100795910369,
+    175.02867299371067
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:1/fillet.radius",
+    "f:fillet:2/fillet.radius",
+    "f:fillet:3/fillet.radius",
+    "f:fillet:4/fillet.radius",
+    "f:fillet:5/fillet.radius",
+    "f:fillet:6/fillet.radius",
+    "f:fillet:7/fillet.radius",
+    "f:fillet:8/fillet.radius",
+    "f:fillet:9/fillet.radius",
+    "f:fillet:10/fillet.radius",
+    "f:fillet:11/fillet.radius",
+    "f:fillet:12/fillet.radius",
+    "f:fillet:13/fillet.radius",
+    "f:fillet:14/fillet.radius",
+    "f:fillet:15/fillet.radius",
+    "f:fillet:16/fillet.radius",
+    "f:fillet:17/fillet.radius",
+    "f:fillet:18/fillet.radius",
+    "f:fillet:19/fillet.radius",
+    "f:fillet:20/fillet.radius",
+    "f:fillet:21/fillet.radius"
+   ],
+   "message": "d:f:fillet:1/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:1",
+    "f:fillet:2",
+    "f:fillet:3",
+    "f:fillet:4",
+    "f:fillet:5",
+    "f:fillet:6",
+    "f:fillet:7",
+    "f:fillet:8",
+    "f:fillet:9",
+    "f:fillet:10",
+    "f:fillet:11",
+    "f:fillet:12",
+    "f:fillet:13",
+    "f:fillet:14",
+    "f:fillet:15",
+    "f:fillet:16",
+    "f:fillet:17",
+    "f:fillet:18",
+    "f:fillet:19",
+    "f:fillet:20",
+    "f:fillet:21"
+   ],
+   "view": "v:front"
+  },
+  {
+   "annotation": "d:f:cylindrical_profile:5/cylindrical_profile.radius",
+   "at": [
+    158.35092316368136,
+    354.7159231636772
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:5/cylindrical_profile.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:cylindrical_profile:5/cylindrical_profile.radius",
+    "f:cylindrical_profile:6/cylindrical_profile.radius"
+   ],
+   "message": "d:f:cylindrical_profile:5/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:cylindrical_profile:5",
+    "f:cylindrical_profile:6"
+   ],
+   "view": "v:plan"
+  },
+  {
+   "annotation": "d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "at": [
+    313.49967245753675,
+    173.59201052925317
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:cylindrical_profile:1/cylindrical_profile.radius",
+    "f:cylindrical_profile:2/cylindrical_profile.radius",
+    "f:cylindrical_profile:3/cylindrical_profile.radius",
+    "f:cylindrical_profile:4/cylindrical_profile.radius"
+   ],
+   "message": "d:f:cylindrical_profile:1/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:cylindrical_profile:1",
+    "f:cylindrical_profile:2",
+    "f:cylindrical_profile:3",
+    "f:cylindrical_profile:4"
+   ],
+   "view": "v:side"
   }
  ],
  "problems": [
@@ -792,7 +903,7 @@
    "message": "Unrecognised features on this part: 4 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.3 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -1441,174 +1552,6 @@
    "fix": [
     {
      "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.circularity:f72/place",
-     "value": {
-      "lane": 0,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation below the plan view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.circularity:f72/place",
-       "value": {
-        "lane": 0,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.circularity:f72|pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u25cb 0.0508 crosses a line of the feature control frame \u25ce \u23000.762 A.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.circularity:f72",
-    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone/place",
-     "value": {
-      "lane": 0,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation below the plan view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone/place",
-       "value": {
-        "lane": 0,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone|pmi:geometric_tolerance.circularity:f72",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u25ce \u23000.762 A crosses a line of the feature control frame \u25cb 0.0508.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
-    "pmi:geometric_tolerance.circularity:f72"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
      "path": "annotations/pmi:geometric_tolerance.perpendicularity:f23:ref=D/place",
      "value": {
       "lane": 0,
@@ -1766,54 +1709,6 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f27:ref=C",
     "pmi:geometric_tolerance.perpendicularity:f23:ref=D"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.circularity:f72|f:hole:11:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u25cb 0.0508 crosses the \u230019.05 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.circularity:f72",
-    "f:hole:11"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.circularity:f72|v:plan:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u25cb 0.0508 crosses a feature.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.circularity:f72",
-    "v:plan"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone|f:hole:11:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u25ce \u23000.762 A crosses the \u230019.05 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
-    "f:hole:11"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone|v:plan:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u25ce \u23000.762 A crosses a feature.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
-    "v:plan"
    ]
   },
   {
@@ -2228,10 +2123,10 @@
    "message": "Grouped shallow relief radii are governed by the placed model-profile note.",
    "severity": "info",
    "subjects": [
-    "f:blend:8",
-    "f:blend:9",
-    "f:blend:10",
-    "f:fillet:7",
+    "f:blend:1",
+    "f:blend:2",
+    "f:blend:3",
+    "f:fillet:22",
     "n:f:blend:relief/profiles"
    ]
   },
@@ -2240,21 +2135,15 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 112 of 156 faces; 44 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 131 of 156 faces; 25 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:0",
     "face:1",
     "face:8",
     "face:11",
-    "face:13",
-    "face:15",
-    "face:18",
-    "face:19",
     "face:23",
-    "face:24",
     "face:27",
-    "face:28",
     "face:38",
     "face:40",
     "face:43",
@@ -2268,42 +2157,12 @@
     "face:67",
     "face:69",
     "face:70",
-    "face:71",
     "face:73",
     "face:74",
     "face:75",
     "face:76",
     "face:77",
-    "face:92",
-    "face:95",
-    "face:96",
-    "face:98",
-    "face:99",
-    "face:100",
-    "face:102",
-    "face:103",
-    "face:104",
-    "face:105",
-    "face:107",
-    "face:108",
-    "face:110"
-   ]
-  },
-  {
-   "code": "shape_not_recognised",
-   "group": "shape_not_recognised:cut",
-   "id": "p:shape_not_recognised:face:23",
-   "impact": "incomplete",
-   "message": "Faces 23, 24, 27, 28 form 2 congruent shapes, each a cut of 79.38 \u00d7 38.1 \u00d7 8.89 mm, the first at (-223.84, 0, 50.16); recognition does not give them, so they are neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
-   "refs": [
-    "shape:cut"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "face:23",
-    "face:24",
-    "face:27",
-    "face:28"
+    "face:92"
    ]
   },
   {
@@ -2379,6 +2238,18 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
+   "id": "p:label_crowded:d:f:turned_step:2/step.diameter|pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone",
+   "impact": "advisory",
+   "message": "The labels of \u00f8304.8 and the feature control frame \u25ce \u23000.762 A are less than 0.5 mm apart, so they read as one.",
+   "severity": "info",
+   "subjects": [
+    "d:f:turned_step:2/step.diameter",
+    "pmi:geometric_tolerance.concentricity:f10:ref=A:mod=diameter_zone"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
    "id": "p:label_crowded:d:f:turned_step:2/step.length|d:f:chamfer:2/chamfer.length",
    "impact": "advisory",
    "message": "Line-work of 101.6 passes less than 0.5 mm from the label of 2\u00d7 C6.35, so it touches the text.",
@@ -2391,12 +2262,12 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:5/bore.diameter|ink:v:plan:cut:A:arrow:1",
+   "id": "p:label_crowded:d:f:cylindrical_profile:5/cylindrical_profile.radius|ink:v:plan:cut:A:arrow:1",
    "impact": "advisory",
-   "message": "The dimension \u2300254 \u00b10.0254 \u21a7 92.08 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "message": "The dimension 2\u00d7 R19.05 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:5/bore.diameter",
+    "d:f:cylindrical_profile:5/cylindrical_profile.radius",
     "v:section_aa"
    ]
   },
@@ -2452,15 +2323,15 @@
  ],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:arrow+leader": 4,
+   "annotation_leader_crossing:arrow+leader": 2,
    "datum_origin_unusable": 4,
    "dimensions_not_ported:section_recess": 4,
    "features_not_recognised": 1,
    "frame_datum_not_drawn:geometric_tolerance": 2,
    "general_tolerance_missing": 1,
-   "label_crowded": 3,
+   "label_crowded": 4,
    "leader_across_view": 1,
-   "leader_through_feature": 12,
+   "leader_through_feature": 8,
    "leader_to_hidden_edge": 1,
    "nominal_rounded": 28,
    "pmi_not_extracted": 28,
@@ -2473,17 +2344,18 @@
    "pmi_not_lowered:geometric_tolerance": 8,
    "pmi_presentation_not_read": 1,
    "prismatic_pocket_requirement_unsupported": 2,
+   "radius_leader_not_radial": 3,
    "relief_profiles_per_model": 1,
    "section_recess_recognition_refused": 2,
    "shape_not_recognised:chamfer": 1,
-   "shape_not_recognised:cut": 2,
+   "shape_not_recognised:cut": 1,
    "sheet_preference_exceeded": 1,
    "unclaimed_geometry": 1,
    "view_annotation_inside_extents": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 80,
+    "findings": 81,
     "groups": 10
    },
    "decision": {
@@ -2491,12 +2363,12 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 51,
+    "findings": 50,
     "groups": 14
    },
    "readability": {
-    "findings": 18,
-    "groups": 4
+    "findings": 15,
+    "groups": 5
    }
   }
  }

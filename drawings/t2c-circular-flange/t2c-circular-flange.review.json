@@ -1,0 +1,251 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:6",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:7",
+    "state": "supported"
+   }
+  ],
+  "supported": 7,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "hole_pattern_requirement_missing",
+   "fix": "State the location length x of the feature in a view that shows its true size or location.",
+   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:location.length.x",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.x",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:1/location.length.x"
+   ],
+   "message": "f:hole_pattern:1 has no proven x location of its centre on the drawing.",
+   "related": [
+    "f:hole:1",
+    "f:hole:2",
+    "f:hole:4",
+    "f:hole:5",
+    "f:hole:6",
+    "f:hole:7"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:1",
+     "parameter": "location.length.x"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:1"
+   ]
+  },
+  {
+   "code": "hole_pattern_requirement_missing",
+   "fix": "State the location length y of the feature in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
+   "group": "hole_pattern_requirement_missing:location.length.y",
+   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.y",
+   "impact": "incomplete",
+   "measurements": [
+    "f:hole_pattern:1/location.length.y"
+   ],
+   "message": "f:hole_pattern:1 has no proven y location of its centre on the drawing.",
+   "related": [
+    "f:hole:1",
+    "f:hole:2",
+    "f:hole:4",
+    "f:hole:5",
+    "f:hole:6",
+    "f:hole:7"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole_pattern:1",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole_pattern:1"
+   ]
+  }
+ ],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features claim 10 of 12 faces; 2 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:3",
+    "face:4"
+   ]
+  },
+  {
+   "code": "leader_along_centreline",
+   "group": "leader_along_centreline",
+   "id": "p:leader_along_centreline:d:f:hole:3/bore.diameter|ink:v:plan:f:hole:3",
+   "impact": "readability",
+   "message": "The leader of \u230030 THRU runs along a centre line, so the two read as one line.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:3/bore.diameter",
+    "f:hole:3"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "general_tolerance_missing": 1,
+   "hole_pattern_requirement_missing:location.length.x": 1,
+   "hole_pattern_requirement_missing:location.length.y": 1,
+   "leader_along_centreline": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 1,
+    "groups": 1
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 2,
+    "groups": 2
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
+   }
+  }
+ }
+}

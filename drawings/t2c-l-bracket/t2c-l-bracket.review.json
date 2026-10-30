@@ -1,0 +1,556 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   }
+  ],
+  "supported": 4,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "hole_bottom_unknown",
+   "group": "hole_bottom_unknown",
+   "id": "p:hole_bottom_unknown:f:hole:1",
+   "impact": "advisory",
+   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "hole_bottom_unknown",
+   "group": "hole_bottom_unknown",
+   "id": "p:hole_bottom_unknown:f:hole:2",
+   "impact": "advisory",
+   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "hole_bottom_unknown",
+   "group": "hole_bottom_unknown",
+   "id": "p:hole_bottom_unknown:f:hole:3",
+   "impact": "advisory",
+   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "hole_bottom_unknown",
+   "group": "hole_bottom_unknown",
+   "id": "p:hole_bottom_unknown:f:hole:4",
+   "impact": "advisory",
+   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:3~1location.length.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 15 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 15 runs up to 1.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:3~1location.length.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:3/location.length.x|f:hole:1:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 15 crosses the \u23006 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:3/location.length.x",
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:4~1location.length.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 65 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 65 runs up to 1.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:4~1location.length.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:4/location.length.x|f:hole:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 65 crosses the \u23006 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:4/location.length.x",
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:1~1location.length.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 15 dimension below the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:1~1location.length.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:1/location.length.x|f:hole:3:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 15 crosses the \u23006 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:1/location.length.x",
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:2~1location.length.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 65 dimension below the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:2~1location.length.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:2/location.length.x|f:hole:4:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 65 crosses the \u23006 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:2/location.length.x",
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 17 of 23 faces; 6 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:3",
+    "face:6",
+    "face:14",
+    "face:15",
+    "face:17",
+    "face:18"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:1/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "advisory",
+   "message": "The dimension 15 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "leader_to_hidden_edge",
+   "group": "leader_to_hidden_edge",
+   "id": "p:leader_to_hidden_edge:d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "message": "The leader of R2 ends on an edge the side view shows hidden, so it points at dashed line-work.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:1/fillet.radius",
+    "v:side"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "extension_through_feature": 4,
+   "general_tolerance_missing": 1,
+   "hole_bottom_unknown": 4,
+   "label_crowded": 1,
+   "leader_to_hidden_edge": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 10,
+    "groups": 4
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 0,
+    "groups": 0
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
+   }
+  }
+ }
+}

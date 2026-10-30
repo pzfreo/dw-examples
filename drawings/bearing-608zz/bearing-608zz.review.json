@@ -115,42 +115,47 @@
    ]
   },
   {
-   "code": "unclaimed_geometry",
-   "group": "unclaimed_geometry",
-   "id": "p:unclaimed_geometry:sheet",
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:face_groove:1/annular_groove_outer.diameter:d:f:face_groove:1/face_groove_inner_wall_angle.angle",
    "impact": "advisory",
-   "message": "Analysis features claim 4 of 14 faces; 10 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "The dimension \"2\u00d7 \u230018.5 \u00d7 \u230013 \u21a7 0.25\\nOUTER 45.000\u00b0 INNER 45.000\u00b0\" has modelled nominal 44.999972 but prints 45.000 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "face:0",
-    "face:2",
-    "face:4",
-    "face:6",
-    "face:7",
-    "face:8",
-    "face:9",
-    "face:11",
-    "face:12",
-    "face:13"
+    "d:f:face_groove:1/annular_groove_outer.diameter"
    ]
   },
   {
-   "code": "shape_not_recognised",
-   "group": "shape_not_recognised:step",
-   "id": "p:shape_not_recognised:face:2",
-   "impact": "incomplete",
-   "message": "Faces 2, 4, 6, 9, 11, 13 form 2 congruent shapes, each a turned step or land, its shoulder \u00f818, 18.5 \u00d7 18.5 \u00d7 0.25 mm, the first at (0, 0, 3.38); recognition does not give them, so they are neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
-   "refs": [
-    "shape:step"
-   ],
-   "severity": "warning",
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:face_groove:1/annular_groove_outer.diameter:d:f:face_groove:1/face_groove_outer_wall_angle.angle",
+   "impact": "advisory",
+   "message": "The dimension \"2\u00d7 \u230018.5 \u00d7 \u230013 \u21a7 0.25\\nOUTER 45.000\u00b0 INNER 45.000\u00b0\" has modelled nominal 44.999972 but prints 45.000 at the default three-place limit.",
+   "severity": "info",
    "subjects": [
-    "face:2",
-    "face:4",
-    "face:6",
-    "face:9",
-    "face:11",
-    "face:13"
+    "d:f:face_groove:1/annular_groove_outer.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:face_groove:1/annular_groove_outer.diameter:d:f:face_groove:2/face_groove_inner_wall_angle.angle",
+   "impact": "advisory",
+   "message": "The dimension \"2\u00d7 \u230018.5 \u00d7 \u230013 \u21a7 0.25\\nOUTER 45.000\u00b0 INNER 45.000\u00b0\" has modelled nominal 44.999972 but prints 45.000 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:face_groove:1/annular_groove_outer.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:face_groove:1/annular_groove_outer.diameter:d:f:face_groove:2/face_groove_outer_wall_angle.angle",
+   "impact": "advisory",
+   "message": "The dimension \"2\u00d7 \u230018.5 \u00d7 \u230013 \u21a7 0.25\\nOUTER 45.000\u00b0 INNER 45.000\u00b0\" has modelled nominal 44.999972 but prints 45.000 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:face_groove:1/annular_groove_outer.diameter"
    ]
   }
  ],
@@ -159,12 +164,11 @@
   "groups": {
    "chamfer_leader_target_unverifiable": 1,
    "general_tolerance_missing": 1,
-   "shape_not_recognised:step": 1,
-   "unclaimed_geometry": 1
+   "nominal_rounded": 4
   },
   "impacts": {
    "advisory": {
-    "findings": 2,
+    "findings": 5,
     "groups": 2
    },
    "decision": {
@@ -172,8 +176,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    },
    "readability": {
     "findings": 0,

@@ -3321,53 +3321,25 @@
    ]
   },
   {
-   "annotation": "d:f:fillet:47/fillet.radius",
+   "annotation": "d:f:fillet:46/fillet.radius",
    "at": [
-    245.8986,
-    255.62330804912634
+    139.2836,
+    137.23630804912634
    ],
-   "code": "radius_leader_target_unverifiable",
-   "evidence": "the view does not show a proven circular radius section end-on",
-   "group": "radius_leader_target_unverifiable",
-   "id": "l:radius_leader_target_unverifiable:d:f:fillet:47/fillet.radius",
-   "impact": "advisory",
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:46/fillet.radius",
+   "impact": "readability",
    "measurements": [
-    "f:fillet:34/fillet.radius",
-    "f:fillet:35/fillet.radius",
-    "f:fillet:36/fillet.radius",
-    "f:fillet:37/fillet.radius",
-    "f:fillet:38/fillet.radius",
-    "f:fillet:39/fillet.radius",
-    "f:fillet:40/fillet.radius",
-    "f:fillet:41/fillet.radius",
-    "f:fillet:42/fillet.radius",
-    "f:fillet:43/fillet.radius",
-    "f:fillet:44/fillet.radius",
-    "f:fillet:45/fillet.radius",
     "f:fillet:46/fillet.radius",
-    "f:fillet:47/fillet.radius",
-    "f:fillet:48/fillet.radius",
-    "f:fillet:49/fillet.radius"
+    "f:fillet:47/fillet.radius"
    ],
-   "message": "d:f:fillet:47/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
-   "severity": "info",
+   "message": "d:f:fillet:46/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
    "subjects": [
-    "f:fillet:34",
-    "f:fillet:35",
-    "f:fillet:36",
-    "f:fillet:37",
-    "f:fillet:38",
-    "f:fillet:39",
-    "f:fillet:40",
-    "f:fillet:41",
-    "f:fillet:42",
-    "f:fillet:43",
-    "f:fillet:44",
-    "f:fillet:45",
     "f:fillet:46",
-    "f:fillet:47",
-    "f:fillet:48",
-    "f:fillet:49"
+    "f:fillet:47"
    ],
    "view": "v:front"
   }
@@ -3389,7 +3361,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -3419,7 +3391,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -4364,7 +4336,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -4399,7 +4371,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -4450,7 +4422,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -4485,7 +4457,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -4535,7 +4507,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -4570,7 +4542,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -4620,7 +4592,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -4655,7 +4627,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -4705,7 +4677,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -4740,7 +4712,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -4789,7 +4761,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -4823,7 +4795,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -4873,7 +4845,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -4908,7 +4880,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -4959,7 +4931,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -4994,7 +4966,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5044,7 +5016,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5079,7 +5051,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5129,7 +5101,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5164,7 +5136,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5214,7 +5186,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5249,7 +5221,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5299,7 +5271,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5334,7 +5306,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5384,7 +5356,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5419,7 +5391,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5469,7 +5441,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5504,7 +5476,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5554,7 +5526,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5589,7 +5561,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5639,7 +5611,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5674,7 +5646,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5724,7 +5696,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5759,7 +5731,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5808,7 +5780,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5842,7 +5814,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5889,7 +5861,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -5924,7 +5896,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -5971,7 +5943,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6006,7 +5978,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6053,7 +6025,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6088,7 +6060,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6135,7 +6107,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6170,7 +6142,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6217,7 +6189,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6252,7 +6224,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6299,7 +6271,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6334,7 +6306,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6381,7 +6353,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6416,7 +6388,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6463,7 +6435,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6498,7 +6470,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6545,7 +6517,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6580,7 +6552,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6627,7 +6599,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6662,7 +6634,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6709,7 +6681,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6744,7 +6716,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6791,7 +6763,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6826,7 +6798,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6873,7 +6845,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6908,7 +6880,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -6955,7 +6927,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -6990,7 +6962,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7037,7 +7009,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7072,7 +7044,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7119,7 +7091,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7154,7 +7126,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7201,7 +7173,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7236,7 +7208,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7283,7 +7255,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7318,7 +7290,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7365,7 +7337,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7400,7 +7372,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7447,7 +7419,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7482,7 +7454,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7529,7 +7501,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7564,7 +7536,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7611,7 +7583,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7646,7 +7618,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7693,7 +7665,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7728,7 +7700,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7775,7 +7747,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7810,7 +7782,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7857,7 +7829,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7892,7 +7864,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -7939,7 +7911,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -7974,7 +7946,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8021,7 +7993,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8056,7 +8028,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8103,7 +8075,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8138,7 +8110,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8185,7 +8157,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8220,7 +8192,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8267,7 +8239,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8302,7 +8274,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8349,7 +8321,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8384,7 +8356,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8431,7 +8403,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8466,7 +8438,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8513,7 +8485,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8548,7 +8520,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8595,7 +8567,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8630,7 +8602,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8677,7 +8649,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8712,7 +8684,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8759,7 +8731,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8794,7 +8766,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8841,7 +8813,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8876,7 +8848,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -8923,7 +8895,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -8958,7 +8930,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9005,7 +8977,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9040,7 +9012,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9087,7 +9059,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9122,7 +9094,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9169,7 +9141,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9204,7 +9176,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9251,7 +9223,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9286,7 +9258,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9333,7 +9305,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9348,7 +9320,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 188.325 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The labels of 188.325 and 6\u00d7 R13 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The second extension line of 188.325 crosses the \u230014 hole. [extension_through_feature] The second extension line of 188.325 crosses the 50 wide slot. [extension_through_feature].",
+     "description": "Move the 188.325 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The labels of 188.325 and 8\u00d7 R13 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The second extension line of 188.325 crosses the \u230014 hole. [extension_through_feature] The second extension line of 188.325 crosses the 50 wide slot. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9368,7 +9340,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9415,7 +9387,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9450,7 +9422,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9497,7 +9469,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9512,7 +9484,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 15.811 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The labels of 15.811 and datum feature symbol C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 2\u00d7 R2.5 crosses a line of 15.811. [annotation_leader_crossing] The leader of datum feature symbol C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9532,7 +9504,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9579,7 +9551,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9594,7 +9566,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 15.811 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The labels of 15.811 and datum feature symbol C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 2\u00d7 R2.5 crosses a line of 15.811. [annotation_leader_crossing] The leader of datum feature symbol C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9614,7 +9586,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9661,7 +9633,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9676,7 +9648,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 15.811 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The labels of 15.811 and datum feature symbol C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 2\u00d7 R2.5 crosses a line of 15.811. [annotation_leader_crossing] The leader of datum feature symbol C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9696,7 +9668,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9743,7 +9715,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9758,7 +9730,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 15.811 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The labels of 15.811 and datum feature symbol C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 2\u00d7 R2.5 crosses a line of 15.811. [annotation_leader_crossing] The leader of datum feature symbol C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9778,7 +9750,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9825,7 +9797,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9840,7 +9812,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 15.811 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The labels of 15.811 and datum feature symbol C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 2\u00d7 R2.5 crosses a line of 15.811. [annotation_leader_crossing] The leader of datum feature symbol C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9860,7 +9832,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9907,7 +9879,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -9922,7 +9894,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 15.811 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The labels of 15.811 and datum feature symbol C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 2\u00d7 R2.5 crosses a line of 15.811. [annotation_leader_crossing] The leader of datum feature symbol C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -9942,7 +9914,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -9989,7 +9961,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10004,7 +9976,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 15.811 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
+     "description": "Move the 15.811 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The labels of 15.811 and datum feature symbol C overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 2\u00d7 R2.5 crosses a line of 15.811. [annotation_leader_crossing] The leader of datum feature symbol C crosses a line of 15.811. [annotation_leader_crossing] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230012.1 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature] The second extension line of 15.811 crosses the \u230014 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -10024,7 +9996,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10071,7 +10043,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10106,7 +10078,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10153,7 +10125,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10188,7 +10160,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10235,7 +10207,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10270,7 +10242,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10317,7 +10289,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10352,7 +10324,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10399,7 +10371,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10434,7 +10406,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10481,7 +10453,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10516,7 +10488,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10563,7 +10535,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10598,7 +10570,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10645,7 +10617,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10680,7 +10652,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10727,7 +10699,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10762,7 +10734,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10809,7 +10781,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10844,7 +10816,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10891,7 +10863,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -10926,7 +10898,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -10973,7 +10945,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -11008,7 +10980,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -11055,7 +11027,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -11090,7 +11062,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -11137,7 +11109,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -11172,7 +11144,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -11219,7 +11191,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A0"
+     "value": "A1"
     },
     {
      "op": "set",
@@ -11254,7 +11226,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A0"
+       "value": "A1"
       },
       {
        "op": "set",
@@ -11521,54 +11493,6 @@
    ]
   },
   {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:dimension.common_label:f3,4:t=C|f:hole:2:line:0",
-   "impact": "readability",
-   "message": "The leader of C crosses the \u230012.1 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f3,4:t=C",
-    "f:hole:2"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:dimension.common_label:f3,4:t=C|f:slot:4:line:0",
-   "impact": "readability",
-   "message": "The leader of C crosses the 140 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f3,4:t=C",
-    "f:slot:4"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f27,28:ref=A,B,C:mod=diameter_zone|f:hole:15:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23000.35 A B C crosses the \u230014 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f27,28:ref=A,B,C:mod=diameter_zone",
-    "f:hole:15"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f27,28:ref=A,B,C:mod=diameter_zone|v:plan:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23000.35 A B C crosses a feature.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f27,28:ref=A,B,C:mod=diameter_zone",
-    "v:plan"
-   ]
-  },
-  {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
@@ -11584,7 +11508,7 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 262 of 484 faces; 222 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 332 of 484 faces; 152 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:67",
@@ -11664,127 +11588,63 @@
     "face:243",
     "face:245",
     "face:251",
-    "face:252",
-    "face:254",
-    "face:256",
-    "face:258",
-    "face:260",
     "face:261",
-    "face:262",
-    "face:264",
-    "face:266",
     "face:270",
-    "face:271",
     "face:274",
     "face:277",
     "face:279",
-    "face:281",
     "face:287",
     "face:293",
     "face:300",
     "face:301",
     "face:304",
-    "face:305",
-    "face:306",
     "face:307",
     "face:308",
     "face:309",
     "face:310",
     "face:314",
     "face:316",
-    "face:319",
-    "face:321",
-    "face:323",
-    "face:325",
     "face:330",
     "face:332",
-    "face:335",
-    "face:337",
-    "face:339",
-    "face:341",
     "face:343",
-    "face:344",
     "face:348",
-    "face:349",
     "face:350",
-    "face:351",
-    "face:353",
     "face:354",
-    "face:355",
-    "face:356",
     "face:357",
-    "face:358",
     "face:359",
-    "face:363",
     "face:364",
-    "face:365",
-    "face:367",
     "face:368",
-    "face:369",
-    "face:370",
-    "face:373",
-    "face:375",
     "face:376",
     "face:377",
-    "face:378",
     "face:379",
-    "face:380",
-    "face:381",
     "face:382",
-    "face:385",
-    "face:387",
     "face:388",
     "face:389",
-    "face:390",
     "face:391",
-    "face:392",
-    "face:393",
     "face:395",
     "face:396",
     "face:397",
-    "face:399",
-    "face:400",
     "face:402",
     "face:403",
     "face:404",
-    "face:406",
-    "face:407",
     "face:408",
-    "face:409",
     "face:410",
     "face:411",
-    "face:412",
     "face:413",
-    "face:414",
     "face:415",
-    "face:416",
     "face:417",
-    "face:418",
     "face:419",
-    "face:420",
     "face:421",
-    "face:422",
-    "face:423",
     "face:424",
     "face:425",
-    "face:426",
     "face:427",
-    "face:428",
-    "face:429",
     "face:430",
     "face:431",
-    "face:432",
     "face:433",
     "face:434",
-    "face:435",
-    "face:436",
     "face:437",
-    "face:439",
-    "face:440",
     "face:442",
     "face:443",
-    "face:444",
-    "face:445",
     "face:447",
     "face:449",
     "face:451",
@@ -11792,15 +11652,9 @@
     "face:455",
     "face:457",
     "face:458",
-    "face:459",
-    "face:460",
     "face:461",
-    "face:463",
-    "face:464",
     "face:466",
     "face:467",
-    "face:468",
-    "face:469",
     "face:470",
     "face:472",
     "face:474",
@@ -11914,7 +11768,7 @@
    "group": "sheet_preference_exceeded",
    "id": "p:sheet_preference_exceeded:sheet",
    "impact": "advisory",
-   "message": "Preferred paper size exceeded: using 1 sheet(s) of A0 at 1:5. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
+   "message": "Preferred paper size exceeded: using 1 sheet(s) of A1 at 1:5. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -12142,12 +11996,12 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:fillet:4/fillet.radius|ink:v:plan:cut:A:letter:0",
+   "id": "p:label_crowded:d:f:fillet:6/fillet.radius|ink:v:plan:cut:A:letter:0",
    "impact": "advisory",
    "message": "The dimension 8\u00d7 R25 is less than 0.5 mm from the section A cutting-plane letter, so it reads as part of the mark.",
    "severity": "info",
    "subjects": [
-    "d:f:fillet:4/fillet.radius",
+    "d:f:fillet:6/fillet.radius",
     "v:section_aa"
    ]
   },
@@ -12226,12 +12080,12 @@
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:fillet:18/fillet.radius",
+   "id": "p:leader_to_hidden_edge:d:f:fillet:29/fillet.radius",
    "impact": "readability",
-   "message": "The leader of 6\u00d7 R13 ends on an edge the plan view shows hidden, so it points at dashed line-work.",
+   "message": "The leader of 8\u00d7 R13 ends on an edge the plan view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:18/fillet.radius",
+    "d:f:fillet:29/fillet.radius",
     "v:plan"
    ]
   }
@@ -12240,8 +12094,8 @@
   {
    "annotation": "d:envelope/height.length",
    "at": [
-    353.783,
-    256.797314751344
+    234.383,
+    133.297314751344
    ],
    "code": "annotation_ink_overlap",
    "fix": "move what is drawn, not just the text",
@@ -12258,10 +12112,27 @@
    "subjects": []
   },
   {
+   "annotation": "pmi:datum.datum:f3,4:t=C",
+   "at": [
+    74.43,
+    142.60770804912636
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f3,4:t=C",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f3,4:t=C is 29.1 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
    "annotation": "pmi:datum.datum:f316:t=G",
    "at": [
-    357.83,
-    253.99616958758787
+    238.43,
+    130.49616958758787
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -12277,8 +12148,8 @@
   {
    "annotation": "pmi:datum.datum:f317:t=H",
    "at": [
-    400.83,
-    253.99616958758787
+    281.43,
+    130.49616958758787
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -12294,8 +12165,8 @@
   {
    "annotation": "pmi:datum.datum:f330:t=E",
    "at": [
-    359.83,
-    246.9192465106648
+    240.43,
+    123.4192465106648
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -12311,8 +12182,8 @@
   {
    "annotation": "pmi:datum.datum:f333:t=F",
    "at": [
-    400.83,
-    246.2115542029725
+    281.43,
+    122.7115542029725
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -12344,7 +12215,7 @@
    "annotation_leader_crossing:dimension_line": 6,
    "annotation_leader_crossing:extension_line": 8,
    "annotation_leader_crossing:leader": 2,
-   "datum_leader_remote": 4,
+   "datum_leader_remote": 5,
    "datum_origin_unusable": 2,
    "extension_off_centreline": 3,
    "extension_through_feature": 66,
@@ -12359,7 +12230,7 @@
    "label_crowded": 5,
    "label_section_furniture_overlap": 1,
    "leader_along_centreline": 1,
-   "leader_through_feature": 24,
+   "leader_through_feature": 20,
    "leader_to_hidden_edge": 3,
    "nominal_rounded": 2,
    "pmi_dimensions_not_ported": 1,
@@ -12371,7 +12242,7 @@
    "pmi_not_lowered:geometric_tolerance": 10,
    "pmi_not_rendered:dimension": 2,
    "pmi_presentation_not_read": 1,
-   "radius_leader_target_unverifiable": 1,
+   "radius_leader_not_radial": 1,
    "shape_not_recognised:chamfer": 2,
    "sheet_preference_exceeded": 1,
    "slot_requirement_unverifiable:location_slot.length": 6,
@@ -12380,8 +12251,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 171,
-    "groups": 14
+    "findings": 170,
+    "groups": 13
    },
    "decision": {
     "findings": 1,
@@ -12392,8 +12263,8 @@
     "groups": 16
    },
    "readability": {
-    "findings": 47,
-    "groups": 10
+    "findings": 45,
+    "groups": 11
    }
   }
  }

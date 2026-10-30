@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.2.2",
+  "draftwright": "v0.2.3",
   "drawings": [
     {
       "name": "bearing-608zz",
@@ -7,12 +7,12 @@
       "title": "608ZZ ball bearing",
       "review": {
         "errors": 0,
-        "warnings": 2,
-        "infos": 2,
+        "warnings": 1,
+        "infos": 5,
         "impacts": {
-          "advisory": 2,
+          "advisory": 5,
           "decision": 1,
-          "incomplete": 1,
+          "incomplete": 0,
           "readability": 0
         }
       },
@@ -29,9 +29,9 @@
       "review": {
         "errors": 0,
         "warnings": 1,
-        "infos": 2,
+        "infos": 1,
         "impacts": {
-          "advisory": 2,
+          "advisory": 1,
           "decision": 1,
           "incomplete": 0,
           "readability": 0
@@ -50,9 +50,9 @@
       "review": {
         "errors": 0,
         "warnings": 7,
-        "infos": 3,
+        "infos": 2,
         "impacts": {
-          "advisory": 3,
+          "advisory": 2,
           "decision": 1,
           "incomplete": 6,
           "readability": 0
@@ -197,9 +197,9 @@
       "review": {
         "errors": 0,
         "warnings": 2,
-        "infos": 1,
+        "infos": 0,
         "impacts": {
-          "advisory": 2,
+          "advisory": 1,
           "decision": 1,
           "incomplete": 0,
           "readability": 0
@@ -238,12 +238,12 @@
       "title": "NEMA 17 mount bracket",
       "review": {
         "errors": 0,
-        "warnings": 12,
+        "warnings": 11,
         "infos": 4,
         "impacts": {
           "advisory": 8,
           "decision": 1,
-          "incomplete": 1,
+          "incomplete": 0,
           "readability": 6
         }
       },
@@ -259,13 +259,13 @@
       "title": "NIST CTC-01",
       "review": {
         "errors": 12,
-        "warnings": 23,
-        "infos": 15,
+        "warnings": 22,
+        "infos": 13,
         "impacts": {
-          "advisory": 27,
+          "advisory": 25,
           "decision": 1,
           "incomplete": 17,
-          "readability": 5
+          "readability": 4
         }
       },
       "files": [
@@ -322,13 +322,13 @@
       "title": "NIST CTC-04",
       "review": {
         "errors": 35,
-        "warnings": 229,
-        "infos": 94,
+        "warnings": 226,
+        "infos": 93,
         "impacts": {
-          "advisory": 171,
+          "advisory": 170,
           "decision": 1,
           "incomplete": 145,
-          "readability": 47
+          "readability": 45
         }
       },
       "files": [
@@ -343,13 +343,13 @@
       "title": "NIST CTC-05",
       "review": {
         "errors": 37,
-        "warnings": 33,
-        "infos": 79,
+        "warnings": 29,
+        "infos": 80,
         "impacts": {
-          "advisory": 80,
+          "advisory": 81,
           "decision": 1,
-          "incomplete": 51,
-          "readability": 18
+          "incomplete": 50,
+          "readability": 15
         }
       },
       "files": [
@@ -364,13 +364,13 @@
       "title": "NIST FTC-06",
       "review": {
         "errors": 162,
-        "warnings": 48,
+        "warnings": 57,
         "infos": 240,
         "impacts": {
-          "advisory": 245,
+          "advisory": 246,
           "decision": 1,
           "incomplete": 191,
-          "readability": 16
+          "readability": 24
         }
       },
       "files": [
@@ -385,13 +385,13 @@
       "title": "NIST FTC-07",
       "review": {
         "errors": 79,
-        "warnings": 107,
-        "infos": 118,
+        "warnings": 95,
+        "infos": 121,
         "impacts": {
-          "advisory": 157,
+          "advisory": 158,
           "decision": 1,
-          "incomplete": 114,
-          "readability": 34
+          "incomplete": 110,
+          "readability": 28
         }
       },
       "files": [
@@ -406,13 +406,13 @@
       "title": "NIST FTC-08",
       "review": {
         "errors": 85,
-        "warnings": 107,
-        "infos": 135,
+        "warnings": 100,
+        "infos": 128,
         "impacts": {
-          "advisory": 151,
+          "advisory": 145,
           "decision": 1,
           "incomplete": 101,
-          "readability": 81
+          "readability": 74
         }
       },
       "files": [
@@ -427,13 +427,13 @@
       "title": "NIST FTC-10",
       "review": {
         "errors": 93,
-        "warnings": 235,
-        "infos": 71,
+        "warnings": 202,
+        "infos": 70,
         "impacts": {
-          "advisory": 173,
+          "advisory": 171,
           "decision": 1,
-          "incomplete": 110,
-          "readability": 122
+          "incomplete": 111,
+          "readability": 84
         }
       },
       "files": [
@@ -448,13 +448,13 @@
       "title": "NIST FTC-11",
       "review": {
         "errors": 15,
-        "warnings": 12,
+        "warnings": 21,
         "infos": 22,
         "impacts": {
           "advisory": 23,
           "decision": 1,
           "incomplete": 26,
-          "readability": 0
+          "readability": 9
         }
       },
       "files": [
@@ -469,13 +469,13 @@
       "title": "NIST STC-06",
       "review": {
         "errors": 56,
-        "warnings": 94,
-        "infos": 915,
+        "warnings": 67,
+        "infos": 908,
         "impacts": {
-          "advisory": 931,
+          "advisory": 943,
           "decision": 1,
           "incomplete": 66,
-          "readability": 74
+          "readability": 23
         }
       },
       "files": [
@@ -490,13 +490,13 @@
       "title": "NIST STC-07",
       "review": {
         "errors": 145,
-        "warnings": 64,
+        "warnings": 65,
         "infos": 92,
         "impacts": {
           "advisory": 101,
           "decision": 1,
           "incomplete": 180,
-          "readability": 21
+          "readability": 22
         }
       },
       "files": [
@@ -511,13 +511,13 @@
       "title": "NIST STC-08",
       "review": {
         "errors": 100,
-        "warnings": 39,
-        "infos": 138,
+        "warnings": 45,
+        "infos": 137,
         "impacts": {
-          "advisory": 149,
+          "advisory": 148,
           "decision": 1,
           "incomplete": 123,
-          "readability": 5
+          "readability": 11
         }
       },
       "files": [
@@ -532,13 +532,13 @@
       "title": "NIST STC-09",
       "review": {
         "errors": 36,
-        "warnings": 494,
-        "infos": 100,
+        "warnings": 397,
+        "infos": 101,
         "impacts": {
-          "advisory": 229,
+          "advisory": 215,
           "decision": 1,
           "incomplete": 52,
-          "readability": 385
+          "readability": 297
         }
       },
       "files": [
@@ -553,13 +553,13 @@
       "title": "NIST STC-10",
       "review": {
         "errors": 82,
-        "warnings": 236,
-        "infos": 70,
+        "warnings": 184,
+        "infos": 68,
         "impacts": {
-          "advisory": 163,
+          "advisory": 153,
           "decision": 1,
           "incomplete": 101,
-          "readability": 127
+          "readability": 81
         }
       },
       "files": [
@@ -638,18 +638,207 @@
       "review": {
         "errors": 0,
         "warnings": 2,
-        "infos": 6,
+        "infos": 7,
         "impacts": {
-          "advisory": 6,
+          "advisory": 7,
           "decision": 1,
-          "incomplete": 1,
-          "readability": 0
+          "incomplete": 0,
+          "readability": 1
         }
       },
       "files": [
         "sprocket-iso606-z08.drawing.json",
         "sprocket-iso606-z08.pdf",
         "sprocket-iso606-z08.review.json"
+      ]
+    },
+    {
+      "name": "t2c-angle-bracket",
+      "step": "steps/text-to-cad/angle-bracket.step",
+      "title": "Angle bracket",
+      "review": {
+        "errors": 0,
+        "warnings": 4,
+        "infos": 2,
+        "impacts": {
+          "advisory": 3,
+          "decision": 1,
+          "incomplete": 3,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-angle-bracket.drawing.json",
+        "t2c-angle-bracket.pdf",
+        "t2c-angle-bracket.review.json"
+      ]
+    },
+    {
+      "name": "t2c-circular-flange",
+      "step": "steps/text-to-cad/circular-flange.step",
+      "title": "Circular flange",
+      "review": {
+        "errors": 0,
+        "warnings": 4,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 1,
+          "incomplete": 2,
+          "readability": 1
+        }
+      },
+      "files": [
+        "t2c-circular-flange.drawing.json",
+        "t2c-circular-flange.pdf",
+        "t2c-circular-flange.review.json"
+      ]
+    },
+    {
+      "name": "t2c-electronics-enclosure-base",
+      "step": "steps/text-to-cad/electronics-enclosure-base.step",
+      "title": "Electronics enclosure base",
+      "review": {
+        "errors": 0,
+        "warnings": 4,
+        "infos": 3,
+        "impacts": {
+          "advisory": 3,
+          "decision": 1,
+          "incomplete": 1,
+          "readability": 2
+        }
+      },
+      "files": [
+        "t2c-electronics-enclosure-base.drawing.json",
+        "t2c-electronics-enclosure-base.pdf",
+        "t2c-electronics-enclosure-base.review.json"
+      ]
+    },
+    {
+      "name": "t2c-guide-bar",
+      "step": "steps/text-to-cad/guide-bar.step",
+      "title": "Guide bar",
+      "review": {
+        "errors": 0,
+        "warnings": 2,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 1,
+          "incomplete": 0,
+          "readability": 1
+        }
+      },
+      "files": [
+        "t2c-guide-bar.drawing.json",
+        "t2c-guide-bar.pdf",
+        "t2c-guide-bar.review.json"
+      ]
+    },
+    {
+      "name": "t2c-l-bracket",
+      "step": "steps/text-to-cad/l-bracket.step",
+      "title": "L bracket",
+      "review": {
+        "errors": 0,
+        "warnings": 6,
+        "infos": 6,
+        "impacts": {
+          "advisory": 10,
+          "decision": 1,
+          "incomplete": 0,
+          "readability": 1
+        }
+      },
+      "files": [
+        "t2c-l-bracket.drawing.json",
+        "t2c-l-bracket.pdf",
+        "t2c-l-bracket.review.json"
+      ]
+    },
+    {
+      "name": "t2c-mounting-plate",
+      "step": "steps/text-to-cad/mounting-plate.step",
+      "title": "Mounting plate",
+      "review": {
+        "errors": 0,
+        "warnings": 3,
+        "infos": 3,
+        "impacts": {
+          "advisory": 5,
+          "decision": 1,
+          "incomplete": 0,
+          "readability": 1
+        }
+      },
+      "files": [
+        "t2c-mounting-plate.drawing.json",
+        "t2c-mounting-plate.pdf",
+        "t2c-mounting-plate.review.json"
+      ]
+    },
+    {
+      "name": "t2c-perforated-plate",
+      "step": "steps/text-to-cad/perforated-plate.step",
+      "title": "Perforated plate",
+      "review": {
+        "errors": 0,
+        "warnings": 10,
+        "infos": 1,
+        "impacts": {
+          "advisory": 10,
+          "decision": 1,
+          "incomplete": 0,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-perforated-plate.drawing.json",
+        "t2c-perforated-plate.pdf",
+        "t2c-perforated-plate.review.json"
+      ]
+    },
+    {
+      "name": "t2c-pivot-mount-plate",
+      "step": "steps/text-to-cad/pivot-mount-plate.step",
+      "title": "Pivot mount plate",
+      "review": {
+        "errors": 0,
+        "warnings": 2,
+        "infos": 1,
+        "impacts": {
+          "advisory": 2,
+          "decision": 1,
+          "incomplete": 0,
+          "readability": 1
+        }
+      },
+      "files": [
+        "t2c-pivot-mount-plate.drawing.json",
+        "t2c-pivot-mount-plate.pdf",
+        "t2c-pivot-mount-plate.review.json"
+      ]
+    },
+    {
+      "name": "t2c-stepped-shaft-keyway",
+      "step": "steps/text-to-cad/stepped-shaft-keyway.step",
+      "title": "Stepped shaft with keyway",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 1,
+          "incomplete": 0,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-stepped-shaft-keyway.drawing.json",
+        "t2c-stepped-shaft-keyway.pdf",
+        "t2c-stepped-shaft-keyway.review.json"
       ]
     },
     {

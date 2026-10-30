@@ -1,0 +1,224 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   }
+  ],
+  "supported": 4,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "features_not_recognised",
+   "group": "features_not_recognised",
+   "id": "p:features_not_recognised:part",
+   "impact": "incomplete",
+   "message": "Unrecognised features on this part: 1 thin wall body. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+   "refs": [
+    "thin_wall_bodies",
+    "quiddity-rust 0.2.3 (quiddity-rust/recognition/6)",
+    "Python quiddity's recognition (tools/recognise.py) gives these families"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "general_tolerance_missing",
+   "fix": [
+    {
+     "op": "set",
+     "path": "sheet/title/tolerance",
+     "value": "UNSPECIFIED"
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "sheet/title/tolerance",
+       "value": "UNSPECIFIED"
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "general_tolerance_missing",
+   "id": "p:general_tolerance_missing:sheet",
+   "impact": "decision",
+   "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+   "refs": [
+    "title_block/general_tolerance",
+    "sheet/title/tolerance"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "sheet"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 23 of 31 faces; 8 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:1",
+    "face:11",
+    "face:13",
+    "face:14",
+    "face:15",
+    "face:28",
+    "face:29",
+    "face:30"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:1/location.length.x|d:f:hole_pattern:1/grid_pitch.length.col|d:f:section_recess:1/location_pocket.location.x",
+   "impact": "advisory",
+   "message": "Line-work of 50 and of 50 passes less than 0.5 mm from the label of 70, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.x",
+    "d:f:hole_pattern:1/grid_pitch.length.col",
+    "d:f:section_recess:1/location_pocket.location.x"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:1/grid_pitch.length.row|ink:v:plan:cut:A:arrow:0",
+   "impact": "advisory",
+   "message": "The dimension 50 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/grid_pitch.length.row",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:hole_pattern:1/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "readability",
+   "message": "A line of 35 runs through the section A cutting-plane arrowhead.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "label_section_furniture_overlap",
+   "group": "label_section_furniture_overlap",
+   "id": "p:label_section_furniture_overlap:d:f:section_recess:1/location_pocket.location.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "readability",
+   "message": "A line of 35 runs through the section A cutting-plane arrowhead.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:1/location_pocket.location.y",
+    "v:section_aa"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "features_not_recognised": 1,
+   "general_tolerance_missing": 1,
+   "label_crowded": 2,
+   "label_section_furniture_overlap": 2,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 3,
+    "groups": 2
+   },
+   "decision": {
+    "findings": 1,
+    "groups": 1
+   },
+   "incomplete": {
+    "findings": 1,
+    "groups": 1
+   },
+   "readability": {
+    "findings": 2,
+    "groups": 1
+   }
+  }
+ }
+}

@@ -294,6 +294,37 @@
    "subjects": [
     "f:slot:2"
    ]
+  },
+  {
+   "annotation": "d:f:fillet:32/fillet.radius",
+   "at": [
+    138.2928,
+    92.29281
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:32/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:30/fillet.radius",
+    "f:fillet:31/fillet.radius",
+    "f:fillet:32/fillet.radius",
+    "f:fillet:33/fillet.radius",
+    "f:fillet:34/fillet.radius",
+    "f:fillet:35/fillet.radius"
+   ],
+   "message": "d:f:fillet:32/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:30",
+    "f:fillet:31",
+    "f:fillet:32",
+    "f:fillet:33",
+    "f:fillet:34",
+    "f:fillet:35"
+   ],
+   "view": "v:front"
   }
  ],
  "problems": [
@@ -305,7 +336,7 @@
    "message": "Unrecognised features on this part: 2 rectangular through notches. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "rectangular_through_notches",
-    "quiddity-rust 0.2.2 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.2.3 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -536,107 +567,6 @@
    ],
    "severity": "info",
    "subjects": []
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:blend:23~1blend.radius/place",
-     "value": {
-      "along": "end",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 6\u00d7 R5 callout above the front view, nearest the view. Trade-off: adds these findings: The leader of 6\u00d7 R5 crosses a line of 50. [annotation_leader_crossing] The leader of 6\u00d7 R5 crosses a line of 510. [annotation_leader_crossing] The leader of 6\u00d7 R5 crosses a line of datum feature symbol A. [annotation_leader_crossing] The leader of datum feature symbol A crosses a line of 6\u00d7 R5. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:blend:23~1blend.radius/place",
-       "value": {
-        "along": "end",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:d:f:blend:23/blend.radius|pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around",
-   "impact": "readability",
-   "message": "The leader of 6\u00d7 R5 crosses a line of the feature control frame \u2313 0.5 A.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:blend:23/blend.radius",
-    "pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around"
-   ]
   },
   {
    "code": "annotation_leader_crossing",
@@ -944,107 +874,6 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:blend:23~1blend.radius/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:blend:23~1blend.radius/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around|d:f:blend:23/blend.radius",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.5 A crosses a line of 6\u00d7 R5.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around",
-    "d:f:blend:23/blend.radius"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
     "dimension_line"
    ],
    "fix": [
@@ -1179,7 +1008,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 650 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of datum feature symbol C crosses a line of 650. [annotation_leader_crossing] The leader of datum feature symbol B crosses a line of 650. [annotation_leader_crossing].",
+     "description": "Move the 650 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of datum feature symbol C crosses a line of 650. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -1277,7 +1106,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 650 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of datum feature symbol C crosses a line of 650. [annotation_leader_crossing] The leader of datum feature symbol B crosses a line of 650. [annotation_leader_crossing].",
+     "description": "Move the 650 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of datum feature symbol C crosses a line of 650. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -2082,30 +1911,6 @@
     "d:f:hole_pattern:1/location.length.y",
     "d:f:hole_pattern:2/grid_pitch.length.row"
    ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:envelope/notch_location_x.length.f97_e104_e108|d:f:blend:23/blend.radius",
-   "impact": "advisory",
-   "message": "Line-work of 510 passes less than 0.5 mm from the label of 6\u00d7 R5, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/notch_location_x.length.f97_e104_e108",
-    "d:f:blend:23/blend.radius"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:blend:1/blend.radius|d:f:hole:7/bore.diameter",
-   "impact": "advisory",
-   "message": "Line-work of 4\u00d7 R25 passes less than 0.5 mm from the label of \u230035 0 -0.2 THRU, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:blend:1/blend.radius",
-    "d:f:hole:7/bore.diameter"
-   ]
   }
  ],
  "structural": [],
@@ -2113,7 +1918,6 @@
   "groups": {
    "annotation_leader_crossing:dimension_line": 2,
    "annotation_leader_crossing:extension_line": 2,
-   "annotation_leader_crossing:leader": 2,
    "closed_dimension_chain": 1,
    "datum_origin_unusable": 2,
    "detail_unplaceable": 1,
@@ -2121,16 +1925,17 @@
    "feature_not_located:slot": 4,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "label_crowded": 5,
+   "label_crowded": 3,
    "location_on_datum": 1,
    "pmi_not_extracted": 6,
    "pmi_not_extracted:dimension": 4,
    "pmi_not_lowered:dimension": 8,
-   "pmi_presentation_not_read": 1
+   "pmi_presentation_not_read": 1,
+   "radius_leader_not_radial": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 27,
+    "findings": 25,
     "groups": 8
    },
    "decision": {
@@ -2142,7 +1947,7 @@
     "groups": 4
    },
    "readability": {
-    "findings": 5,
+    "findings": 4,
     "groups": 3
    }
   }
