@@ -13,7 +13,7 @@ in it.
 
 ## Drawings
 
-35 drawings from four sources. See [Licensing](#licensing) for where each STEP file
+44 drawings from five sources. See [Licensing](#licensing) for where each STEP file
 comes from and the terms it is shared under.
 
 ### NIST MBE PMI test parts (AP242 with semantic PMI)
@@ -70,6 +70,20 @@ comes from and the terms it is shared under.
 | Drawing | STEP input | PDF |
 | --- | --- | --- |
 | Link rods | [`linkrods.step`](steps/occt/linkrods.step) | [`linkrods.pdf`](drawings/linkrods/linkrods.pdf) |
+
+### text-to-cad
+
+| Drawing | STEP input | PDF |
+| --- | --- | --- |
+| Angle bracket | [`angle-bracket.step`](steps/text-to-cad/angle-bracket.step) | [`t2c-angle-bracket.pdf`](drawings/t2c-angle-bracket/t2c-angle-bracket.pdf) |
+| Circular flange | [`circular-flange.step`](steps/text-to-cad/circular-flange.step) | [`t2c-circular-flange.pdf`](drawings/t2c-circular-flange/t2c-circular-flange.pdf) |
+| Electronics enclosure base | [`electronics-enclosure-base.step`](steps/text-to-cad/electronics-enclosure-base.step) | [`t2c-electronics-enclosure-base.pdf`](drawings/t2c-electronics-enclosure-base/t2c-electronics-enclosure-base.pdf) |
+| Guide bar | [`guide-bar.step`](steps/text-to-cad/guide-bar.step) | [`t2c-guide-bar.pdf`](drawings/t2c-guide-bar/t2c-guide-bar.pdf) |
+| L bracket | [`l-bracket.step`](steps/text-to-cad/l-bracket.step) | [`t2c-l-bracket.pdf`](drawings/t2c-l-bracket/t2c-l-bracket.pdf) |
+| Mounting plate | [`mounting-plate.step`](steps/text-to-cad/mounting-plate.step) | [`t2c-mounting-plate.pdf`](drawings/t2c-mounting-plate/t2c-mounting-plate.pdf) |
+| Perforated plate | [`perforated-plate.step`](steps/text-to-cad/perforated-plate.step) | [`t2c-perforated-plate.pdf`](drawings/t2c-perforated-plate/t2c-perforated-plate.pdf) |
+| Pivot mount plate | [`pivot-mount-plate.step`](steps/text-to-cad/pivot-mount-plate.step) | [`t2c-pivot-mount-plate.pdf`](drawings/t2c-pivot-mount-plate/t2c-pivot-mount-plate.pdf) |
+| Stepped shaft with keyway | [`stepped-shaft-keyway.step`](steps/text-to-cad/stepped-shaft-keyway.step) | [`t2c-stepped-shaft-keyway.pdf`](drawings/t2c-stepped-shaft-keyway/t2c-stepped-shaft-keyway.pdf) |
 
 Each drawing directory holds:
 
@@ -133,8 +147,9 @@ python3 build.py --cli /path/to/draftwright   # use a CLI that is not on PATH
 
 ## Licensing
 
-The STEP files are redistributed unmodified; each source folder's README records the
-original location, commit and SHA-256 of every file.
+The STEP files are redistributed unmodified, except the text-to-cad parts, which are STEP exports
+of its Python models; each source folder's README records the original location, commit and
+SHA-256 of every file.
 
 - [`steps/nist`](steps/nist/README.md): works of the U.S. federal government, not subject to
   copyright in the United States.
@@ -147,5 +162,8 @@ original location, commit and SHA-256 of every file.
 - [`steps/occt`](steps/occt/README.md): from Open CASCADE Technology's sample data, under the
   [GNU LGPL 2.1](steps/occt/LICENSE_LGPL_21.txt) with the
   [Open CASCADE exception](steps/occt/OCCT_LGPL_EXCEPTION.txt).
+- [`steps/text-to-cad`](steps/text-to-cad/README.md): STEP exports of
+  [text-to-cad](https://github.com/earthtojake/text-to-cad)'s example models, copyright Thompson
+  Labs LLC, under the [MIT License](steps/text-to-cad/LICENSE).
 
 draftwright itself is AGPL-3.0.

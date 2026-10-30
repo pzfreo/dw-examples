@@ -218,3 +218,57 @@ name = "linkrods"
 step = "steps/occt/linkrods.step"
 title = "Link rods"
 number = "OCCT-LINKRODS"
+
+[[drawing]]
+name = "t2c-angle-bracket"
+step = "steps/text-to-cad/angle-bracket.step"
+title = "Angle bracket"
+number = "T2C-ANGLE-BRACKET"
+
+[[drawing]]
+name = "t2c-circular-flange"
+step = "steps/text-to-cad/circular-flange.step"
+title = "Circular flange"
+number = "T2C-CIRCULAR-FLANGE"
+
+[[drawing]]
+name = "t2c-electronics-enclosure-base"
+step = "steps/text-to-cad/electronics-enclosure-base.step"
+title = "Electronics enclosure base"
+number = "T2C-ELECTRONICS-ENCLOSURE-BASE"
+
+[[drawing]]
+name = "t2c-guide-bar"
+step = "steps/text-to-cad/guide-bar.step"
+title = "Guide bar"
+number = "T2C-GUIDE-BAR"
+
+[[drawing]]
+name = "t2c-l-bracket"
+step = "steps/text-to-cad/l-bracket.step"
+title = "L bracket"
+number = "T2C-L-BRACKET"
+
+[[drawing]]
+name = "t2c-mounting-plate"
+step = "steps/text-to-cad/mounting-plate.step"
+title = "Mounting plate"
+number = "T2C-MOUNTING-PLATE"
+
+[[drawing]]
+name = "t2c-perforated-plate"
+step = "steps/text-to-cad/perforated-plate.step"
+title = "Perforated plate"
+number = "T2C-PERFORATED-PLATE"
+
+[[drawing]]
+name = "t2c-pivot-mount-plate"
+step = "steps/text-to-cad/pivot-mount-plate.step"
+title = "Pivot mount plate"
+number = "T2C-PIVOT-MOUNT-PLATE"
+
+[[drawing]]
+name = "t2c-stepped-shaft-keyway"
+step = "steps/text-to-cad/stepped-shaft-keyway.step"
+title = "Stepped shaft with keyway"
+number = "T2C-STEPPED-SHAFT-KEYWAY"
