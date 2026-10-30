@@ -6,7 +6,7 @@ files. Every drawing here is produced by the stock `draftwright` CLI from
 no post-processing. The only thing that varies between drawings is the title block, and that
 lives in [`drawings.toml`](drawings.toml).
 
-The current set is built by draftwright **v0.2.3**. The drawings are unreviewed output, shown
+The current set is built by draftwright **v0.2.4**. The drawings are unreviewed output, shown
 as draftwright draws them, including its mistakes: features are recognised automatically and
 some are missed or misread. Each drawing's `.review.json` lists the problems draftwright found
 in it.
@@ -101,7 +101,7 @@ just as a changed PDF.
 ## How a drawing is defined
 
 ```toml
-draftwright = "v0.2.3"   # the draftwright-rust release tag that builds every drawing
+draftwright = "v0.2.4"   # the draftwright-rust release tag that builds every drawing
 formats = ["pdf"]
 
 [[drawing]]
