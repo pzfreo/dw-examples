@@ -15,34 +15,6 @@
  },
  "lint": [
   {
-   "annotation": "d:step_level/step_height.length.h6",
-   "code": "closed_dimension_chain",
-   "fix": "State the step height length h6 of the feature in a view that shows its true size or location.",
-   "fix_description": "State the step height length h6 of the feature in a view that shows its true size or location.",
-   "group": "closed_dimension_chain",
-   "id": "l:closed_dimension_chain:step_level/step_height.length.h6",
-   "impact": "advisory",
-   "measurements": [
-    "step_level/step_height.length.h6"
-   ],
-   "message": "A dimension chain and its total are all stated; omit a redundant member or show it in parentheses as reference.",
-   "related": [
-    "d:f:chamfer:1/chamfer.length",
-    "d:f:boss:1/boss_height.length"
-   ],
-   "requirements": [
-    {
-     "feature": "step_level",
-     "parameter": "step_height.length.h6"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "step_level"
-   ]
-  },
-  {
    "annotation": "d:f:chamfer:1/chamfer.length",
    "at": [
     36.0,
@@ -227,7 +199,6 @@
  "summary": {
   "groups": {
    "chamfer_leader_target_unverifiable": 1,
-   "closed_dimension_chain": 1,
    "general_tolerance_missing": 1,
    "label_crowded": 1,
    "label_section_furniture_overlap": 1,
@@ -238,8 +209,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 8,
-    "groups": 7
+    "findings": 7,
+    "groups": 6
    },
    "decision": {
     "findings": 1,

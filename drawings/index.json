@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.2.3",
+  "draftwright": "v0.2.4",
   "drawings": [
     {
       "name": "bearing-608zz",
@@ -112,10 +112,10 @@
       "title": "M3 x 12 hex standoff",
       "review": {
         "errors": 0,
-        "warnings": 3,
+        "warnings": 2,
         "infos": 7,
         "impacts": {
-          "advisory": 8,
+          "advisory": 7,
           "decision": 1,
           "incomplete": 0,
           "readability": 1
