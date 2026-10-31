@@ -1,0 +1,14 @@
+{
+  "schema": "draftwright.pack-spec/1",
+  "ga": {
+    "drawing": {
+      "schema": "draftwright.spec/2",
+      "sheet": {
+        "title": {
+          "title": "Motorcycle shock absorber",
+          "number": "MSA-100"
+        }
+      }
+    }
+  }
+}

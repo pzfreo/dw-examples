@@ -1,0 +1,4627 @@
+{
+  "schema": "draftwright.pack/1",
+  "rows": [
+    {
+      "key": "GRM-01 shank",
+      "item": 1,
+      "name": "GRM-01 shank",
+      "reference": "GRM-01",
+      "products": [
+        "GRM-01 shank"
+      ],
+      "part_indices": [
+        0
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        2
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "1:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "1:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:annotation_outside_area:d:f:hole:1/bore.diameter|v:side",
+          "code": "annotation_outside_area",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "annotation_outside_area",
+          "message": "The dimension ⌀8 THRU runs up to 16.0 mm past the area reserved for the side view and its bands; it may crowd what lies beyond.",
+          "subjects": [
+            "d:f:hole:1/bore.diameter",
+            "v:side"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "dimensions/d:f:hole:1~1bore.diameter/place",
+              "value": {
+                "along": "outside",
+                "lane": 0,
+                "side": "above",
+                "view": "side"
+              }
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "1:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Move the dimension above the side view, nearest the view.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "dimensions/d:f:hole:1~1bore.diameter/place",
+                  "value": {
+                    "along": "outside",
+                    "lane": 0,
+                    "side": "above",
+                    "view": "side"
+                  }
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "1:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:extension_through_feature:d:f:hole:1/location.length.y|f:hole:3:line:1",
+          "code": "extension_through_feature",
+          "severity": "warning",
+          "impact": "advisory",
+          "group": "extension_through_feature",
+          "message": "The second extension line of 5.5 crosses the ⌀5 hole.",
+          "subjects": [
+            "d:f:hole:1/location.length.y",
+            "f:hole:3"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "dimensions/d:f:hole:1~1location.length.y/place",
+              "value": {
+                "along": "middle",
+                "lane": 0,
+                "side": "above",
+                "view": "side"
+              }
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "1:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Move the 5.5 dimension above the side view, nearest the view.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "dimensions/d:f:hole:1~1location.length.y/place",
+                  "value": {
+                    "along": "middle",
+                    "lane": 0,
+                    "side": "above",
+                    "view": "side"
+                  }
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "1:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "scope": "sheet",
+              "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "hole_table",
+                  "value": "always"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "1:2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:unclaimed_geometry:sheet",
+          "code": "unclaimed_geometry",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "unclaimed_geometry",
+          "message": "Analysis features claim 19 of 27 faces; 8 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+          "subjects": [
+            "face:0",
+            "face:3",
+            "face:8",
+            "face:9",
+            "face:10",
+            "face:11",
+            "face:15",
+            "face:26"
+          ]
+        },
+        {
+          "id": "p:label_crowded:d:envelope/depth.length|d:f:hole:1/location.length.y",
+          "code": "label_crowded",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "label_crowded",
+          "message": "Line-work of 11 passes less than 0.5 mm from the label of 5.5, so it touches the text.",
+          "subjects": [
+            "d:envelope/depth.length",
+            "d:f:hole:1/location.length.y"
+          ]
+        },
+        {
+          "id": "p:label_section_furniture_overlap:d:f:hole:3/location.length.y|ink:v:plan:cut:A:arrow:0",
+          "code": "label_section_furniture_overlap",
+          "severity": "warning",
+          "impact": "readability",
+          "group": "label_section_furniture_overlap",
+          "message": "A line of 5.5 runs through the section A cutting-plane arrowhead.",
+          "subjects": [
+            "d:f:hole:3/location.length.y",
+            "v:section_aa"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GRM-02 shaft",
+      "item": 2,
+      "name": "GRM-02 shaft",
+      "reference": "GRM-02",
+      "products": [
+        "GRM-02 shaft"
+      ],
+      "part_indices": [
+        1
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        3
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A3"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A3"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:dimensions_not_ported:f:section_recess:1",
+          "code": "dimensions_not_ported",
+          "severity": "warning",
+          "impact": "incomplete",
+          "group": "dimensions_not_ported:section_recess",
+          "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
+          "subjects": [
+            "f:section_recess:1"
+          ]
+        },
+        {
+          "id": "p:extension_through_feature:d:f:slot:1/location_slot_across.length|f:hole:1:line:1",
+          "code": "extension_through_feature",
+          "severity": "warning",
+          "impact": "advisory",
+          "group": "extension_through_feature",
+          "message": "The second extension line of 4 crosses the ⌀3.3 hole.",
+          "subjects": [
+            "d:f:slot:1/location_slot_across.length",
+            "f:hole:1"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
+              "value": {
+                "along": "middle",
+                "lane": 1,
+                "side": "left",
+                "view": "plan"
+              }
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A3"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Move the 4 dimension to the left of the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 4 runs up to 0.1 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 4 runs through the label of 4.75. [annotation_ink_overlap] The second extension line of 4 crosses the ⌀1.6 hole. [extension_through_feature].",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
+                  "value": {
+                    "along": "middle",
+                    "lane": 1,
+                    "side": "left",
+                    "view": "plan"
+                  }
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A3"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "scope": "sheet",
+              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "hole_table",
+                  "value": "always"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "2:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:extension_through_feature:d:step_level/step_height.length.h1_9|f:hole:1:line:1",
+          "code": "extension_through_feature",
+          "severity": "warning",
+          "impact": "advisory",
+          "group": "extension_through_feature",
+          "message": "The second extension line of 1.9 crosses the ⌀3.3 hole.",
+          "subjects": [
+            "d:step_level/step_height.length.h1_9",
+            "f:hole:1"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "dimensions/d:step_level~1step_height.length.h1_9/place",
+              "value": {
+                "along": "middle",
+                "lane": 0,
+                "side": "left",
+                "view": "front"
+              }
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A3"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Move the 1.9 dimension to the left of the front view, nearest the view.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "dimensions/d:step_level~1step_height.length.h1_9/place",
+                  "value": {
+                    "along": "middle",
+                    "lane": 0,
+                    "side": "left",
+                    "view": "front"
+                  }
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A3"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "scope": "sheet",
+              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "hole_table",
+                  "value": "always"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "2:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:extension_through_feature:d:step_level/step_height.length.h1_9|f:slot:1:line:1",
+          "code": "extension_through_feature",
+          "severity": "warning",
+          "impact": "advisory",
+          "group": "extension_through_feature",
+          "message": "The second extension line of 1.9 crosses the 4.75 wide slot.",
+          "subjects": [
+            "d:step_level/step_height.length.h1_9",
+            "f:slot:1"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "dimensions/d:step_level~1step_height.length.h1_9/place",
+              "value": {
+                "along": "middle",
+                "lane": 0,
+                "side": "left",
+                "view": "front"
+              }
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A3"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Move the 1.9 dimension to the left of the front view, nearest the view.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "dimensions/d:step_level~1step_height.length.h1_9/place",
+                  "value": {
+                    "along": "middle",
+                    "lane": 0,
+                    "side": "left",
+                    "view": "front"
+                  }
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A3"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "scope": "sheet",
+              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "hole_table",
+                  "value": "always"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "2:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:extension_through_feature:d:step_level/step_height.length.h4_9|f:hole:1:line:1",
+          "code": "extension_through_feature",
+          "severity": "warning",
+          "impact": "advisory",
+          "group": "extension_through_feature",
+          "message": "The second extension line of 4.9 crosses the ⌀3.3 hole.",
+          "subjects": [
+            "d:step_level/step_height.length.h4_9",
+            "f:hole:1"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "dimensions/d:step_level~1step_height.length.h4_9/place",
+              "value": {
+                "along": "middle",
+                "lane": 0,
+                "side": "left",
+                "view": "front"
+              }
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A3"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Move the 4.9 dimension to the left of the front view, nearest the view.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "dimensions/d:step_level~1step_height.length.h4_9/place",
+                  "value": {
+                    "along": "middle",
+                    "lane": 0,
+                    "side": "left",
+                    "view": "front"
+                  }
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A3"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "scope": "sheet",
+              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "hole_table",
+                  "value": "always"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "2:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:extension_through_feature:d:step_level/step_height.length.h4_9|f:slot:1:line:1",
+          "code": "extension_through_feature",
+          "severity": "warning",
+          "impact": "advisory",
+          "group": "extension_through_feature",
+          "message": "The second extension line of 4.9 crosses the 4.75 wide slot.",
+          "subjects": [
+            "d:step_level/step_height.length.h4_9",
+            "f:slot:1"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "dimensions/d:step_level~1step_height.length.h4_9/place",
+              "value": {
+                "along": "middle",
+                "lane": 0,
+                "side": "left",
+                "view": "front"
+              }
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A3"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Move the 4.9 dimension to the left of the front view, nearest the view.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "dimensions/d:step_level~1step_height.length.h4_9/place",
+                  "value": {
+                    "along": "middle",
+                    "lane": 0,
+                    "side": "left",
+                    "view": "front"
+                  }
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A3"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "scope": "sheet",
+              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "hole_table",
+                  "value": "always"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "2:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:unclaimed_geometry:sheet",
+          "code": "unclaimed_geometry",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "unclaimed_geometry",
+          "message": "Analysis features claim 14 of 17 faces; 3 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+          "subjects": [
+            "face:7",
+            "face:11",
+            "face:16"
+          ]
+        },
+        {
+          "id": "p:label_crowded:d:envelope/depth.length|d:f:hole:2/bore.diameter",
+          "code": "label_crowded",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "label_crowded",
+          "message": "Line-work of 8 passes less than 0.5 mm from the label of ⌀1.6 ↧ 3.5, so it touches the text.",
+          "subjects": [
+            "d:envelope/depth.length",
+            "d:f:hole:2/bore.diameter"
+          ]
+        },
+        {
+          "id": "p:label_crowded:d:envelope/depth.length|d:f:boss:1/boss.diameter",
+          "code": "label_crowded",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "label_crowded",
+          "message": "Line-work of 8 passes less than 0.5 mm from the label of ø8, so it touches the text.",
+          "subjects": [
+            "d:envelope/depth.length",
+            "d:f:boss:1/boss.diameter"
+          ]
+        },
+        {
+          "id": "p:label_crowded:d:f:hole:2/bore.diameter|d:f:flat:1/flat.length",
+          "code": "label_crowded",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "label_crowded",
+          "message": "Line-work of ⌀1.6 ↧ 3.5 passes less than 0.5 mm from the label of 7.4, so it touches the text.",
+          "subjects": [
+            "d:f:hole:2/bore.diameter",
+            "d:f:flat:1/flat.length"
+          ]
+        },
+        {
+          "id": "p:leader_to_hidden_edge:d:f:hole:2/bore.diameter",
+          "code": "leader_to_hidden_edge",
+          "severity": "warning",
+          "impact": "readability",
+          "group": "leader_to_hidden_edge",
+          "message": "The leader of ⌀1.6 ↧ 3.5 ends on an edge the side view shows hidden, so it points at dashed line-work.",
+          "subjects": [
+            "d:f:hole:2/bore.diameter",
+            "v:side"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GRM-06 blade retainer",
+      "item": 3,
+      "name": "GRM-06 blade retainer",
+      "reference": "GRM-06",
+      "products": [
+        "GRM-06 blade retainer"
+      ],
+      "part_indices": [
+        2
+      ],
+      "qty": 4,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        4
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "10:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "10:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:dimensions_not_ported:f:section_recess:1",
+          "code": "dimensions_not_ported",
+          "severity": "warning",
+          "impact": "incomplete",
+          "group": "dimensions_not_ported:section_recess",
+          "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
+          "subjects": [
+            "f:section_recess:1"
+          ]
+        },
+        {
+          "id": "p:dimensions_not_ported:f:section_recess:2",
+          "code": "dimensions_not_ported",
+          "severity": "warning",
+          "impact": "incomplete",
+          "group": "dimensions_not_ported:section_recess",
+          "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
+          "subjects": [
+            "f:section_recess:2"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GRM-07 blade",
+      "item": 4,
+      "name": "GRM-07 blade",
+      "reference": "GRM-07",
+      "products": [
+        "GRM-07 blade"
+      ],
+      "part_indices": [
+        3
+      ],
+      "qty": 2,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        5
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:unclaimed_geometry:sheet",
+          "code": "unclaimed_geometry",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "unclaimed_geometry",
+          "message": "Analysis features and dimensioned stock claim 7 of 8 faces; 1 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+          "subjects": [
+            "face:7"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GRM-04 drive plate",
+      "item": 5,
+      "name": "GRM-04 drive plate",
+      "reference": "GRM-04",
+      "products": [
+        "GRM-04 drive plate"
+      ],
+      "part_indices": [
+        5
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        6
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A3"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A3"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:unclaimed_geometry:sheet",
+          "code": "unclaimed_geometry",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "unclaimed_geometry",
+          "message": "Analysis features claim 8 of 12 faces; 4 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+          "subjects": [
+            "face:1",
+            "face:2",
+            "face:3",
+            "face:5"
+          ]
+        },
+        {
+          "id": "p:label_crowded:d:envelope/depth.length|d:f:hole:2/bore.diameter",
+          "code": "label_crowded",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "label_crowded",
+          "message": "Line-work of 8 passes less than 0.5 mm from the label of ⌀2.4 THRU, so it touches the text.",
+          "subjects": [
+            "d:envelope/depth.length",
+            "d:f:hole:2/bore.diameter"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GRM-03 thumbwheel drive screw",
+      "item": 6,
+      "name": "GRM-03 thumbwheel drive screw",
+      "reference": "GRM-03",
+      "products": [
+        "GRM-03 thumbwheel drive screw"
+      ],
+      "part_indices": [
+        9
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        7
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:feature_unplanned:f:plate:1",
+          "code": "feature_not_dimensioned",
+          "severity": "warning",
+          "impact": "incomplete",
+          "group": "feature_not_dimensioned:plate",
+          "message": "The 2.5 thick plate has no dimension drawn or carried by the hole table; review its omitted or undrawable items.",
+          "subjects": [
+            "f:plate:1"
+          ]
+        },
+        {
+          "id": "p:leader_to_hidden_edge:d:f:hole:1/bore.diameter",
+          "code": "leader_to_hidden_edge",
+          "severity": "warning",
+          "impact": "readability",
+          "group": "leader_to_hidden_edge",
+          "message": "The leader of ⌀1.6 ↧ 8 ends on an edge the side view shows hidden, so it points at dashed line-work.",
+          "subjects": [
+            "d:f:hole:1/bore.diameter",
+            "v:side"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GRM-05 depth-lock bolt",
+      "item": 7,
+      "name": "GRM-05 depth-lock bolt",
+      "reference": "GRM-05",
+      "products": [
+        "GRM-05 depth-lock bolt"
+      ],
+      "part_indices": [
+        10
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        8
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "2:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "2:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "push rod",
+      "item": 8,
+      "name": "push rod",
+      "reference": "",
+      "products": [
+        "push rod"
+      ],
+      "part_indices": [
+        11
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        9
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "2:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "2:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "grub screw M4x5",
+      "item": 9,
+      "name": "grub screw M4x5",
+      "reference": "",
+      "products": [
+        "grub screw M4x5"
+      ],
+      "part_indices": [
+        4
+      ],
+      "qty": 1,
+      "supply": "buy",
+      "buy_reasons": [
+        "name: screw"
+      ],
+      "sheets": [],
+      "problems": []
+    },
+    {
+      "key": "flat washer M2",
+      "item": 10,
+      "name": "flat washer M2",
+      "reference": "",
+      "products": [
+        "flat washer M2"
+      ],
+      "part_indices": [
+        6
+      ],
+      "qty": 1,
+      "supply": "buy",
+      "buy_reasons": [
+        "name: washer"
+      ],
+      "sheets": [],
+      "problems": []
+    },
+    {
+      "key": "pan-head screw M2x6",
+      "item": 11,
+      "name": "pan-head screw M2x6",
+      "reference": "",
+      "products": [
+        "pan-head screw M2x6"
+      ],
+      "part_indices": [
+        7
+      ],
+      "qty": 1,
+      "supply": "buy",
+      "buy_reasons": [
+        "name: screw"
+      ],
+      "sheets": [],
+      "problems": []
+    },
+    {
+      "key": "pan-head screw M2x10",
+      "item": 12,
+      "name": "pan-head screw M2x10",
+      "reference": "",
+      "products": [
+        "pan-head screw M2x10"
+      ],
+      "part_indices": [
+        8
+      ],
+      "qty": 1,
+      "supply": "buy",
+      "buy_reasons": [
+        "name: screw"
+      ],
+      "sheets": [],
+      "problems": []
+    }
+  ],
+  "findings": [
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "GRM-01 shank: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "GRM-01 shank"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "GRM-02 shaft: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "GRM-02 shaft"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "GRM-06 blade retainer: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "GRM-06 blade retainer"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "GRM-07 blade: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "GRM-07 blade"
+      ]
+    },
+    {
+      "code": "pack_buy_guess",
+      "severity": "info",
+      "message": "grub screw M4x5: guessed buy because name: screw; supply override wins",
+      "products": [
+        "grub screw M4x5"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "GRM-04 drive plate: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "GRM-04 drive plate"
+      ]
+    },
+    {
+      "code": "pack_buy_guess",
+      "severity": "info",
+      "message": "flat washer M2: guessed buy because name: washer; supply override wins",
+      "products": [
+        "flat washer M2"
+      ]
+    },
+    {
+      "code": "pack_buy_guess",
+      "severity": "info",
+      "message": "pan-head screw M2x6: guessed buy because name: screw; supply override wins",
+      "products": [
+        "pan-head screw M2x6"
+      ]
+    },
+    {
+      "code": "pack_buy_guess",
+      "severity": "info",
+      "message": "pan-head screw M2x10: guessed buy because name: screw; supply override wins",
+      "products": [
+        "pan-head screw M2x10"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "GRM-03 thumbwheel drive screw: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "GRM-03 thumbwheel drive screw"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "GRM-05 depth-lock bolt: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "GRM-05 depth-lock bolt"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "push rod: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "push rod"
+      ]
+    }
+  ],
+  "pages": 9,
+  "general_assembly": {
+    "sheet": 1,
+    "size": "A3",
+    "scale": "1:1",
+    "envelope": [
+      96.5,
+      11.0,
+      42.6
+    ],
+    "frame": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "balloons": [
+      {
+        "item": 1,
+        "key": "GRM-01 shank",
+        "view": "v:front",
+        "face": 8,
+        "instance": 0,
+        "point": [
+          3.6015625,
+          -5.5,
+          -3.5000000000000018
+        ],
+        "tip": [
+          62.6015725,
+          102.0
+        ],
+        "at": [
+          27.000010000000003,
+          102.0
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 2,
+        "key": "GRM-02 shaft",
+        "view": "v:front",
+        "face": 27,
+        "instance": 1,
+        "point": [
+          65.7234375,
+          -3.9904276943197137,
+          10.299999999999997
+        ],
+        "tip": [
+          124.7234475,
+          115.8
+        ],
+        "at": [
+          124.7234475,
+          145.3
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 3,
+        "key": "GRM-06 blade retainer",
+        "view": "v:side",
+        "face": 144,
+        "instance": 7,
+        "point": [
+          70.96795962342979,
+          1.7368421052631575,
+          -12.5
+        ],
+        "tip": [
+          194.93685210526314,
+          93.0
+        ],
+        "at": [
+          214.70001,
+          93.0
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 4,
+        "key": "GRM-07 blade",
+        "view": "v:iso",
+        "face": 88,
+        "instance": 4,
+        "point": [
+          74.63636214507281,
+          -1.7564408852302638,
+          -10.1
+        ],
+        "tip": [
+          371.72969784191014,
+          190.69091920690641
+        ],
+        "at": [
+          397.0069944887769,
+          190.69091920690641
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 5,
+        "key": "GRM-04 drive plate",
+        "view": "v:plan",
+        "face": 152,
+        "instance": 9,
+        "point": [
+          70.5484375,
+          -0.5789473684210522,
+          21.8
+        ],
+        "tip": [
+          129.5484475,
+          179.22105263157897
+        ],
+        "at": [
+          92.2234475,
+          158.3
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 6,
+        "key": "GRM-03 thumbwheel drive screw",
+        "view": "v:side",
+        "face": 178,
+        "instance": 13,
+        "point": [
+          80.20000000000027,
+          0.0,
+          16.3
+        ],
+        "tip": [
+          193.20001,
+          121.8
+        ],
+        "at": [
+          171.70001,
+          121.8
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 7,
+        "key": "GRM-05 depth-lock bolt",
+        "view": "v:section_aa",
+        "face": 193,
+        "instance": 14,
+        "point": [
+          -8.999999999999545,
+          0.0,
+          0.0
+        ],
+        "tip": [
+          190.50001000000043,
+          243.2
+        ],
+        "at": [
+          167.50000999999997,
+          243.2
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": true
+      },
+      {
+        "item": 8,
+        "key": "push rod",
+        "view": "v:section_aa",
+        "face": 202,
+        "instance": 15,
+        "point": [
+          36.85000000000008,
+          0.0,
+          0.0
+        ],
+        "tip": [
+          236.35001000000005,
+          243.2
+        ],
+        "at": [
+          272.75001,
+          208.39999999999998
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": true
+      },
+      {
+        "item": 9,
+        "key": "grub screw M4x5",
+        "view": "v:side",
+        "face": 148,
+        "instance": 8,
+        "point": [
+          66.99165493060087,
+          -1.736842105263158,
+          -14.3
+        ],
+        "tip": [
+          191.46316789473684,
+          91.2
+        ],
+        "at": [
+          171.70001,
+          91.2
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 10,
+        "key": "flat washer M2",
+        "view": "v:plan",
+        "face": 165,
+        "instance": 10,
+        "point": [
+          74.7703125,
+          -2.3157894736842106,
+          22.299999999999997
+        ],
+        "tip": [
+          133.77032250000002,
+          177.4842105263158
+        ],
+        "at": [
+          109.2234475,
+          158.3
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 11,
+        "key": "pan-head screw M2x6",
+        "view": "v:plan",
+        "face": 169,
+        "instance": 11,
+        "point": [
+          77.1828125,
+          0.5789473684210522,
+          23.8
+        ],
+        "tip": [
+          136.1828225,
+          180.37894736842105
+        ],
+        "at": [
+          155.50001,
+          180.37894736842105
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 12,
+        "key": "pan-head screw M2x10",
+        "view": "v:plan",
+        "face": 174,
+        "instance": 12,
+        "point": [
+          65.7234375,
+          0.0,
+          23.3
+        ],
+        "tip": [
+          124.7234475,
+          179.8
+        ],
+        "at": [
+          124.7234475,
+          201.3
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      }
+    ],
+    "unballooned": [],
+    "suppressed": [],
+    "parts_list": {
+      "id": "t:1",
+      "rows": [
+        [
+          "ITEM",
+          "QTY",
+          "NAME / DESCRIPTION",
+          "REFERENCE",
+          "SUPPLY",
+          "MATERIAL"
+        ],
+        [
+          "12",
+          "1",
+          "pan-head screw M2x10",
+          "",
+          "buy",
+          ""
+        ],
+        [
+          "11",
+          "1",
+          "pan-head screw M2x6",
+          "",
+          "buy",
+          ""
+        ],
+        [
+          "10",
+          "1",
+          "flat washer M2",
+          "",
+          "buy",
+          ""
+        ],
+        [
+          "9",
+          "1",
+          "grub screw M4x5",
+          "",
+          "buy",
+          ""
+        ],
+        [
+          "8",
+          "1",
+          "push rod",
+          "",
+          "make",
+          ""
+        ],
+        [
+          "7",
+          "1",
+          "GRM-05 depth-lock bolt",
+          "GRM-05",
+          "make",
+          ""
+        ],
+        [
+          "6",
+          "1",
+          "GRM-03 thumbwheel drive screw",
+          "GRM-03",
+          "make",
+          ""
+        ],
+        [
+          "5",
+          "1",
+          "GRM-04 drive plate",
+          "GRM-04",
+          "make",
+          ""
+        ],
+        [
+          "4",
+          "2",
+          "GRM-07 blade",
+          "GRM-07",
+          "make",
+          ""
+        ],
+        [
+          "3",
+          "4",
+          "GRM-06 blade retainer",
+          "GRM-06",
+          "make",
+          ""
+        ],
+        [
+          "2",
+          "1",
+          "GRM-02 shaft",
+          "GRM-02",
+          "make",
+          ""
+        ],
+        [
+          "1",
+          "1",
+          "GRM-01 shank",
+          "GRM-01",
+          "make",
+          ""
+        ]
+      ],
+      "default": false,
+      "basis": "authored: the spec's table t:1 (tables/0), towards the sheet's br corner as draftwright places a declared table",
+      "state": {
+        "kind": "shown"
+      },
+      "placed": {
+        "cells_at": [
+          [
+            [
+              287.2,
+              139.5
+            ],
+            [
+              297.1625,
+              139.5
+            ],
+            [
+              329.72399999999993,
+              139.5
+            ],
+            [
+              367.53999999999996,
+              139.5
+            ],
+            [
+              384.6919999999999,
+              139.5
+            ],
+            [
+              400.9994999999999,
+              139.5
+            ]
+          ],
+          [
+            [
+              287.2,
+              132.5
+            ],
+            [
+              297.1625,
+              132.5
+            ],
+            [
+              329.72399999999993,
+              132.5
+            ],
+            null,
+            [
+              384.6919999999999,
+              132.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              125.5
+            ],
+            [
+              297.1625,
+              125.5
+            ],
+            [
+              329.72399999999993,
+              125.5
+            ],
+            null,
+            [
+              384.6919999999999,
+              125.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              118.5
+            ],
+            [
+              297.1625,
+              118.5
+            ],
+            [
+              329.72399999999993,
+              118.5
+            ],
+            null,
+            [
+              384.6919999999999,
+              118.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              111.5
+            ],
+            [
+              297.1625,
+              111.5
+            ],
+            [
+              329.72399999999993,
+              111.5
+            ],
+            null,
+            [
+              384.6919999999999,
+              111.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              104.5
+            ],
+            [
+              297.1625,
+              104.5
+            ],
+            [
+              329.72399999999993,
+              104.5
+            ],
+            null,
+            [
+              384.6919999999999,
+              104.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              97.5
+            ],
+            [
+              297.1625,
+              97.5
+            ],
+            [
+              329.72399999999993,
+              97.5
+            ],
+            [
+              367.53999999999996,
+              97.5
+            ],
+            [
+              384.6919999999999,
+              97.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              90.5
+            ],
+            [
+              297.1625,
+              90.5
+            ],
+            [
+              329.72399999999993,
+              90.5
+            ],
+            [
+              367.53999999999996,
+              90.5
+            ],
+            [
+              384.6919999999999,
+              90.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              83.5
+            ],
+            [
+              297.1625,
+              83.5
+            ],
+            [
+              329.72399999999993,
+              83.5
+            ],
+            [
+              367.53999999999996,
+              83.5
+            ],
+            [
+              384.6919999999999,
+              83.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              76.5
+            ],
+            [
+              297.1625,
+              76.5
+            ],
+            [
+              329.72399999999993,
+              76.5
+            ],
+            [
+              367.53999999999996,
+              76.5
+            ],
+            [
+              384.6919999999999,
+              76.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              69.5
+            ],
+            [
+              297.1625,
+              69.5
+            ],
+            [
+              329.72399999999993,
+              69.5
+            ],
+            [
+              367.53999999999996,
+              69.5
+            ],
+            [
+              384.6919999999999,
+              69.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              62.5
+            ],
+            [
+              297.1625,
+              62.5
+            ],
+            [
+              329.72399999999993,
+              62.5
+            ],
+            [
+              367.53999999999996,
+              62.5
+            ],
+            [
+              384.6919999999999,
+              62.5
+            ],
+            null
+          ],
+          [
+            [
+              287.2,
+              55.5
+            ],
+            [
+              297.1625,
+              55.5
+            ],
+            [
+              329.72399999999993,
+              55.5
+            ],
+            [
+              367.53999999999996,
+              55.5
+            ],
+            [
+              384.6919999999999,
+              55.5
+            ],
+            null
+          ]
+        ],
+        "columns": [
+          281.828,
+          292.572,
+          301.753,
+          357.69499999999994,
+          377.38499999999993,
+          391.9989999999999,
+          409.9999999999999
+        ],
+        "box": [
+          281.828,
+          52.0,
+          409.9999999999999,
+          143.0
+        ]
+      }
+    },
+    "problems": [
+      {
+        "id": "p:general_tolerance_missing:sheet",
+        "code": "general_tolerance_missing",
+        "severity": "warning",
+        "impact": "decision",
+        "group": "general_tolerance_missing",
+        "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+        "subjects": [
+          "sheet"
+        ],
+        "refs": [
+          "title_block/general_tolerance",
+          "sheet/title/tolerance"
+        ],
+        "fix": [
+          {
+            "op": "set",
+            "path": "sheet/title/tolerance",
+            "value": "UNSPECIFIED"
+          },
+          {
+            "op": "set",
+            "path": "sheet/keep_layout",
+            "value": true
+          },
+          {
+            "op": "set",
+            "path": "sheet/size",
+            "value": "A3"
+          },
+          {
+            "op": "set",
+            "path": "sheet/scale",
+            "value": "1:1"
+          },
+          {
+            "op": "set",
+            "path": "sheets/max",
+            "value": 1
+          }
+        ],
+        "fixes": [
+          {
+            "scope": "local",
+            "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+            "ops": [
+              {
+                "op": "set",
+                "path": "sheet/title/tolerance",
+                "value": "UNSPECIFIED"
+              },
+              {
+                "op": "set",
+                "path": "sheet/keep_layout",
+                "value": true
+              },
+              {
+                "op": "set",
+                "path": "sheet/size",
+                "value": "A3"
+              },
+              {
+                "op": "set",
+                "path": "sheet/scale",
+                "value": "1:1"
+              },
+              {
+                "op": "set",
+                "path": "sheets/max",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p:unclaimed_geometry:sheet",
+        "code": "unclaimed_geometry",
+        "severity": "info",
+        "impact": "advisory",
+        "group": "unclaimed_geometry",
+        "message": "Analysis features claim 0 of 205 faces; 205 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+        "subjects": [
+          "face:0",
+          "face:1",
+          "face:2",
+          "face:3",
+          "face:4",
+          "face:5",
+          "face:6",
+          "face:7",
+          "face:8",
+          "face:9",
+          "face:10",
+          "face:11",
+          "face:12",
+          "face:13",
+          "face:14",
+          "face:15",
+          "face:16",
+          "face:17",
+          "face:18",
+          "face:19",
+          "face:20",
+          "face:21",
+          "face:22",
+          "face:23",
+          "face:24",
+          "face:25",
+          "face:26",
+          "face:27",
+          "face:28",
+          "face:29",
+          "face:30",
+          "face:31",
+          "face:32",
+          "face:33",
+          "face:34",
+          "face:35",
+          "face:36",
+          "face:37",
+          "face:38",
+          "face:39",
+          "face:40",
+          "face:41",
+          "face:42",
+          "face:43",
+          "face:44",
+          "face:45",
+          "face:46",
+          "face:47",
+          "face:48",
+          "face:49",
+          "face:50",
+          "face:51",
+          "face:52",
+          "face:53",
+          "face:54",
+          "face:55",
+          "face:56",
+          "face:57",
+          "face:58",
+          "face:59",
+          "face:60",
+          "face:61",
+          "face:62",
+          "face:63",
+          "face:64",
+          "face:65",
+          "face:66",
+          "face:67",
+          "face:68",
+          "face:69",
+          "face:70",
+          "face:71",
+          "face:72",
+          "face:73",
+          "face:74",
+          "face:75",
+          "face:76",
+          "face:77",
+          "face:78",
+          "face:79",
+          "face:80",
+          "face:81",
+          "face:82",
+          "face:83",
+          "face:84",
+          "face:85",
+          "face:86",
+          "face:87",
+          "face:88",
+          "face:89",
+          "face:90",
+          "face:91",
+          "face:92",
+          "face:93",
+          "face:94",
+          "face:95",
+          "face:96",
+          "face:97",
+          "face:98",
+          "face:99",
+          "face:100",
+          "face:101",
+          "face:102",
+          "face:103",
+          "face:104",
+          "face:105",
+          "face:106",
+          "face:107",
+          "face:108",
+          "face:109",
+          "face:110",
+          "face:111",
+          "face:112",
+          "face:113",
+          "face:114",
+          "face:115",
+          "face:116",
+          "face:117",
+          "face:118",
+          "face:119",
+          "face:120",
+          "face:121",
+          "face:122",
+          "face:123",
+          "face:124",
+          "face:125",
+          "face:126",
+          "face:127",
+          "face:128",
+          "face:129",
+          "face:130",
+          "face:131",
+          "face:132",
+          "face:133",
+          "face:134",
+          "face:135",
+          "face:136",
+          "face:137",
+          "face:138",
+          "face:139",
+          "face:140",
+          "face:141",
+          "face:142",
+          "face:143",
+          "face:144",
+          "face:145",
+          "face:146",
+          "face:147",
+          "face:148",
+          "face:149",
+          "face:150",
+          "face:151",
+          "face:152",
+          "face:153",
+          "face:154",
+          "face:155",
+          "face:156",
+          "face:157",
+          "face:158",
+          "face:159",
+          "face:160",
+          "face:161",
+          "face:162",
+          "face:163",
+          "face:164",
+          "face:165",
+          "face:166",
+          "face:167",
+          "face:168",
+          "face:169",
+          "face:170",
+          "face:171",
+          "face:172",
+          "face:173",
+          "face:174",
+          "face:175",
+          "face:176",
+          "face:177",
+          "face:178",
+          "face:179",
+          "face:180",
+          "face:181",
+          "face:182",
+          "face:183",
+          "face:184",
+          "face:185",
+          "face:186",
+          "face:187",
+          "face:188",
+          "face:189",
+          "face:190",
+          "face:191",
+          "face:192",
+          "face:193",
+          "face:194",
+          "face:195",
+          "face:196",
+          "face:197",
+          "face:198",
+          "face:199",
+          "face:200",
+          "face:201",
+          "face:202",
+          "face:203",
+          "face:204"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "id": "v:front",
+        "direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          91.25001,
+          108.0
+        ],
+        "scale": 1.0,
+        "area": [
+          23.00001,
+          66.7,
+          159.50001,
+          131.3
+        ],
+        "default": false,
+        "basis": "the principal view, its box and annotation bands packed from the lower left; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_work": [
+          {
+            "id": "ink:v:front:ga_axis:0",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    59.00001,
+                    111.275
+                  ],
+                  [
+                    138.92058010157302,
+                    111.275
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:2",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    59.00001,
+                    111.275
+                  ],
+                  [
+                    138.92058010157302,
+                    111.275
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:4",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    125.00001,
+                    131.8
+                  ],
+                  [
+                    125.00001,
+                    83.7
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:5",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    134.50001,
+                    132.3
+                  ],
+                  [
+                    134.50001,
+                    95.725
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:7",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    56.00001,
+                    106.835
+                  ],
+                  [
+                    141.22382971346002,
+                    106.835
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:8",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    138.00001,
+                    111.861902647382
+                  ],
+                  [
+                    138.00001,
+                    99.86750249748
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:9",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    138.00001,
+                    111.861902647382
+                  ],
+                  [
+                    138.00001,
+                    99.86750249583
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:10",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    41.50001,
+                    105.5
+                  ],
+                  [
+                    124.877511000801,
+                    105.5
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:11",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    60.00001,
+                    112.275
+                  ],
+                  [
+                    60.00001,
+                    99.087993256265
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:12",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    60.00001,
+                    112.275
+                  ],
+                  [
+                    60.00001,
+                    99.087993256265
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:14",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    121.37501,
+                    98.1
+                  ],
+                  [
+                    121.37501,
+                    91.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:15",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    121.30001,
+                    98.39999999999999
+                  ],
+                  [
+                    121.30001,
+                    91.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:16",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    121.30001,
+                    98.39999999999999
+                  ],
+                  [
+                    121.30001,
+                    91.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:17",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    128.62501,
+                    98.1
+                  ],
+                  [
+                    128.62501,
+                    91.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:18",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    121.37501,
+                    98.1
+                  ],
+                  [
+                    121.37501,
+                    91.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:19",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    128.70001000000002,
+                    98.39999999999999
+                  ],
+                  [
+                    128.70001000000002,
+                    91.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:20",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    128.70001000000002,
+                    98.39999999999999
+                  ],
+                  [
+                    128.70001000000002,
+                    91.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:21",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    128.62501,
+                    98.1
+                  ],
+                  [
+                    128.62501,
+                    91.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:22",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    112.80001,
+                    97.20000000000002
+                  ],
+                  [
+                    112.80001,
+                    92.2
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          }
+        ],
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      },
+      {
+        "id": "v:plan",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "at": [
+          91.25001,
+          179.8
+        ],
+        "scale": 1.0,
+        "area": [
+          23.00001,
+          156.3,
+          159.50001,
+          205.3
+        ],
+        "default": false,
+        "basis": "third-angle: the plan sits above the front, past both views' bands; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_work": [
+          {
+            "id": "ink:v:plan:cut:A",
+            "kind": "cutting_plane",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    39.00001,
+                    179.8
+                  ],
+                  [
+                    143.50001,
+                    179.8
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:0",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    59.00001,
+                    175.3
+                  ],
+                  [
+                    138.92058010157302,
+                    175.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:1",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    60.00001,
+                    174.3
+                  ],
+                  [
+                    60.00001,
+                    185.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:2",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    59.00001,
+                    184.3
+                  ],
+                  [
+                    138.92058010157302,
+                    184.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:3",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    138.00001,
+                    175.180694127322
+                  ],
+                  [
+                    138.00001,
+                    184.41930587267802
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:6",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    138.00001,
+                    178.159025252627
+                  ],
+                  [
+                    138.00001,
+                    181.44097474737302
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:7",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    56.00001,
+                    179.8
+                  ],
+                  [
+                    141.22382971346002,
+                    179.8
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:10",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    41.50001,
+                    179.8
+                  ],
+                  [
+                    124.877511000801,
+                    179.8
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:13",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    60.00001,
+                    174.898718159374
+                  ],
+                  [
+                    60.00001,
+                    184.70128184062602
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          }
+        ],
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      },
+      {
+        "id": "v:side",
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          193.20001,
+          108.0
+        ],
+        "scale": 1.0,
+        "area": [
+          184.50001,
+          72.7,
+          218.70001,
+          129.3
+        ],
+        "default": false,
+        "basis": "third-angle: the right side sits right of the front, past both views' bands; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_work": [
+          {
+            "id": "ink:v:side:ga_axis:1",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    187.70001,
+                    111.275
+                  ],
+                  [
+                    198.70001,
+                    111.275
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:3",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    188.58070412732198,
+                    111.275
+                  ],
+                  [
+                    197.819315872678,
+                    111.275
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:4",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    193.20001,
+                    131.8
+                  ],
+                  [
+                    193.20001,
+                    83.7
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:5",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    193.20001,
+                    132.3
+                  ],
+                  [
+                    193.20001,
+                    95.725
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:6",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    191.55903525262698,
+                    99.725
+                  ],
+                  [
+                    194.840984747373,
+                    99.725
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:8",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    188.70001,
+                    111.861902647382
+                  ],
+                  [
+                    188.70001,
+                    99.86750249748
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:9",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    197.70001,
+                    111.861902647382
+                  ],
+                  [
+                    197.70001,
+                    99.86750249583
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:11",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    188.70001,
+                    112.275
+                  ],
+                  [
+                    188.70001,
+                    99.087993256265
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:12",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    197.70001,
+                    112.275
+                  ],
+                  [
+                    197.70001,
+                    99.087993256265
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:13",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    188.29872815937398,
+                    99.725
+                  ],
+                  [
+                    198.101291840626,
+                    99.725
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:14",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    190.95001,
+                    98.1
+                  ],
+                  [
+                    190.95001,
+                    91.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:15",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    191.75001,
+                    98.39999999999999
+                  ],
+                  [
+                    191.75001,
+                    91.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:16",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    194.65000999999998,
+                    98.39999999999999
+                  ],
+                  [
+                    194.65000999999998,
+                    91.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:17",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    190.95001,
+                    98.1
+                  ],
+                  [
+                    190.95001,
+                    91.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:18",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    195.45001,
+                    98.1
+                  ],
+                  [
+                    195.45001,
+                    91.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:19",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    191.75001,
+                    98.39999999999999
+                  ],
+                  [
+                    191.75001,
+                    91.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:20",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    194.65000999999998,
+                    98.39999999999999
+                  ],
+                  [
+                    194.65000999999998,
+                    91.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:21",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    195.45001,
+                    98.1
+                  ],
+                  [
+                    195.45001,
+                    91.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:22",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    193.20001,
+                    97.20000000000002
+                  ],
+                  [
+                    193.20001,
+                    92.2
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          }
+        ],
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      },
+      {
+        "id": "v:section_aa",
+        "direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          231.75000999999997,
+          245.7
+        ],
+        "scale": 1.0,
+        "area": [
+          165.50001,
+          200.4,
+          298.00001,
+          283.0
+        ],
+        "default": false,
+        "basis": "Full section through an item without a distinguishable external attachment site; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_work": [
+          {
+            "id": "ink:v:section_aa:ga_axis:0",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    199.50000999999997,
+                    248.975
+                  ],
+                  [
+                    279.42058010157297,
+                    248.975
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:2",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    199.50000999999997,
+                    248.975
+                  ],
+                  [
+                    279.42058010157297,
+                    248.975
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:4",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    265.50001,
+                    269.5
+                  ],
+                  [
+                    265.50001,
+                    221.39999999999998
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:5",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    275.00001,
+                    270.0
+                  ],
+                  [
+                    275.00001,
+                    233.42499999999998
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:7",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    196.50000999999997,
+                    244.535
+                  ],
+                  [
+                    281.72382971345996,
+                    244.535
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:8",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    278.50001,
+                    249.561902647382
+                  ],
+                  [
+                    278.50001,
+                    237.56750249747998
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:9",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    278.50001,
+                    249.561902647382
+                  ],
+                  [
+                    278.50001,
+                    237.56750249582998
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:10",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    182.00000999999997,
+                    243.2
+                  ],
+                  [
+                    265.37751100080095,
+                    243.2
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:11",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    200.50000999999997,
+                    249.975
+                  ],
+                  [
+                    200.50000999999997,
+                    236.787993256265
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:12",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    200.50000999999997,
+                    249.975
+                  ],
+                  [
+                    200.50000999999997,
+                    236.787993256265
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:14",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    261.87501,
+                    235.79999999999998
+                  ],
+                  [
+                    261.87501,
+                    229.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:15",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    261.80001,
+                    236.1
+                  ],
+                  [
+                    261.80001,
+                    228.7
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:16",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    261.80001,
+                    236.1
+                  ],
+                  [
+                    261.80001,
+                    228.7
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:17",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    269.12501,
+                    235.79999999999998
+                  ],
+                  [
+                    269.12501,
+                    229.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:18",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    261.87501,
+                    235.79999999999998
+                  ],
+                  [
+                    261.87501,
+                    229.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:19",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    269.20000999999996,
+                    236.1
+                  ],
+                  [
+                    269.20000999999996,
+                    228.7
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:20",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    269.20000999999996,
+                    236.1
+                  ],
+                  [
+                    269.20000999999996,
+                    228.7
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:21",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    269.12501,
+                    235.79999999999998
+                  ],
+                  [
+                    269.12501,
+                    229.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:22",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    253.30001,
+                    234.9
+                  ],
+                  [
+                    253.30001,
+                    229.89999999999998
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          }
+        ],
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ],
+        "cut": {
+          "label": "A",
+          "origin": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "marked_in": "v:plan"
+        }
+      },
+      {
+        "id": "v:iso",
+        "direction": [
+          1.0,
+          -1.0,
+          1.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          343.000005,
+          219.0
+        ],
+        "scale": 1.0,
+        "area": [
+          280.00001,
+          143.0,
+          406.0,
+          283.0
+        ],
+        "default": false,
+        "basis": "Orientation view fitted after the GA section/detail reservations; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      }
+    ]
+  }
+}

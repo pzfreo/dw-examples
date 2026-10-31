@@ -1,0 +1,1664 @@
+{
+  "schema": "draftwright.pack/1",
+  "rows": [
+    {
+      "key": "mount_plate",
+      "item": 1,
+      "name": "mount_plate",
+      "reference": "",
+      "products": [
+        "mount_plate"
+      ],
+      "part_indices": [
+        0
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        2
+      ],
+      "problems": [
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "1:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "1:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:label_crowded:d:f:hole:4/location.length.x|d:f:hole_pattern:1/grid_pitch.length.col",
+          "code": "label_crowded",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "label_crowded",
+          "message": "Line-work of 50 passes less than 0.5 mm from the label of 76, so it touches the text.",
+          "subjects": [
+            "d:f:hole:4/location.length.x",
+            "d:f:hole_pattern:1/grid_pitch.length.col"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bushing",
+      "item": 2,
+      "name": "bushing",
+      "reference": "",
+      "products": [
+        "bushing"
+      ],
+      "part_indices": [
+        1
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        3
+      ],
+      "problems": [
+        {
+          "id": "p:features_not_recognised:part",
+          "code": "features_not_recognised",
+          "severity": "warning",
+          "impact": "incomplete",
+          "group": "features_not_recognised",
+          "message": "Unrecognised features on this part: 1 thin wall body. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+          "subjects": [],
+          "refs": [
+            "thin_wall_bodies",
+            "quiddity-rust 0.2.6 (quiddity-rust/recognition/6)",
+            "Python quiddity's recognition (tools/recognise.py) gives these families"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "liner",
+      "item": 3,
+      "name": "liner",
+      "reference": "",
+      "products": [
+        "liner"
+      ],
+      "part_indices": [
+        2
+      ],
+      "qty": 1,
+      "supply": "make",
+      "buy_reasons": [],
+      "sheets": [
+        4
+      ],
+      "problems": [
+        {
+          "id": "p:features_not_recognised:part",
+          "code": "features_not_recognised",
+          "severity": "warning",
+          "impact": "incomplete",
+          "group": "features_not_recognised",
+          "message": "Unrecognised features on this part: 1 thin wall body. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
+          "subjects": [],
+          "refs": [
+            "thin_wall_bodies",
+            "quiddity-rust 0.2.6 (quiddity-rust/recognition/6)",
+            "Python quiddity's recognition (tools/recognise.py) gives these families"
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            },
+            {
+              "op": "set",
+              "path": "sheet/keep_layout",
+              "value": true
+            },
+            {
+              "op": "set",
+              "path": "sheet/size",
+              "value": "A4"
+            },
+            {
+              "op": "set",
+              "path": "sheet/scale",
+              "value": "5:1"
+            },
+            {
+              "op": "set",
+              "path": "sheets/max",
+              "value": 1
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/keep_layout",
+                  "value": true
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/size",
+                  "value": "A4"
+                },
+                {
+                  "op": "set",
+                  "path": "sheet/scale",
+                  "value": "5:1"
+                },
+                {
+                  "op": "set",
+                  "path": "sheets/max",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p:general_tolerance_missing:sheet",
+          "code": "general_tolerance_missing",
+          "severity": "warning",
+          "impact": "decision",
+          "group": "general_tolerance_missing",
+          "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+          "subjects": [
+            "sheet"
+          ],
+          "refs": [
+            "title_block/general_tolerance",
+            "sheet/title/tolerance"
+          ],
+          "fix": [
+            {
+              "op": "set",
+              "path": "sheet/title/tolerance",
+              "value": "UNSPECIFIED"
+            }
+          ],
+          "fixes": [
+            {
+              "scope": "local",
+              "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+              "ops": [
+                {
+                  "op": "set",
+                  "path": "sheet/title/tolerance",
+                  "value": "UNSPECIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "mount_plate: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "mount_plate"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "bushing: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "bushing"
+      ]
+    },
+    {
+      "code": "pack_make_guess",
+      "severity": "info",
+      "message": "liner: guessed make; custom drawing identifier or no bounded purchased-part name/shape evidence (supply override wins)",
+      "products": [
+        "liner"
+      ]
+    }
+  ],
+  "pages": 4,
+  "general_assembly": {
+    "sheet": 1,
+    "size": "A4",
+    "scale": "1:2",
+    "envelope": [
+      100.0,
+      70.0,
+      10.0
+    ],
+    "frame": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "balloons": [
+      {
+        "item": 1,
+        "key": "mount_plate",
+        "view": "v:plan",
+        "face": 1,
+        "instance": 0,
+        "point": [
+          22.023809523809526,
+          6.52542372881356,
+          10.0
+        ],
+        "tip": [
+          44.01190476190476,
+          126.93272186440677
+        ],
+        "at": [
+          44.01190476190476,
+          107.67000999999999
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": false
+      },
+      {
+        "item": 2,
+        "key": "bushing",
+        "view": "v:detail_b",
+        "face": 15,
+        "instance": 1,
+        "point": [
+          42.875,
+          35.0,
+          3.5250000000000057
+        ],
+        "tip": [
+          132.0,
+          130.54200000000003
+        ],
+        "at": [
+          111.0,
+          131.417
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": true
+      },
+      {
+        "item": 3,
+        "key": "liner",
+        "view": "v:detail_b",
+        "face": 19,
+        "instance": 2,
+        "point": [
+          43.875,
+          35.0,
+          4.66571908363432
+        ],
+        "tip": [
+          137.0,
+          136.2455954181716
+        ],
+        "at": [
+          111.0,
+          148.417
+        ],
+        "radius": 6.0,
+        "interior": true,
+        "section": true
+      }
+    ],
+    "unballooned": [],
+    "suppressed": [],
+    "parts_list": {
+      "id": "t:1",
+      "rows": [
+        [
+          "ITEM",
+          "QTY",
+          "NAME / DESCRIPTION",
+          "REFERENCE",
+          "SUPPLY",
+          "MATERIAL"
+        ],
+        [
+          "3",
+          "1",
+          "liner",
+          "",
+          "make",
+          ""
+        ],
+        [
+          "2",
+          "1",
+          "bushing",
+          "",
+          "make",
+          ""
+        ],
+        [
+          "1",
+          "1",
+          "mount_plate",
+          "",
+          "make",
+          ""
+        ]
+      ],
+      "default": false,
+      "basis": "authored: the spec's table t:1 (tables/0), towards the sheet's br corner as draftwright places a declared table",
+      "state": {
+        "kind": "shown"
+      },
+      "placed": {
+        "cells_at": [
+          [
+            [
+              184.22199999999998,
+              76.5
+            ],
+            [
+              194.18449999999996,
+              76.5
+            ],
+            [
+              216.73499999999999,
+              76.5
+            ],
+            [
+              244.54,
+              76.5
+            ],
+            [
+              261.692,
+              76.5
+            ],
+            [
+              277.99949999999995,
+              76.5
+            ]
+          ],
+          [
+            [
+              184.22199999999998,
+              69.5
+            ],
+            [
+              194.18449999999996,
+              69.5
+            ],
+            [
+              216.73499999999999,
+              69.5
+            ],
+            null,
+            [
+              261.692,
+              69.5
+            ],
+            null
+          ],
+          [
+            [
+              184.22199999999998,
+              62.5
+            ],
+            [
+              194.18449999999996,
+              62.5
+            ],
+            [
+              216.73499999999999,
+              62.5
+            ],
+            null,
+            [
+              261.692,
+              62.5
+            ],
+            null
+          ],
+          [
+            [
+              184.22199999999998,
+              55.5
+            ],
+            [
+              194.18449999999996,
+              55.5
+            ],
+            [
+              216.73499999999999,
+              55.5
+            ],
+            null,
+            [
+              261.692,
+              55.5
+            ],
+            null
+          ]
+        ],
+        "columns": [
+          178.84999999999997,
+          189.59399999999997,
+          198.77499999999998,
+          234.695,
+          254.385,
+          268.99899999999997,
+          286.99999999999994
+        ],
+        "box": [
+          178.84999999999997,
+          52.0,
+          286.99999999999994,
+          80.0
+        ]
+      }
+    },
+    "problems": [
+      {
+        "id": "p:general_tolerance_missing:sheet",
+        "code": "general_tolerance_missing",
+        "severity": "warning",
+        "impact": "decision",
+        "group": "general_tolerance_missing",
+        "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
+        "subjects": [
+          "sheet"
+        ],
+        "refs": [
+          "title_block/general_tolerance",
+          "sheet/title/tolerance"
+        ],
+        "fix": [
+          {
+            "op": "set",
+            "path": "sheet/title/tolerance",
+            "value": "UNSPECIFIED"
+          },
+          {
+            "op": "set",
+            "path": "sheet/keep_layout",
+            "value": true
+          },
+          {
+            "op": "set",
+            "path": "sheet/size",
+            "value": "A4"
+          },
+          {
+            "op": "set",
+            "path": "sheet/scale",
+            "value": "1:2"
+          },
+          {
+            "op": "set",
+            "path": "sheets/max",
+            "value": 1
+          }
+        ],
+        "fixes": [
+          {
+            "scope": "local",
+            "description": "Mark the general tolerance as UNSPECIFIED in the title block, without choosing a tolerance.",
+            "ops": [
+              {
+                "op": "set",
+                "path": "sheet/title/tolerance",
+                "value": "UNSPECIFIED"
+              },
+              {
+                "op": "set",
+                "path": "sheet/keep_layout",
+                "value": true
+              },
+              {
+                "op": "set",
+                "path": "sheet/size",
+                "value": "A4"
+              },
+              {
+                "op": "set",
+                "path": "sheet/scale",
+                "value": "1:2"
+              },
+              {
+                "op": "set",
+                "path": "sheets/max",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p:unclaimed_geometry:sheet",
+        "code": "unclaimed_geometry",
+        "severity": "info",
+        "impact": "advisory",
+        "group": "unclaimed_geometry",
+        "message": "Analysis features claim 0 of 23 faces; 23 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+        "subjects": [
+          "face:0",
+          "face:1",
+          "face:2",
+          "face:3",
+          "face:4",
+          "face:5",
+          "face:6",
+          "face:7",
+          "face:8",
+          "face:9",
+          "face:10",
+          "face:11",
+          "face:12",
+          "face:13",
+          "face:14",
+          "face:15",
+          "face:16",
+          "face:17",
+          "face:18",
+          "face:19",
+          "face:20",
+          "face:21",
+          "face:22"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "id": "v:front",
+        "direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          58.0,
+          66.50001
+        ],
+        "scale": 0.5,
+        "area": [
+          13.0,
+          44.00001,
+          103.0,
+          78.67001000000002
+        ],
+        "default": false,
+        "basis": "the principal view, its box and annotation bands packed from the lower left; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_work": [
+          {
+            "id": "ink:v:front:ga_axis:0",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    35.5,
+                    61.50001
+                  ],
+                  [
+                    35.5,
+                    71.50001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:1",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    35.5,
+                    61.50001
+                  ],
+                  [
+                    35.5,
+                    71.50001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:2",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    80.5,
+                    61.50001
+                  ],
+                  [
+                    80.5,
+                    71.50001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:3",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    80.5,
+                    61.50001
+                  ],
+                  [
+                    80.5,
+                    71.50001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:4",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    39.0,
+                    62.350010000000005
+                  ],
+                  [
+                    39.0,
+                    70.65001000000001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:5",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    77.0,
+                    62.350010000000005
+                  ],
+                  [
+                    77.0,
+                    70.65001000000001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:6",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    39.0,
+                    62.350010000000005
+                  ],
+                  [
+                    39.0,
+                    70.65001000000001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:7",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    58.0,
+                    61.00001
+                  ],
+                  [
+                    58.0,
+                    72.00001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:front:ga_axis:8",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    77.0,
+                    62.350010000000005
+                  ],
+                  [
+                    77.0,
+                    70.65001000000001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          }
+        ],
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      },
+      {
+        "id": "v:plan",
+        "direction": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "at": [
+          58.0,
+          141.17001
+        ],
+        "scale": 0.5,
+        "area": [
+          13.0,
+          105.67001,
+          103.0,
+          178.67001
+        ],
+        "default": false,
+        "basis": "third-angle: the plan sits above the front, past both views' bands; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_work": [
+          {
+            "id": "ink:v:plan:cut:A",
+            "kind": "cutting_plane",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    29.0,
+                    141.17001
+                  ],
+                  [
+                    87.0,
+                    141.17001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          }
+        ],
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      },
+      {
+        "id": "v:side",
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          139.32499,
+          66.50001
+        ],
+        "scale": 0.5,
+        "area": [
+          121.82499,
+          50.00001,
+          176.82499,
+          69.00001
+        ],
+        "default": false,
+        "basis": "third-angle: the right side sits right of the front, past both views' bands; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_work": [
+          {
+            "id": "ink:v:side:ga_axis:0",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    124.32499000000001,
+                    61.50001
+                  ],
+                  [
+                    124.32499000000001,
+                    71.50001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:1",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    154.32499,
+                    61.50001
+                  ],
+                  [
+                    154.32499,
+                    71.50001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:2",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    124.32499000000001,
+                    61.50001
+                  ],
+                  [
+                    124.32499000000001,
+                    71.50001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:3",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    154.32499,
+                    61.50001
+                  ],
+                  [
+                    154.32499,
+                    71.50001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:4",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    127.82499000000001,
+                    62.350010000000005
+                  ],
+                  [
+                    127.82499000000001,
+                    70.65001000000001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:5",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    127.82499000000001,
+                    62.350010000000005
+                  ],
+                  [
+                    127.82499000000001,
+                    70.65001000000001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:6",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    150.82499,
+                    62.350010000000005
+                  ],
+                  [
+                    150.82499,
+                    70.65001000000001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:7",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    139.32499,
+                    61.00001
+                  ],
+                  [
+                    139.32499,
+                    72.00001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:8",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    150.82499,
+                    62.350010000000005
+                  ],
+                  [
+                    150.82499,
+                    70.65001000000001
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          }
+        ],
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      },
+      {
+        "id": "v:section_aa",
+        "direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          152.0,
+          177.5
+        ],
+        "scale": 0.5,
+        "area": [
+          109.0,
+          151.0,
+          195.0,
+          196.0
+        ],
+        "default": false,
+        "basis": "Full section through an item without a distinguishable external attachment site; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_work": [
+          {
+            "id": "ink:v:section_aa:ga_axis:0",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    129.5,
+                    172.5
+                  ],
+                  [
+                    129.5,
+                    182.5
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:1",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    129.5,
+                    172.5
+                  ],
+                  [
+                    129.5,
+                    182.5
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:2",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    174.5,
+                    172.5
+                  ],
+                  [
+                    174.5,
+                    182.5
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:3",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    174.5,
+                    172.5
+                  ],
+                  [
+                    174.5,
+                    182.5
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:4",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    133.0,
+                    173.35
+                  ],
+                  [
+                    133.0,
+                    181.65
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:5",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    171.0,
+                    173.35
+                  ],
+                  [
+                    171.0,
+                    181.65
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:6",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    133.0,
+                    173.35
+                  ],
+                  [
+                    133.0,
+                    181.65
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:7",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    152.0,
+                    172.0
+                  ],
+                  [
+                    152.0,
+                    183.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:section_aa:ga_axis:8",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    171.0,
+                    173.35
+                  ],
+                  [
+                    171.0,
+                    181.65
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          }
+        ],
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ],
+        "cut": {
+          "label": "A",
+          "origin": [
+            50.0,
+            35.0,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "marked_in": "v:plan"
+        }
+      },
+      {
+        "detail": {
+          "label": "B",
+          "axis": 1,
+          "source_view": "v:section_aa",
+          "source_cut": {
+            "label": "A",
+            "origin": [
+              50.0,
+              35.0,
+              5.0
+            ],
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "marked_in": "v:plan"
+          },
+          "kind": "assembly item 3",
+          "bounds": [
+            [
+              41.875,
+              35.0,
+              3.0
+            ],
+            [
+              45.875,
+              35.0,
+              7.0
+            ]
+          ],
+          "marked_bounds": [
+            [
+              41.875,
+              35.0,
+              3.0
+            ],
+            [
+              45.875,
+              35.0,
+              7.0
+            ]
+          ],
+          "dimensions": [],
+          "scale": 5.0,
+          "authored": false,
+          "partial_profile": true
+        },
+        "id": "v:detail_b",
+        "direction": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          137.0,
+          137.917
+        ],
+        "scale": 5.0,
+        "area": [
+          109.0,
+          110.917,
+          165.0,
+          158.917
+        ],
+        "default": false,
+        "basis": "Full section through an item without a distinguishable external attachment site; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      },
+      {
+        "id": "v:iso",
+        "direction": [
+          1.0,
+          -1.0,
+          1.0
+        ],
+        "up": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "at": [
+          230.0,
+          135.335005
+        ],
+        "scale": 0.5,
+        "area": [
+          177.0,
+          80.0,
+          283.0,
+          178.67001
+        ],
+        "default": false,
+        "basis": "Orientation view fitted after the GA section/detail reservations; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
+        "state": {
+          "kind": "shown"
+        },
+        "line_style": {
+          "hidden": false
+        },
+        "from_spec": [
+          "sheet/hidden"
+        ]
+      }
+    ]
+  }
+}
