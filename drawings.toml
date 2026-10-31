@@ -1,7 +1,7 @@
-# Every drawing in this repo is one entry here: a STEP file plus what goes in its title
-# block. There is no per-drawing code, patching or post-processing: `build.py` writes the
-# title block into a minimal draftwright Spec beside the drawing and runs the stock
-# `draftwright render` and `draftwright review` commands on it.
+# Every drawing or assembly pack is one entry here: a STEP file plus its title block.
+# `build.py` writes a minimal Spec and runs the stock `draftwright render`/`review`
+# for drawings, or `draftwright pack` for packs (with the GA title block set).
+# Names must be unique across both entry types.
 #
 # `draftwright` is the pzfreo/draftwright-rust release tag that builds every drawing. CI
 # installs exactly that tag; changing it here is what rebuilds the drawings.
@@ -272,3 +272,21 @@ name = "t2c-stepped-shaft-keyway"
 step = "steps/text-to-cad/stepped-shaft-keyway.step"
 title = "Stepped shaft with keyway"
 number = "T2C-STEPPED-SHAFT-KEYWAY"
+
+[[pack]]
+name = "t2c-motorcycle-shock-absorber-pack"
+step = "steps/text-to-cad/motorcycle-shock-absorber.step"
+title = "Motorcycle shock absorber"
+number = "MSA-100"
+
+[[pack]]
+name = "t2c-pivot-mount-plate-pack"
+step = "steps/text-to-cad/pivot-mount-plate.step"
+title = "Pivot mount plate assembly"
+number = "PMP-100"
+
+[[pack]]
+name = "gramil-pack"
+step = "steps/gramil/gramil-assembly.step"
+title = "Gramil"
+number = "GRM-00"

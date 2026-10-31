@@ -1,20 +1,20 @@
 # dw-examples
 
-Prebuilt [draftwright](https://github.com/pzfreo/draftwright-rust) drawings for public STEP
-files. Every drawing here is produced by the stock `draftwright` CLI from
+Prebuilt [draftwright](https://github.com/pzfreo/draftwright-rust) drawings and assembly packs
+for public STEP files. Every drawing here is produced by the stock `draftwright` CLI from
 [draftwright-rust](https://github.com/pzfreo/draftwright-rust): no custom scripts, no hand edits,
-no post-processing. The only thing that varies between drawings is the title block, and that
-lives in [`drawings.toml`](drawings.toml).
+no post-processing. The only authored settings are title blocks, and those
+live in [`drawings.toml`](drawings.toml).
 
 The current set is built by draftwright **v0.2.5**. The drawings are unreviewed output, shown
 as draftwright draws them, including its mistakes: features are recognised automatically and
 some are missed or misread. Each drawing's `.review.json` lists the problems draftwright found
-in it.
+in it; each assembly pack has a `.report.json` with per-part findings and failures.
 
 ## Drawings
 
-44 drawings from five sources. See [Licensing](#licensing) for where each STEP file
-comes from and the terms it is shared under.
+44 drawings and three assembly packs from six sources. See [Licensing](#licensing) for where
+each STEP file comes from and the terms it is shared under.
 
 ### NIST MBE PMI test parts (AP242 with semantic PMI)
 
@@ -85,6 +85,27 @@ comes from and the terms it is shared under.
 | Pivot mount plate | [`pivot-mount-plate.step`](steps/text-to-cad/pivot-mount-plate.step) | [`t2c-pivot-mount-plate.pdf`](drawings/t2c-pivot-mount-plate/t2c-pivot-mount-plate.pdf) |
 | Stepped shaft with keyway | [`stepped-shaft-keyway.step`](steps/text-to-cad/stepped-shaft-keyway.step) | [`t2c-stepped-shaft-keyway.pdf`](drawings/t2c-stepped-shaft-keyway/t2c-stepped-shaft-keyway.pdf) |
 
+## Assemblies
+
+| Assembly | STEP input | Pack PDF | Parts list CSV |
+| --- | --- | --- | --- |
+| Gramil marking gauge | [`gramil-assembly.step`](steps/gramil/gramil-assembly.step) | [Pack PDF](drawings/gramil-pack/gramil-pack.pdf) | [Parts list CSV](drawings/gramil-pack/gramil-pack.csv) |
+| Motorcycle shock absorber | [`motorcycle-shock-absorber.step`](steps/text-to-cad/motorcycle-shock-absorber.step) | [Pack PDF](drawings/t2c-motorcycle-shock-absorber-pack/t2c-motorcycle-shock-absorber-pack.pdf) | [Parts list CSV](drawings/t2c-motorcycle-shock-absorber-pack/t2c-motorcycle-shock-absorber-pack.csv) |
+| Pivot mount plate assembly | [`pivot-mount-plate.step`](steps/text-to-cad/pivot-mount-plate.step) | [Pack PDF](drawings/t2c-pivot-mount-plate-pack/t2c-pivot-mount-plate-pack.pdf) | [Parts list CSV](drawings/t2c-pivot-mount-plate-pack/t2c-pivot-mount-plate-pack.csv) |
+
+A pack starts with a general assembly (GA) sheet with item balloons and a parts list,
+then sheets for each distinct made part. Bought parts stay in the list without part sheets.
+Material, BOM part numbers and supplier are blank because these STEP files carry no BOM data;
+product names and any product-key references come from STEP, and make/buy is inferred by
+stock draftwright. These are unreviewed outputs, including any mistakes.
+
+## Output files
+
+Each pack directory holds `<name>.pdf`, `<name>.csv`, `<name>.pack.json` (the minimal GA
+title-block Spec), and `<name>.report.json` (the stock pack report). If a GA or part sheet
+fails, the surviving outputs and the report are kept. A completed CLI invocation still counts
+as a successful build; failed parts and GA failures are printed and recorded in the index.
+
 Each drawing directory holds:
 
 - `<name>.pdf`, the drawing;
@@ -94,9 +115,11 @@ Each drawing directory holds:
   lint and summary.
 
 [`drawings/index.json`](drawings/index.json) records the draftwright tag that built the current
-set and each drawing's headline review numbers (errors, warnings, infos, and findings by
-impact), so a version bump that changes a drawing shows up as a diff in one small file, not
-just as a changed PDF.
+set. Entries have `kind: "drawing"` or `kind: "pack"`. Drawings record headline review
+numbers (errors, warnings, infos, and findings by impact). Packs record group counts
+(made/bought, rather than quantities), sheets, failed parts and GA status, plus error,
+warning and info totals from pack findings, GA problems and part problems; each part error
+also counts as an error. A version bump therefore shows up in one small file as well as PDFs.
 
 ## How a drawing is defined
 
@@ -109,29 +132,49 @@ name = "nist-ctc-01"
 step = "steps/nist/nist_ctc_01_asme1_ap242.stp"
 title = "NIST CTC-01"
 number = "NIST-CTC-01"
+
+[[pack]]
+name = "gramil-pack"
+step = "steps/gramil/gramil-assembly.step"
+title = "Gramil"
+number = "GRM-00"
 ```
 
-For each entry `build.py` writes `drawings/<name>/<name>.drawing.json`, a Spec holding only
-the title block, then runs
+For each `[[drawing]]` entry `build.py` writes `drawings/<name>/<name>.drawing.json`, a Spec
+holding only the title block, then runs
 
 ```
 draftwright render <step> --spec <spec> -o drawings/<name>/<name> --formats pdf
 draftwright review <step> --spec <spec>
 ```
 
-and nothing else. To add a drawing: drop the STEP file under `steps/`, record where it came
-from in that folder's README, add an entry, and run the build.
+For each `[[pack]]` entry it writes `drawings/<name>/<name>.pack.json`, using schema
+`draftwright.pack-spec/1` and setting only `ga.drawing.sheet.title`, then runs:
+
+```
+draftwright pack <step> --spec <spec> -o drawings/<name> --formats pdf,csv,json
+```
+
+The stock `pack.pdf`, `pack.csv` and `pack.json` outputs are renamed to `<name>.pdf`,
+`<name>.csv` and `<name>.report.json`. The manifest's `formats` setting applies to drawings;
+packs always request all three formats. Names must be unique across drawings and packs.
+To add either: drop the STEP file under `steps/`, record its source and licence in that
+folder's README, add an entry, and run the build.
 
 ## Building locally
 
-draftwright-rust publishes no binaries, so build the CLI from the tag in `drawings.toml`
-(the repository pins its Rust toolchain):
+Use the [draftwright-rust release](https://github.com/pzfreo/draftwright-rust/releases/tag/v0.2.5)
+matching the tag in `drawings.toml`, and verify the archive against its `.sha256` asset.
+Pass the extracted binary with `--cli` if another draftwright is on PATH (the Python
+package is a different CLI). Alternatively, build from the pinned tag; the repository
+pins its Rust toolchain:
 
 ```
-git clone --depth 1 --branch v0.2.2 https://github.com/pzfreo/draftwright-rust
+git clone --depth 1 --branch v0.2.5 https://github.com/pzfreo/draftwright-rust
 (cd draftwright-rust && cargo install --locked --path . --bin draftwright)
 python3 build.py                 # rebuild everything (Python 3.11 or later)
 python3 build.py nist-ctc-03     # rebuild one drawing
+python3 build.py gramil-pack     # rebuild one assembly pack
 python3 build.py --list
 python3 build.py --cli /path/to/draftwright   # use a CLI that is not on PATH
 ```
@@ -140,8 +183,8 @@ python3 build.py --cli /path/to/draftwright   # use a CLI that is not on PATH
 
 1. To move to a new draftwright-rust release, change `draftwright` in `drawings.toml` in a PR.
 2. The `Drawings` workflow builds the CLI from that tag (cached per tag) and builds every
-   drawing on the PR; a failure there is the alert that a release changed something that
-   matters. The built drawings are attached to the run as an artifact.
+   drawing and pack on the PR; a failure there is the alert that a release changed something
+   that matters. The built drawings are attached to the run as an artifact.
 3. Merging the PR runs the same workflow on `main`, which rebuilds the drawings and commits
    them, so `drawings/` always reflects the pinned tag.
 
@@ -163,7 +206,10 @@ SHA-256 of every file.
   [GNU LGPL 2.1](steps/occt/LICENSE_LGPL_21.txt) with the
   [Open CASCADE exception](steps/occt/OCCT_LGPL_EXCEPTION.txt).
 - [`steps/text-to-cad`](steps/text-to-cad/README.md): STEP exports of
-  [text-to-cad](https://github.com/earthtojake/text-to-cad)'s example models, copyright Thompson
-  Labs LLC, under the [MIT License](steps/text-to-cad/LICENSE).
+  [text-to-cad](https://github.com/earthtojake/text-to-cad)'s example and assembly models,
+  copyright Thompson Labs LLC, under the [MIT License](steps/text-to-cad/LICENSE).
+- [`steps/gramil`](steps/gramil/README.md): Gramil marking gauge, copyright Paul Fremantle,
+  under the [Open Community License v1 (OCL v1)](steps/gramil/LICENSE). The pack is shared
+  under the same terms.
 
 draftwright itself is AGPL-3.0.
