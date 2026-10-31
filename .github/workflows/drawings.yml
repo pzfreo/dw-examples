@@ -1,13 +1,6 @@
 name: Drawings
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - drawings.toml
-      - build.py
-      - steps/**
-      - .github/workflows/drawings.yml
   pull_request:
     paths:
       - drawings.toml
@@ -16,8 +9,10 @@ on:
       - .github/workflows/drawings.yml
   workflow_dispatch:
 
-# A PR that changes the draftwright tag in drawings.toml builds the drawings as a check;
-# merging it reaches the main-push branch below, which rebuilds them and commits the result.
+# A PR that changes the manifest, build script or STEP files builds the drawings and commits
+# them to the PR branch, so the PDFs can be reviewed in the PR and are on main the moment it
+# merges. Main does not rebuild on merge; run the workflow by hand on main for a full rebuild.
+# PRs from forks build as a check only: the token cannot push to a fork's branch.
 
 concurrency:
   group: drawings-${{ github.ref }}
@@ -31,10 +26,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     permissions:
-      # Needed only by the commit step, which runs on main pushes and manual dispatch.
+      # Needed only by the commit step.
       contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # On a PR, check out the branch itself (not the merge commit) so the build can be
+          # committed back to it.
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.head_ref || github.ref }}
       - name: Read the draftwright tag
         id: dw
         run: echo "tag=$(python3 -c 'import tomllib;print(tomllib.load(open("drawings.toml","rb"))["draftwright"])')" >> "$GITHUB_OUTPUT"
@@ -62,7 +62,7 @@ jobs:
           name: drawings
           path: drawings/
       - name: Commit rebuilt drawings
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
         run: |
           set -euo pipefail
           if git diff --quiet -- drawings && [ -z "$(git ls-files --others --exclude-standard drawings)" ]; then

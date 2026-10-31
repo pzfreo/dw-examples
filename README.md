@@ -185,8 +185,11 @@ python3 build.py --cli /path/to/draftwright   # use a CLI that is not on PATH
 2. The `Drawings` workflow builds the CLI from that tag (cached per tag) and builds every
    drawing and pack on the PR; a failure there is the alert that a release changed something
    that matters. The built drawings are attached to the run as an artifact.
-3. Merging the PR runs the same workflow on `main`, which rebuilds the drawings and commits
-   them, so `drawings/` always reflects the pinned tag.
+3. The workflow commits the rebuilt `drawings/` to the PR branch, so the PDFs and
+   `index.json` diff can be reviewed in the PR, and merging puts them on `main` as they are.
+   (PRs from forks only build; their drawings are rebuilt by running the workflow by hand.)
+4. `main` does not rebuild on merge. To rebuild everything on `main`, run the `Drawings`
+   workflow by hand (Actions → Drawings → Run workflow).
 
 ## Licensing
 
