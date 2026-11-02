@@ -175,205 +175,6 @@
    ]
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:9~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the \u230024 THRU callout to the right of the plan view, nearest the view. Trade-off: adds these findings: The dimension \u230024 THRU runs up to 8.5 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u230024 THRU crosses a line of 50. [annotation_leader_crossing] The leader of \u230024 THRU crosses the \u230010 hole. [leader_through_feature] The leader of \u230024 THRU crosses the 8 wide slot. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:9~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:9/bore.diameter|d:f:hole_pattern:1/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "The leader of \u230024 THRU crosses a line of 70.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:9/bore.diameter",
-    "d:f:hole_pattern:1/grid_pitch.length.row"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 4\u00d7 30 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 30 runs up to 6.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 4\u00d7 30 runs through the label of \u230024 THRU. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:hole:6:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 4\u00d7 30 crosses the \u230010 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:hole:6"
-   ]
-  },
-  {
    "code": "extension_through_feature",
    "fix": [
     {
@@ -381,7 +182,7 @@
      "path": "dimensions/d:f:hole:6~1location.length.x/place",
      "value": {
       "along": "middle",
-      "lane": 0,
+      "lane": 1,
       "side": "below",
       "view": "plan"
      }
@@ -409,14 +210,14 @@
    ],
    "fixes": [
     {
-     "description": "Move the 20 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 20 runs up to 6.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 20 runs through the label of 2\u00d7 \u230010 THRU. [annotation_ink_overlap] The second extension line of 20 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 20 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 20 runs up to 6.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] The second extension line of 20 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:hole:6~1location.length.x/place",
        "value": {
         "along": "middle",
-        "lane": 0,
+        "lane": 1,
         "side": "below",
         "view": "plan"
        }
@@ -479,7 +280,7 @@
      "path": "dimensions/d:f:hole:10~1location.length.x/place",
      "value": {
       "along": "middle",
-      "lane": 0,
+      "lane": 1,
       "side": "below",
       "view": "plan"
      }
@@ -507,14 +308,14 @@
    ],
    "fixes": [
     {
-     "description": "Move the 140 dimension below the plan view, nearest the view. Trade-off: adds these findings: The dimension 140 runs up to 6.8 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 140 runs through the label of 2\u00d7 \u230010 THRU. [annotation_ink_overlap] A line of 140 runs through the label of 2\u00d7 R4. [annotation_ink_overlap] The second extension line of 140 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 140 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 140 runs up to 6.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 140 runs through the label of 2\u00d7 R4. [annotation_ink_overlap] The second extension line of 140 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:hole:10~1location.length.x/place",
        "value": {
         "along": "middle",
-        "lane": 0,
+        "lane": 1,
         "side": "below",
         "view": "plan"
        }
@@ -568,362 +369,31 @@
     "d:f:hole:10/location.length.x",
     "f:hole:13"
    ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:6/location.length.y|f:slot:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 50 crosses the 8 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:6/location.length.y",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-     "value": {
-      "offset": [
-       28.0,
-       28.0
-      ],
-      "pinned": true,
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 8 dimension 28 mm right and 28 mm up from where draftwright placed it, in the plan view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-       "value": {
-        "offset": [
-         28.0,
-         28.0
-        ],
-        "pinned": true,
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:6:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 8 crosses the \u230010 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "f:hole:6"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:9:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 8 crosses the \u230024 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "f:hole:9"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-     "value": {
-      "offset": [
-       28.0,
-       28.0
-      ],
-      "pinned": true,
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 8 dimension 28 mm right and 28 mm up from where draftwright placed it, in the plan view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-       "value": {
-        "offset": [
-         28.0,
-         28.0
-        ],
-        "pinned": true,
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:6:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 8 crosses the \u230010 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "f:hole:6"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:9:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 8 crosses the \u230024 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "f:hole:9"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:6/location.length.y|d:f:hole_pattern:1/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "Line-work of 50 passes less than 0.5 mm from the label of 70, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:6/location.length.y",
-    "d:f:hole_pattern:1/grid_pitch.length.row"
-   ]
   }
  ],
- "structural": [],
+ "structural": [
+  {
+   "annotation": "d:f:hole_pattern:1/grid_pitch.length.row",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:plan:d:f:hole_pattern:1/grid_pitch.length.row",
+   "impact": "advisory",
+   "message": "label of annotation '70' lies inside view 'plan' extents [x=29.3\u2013109.3, y=109.2\u2013159.2] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:plan"
+  }
+ ],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:extension_line": 1,
-   "extension_through_feature": 8,
+   "extension_through_feature": 2,
    "general_tolerance_missing": 1,
-   "label_crowded": 1
+   "view_annotation_inside_extents": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 10,
-    "groups": 3
+    "findings": 3,
+    "groups": 2
    },
    "decision": {
     "findings": 1,

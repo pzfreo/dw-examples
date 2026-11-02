@@ -200,18 +200,6 @@
     "face:24",
     "face:37"
    ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:slot:1/location_slot_across.length|d:f:slot:1/slot_width.length",
-   "impact": "advisory",
-   "message": "Line-work of 8.5 passes less than 0.5 mm from the label of 6, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:slot:1/location_slot_across.length",
-    "d:f:slot:1/slot_width.length"
-   ]
   }
  ],
  "structural": [],
@@ -219,14 +207,13 @@
   "groups": {
    "angled_step_requirement_unsupported": 4,
    "general_tolerance_missing": 1,
-   "label_crowded": 1,
    "shape_not_recognised:protrusion": 2,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 2,
-    "groups": 2
+    "findings": 1,
+    "groups": 1
    },
    "decision": {
     "findings": 1,

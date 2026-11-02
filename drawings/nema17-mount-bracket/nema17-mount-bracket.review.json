@@ -166,170 +166,6 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 C4 crosses a line of 31. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:2:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 31 crosses the 4 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:slot:2"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 C4 crosses a line of 31. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 31 crosses the 4 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
      "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
      "value": {
       "along": "middle",
@@ -506,43 +342,6 @@
    ]
   },
   {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:3/location.length.y|d:f:hole_pattern:1/grid_pitch.length.col",
-   "impact": "advisory",
-   "message": "Line-work of 25 passes less than 0.5 mm from the label of 31, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:3/location.length.y",
-    "d:f:hole_pattern:1/grid_pitch.length.col"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:3/location.length.z|d:f:hole_pattern:1/grid_pitch.length.row|d:f:hole_pattern:1/location.length.z",
-   "impact": "advisory",
-   "message": "Line-work of 28.75 and of 28.85 passes less than 0.5 mm from the label of 31, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:3/location.length.z",
-    "d:f:hole_pattern:1/grid_pitch.length.row",
-    "d:f:hole_pattern:1/location.length.z"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:3/bore.diameter|d:envelope/profile_chamfer.length.f27_e87",
-   "impact": "advisory",
-   "message": "Line-work of \u230022.5 THRU passes less than 0.5 mm from the label of 2\u00d7 C4, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:3/bore.diameter",
-    "d:envelope/profile_chamfer.length.f27_e87"
-   ]
-  },
-  {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:f:slot:1/location_slot_across.length|ink:v:plan:f:hole:1",
@@ -595,17 +394,16 @@
  "summary": {
   "groups": {
    "extension_off_centreline": 3,
-   "extension_through_feature": 4,
+   "extension_through_feature": 2,
    "general_tolerance_missing": 1,
-   "label_crowded": 3,
    "leader_to_hidden_edge": 1,
    "radius_leader_not_radial": 2,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 8,
-    "groups": 3
+    "findings": 3,
+    "groups": 2
    },
    "decision": {
     "findings": 1,

@@ -176,7 +176,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 \u23001.5 THRU callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 2\u00d7 \u23001.5 THRU runs up to 8.4 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 2\u00d7 \u23001.5 THRU crosses the \u23009.297 hole. [leader_through_feature].",
+     "description": "Move the 2\u00d7 \u23001.5 THRU callout above the front view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 \u23001.5 THRU crosses a line of 6.149. [annotation_leader_crossing] The leader of 2\u00d7 \u23001.5 THRU crosses a line of 2\u00d7 8.269 A/F. [annotation_leader_crossing] The leader of 2\u00d7 8.269 A/F crosses a line of 2\u00d7 \u23001.5 THRU. [annotation_leader_crossing] The leader of 2\u00d7 \u23001.5 THRU crosses the \u23009.297 hole. [leader_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -239,104 +239,6 @@
    ]
   },
   {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:1~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "5:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 6.149 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 6.149 runs up to 8.4 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 6.149 runs through the label of 2\u00d7 8.269 A/F. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:1~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "5:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:1/location.length.x|f:slot:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 6.149 crosses the 1.64 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:1/location.length.x",
-    "f:slot:1"
-   ]
-  },
-  {
    "code": "leader_through_feature",
    "fix": [
     {
@@ -372,7 +274,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 8.269 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 2\u00d7 8.269 A/F runs up to 8.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
+     "description": "Move the 2\u00d7 8.269 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The labels of 6.149 and 2\u00d7 8.269 A/F overlap. [annotation_overlap] The leader of 2\u00d7 8.269 A/F crosses a line of 6.149. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -566,65 +468,13 @@
     "face:1",
     "face:4"
    ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:envelope/width.length|d:f:hole:2/bore.diameter|d:f:hole:2/location.length.z",
-   "impact": "advisory",
-   "message": "Line-work of 12.298 and of 2.258 passes less than 0.5 mm from the label of 2\u00d7 \u23001.5 THRU, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/width.length",
-    "d:f:hole:2/bore.diameter",
-    "d:f:hole:2/location.length.z"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:2/location.length.x|d:f:slot:1/slot_width.length",
-   "impact": "advisory",
-   "message": "Line-work of 8.649 passes less than 0.5 mm from the label of 1.64, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:2/location.length.x",
-    "d:f:slot:1/slot_width.length"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:2/location.length.z|d:f:slot:1/slot_length.length",
-   "impact": "advisory",
-   "message": "Line-work of 2.258 passes less than 0.5 mm from the label of 3.38, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:2/location.length.z",
-    "d:f:slot:1/slot_length.length"
-   ]
-  },
-  {
-   "code": "leader_across_view",
-   "group": "leader_across_view",
-   "id": "p:leader_across_view:d:f:flat:1/flat.length",
-   "impact": "readability",
-   "message": "The leader of 2\u00d7 8.269 A/F runs 61.1 mm across the front view, crossing 4 of its lines where a leader leaving the other way would cross 0.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:flat:1/flat.length",
-    "v:front"
-   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
    "annotation_leader_crossing:extension_line": 1,
-   "extension_through_feature": 1,
    "general_tolerance_missing": 1,
-   "label_crowded": 3,
-   "leader_across_view": 1,
    "leader_through_feature": 1,
    "nominal_rounded": 11,
    "part_squared_to_axes": 1,
@@ -633,8 +483,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 18,
-    "groups": 6
+    "findings": 14,
+    "groups": 4
    },
    "decision": {
     "findings": 1,
@@ -645,8 +495,8 @@
     "groups": 1
    },
    "readability": {
-    "findings": 2,
-    "groups": 2
+    "findings": 1,
+    "groups": 1
    }
   }
  }

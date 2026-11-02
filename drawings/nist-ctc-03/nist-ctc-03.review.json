@@ -232,11 +232,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#97 was discovered but not extracted: the dimension modifier Reference is not carried",
+   "evidence": "AP242 dimension dimension:#97 was discovered but not extracted: the dimension modifier Reference is not carried\ngraphical_callout:#805; Graphical callout #805 (\"Linear Size.11\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#97",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #805 (\"Linear Size.11\").",
    "severity": "error",
    "sources": [
     "dimension:#97"
@@ -245,11 +245,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#263 was discovered but not extracted: haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#263 was discovered but not extracted: haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#798; Graphical callout #798 (\"Linear Size.1\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#263",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #798 (\"Linear Size.1\").",
    "severity": "error",
    "sources": [
     "dimension:#263"
@@ -258,11 +258,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#264 was discovered but not extracted: haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#264 was discovered but not extracted: haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#799; Graphical callout #799 (\"Linear Size.2\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#264",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #799 (\"Linear Size.2\").",
    "severity": "error",
    "sources": [
     "dimension:#264"
@@ -271,11 +271,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#265 was discovered but not extracted: haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#265 was discovered but not extracted: haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#800; Graphical callout #800 (\"Linear Size.4\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#265",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #800 (\"Linear Size.4\").",
    "severity": "error",
    "sources": [
     "dimension:#265"
@@ -284,11 +284,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#266 was discovered but not extracted: haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#266 was discovered but not extracted: haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#801; Graphical callout #801 (\"Linear Size.5\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#266",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #801 (\"Linear Size.5\").",
    "severity": "error",
    "sources": [
     "dimension:#266"
@@ -297,11 +297,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#267 was discovered but not extracted: haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#267 was discovered but not extracted: haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#802; Graphical callout #802 (\"Linear Size.6\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#267",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #802 (\"Linear Size.6\").",
    "severity": "error",
    "sources": [
     "dimension:#267"
@@ -310,11 +310,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#268 was discovered but not extracted: haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#268 was discovered but not extracted: haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#803; Graphical callout #803 (\"Linear Size.7\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#268",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #803 (\"Linear Size.7\").",
    "severity": "error",
    "sources": [
     "dimension:#268"
@@ -323,11 +323,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#269 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#269 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#804; Graphical callout #804 (\"Linear Size.10\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#269",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #804 (\"Linear Size.10\").",
    "severity": "error",
    "sources": [
     "dimension:#269"
@@ -336,11 +336,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#270 was discovered but not extracted: haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#270 was discovered but not extracted: haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#819; Graphical callout #819 (\"Oriented Linear Dimension.1\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#270",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #819 (\"Oriented Linear Dimension.1\").",
    "severity": "error",
    "sources": [
     "dimension:#270"
@@ -349,11 +349,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#271 was discovered but not extracted: haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 dimension dimension:#271 was discovered but not extracted: haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#824; Graphical callout #824 (\"Linear Size.3\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#271",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #824 (\"Linear Size.3\").",
    "severity": "error",
    "sources": [
     "dimension:#271"
@@ -362,11 +362,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#35 was discovered but not extracted: haecceity nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#35 was discovered but not extracted: haecceity nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#823; Graphical callout #823 (\"Profile tolerance of any surface.2\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#35",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #823 (\"Profile tolerance of any surface.2\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#35"
@@ -375,11 +375,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#37 was discovered but not extracted: the unit-basis (per unit area or length) is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#37 was discovered but not extracted: the unit-basis (per unit area or length) is not carried\ngraphical_callout:#817; Graphical callout #817 (\"Flatness.1\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#37",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #817 (\"Flatness.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#37"
@@ -388,11 +388,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#40 was discovered but not extracted: datum compartment modifiers are not carried; haecceity nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#40 was discovered but not extracted: datum compartment modifiers are not carried; haecceity nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#810; Graphical callout #810 (\"Position.3\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#40",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #810 (\"Position.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#40"
@@ -401,11 +401,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#41 was discovered but not extracted: haecceity nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#41 was discovered but not extracted: haecceity nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#811; Graphical callout #811 (\"Position.4\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#41",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #811 (\"Position.4\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#41"
@@ -414,11 +414,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#42 was discovered but not extracted: haecceity nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#42 was discovered but not extracted: haecceity nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#809; Graphical callout #809 (\"Position.1\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#42",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #809 (\"Position.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#42"
@@ -427,11 +427,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#43 was discovered but not extracted: haecceity nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#43 was discovered but not extracted: haecceity nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#812; Graphical callout #812 (\"Position.5\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#43",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #812 (\"Position.5\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#43"
@@ -440,11 +440,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#44 was discovered but not extracted: haecceity nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#44 was discovered but not extracted: haecceity nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#813; Graphical callout #813 (\"Position.6\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#44",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #813 (\"Position.6\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#44"
@@ -453,11 +453,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#45 was discovered but not extracted: haecceity nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#45 was discovered but not extracted: haecceity nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#814; Graphical callout #814 (\"Position.8\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#45",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #814 (\"Position.8\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#45"
@@ -466,11 +466,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#79 was discovered but not extracted: haecceity nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#79 was discovered but not extracted: haecceity nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#807; Graphical callout #807 (\"Perpendicularity.1\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#79",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #807 (\"Perpendicularity.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#79"
@@ -479,11 +479,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#80 was discovered but not extracted: haecceity nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#80 was discovered but not extracted: haecceity nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#825; Graphical callout #825 (\"Perpendicularity.2\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#80",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #825 (\"Perpendicularity.2\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#80"
@@ -505,11 +505,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 datum datum:#93 was discovered but not extracted: haecceity nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces",
+   "evidence": "AP242 datum datum:#93 was discovered but not extracted: haecceity nonconformance on #93 (datum_feature): the datum feature identifies no face; its datum's usage does (\u00a76.5.1 puts it on the datum feature): read as the datum feature's faces\ngraphical_callout:#816; Graphical callout #816 (\"Simple Datum.5\").",
    "group": "pmi_not_extracted:datum",
    "id": "l:pmi_not_extracted:datum:#93",
    "impact": "incomplete",
-   "message": "A STEP datum annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP datum annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #816 (\"Simple Datum.5\").",
    "severity": "error",
    "sources": [
     "datum:#93"
@@ -557,11 +557,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#350 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 other finding:#350 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#805; Graphical callout #805 (\"Linear Size.11\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#350",
    "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #805 (\"Linear Size.11\").",
    "severity": "info",
    "sources": [
     "finding:#350"
@@ -570,11 +570,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#351 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 other finding:#351 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#806; Graphical callout #806 (\"Simple Datum.2\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#351",
    "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #806 (\"Simple Datum.2\").",
    "severity": "info",
    "sources": [
     "finding:#351"
@@ -583,11 +583,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#353 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 other finding:#353 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#808; Graphical callout #808 (\"Simple Datum.3\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#353",
    "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #808 (\"Simple Datum.3\").",
    "severity": "info",
    "sources": [
     "finding:#353"
@@ -596,11 +596,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#361 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 other finding:#361 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#820; Graphical callout #820 (\"Simple Datum.1\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#361",
    "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #820 (\"Simple Datum.1\").",
    "severity": "info",
    "sources": [
     "finding:#361"
@@ -609,11 +609,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#365 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "AP242 other finding:#365 was discovered but not extracted: haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#826; Graphical callout #826 (\"Simple Datum.6\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#365",
    "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #826 (\"Simple Datum.6\").",
    "severity": "info",
    "sources": [
     "finding:#365"
@@ -661,11 +661,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the dimension modifier Reference is not carried",
+   "evidence": "the dimension modifier Reference is not carried\ngraphical_callout:#805; Graphical callout #805 (\"Linear Size.11\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#97",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn: the dimension modifier Reference is not carried. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn: the dimension modifier Reference is not carried. Review its requirement and attachment. Graphical callout #805 (\"Linear Size.11\").",
    "severity": "error",
    "sources": [
     "dimension:#97"
@@ -674,11 +674,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#798; Graphical callout #798 (\"Linear Size.1\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#263",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #798 (\"Linear Size.1\").",
    "severity": "error",
    "sources": [
     "dimension:#263"
@@ -687,11 +687,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#799; Graphical callout #799 (\"Linear Size.2\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#264",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #799 (\"Linear Size.2\").",
    "severity": "error",
    "sources": [
     "dimension:#264"
@@ -700,11 +700,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#800; Graphical callout #800 (\"Linear Size.4\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#265",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #800 (\"Linear Size.4\").",
    "severity": "error",
    "sources": [
     "dimension:#265"
@@ -713,11 +713,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#801; Graphical callout #801 (\"Linear Size.5\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#266",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #801 (\"Linear Size.5\").",
    "severity": "error",
    "sources": [
     "dimension:#266"
@@ -726,11 +726,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#802; Graphical callout #802 (\"Linear Size.6\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#267",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #802 (\"Linear Size.6\").",
    "severity": "error",
    "sources": [
     "dimension:#267"
@@ -739,11 +739,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#803; Graphical callout #803 (\"Linear Size.7\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#268",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #803 (\"Linear Size.7\").",
    "severity": "error",
    "sources": [
     "dimension:#268"
@@ -752,11 +752,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#804; Graphical callout #804 (\"Linear Size.10\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#269",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #804 (\"Linear Size.10\").",
    "severity": "error",
    "sources": [
     "dimension:#269"
@@ -765,11 +765,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#819; Graphical callout #819 (\"Oriented Linear Dimension.1\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#270",
    "impact": "incomplete",
-   "message": "The STEP thickness annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP thickness annotation could not be drawn. Review its requirement and attachment. Graphical callout #819 (\"Oriented Linear Dimension.1\").",
    "severity": "error",
    "sources": [
     "dimension:#270"
@@ -778,11 +778,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+   "evidence": "haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#824; Graphical callout #824 (\"Linear Size.3\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#271",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #824 (\"Linear Size.3\").",
    "severity": "error",
    "sources": [
     "dimension:#271"
@@ -791,11 +791,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#35 (profile_surface 0.254) is not drawn: the STEP reader nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#35 (profile_surface 0.254) is not drawn: the STEP reader nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#823; Graphical callout #823 (\"Profile tolerance of any surface.2\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#35",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn. Review its requirement and attachment. Graphical callout #823 (\"Profile tolerance of any surface.2\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#35"
@@ -804,11 +804,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#37 (flatness 0.127) is not drawn: the unit-basis (per unit area or length) is not carried.",
+   "evidence": "PMI geometric_tolerance:#37 (flatness 0.127) is not drawn: the unit-basis (per unit area or length) is not carried.\ngraphical_callout:#817; Graphical callout #817 (\"Flatness.1\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#37",
    "impact": "incomplete",
-   "message": "The STEP flatness annotation could not be drawn: the unit-basis (per unit area or length) is not carried. Review its requirement and attachment.",
+   "message": "The STEP flatness annotation could not be drawn: the unit-basis (per unit area or length) is not carried. Review its requirement and attachment. Graphical callout #817 (\"Flatness.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#37"
@@ -817,11 +817,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#40 (position 1.27) is not drawn: datum compartment modifiers are not carried; the STEP reader nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#40 (position 1.27) is not drawn: datum compartment modifiers are not carried; the STEP reader nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#810; Graphical callout #810 (\"Position.3\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#40",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment. Graphical callout #810 (\"Position.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#40"
@@ -830,11 +830,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#41 (position 1.27) is not drawn: the STEP reader nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#41 (position 1.27) is not drawn: the STEP reader nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#811; Graphical callout #811 (\"Position.4\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#41",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment. Graphical callout #811 (\"Position.4\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#41"
@@ -843,11 +843,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#42 (position 0.508) is not drawn: the STEP reader nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#42 (position 0.508) is not drawn: the STEP reader nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#809; Graphical callout #809 (\"Position.1\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#42",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment. Graphical callout #809 (\"Position.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#42"
@@ -856,11 +856,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#43 (position 1.52) is not drawn: the STEP reader nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#43 (position 1.52) is not drawn: the STEP reader nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#812; Graphical callout #812 (\"Position.5\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#43",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment. Graphical callout #812 (\"Position.5\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#43"
@@ -869,11 +869,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#44 (position 2.03) is not drawn: the STEP reader nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#44 (position 2.03) is not drawn: the STEP reader nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#813; Graphical callout #813 (\"Position.6\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#44",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment. Graphical callout #813 (\"Position.6\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#44"
@@ -882,11 +882,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#45 (position 0.762) is not drawn: the STEP reader nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#45 (position 0.762) is not drawn: the STEP reader nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#814; Graphical callout #814 (\"Position.8\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#45",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment. Graphical callout #814 (\"Position.8\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#45"
@@ -895,11 +895,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#79 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#79 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#807; Graphical callout #807 (\"Perpendicularity.1\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#79",
    "impact": "incomplete",
-   "message": "The STEP perpendicularity annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP perpendicularity annotation could not be drawn. Review its requirement and attachment. Graphical callout #807 (\"Perpendicularity.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#79"
@@ -908,11 +908,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#80 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "evidence": "PMI geometric_tolerance:#80 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.\ngraphical_callout:#825; Graphical callout #825 (\"Perpendicularity.2\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#80",
    "impact": "incomplete",
-   "message": "The STEP perpendicularity annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP perpendicularity annotation could not be drawn. Review its requirement and attachment. Graphical callout #825 (\"Perpendicularity.2\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#80"
@@ -921,11 +921,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#93 (E) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "evidence": "PMI datum:#93 (E) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.\ngraphical_callout:#816; Graphical callout #816 (\"Simple Datum.5\").",
    "group": "pmi_not_lowered:datum",
    "id": "l:pmi_not_lowered:datum:#93",
    "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable. Review its requirement and attachment.",
+   "message": "The STEP datum annotation could not be drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable. Review its requirement and attachment. Graphical callout #816 (\"Simple Datum.5\").",
    "severity": "error",
    "sources": [
     "datum:#93"
@@ -934,11 +934,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI datum:#96 (F) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "evidence": "PMI datum:#96 (F) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.\ngraphical_callout:#826; Graphical callout #826 (\"Simple Datum.6\").",
    "group": "pmi_not_lowered:datum",
    "id": "l:pmi_not_lowered:datum:#96",
    "impact": "incomplete",
-   "message": "The STEP datum annotation could not be drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable. Review its requirement and attachment.",
+   "message": "The STEP datum annotation could not be drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable. Review its requirement and attachment. Graphical callout #826 (\"Simple Datum.6\").",
    "severity": "error",
    "sources": [
     "datum:#96"
@@ -1200,7 +1200,7 @@
    "refs": [
     "sheet_metal_bodies",
     "thin_wall_bodies",
-    "quiddity-rust 0.2.6 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -1365,9 +1365,11 @@
    "group": "datum_origin_unusable",
    "id": "p:datum_origin_unusable:datum:#93",
    "impact": "advisory",
-   "message": "Datum E cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "message": "Datum E cannot supply a principal planar origin; the box minimum remains the fallback. Graphical callout #816 (\"Simple Datum.5\").",
    "refs": [
-    "datum:#93"
+    "datum:#93",
+    "graphical_callout:#816",
+    "graphical_text:\"Simple Datum.5\""
    ],
    "severity": "info",
    "subjects": []
@@ -1377,139 +1379,161 @@
    "group": "datum_origin_unusable",
    "id": "p:datum_origin_unusable:datum:#96",
    "impact": "advisory",
-   "message": "Datum F cannot supply a principal planar origin; the box minimum remains the fallback.",
+   "message": "Datum F cannot supply a principal planar origin; the box minimum remains the fallback. Graphical callout #826 (\"Simple Datum.6\").",
    "refs": [
-    "datum:#96"
+    "datum:#96",
+    "graphical_callout:#826",
+    "graphical_text:\"Simple Datum.6\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#97",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#97 (19.05) is not drawn: the dimension modifier Reference is not carried.",
+   "message": "PMI dimension dimension:#97 (19.05) is not drawn: the dimension modifier Reference is not carried. Graphical callout #805 (\"Linear Size.11\").",
    "refs": [
     "dimension:#97",
-    "the dimension modifier Reference is not carried"
+    "the dimension modifier Reference is not carried",
+    "graphical_callout:#805",
+    "graphical_text:\"Linear Size.11\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#263",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#263 (\u00f811.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#263 (\u230011.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #798 (\"Linear Size.1\").",
    "refs": [
     "dimension:#263",
-    "haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #343 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#798",
+    "graphical_text:\"Linear Size.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#264",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#264 (\u00f811.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#264 (\u230011.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #799 (\"Linear Size.2\").",
    "refs": [
     "dimension:#264",
-    "haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #344 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#799",
+    "graphical_text:\"Linear Size.2\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#265",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#265 (\u00f815.875 \u00b10.127) is not drawn: the STEP reader nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#265 (\u230015.875 \u00b10.127) is not drawn: the STEP reader nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #800 (\"Linear Size.4\").",
    "refs": [
     "dimension:#265",
-    "haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #345 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#800",
+    "graphical_text:\"Linear Size.4\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#266",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#266 (\u00f811.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#266 (\u230011.1252 \u00b10.127) is not drawn: the STEP reader nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #801 (\"Linear Size.5\").",
    "refs": [
     "dimension:#266",
-    "haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #346 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#801",
+    "graphical_text:\"Linear Size.5\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#267",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#267 (\u00f850.8 \u00b10.254) is not drawn: the STEP reader nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#267 (\u230050.8 \u00b10.254) is not drawn: the STEP reader nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #802 (\"Linear Size.6\").",
    "refs": [
     "dimension:#267",
-    "haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #347 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#802",
+    "graphical_text:\"Linear Size.6\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#268",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#268 (\u00f838.1 \u00b10.127) is not drawn: the STEP reader nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#268 (\u230038.1 \u00b10.127) is not drawn: the STEP reader nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #803 (\"Linear Size.7\").",
    "refs": [
     "dimension:#268",
-    "haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #348 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#803",
+    "graphical_text:\"Linear Size.7\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#269",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#269 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; the STEP reader nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#269 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; the STEP reader nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #804 (\"Linear Size.10\").",
    "refs": [
     "dimension:#269",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#804",
+    "graphical_text:\"Linear Size.10\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#270",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#270 (20.828 \u00b11.524) is not drawn: the STEP reader nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#270 (20.828 \u00b11.524) is not drawn: the STEP reader nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #819 (\"Oriented Linear Dimension.1\").",
    "refs": [
     "dimension:#270",
-    "haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #360 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#819",
+    "graphical_text:\"Oriented Linear Dimension.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#271",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#271 (\u00f827.051 \u00b10.0762) is not drawn: the STEP reader nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI dimension dimension:#271 (\u230027.051 \u00b10.0762) is not drawn: the STEP reader nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #824 (\"Linear Size.3\").",
    "refs": [
     "dimension:#271",
-    "haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #363 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#824",
+    "graphical_text:\"Linear Size.3\""
    ],
    "severity": "error",
    "subjects": []
@@ -1558,70 +1582,80 @@
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
+   "group": "pmi_not_extracted:finding+graphical_callout",
    "id": "p:pmi_not_extracted:finding:#350",
    "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #805 (\"Linear Size.11\").",
    "refs": [
     "finding:#350",
     "composite_shape_aspect",
-    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#805",
+    "graphical_text:\"Linear Size.11\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
+   "group": "pmi_not_extracted:finding+graphical_callout",
    "id": "p:pmi_not_extracted:finding:#351",
    "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #806 (\"Simple Datum.2\").",
    "refs": [
     "finding:#351",
     "composite_shape_aspect",
-    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#806",
+    "graphical_text:\"Simple Datum.2\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
+   "group": "pmi_not_extracted:finding+graphical_callout",
    "id": "p:pmi_not_extracted:finding:#353",
    "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #808 (\"Simple Datum.3\").",
    "refs": [
     "finding:#353",
     "composite_shape_aspect",
-    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#808",
+    "graphical_text:\"Simple Datum.3\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
+   "group": "pmi_not_extracted:finding+graphical_callout",
    "id": "p:pmi_not_extracted:finding:#361",
    "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #820 (\"Simple Datum.1\").",
    "refs": [
     "finding:#361",
     "composite_shape_aspect",
-    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#820",
+    "graphical_text:\"Simple Datum.1\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
+   "group": "pmi_not_extracted:finding+graphical_callout",
    "id": "p:pmi_not_extracted:finding:#365",
    "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #826 (\"Simple Datum.6\").",
    "refs": [
     "finding:#365",
     "composite_shape_aspect",
-    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance: a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#826",
+    "graphical_text:\"Simple Datum.6\""
    ],
    "severity": "info",
    "subjects": []
@@ -1669,172 +1703,184 @@
    "subjects": []
   },
   {
-   "code": "pmi_presentation_not_read",
-   "group": "pmi_presentation_not_read",
-   "id": "p:pmi_presentation_not_read:part",
-   "impact": "advisory",
-   "message": "The STEP file carries 119 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
-   "refs": [
-    "part"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#35",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#35 (profile_surface 0.254) is not drawn: the STEP reader nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#35 (profile_surface 0.254) is not drawn: the STEP reader nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #823 (\"Profile tolerance of any surface.2\").",
    "refs": [
     "geometric_tolerance:#35",
-    "haecceity nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #362 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#823",
+    "graphical_text:\"Profile tolerance of any surface.2\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#37",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#37 (flatness 0.127) is not drawn: the unit-basis (per unit area or length) is not carried.",
+   "message": "PMI geometric_tolerance:#37 (flatness 0.127) is not drawn: the unit-basis (per unit area or length) is not carried. Graphical callout #817 (\"Flatness.1\").",
    "refs": [
     "geometric_tolerance:#37",
-    "the unit-basis (per unit area or length) is not carried"
+    "the unit-basis (per unit area or length) is not carried",
+    "graphical_callout:#817",
+    "graphical_text:\"Flatness.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#40",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#40 (position 1.27) is not drawn: datum compartment modifiers are not carried; the STEP reader nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#40 (position 1.27) is not drawn: datum compartment modifiers are not carried; the STEP reader nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #810 (\"Position.3\").",
    "refs": [
     "geometric_tolerance:#40",
     "datum compartment modifiers are not carried",
-    "haecceity nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #355 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#810",
+    "graphical_text:\"Position.3\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#41",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#41 (position 1.27) is not drawn: the STEP reader nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#41 (position 1.27) is not drawn: the STEP reader nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #811 (\"Position.4\").",
    "refs": [
     "geometric_tolerance:#41",
-    "haecceity nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #356 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#811",
+    "graphical_text:\"Position.4\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#42",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#42 (position 0.508) is not drawn: the STEP reader nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#42 (position 0.508) is not drawn: the STEP reader nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #809 (\"Position.1\").",
    "refs": [
     "geometric_tolerance:#42",
-    "haecceity nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #354 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#809",
+    "graphical_text:\"Position.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#43",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#43 (position 1.52) is not drawn: the STEP reader nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#43 (position 1.52) is not drawn: the STEP reader nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #812 (\"Position.5\").",
    "refs": [
     "geometric_tolerance:#43",
-    "haecceity nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #357 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#812",
+    "graphical_text:\"Position.5\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#44",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#44 (position 2.03) is not drawn: the STEP reader nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#44 (position 2.03) is not drawn: the STEP reader nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #813 (\"Position.6\").",
    "refs": [
     "geometric_tolerance:#44",
-    "haecceity nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #358 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#813",
+    "graphical_text:\"Position.6\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#45",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#45 (position 0.762) is not drawn: the STEP reader nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#45 (position 0.762) is not drawn: the STEP reader nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #814 (\"Position.8\").",
    "refs": [
     "geometric_tolerance:#45",
-    "haecceity nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #359 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#814",
+    "graphical_text:\"Position.8\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#79",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#79 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#79 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #807 (\"Perpendicularity.1\").",
    "refs": [
     "geometric_tolerance:#79",
-    "haecceity nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #352 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#807",
+    "graphical_text:\"Perpendicularity.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#80",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#80 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group.",
+   "message": "PMI geometric_tolerance:#80 (perpendicularity 0.254) is not drawn: the STEP reader nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #825 (\"Perpendicularity.2\").",
    "refs": [
     "geometric_tolerance:#80",
-    "haecceity nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group"
+    "haecceity nonconformance on #364 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "graphical_callout:#825",
+    "graphical_text:\"Perpendicularity.2\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
+   "group": "pmi_not_lowered:datum+graphical_callout",
    "id": "p:pmi_not_lowered:datum:#93",
    "impact": "incomplete",
-   "message": "PMI datum:#93 (E) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "message": "PMI datum:#93 (E) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable. Graphical callout #816 (\"Simple Datum.5\").",
    "refs": [
     "datum:#93",
     "one datum reference surface is not axis-aligned",
-    "datum reference surface is unavailable"
+    "datum reference surface is unavailable",
+    "graphical_callout:#816",
+    "graphical_text:\"Simple Datum.5\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:datum",
+   "group": "pmi_not_lowered:datum+graphical_callout",
    "id": "p:pmi_not_lowered:datum:#96",
    "impact": "incomplete",
-   "message": "PMI datum:#96 (F) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable.",
+   "message": "PMI datum:#96 (F) is not drawn: one datum reference surface is not axis-aligned; datum reference surface is unavailable. Graphical callout #826 (\"Simple Datum.6\").",
    "refs": [
     "datum:#96",
     "one datum reference surface is not axis-aligned",
-    "datum reference surface is unavailable"
+    "datum reference surface is unavailable",
+    "graphical_callout:#826",
+    "graphical_text:\"Simple Datum.6\""
    ],
    "severity": "error",
    "subjects": []
@@ -3596,19 +3642,22 @@
    "pmi_not_extracted": 6,
    "pmi_not_extracted:datum": 2,
    "pmi_not_extracted:dimension": 10,
-   "pmi_not_extracted:finding": 16,
+   "pmi_not_extracted:finding": 11,
+   "pmi_not_extracted:finding+graphical_callout": 5,
    "pmi_not_extracted:geometric_tolerance": 10,
-   "pmi_not_lowered:datum": 4,
-   "pmi_not_lowered:dimension": 20,
-   "pmi_not_lowered:geometric_tolerance": 20,
-   "pmi_presentation_not_read": 1,
+   "pmi_not_lowered:datum": 2,
+   "pmi_not_lowered:datum+graphical_callout": 2,
+   "pmi_not_lowered:dimension": 10,
+   "pmi_not_lowered:dimension+graphical_callout": 10,
+   "pmi_not_lowered:geometric_tolerance": 10,
+   "pmi_not_lowered:geometric_tolerance+graphical_callout": 10,
    "profile_corner_unlocated:profile_angle.location": 2,
    "radius_leader_not_radial": 2,
    "view_annotation_inside_extents": 2
   },
   "impacts": {
    "advisory": {
-    "findings": 64,
+    "findings": 63,
     "groups": 8
    },
    "decision": {
@@ -3617,7 +3666,7 @@
    },
    "incomplete": {
     "findings": 90,
-    "groups": 15
+    "groups": 18
    },
    "readability": {
     "findings": 14,
