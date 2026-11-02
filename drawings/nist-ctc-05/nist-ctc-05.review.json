@@ -212,11 +212,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#941 was discovered but not extracted: the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers",
+   "evidence": "AP242 dimension dimension:#941 was discovered but not extracted: the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers\ngraphical_callout:#281; Graphical callout #281 (\"Horizontal Dimension (8)\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#941",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #281 (\"Horizontal Dimension (8)\").",
    "severity": "error",
    "sources": [
     "dimension:#941"
@@ -225,11 +225,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#942 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "AP242 dimension dimension:#942 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#282; Graphical callout #282 (\"Horizontal Dimension (35)\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#942",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #282 (\"Horizontal Dimension (35)\").",
    "severity": "error",
    "sources": [
     "dimension:#942"
@@ -238,11 +238,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#943 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "AP242 dimension dimension:#943 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#283; Graphical callout #283 (\"Horizontal Dimension (39)\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#943",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #283 (\"Horizontal Dimension (39)\").",
    "severity": "error",
    "sources": [
     "dimension:#943"
@@ -251,11 +251,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#944 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "AP242 dimension dimension:#944 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#285; Graphical callout #285 (\"Vertical Dimension (37)\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#944",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #285 (\"Vertical Dimension (37)\").",
    "severity": "error",
    "sources": [
     "dimension:#944"
@@ -264,11 +264,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#945 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "AP242 dimension dimension:#945 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#286; Graphical callout #286 (\"Vertical Dimension (41)\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#945",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #286 (\"Vertical Dimension (41)\").",
    "severity": "error",
    "sources": [
     "dimension:#945"
@@ -277,11 +277,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#946 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#946 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters\ngraphical_callout:#278; Graphical callout #278 (\"Feature Control Frame (32)\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#946",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #278 (\"Feature Control Frame (32)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#946"
@@ -290,11 +290,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#947 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#947 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters\ngraphical_callout:#279; Graphical callout #279 (\"Feature Control Frame (44)\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#947",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #279 (\"Feature Control Frame (44)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#947"
@@ -303,11 +303,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#948 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#948 was discovered but not extracted: a compartment of 2 datums (common datum) is carried as separate letters\ngraphical_callout:#280; Graphical callout #280 (\"Feature Control Frame (45)\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#948",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #280 (\"Feature Control Frame (45)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#948"
@@ -316,11 +316,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#957 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#957 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#275; Graphical callout #275 (\"Feature Control Frame (11)\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#957",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #275 (\"Feature Control Frame (11)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#957"
@@ -511,11 +511,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 datum datum_target:0:0 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)",
+   "evidence": "AP242 datum datum_target:0:0 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)\ngraphical_callout:#267; Graphical callout #267 (\"Datum Target C1 (15)\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:datum_target:0:0",
    "impact": "incomplete",
-   "message": "A STEP datum target annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP datum target annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #267 (\"Datum Target C1 (15)\").",
    "severity": "error",
    "sources": [
     "datum_target:0:0"
@@ -524,11 +524,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 datum datum_target:0:1 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)",
+   "evidence": "AP242 datum datum_target:0:1 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)\ngraphical_callout:#268; Graphical callout #268 (\"Datum Target D1 (22)\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:datum_target:0:1",
    "impact": "incomplete",
-   "message": "A STEP datum target annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP datum target annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #268 (\"Datum Target D1 (22)\").",
    "severity": "error",
    "sources": [
     "datum_target:0:1"
@@ -641,11 +641,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers",
+   "evidence": "the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers\ngraphical_callout:#281; Graphical callout #281 (\"Horizontal Dimension (8)\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#941",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment. Graphical callout #281 (\"Horizontal Dimension (8)\").",
    "severity": "error",
    "sources": [
     "dimension:#941"
@@ -654,11 +654,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#282; Graphical callout #282 (\"Horizontal Dimension (35)\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#942",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment. Graphical callout #282 (\"Horizontal Dimension (35)\").",
    "severity": "error",
    "sources": [
     "dimension:#942"
@@ -667,11 +667,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#283; Graphical callout #283 (\"Horizontal Dimension (39)\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#943",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment. Graphical callout #283 (\"Horizontal Dimension (39)\").",
    "severity": "error",
    "sources": [
     "dimension:#943"
@@ -680,11 +680,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#285; Graphical callout #285 (\"Vertical Dimension (37)\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#944",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment. Graphical callout #285 (\"Vertical Dimension (37)\").",
    "severity": "error",
    "sources": [
     "dimension:#944"
@@ -693,11 +693,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+   "evidence": "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#286; Graphical callout #286 (\"Vertical Dimension (41)\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#945",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment. Graphical callout #286 (\"Vertical Dimension (41)\").",
    "severity": "error",
    "sources": [
     "dimension:#945"
@@ -706,11 +706,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#946 (circular_runout 0.889) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "evidence": "PMI geometric_tolerance:#946 (circular_runout 0.889) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.\ngraphical_callout:#278; Graphical callout #278 (\"Feature Control Frame (32)\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#946",
    "impact": "incomplete",
-   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment.",
+   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment. Graphical callout #278 (\"Feature Control Frame (32)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#946"
@@ -719,11 +719,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#947 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "evidence": "PMI geometric_tolerance:#947 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.\ngraphical_callout:#279; Graphical callout #279 (\"Feature Control Frame (44)\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#947",
    "impact": "incomplete",
-   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment.",
+   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment. Graphical callout #279 (\"Feature Control Frame (44)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#947"
@@ -732,11 +732,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#948 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "evidence": "PMI geometric_tolerance:#948 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.\ngraphical_callout:#280; Graphical callout #280 (\"Feature Control Frame (45)\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#948",
    "impact": "incomplete",
-   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment.",
+   "message": "The STEP circular runout annotation could not be drawn: a compartment of 2 datums (common datum) is carried as separate letters. Review its requirement and attachment. Graphical callout #280 (\"Feature Control Frame (45)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#948"
@@ -745,11 +745,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#957 (straightness 0.127) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges.",
+   "evidence": "PMI geometric_tolerance:#957 (straightness 0.127) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges.\ngraphical_callout:#275; Graphical callout #275 (\"Feature Control Frame (11)\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#957",
    "impact": "incomplete",
-   "message": "The STEP straightness annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment.",
+   "message": "The STEP straightness annotation could not be drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Review its requirement and attachment. Graphical callout #275 (\"Feature Control Frame (11)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#957"
@@ -812,9 +812,7 @@
     "f:fillet:16/fillet.radius",
     "f:fillet:17/fillet.radius",
     "f:fillet:18/fillet.radius",
-    "f:fillet:19/fillet.radius",
-    "f:fillet:20/fillet.radius",
-    "f:fillet:21/fillet.radius"
+    "f:fillet:19/fillet.radius"
    ],
    "message": "d:f:fillet:1/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
@@ -837,9 +835,7 @@
     "f:fillet:16",
     "f:fillet:17",
     "f:fillet:18",
-    "f:fillet:19",
-    "f:fillet:20",
-    "f:fillet:21"
+    "f:fillet:19"
    ],
    "view": "v:front"
   },
@@ -903,7 +899,7 @@
    "message": "Unrecognised features on this part: 4 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.6 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -1078,65 +1074,75 @@
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#941",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#941 (127 \u00b10.2032) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers.",
+   "message": "PMI dimension dimension:#941 (127 \u00b10.2032) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers. Graphical callout #281 (\"Horizontal Dimension (8)\").",
    "refs": [
     "dimension:#941",
-    "the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers"
+    "the dimension modifier Statistical is not carried; haecceity nonconformance on #14000 (compound_representation_item): type 2 dimension modifiers in a compound item named \"\" (\u00a75.3: 'modifiers'); read as the modifiers",
+    "graphical_callout:#281",
+    "graphical_text:\"Horizontal Dimension (8)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#942",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#942 (31.75) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#942 (31.75) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually. Graphical callout #282 (\"Horizontal Dimension (35)\").",
    "refs": [
     "dimension:#942",
-    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+    "graphical_callout:#282",
+    "graphical_text:\"Horizontal Dimension (35)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#943",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#943 (31.75) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#943 (31.75) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually. Graphical callout #283 (\"Horizontal Dimension (39)\").",
    "refs": [
     "dimension:#943",
-    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+    "graphical_callout:#283",
+    "graphical_text:\"Horizontal Dimension (39)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#944",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#944 (50.8) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#944 (50.8) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually. Graphical callout #285 (\"Vertical Dimension (37)\").",
    "refs": [
     "dimension:#944",
-    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+    "graphical_callout:#285",
+    "graphical_text:\"Vertical Dimension (37)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#945",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#945 (50.8) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually.",
+   "message": "PMI dimension dimension:#945 (50.8) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges; add the required dimension in the Spec and review it manually. Graphical callout #286 (\"Vertical Dimension (41)\").",
    "refs": [
     "dimension:#945",
-    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+    "graphical_callout:#286",
+    "graphical_text:\"Vertical Dimension (41)\""
    ],
    "severity": "error",
    "subjects": []
@@ -1311,28 +1317,32 @@
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:datum_target:0:0",
    "impact": "incomplete",
-   "message": "A STEP datum target is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP datum target is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #267 (\"Datum Target C1 (15)\").",
    "refs": [
     "datum_target:0:0",
     "shape_representation_with_parameters",
-    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)"
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)",
+    "graphical_callout:#267",
+    "graphical_text:\"Datum Target C1 (15)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:datum_target:0:1",
    "impact": "incomplete",
-   "message": "A STEP datum target is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP datum target is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #268 (\"Datum Target D1 (22)\").",
    "refs": [
     "datum_target:0:1",
     "shape_representation_with_parameters",
-    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)"
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (datum target)",
+    "graphical_callout:#268",
+    "graphical_text:\"Datum Target D1 (22)\""
    ],
    "severity": "error",
    "subjects": []
@@ -1450,65 +1460,61 @@
    "subjects": []
   },
   {
-   "code": "pmi_presentation_not_read",
-   "group": "pmi_presentation_not_read",
-   "id": "p:pmi_presentation_not_read:part",
-   "impact": "advisory",
-   "message": "The STEP file carries 54 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
-   "refs": [
-    "part"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#946",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#946 (circular_runout 0.889) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "message": "PMI geometric_tolerance:#946 (circular_runout 0.889) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters. Graphical callout #278 (\"Feature Control Frame (32)\").",
    "refs": [
     "geometric_tolerance:#946",
-    "a compartment of 2 datums (common datum) is carried as separate letters"
+    "a compartment of 2 datums (common datum) is carried as separate letters",
+    "graphical_callout:#278",
+    "graphical_text:\"Feature Control Frame (32)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#947",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#947 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "message": "PMI geometric_tolerance:#947 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters. Graphical callout #279 (\"Feature Control Frame (44)\").",
    "refs": [
     "geometric_tolerance:#947",
-    "a compartment of 2 datums (common datum) is carried as separate letters"
+    "a compartment of 2 datums (common datum) is carried as separate letters",
+    "graphical_callout:#279",
+    "graphical_text:\"Feature Control Frame (44)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#948",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#948 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters.",
+   "message": "PMI geometric_tolerance:#948 (circular_runout 0.635) is not drawn: a compartment of 2 datums (common datum) is carried as separate letters. Graphical callout #280 (\"Feature Control Frame (45)\").",
    "refs": [
     "geometric_tolerance:#948",
-    "a compartment of 2 datums (common datum) is carried as separate letters"
+    "a compartment of 2 datums (common datum) is carried as separate letters",
+    "graphical_callout:#280",
+    "graphical_text:\"Feature Control Frame (45)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#957",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#957 (straightness 0.127) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges.",
+   "message": "PMI geometric_tolerance:#957 (straightness 0.127) is not drawn: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges. Graphical callout #275 (\"Feature Control Frame (11)\").",
    "refs": [
     "geometric_tolerance:#957",
-    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges"
+    "applies to supplemental geometry (trimmed_curve), not only the part's faces and edges",
+    "graphical_callout:#275",
+    "graphical_text:\"Feature Control Frame (11)\""
    ],
    "severity": "error",
    "subjects": []
@@ -2126,7 +2132,7 @@
     "f:blend:1",
     "f:blend:2",
     "f:blend:3",
-    "f:fillet:22",
+    "f:fillet:20",
     "n:f:blend:relief/profiles"
    ]
   },
@@ -2306,6 +2312,30 @@
     "d:f:hole:5/bore.diameter",
     "v:plan"
    ]
+  },
+  {
+   "code": "pmi_graphical_not_drawn",
+   "group": "pmi_graphical_not_drawn:graphical_callout",
+   "id": "p:pmi_graphical_not_drawn:287",
+   "impact": "incomplete",
+   "message": "Graphical callout #287 (\"Rectangular Region (14)\") is not drawn: no resolved semantic PMI link covers this annotation. Review its requirement manually.",
+   "refs": [
+    "graphical_callout:#287"
+   ],
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "code": "pmi_graphical_not_drawn",
+   "group": "pmi_graphical_not_drawn:graphical_callout",
+   "id": "p:pmi_graphical_not_drawn:288",
+   "impact": "incomplete",
+   "message": "Graphical callout #288 (\"Rectangular Region (21)\") is not drawn: no resolved semantic PMI link covers this annotation. Review its requirement manually.",
+   "refs": [
+    "graphical_callout:#288"
+   ],
+   "severity": "warning",
+   "subjects": []
   }
  ],
  "structural": [
@@ -2334,15 +2364,18 @@
    "leader_through_feature": 8,
    "leader_to_hidden_edge": 1,
    "nominal_rounded": 28,
-   "pmi_not_extracted": 28,
+   "pmi_graphical_not_drawn:graphical_callout": 2,
+   "pmi_not_extracted": 26,
    "pmi_not_extracted:datum": 2,
    "pmi_not_extracted:dimension": 5,
    "pmi_not_extracted:finding": 16,
    "pmi_not_extracted:geometric_tolerance": 4,
+   "pmi_not_extracted:graphical_callout": 2,
    "pmi_not_lowered:datum": 4,
-   "pmi_not_lowered:dimension": 10,
-   "pmi_not_lowered:geometric_tolerance": 8,
-   "pmi_presentation_not_read": 1,
+   "pmi_not_lowered:dimension": 5,
+   "pmi_not_lowered:dimension+graphical_callout": 5,
+   "pmi_not_lowered:geometric_tolerance": 4,
+   "pmi_not_lowered:geometric_tolerance+graphical_callout": 4,
    "prismatic_pocket_requirement_unsupported": 2,
    "radius_leader_not_radial": 3,
    "relief_profiles_per_model": 1,
@@ -2355,16 +2388,16 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 81,
-    "groups": 10
+    "findings": 80,
+    "groups": 9
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 50,
-    "groups": 14
+    "findings": 52,
+    "groups": 18
    },
    "readability": {
     "findings": 15,

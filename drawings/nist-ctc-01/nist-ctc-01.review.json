@@ -79,11 +79,11 @@
  "lint": [
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#24 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "evidence": "AP242 dimension dimension:#24 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#625; Graphical callout #625 (\"Linear Size.10\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#24",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #625 (\"Linear Size.10\").",
    "severity": "error",
    "sources": [
     "dimension:#24"
@@ -92,11 +92,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#25 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "evidence": "AP242 dimension dimension:#25 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#626; Graphical callout #626 (\"Linear Size.11\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#25",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #626 (\"Linear Size.11\").",
    "severity": "error",
    "sources": [
     "dimension:#25"
@@ -105,11 +105,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#126 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "evidence": "AP242 dimension dimension:#126 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#616; Graphical callout #616 (\"Linear Size.5\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#126",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #616 (\"Linear Size.5\").",
    "severity": "error",
    "sources": [
     "dimension:#126"
@@ -118,11 +118,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#127 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "evidence": "AP242 dimension dimension:#127 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#617; Graphical callout #617 (\"Linear Size.6\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#127",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #617 (\"Linear Size.6\").",
    "severity": "error",
    "sources": [
     "dimension:#127"
@@ -170,11 +170,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#625; Graphical callout #625 (\"Linear Size.10\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#24",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment. Graphical callout #625 (\"Linear Size.10\").",
    "severity": "error",
    "sources": [
     "dimension:#24"
@@ -183,11 +183,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#626; Graphical callout #626 (\"Linear Size.11\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#25",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment. Graphical callout #626 (\"Linear Size.11\").",
    "severity": "error",
    "sources": [
     "dimension:#25"
@@ -196,11 +196,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#616; Graphical callout #616 (\"Linear Size.5\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#126",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #616 (\"Linear Size.5\").",
    "severity": "error",
    "sources": [
     "dimension:#126"
@@ -209,11 +209,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#617; Graphical callout #617 (\"Linear Size.6\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#127",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #617 (\"Linear Size.6\").",
    "severity": "error",
    "sources": [
     "dimension:#127"
@@ -336,7 +336,7 @@
    "message": "Unrecognised features on this part: 2 rectangular through notches. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "rectangular_through_notches",
-    "quiddity-rust 0.2.6 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -464,52 +464,60 @@
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#24",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#24 (linear) is not drawn: the file states no nominal value; the STEP reader nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one.",
+   "message": "PMI dimension dimension:#24 (linear) is not drawn: the file states no nominal value; the STEP reader nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one. Graphical callout #625 (\"Linear Size.10\").",
    "refs": [
     "dimension:#24",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one"
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+    "graphical_callout:#625",
+    "graphical_text:\"Linear Size.10\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#25",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#25 (linear) is not drawn: the file states no nominal value; the STEP reader nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one.",
+   "message": "PMI dimension dimension:#25 (linear) is not drawn: the file states no nominal value; the STEP reader nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one. Graphical callout #626 (\"Linear Size.11\").",
    "refs": [
     "dimension:#25",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one"
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+    "graphical_callout:#626",
+    "graphical_text:\"Linear Size.11\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#126",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#126 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one.",
+   "message": "PMI dimension dimension:#126 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one. Graphical callout #616 (\"Linear Size.5\").",
    "refs": [
     "dimension:#126",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one"
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+    "graphical_callout:#616",
+    "graphical_text:\"Linear Size.5\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#127",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#127 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one.",
+   "message": "PMI dimension dimension:#127 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one. Graphical callout #617 (\"Linear Size.6\").",
    "refs": [
     "dimension:#127",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one"
+    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
+    "graphical_callout:#617",
+    "graphical_text:\"Linear Size.6\""
    ],
    "severity": "error",
    "subjects": []
@@ -552,18 +560,6 @@
     "attribute_set:0:4",
     "general_property_association",
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
-   "code": "pmi_presentation_not_read",
-   "group": "pmi_presentation_not_read",
-   "id": "p:pmi_presentation_not_read:part",
-   "impact": "advisory",
-   "message": "The STEP file carries 71 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
-   "refs": [
-    "part"
    ],
    "severity": "info",
    "subjects": []
@@ -1008,7 +1004,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 650 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of datum feature symbol C crosses a line of 650. [annotation_leader_crossing].",
+     "description": "Move the 650 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of datum feature symbol B crosses a line of 650. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -1106,7 +1102,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 650 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of datum feature symbol C crosses a line of 650. [annotation_leader_crossing].",
+     "description": "Move the 650 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of datum feature symbol B crosses a line of 650. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -1792,7 +1788,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 100 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 100 runs through the label of 3\u00d7 \u230025 THRU. [annotation_ink_overlap] A line of 100 runs through the label of \u230035 +0.2 0 THRU. [annotation_ink_overlap] A line of 100 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol C crosses a line of 100. [annotation_leader_crossing] The second extension line of 100 crosses the \u230035 hole. [extension_through_feature].",
+     "description": "Move the 100 dimension below the plan view, nearest the view. Trade-off: adds these findings: The leader of \u230035 +0.2/0 THRU crosses a line of 100. [annotation_leader_crossing] A line of 100 runs through the label of 3\u00d7 \u230025 THRU. [annotation_ink_overlap] The second extension line of 100 crosses the \u230035 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -1929,14 +1925,14 @@
    "location_on_datum": 1,
    "pmi_not_extracted": 6,
    "pmi_not_extracted:dimension": 4,
-   "pmi_not_lowered:dimension": 8,
-   "pmi_presentation_not_read": 1,
+   "pmi_not_lowered:dimension": 4,
+   "pmi_not_lowered:dimension+graphical_callout": 4,
    "radius_leader_not_radial": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 25,
-    "groups": 8
+    "findings": 24,
+    "groups": 7
    },
    "decision": {
     "findings": 1,
@@ -1944,7 +1940,7 @@
    },
    "incomplete": {
     "findings": 17,
-    "groups": 4
+    "groups": 5
    },
    "readability": {
     "findings": 4,

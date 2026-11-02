@@ -50,53 +50,25 @@
    "view": "v:plan"
   },
   {
-   "annotation": "d:f:fillet:14/fillet.radius",
+   "annotation": "d:f:fillet:2/fillet.radius",
    "at": [
-    46.24686705690822,
+    112.20854635633177,
     33.65801000337601
    ],
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
    "group": "radius_leader_target_unverifiable",
-   "id": "l:radius_leader_target_unverifiable:d:f:fillet:14/fillet.radius",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:2/fillet.radius",
    "impact": "advisory",
    "measurements": [
     "f:fillet:1/fillet.radius",
-    "f:fillet:2/fillet.radius",
-    "f:fillet:4/fillet.radius",
-    "f:fillet:5/fillet.radius",
-    "f:fillet:6/fillet.radius",
-    "f:fillet:7/fillet.radius",
-    "f:fillet:8/fillet.radius",
-    "f:fillet:9/fillet.radius",
-    "f:fillet:10/fillet.radius",
-    "f:fillet:11/fillet.radius",
-    "f:fillet:12/fillet.radius",
-    "f:fillet:13/fillet.radius",
-    "f:fillet:14/fillet.radius",
-    "f:fillet:15/fillet.radius",
-    "f:fillet:16/fillet.radius",
-    "f:fillet:17/fillet.radius"
+    "f:fillet:2/fillet.radius"
    ],
-   "message": "d:f:fillet:14/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "message": "d:f:fillet:2/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
    "severity": "info",
    "subjects": [
     "f:fillet:1",
-    "f:fillet:2",
-    "f:fillet:4",
-    "f:fillet:5",
-    "f:fillet:6",
-    "f:fillet:7",
-    "f:fillet:8",
-    "f:fillet:9",
-    "f:fillet:10",
-    "f:fillet:11",
-    "f:fillet:12",
-    "f:fillet:13",
-    "f:fillet:14",
-    "f:fillet:15",
-    "f:fillet:16",
-    "f:fillet:17"
+    "f:fillet:2"
    ],
    "view": "v:front"
   }

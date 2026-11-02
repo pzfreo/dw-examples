@@ -183,11 +183,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#15607 was discovered but not extracted: the dimension modifier Statistical is not carried; haecceity nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers",
+   "evidence": "AP242 dimension dimension:#15607 was discovered but not extracted: the dimension modifier Statistical is not carried; haecceity nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers\ngraphical_callout:#15623; Graphical callout #15623 (\"Linear Size.5\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#15607",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15623 (\"Linear Size.5\").",
    "severity": "error",
    "sources": [
     "dimension:#15607"
@@ -196,11 +196,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#13984 was discovered but not extracted: the projected tolerance zone is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#13984 was discovered but not extracted: the projected tolerance zone is not carried\ngraphical_callout:#13999; Graphical callout #13999 (\"Perpendicularity.1\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#13984",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #13999 (\"Perpendicularity.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#13984"
@@ -209,11 +209,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14025 was discovered but not extracted: the projected tolerance zone is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14025 was discovered but not extracted: the projected tolerance zone is not carried\ngraphical_callout:#14040; Graphical callout #14040 (\"Position.1\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14025",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14040 (\"Position.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14025"
@@ -222,11 +222,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14086 was discovered but not extracted: the projected tolerance zone is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14086 was discovered but not extracted: the projected tolerance zone is not carried\ngraphical_callout:#14101; Graphical callout #14101 (\"Position.2\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14086",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14101 (\"Position.2\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14086"
@@ -235,11 +235,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14121 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14121 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#14143; Graphical callout #14143 (\"Position surfacic profile.1\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14121",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14143 (\"Position surfacic profile.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14121"
@@ -248,11 +248,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14130 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14130 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#14143; Graphical callout #14143 (\"Position surfacic profile.1\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14130",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14143 (\"Position surfacic profile.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14130"
@@ -261,11 +261,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14218 was discovered but not extracted: the projected tolerance zone is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14218 was discovered but not extracted: the projected tolerance zone is not carried\ngraphical_callout:#14233; Graphical callout #14233 (\"Position.3\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14218",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14233 (\"Position.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14218"
@@ -274,11 +274,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14257 was discovered but not extracted: the unit-basis (per unit area or length) is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14257 was discovered but not extracted: the unit-basis (per unit area or length) is not carried\ngraphical_callout:#14269; Graphical callout #14269 (\"Flatness.1\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14257",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14269 (\"Flatness.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14257"
@@ -287,11 +287,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14472 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14472 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#14498; Graphical callout #14498 (\"Position.5\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14472",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14498 (\"Position.5\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14472"
@@ -300,11 +300,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14483 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14483 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#14498; Graphical callout #14498 (\"Position.5\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14483",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14498 (\"Position.5\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14483"
@@ -313,11 +313,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14614 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14614 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#14636; Graphical callout #14636 (\"Position surfacic profile.3\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14614",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14636 (\"Position surfacic profile.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14614"
@@ -326,11 +326,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14623 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14623 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#14636; Graphical callout #14636 (\"Position surfacic profile.3\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14623",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14636 (\"Position surfacic profile.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14623"
@@ -339,11 +339,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14709 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14709 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#14735; Graphical callout #14735 (\"Position.8\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14709",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14735 (\"Position.8\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14709"
@@ -352,11 +352,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14720 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#14720 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#14735; Graphical callout #14735 (\"Position.8\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#14720",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #14735 (\"Position.8\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14720"
@@ -365,11 +365,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#15026 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#15026 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#15050; Graphical callout #15050 (\"Position surfacic profile.6\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#15026",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15050 (\"Position surfacic profile.6\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#15026"
@@ -378,11 +378,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#15036 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#15036 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#15050; Graphical callout #15050 (\"Position surfacic profile.6\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#15036",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15050 (\"Position surfacic profile.6\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#15036"
@@ -391,11 +391,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#15076 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#15076 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#15098; Graphical callout #15098 (\"Position surfacic profile.7\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#15076",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15098 (\"Position surfacic profile.7\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#15076"
@@ -404,11 +404,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#15085 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#15085 was discovered but not extracted: it is related to another tolerance (composite, \u2026), which is not carried\ngraphical_callout:#15098; Graphical callout #15098 (\"Position surfacic profile.7\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#15085",
    "impact": "incomplete",
-   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP geometric tolerance annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15098 (\"Position surfacic profile.7\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#15085"
@@ -417,11 +417,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:18 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+   "evidence": "AP242 other attribute_set:0:18 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items\ngraphical_callout:#16345; Graphical callout #16345 (\"Text.4\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:18",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #16345 (\"Text.4\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:18"
@@ -430,11 +430,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:21 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+   "evidence": "AP242 other attribute_set:0:21 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items\ngraphical_callout:#16374; Graphical callout #16374 (\"Text.5\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:21",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #16374 (\"Text.5\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:21"
@@ -443,11 +443,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:22 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+   "evidence": "AP242 other attribute_set:0:22 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items\ngraphical_callout:#16461; Graphical callout #16461 (\"Text.8\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:22",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #16461 (\"Text.8\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:22"
@@ -456,11 +456,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:24 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 4 descriptive items; common label has 0 shared semantic/presentation callouts",
+   "evidence": "AP242 other attribute_set:0:24 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 4 descriptive items; common label has 0 shared semantic/presentation callouts\ngraphical_callout:#15209; Graphical callout #15209 (\"Oriented Linear Dimension.1\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:24",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15209 (\"Oriented Linear Dimension.1\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:24"
@@ -469,11 +469,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:25 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 4 descriptive items; common label has 0 shared semantic/presentation callouts",
+   "evidence": "AP242 other attribute_set:0:25 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 4 descriptive items; common label has 0 shared semantic/presentation callouts\ngraphical_callout:#15315; Graphical callout #15315 (\"Oriented Linear Dimension.2\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:25",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15315 (\"Oriented Linear Dimension.2\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:25"
@@ -482,11 +482,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:26 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts",
+   "evidence": "AP242 other attribute_set:0:26 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts\ngraphical_callout:#15506; Graphical callout #15506 (\"Oriented Linear Dimension.3\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:26",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15506 (\"Oriented Linear Dimension.3\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:26"
@@ -495,11 +495,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:27 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts",
+   "evidence": "AP242 other attribute_set:0:27 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts\ngraphical_callout:#15578; Graphical callout #15578 (\"Oriented Linear Dimension.4\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:27",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15578 (\"Oriented Linear Dimension.4\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:27"
@@ -508,11 +508,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:29 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts",
+   "evidence": "AP242 other attribute_set:0:29 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts\ngraphical_callout:#15974; Graphical callout #15974 (\"Oriented Linear Dimension.5\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:29",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #15974 (\"Oriented Linear Dimension.5\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:29"
@@ -521,11 +521,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:30 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+   "evidence": "AP242 other attribute_set:0:30 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items\ngraphical_callout:#16520; Graphical callout #16520 (\"Text.10\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:30",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #16520 (\"Text.10\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:30"
@@ -755,11 +755,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:16 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "evidence": "AP242 other attribute_set:0:16 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)\ngraphical_callout:#16261; Graphical callout #16261 (\"Text.1\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:16",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #16261 (\"Text.1\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:16"
@@ -768,11 +768,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:17 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "evidence": "AP242 other attribute_set:0:17 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)\ngraphical_callout:#16403; Graphical callout #16403 (\"Text.6\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:17",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #16403 (\"Text.6\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:17"
@@ -885,11 +885,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm)",
+   "evidence": "linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm)\ngraphical_callout:#15209; Graphical callout #15209 (\"Oriented Linear Dimension.1\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#15178",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn: linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm). Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn: linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm). Review its requirement and attachment. Graphical callout #15209 (\"Oriented Linear Dimension.1\").",
    "severity": "error",
    "sources": [
     "dimension:#15178"
@@ -898,11 +898,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm)",
+   "evidence": "linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm)\ngraphical_callout:#15315; Graphical callout #15315 (\"Oriented Linear Dimension.2\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#15285",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn: linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm). Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn: linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm). Review its requirement and attachment. Graphical callout #15315 (\"Oriented Linear Dimension.2\").",
    "severity": "error",
    "sources": [
     "dimension:#15285"
@@ -911,11 +911,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "linear reference-station span 98.7195 mm differs from nominal 7.62 mm",
+   "evidence": "linear reference-station span 98.7195 mm differs from nominal 7.62 mm\ngraphical_callout:#15578; Graphical callout #15578 (\"Oriented Linear Dimension.4\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#15545",
    "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn: linear reference-station span 98.7195 mm differs from nominal 7.62 mm. Review its requirement and attachment.",
+   "message": "The STEP linear annotation could not be drawn: linear reference-station span 98.7195 mm differs from nominal 7.62 mm. Review its requirement and attachment. Graphical callout #15578 (\"Oriented Linear Dimension.4\").",
    "severity": "error",
    "sources": [
     "dimension:#15545"
@@ -924,11 +924,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the dimension modifier Statistical is not carried; haecceity nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers",
+   "evidence": "the dimension modifier Statistical is not carried; haecceity nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers\ngraphical_callout:#15623; Graphical callout #15623 (\"Linear Size.5\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#15607",
    "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment.",
+   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #15623 (\"Linear Size.5\").",
    "severity": "error",
    "sources": [
     "dimension:#15607"
@@ -937,24 +937,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "its axis is not along x, y or z; the port draws a diameter or radius seen end-on",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#15699",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn: its axis is not along x, y or z; the port draws a diameter or radius seen end-on. Review its requirement and attachment.",
-   "severity": "error",
-   "sources": [
-    "dimension:#15699"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "one radius reference face is not cylindrical; radius references do not share one cylinder axis direction",
+   "evidence": "one radius reference face is not cylindrical; radius references do not share one cylinder axis direction\ngraphical_callout:#16200; Graphical callout #16200 (\"Linear Size.13\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#16188",
    "impact": "incomplete",
-   "message": "The STEP radius annotation could not be drawn: one radius reference face is not cylindrical; radius references do not share one cylinder axis direction. Review its requirement and attachment.",
+   "message": "The STEP radius annotation could not be drawn: one radius reference face is not cylindrical; radius references do not share one cylinder axis direction. Review its requirement and attachment. Graphical callout #16200 (\"Linear Size.13\").",
    "severity": "error",
    "sources": [
     "dimension:#16188"
@@ -963,11 +950,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI common label dimension:#16423 (\uf055) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "evidence": "PMI common label dimension:#16423 (\uf055) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.\ngraphical_callout:#14405; Graphical callout #14405 (\"Position.4\").\ngraphical_callout:#15623; Graphical callout #15623 (\"Linear Size.5\").\ngraphical_callout:#15669; Graphical callout #15669 (\"Linear Size.6\").\ngraphical_callout:#16431; Graphical callout #16431 (\"Text.7\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#16423",
    "impact": "incomplete",
-   "message": "The STEP common label annotation could not be drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Review its requirement and attachment.",
+   "message": "The STEP common label annotation could not be drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Review its requirement and attachment. Graphical callout #14405 (\"Position.4\"). Graphical callout #15623 (\"Linear Size.5\"). Graphical callout #15669 (\"Linear Size.6\"). Graphical callout #16431 (\"Text.7\").",
    "severity": "warning",
    "sources": [
     "dimension:#16423"
@@ -976,11 +963,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI common label dimension:#16482 (\u2334) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "evidence": "PMI common label dimension:#16482 (\u2334) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.\ngraphical_callout:#15899; Graphical callout #15899 (\"Linear Size.11\").\ngraphical_callout:#16490; Graphical callout #16490 (\"Text.9\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#16482",
    "impact": "incomplete",
-   "message": "The STEP common label annotation could not be drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Review its requirement and attachment.",
+   "message": "The STEP common label annotation could not be drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Review its requirement and attachment. Graphical callout #15899 (\"Linear Size.11\"). Graphical callout #16490 (\"Text.9\").",
    "severity": "warning",
    "sources": [
     "dimension:#16482"
@@ -989,11 +976,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#13984 (perpendicularity 0.381) is not drawn: the projected tolerance zone is not carried.",
+   "evidence": "PMI geometric_tolerance:#13984 (perpendicularity 0.381) is not drawn: the projected tolerance zone is not carried.\ngraphical_callout:#13999; Graphical callout #13999 (\"Perpendicularity.1\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#13984",
    "impact": "incomplete",
-   "message": "The STEP perpendicularity annotation could not be drawn: the projected tolerance zone is not carried. Review its requirement and attachment.",
+   "message": "The STEP perpendicularity annotation could not be drawn: the projected tolerance zone is not carried. Review its requirement and attachment. Graphical callout #13999 (\"Perpendicularity.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#13984"
@@ -1002,11 +989,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14025 (position 0.508) is not drawn: the projected tolerance zone is not carried.",
+   "evidence": "PMI geometric_tolerance:#14025 (position 0.508) is not drawn: the projected tolerance zone is not carried.\ngraphical_callout:#14040; Graphical callout #14040 (\"Position.1\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14025",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn: the projected tolerance zone is not carried. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn: the projected tolerance zone is not carried. Review its requirement and attachment. Graphical callout #14040 (\"Position.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14025"
@@ -1015,11 +1002,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14086 (position 0.584) is not drawn: the projected tolerance zone is not carried.",
+   "evidence": "PMI geometric_tolerance:#14086 (position 0.584) is not drawn: the projected tolerance zone is not carried.\ngraphical_callout:#14101; Graphical callout #14101 (\"Position.2\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14086",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn: the projected tolerance zone is not carried. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn: the projected tolerance zone is not carried. Review its requirement and attachment. Graphical callout #14101 (\"Position.2\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14086"
@@ -1028,11 +1015,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14121 (profile_surface 1.02) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#14121 (profile_surface 1.02) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#14143; Graphical callout #14143 (\"Position surfacic profile.1\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14121",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #14143 (\"Position surfacic profile.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14121"
@@ -1041,11 +1028,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14130 (profile_surface 0.254) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#14130 (profile_surface 0.254) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#14143; Graphical callout #14143 (\"Position surfacic profile.1\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14130",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #14143 (\"Position surfacic profile.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14130"
@@ -1054,11 +1041,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14218 (position 0.584) is not drawn: the projected tolerance zone is not carried.",
+   "evidence": "PMI geometric_tolerance:#14218 (position 0.584) is not drawn: the projected tolerance zone is not carried.\ngraphical_callout:#14233; Graphical callout #14233 (\"Position.3\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14218",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn: the projected tolerance zone is not carried. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn: the projected tolerance zone is not carried. Review its requirement and attachment. Graphical callout #14233 (\"Position.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14218"
@@ -1067,11 +1054,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14257 (flatness 0.254) is not drawn: the unit-basis (per unit area or length) is not carried.",
+   "evidence": "PMI geometric_tolerance:#14257 (flatness 0.254) is not drawn: the unit-basis (per unit area or length) is not carried.\ngraphical_callout:#14269; Graphical callout #14269 (\"Flatness.1\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14257",
    "impact": "incomplete",
-   "message": "The STEP flatness annotation could not be drawn: the unit-basis (per unit area or length) is not carried. Review its requirement and attachment.",
+   "message": "The STEP flatness annotation could not be drawn: the unit-basis (per unit area or length) is not carried. Review its requirement and attachment. Graphical callout #14269 (\"Flatness.1\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14257"
@@ -1080,11 +1067,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14391 (position 1.27) is not drawn: geometric-tolerance modifier 'statistical_tolerance' is not supported.",
+   "evidence": "PMI geometric_tolerance:#14391 (position 1.27) is not drawn: geometric-tolerance modifier 'statistical_tolerance' is not supported.\ngraphical_callout:#14405; Graphical callout #14405 (\"Position.4\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14391",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn: geometric-tolerance modifier 'statistical_tolerance' is not supported. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn: geometric-tolerance modifier 'statistical_tolerance' is not supported. Review its requirement and attachment. Graphical callout #14405 (\"Position.4\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14391"
@@ -1093,11 +1080,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14472 (position 1.52) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#14472 (position 1.52) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#14498; Graphical callout #14498 (\"Position.5\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14472",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #14498 (\"Position.5\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14472"
@@ -1106,11 +1093,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14483 (position 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#14483 (position 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#14498; Graphical callout #14498 (\"Position.5\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14483",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #14498 (\"Position.5\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14483"
@@ -1119,11 +1106,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14614 (profile_surface 1.78) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#14614 (profile_surface 1.78) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#14636; Graphical callout #14636 (\"Position surfacic profile.3\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14614",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #14636 (\"Position surfacic profile.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14614"
@@ -1132,11 +1119,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14623 (profile_surface 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#14623 (profile_surface 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#14636; Graphical callout #14636 (\"Position surfacic profile.3\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14623",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #14636 (\"Position surfacic profile.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14623"
@@ -1145,11 +1132,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14709 (position 1.52) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#14709 (position 1.52) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#14735; Graphical callout #14735 (\"Position.8\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14709",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #14735 (\"Position.8\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14709"
@@ -1158,11 +1145,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#14720 (position 0.508) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#14720 (position 0.508) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#14735; Graphical callout #14735 (\"Position.8\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#14720",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP position annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #14735 (\"Position.8\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#14720"
@@ -1171,11 +1158,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#15026 (profile_surface 0.762) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#15026 (profile_surface 0.762) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#15050; Graphical callout #15050 (\"Position surfacic profile.6\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#15026",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #15050 (\"Position surfacic profile.6\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#15026"
@@ -1184,11 +1171,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#15036 (profile_surface 0.127) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#15036 (profile_surface 0.127) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#15050; Graphical callout #15050 (\"Position surfacic profile.6\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#15036",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #15050 (\"Position surfacic profile.6\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#15036"
@@ -1197,11 +1184,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#15076 (profile_surface 1.78) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#15076 (profile_surface 1.78) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#15098; Graphical callout #15098 (\"Position surfacic profile.7\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#15076",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #15098 (\"Position surfacic profile.7\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#15076"
@@ -1210,11 +1197,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#15085 (profile_surface 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "evidence": "PMI geometric_tolerance:#15085 (profile_surface 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.\ngraphical_callout:#15098; Graphical callout #15098 (\"Position surfacic profile.7\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#15085",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: it is related to another tolerance (composite, \u2026), which is not carried. Review its requirement and attachment. Graphical callout #15098 (\"Position surfacic profile.7\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#15085"
@@ -1223,10 +1210,11 @@
   },
   {
    "code": "pmi_not_rendered",
+   "evidence": "graphical_callout:#15899; Graphical callout #15899 (\"Linear Size.11\").",
    "group": "pmi_not_rendered:dimension",
    "id": "l:pmi_not_rendered:dimension:#15883",
    "impact": "incomplete",
-   "message": "AP242 source dimension:#15883 reached a drawing item (pmi:dimension.diameter:f124,125,156,157,168,169,302,303) but produced no annotation",
+   "message": "AP242 source dimension:#15883 reached a drawing item (pmi:dimension.diameter:f124,125,156,157,168,169,302,303) but produced no annotation Graphical callout #15899 (\"Linear Size.11\").",
    "severity": "error",
    "sources": [
     "dimension:#15883"
@@ -1512,8 +1500,8 @@
   {
    "annotation": "d:f:fillet:63/fillet.radius",
    "at": [
-    80.67397737174002,
-    214.68998737174005
+    81.12397737174001,
+    207.68998737174005
    ],
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
@@ -1570,7 +1558,7 @@
    "message": "Unrecognised features on this part: 20 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.2.6 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -1602,217 +1590,234 @@
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15178",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15178 (7.62 \u00b10.508) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm).",
+   "message": "PMI dimension dimension:#15178 (7.62 \u00b10.508) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm). Graphical callout #15209 (\"Oriented Linear Dimension.1\").",
    "refs": [
     "dimension:#15178",
-    "linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm)"
+    "linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm)",
+    "graphical_callout:#15209",
+    "graphical_text:\"Oriented Linear Dimension.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15285",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15285 (7.62 \u00b10.508) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm).",
+   "message": "PMI dimension dimension:#15285 (7.62 \u00b10.508) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm). Graphical callout #15315 (\"Oriented Linear Dimension.2\").",
    "refs": [
     "dimension:#15285",
-    "linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm)"
+    "linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm)",
+    "graphical_callout:#15315",
+    "graphical_text:\"Oriented Linear Dimension.2\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15545",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15545 (7.62 \u00b10.508) is not drawn: linear reference-station span 98.7195 mm differs from nominal 7.62 mm.",
+   "message": "PMI dimension dimension:#15545 (7.62 \u00b10.508) is not drawn: linear reference-station span 98.7195 mm differs from nominal 7.62 mm. Graphical callout #15578 (\"Oriented Linear Dimension.4\").",
    "refs": [
     "dimension:#15545",
-    "linear reference-station span 98.7195 mm differs from nominal 7.62 mm"
+    "linear reference-station span 98.7195 mm differs from nominal 7.62 mm",
+    "graphical_callout:#15578",
+    "graphical_text:\"Oriented Linear Dimension.4\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15607",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15607 (\u00f822.225 \u00b10.508) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers.",
+   "message": "PMI dimension dimension:#15607 (\u230022.225 \u00b10.508) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers. Graphical callout #15623 (\"Linear Size.5\").",
    "refs": [
     "dimension:#15607",
-    "the dimension modifier Statistical is not carried; haecceity nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers"
+    "the dimension modifier Statistical is not carried; haecceity nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers",
+    "graphical_callout:#15623",
+    "graphical_text:\"Linear Size.5\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
-   "code": "pmi_dimensions_not_ported",
-   "group": "pmi_dimensions_not_ported",
-   "id": "p:pmi_dimensions_not_ported:dimension:#15699",
-   "impact": "advisory",
-   "message": "PMI dimension dimension:#15699 (\u00f84.3942 +0.127/-0.0254) is not drawn: its cylinder's axis is not along x, y or z; the port draws a diameter where its cylinder is seen end-on.",
-   "refs": [
-    "dimension:#15699",
-    "its cylinder's axis is not along x, y or z; the port draws a diameter where its cylinder is seen end-on"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15883",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15883 (\u00f811.1252 \u00b10.254) is not drawn: standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists.",
+   "message": "PMI dimension dimension:#15883 (\u230011.1252 \u00b10.254) is not drawn: standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists. Graphical callout #15899 (\"Linear Size.11\").",
    "refs": [
     "dimension:#15883",
-    "standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists"
+    "standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists",
+    "graphical_callout:#15899",
+    "graphical_text:\"Linear Size.11\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#16188",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#16188 (R0.3048 - R0.5588) is not drawn: one radius reference face is not cylindrical; radius references do not share one cylinder axis direction.",
+   "message": "PMI dimension dimension:#16188 (R0.3048 - R0.5588) is not drawn: one radius reference face is not cylindrical; radius references do not share one cylinder axis direction. Graphical callout #16200 (\"Linear Size.13\").",
    "refs": [
     "dimension:#16188",
-    "one radius reference face is not cylindrical; radius references do not share one cylinder axis direction"
+    "one radius reference face is not cylindrical; radius references do not share one cylinder axis direction",
+    "graphical_callout:#16200",
+    "graphical_text:\"Linear Size.13\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:18",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #16345 (\"Text.4\").",
    "refs": [
     "attribute_set:0:18",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+    "graphical_callout:#16345",
+    "graphical_text:\"Text.4\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:21",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #16374 (\"Text.5\").",
    "refs": [
     "attribute_set:0:21",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+    "graphical_callout:#16374",
+    "graphical_text:\"Text.5\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:22",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #16461 (\"Text.8\").",
    "refs": [
     "attribute_set:0:22",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+    "graphical_callout:#16461",
+    "graphical_text:\"Text.8\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:24",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #15209 (\"Oriented Linear Dimension.1\").",
    "refs": [
     "attribute_set:0:24",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 4 descriptive items; common label has 0 shared semantic/presentation callouts"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 4 descriptive items; common label has 0 shared semantic/presentation callouts",
+    "graphical_callout:#15209",
+    "graphical_text:\"Oriented Linear Dimension.1\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:25",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #15315 (\"Oriented Linear Dimension.2\").",
    "refs": [
     "attribute_set:0:25",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 4 descriptive items; common label has 0 shared semantic/presentation callouts"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 4 descriptive items; common label has 0 shared semantic/presentation callouts",
+    "graphical_callout:#15315",
+    "graphical_text:\"Oriented Linear Dimension.2\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:26",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #15506 (\"Oriented Linear Dimension.3\").",
    "refs": [
     "attribute_set:0:26",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts",
+    "graphical_callout:#15506",
+    "graphical_text:\"Oriented Linear Dimension.3\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:27",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #15578 (\"Oriented Linear Dimension.4\").",
    "refs": [
     "attribute_set:0:27",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts",
+    "graphical_callout:#15578",
+    "graphical_text:\"Oriented Linear Dimension.4\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:29",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #15974 (\"Oriented Linear Dimension.5\").",
    "refs": [
     "attribute_set:0:29",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 5 descriptive items; common label has 0 shared semantic/presentation callouts",
+    "graphical_callout:#15974",
+    "graphical_text:\"Oriented Linear Dimension.5\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:30",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #16520 (\"Text.10\").",
    "refs": [
     "attribute_set:0:30",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+    "graphical_callout:#16520",
+    "graphical_text:\"Text.10\""
    ],
    "severity": "info",
    "subjects": []
@@ -2057,28 +2062,32 @@
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:16",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #16261 (\"Text.1\").",
    "refs": [
     "attribute_set:0:16",
     "general_property",
-    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+    "graphical_callout:#16261",
+    "graphical_text:\"Text.1\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:17",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #16403 (\"Text.6\").",
    "refs": [
     "attribute_set:0:17",
     "general_property",
-    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+    "graphical_callout:#16403",
+    "graphical_text:\"Text.6\""
    ],
    "severity": "info",
    "subjects": []
@@ -2196,273 +2205,309 @@
    "subjects": []
   },
   {
-   "code": "pmi_presentation_not_read",
-   "group": "pmi_presentation_not_read",
-   "id": "p:pmi_presentation_not_read:part",
-   "impact": "advisory",
-   "message": "The STEP file carries 168 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
-   "refs": [
-    "part"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#16423",
    "impact": "incomplete",
-   "message": "PMI common label dimension:#16423 (\uf055) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "message": "PMI common label dimension:#16423 (\uf055) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Graphical callout #14405 (\"Position.4\"). Graphical callout #15623 (\"Linear Size.5\"). Graphical callout #15669 (\"Linear Size.6\"). Graphical callout #16431 (\"Text.7\").",
    "refs": [
     "dimension:#16423",
-    "its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions"
+    "its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions",
+    "graphical_callout:#14405",
+    "graphical_text:\"Position.4\"",
+    "graphical_callout:#15623",
+    "graphical_text:\"Linear Size.5\"",
+    "graphical_callout:#15669",
+    "graphical_text:\"Linear Size.6\"",
+    "graphical_callout:#16431",
+    "graphical_text:\"Text.7\""
    ],
    "severity": "warning",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#16482",
    "impact": "incomplete",
-   "message": "PMI common label dimension:#16482 (\u2334) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions.",
+   "message": "PMI common label dimension:#16482 (\u2334) is not drawn: its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions. Graphical callout #15899 (\"Linear Size.11\"). Graphical callout #16490 (\"Text.9\").",
    "refs": [
     "dimension:#16482",
-    "its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions"
+    "its text is a lone symbol with no size, depth or name, so it would print as an empty box; the requirement it marks is stated, or not, by its features' own dimensions",
+    "graphical_callout:#15899",
+    "graphical_text:\"Linear Size.11\"",
+    "graphical_callout:#16490",
+    "graphical_text:\"Text.9\""
    ],
    "severity": "warning",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#13984",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#13984 (perpendicularity 0.381) is not drawn: the projected tolerance zone is not carried.",
+   "message": "PMI geometric_tolerance:#13984 (perpendicularity 0.381) is not drawn: the projected tolerance zone is not carried. Graphical callout #13999 (\"Perpendicularity.1\").",
    "refs": [
     "geometric_tolerance:#13984",
-    "the projected tolerance zone is not carried"
+    "the projected tolerance zone is not carried",
+    "graphical_callout:#13999",
+    "graphical_text:\"Perpendicularity.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14025",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14025 (position 0.508) is not drawn: the projected tolerance zone is not carried.",
+   "message": "PMI geometric_tolerance:#14025 (position 0.508) is not drawn: the projected tolerance zone is not carried. Graphical callout #14040 (\"Position.1\").",
    "refs": [
     "geometric_tolerance:#14025",
-    "the projected tolerance zone is not carried"
+    "the projected tolerance zone is not carried",
+    "graphical_callout:#14040",
+    "graphical_text:\"Position.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14086",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14086 (position 0.584) is not drawn: the projected tolerance zone is not carried.",
+   "message": "PMI geometric_tolerance:#14086 (position 0.584) is not drawn: the projected tolerance zone is not carried. Graphical callout #14101 (\"Position.2\").",
    "refs": [
     "geometric_tolerance:#14086",
-    "the projected tolerance zone is not carried"
+    "the projected tolerance zone is not carried",
+    "graphical_callout:#14101",
+    "graphical_text:\"Position.2\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14121",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14121 (profile_surface 1.02) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#14121 (profile_surface 1.02) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #14143 (\"Position surfacic profile.1\").",
    "refs": [
     "geometric_tolerance:#14121",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#14143",
+    "graphical_text:\"Position surfacic profile.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14130",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14130 (profile_surface 0.254) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#14130 (profile_surface 0.254) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #14143 (\"Position surfacic profile.1\").",
    "refs": [
     "geometric_tolerance:#14130",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#14143",
+    "graphical_text:\"Position surfacic profile.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14218",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14218 (position 0.584) is not drawn: the projected tolerance zone is not carried.",
+   "message": "PMI geometric_tolerance:#14218 (position 0.584) is not drawn: the projected tolerance zone is not carried. Graphical callout #14233 (\"Position.3\").",
    "refs": [
     "geometric_tolerance:#14218",
-    "the projected tolerance zone is not carried"
+    "the projected tolerance zone is not carried",
+    "graphical_callout:#14233",
+    "graphical_text:\"Position.3\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14257",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14257 (flatness 0.254) is not drawn: the unit-basis (per unit area or length) is not carried.",
+   "message": "PMI geometric_tolerance:#14257 (flatness 0.254) is not drawn: the unit-basis (per unit area or length) is not carried. Graphical callout #14269 (\"Flatness.1\").",
    "refs": [
     "geometric_tolerance:#14257",
-    "the unit-basis (per unit area or length) is not carried"
+    "the unit-basis (per unit area or length) is not carried",
+    "graphical_callout:#14269",
+    "graphical_text:\"Flatness.1\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14391",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14391 (position 1.27) is not drawn: geometric-tolerance modifier 'statistical_tolerance' is not supported.",
+   "message": "PMI geometric_tolerance:#14391 (position 1.27) is not drawn: geometric-tolerance modifier 'statistical_tolerance' is not supported. Graphical callout #14405 (\"Position.4\").",
    "refs": [
     "geometric_tolerance:#14391",
-    "geometric-tolerance modifier 'statistical_tolerance' is not supported"
+    "geometric-tolerance modifier 'statistical_tolerance' is not supported",
+    "graphical_callout:#14405",
+    "graphical_text:\"Position.4\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14472",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14472 (position 1.52) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#14472 (position 1.52) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #14498 (\"Position.5\").",
    "refs": [
     "geometric_tolerance:#14472",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#14498",
+    "graphical_text:\"Position.5\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14483",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14483 (position 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#14483 (position 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #14498 (\"Position.5\").",
    "refs": [
     "geometric_tolerance:#14483",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#14498",
+    "graphical_text:\"Position.5\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14614",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14614 (profile_surface 1.78) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#14614 (profile_surface 1.78) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #14636 (\"Position surfacic profile.3\").",
    "refs": [
     "geometric_tolerance:#14614",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#14636",
+    "graphical_text:\"Position surfacic profile.3\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14623",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14623 (profile_surface 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#14623 (profile_surface 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #14636 (\"Position surfacic profile.3\").",
    "refs": [
     "geometric_tolerance:#14623",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#14636",
+    "graphical_text:\"Position surfacic profile.3\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14709",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14709 (position 1.52) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#14709 (position 1.52) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #14735 (\"Position.8\").",
    "refs": [
     "geometric_tolerance:#14709",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#14735",
+    "graphical_text:\"Position.8\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#14720",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#14720 (position 0.508) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#14720 (position 0.508) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #14735 (\"Position.8\").",
    "refs": [
     "geometric_tolerance:#14720",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#14735",
+    "graphical_text:\"Position.8\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#15026",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#15026 (profile_surface 0.762) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#15026 (profile_surface 0.762) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #15050 (\"Position surfacic profile.6\").",
    "refs": [
     "geometric_tolerance:#15026",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#15050",
+    "graphical_text:\"Position surfacic profile.6\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#15036",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#15036 (profile_surface 0.127) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#15036 (profile_surface 0.127) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #15050 (\"Position surfacic profile.6\").",
    "refs": [
     "geometric_tolerance:#15036",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#15050",
+    "graphical_text:\"Position surfacic profile.6\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#15076",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#15076 (profile_surface 1.78) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#15076 (profile_surface 1.78) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #15098 (\"Position surfacic profile.7\").",
    "refs": [
     "geometric_tolerance:#15076",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#15098",
+    "graphical_text:\"Position surfacic profile.7\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#15085",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#15085 (profile_surface 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried.",
+   "message": "PMI geometric_tolerance:#15085 (profile_surface 0.381) is not drawn: it is related to another tolerance (composite, \u2026), which is not carried. Graphical callout #15098 (\"Position surfacic profile.7\").",
    "refs": [
     "geometric_tolerance:#15085",
-    "it is related to another tolerance (composite, \u2026), which is not carried"
+    "it is related to another tolerance (composite, \u2026), which is not carried",
+    "graphical_callout:#15098",
+    "graphical_text:\"Position surfacic profile.7\""
    ],
    "severity": "error",
    "subjects": []
@@ -2581,7 +2626,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 callout to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 runs up to 3.2 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 241.3. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 285.75. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses the \u230022.225 hole. [leader_through_feature].",
+     "description": "Move the 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 callout to the left of the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 runs up to 3.2 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 crosses a line of 241.3. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 crosses a line of 285.75. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 crosses the \u230022.225 hole. [leader_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -2636,7 +2681,7 @@
    "group": "annotation_leader_crossing:extension_line",
    "id": "p:annotation_leader_crossing:d:f:hole_pattern:2/bore.diameter|d:f:hole_pattern:3/grid_pitch.length.row",
    "impact": "advisory",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 196.85.",
+   "message": "The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 crosses a line of 196.85.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:2/bore.diameter",
@@ -4496,7 +4541,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 runs up to 2.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The labels of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 and F1.2 overlap. [annotation_overlap] The labels of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 and the feature control frame \u2316 \u23001.016\u24c2 A B C overlap. [annotation_overlap] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62. [annotation_leader_crossing] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 196.85. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62. [annotation_leader_crossing] The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses the \u230015.082 hole. [leader_through_feature].",
+     "description": "Move the 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 runs up to 2.2 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The labels of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 and F1.2 overlap. [annotation_overlap] The leader of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62. [annotation_leader_crossing] The leader of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 196.85. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 crosses a line of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62. [annotation_leader_crossing] The leader of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses the \u230015.082 hole. [leader_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -4551,7 +4596,7 @@
    "group": "leader_through_feature",
    "id": "p:leader_through_feature:d:f:hole_pattern:1/bore.diameter|f:hole:7:line:0",
    "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses the \u23006.35 hole.",
+   "message": "The leader of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses the \u23006.35 hole.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter",
@@ -5182,7 +5227,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 2.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62. [annotation_ink_overlap] The leader of 16\u00d7 R3.048 crosses a line of 285.75. [annotation_leader_crossing].",
+     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 2.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62. [annotation_ink_overlap] The leader of 16\u00d7 R3.048 crosses a line of 285.75. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -5280,7 +5325,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 2.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62. [annotation_ink_overlap] The leader of 16\u00d7 R3.048 crosses a line of 285.75. [annotation_leader_crossing].",
+     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 2.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62. [annotation_ink_overlap] The leader of 16\u00d7 R3.048 crosses a line of 285.75. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -5378,7 +5423,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 2.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62. [annotation_ink_overlap] The leader of 16\u00d7 R3.048 crosses a line of 285.75. [annotation_leader_crossing].",
+     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 2.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 285.75 runs through the label of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62. [annotation_ink_overlap] The leader of 16\u00d7 R3.048 crosses a line of 285.75. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6554,7 +6599,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 3\u00d7 \u230022.225 \u00b10.254 THRU runs through the label of 88.392. [annotation_ink_overlap] The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of 88.392. [annotation_leader_crossing] A line of 88.392 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
+     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of 88.392. [annotation_leader_crossing] A line of 88.392 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6652,7 +6697,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 3\u00d7 \u230022.225 \u00b10.254 THRU runs through the label of 88.392. [annotation_ink_overlap] The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of 88.392. [annotation_leader_crossing] A line of 88.392 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
+     "description": "Move the 88.392 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 3\u00d7 \u230022.225 \u00b10.254 THRU crosses a line of 88.392. [annotation_leader_crossing] A line of 88.392 runs through the label of datum feature symbol C. [annotation_ink_overlap] The leader of datum feature symbol D crosses a line of 88.392. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 88.392. [annotation_leader_crossing] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 88.392 crosses the \u230015.082 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6848,7 +6893,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of F1.1 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
+     "description": "Move the 210.006 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 crosses a line of 210.006. [annotation_leader_crossing] The leader of F1.1 crosses a line of 210.006. [annotation_leader_crossing] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u230015.082 hole. [extension_through_feature] The second extension line of 210.006 crosses the \u23006.35 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -6908,398 +6953,6 @@
    "subjects": [
     "d:step_level/step_height.length.h210_006",
     "f:hole:5"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 47\u00d7 R1.524 crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear|f:hole:10:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear",
-    "f:hole:10"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 47\u00d7 R1.524 crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear|f:hole:11:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear",
-    "f:hole:11"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 47\u00d7 R1.524 crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear|f:hole:4:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear",
-    "f:hole:4"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 7.62 \u00b10.508 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of 47\u00d7 R1.524 crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The leader of the feature control frame \u2225 0.762 A crosses a line of 7.62 \u00b10.508. [annotation_leader_crossing] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23007.137 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature] The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f0,17,151,152,153,159,195,222~1linear/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear|f:hole:9:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 7.62 \u00b10.508 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:pmi:dimension.linear:f0,17,151,152,153,159,195,222/linear",
-    "f:hole:9"
    ]
   },
   {
@@ -7497,7 +7150,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:13/bore.diameter:d:f:hole:13/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082 +0.3048 -0.0508\\nTHRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:13/bore.diameter"
@@ -7508,7 +7161,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:13/bore.diameter:d:f:hole:14/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082 +0.3048 -0.0508\\nTHRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:13/bore.diameter"
@@ -7519,7 +7172,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:13/bore.diameter:d:f:hole:22/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082 +0.3048 -0.0508\\nTHRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:13/bore.diameter"
@@ -7530,7 +7183,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:13/bore.diameter:d:f:hole:23/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082 +0.3048 -0.0508\\nTHRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:13/bore.diameter"
@@ -7541,7 +7194,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:13/bore.diameter:d:pmi:dimension.diameter:f237,238,239,240/diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082 +0.3048 -0.0508\\nTHRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:13/bore.diameter"
@@ -7552,7 +7205,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:13/bore.diameter:d:pmi:dimension.diameter:f261,262,263,264/diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082 +0.3048 -0.0508\\nTHRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:13/bore.diameter"
@@ -7629,7 +7282,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:18/bore.diameter:d:f:hole:18/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 THRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:18/bore.diameter"
@@ -7640,7 +7293,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:18/bore.diameter:d:f:hole:19/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 THRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:18/bore.diameter"
@@ -7651,7 +7304,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:18/bore.diameter:d:f:hole:20/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 THRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:18/bore.diameter"
@@ -7662,7 +7315,18 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole:18/bore.diameter:d:f:hole:21/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 THRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:18/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:18/bore.diameter:d:pmi:dimension.diameter:f253,254,255,256,257,258,259,260/diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole:18/bore.diameter"
@@ -7695,7 +7359,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:f:hole:1/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter"
@@ -7706,7 +7370,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:f:hole:10/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter"
@@ -7717,7 +7381,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:f:hole:11/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter"
@@ -7728,7 +7392,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:f:hole:12/bore.diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter"
@@ -7739,7 +7403,7 @@
    "group": "nominal_rounded",
    "id": "p:nominal_rounded:d:f:hole_pattern:1/bore.diameter:d:pmi:dimension.diameter:f1,2,183,184,185,186,187,188/diameter",
    "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524 -0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
+   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter"
@@ -8157,7 +7821,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 4\u00d7 4-SIDED 25.352 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 4-SIDED 25.352 A/F runs up to 2.2 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The labels of 4\u00d7 4-SIDED 25.352 A/F and the feature control frame \u2316 \u23001.016\u24c2 A B C overlap. [annotation_overlap] A line of 4\u00d7 4-SIDED 25.352 A/F runs through the label of 4\u00d7 \u23006.35 +0.0762 0 \u21a7 7.62. [annotation_ink_overlap] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 165.1. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 196.85. [annotation_leader_crossing].",
+     "description": "Move the 4\u00d7 4-SIDED 25.352 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 4\u00d7 4-SIDED 25.352 A/F runs up to 2.2 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 4\u00d7 4-SIDED 25.352 A/F runs through the label of 4\u00d7 \u23006.35 +0.0762/0 \u21a7 7.62. [annotation_ink_overlap] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 165.1. [annotation_leader_crossing] The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 196.85. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -8545,6 +8209,18 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
+   "id": "p:label_crowded:pmi:dimension.common_label:f182:t=F1.2|d:f:hole_pattern:2/bore.diameter",
+   "impact": "advisory",
+   "message": "Line-work of F1.2 passes less than 0.5 mm from the label of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "pmi:dimension.common_label:f182:t=F1.2",
+    "d:f:hole_pattern:2/bore.diameter"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
    "id": "p:label_crowded:d:f:hole_pattern:1/location.length.x|d:f:hole_pattern:1/grid_pitch.length.col",
    "impact": "advisory",
    "message": "Line-work of 155.803 passes less than 0.5 mm from the label of 241.3, so it touches the text.",
@@ -8619,7 +8295,7 @@
    "group": "label_crowded",
    "id": "p:label_crowded:d:f:hole_pattern:3/bore.diameter|d:f:fillet:63/fillet.radius",
    "impact": "advisory",
-   "message": "Line-work of 4\u00d7 \u23006.35 +0.0762 0 \u21a7 7.62 passes less than 0.5 mm from the label of 16\u00d7 R3.048, so it touches the text.",
+   "message": "Line-work of 4\u00d7 \u23006.35 +0.0762/0 \u21a7 7.62 passes less than 0.5 mm from the label of 16\u00d7 R3.048, so it touches the text.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:3/bore.diameter",
@@ -8691,7 +8367,7 @@
    "group": "leader_across_view",
    "id": "p:leader_across_view:d:f:hole_pattern:1/bore.diameter",
    "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23007.137 +0.1524 -0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 runs 23.5 mm across the front view, crossing 20 of its lines where a leader leaving the other way would cross 16.",
+   "message": "The leader of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 runs 23.5 mm across the front view, crossing 20 of its lines where a leader leaving the other way would cross 16.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter",
@@ -8703,7 +8379,7 @@
    "group": "leader_to_hidden_edge",
    "id": "p:leader_to_hidden_edge:d:f:hole_pattern:2/bore.diameter",
    "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762 -0.0254\n\u21a7 7.62 ends on an edge the front view shows hidden, so it points at dashed line-work.",
+   "message": "The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 ends on an edge the front view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:2/bore.diameter",
@@ -8715,7 +8391,7 @@
    "group": "leader_to_hidden_edge",
    "id": "p:leader_to_hidden_edge:d:f:hole_pattern:3/bore.diameter",
    "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762 0 \u21a7 7.62 ends on an edge the front view shows hidden, so it points at dashed line-work.",
+   "message": "The leader of 4\u00d7 \u23006.35 +0.0762/0 \u21a7 7.62 ends on an edge the front view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:3/bore.diameter",
@@ -8739,7 +8415,7 @@
   {
    "annotation": "pmi:datum.datum:f145,146:t=B",
    "at": [
-    441.99545474455965,
+    442.44545474455964,
     64.00001
    ],
    "code": "datum_leader_remote",
@@ -8748,7 +8424,7 @@
    "group": "datum_leader_remote",
    "id": "l:datum_leader_remote:pmi:datum.datum:f145,146:t=B",
    "impact": "readability",
-   "message": "datum leader pmi:datum.datum:f145,146:t=B is 145.3 mm from its surface",
+   "message": "datum leader pmi:datum.datum:f145,146:t=B is 138.3 mm from its surface",
    "scope": "sheet",
    "severity": "warning",
    "subjects": []
@@ -8756,8 +8432,8 @@
   {
    "annotation": "pmi:datum.datum:f17,159,195,222:t=D",
    "at": [
-    447.2339547434801,
-    205.12069004955268
+    447.6839547434801,
+    198.12069004955268
    ],
    "code": "datum_leader_remote",
    "fix": "set the datum symbol closer to its surface",
@@ -8780,25 +8456,26 @@
    "datum_leader_remote": 2,
    "datum_origin_unusable": 2,
    "extension_off_centreline": 3,
-   "extension_through_feature": 28,
+   "extension_through_feature": 24,
    "feature_not_located:hole": 8,
    "feature_not_located:polygonal_boss": 16,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "label_crowded": 9,
+   "label_crowded": 10,
    "leader_across_view": 1,
    "leader_through_feature": 5,
    "leader_to_hidden_edge": 3,
-   "nominal_rounded": 45,
-   "pmi_dimensions_not_ported": 1,
-   "pmi_not_extracted": 68,
+   "nominal_rounded": 46,
+   "pmi_not_extracted": 57,
    "pmi_not_extracted:dimension": 1,
    "pmi_not_extracted:finding": 4,
    "pmi_not_extracted:geometric_tolerance": 17,
-   "pmi_not_lowered:dimension": 16,
-   "pmi_not_lowered:geometric_tolerance": 36,
+   "pmi_not_extracted:graphical_callout": 11,
+   "pmi_not_lowered:dimension": 7,
+   "pmi_not_lowered:dimension+graphical_callout": 8,
+   "pmi_not_lowered:geometric_tolerance": 18,
+   "pmi_not_lowered:geometric_tolerance+graphical_callout": 18,
    "pmi_not_rendered:dimension": 1,
-   "pmi_presentation_not_read": 1,
    "radius_leader_target_unverifiable": 1,
    "shape_not_recognised:cut": 1,
    "sheet_preference_exceeded": 1,
@@ -8807,16 +8484,16 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 158,
-    "groups": 12
+    "findings": 154,
+    "groups": 11
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 110,
-    "groups": 11
+    "findings": 109,
+    "groups": 13
    },
    "readability": {
     "findings": 28,
