@@ -41,7 +41,7 @@
       "place": {
         "along": "middle",
         "lane": 0,
-        "side": "below",
+        "side": "above",
         "view": "plan"
       }
     },
@@ -69,8 +69,5 @@
         "view": "plan"
       }
     }
-  },
-  "sheets": {
-    "max": 1
   }
 }

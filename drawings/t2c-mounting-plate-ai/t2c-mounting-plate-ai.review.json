@@ -134,7 +134,7 @@
      "value": {
       "along": "middle",
       "lane": 0,
-      "side": "above",
+      "side": "below",
       "view": "plan"
      }
     },
@@ -161,7 +161,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 8 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 82 runs through the label of 8. [annotation_ink_overlap] The second extension line of 8 crosses the \u23005.5 hole. [extension_through_feature].",
+     "description": "Move the 8 dimension below the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 8 crosses the \u23005.5 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -169,7 +169,7 @@
        "value": {
         "along": "middle",
         "lane": 0,
-        "side": "above",
+        "side": "below",
         "view": "plan"
        }
       },
@@ -198,13 +198,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:2:line:1",
+   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:5:line:1",
    "impact": "advisory",
    "message": "The second extension line of 8 crosses the \u23005.5 hole.",
    "severity": "warning",
    "subjects": [
     "d:f:slot:1/slot_width.length",
-    "f:hole:2"
+    "f:hole:5"
    ]
   },
   {

@@ -4,5 +4,39 @@
   "title": {
    "tolerance": "ISO 2768-m"
   }
+ },
+ "dimensions": {
+  "d:f:hole:3/location.length.x": {
+   "place": {
+    "along": "middle",
+    "lane": 0,
+    "side": "above",
+    "view": "front"
+   }
+  },
+  "d:f:hole:4/location.length.x": {
+   "place": {
+    "along": "middle",
+    "lane": 0,
+    "side": "above",
+    "view": "front"
+   }
+  },
+  "d:f:hole:1/location.length.x": {
+   "place": {
+    "along": "middle",
+    "lane": 0,
+    "side": "below",
+    "view": "plan"
+   }
+  },
+  "d:f:hole:2/location.length.x": {
+   "place": {
+    "along": "middle",
+    "lane": 0,
+    "side": "below",
+    "view": "plan"
+   }
+  }
  }
 }

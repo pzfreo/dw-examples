@@ -842,13 +842,13 @@
       "kind": "drawing",
       "name": "t2c-l-bracket-ai",
       "step": "steps/text-to-cad/l-bracket.step",
-      "title": "L-bracket",
+      "title": "L bracket",
       "review": {
         "errors": 0,
-        "warnings": 5,
+        "warnings": 1,
         "infos": 6,
         "impacts": {
-          "advisory": 10,
+          "advisory": 6,
           "decision": 0,
           "incomplete": 0,
           "readability": 1
