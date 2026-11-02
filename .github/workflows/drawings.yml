@@ -6,10 +6,11 @@ on:
       - drawings.toml
       - build.py
       - steps/**
+      - specs/**
       - .github/workflows/drawings.yml
   workflow_dispatch:
 
-# A PR that changes the manifest, build script or STEP files builds the drawings and commits
+# A PR that changes the manifest, build script, Specs or STEP files builds the drawings and commits
 # them to the PR branch, so the PDFs can be reviewed in the PR and are on main the moment it
 # merges. Main does not rebuild on merge; run the workflow by hand on main for a full rebuild.
 # PRs from forks build as a check only: the token cannot push to a fork's branch.

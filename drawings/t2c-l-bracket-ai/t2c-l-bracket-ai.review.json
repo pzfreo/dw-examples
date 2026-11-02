@@ -1,0 +1,151 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   }
+  ],
+  "supported": 4,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "hole_bottom_unknown",
+   "group": "hole_bottom_unknown",
+   "id": "p:hole_bottom_unknown:f:hole:1",
+   "impact": "advisory",
+   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "hole_bottom_unknown",
+   "group": "hole_bottom_unknown",
+   "id": "p:hole_bottom_unknown:f:hole:2",
+   "impact": "advisory",
+   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "hole_bottom_unknown",
+   "group": "hole_bottom_unknown",
+   "id": "p:hole_bottom_unknown:f:hole:3",
+   "impact": "advisory",
+   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "hole_bottom_unknown",
+   "group": "hole_bottom_unknown",
+   "id": "p:hole_bottom_unknown:f:hole:4",
+   "impact": "advisory",
+   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
+   "severity": "info",
+   "subjects": [
+    "f:hole:4"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 17 of 23 faces; 6 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:3",
+    "face:6",
+    "face:14",
+    "face:15",
+    "face:17",
+    "face:18"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole:1/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "impact": "advisory",
+   "message": "The dimension 15 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:1/location.length.y",
+    "v:section_aa"
+   ]
+  },
+  {
+   "code": "leader_to_hidden_edge",
+   "group": "leader_to_hidden_edge",
+   "id": "p:leader_to_hidden_edge:d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "message": "The leader of R2 ends on an edge the side view shows hidden, so it points at dashed line-work.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:fillet:1/fillet.radius",
+    "v:side"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "hole_bottom_unknown": 4,
+   "label_crowded": 1,
+   "leader_to_hidden_edge": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 6,
+    "groups": 3
+   },
+   "decision": {
+    "findings": 0,
+    "groups": 0
+   },
+   "incomplete": {
+    "findings": 0,
+    "groups": 0
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
+   }
+  }
+ }
+}

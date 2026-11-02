@@ -1,0 +1,30 @@
+{
+  "schema": "draftwright.spec/2",
+  "sheet": {
+    "scale": "1:1",
+    "size": "A3",
+    "title": {
+      "tolerance": "ISO 2768-m",
+      "title": "Electronics enclosure base",
+      "number": "T2C-ELECTRONICS-ENCLOSURE-BASE"
+    }
+  },
+  "dimension_schemes": {
+    "holes-x": {
+      "scheme": "baseline",
+      "axis": "x",
+      "from": "min",
+      "targets": [
+        "f:hole_pattern:1"
+      ]
+    },
+    "holes-y": {
+      "scheme": "baseline",
+      "axis": "y",
+      "from": "min",
+      "targets": [
+        "f:hole_pattern:1"
+      ]
+    }
+  }
+}

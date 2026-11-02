@@ -774,6 +774,28 @@
     },
     {
       "kind": "drawing",
+      "name": "t2c-electronics-enclosure-base-ai",
+      "step": "steps/text-to-cad/electronics-enclosure-base.step",
+      "title": "Electronics enclosure base",
+      "review": {
+        "errors": 0,
+        "warnings": 2,
+        "infos": 2,
+        "impacts": {
+          "advisory": 2,
+          "decision": 0,
+          "incomplete": 1,
+          "readability": 1
+        }
+      },
+      "files": [
+        "t2c-electronics-enclosure-base-ai.drawing.json",
+        "t2c-electronics-enclosure-base-ai.pdf",
+        "t2c-electronics-enclosure-base-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "t2c-guide-bar",
       "step": "steps/text-to-cad/guide-bar.step",
       "title": "Guide bar",
@@ -814,6 +836,28 @@
         "t2c-l-bracket.drawing.json",
         "t2c-l-bracket.pdf",
         "t2c-l-bracket.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
+      "name": "t2c-l-bracket-ai",
+      "step": "steps/text-to-cad/l-bracket.step",
+      "title": "L bracket",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 6,
+        "impacts": {
+          "advisory": 6,
+          "decision": 0,
+          "incomplete": 0,
+          "readability": 1
+        }
+      },
+      "files": [
+        "t2c-l-bracket-ai.drawing.json",
+        "t2c-l-bracket-ai.pdf",
+        "t2c-l-bracket-ai.review.json"
       ]
     },
     {
@@ -859,6 +903,28 @@
         "t2c-mounting-plate.drawing.json",
         "t2c-mounting-plate.pdf",
         "t2c-mounting-plate.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
+      "name": "t2c-mounting-plate-ai",
+      "step": "steps/text-to-cad/mounting-plate.step",
+      "title": "Mounting plate",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 2,
+        "impacts": {
+          "advisory": 3,
+          "decision": 0,
+          "incomplete": 0,
+          "readability": 1
+        }
+      },
+      "files": [
+        "t2c-mounting-plate-ai.drawing.json",
+        "t2c-mounting-plate-ai.pdf",
+        "t2c-mounting-plate-ai.review.json"
       ]
     },
     {
