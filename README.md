@@ -6,7 +6,7 @@ for public STEP files. Every drawing here is produced by the stock `draftwright`
 no post-processing. The only authored settings are title blocks, and those
 live in [`drawings.toml`](drawings.toml).
 
-The current set is built by draftwright **v0.2.5**. The drawings are unreviewed output, shown
+The current set is built by draftwright **v0.2.9**. The drawings are unreviewed output, shown
 as draftwright draws them, including its mistakes: features are recognised automatically and
 some are missed or misread. Each drawing's `.review.json` lists the problems draftwright found
 in it; each assembly pack has a `.report.json` with per-part findings and failures.
@@ -124,7 +124,7 @@ also counts as an error. A version bump therefore shows up in one small file as 
 ## How a drawing is defined
 
 ```toml
-draftwright = "v0.2.5"   # the draftwright-rust release tag that builds every drawing
+draftwright = "v0.2.9"   # the draftwright-rust release tag that builds every drawing
 formats = ["pdf"]
 
 [[drawing]]
@@ -163,14 +163,14 @@ folder's README, add an entry, and run the build.
 
 ## Building locally
 
-Use the [draftwright-rust release](https://github.com/pzfreo/draftwright-rust/releases/tag/v0.2.5)
+Use the [draftwright-rust release](https://github.com/pzfreo/draftwright-rust/releases/tag/v0.2.9)
 matching the tag in `drawings.toml`, and verify the archive against its `.sha256` asset.
 Pass the extracted binary with `--cli` if another draftwright is on PATH (the Python
 package is a different CLI). Alternatively, build from the pinned tag; the repository
 pins its Rust toolchain:
 
 ```
-git clone --depth 1 --branch v0.2.5 https://github.com/pzfreo/draftwright-rust
+git clone --depth 1 --branch v0.2.9 https://github.com/pzfreo/draftwright-rust
 (cd draftwright-rust && cargo install --locked --path . --bin draftwright)
 python3 build.py                 # rebuild everything (Python 3.11 or later)
 python3 build.py nist-ctc-03     # rebuild one drawing
