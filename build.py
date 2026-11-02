@@ -38,8 +38,13 @@ def load_manifest(path: Path) -> dict:
 
 
 def spec_for(entry: dict) -> dict:
+    """The entry's Spec: its own file (``spec``) if it names one, else a minimal one; the title
+    block always from the entry."""
     title = {k: entry[k] for k in ("title", "number") if k in entry}
-    return {"schema": SPEC_SCHEMA, "sheet": {"title": title}}
+    spec = json.loads((ROOT / entry["spec"]).read_text()) if "spec" in entry else {"schema": SPEC_SCHEMA}
+    sheet = spec.setdefault("sheet", {})
+    sheet["title"] = {**sheet.get("title", {}), **title}
+    return spec
 
 
 def review_summary(review: dict) -> dict:

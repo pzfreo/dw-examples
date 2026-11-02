@@ -1,0 +1,275 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:3/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   }
+  ],
+  "supported": 5,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "annotation_outside_area",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
+     "value": {
+      "along": "outside",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the dimension above the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
+       "value": {
+        "along": "outside",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_outside_area",
+   "id": "p:annotation_outside_area:d:f:hole_pattern:1/bore.diameter|v:plan",
+   "impact": "advisory",
+   "message": "The dimension 4\u00d7 \u23005.5 THRU runs up to 30.9 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/bore.diameter",
+    "v:plan"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:slot:1~1slot_width.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 8 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 82 runs through the label of 8. [annotation_ink_overlap] The second extension line of 8 crosses the \u23005.5 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:1~1slot_width.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 8 crosses the \u23005.5 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:1/slot_width.length",
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features claim 33 of 43 faces; 10 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:0",
+    "face:7",
+    "face:8",
+    "face:10",
+    "face:12",
+    "face:26",
+    "face:27",
+    "face:34",
+    "face:35",
+    "face:38"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "d:f:hole:3/bore.diameter",
+   "code": "leader_centerline_overlap",
+   "fix": "move the annotation clear of the fixed ink",
+   "fix_description": "Move the annotation clear of the fixed ink.",
+   "group": "leader_centerline_overlap",
+   "id": "l:leader_centerline_overlap:d:f:hole:3/bore.diameter+ink:v:plan:f:hole:3",
+   "impact": "readability",
+   "message": "'\u230028 THRU' touches fixed ink 'ink:v:plan:f:hole:3'",
+   "related": [
+    "ink:v:plan:f:hole:3"
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  }
+ ],
+ "summary": {
+  "groups": {
+   "annotation_outside_area": 1,
+   "extension_through_feature": 1,
+   "leader_centerline_overlap": 1,
+   "unclaimed_geometry": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 3,
+    "groups": 3
+   },
+   "decision": {
+    "findings": 0,
+    "groups": 0
+   },
+   "incomplete": {
+    "findings": 0,
+    "groups": 0
+   },
+   "readability": {
+    "findings": 1,
+    "groups": 1
+   }
+  }
+ }
+}

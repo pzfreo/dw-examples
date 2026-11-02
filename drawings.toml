@@ -1,5 +1,6 @@
-# Every drawing or assembly pack is one entry here: a STEP file plus its title block.
-# `build.py` writes a minimal Spec and runs the stock `draftwright render`/`review`
+# Every drawing or assembly pack is one entry here: a STEP file plus its title block, and
+# optionally `spec`, a Spec file under specs/ (else a minimal one: the title block alone).
+# `build.py` writes the Spec and runs the stock `draftwright render`/`review`
 # for drawings, or `draftwright pack` for packs (with the GA title block set).
 # Names must be unique across both entry types.
 #
@@ -290,3 +291,27 @@ name = "gramil-pack"
 step = "steps/gramil/gramil-assembly.step"
 title = "Gramil"
 number = "GRM-00"
+
+# The same text-to-cad parts drawn the intended way: an AI set the Spec from Draftwright's own
+# analysis and review (see specs/README.md), where the entries above use the title block alone.
+
+[[drawing]]
+name = "t2c-mounting-plate-ai"
+step = "steps/text-to-cad/mounting-plate.step"
+spec = "specs/t2c-mounting-plate-ai.spec.json"
+title = "Mounting plate"
+number = "T2C-MOUNTING-PLATE"
+
+[[drawing]]
+name = "t2c-electronics-enclosure-base-ai"
+step = "steps/text-to-cad/electronics-enclosure-base.step"
+spec = "specs/t2c-electronics-enclosure-base-ai.spec.json"
+title = "Electronics enclosure base"
+number = "T2C-ELECTRONICS-ENCLOSURE-BASE"
+
+[[drawing]]
+name = "t2c-l-bracket-ai"
+step = "steps/text-to-cad/l-bracket.step"
+spec = "specs/t2c-l-bracket-ai.spec.json"
+title = "L bracket"
+number = "T2C-L-BRACKET"
