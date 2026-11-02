@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.2.5",
+  "draftwright": "v0.2.9",
   "drawings": [
     {
       "kind": "drawing",
@@ -53,9 +53,9 @@
       "review": {
         "errors": 0,
         "warnings": 7,
-        "infos": 2,
+        "infos": 1,
         "impacts": {
-          "advisory": 2,
+          "advisory": 1,
           "decision": 1,
           "incomplete": 6,
           "readability": 0
@@ -74,13 +74,13 @@
       "title": "Gantry plate 20 mm V-slot",
       "review": {
         "errors": 0,
-        "warnings": 35,
-        "infos": 6,
+        "warnings": 13,
+        "infos": 1,
         "impacts": {
-          "advisory": 36,
+          "advisory": 11,
           "decision": 1,
           "incomplete": 2,
-          "readability": 3
+          "readability": 0
         }
       },
       "files": [
@@ -251,10 +251,10 @@
       "title": "NEMA 17 bracket",
       "review": {
         "errors": 0,
-        "warnings": 10,
-        "infos": 3,
+        "warnings": 4,
+        "infos": 1,
         "impacts": {
-          "advisory": 11,
+          "advisory": 3,
           "decision": 1,
           "incomplete": 1,
           "readability": 0
@@ -273,10 +273,10 @@
       "title": "NEMA 17 mount bracket",
       "review": {
         "errors": 0,
-        "warnings": 11,
-        "infos": 4,
+        "warnings": 9,
+        "infos": 1,
         "impacts": {
-          "advisory": 8,
+          "advisory": 3,
           "decision": 1,
           "incomplete": 0,
           "readability": 6
@@ -296,9 +296,9 @@
       "review": {
         "errors": 12,
         "warnings": 22,
-        "infos": 13,
+        "infos": 12,
         "impacts": {
-          "advisory": 25,
+          "advisory": 24,
           "decision": 1,
           "incomplete": 17,
           "readability": 4
@@ -318,9 +318,9 @@
       "review": {
         "errors": 106,
         "warnings": 181,
-        "infos": 140,
+        "infos": 139,
         "impacts": {
-          "advisory": 160,
+          "advisory": 159,
           "decision": 1,
           "incomplete": 244,
           "readability": 23
@@ -340,9 +340,9 @@
       "review": {
         "errors": 66,
         "warnings": 48,
-        "infos": 53,
+        "infos": 52,
         "impacts": {
-          "advisory": 64,
+          "advisory": 63,
           "decision": 1,
           "incomplete": 90,
           "readability": 14
@@ -361,13 +361,13 @@
       "title": "NIST CTC-04",
       "review": {
         "errors": 35,
-        "warnings": 226,
-        "infos": 93,
+        "warnings": 258,
+        "infos": 102,
         "impacts": {
-          "advisory": 170,
+          "advisory": 237,
           "decision": 1,
-          "incomplete": 145,
-          "readability": 45
+          "incomplete": 87,
+          "readability": 87
         }
       },
       "files": [
@@ -383,12 +383,12 @@
       "title": "NIST CTC-05",
       "review": {
         "errors": 37,
-        "warnings": 29,
-        "infos": 80,
+        "warnings": 31,
+        "infos": 79,
         "impacts": {
-          "advisory": 81,
+          "advisory": 80,
           "decision": 1,
-          "incomplete": 50,
+          "incomplete": 52,
           "readability": 15
         }
       },
@@ -406,9 +406,9 @@
       "review": {
         "errors": 162,
         "warnings": 57,
-        "infos": 240,
+        "infos": 239,
         "impacts": {
-          "advisory": 246,
+          "advisory": 245,
           "decision": 1,
           "incomplete": 191,
           "readability": 24
@@ -426,13 +426,13 @@
       "step": "steps/nist/nist_ftc_07_asme1_ap242-e2.stp",
       "title": "NIST FTC-07",
       "review": {
-        "errors": 79,
-        "warnings": 95,
+        "errors": 78,
+        "warnings": 91,
         "infos": 121,
         "impacts": {
-          "advisory": 158,
+          "advisory": 154,
           "decision": 1,
-          "incomplete": 110,
+          "incomplete": 109,
           "readability": 28
         }
       },
@@ -449,13 +449,13 @@
       "title": "NIST FTC-08",
       "review": {
         "errors": 85,
-        "warnings": 100,
-        "infos": 128,
+        "warnings": 98,
+        "infos": 127,
         "impacts": {
-          "advisory": 145,
+          "advisory": 143,
           "decision": 1,
           "incomplete": 101,
-          "readability": 74
+          "readability": 73
         }
       },
       "files": [
@@ -470,14 +470,14 @@
       "step": "steps/nist/nist_ftc_10_asme1_ap242-e2.stp",
       "title": "NIST FTC-10",
       "review": {
-        "errors": 93,
-        "warnings": 202,
-        "infos": 70,
+        "errors": 89,
+        "warnings": 189,
+        "infos": 71,
         "impacts": {
-          "advisory": 171,
+          "advisory": 163,
           "decision": 1,
-          "incomplete": 111,
-          "readability": 84
+          "incomplete": 107,
+          "readability": 78
         }
       },
       "files": [
@@ -494,9 +494,9 @@
       "review": {
         "errors": 15,
         "warnings": 21,
-        "infos": 22,
+        "infos": 21,
         "impacts": {
-          "advisory": 23,
+          "advisory": 22,
           "decision": 1,
           "incomplete": 26,
           "readability": 9
@@ -515,8 +515,8 @@
       "title": "NIST STC-06",
       "review": {
         "errors": 56,
-        "warnings": 67,
-        "infos": 908,
+        "warnings": 68,
+        "infos": 907,
         "impacts": {
           "advisory": 943,
           "decision": 1,
@@ -536,13 +536,13 @@
       "step": "steps/nist/nist_stc_07_asme1_ap242-e3.stp",
       "title": "NIST STC-07",
       "review": {
-        "errors": 145,
-        "warnings": 65,
-        "infos": 92,
+        "errors": 144,
+        "warnings": 68,
+        "infos": 91,
         "impacts": {
           "advisory": 101,
           "decision": 1,
-          "incomplete": 180,
+          "incomplete": 181,
           "readability": 22
         }
       },
@@ -560,9 +560,9 @@
       "review": {
         "errors": 100,
         "warnings": 45,
-        "infos": 137,
+        "infos": 136,
         "impacts": {
-          "advisory": 148,
+          "advisory": 147,
           "decision": 1,
           "incomplete": 123,
           "readability": 11
@@ -581,13 +581,13 @@
       "title": "NIST STC-09",
       "review": {
         "errors": 36,
-        "warnings": 397,
+        "warnings": 342,
         "infos": 101,
         "impacts": {
-          "advisory": 215,
+          "advisory": 212,
           "decision": 1,
-          "incomplete": 52,
-          "readability": 297
+          "incomplete": 54,
+          "readability": 231
         }
       },
       "files": [
@@ -602,14 +602,14 @@
       "step": "steps/nist/nist_stc_10_asme1_ap242-e2.stp",
       "title": "NIST STC-10",
       "review": {
-        "errors": 82,
-        "warnings": 184,
+        "errors": 80,
+        "warnings": 173,
         "infos": 68,
         "impacts": {
-          "advisory": 153,
+          "advisory": 148,
           "decision": 1,
-          "incomplete": 101,
-          "readability": 81
+          "incomplete": 98,
+          "readability": 76
         }
       },
       "files": [
@@ -625,13 +625,13 @@
       "title": "DIN 471 M10 retaining ring",
       "review": {
         "errors": 0,
-        "warnings": 6,
-        "infos": 16,
+        "warnings": 4,
+        "infos": 13,
         "impacts": {
-          "advisory": 18,
+          "advisory": 14,
           "decision": 1,
           "incomplete": 1,
-          "readability": 2
+          "readability": 1
         }
       },
       "files": [
@@ -847,12 +847,12 @@
       "review": {
         "errors": 0,
         "warnings": 3,
-        "infos": 3,
+        "infos": 1,
         "impacts": {
-          "advisory": 5,
+          "advisory": 1,
           "decision": 1,
           "incomplete": 0,
-          "readability": 1
+          "readability": 2
         }
       },
       "files": [
@@ -868,10 +868,10 @@
       "title": "Perforated plate",
       "review": {
         "errors": 0,
-        "warnings": 10,
-        "infos": 1,
+        "warnings": 3,
+        "infos": 0,
         "impacts": {
-          "advisory": 10,
+          "advisory": 3,
           "decision": 1,
           "incomplete": 0,
           "readability": 0

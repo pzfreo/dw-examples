@@ -41,7 +41,94 @@
   "unknown": 0,
   "unsupported": 0
  },
- "lint": [],
+ "lint": [
+  {
+   "annotation": "d:f:fillet:2/fillet.radius",
+   "at": [
+    107.76599999999999,
+    61.234
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:2/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:2/fillet.radius",
+    "f:fillet:3/fillet.radius",
+    "f:fillet:5/fillet.radius",
+    "f:fillet:6/fillet.radius",
+    "f:fillet:7/fillet.radius",
+    "f:fillet:8/fillet.radius",
+    "f:fillet:9/fillet.radius",
+    "f:fillet:10/fillet.radius",
+    "f:fillet:12/fillet.radius",
+    "f:fillet:13/fillet.radius",
+    "f:fillet:14/fillet.radius",
+    "f:fillet:15/fillet.radius",
+    "f:fillet:16/fillet.radius",
+    "f:fillet:17/fillet.radius",
+    "f:fillet:18/fillet.radius",
+    "f:fillet:19/fillet.radius",
+    "f:fillet:20/fillet.radius",
+    "f:fillet:21/fillet.radius",
+    "f:fillet:22/fillet.radius",
+    "f:fillet:23/fillet.radius"
+   ],
+   "message": "d:f:fillet:2/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:2",
+    "f:fillet:3",
+    "f:fillet:5",
+    "f:fillet:6",
+    "f:fillet:7",
+    "f:fillet:8",
+    "f:fillet:9",
+    "f:fillet:10",
+    "f:fillet:12",
+    "f:fillet:13",
+    "f:fillet:14",
+    "f:fillet:15",
+    "f:fillet:16",
+    "f:fillet:17",
+    "f:fillet:18",
+    "f:fillet:19",
+    "f:fillet:20",
+    "f:fillet:21",
+    "f:fillet:22",
+    "f:fillet:23"
+   ],
+   "view": "v:front"
+  },
+  {
+   "annotation": "d:f:fillet:1/fillet.radius",
+   "at": [
+    31.464,
+    99.83399
+   ],
+   "code": "radius_leader_not_radial",
+   "evidence": "the shaft is more than 15 degrees off radial",
+   "group": "radius_leader_not_radial",
+   "id": "l:radius_leader_not_radial:d:f:fillet:1/fillet.radius",
+   "impact": "readability",
+   "measurements": [
+    "f:fillet:1/fillet.radius",
+    "f:fillet:4/fillet.radius",
+    "f:fillet:11/fillet.radius",
+    "f:fillet:24/fillet.radius"
+   ],
+   "message": "d:f:fillet:1/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "severity": "warning",
+   "subjects": [
+    "f:fillet:1",
+    "f:fillet:4",
+    "f:fillet:11",
+    "f:fillet:24"
+   ],
+   "view": "v:plan"
+  }
+ ],
  "problems": [
   {
    "code": "general_tolerance_missing",
@@ -70,6 +157,11 @@
      "op": "set",
      "path": "sheets/max",
      "value": 1
+    },
+    {
+     "op": "set",
+     "path": "sheet/dimension_spacing",
+     "value": "compact"
     }
    ],
    "fixes": [
@@ -100,6 +192,11 @@
        "op": "set",
        "path": "sheets/max",
        "value": 1
+      },
+      {
+       "op": "set",
+       "path": "sheet/dimension_spacing",
+       "value": "compact"
       }
      ],
      "scope": "local"
@@ -116,146 +213,6 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:3/location.length.y|f:slot:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 35 crosses the 8 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:3/location.length.y",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 8 dimension below the plan view, nearest the view. Trade-off: adds these findings: A line of 82 runs through the label of 8. [annotation_ink_overlap] The second extension line of 8 crosses the \u23005.5 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:5:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 8 crosses the \u23005.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "f:hole:5"
    ]
   },
   {
@@ -277,66 +234,19 @@
     "face:35",
     "face:38"
    ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:3/location.length.y|d:f:hole_pattern:1/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "Line-work of 35 passes less than 0.5 mm from the label of 48, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:3/location.length.y",
-    "d:f:hole_pattern:1/grid_pitch.length.row"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:slot:1/slot_width.length|d:f:slot:1/slot_end_radius.radius",
-   "impact": "advisory",
-   "message": "Line-work of 8 passes less than 0.5 mm from the label of 2\u00d7 R4, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "d:f:slot:1/slot_end_radius.radius"
-   ]
   }
  ],
- "structural": [
-  {
-   "annotation": "d:f:slot:1/slot_end_radius.radius",
-   "at": [
-    106.8795,
-    177.42099
-   ],
-   "code": "annotation_ink_overlap",
-   "fix": "move what is drawn, not just the text",
-   "fix_description": "Move what is drawn, not just the text.",
-   "group": "annotation_ink_overlap",
-   "id": "l:annotation_ink_overlap:d:f:slot:1/slot_end_radius.radius+d:f:slot:1/slot_width.length",
-   "impact": "readability",
-   "message": "'8' draws 2.1 mm of line-work through the label '2\u00d7 R4' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
-   "related": [
-    "d:f:slot:1/slot_width.length"
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
-  }
- ],
+ "structural": [],
  "summary": {
   "groups": {
-   "annotation_ink_overlap": 1,
-   "extension_through_feature": 2,
    "general_tolerance_missing": 1,
-   "label_crowded": 2,
+   "radius_leader_not_radial": 2,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 5,
-    "groups": 3
+    "findings": 1,
+    "groups": 1
    },
    "decision": {
     "findings": 1,
@@ -347,7 +257,7 @@
     "groups": 0
    },
    "readability": {
-    "findings": 1,
+    "findings": 2,
     "groups": 1
    }
   }

@@ -59,12 +59,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A4"
+     "value": "A3"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "2:1"
     },
     {
      "op": "set",
@@ -89,12 +89,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A4"
+       "value": "A3"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "2:1"
       },
       {
        "op": "set",
@@ -134,594 +134,6 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:1:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 31 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:2:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 31 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:slot:2"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:3:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 31 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:slot:3"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:4:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 31 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:slot:4"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:5:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 31 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:slot:5"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 31 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 31 runs through the label of \u230032 THRU. [annotation_ink_overlap] The first extension line of 31 crosses the \u230032 hole. [extension_through_feature] The second extension line of 31 crosses the \u230032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/grid_pitch.length.col|f:slot:6:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 31 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "f:slot:6"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
      "path": "dimensions/d:f:slot:2~1location_slot_across.length/place",
      "value": {
       "along": "middle",
@@ -738,12 +150,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A4"
+     "value": "A3"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "2:1"
     },
     {
      "op": "set",
@@ -773,12 +185,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A4"
+       "value": "A3"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "2:1"
       },
       {
        "op": "set",
@@ -789,7 +201,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -799,7 +211,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:1"
       }
      ],
      "scope": "sheet"
@@ -836,12 +248,12 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A4"
+     "value": "A3"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "2:1"
     },
     {
      "op": "set",
@@ -871,12 +283,12 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A4"
+       "value": "A3"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "2:1"
       },
       {
        "op": "set",
@@ -887,7 +299,7 @@
      "scope": "local"
     },
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -897,7 +309,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:1"
       }
      ],
      "scope": "sheet"
@@ -934,45 +346,20 @@
     "face:38",
     "face:40"
    ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:4/location.length.y|d:f:hole_pattern:1/grid_pitch.length.col",
-   "impact": "advisory",
-   "message": "Line-work of 20.5 passes less than 0.5 mm from the label of 31, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:4/location.length.y",
-    "d:f:hole_pattern:1/grid_pitch.length.col"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:4/location.length.z|d:f:hole_pattern:1/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "Line-work of 30 passes less than 0.5 mm from the label of 31, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:4/location.length.z",
-    "d:f:hole_pattern:1/grid_pitch.length.row"
-   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
    "dimensions_not_ported:through_step": 1,
-   "extension_through_feature": 8,
+   "extension_through_feature": 2,
    "general_tolerance_missing": 1,
-   "label_crowded": 2,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 11,
-    "groups": 3
+    "findings": 3,
+    "groups": 2
    },
    "decision": {
     "findings": 1,

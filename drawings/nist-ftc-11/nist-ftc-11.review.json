@@ -130,11 +130,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#110 was discovered but not extracted: the dimension modifier Reference is not carried",
+   "evidence": "AP242 dimension dimension:#110 was discovered but not extracted: the dimension modifier Reference is not carried\ngraphical_callout:#358; Graphical callout #358 (\"Arc Length Dimension (14)\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#110",
    "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #358 (\"Arc Length Dimension (14)\").",
    "severity": "error",
    "sources": [
     "dimension:#110"
@@ -143,11 +143,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:0 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+   "evidence": "AP242 other attribute_set:0:0 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name\ngraphical_callout:#360; Graphical callout #360 (\"Radial Dimension (11)\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:0",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #360 (\"Radial Dimension (11)\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:0"
@@ -156,11 +156,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:1 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+   "evidence": "AP242 other attribute_set:0:1 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items\ngraphical_callout:#363; Graphical callout #363 (\"Radial Dimension (21)\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:1",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #363 (\"Radial Dimension (21)\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:1"
@@ -169,11 +169,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:2 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+   "evidence": "AP242 other attribute_set:0:2 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name\ngraphical_callout:#354; Graphical callout #354 (\"Linear Dimension (5)\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:2",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #354 (\"Linear Dimension (5)\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:2"
@@ -182,11 +182,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:3 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+   "evidence": "AP242 other attribute_set:0:3 was discovered but not extracted: not a common label draftwright reads (no named presentation of it): common label has no presentation name\ngraphical_callout:#359; Graphical callout #359 (\"Linear Dimension (6)\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:3",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #359 (\"Linear Dimension (6)\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:3"
@@ -195,11 +195,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:4 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "evidence": "AP242 other attribute_set:0:4 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)\ngraphical_callout:#353; Graphical callout #353 (\"Cutting Plane Symbol B (1)\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:4",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #353 (\"Cutting Plane Symbol B (1)\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:4"
@@ -208,11 +208,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:5 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+   "evidence": "AP242 other attribute_set:0:5 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)\ngraphical_callout:#355; Graphical callout #355 (\"Note (22)\").",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:5",
    "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #355 (\"Note (22)\").",
    "severity": "info",
    "sources": [
     "attribute_set:0:5"
@@ -234,11 +234,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#281 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
+   "evidence": "AP242 other finding:#281 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read\ngraphical_callout:#353; Graphical callout #353 (\"Cutting Plane Symbol B (1)\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#281",
    "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #353 (\"Cutting Plane Symbol B (1)\").",
    "severity": "info",
    "sources": [
     "finding:#281"
@@ -247,11 +247,11 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#283 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
+   "evidence": "AP242 other finding:#283 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read\ngraphical_callout:#355; Graphical callout #355 (\"Note (22)\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#283",
    "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #355 (\"Note (22)\").",
    "severity": "info",
    "sources": [
     "finding:#283"
@@ -260,11 +260,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the dimension modifier Reference is not carried",
+   "evidence": "the dimension modifier Reference is not carried\ngraphical_callout:#358; Graphical callout #358 (\"Arc Length Dimension (14)\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#110",
    "impact": "incomplete",
-   "message": "The STEP curve length annotation could not be drawn: the dimension modifier Reference is not carried. Review its requirement and attachment.",
+   "message": "The STEP curve length annotation could not be drawn: the dimension modifier Reference is not carried. Review its requirement and attachment. Graphical callout #358 (\"Arc Length Dimension (14)\").",
    "severity": "error",
    "sources": [
     "dimension:#110"
@@ -273,11 +273,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "one radius reference face is not cylindrical",
+   "evidence": "one radius reference face is not cylindrical\ngraphical_callout:#360; Graphical callout #360 (\"Radial Dimension (11)\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#112",
    "impact": "incomplete",
-   "message": "The STEP radius annotation could not be drawn: one radius reference face is not cylindrical. Review its requirement and attachment.",
+   "message": "The STEP radius annotation could not be drawn: one radius reference face is not cylindrical. Review its requirement and attachment. Graphical callout #360 (\"Radial Dimension (11)\").",
    "severity": "error",
    "sources": [
     "dimension:#112"
@@ -286,11 +286,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "one radius reference face is not cylindrical",
+   "evidence": "one radius reference face is not cylindrical\ngraphical_callout:#363; Graphical callout #363 (\"Radial Dimension (21)\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#113",
    "impact": "incomplete",
-   "message": "The STEP radius annotation could not be drawn: one radius reference face is not cylindrical. Review its requirement and attachment.",
+   "message": "The STEP radius annotation could not be drawn: one radius reference face is not cylindrical. Review its requirement and attachment. Graphical callout #363 (\"Radial Dimension (21)\").",
    "severity": "error",
    "sources": [
     "dimension:#113"
@@ -299,11 +299,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#52 (flatness 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "evidence": "PMI geometric_tolerance:#52 (flatness 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.\ngraphical_callout:#364; Graphical callout #364 (\"Feature Control Frame (16)\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#52",
    "impact": "incomplete",
-   "message": "The STEP flatness annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment.",
+   "message": "The STEP flatness annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment. Graphical callout #364 (\"Feature Control Frame (16)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#52"
@@ -312,11 +312,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#53 (profile_surface 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "evidence": "PMI geometric_tolerance:#53 (profile_surface 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.\ngraphical_callout:#362; Graphical callout #362 (\"Feature Control Frame (18)\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#53",
    "impact": "incomplete",
-   "message": "The STEP profile surface annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment.",
+   "message": "The STEP profile surface annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment. Graphical callout #362 (\"Feature Control Frame (18)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#53"
@@ -325,11 +325,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#72 (circular_runout 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "evidence": "PMI geometric_tolerance:#72 (circular_runout 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.\ngraphical_callout:#357; Graphical callout #357 (\"Feature Control Frame (15)\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#72",
    "impact": "incomplete",
-   "message": "The STEP circular runout annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment.",
+   "message": "The STEP circular runout annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment. Graphical callout #357 (\"Feature Control Frame (15)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#72"
@@ -338,11 +338,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#78 (circularity 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "evidence": "PMI geometric_tolerance:#78 (circularity 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.\ngraphical_callout:#356; Graphical callout #356 (\"Feature Control Frame (7)\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#78",
    "impact": "incomplete",
-   "message": "The STEP circularity annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment.",
+   "message": "The STEP circularity annotation could not be drawn: geometric-tolerance modifier 'free_state' is not supported. Review its requirement and attachment. Graphical callout #356 (\"Feature Control Frame (7)\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#78"
@@ -482,39 +482,45 @@
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#110",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#110 (197.920) is not drawn: the dimension modifier Reference is not carried.",
+   "message": "PMI dimension dimension:#110 (197.920) is not drawn: the dimension modifier Reference is not carried. Graphical callout #358 (\"Arc Length Dimension (14)\").",
    "refs": [
     "dimension:#110",
-    "the dimension modifier Reference is not carried"
+    "the dimension modifier Reference is not carried",
+    "graphical_callout:#358",
+    "graphical_text:\"Arc Length Dimension (14)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#112",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#112 (R1.5 \u00b10.04) is not drawn: one radius reference face is not cylindrical.",
+   "message": "PMI dimension dimension:#112 (R1.5 \u00b10.04) is not drawn: one radius reference face is not cylindrical. Graphical callout #360 (\"Radial Dimension (11)\").",
    "refs": [
     "dimension:#112",
-    "one radius reference face is not cylindrical"
+    "one radius reference face is not cylindrical",
+    "graphical_callout:#360",
+    "graphical_text:\"Radial Dimension (11)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension",
+   "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#113",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#113 (R0.1 MAX) is not drawn: one radius reference face is not cylindrical.",
+   "message": "PMI dimension dimension:#113 (R0.1 MAX) is not drawn: one radius reference face is not cylindrical. Graphical callout #363 (\"Radial Dimension (21)\").",
    "refs": [
     "dimension:#113",
-    "one radius reference face is not cylindrical"
+    "one radius reference face is not cylindrical",
+    "graphical_callout:#363",
+    "graphical_text:\"Radial Dimension (21)\""
    ],
    "severity": "error",
    "subjects": []
@@ -532,84 +538,96 @@
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:0",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #360 (\"Radial Dimension (11)\").",
    "refs": [
     "attribute_set:0:0",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): common label has no presentation name"
+    "not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+    "graphical_callout:#360",
+    "graphical_text:\"Radial Dimension (11)\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:1",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #363 (\"Radial Dimension (21)\").",
    "refs": [
     "attribute_set:0:1",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items"
+    "not a common label draftwright reads (no named presentation of it): linked representation has 2 descriptive items",
+    "graphical_callout:#363",
+    "graphical_text:\"Radial Dimension (21)\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:2",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #354 (\"Linear Dimension (5)\").",
    "refs": [
     "attribute_set:0:2",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): common label has no presentation name"
+    "not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+    "graphical_callout:#354",
+    "graphical_text:\"Linear Dimension (5)\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:3",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #359 (\"Linear Dimension (6)\").",
    "refs": [
     "attribute_set:0:3",
     "property_definition",
-    "not a common label draftwright reads (no named presentation of it): common label has no presentation name"
+    "not a common label draftwright reads (no named presentation of it): common label has no presentation name",
+    "graphical_callout:#359",
+    "graphical_text:\"Linear Dimension (6)\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:4",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #353 (\"Cutting Plane Symbol B (1)\").",
    "refs": [
     "attribute_set:0:4",
     "property_definition_representation",
-    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+    "graphical_callout:#353",
+    "graphical_text:\"Cutting Plane Symbol B (1)\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
+   "group": "pmi_not_extracted:graphical_callout",
    "id": "p:pmi_not_extracted:attribute_set:0:5",
    "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #355 (\"Note (22)\").",
    "refs": [
     "attribute_set:0:5",
     "property_definition_representation",
-    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
+    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
+    "graphical_callout:#355",
+    "graphical_text:\"Note (22)\""
    ],
    "severity": "info",
    "subjects": []
@@ -630,92 +648,92 @@
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
+   "group": "pmi_not_extracted:finding+graphical_callout",
    "id": "p:pmi_not_extracted:finding:#281",
    "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #353 (\"Cutting Plane Symbol B (1)\").",
    "refs": [
     "finding:#281",
     "shape_aspect",
-    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
+    "haecceity nonconformance: shape aspect identifies no face or edge; not read",
+    "graphical_callout:#353",
+    "graphical_text:\"Cutting Plane Symbol B (1)\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
+   "group": "pmi_not_extracted:finding+graphical_callout",
    "id": "p:pmi_not_extracted:finding:#283",
    "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
+   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually. Graphical callout #355 (\"Note (22)\").",
    "refs": [
     "finding:#283",
     "shape_aspect",
-    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
-   "code": "pmi_presentation_not_read",
-   "group": "pmi_presentation_not_read",
-   "id": "p:pmi_presentation_not_read:part",
-   "impact": "advisory",
-   "message": "The STEP file carries 46 instance(s) of PMI presentation (graphic annotation); presentation is counted, not read or drawn: only semantic PMI is.",
-   "refs": [
-    "part"
+    "haecceity nonconformance: shape aspect identifies no face or edge; not read",
+    "graphical_callout:#355",
+    "graphical_text:\"Note (22)\""
    ],
    "severity": "info",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#52",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#52 (flatness 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "message": "PMI geometric_tolerance:#52 (flatness 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported. Graphical callout #364 (\"Feature Control Frame (16)\").",
    "refs": [
     "geometric_tolerance:#52",
-    "geometric-tolerance modifier 'free_state' is not supported"
+    "geometric-tolerance modifier 'free_state' is not supported",
+    "graphical_callout:#364",
+    "graphical_text:\"Feature Control Frame (16)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#53",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#53 (profile_surface 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "message": "PMI geometric_tolerance:#53 (profile_surface 0.3) is not drawn: geometric-tolerance modifier 'free_state' is not supported. Graphical callout #362 (\"Feature Control Frame (18)\").",
    "refs": [
     "geometric_tolerance:#53",
-    "geometric-tolerance modifier 'free_state' is not supported"
+    "geometric-tolerance modifier 'free_state' is not supported",
+    "graphical_callout:#362",
+    "graphical_text:\"Feature Control Frame (18)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#72",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#72 (circular_runout 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "message": "PMI geometric_tolerance:#72 (circular_runout 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported. Graphical callout #357 (\"Feature Control Frame (15)\").",
    "refs": [
     "geometric_tolerance:#72",
-    "geometric-tolerance modifier 'free_state' is not supported"
+    "geometric-tolerance modifier 'free_state' is not supported",
+    "graphical_callout:#357",
+    "graphical_text:\"Feature Control Frame (15)\""
    ],
    "severity": "error",
    "subjects": []
   },
   {
    "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:geometric_tolerance",
+   "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#78",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#78 (circularity 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported.",
+   "message": "PMI geometric_tolerance:#78 (circularity 1.2) is not drawn: geometric-tolerance modifier 'free_state' is not supported. Graphical callout #356 (\"Feature Control Frame (7)\").",
    "refs": [
     "geometric_tolerance:#78",
-    "geometric-tolerance modifier 'free_state' is not supported"
+    "geometric-tolerance modifier 'free_state' is not supported",
+    "graphical_callout:#356",
+    "graphical_text:\"Feature Control Frame (7)\""
    ],
    "severity": "error",
    "subjects": []
@@ -1208,12 +1226,15 @@
    "general_tolerance_missing": 1,
    "leader_across_view": 1,
    "nominal_rounded": 1,
-   "pmi_not_extracted": 12,
+   "pmi_not_extracted": 6,
    "pmi_not_extracted:dimension": 1,
-   "pmi_not_extracted:finding": 6,
-   "pmi_not_lowered:dimension": 6,
-   "pmi_not_lowered:geometric_tolerance": 8,
-   "pmi_presentation_not_read": 1,
+   "pmi_not_extracted:finding": 4,
+   "pmi_not_extracted:finding+graphical_callout": 2,
+   "pmi_not_extracted:graphical_callout": 6,
+   "pmi_not_lowered:dimension": 3,
+   "pmi_not_lowered:dimension+graphical_callout": 3,
+   "pmi_not_lowered:geometric_tolerance": 4,
+   "pmi_not_lowered:geometric_tolerance+graphical_callout": 4,
    "radius_leader_not_radial": 2,
    "section_recess_recognition_refused": 7,
    "shape_not_recognised:cut": 2,
@@ -1222,8 +1243,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 23,
-    "groups": 7
+    "findings": 22,
+    "groups": 8
    },
    "decision": {
     "findings": 1,
@@ -1231,7 +1252,7 @@
    },
    "incomplete": {
     "findings": 26,
-    "groups": 7
+    "groups": 9
    },
    "readability": {
     "findings": 9,
