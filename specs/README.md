@@ -27,6 +27,8 @@ those of v0.2.9; a Draftwright bump may need them set again.
 | L bracket | general tolerance; four extension lines through the ⌀6 holes | | the ⌀6 holes called 8 deep in an 8 mm plate: the review flags `hole_bottom_unknown`, but no Spec field sets a hole's depth or "through" (queued in Draftwright) |
 | Angle bracket | see below | | see below |
 | Stepped shaft with keyway | see below | | see below |
+| Circular flange | see below | | see below |
+| Guide bar | see below | | see below |
 
 The spring in the shock-absorber pack (simplified coil with a data table) needs Draftwright
 work and has no `-ai` version yet.
@@ -137,3 +139,72 @@ Each was reproduced against the release binary with this Spec.
    note with `note_satisfies` was the route that worked.
 5. **Smaller** ([draftwright-rust#303](https://github.com/pzfreo/draftwright-rust/issues/303)): no keyway fit classes (N9 is refused); the plan view is dropped under
    authored dimensions until `views/plan` is set.
+
+## Circular flange: little left to improve
+
+| STEP | Baseline | AI best effort | Spec |
+|---|---|---|---|
+| [`circular-flange.step`](../steps/text-to-cad/circular-flange.step) | [PDF](../drawings/t2c-circular-flange/t2c-circular-flange.pdf) | [PDF](../drawings/t2c-circular-flange-ai/t2c-circular-flange-ai.pdf) | [`t2c-circular-flange-ai.spec.json`](t2c-circular-flange-ai.spec.json) |
+
+- **Baseline:** every size is already there and matches the [model source](https://github.com/amywork777/text-to-cad-upstream/blob/85d8fdbfb467ebd7e22994fe8bcd86afa6626ed3/models/examples/src/circular_flange.py)
+  (⌀80, 10, ⌀30, 6× ⌀6 on ⌀60, R1.5). The ⌀30's leader runs up the vertical centre line.
+- **AI:** the ⌀30's leader moved off the centre line; material from the source. No dimension changed.
+- **Review:** baseline 1 decision, 2 incomplete, 1 readability; AI 2 incomplete, both issue 1 below.
+- **Choices not from the source:** ISO 2768-m is assumed. Nobody has judged this drawing fit to
+  manufacture from.
+
+### Issues found (v0.2.9)
+
+Each was reproduced against the release binary with this Spec. None is filed yet.
+
+1. **Lint disagrees with the plan about a bolt circle.** The plan says the circle is "located by its
+   centre"; lint reports `hole_pattern_requirement_missing` for its x and y. A note with
+   `note_satisfies` clears it, but the note can only attach in the front view (issue 3), where it
+   tells a reader nothing, so this drawing leaves the warnings standing.
+2. **A note on the pattern changes another feature's dimensions.** Any note on `f:hole_pattern:1`,
+   with or without `note_satisfies`, adds 40 and 40 to the ⌀30, measured from tangents to the ⌀80,
+   the plan's "on the axis" reasoning having gone. They can be omitted, but nothing in the review
+   says why they appeared.
+3. **A pattern's note can't go where the pattern is seen.** `annotations/<id>/place/view: plan` is
+   refused ("cannot attach in the plan view"; the only choice is `front`). The plan records the note
+   against the holes' cylindrical faces, which may be the reason; the message doesn't say.
+4. **`⌀` in a note prints as an empty box**, though the engine's own labels print a diameter sign.
+   `ø` prints. The sign also varies within a sheet: "ø 30 THRU" against "ø80".
+5. **No section for plain through holes.** `section_aa` is refused because no hole has a counterbore,
+   spotface or bottom, and `half_section` because a part with a bolt circle isn't "turned whole". Not
+   a loss on this part, whose holes read clearly as hidden lines, but no Spec field can ask for it.
+
+## Guide bar: best effort with authored dimensions
+
+| STEP | Baseline | AI best effort | Spec |
+|---|---|---|---|
+| [`guide-bar.step`](../steps/text-to-cad/guide-bar.step) | [PDF](../drawings/t2c-guide-bar/t2c-guide-bar.pdf) | [PDF](../drawings/t2c-guide-bar-ai/t2c-guide-bar-ai.pdf) | [`t2c-guide-bar-ai.spec.json`](t2c-guide-bar-ai.spec.json) |
+
+- **Baseline:** A4 at 1:5, where the bar is a thin strip; the second hole is located as 580 from the
+  far end; the spigot's length is left to subtract (630 − 600).
+- **AI:** A3 at 1:2; ⌀6 holes 20 from each end of the bar, as the [model source](https://github.com/amywork777/text-to-cad-upstream/blob/85d8fdbfb467ebd7e22994fe8bcd86afa6626ed3/models/examples/src/guide_bar.py)
+  defines them (`CROSS_HOLE_INSET`); 600 and 30, the source's lengths; the end view, which added
+  nothing, omitted; material from the source.
+- **Review:** baseline 1 decision, 1 readability; AI 1 incomplete (issue 2). The count again gets
+  no better while the drawing does.
+- **Choices not from the source:** ISO 2768-m is assumed. The source names a chromium-molybdenum
+  alloy steel without a grade. Nobody has judged this drawing fit to manufacture from.
+
+### Issues found (v0.2.9)
+
+Each was reproduced against the release binary with this Spec. None is filed yet.
+
+1. **No broken view.** The source calls this "a long part of constant section, which a drawing
+   breaks". `views/front/break` is refused as an unknown field, and no other field does it. So the 560 mm
+   between the holes sets the scale: 1:2 on A3, where a break would allow a larger scale on a smaller sheet.
+2. **Lint credits a reference but not the real dimension.** The authored 20 from the shoulder leaves
+   `feature_not_located` on the hole; a reference (580) clears it, though a reference states no
+   requirement. The same gap as [draftwright-rust#301](https://github.com/pzfreo/draftwright-rust/issues/301), here for a hole.
+3. **A reference overall length hides the real dimension.** With 630 set to `style: reference`, the
+   30 stays "covered" by it and doesn't print, even with its `view` set; an authored 30 is refused as
+   a duplicate of the hidden one (K6). So (630) and 30 can't both appear, and this drawing omits the
+   overall length.
+4. **`iso_scale_factor` raises a false fit warning.** Setting it to 0.5 gives `page_fit_uncertain`
+   ("may not fit A3 at 1:2; A3 at 1:5 fits") with every view on the sheet at 20% fill, and on A2 as
+   well. Shrinking a view can't make the sheet overflow, and the offered fix returns the bar to 1:5.
+   The factor is left out here, so the isometric stays large.

@@ -774,6 +774,28 @@
     },
     {
       "kind": "drawing",
+      "name": "t2c-circular-flange-ai",
+      "step": "steps/text-to-cad/circular-flange.step",
+      "title": "Circular flange",
+      "review": {
+        "errors": 0,
+        "warnings": 2,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 2,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-circular-flange-ai.drawing.json",
+        "t2c-circular-flange-ai.pdf",
+        "t2c-circular-flange-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "t2c-electronics-enclosure-base",
       "step": "steps/text-to-cad/electronics-enclosure-base.step",
       "title": "Electronics enclosure base",
@@ -836,6 +858,28 @@
         "t2c-guide-bar.drawing.json",
         "t2c-guide-bar.pdf",
         "t2c-guide-bar.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
+      "name": "t2c-guide-bar-ai",
+      "step": "steps/text-to-cad/guide-bar.step",
+      "title": "Guide bar",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 1,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-guide-bar-ai.drawing.json",
+        "t2c-guide-bar-ai.pdf",
+        "t2c-guide-bar-ai.review.json"
       ]
     },
     {

@@ -329,3 +329,17 @@ step = "steps/text-to-cad/stepped-shaft-keyway.step"
 spec = "specs/t2c-stepped-shaft-keyway-ai.spec.json"
 title = "Stepped shaft with keyway"
 number = "T2C-STEPPED-SHAFT-KEYWAY"
+
+[[drawing]]
+name = "t2c-circular-flange-ai"
+step = "steps/text-to-cad/circular-flange.step"
+spec = "specs/t2c-circular-flange-ai.spec.json"
+title = "Circular flange"
+number = "T2C-CIRCULAR-FLANGE"
+
+[[drawing]]
+name = "t2c-guide-bar-ai"
+step = "steps/text-to-cad/guide-bar.step"
+spec = "specs/t2c-guide-bar-ai.spec.json"
+title = "Guide bar"
+number = "T2C-GUIDE-BAR"
