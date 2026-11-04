@@ -30,6 +30,7 @@ those of v0.2.9; a Draftwright bump may need them set again.
 | Circular flange | see below | | see below |
 | Guide bar | see below | | see below |
 | Perforated plate | see below | | see below |
+| Pivot mount plate | see below | | see below |
 
 The spring in the shock-absorber pack (simplified coil with a data table) needs Draftwright
 work and has no `-ai` version yet.
@@ -236,8 +237,8 @@ Each was reproduced against the release binary with this Spec.
 
 1. **A hole table can leave a slot unlocated, and lint stays quiet.** ([draftwright-rust#319](https://github.com/pzfreo/draftwright-rust/issues/319)) With `hole_table: always`, the
    slot's `location_slot_across` stays "covered" by the ⌀10's y, which is now only a table row for a
-   different feature. Nothing on the drawing locates the slot across the plate, and the review reports
-   no finding. Setting that dimension or its `view` doesn't bring it back.
+   different feature. Nothing on the drawing locates the slot across the plate, and no finding in the
+   review mentions it. Setting that dimension or its `view` doesn't bring it back.
 2. **K6 again** ([draftwright-rust#294](https://github.com/pzfreo/draftwright-rust/issues/294)). An
    authored 50 from the near edge to the slot is refused as a duplicate of the ⌀10's y. Workaround:
    measure from the far edge, a true but arbitrary choice.
@@ -252,3 +253,37 @@ Each was reproduced against the release binary with this Spec.
    C6, C7, C8, so a reader hunts for a row. No Spec field orders them.
 6. **A confusing reference message.** ([draftwright-rust#323](https://github.com/pzfreo/draftwright-rust/issues/323)) "choose axis:face:<fingerprint>" doesn't say the fingerprint
    keeps its `v1:` but drops `face:`; a copied `face:v1:…` gives "Unknown reference face:face:v1:…".
+
+## Pivot mount plate: best effort with the source's datums
+
+| STEP | Baseline | AI best effort | Spec |
+|---|---|---|---|
+| [`pivot-mount-plate.step`](../steps/text-to-cad/pivot-mount-plate.step) | [PDF](../drawings/t2c-pivot-mount-plate/t2c-pivot-mount-plate.pdf) | [PDF](../drawings/t2c-pivot-mount-plate-ai/t2c-pivot-mount-plate-ai.pdf) | [`t2c-pivot-mount-plate-ai.spec.json`](t2c-pivot-mount-plate-ai.spec.json) |
+
+- **Baseline:** the four ⌀6.6 holes are given only their spacing (76, 46), so their distance from the
+  edges rests on the bore's 50 and 35 and on reading the pattern as centred. The ⌀16's leader runs
+  along its centre line, and the 50 touches the 76's label.
+- **AI:** the holes are 12 from the left and front edges, as the [model source](https://github.com/amywork777/text-to-cad-upstream/blob/85d8fdbfb467ebd7e22994fe8bcd86afa6626ed3/models/examples/src/pivot_mount_plate.py)
+  defines them (`BOLT_HOLE_INSET`), with 76 and 46 kept; datums A, B and C on the faces the source
+  names; the ⌀16's leader and the 76's label moved clear; the side view, which added nothing, omitted;
+  the plate's material from the source. Each value matches the source.
+- **Review:** baseline 1 decision, 2 advisory, 1 readability; AI 1 advisory (issue 1). Unlike the
+  bracket and the shaft, nothing in this Spec fights lint.
+- **Choices not from the source:** ISO 2768-m is assumed. The datums are drawn, but no geometric
+  tolerance cites them, because the source gives no values to use. The ⌀16 takes a pressed bushing,
+  and no fit is stated because the source gives none; someone needs to choose one before making it.
+  Nobody has judged this drawing fit to manufacture from.
+
+### Issues found (v0.2.9)
+
+Reproduced against the release binary with this Spec. Not filed yet.
+
+1. **A Spec can't name the part it draws.** The STEP is an assembly and the plate is drawn alone, with
+   `assembly_principal_drawn` and a general note. `--part 0` clears the finding, but `part` isn't a
+   Spec field (it's refused as unknown), so the choice can't be saved with the rest of the drawing's
+   intent, and `build.py` runs without it. Omitting the note with `annotations/n:assembly/omit` leaves
+   the finding.
+2. **A pin elsewhere silently overrides an explicit placement.** With the ⌀16's leader pinned at
+   `[-20, -14]`, the 76's `side: above` and `along: 0.25` are ignored: it prints below the view at the
+   middle, with no finding, and its basis still says "the spec places it". Pinned at `[14, 12]`, the
+   same placement is honoured, which is what this Spec uses.

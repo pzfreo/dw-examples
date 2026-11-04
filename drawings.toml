@@ -350,3 +350,10 @@ step = "steps/text-to-cad/perforated-plate.step"
 spec = "specs/t2c-perforated-plate-ai.spec.json"
 title = "Perforated plate"
 number = "T2C-PERFORATED-PLATE"
+
+[[drawing]]
+name = "t2c-pivot-mount-plate-ai"
+step = "steps/text-to-cad/pivot-mount-plate.step"
+spec = "specs/t2c-pivot-mount-plate-ai.spec.json"
+title = "Pivot mount plate"
+number = "T2C-PIVOT-MOUNT-PLATE"

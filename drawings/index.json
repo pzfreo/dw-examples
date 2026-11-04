@@ -1060,6 +1060,28 @@
       ]
     },
     {
+      "kind": "drawing",
+      "name": "t2c-pivot-mount-plate-ai",
+      "step": "steps/text-to-cad/pivot-mount-plate.step",
+      "title": "Pivot mount plate",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 0,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 0,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-pivot-mount-plate-ai.drawing.json",
+        "t2c-pivot-mount-plate-ai.pdf",
+        "t2c-pivot-mount-plate-ai.review.json"
+      ]
+    },
+    {
       "kind": "pack",
       "name": "t2c-pivot-mount-plate-pack",
       "step": "steps/text-to-cad/pivot-mount-plate.step",

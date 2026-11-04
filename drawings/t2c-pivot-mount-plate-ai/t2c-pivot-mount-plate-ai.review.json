@@ -1,0 +1,85 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:4/bore.diameter"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole_pattern:1/bore.diameter"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   }
+  ],
+  "supported": 5,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "assembly_principal_drawn",
+   "group": "assembly_principal_drawn",
+   "id": "p:assembly_principal_drawn:part",
+   "impact": "advisory",
+   "message": "pivot-mount-plate is an assembly of 3 parts; its largest, part 0 (mount_plate), holds the others within its box and is drawn alone, so they (1: bushing, 2: liner) are neither drawn nor dimensioned as its features; a general note on the sheet says so (annotations/n:assembly/omit leaves it out). To draw another part, choose it by its index: --part K on the command line, or \"part\": K in a request.",
+   "refs": [
+    "mount_plate",
+    "bushing",
+    "liner"
+   ],
+   "severity": "warning",
+   "subjects": []
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "assembly_principal_drawn": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 1,
+    "groups": 1
+   },
+   "decision": {
+    "findings": 0,
+    "groups": 0
+   },
+   "incomplete": {
+    "findings": 0,
+    "groups": 0
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}
