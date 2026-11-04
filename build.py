@@ -49,7 +49,7 @@ def spec_for(entry: dict) -> dict:
 
 def review_summary(review: dict) -> dict:
     """The headline numbers of a review, so a draftwright bump shows up as an index.json diff."""
-    findings = review.get("problems", []) + review.get("lint", [])
+    findings = review.get("problems", []) + review.get("lint", []) + review.get("structural", [])
     severity = Counter(f.get("severity") for f in findings)
     impacts = {k: v["findings"] for k, v in review.get("summary", {}).get("impacts", {}).items()}
     return {
