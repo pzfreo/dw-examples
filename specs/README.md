@@ -232,23 +232,23 @@ Each was reproduced against the release binary with this Spec.
 
 ### Issues found (v0.2.9)
 
-Each was reproduced against the release binary with this Spec. None is filed yet.
+Each was reproduced against the release binary with this Spec.
 
-1. **A hole table can leave a slot unlocated, and lint stays quiet.** With `hole_table: always`, the
+1. **A hole table can leave a slot unlocated, and lint stays quiet.** ([draftwright-rust#319](https://github.com/pzfreo/draftwright-rust/issues/319)) With `hole_table: always`, the
    slot's `location_slot_across` stays "covered" by the ⌀10's y, which is now only a table row for a
    different feature. Nothing on the drawing locates the slot across the plate, and the review reports
    no finding. Setting that dimension or its `view` doesn't bring it back.
 2. **K6 again** ([draftwright-rust#294](https://github.com/pzfreo/draftwright-rust/issues/294)). An
    authored 50 from the near edge to the slot is refused as a duplicate of the ⌀10's y. Workaround:
    measure from the far edge, a true but arbitrary choice.
-3. **A slot's centre can't be referenced.** `axis:f:slot:1` is refused ("several cylinder axes"), and
+3. **A slot's centre can't be referenced.** ([draftwright-rust#320](https://github.com/pzfreo/draftwright-rust/issues/320)) `axis:f:slot:1` is refused ("several cylinder axes"), and
    only the end arcs' axes can be named. So the source's 110 to the centre can't be printed; the
    drawing keeps 98 to the near end. Authoring 102 to an end arc's axis instead leaves
    `slot_requirement_missing`, as in [draftwright-rust#301](https://github.com/pzfreo/draftwright-rust/issues/301).
-4. **The table is refused with paper to spare.** On A3 at 1:1 with all views, `hole_table_unavailable`
+4. **The table is refused with paper to spare.** ([draftwright-rust#321](https://github.com/pzfreo/draftwright-rust/issues/321)) On A3 at 1:1 with all views, `hole_table_unavailable`
    says "no clear place" on a sheet the plan reports as 49% full. Omitting the side view makes it fit; the
    message doesn't say what blocks it, so that took trial.
-5. **Table tags aren't in reading order.** The top row reads C9, C10, C2, C3, C4 and the bottom C1, C5,
+5. **Table tags aren't in reading order.** ([draftwright-rust#322](https://github.com/pzfreo/draftwright-rust/issues/322)) The top row reads C9, C10, C2, C3, C4 and the bottom C1, C5,
    C6, C7, C8, so a reader hunts for a row. No Spec field orders them.
-6. **A confusing reference message.** "choose axis:face:<fingerprint>" doesn't say the fingerprint
+6. **A confusing reference message.** ([draftwright-rust#323](https://github.com/pzfreo/draftwright-rust/issues/323)) "choose axis:face:<fingerprint>" doesn't say the fingerprint
    keeps its `v1:` but drops `face:`; a copied `face:v1:…` gives "Unknown reference face:face:v1:…".
