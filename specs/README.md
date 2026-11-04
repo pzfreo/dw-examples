@@ -276,14 +276,14 @@ Each was reproduced against the release binary with this Spec.
 
 ### Issues found (v0.2.9)
 
-Reproduced against the release binary with this Spec. Not filed yet.
+Reproduced against the release binary with this Spec.
 
-1. **A Spec can't name the part it draws.** The STEP is an assembly and the plate is drawn alone, with
+1. **A Spec can't name the part it draws.** ([draftwright-rust#324](https://github.com/pzfreo/draftwright-rust/issues/324)) The STEP is an assembly and the plate is drawn alone, with
    `assembly_principal_drawn` and a general note. `--part 0` clears the finding, but `part` isn't a
    Spec field (it's refused as unknown), so the choice can't be saved with the rest of the drawing's
    intent, and `build.py` runs without it. Omitting the note with `annotations/n:assembly/omit` leaves
    the finding.
-2. **A pin elsewhere silently overrides an explicit placement.** With the ⌀16's leader pinned at
+2. **A pin elsewhere silently overrides an explicit placement.** ([draftwright-rust#325](https://github.com/pzfreo/draftwright-rust/issues/325)) With the ⌀16's leader pinned at
    `[-20, -14]`, the 76's `side: above` and `along: 0.25` are ignored: it prints below the view at the
    middle, with no finding, and its basis still says "the spec places it". Pinned at `[14, 12]`, the
    same placement is honoured, which is what this Spec uses.
