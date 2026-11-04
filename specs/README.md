@@ -53,7 +53,8 @@ would, and authored the dimensions from `Analysis.edge_ink.references`.
 
 ### Issues found (v0.2.9)
 
-Each was reproduced against the release binary with this Spec.
+Each was reproduced against the release binary with this Spec. Filed as: 1 already open as
+[draftwright-rust#232](https://github.com/pzfreo/draftwright-rust/issues/232) and [draftwright-rust#278](https://github.com/pzfreo/draftwright-rust/issues/278); 2 [draftwright-rust#293](https://github.com/pzfreo/draftwright-rust/issues/293); 3 [draftwright-rust#300](https://github.com/pzfreo/draftwright-rust/issues/300); 4 [draftwright-rust#294](https://github.com/pzfreo/draftwright-rust/issues/294); 5 [draftwright-rust#295](https://github.com/pzfreo/draftwright-rust/issues/295); 6 [draftwright-rust#296](https://github.com/pzfreo/draftwright-rust/issues/296); 7 [draftwright-rust#297](https://github.com/pzfreo/draftwright-rust/issues/297); 8 and 9 [draftwright-rust#298](https://github.com/pzfreo/draftwright-rust/issues/298); 10–13 [draftwright-rust#299](https://github.com/pzfreo/draftwright-rust/issues/299).
 
 **Stops the drawing being right**
 
@@ -89,8 +90,9 @@ Each was reproduced against the release binary with this Spec.
    `draftwright-mcp`, no Spec schema, no `docs/model.md` (read here from the git tag). `--help` and
    `--version` are errors, and `serve` has no schema or options operation. `item_options` and
    `spec_schema` are documented for MCP; MCP was not built or tried for this drawing.
-9. **Offsets are blind.** A pinned callout's `offset` is relative to its automatic tip. I didn't find
-   that tip reported, so `[14, 12]` came from trial and viewing the render.
+9. **Offsets are blind from the CLI.** A pinned callout's `offset` is relative to its automatic tip.
+   `Session::callout_offset` returns that tip, but no CLI command does, so `[14, 12]` came from
+   trial and viewing the render.
 
 **Small**
 
