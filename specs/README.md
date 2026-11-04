@@ -13,8 +13,8 @@ How each Spec was made (Draftwright v0.2.9):
    located; the baseline schemes did.
 4. `review_loop.py`: review, apply the review's own `fix` operations that move a dimension,
    repeat. Fixes that change the sheet (`sheet/`, `sheets/`: size, scale, sheet count) are left
-   out: taken blindly they shrink the part to 1:2 on A4. The sheet was then set by hand to 1:1 on
-   A3 (mounting plate, enclosure). The loop stops when the fixes change nothing or bring back a
+   out: taken blindly they shrink the part to 1:2 on A4. The sheet was then set by hand: 1:1 on
+   A4 for the mounting plate, with its side and isometric views omitted, and 1:1 on A3 for the enclosure. The loop stops when the fixes change nothing or bring back a
    Spec already tried: on the mounting plate they flip the slot width's label above and below.
 
 The Specs name some dimensions by Draftwright's generated ids (`d:scheme:holes-y/…`), which are

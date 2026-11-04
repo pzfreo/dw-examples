@@ -2,7 +2,7 @@
   "schema": "draftwright.spec/2",
   "sheet": {
     "scale": "1:1",
-    "size": "A3",
+    "size": "A4",
     "title": {
       "tolerance": "ISO 2768-m",
       "title": "Mounting plate",
@@ -68,6 +68,14 @@
         "side": "above",
         "view": "plan"
       }
+    }
+  },
+  "views": {
+    "iso": {
+      "omit": true
+    },
+    "side": {
+      "omit": true
     }
   }
 }

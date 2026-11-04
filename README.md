@@ -103,7 +103,7 @@ Review is findings by impact: incomplete / decision / readability / advisory.
 
 | Part | Drawings | Sheet | Review | What changed, and what's still missing |
 | --- | --- | --- | --- | --- |
-| Mounting plate | [Baseline](drawings/t2c-mounting-plate/t2c-mounting-plate.pdf) · [AI](drawings/t2c-mounting-plate-ai/t2c-mounting-plate-ai.pdf) · [Spec](specs/t2c-mounting-plate-ai.spec.json) | A4 1:1 → A3 1:1 | 0/1/2/1 → 0/0/1/3 | Holes located from the left and bottom edges; radius leaders tidied. The review's own fixes also added a crossing line and an overrun callout. |
+| Mounting plate | [Baseline](drawings/t2c-mounting-plate/t2c-mounting-plate.pdf) · [AI](drawings/t2c-mounting-plate-ai/t2c-mounting-plate-ai.pdf) · [Spec](specs/t2c-mounting-plate-ai.spec.json) | A4 1:1 → A4 1:1 | 0/1/2/1 → 0/0/0/4 | Holes located from the left and bottom edges; radius leaders tidied; side and isometric views omitted. The review's own fixes also added a crossing line and an overrun callout. |
 | Electronics enclosure base | [Baseline](drawings/t2c-electronics-enclosure-base/t2c-electronics-enclosure-base.pdf) · [AI](drawings/t2c-electronics-enclosure-base-ai/t2c-electronics-enclosure-base-ai.pdf) · [Spec](specs/t2c-electronics-enclosure-base-ai.spec.json) | A4 1:2 → A3 1:1 | 1/1/2/3 → 1/0/1/2 | Holes located from the edges; the 50 and 35 drawn once; section arrows clear. The stepped detail has no room at 1:1 on A3. |
 | L bracket | [Baseline](drawings/t2c-l-bracket/t2c-l-bracket.pdf) · [AI](drawings/t2c-l-bracket-ai/t2c-l-bracket-ai.pdf) · [Spec](specs/t2c-l-bracket-ai.spec.json) | A4 1:2 → A4 1:2 | 0/1/1/10 → 0/0/1/6 | Four extension lines moved off the ⌀6 holes. The holes are still called 8 deep in an 8 mm plate; no Spec field can fix that. |
 | Angle bracket | [Baseline](drawings/t2c-angle-bracket/t2c-angle-bracket.pdf) · [AI](drawings/t2c-angle-bracket-ai/t2c-angle-bracket-ai.pdf) · [Spec](specs/t2c-angle-bracket-ai.spec.json) | A4 1:1 → A4 1:1 | 3/1/0/3 → 4/0/0/3 | Projection by-products (75.381, 93.072) replaced by the designer's 80, 40, 8 and 120°; the ⌀10 hole located. No auxiliary view is possible, so the flange is never shown true. |
@@ -123,6 +123,9 @@ How to read the comparison:
   which is an assumption, not something in the STEP file or the model source.
 - **The last six parts had a model source to read.** Their design dimensions and material come from
   it, not from the STEP file. An agent given only a STEP file couldn't recover that intent.
+- **A3 is used only where A4 was tried and read worse.** The guide bar is too long for A4 at a useful
+  scale; the enclosure's section marks collide with its dimensions at 1:2; and on the perforated plate,
+  A4 at 1:1 can't place the table, while 1:2 runs three lines through a ⌀10 hole.
 - **None of these has been judged fit to manufacture from.** Like the rest of this repository, they
   are unreviewed output. The pivot mount plate's bushing bore, for example, has no fit stated because
   the source gives none.
