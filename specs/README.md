@@ -295,8 +295,8 @@ Reproduced against the release binary with this Spec.
 | [`nist_ctc_01_asme1_ap242.stp`](../steps/nist/nist_ctc_01_asme1_ap242.stp) | [PDF](../drawings/nist-ctc-01/nist-ctc-01.pdf) | [PDF](../drawings/nist-ctc-01-ai/nist-ctc-01-ai.pdf) | [`nist-ctc-01-ai.spec.json`](nist-ctc-01-ai.spec.json) |
 
 - **Baseline:** A3 at 1:5, compact and easy to read, and it carries the file's PMI. But it leaves outline
-  faces unstated, with no finding about them: the ear edges (150), the rectangular notches (207.5, 85, 25
-  deep) and the bar's far edge (100).
+  faces unstated: the ear edges (150), the rectangular notches (207.5, 85, 25 deep) and the bar's far edge
+  (100). The review flags the notches as unrecognised, and nothing names the ear edges.
 - **AI:** the same sheet and scale, with only those faces added and the 510 moved off the 650's line. All
   the baseline's PMI is kept. The general tolerance is `UNSPECIFIED`, as the file states none and this is
   an ASME part, so no ISO value is assumed.
@@ -310,17 +310,19 @@ Reproduced against the release binary with this Spec.
 
 ### Issues found (v0.2.9)
 
-Each was reproduced against the release binary with this Spec. Not filed yet.
+Each was reproduced against the release binary with this Spec.
 
-1. **Lint doesn't ask for the outline's faces.** The baseline has no finding for the missing 150, 207.5, 85
-   or 100, the gap [draftwright-rust#307](https://github.com/pzfreo/draftwright-rust/issues/307) proposes to close.
-2. **Slots on a located centre line still report as unlocated.** `feature_not_located` stays on both slots,
+1. **Lint doesn't ask for all the outline's faces.** ([draftwright-rust#327](https://github.com/pzfreo/draftwright-rust/issues/327)) Nothing names the missing 150s, the gap
+   [draftwright-rust#307](https://github.com/pzfreo/draftwright-rust/issues/307) proposes to close.
+2. **Slots on a located centre line still report as unlocated.** ([draftwright-rust#328](https://github.com/pzfreo/draftwright-rust/issues/328)) `feature_not_located` stays on both slots,
    though the plan says the 225 covers them. Authored 200 and 205 don't clear it either, as in
    [draftwright-rust#316](https://github.com/pzfreo/draftwright-rust/issues/316).
-3. **Values missing from the PMI stay missing.** Four dimensions (`#24`, `#25`, `#126`, `#127`) have no
+3. **Values missing from the PMI stay missing.** ([draftwright-rust#329](https://github.com/pzfreo/draftwright-rust/issues/329)) Four dimensions (`#24`, `#25`, `#126`, `#127`) have no
    nominal in the file's semantic PMI, only tessellated callouts, which draftwright can't read. They remain
    as errors, and a Spec can't clear them.
-4. **Moving one dimension rearranges others.** Placing the 510 below also moved datums A and B and the
+4. **Moving one dimension rearranges others.** ([draftwright-rust#330](https://github.com/pzfreo/draftwright-rust/issues/330)) Placing the 510 below also moved datums A and B and the
    perpendicularity frame, with no finding, as in [draftwright-rust#325](https://github.com/pzfreo/draftwright-rust/issues/325).
-5. **`page_fit_uncertain` on a drawing that fits.** The same placement raises "may not fit", with everything
+5. **`page_fit_uncertain` on a drawing that fits.** ([draftwright-rust#331](https://github.com/pzfreo/draftwright-rust/issues/331)) The same placement raises "may not fit", with everything
    on the sheet, as in [draftwright-rust#318](https://github.com/pzfreo/draftwright-rust/issues/318).
+6. **Dimension stacks don't nest.** ([draftwright-rust#326](https://github.com/pzfreo/draftwright-rust/issues/326)) The 150 and 120 sit outside the 635, 400 and 207.5, so their
+   extension lines cross all three. The Spec's `lane` can't fix it.
