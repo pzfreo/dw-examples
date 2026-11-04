@@ -155,22 +155,22 @@ Each was reproduced against the release binary with this Spec.
 
 ### Issues found (v0.2.9)
 
-Each was reproduced against the release binary with this Spec. None is filed yet.
+Each was reproduced against the release binary with this Spec.
 
-1. **Lint disagrees with the plan about a bolt circle.** The plan says the circle is "located by its
+1. **Lint disagrees with the plan about a bolt circle.** ([draftwright-rust#310](https://github.com/pzfreo/draftwright-rust/issues/310)) The plan says the circle is "located by its
    centre"; lint reports `hole_pattern_requirement_missing` for its x and y. A note with
    `note_satisfies` clears it, but the note can only attach in the front view (issue 3), where it
    tells a reader nothing, so this drawing leaves the warnings standing.
-2. **A note on the pattern changes another feature's dimensions.** Any note on `f:hole_pattern:1`,
+2. **A note on the pattern changes another feature's dimensions.** ([draftwright-rust#311](https://github.com/pzfreo/draftwright-rust/issues/311)) Any note on `f:hole_pattern:1`,
    with or without `note_satisfies`, adds 40 and 40 to the ⌀30, measured from tangents to the ⌀80,
    the plan's "on the axis" reasoning having gone. They can be omitted, but nothing in the review
    says why they appeared.
-3. **A pattern's note can't go where the pattern is seen.** `annotations/<id>/place/view: plan` is
+3. **A pattern's note can't go where the pattern is seen.** ([draftwright-rust#312](https://github.com/pzfreo/draftwright-rust/issues/312)) `annotations/<id>/place/view: plan` is
    refused ("cannot attach in the plan view"; the only choice is `front`). The plan records the note
    against the holes' cylindrical faces, which may be the reason; the message doesn't say.
-4. **`⌀` in a note prints as an empty box**, though the engine's own labels print a diameter sign.
+4. **`⌀` in a note prints as an empty box** ([draftwright-rust#313](https://github.com/pzfreo/draftwright-rust/issues/313)), though the engine's own labels print a diameter sign.
    `ø` prints. The sign also varies within a sheet: "ø 30 THRU" against "ø80".
-5. **No section for plain through holes.** `section_aa` is refused because no hole has a counterbore,
+5. **No section for plain through holes.** ([draftwright-rust#314](https://github.com/pzfreo/draftwright-rust/issues/314)) `section_aa` is refused because no hole has a counterbore,
    spotface or bottom, and `half_section` because a part with a bolt circle isn't "turned whole". Not
    a loss on this part, whose holes read clearly as hidden lines, but no Spec field can ask for it.
 
@@ -192,19 +192,19 @@ Each was reproduced against the release binary with this Spec. None is filed yet
 
 ### Issues found (v0.2.9)
 
-Each was reproduced against the release binary with this Spec. None is filed yet.
+Each was reproduced against the release binary with this Spec.
 
-1. **No broken view.** The source calls this "a long part of constant section, which a drawing
+1. **No broken view.** ([draftwright-rust#315](https://github.com/pzfreo/draftwright-rust/issues/315)) The source calls this "a long part of constant section, which a drawing
    breaks". `views/front/break` is refused as an unknown field, and no other field does it. So the 560 mm
    between the holes sets the scale: 1:2 on A3, where a break would allow a larger scale on a smaller sheet.
-2. **Lint credits a reference but not the real dimension.** The authored 20 from the shoulder leaves
+2. **Lint credits a reference but not the real dimension.** ([draftwright-rust#316](https://github.com/pzfreo/draftwright-rust/issues/316)) The authored 20 from the shoulder leaves
    `feature_not_located` on the hole; a reference (580) clears it, though a reference states no
    requirement. The same gap as [draftwright-rust#301](https://github.com/pzfreo/draftwright-rust/issues/301), here for a hole.
-3. **A reference overall length hides the real dimension.** With 630 set to `style: reference`, the
+3. **A reference overall length hides the real dimension.** ([draftwright-rust#317](https://github.com/pzfreo/draftwright-rust/issues/317)) With 630 set to `style: reference`, the
    30 stays "covered" by it and doesn't print, even with its `view` set; an authored 30 is refused as
    a duplicate of the hidden one (K6). So (630) and 30 can't both appear, and this drawing omits the
    overall length.
-4. **`iso_scale_factor` raises a false fit warning.** Setting it to 0.5 gives `page_fit_uncertain`
+4. **`iso_scale_factor` raises a false fit warning.** ([draftwright-rust#318](https://github.com/pzfreo/draftwright-rust/issues/318)) Setting it to 0.5 gives `page_fit_uncertain`
    ("may not fit A3 at 1:2; A3 at 1:5 fits") with every view on the sheet at 20% fill, and on A2 as
    well. Shrinking a view can't make the sheet overflow, and the offered fix returns the bar to 1:5.
    The factor is left out here, so the isometric stays large.
