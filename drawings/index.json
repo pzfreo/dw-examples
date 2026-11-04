@@ -730,6 +730,28 @@
     },
     {
       "kind": "drawing",
+      "name": "t2c-angle-bracket-ai",
+      "step": "steps/text-to-cad/angle-bracket.step",
+      "title": "Angle bracket",
+      "review": {
+        "errors": 0,
+        "warnings": 4,
+        "infos": 1,
+        "impacts": {
+          "advisory": 3,
+          "decision": 0,
+          "incomplete": 4,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-angle-bracket-ai.drawing.json",
+        "t2c-angle-bracket-ai.pdf",
+        "t2c-angle-bracket-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "t2c-circular-flange",
       "step": "steps/text-to-cad/circular-flange.step",
       "title": "Circular flange",
