@@ -322,3 +322,10 @@ step = "steps/text-to-cad/angle-bracket.step"
 spec = "specs/t2c-angle-bracket-ai.spec.json"
 title = "Angle bracket"
 number = "T2C-ANGLE-BRACKET"
+
+[[drawing]]
+name = "t2c-stepped-shaft-keyway-ai"
+step = "steps/text-to-cad/stepped-shaft-keyway.step"
+spec = "specs/t2c-stepped-shaft-keyway-ai.spec.json"
+title = "Stepped shaft with keyway"
+number = "T2C-STEPPED-SHAFT-KEYWAY"

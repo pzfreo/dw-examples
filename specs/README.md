@@ -26,6 +26,7 @@ those of v0.2.9; a Draftwright bump may need them set again.
 | Electronics enclosure base | holes located from the edges (15/85, 10/60); the 50 and 35 drawn once; general tolerance; section-arrow overlaps | the stepped-detail view has no room at 1:1 on A3 | |
 | L bracket | general tolerance; four extension lines through the ⌀6 holes | | the ⌀6 holes called 8 deep in an 8 mm plate: the review flags `hole_bottom_unknown`, but no Spec field sets a hole's depth or "through" (queued in Draftwright) |
 | Angle bracket | see below | | see below |
+| Stepped shaft with keyway | see below | | see below |
 
 The spring in the shock-absorber pack (simplified coil with a data table) needs Draftwright
 work and has no `-ai` version yet.
@@ -102,3 +103,37 @@ Each was reproduced against the release binary with this Spec. Filed as: 1 alrea
 12. `nominal_rounded` still reports (38.6), a reference with its precision set on purpose.
 13. A detail around the ⌀10 is refused with "needs its source view and room for its crop", which
     doesn't say which, and a detail wouldn't show it true anyway.
+
+## Stepped shaft with keyway: best effort with authored dimensions
+
+| STEP | Baseline | AI best effort | Spec |
+|---|---|---|---|
+| [`stepped-shaft-keyway.step`](../steps/text-to-cad/stepped-shaft-keyway.step) | [PDF](../drawings/t2c-stepped-shaft-keyway/t2c-stepped-shaft-keyway.pdf) | [PDF](../drawings/t2c-stepped-shaft-keyway-ai/t2c-stepped-shaft-keyway-ai.pdf) | [`t2c-stepped-shaft-keyway-ai.spec.json`](t2c-stepped-shaft-keyway-ai.spec.json) |
+
+- **Baseline:** the keyway's centre is located with a 60 and with a 15 from a tangent to the ⌀30;
+  the shoulders are 30 and 90; its depth is only "3 MAX DEEP".
+- **AI:** the keyway starts 40 from the end, as the [model source](https://github.com/amywork777/text-to-cad-upstream/blob/85d8fdbfb467ebd7e22994fe8bcd86afa6626ed3/models/examples/src/stepped_shaft_keyway.py)
+  defines it, and is noted `CENTRED ON AXIS`; the shoulders are 30 and 60, the source's lengths; the
+  floor is (12) from the axis as a reference; material from the source. No readability findings.
+- **Review:** baseline 1 warning (decision: no tolerance); AI 1 warning (incomplete: lint wants the
+  keyway's location at its centre, issue 2). The count again doesn't show the change.
+- **Choices not from the source:** ISO 2768-m is assumed. The source names a chromium-molybdenum
+  alloy steel without a grade. No fit is stated on the keyway, as the source gives none. Nobody has
+  judged this drawing fit to manufacture from.
+
+### Issues found (v0.2.9)
+
+Each was reproduced against the release binary with this Spec.
+
+1. **No section through a keyway** ([draftwright-rust#304](https://github.com/pzfreo/draftwright-rust/issues/304)). `section_aa` needs a z-axis hole, a half section a part
+   turned whole, and an enlarged detail is refused on this A4 sheet (it's accepted on A2). The
+   depth shows only in hidden lines.
+2. **Lint doesn't credit authored pocket dimensions** ([draftwright-rust#301](https://github.com/pzfreo/draftwright-rust/issues/301)). A location from the keyway's end
+   stays reported as missing, and so do an authored width and length replacing the callout.
+3. **"3 MAX DEEP" reads like a limit** ([draftwright-rust#305](https://github.com/pzfreo/draftwright-rust/issues/305)), and by design the wording can't be changed. A
+   dimension of 27 across the shaft isn't possible, as a cylinder's far side has nothing to
+   reference, so (12) from the axis stands in.
+4. **A centred keyway is located from a tangent** ([draftwright-rust#302](https://github.com/pzfreo/draftwright-rust/issues/302)), and `origin` can't name the axis. A
+   note with `note_satisfies` was the route that worked.
+5. **Smaller** ([draftwright-rust#303](https://github.com/pzfreo/draftwright-rust/issues/303)): no keyway fit classes (N9 is refused); the plan view is dropped under
+   authored dimensions until `views/plan` is set.

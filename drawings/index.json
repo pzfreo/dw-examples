@@ -1040,6 +1040,28 @@
     },
     {
       "kind": "drawing",
+      "name": "t2c-stepped-shaft-keyway-ai",
+      "step": "steps/text-to-cad/stepped-shaft-keyway.step",
+      "title": "Stepped shaft with keyway",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 1,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-stepped-shaft-keyway-ai.drawing.json",
+        "t2c-stepped-shaft-keyway-ai.pdf",
+        "t2c-stepped-shaft-keyway-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "t8-flange-nut",
       "step": "steps/freecad/t8-flange-nut.step",
       "title": "T8 flange nut",
