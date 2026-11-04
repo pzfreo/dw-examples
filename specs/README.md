@@ -287,3 +287,40 @@ Reproduced against the release binary with this Spec.
    `[-20, -14]`, the 76's `side: above` and `along: 0.25` are ignored: it prints below the view at the
    middle, with no finding, and its basis still says "the spec places it". Pinned at `[14, 12]`, the
    same placement is honoured, which is what this Spec uses.
+
+## NIST CTC-01: best effort with authored dimensions
+
+| STEP | Baseline | AI best effort | Spec |
+|---|---|---|---|
+| [`nist_ctc_01_asme1_ap242.stp`](../steps/nist/nist_ctc_01_asme1_ap242.stp) | [PDF](../drawings/nist-ctc-01/nist-ctc-01.pdf) | [PDF](../drawings/nist-ctc-01-ai/nist-ctc-01-ai.pdf) | [`nist-ctc-01-ai.spec.json`](nist-ctc-01-ai.spec.json) |
+
+- **Baseline:** A3 at 1:5, compact and easy to read, and it carries the file's PMI. But it leaves outline
+  faces unstated, with no finding about them: the ear edges (150), the rectangular notches (207.5, 85, 25
+  deep) and the bar's far edge (100).
+- **AI:** the same sheet and scale, with only those faces added and the 510 moved off the 650's line. All
+  the baseline's PMI is kept. The general tolerance is `UNSPECIFIED`, as the file states none and this is
+  an ASME part, so no ISO value is assumed.
+- **A first attempt was worse than the baseline.** It also stated the slots' across positions and moved to
+  A1 at 1:2, because that had the fewest findings. It read worse, so the sheet and those two dimensions
+  were dropped. The slots sit on the centre line the 225 already locates.
+- **Review:** baseline 17 incomplete, 1 decision, 4 readability, 24 advisory; AI 17 incomplete, 0 decision,
+  7 readability, 33 advisory. The count got worse while the drawing got better.
+- **Not checked:** this hasn't been compared with NIST's own drawing, and nobody has judged it fit to
+  manufacture from.
+
+### Issues found (v0.2.9)
+
+Each was reproduced against the release binary with this Spec. Not filed yet.
+
+1. **Lint doesn't ask for the outline's faces.** The baseline has no finding for the missing 150, 207.5, 85
+   or 100, the gap [draftwright-rust#307](https://github.com/pzfreo/draftwright-rust/issues/307) proposes to close.
+2. **Slots on a located centre line still report as unlocated.** `feature_not_located` stays on both slots,
+   though the plan says the 225 covers them. Authored 200 and 205 don't clear it either, as in
+   [draftwright-rust#316](https://github.com/pzfreo/draftwright-rust/issues/316).
+3. **Values missing from the PMI stay missing.** Four dimensions (`#24`, `#25`, `#126`, `#127`) have no
+   nominal in the file's semantic PMI, only tessellated callouts, which draftwright can't read. They remain
+   as errors, and a Spec can't clear them.
+4. **Moving one dimension rearranges others.** Placing the 510 below also moved datums A and B and the
+   perpendicularity frame, with no finding, as in [draftwright-rust#325](https://github.com/pzfreo/draftwright-rust/issues/325).
+5. **`page_fit_uncertain` on a drawing that fits.** The same placement raises "may not fit", with everything
+   on the sheet, as in [draftwright-rust#318](https://github.com/pzfreo/draftwright-rust/issues/318).

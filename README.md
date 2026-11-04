@@ -13,8 +13,8 @@ in it; each assembly pack has a `.report.json` with per-part findings and failur
 
 ## Drawings
 
-53 drawings and three assembly packs from six sources: 44 baselines, listed below, and nine
-[AI best-effort versions](#ai-best-effort-drawings) of the text-to-cad parts. See [Licensing](#licensing) for where
+54 drawings and three assembly packs from six sources: 44 baselines, listed below, and ten
+[AI best-effort versions](#ai-best-effort-drawings): nine text-to-cad parts and NIST CTC-01. See [Licensing](#licensing) for where
 each STEP file comes from and the terms it is shared under.
 
 ### NIST MBE PMI test parts (AP242 with semantic PMI)
@@ -88,11 +88,11 @@ each STEP file comes from and the terms it is shared under.
 
 ## AI best-effort drawings
 
-Nine text-to-cad parts are drawn twice from the same STEP file, to show what an agent can add
-through a Spec and what it can't:
+Nine text-to-cad parts and NIST CTC-01 are drawn twice from the same STEP file, to show what an
+agent can add through a Spec and what it can't:
 
-- **Baseline** (`t2c-<part>`): the title block alone, so everything else is draftwright's default.
-- **AI best effort** (`t2c-<part>-ai`): a Spec an AI wrote using draftwright's analysis, plan and
+- **Baseline** (`t2c-<part>`, `nist-ctc-01`): the title block alone, so everything else is draftwright's default.
+- **AI best effort** (`t2c-<part>-ai`, `nist-ctc-01-ai`): a Spec an AI wrote using draftwright's analysis, plan and
   review, with no hand-drawing and no edits to the output.
 
 The first three parts below mostly apply the review's own fixes, with
@@ -112,6 +112,7 @@ Review is findings by impact: incomplete / decision / readability / advisory.
 | Guide bar | [Baseline](drawings/t2c-guide-bar/t2c-guide-bar.pdf) · [AI](drawings/t2c-guide-bar-ai/t2c-guide-bar-ai.pdf) · [Spec](specs/t2c-guide-bar-ai.spec.json) | A4 1:5 → A3 1:2 | 0/1/1/1 → 1/0/0/1 | Larger scale; holes 20 from each end of the bar; 600 + 30 instead of 600 and 630. No broken view is possible, and the overall length had to go. |
 | Perforated plate | [Baseline](drawings/t2c-perforated-plate/t2c-perforated-plate.pdf) · [AI](drawings/t2c-perforated-plate-ai/t2c-perforated-plate-ai.pdf) · [Spec](specs/t2c-perforated-plate-ai.spec.json) | A4 1:2 → A3 1:1 | 0/1/0/3 → 0/0/0/1 | Hole table replaces crowded dimensions; the ⌀6 rows now have a stated distance from the edge; the slot has its own location. |
 | Pivot mount plate | [Baseline](drawings/t2c-pivot-mount-plate/t2c-pivot-mount-plate.pdf) · [AI](drawings/t2c-pivot-mount-plate-ai/t2c-pivot-mount-plate-ai.pdf) · [Spec](specs/t2c-pivot-mount-plate-ai.spec.json) | A4 1:1 → A4 1:1 | 0/1/1/2 → 0/0/0/1 | Holes 12 from the edges, as the source defines them; datums A, B and C; leaders and labels clear. |
+| NIST CTC-01 | [Baseline](drawings/nist-ctc-01/nist-ctc-01.pdf) · [AI](drawings/nist-ctc-01-ai/nist-ctc-01-ai.pdf) · [Spec](specs/nist-ctc-01-ai.spec.json) | A3 1:5 → A3 1:5 | 17/1/4/24 → 17/0/7/33 | PMI kept, with the ear edges, rectangular notches and bar edge added. Four values with no nominal in the file's PMI stay missing. |
 
 How to read the comparison:
 
@@ -119,8 +120,8 @@ How to read the comparison:
   each gain an `incomplete` finding, because lint doesn't credit the authored dimensions that make
   those drawings better. Nor does a quiet review prove a drawing complete: on the perforated plate,
   adding the hole table left the slot unlocated, no finding mentioned it, and only the render showed it.
-- **Decision findings clear because a tolerance was assumed.** Every AI drawing states ISO 2768-m,
-  which is an assumption, not something in the STEP file or the model source.
+- **Decision findings clear because a tolerance was stated.** The text-to-cad AI drawings state ISO
+  2768-m, which isn't in the STEP file or the model file; CTC-01 states `UNSPECIFIED`.
 - **The last six parts had a model source to read.** Their design dimensions and material come from
   it, not from the STEP file. An agent given only a STEP file couldn't recover that intent.
 - **A3 is used only where A4 was tried and read worse.** The guide bar is too long for A4 at a useful
@@ -128,7 +129,7 @@ How to read the comparison:
   A4 at 1:1 can't place the table, while 1:2 runs three lines through a ⌀10 hole.
 - **None of these has been judged fit to manufacture from.** Like the rest of this repository, they
   are unreviewed output. The pivot mount plate's bushing bore, for example, has no fit stated because
-  the source gives none.
+  the model file gives none.
 
 [`specs/README.md`](specs/README.md) has the detail for each part, including the choices not taken
 from the source and the draftwright issues each one raised.

@@ -312,6 +312,28 @@
     },
     {
       "kind": "drawing",
+      "name": "nist-ctc-01-ai",
+      "step": "steps/nist/nist_ctc_01_asme1_ap242.stp",
+      "title": "NIST CTC-01",
+      "review": {
+        "errors": 12,
+        "warnings": 28,
+        "infos": 17,
+        "impacts": {
+          "advisory": 33,
+          "decision": 0,
+          "incomplete": 17,
+          "readability": 7
+        }
+      },
+      "files": [
+        "nist-ctc-01-ai.drawing.json",
+        "nist-ctc-01-ai.pdf",
+        "nist-ctc-01-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "nist-ctc-02",
       "step": "steps/nist/nist_ctc_02_asme1_ap242.stp",
       "title": "NIST CTC-02",

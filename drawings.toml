@@ -357,3 +357,10 @@ step = "steps/text-to-cad/pivot-mount-plate.step"
 spec = "specs/t2c-pivot-mount-plate-ai.spec.json"
 title = "Pivot mount plate"
 number = "T2C-PIVOT-MOUNT-PLATE"
+
+[[drawing]]
+name = "nist-ctc-01-ai"
+step = "steps/nist/nist_ctc_01_asme1_ap242.stp"
+spec = "specs/nist-ctc-01-ai.spec.json"
+title = "NIST CTC-01"
+number = "NIST-CTC-01"
