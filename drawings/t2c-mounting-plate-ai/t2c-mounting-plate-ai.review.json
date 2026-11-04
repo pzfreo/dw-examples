@@ -64,7 +64,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
@@ -99,7 +99,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
@@ -118,11 +118,96 @@
    "group": "annotation_outside_area",
    "id": "p:annotation_outside_area:d:f:hole_pattern:1/bore.diameter|v:plan",
    "impact": "advisory",
-   "message": "The dimension 4\u00d7 \u23005.5 THRU runs up to 30.9 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond.",
+   "message": "The dimension 4\u00d7 \u23005.5 THRU runs up to 24.9 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond.",
    "severity": "info",
    "subjects": [
     "d:f:hole_pattern:1/bore.diameter",
     "v:plan"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
+     "value": {
+      "along": "end",
+      "lane": 0,
+      "side": "above",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 4\u00d7 \u23005.5 THRU callout above the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
+       "value": {
+        "along": "end",
+        "lane": 0,
+        "side": "above",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:d:f:hole_pattern:1/bore.diameter|d:envelope/depth.length",
+   "impact": "advisory",
+   "message": "The leader of 4\u00d7 \u23005.5 THRU crosses a line of 70.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/bore.diameter",
+    "d:envelope/depth.length"
    ]
   },
   {
@@ -146,7 +231,7 @@
     {
      "op": "set",
      "path": "sheet/size",
-     "value": "A3"
+     "value": "A4"
     },
     {
      "op": "set",
@@ -181,7 +266,7 @@
       {
        "op": "set",
        "path": "sheet/size",
-       "value": "A3"
+       "value": "A4"
       },
       {
        "op": "set",
@@ -228,35 +313,18 @@
    ]
   }
  ],
- "structural": [
-  {
-   "annotation": "d:f:hole:3/bore.diameter",
-   "code": "leader_centerline_overlap",
-   "fix": "move the annotation clear of the fixed ink",
-   "fix_description": "Move the annotation clear of the fixed ink.",
-   "group": "leader_centerline_overlap",
-   "id": "l:leader_centerline_overlap:d:f:hole:3/bore.diameter+ink:v:plan:f:hole:3",
-   "impact": "readability",
-   "message": "'\u230028 THRU' touches fixed ink 'ink:v:plan:f:hole:3'",
-   "related": [
-    "ink:v:plan:f:hole:3"
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
-  }
- ],
+ "structural": [],
  "summary": {
   "groups": {
+   "annotation_leader_crossing:extension_line": 1,
    "annotation_outside_area": 1,
    "extension_through_feature": 1,
-   "leader_centerline_overlap": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 3,
-    "groups": 3
+    "findings": 4,
+    "groups": 4
    },
    "decision": {
     "findings": 0,
@@ -267,8 +335,8 @@
     "groups": 0
    },
    "readability": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    }
   }
  }

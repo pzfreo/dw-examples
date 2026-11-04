@@ -315,3 +315,52 @@ step = "steps/text-to-cad/l-bracket.step"
 spec = "specs/t2c-l-bracket-ai.spec.json"
 title = "L bracket"
 number = "T2C-L-BRACKET"
+
+[[drawing]]
+name = "t2c-angle-bracket-ai"
+step = "steps/text-to-cad/angle-bracket.step"
+spec = "specs/t2c-angle-bracket-ai.spec.json"
+title = "Angle bracket"
+number = "T2C-ANGLE-BRACKET"
+
+[[drawing]]
+name = "t2c-stepped-shaft-keyway-ai"
+step = "steps/text-to-cad/stepped-shaft-keyway.step"
+spec = "specs/t2c-stepped-shaft-keyway-ai.spec.json"
+title = "Stepped shaft with keyway"
+number = "T2C-STEPPED-SHAFT-KEYWAY"
+
+[[drawing]]
+name = "t2c-circular-flange-ai"
+step = "steps/text-to-cad/circular-flange.step"
+spec = "specs/t2c-circular-flange-ai.spec.json"
+title = "Circular flange"
+number = "T2C-CIRCULAR-FLANGE"
+
+[[drawing]]
+name = "t2c-guide-bar-ai"
+step = "steps/text-to-cad/guide-bar.step"
+spec = "specs/t2c-guide-bar-ai.spec.json"
+title = "Guide bar"
+number = "T2C-GUIDE-BAR"
+
+[[drawing]]
+name = "t2c-perforated-plate-ai"
+step = "steps/text-to-cad/perforated-plate.step"
+spec = "specs/t2c-perforated-plate-ai.spec.json"
+title = "Perforated plate"
+number = "T2C-PERFORATED-PLATE"
+
+[[drawing]]
+name = "t2c-pivot-mount-plate-ai"
+step = "steps/text-to-cad/pivot-mount-plate.step"
+spec = "specs/t2c-pivot-mount-plate-ai.spec.json"
+title = "Pivot mount plate"
+number = "T2C-PIVOT-MOUNT-PLATE"
+
+[[drawing]]
+name = "nist-ctc-01-ai"
+step = "steps/nist/nist_ctc_01_asme1_ap242.stp"
+spec = "specs/nist-ctc-01-ai.spec.json"
+title = "NIST CTC-01"
+number = "NIST-CTC-01"

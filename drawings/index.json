@@ -312,12 +312,34 @@
     },
     {
       "kind": "drawing",
+      "name": "nist-ctc-01-ai",
+      "step": "steps/nist/nist_ctc_01_asme1_ap242.stp",
+      "title": "NIST CTC-01",
+      "review": {
+        "errors": 12,
+        "warnings": 28,
+        "infos": 17,
+        "impacts": {
+          "advisory": 33,
+          "decision": 0,
+          "incomplete": 17,
+          "readability": 7
+        }
+      },
+      "files": [
+        "nist-ctc-01-ai.drawing.json",
+        "nist-ctc-01-ai.pdf",
+        "nist-ctc-01-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "nist-ctc-02",
       "step": "steps/nist/nist_ctc_02_asme1_ap242.stp",
       "title": "NIST CTC-02",
       "review": {
         "errors": 106,
-        "warnings": 181,
+        "warnings": 182,
         "infos": 139,
         "impacts": {
           "advisory": 159,
@@ -340,7 +362,7 @@
       "review": {
         "errors": 66,
         "warnings": 48,
-        "infos": 52,
+        "infos": 54,
         "impacts": {
           "advisory": 63,
           "decision": 1,
@@ -360,9 +382,9 @@
       "step": "steps/nist/nist_ctc_04_asme1_ap242.stp",
       "title": "NIST CTC-04",
       "review": {
-        "errors": 35,
-        "warnings": 258,
-        "infos": 102,
+        "errors": 36,
+        "warnings": 273,
+        "infos": 103,
         "impacts": {
           "advisory": 237,
           "decision": 1,
@@ -384,7 +406,7 @@
       "review": {
         "errors": 37,
         "warnings": 31,
-        "infos": 79,
+        "infos": 80,
         "impacts": {
           "advisory": 80,
           "decision": 1,
@@ -405,8 +427,8 @@
       "title": "NIST FTC-06",
       "review": {
         "errors": 162,
-        "warnings": 57,
-        "infos": 239,
+        "warnings": 59,
+        "infos": 240,
         "impacts": {
           "advisory": 245,
           "decision": 1,
@@ -427,7 +449,7 @@
       "title": "NIST FTC-07",
       "review": {
         "errors": 78,
-        "warnings": 91,
+        "warnings": 93,
         "infos": 121,
         "impacts": {
           "advisory": 154,
@@ -449,8 +471,8 @@
       "title": "NIST FTC-08",
       "review": {
         "errors": 85,
-        "warnings": 98,
-        "infos": 127,
+        "warnings": 105,
+        "infos": 128,
         "impacts": {
           "advisory": 143,
           "decision": 1,
@@ -494,7 +516,7 @@
       "review": {
         "errors": 15,
         "warnings": 21,
-        "infos": 21,
+        "infos": 22,
         "impacts": {
           "advisory": 22,
           "decision": 1,
@@ -515,7 +537,7 @@
       "title": "NIST STC-06",
       "review": {
         "errors": 56,
-        "warnings": 68,
+        "warnings": 70,
         "infos": 907,
         "impacts": {
           "advisory": 943,
@@ -537,7 +559,7 @@
       "title": "NIST STC-07",
       "review": {
         "errors": 144,
-        "warnings": 68,
+        "warnings": 70,
         "infos": 91,
         "impacts": {
           "advisory": 101,
@@ -560,7 +582,7 @@
       "review": {
         "errors": 100,
         "warnings": 45,
-        "infos": 136,
+        "infos": 137,
         "impacts": {
           "advisory": 147,
           "decision": 1,
@@ -581,7 +603,7 @@
       "title": "NIST STC-09",
       "review": {
         "errors": 36,
-        "warnings": 342,
+        "warnings": 361,
         "infos": 101,
         "impacts": {
           "advisory": 212,
@@ -603,7 +625,7 @@
       "title": "NIST STC-10",
       "review": {
         "errors": 80,
-        "warnings": 173,
+        "warnings": 175,
         "infos": 68,
         "impacts": {
           "advisory": 148,
@@ -714,7 +736,7 @@
       "review": {
         "errors": 0,
         "warnings": 4,
-        "infos": 2,
+        "infos": 3,
         "impacts": {
           "advisory": 3,
           "decision": 1,
@@ -726,6 +748,28 @@
         "t2c-angle-bracket.drawing.json",
         "t2c-angle-bracket.pdf",
         "t2c-angle-bracket.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
+      "name": "t2c-angle-bracket-ai",
+      "step": "steps/text-to-cad/angle-bracket.step",
+      "title": "Angle bracket",
+      "review": {
+        "errors": 0,
+        "warnings": 4,
+        "infos": 3,
+        "impacts": {
+          "advisory": 3,
+          "decision": 0,
+          "incomplete": 4,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-angle-bracket-ai.drawing.json",
+        "t2c-angle-bracket-ai.pdf",
+        "t2c-angle-bracket-ai.review.json"
       ]
     },
     {
@@ -748,6 +792,28 @@
         "t2c-circular-flange.drawing.json",
         "t2c-circular-flange.pdf",
         "t2c-circular-flange.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
+      "name": "t2c-circular-flange-ai",
+      "step": "steps/text-to-cad/circular-flange.step",
+      "title": "Circular flange",
+      "review": {
+        "errors": 0,
+        "warnings": 2,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 2,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-circular-flange-ai.drawing.json",
+        "t2c-circular-flange-ai.pdf",
+        "t2c-circular-flange-ai.review.json"
       ]
     },
     {
@@ -814,6 +880,28 @@
         "t2c-guide-bar.drawing.json",
         "t2c-guide-bar.pdf",
         "t2c-guide-bar.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
+      "name": "t2c-guide-bar-ai",
+      "step": "steps/text-to-cad/guide-bar.step",
+      "title": "Guide bar",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 1,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-guide-bar-ai.drawing.json",
+        "t2c-guide-bar-ai.pdf",
+        "t2c-guide-bar-ai.review.json"
       ]
     },
     {
@@ -912,13 +1000,13 @@
       "title": "Mounting plate",
       "review": {
         "errors": 0,
-        "warnings": 1,
+        "warnings": 2,
         "infos": 2,
         "impacts": {
-          "advisory": 3,
+          "advisory": 4,
           "decision": 0,
           "incomplete": 0,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -935,7 +1023,7 @@
       "review": {
         "errors": 0,
         "warnings": 3,
-        "infos": 0,
+        "infos": 1,
         "impacts": {
           "advisory": 3,
           "decision": 1,
@@ -951,12 +1039,34 @@
     },
     {
       "kind": "drawing",
+      "name": "t2c-perforated-plate-ai",
+      "step": "steps/text-to-cad/perforated-plate.step",
+      "title": "Perforated plate",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 0,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 0,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-perforated-plate-ai.drawing.json",
+        "t2c-perforated-plate-ai.pdf",
+        "t2c-perforated-plate-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "t2c-pivot-mount-plate",
       "step": "steps/text-to-cad/pivot-mount-plate.step",
       "title": "Pivot mount plate",
       "review": {
         "errors": 0,
-        "warnings": 2,
+        "warnings": 3,
         "infos": 1,
         "impacts": {
           "advisory": 2,
@@ -969,6 +1079,28 @@
         "t2c-pivot-mount-plate.drawing.json",
         "t2c-pivot-mount-plate.pdf",
         "t2c-pivot-mount-plate.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
+      "name": "t2c-pivot-mount-plate-ai",
+      "step": "steps/text-to-cad/pivot-mount-plate.step",
+      "title": "Pivot mount plate",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 0,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 0,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-pivot-mount-plate-ai.drawing.json",
+        "t2c-pivot-mount-plate-ai.pdf",
+        "t2c-pivot-mount-plate-ai.review.json"
       ]
     },
     {
@@ -1018,6 +1150,28 @@
     },
     {
       "kind": "drawing",
+      "name": "t2c-stepped-shaft-keyway-ai",
+      "step": "steps/text-to-cad/stepped-shaft-keyway.step",
+      "title": "Stepped shaft with keyway",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 1,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 1,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-stepped-shaft-keyway-ai.drawing.json",
+        "t2c-stepped-shaft-keyway-ai.pdf",
+        "t2c-stepped-shaft-keyway-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "t8-flange-nut",
       "step": "steps/freecad/t8-flange-nut.step",
       "title": "T8 flange nut",
@@ -1045,7 +1199,7 @@
       "title": "T8 housing bracket",
       "review": {
         "errors": 0,
-        "warnings": 9,
+        "warnings": 10,
         "infos": 5,
         "impacts": {
           "advisory": 12,

@@ -1,0 +1,165 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "d:f:hole:1/bore.diameter"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "d:f:hole:2/bore.diameter"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   }
+  ],
+  "supported": 2,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [
+  {
+   "code": "feature_not_located",
+   "fix": "Locate each hole from a datum along each axis named, in the view that looks along it.",
+   "fix_description": "Locate each hole from a datum along each axis named, in the view that looks along it.",
+   "group": "feature_not_located:hole",
+   "id": "l:feature_not_located:holes",
+   "impact": "incomplete",
+   "message": "1 hole(s) have no locating dimension",
+   "requirements": [
+    {
+     "feature": "f:hole:2",
+     "parameter": "location.length.z"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "unrecognised_defining_geometry",
+   "fix": "State the step position length x75 381 of the feature in a view that shows its true size or location.",
+   "fix_description": "State the step position length x75 381 of the feature in a view that shows its true size or location.",
+   "group": "unrecognised_defining_geometry",
+   "id": "l:unrecognised_defining_geometry:step_level/step_position.length.x75.381",
+   "impact": "incomplete",
+   "measurements": [
+    "step_level/step_position.length.x75.381"
+   ],
+   "message": "The recognised x shoulder at 35.381 has no stated position on the drawing (distance 75.381 from the part's box).",
+   "requirements": [
+    {
+     "feature": "step_level",
+     "parameter": "step_position.length.x75.381"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "step_level"
+   ]
+  },
+  {
+   "code": "unrecognised_defining_geometry",
+   "fix": "State the step position length x93 072 of the feature in a view that shows its true size or location.",
+   "fix_description": "State the step position length x93 072 of the feature in a view that shows its true size or location.",
+   "group": "unrecognised_defining_geometry",
+   "id": "l:unrecognised_defining_geometry:step_level/step_position.length.x93.072",
+   "impact": "incomplete",
+   "measurements": [
+    "step_level/step_position.length.x93.072"
+   ],
+   "message": "The recognised x shoulder at 53.072 has no stated position on the drawing (distance 93.072 from the part's box).",
+   "requirements": [
+    {
+     "feature": "step_level",
+     "parameter": "step_position.length.x93.072"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "step_level"
+   ]
+  }
+ ],
+ "problems": [
+  {
+   "code": "feature_not_dimensioned",
+   "group": "feature_not_dimensioned:hole",
+   "id": "p:feature_not_dimensioned:f:hole:2",
+   "impact": "incomplete",
+   "message": "The \u230010 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features and dimensioned stock claim 9 of 10 faces; 1 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:8"
+   ]
+  }
+ ],
+ "structural": [
+  {
+   "annotation": "d:envelope/profile_angle.angle.f1_e4_e8",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:front:d:envelope/profile_angle.angle.f1_e4_e8",
+   "impact": "advisory",
+   "message": "label of annotation '120\u00b0' lies inside view 'front' extents [x=33.0\u2013133.0, y=72.7\u2013111.3] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:front"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "l:nominal_rounded",
+   "impact": "advisory",
+   "message": "1 dimension(s) print a nominal the model does not have, rounded to the sheet's precision; the largest is '38.6' for 38.6410 (0.0410 mm). Within a general tolerance this is ordinary. Where a fit depends on it, the dimension needs more places (set precision for its measurement ID)",
+   "severity": "info",
+   "subjects": []
+  }
+ ],
+ "summary": {
+  "groups": {
+   "feature_not_dimensioned:hole": 1,
+   "feature_not_located:hole": 1,
+   "nominal_rounded": 1,
+   "unclaimed_geometry": 1,
+   "unrecognised_defining_geometry": 2,
+   "view_annotation_inside_extents": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 3,
+    "groups": 3
+   },
+   "decision": {
+    "findings": 0,
+    "groups": 0
+   },
+   "incomplete": {
+    "findings": 4,
+    "groups": 3
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}

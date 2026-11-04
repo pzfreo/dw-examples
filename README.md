@@ -3,17 +3,18 @@
 Prebuilt [draftwright](https://github.com/pzfreo/draftwright-rust) drawings and assembly packs
 for public STEP files. Every drawing here is produced by the stock `draftwright` CLI from
 [draftwright-rust](https://github.com/pzfreo/draftwright-rust): no custom scripts, no hand edits,
-no post-processing. The only authored settings are title blocks, and those
-live in [`drawings.toml`](drawings.toml).
+no post-processing. Most drawings set only a title block, in [`drawings.toml`](drawings.toml).
+The [AI best-effort drawings](#ai-best-effort-drawings) also use a Spec from [`specs/`](specs/README.md).
 
-The current set is built by draftwright **v0.2.5**. The drawings are unreviewed output, shown
+The current set is built by draftwright **v0.2.9**. The drawings are unreviewed output, shown
 as draftwright draws them, including its mistakes: features are recognised automatically and
 some are missed or misread. Each drawing's `.review.json` lists the problems draftwright found
 in it; each assembly pack has a `.report.json` with per-part findings and failures.
 
 ## Drawings
 
-44 drawings and three assembly packs from six sources. See [Licensing](#licensing) for where
+54 drawings and three assembly packs from six sources: 44 baselines, listed below, and ten
+[AI best-effort versions](#ai-best-effort-drawings): nine text-to-cad parts and NIST CTC-01. See [Licensing](#licensing) for where
 each STEP file comes from and the terms it is shared under.
 
 ### NIST MBE PMI test parts (AP242 with semantic PMI)
@@ -85,6 +86,54 @@ each STEP file comes from and the terms it is shared under.
 | Pivot mount plate | [`pivot-mount-plate.step`](steps/text-to-cad/pivot-mount-plate.step) | [`t2c-pivot-mount-plate.pdf`](drawings/t2c-pivot-mount-plate/t2c-pivot-mount-plate.pdf) |
 | Stepped shaft with keyway | [`stepped-shaft-keyway.step`](steps/text-to-cad/stepped-shaft-keyway.step) | [`t2c-stepped-shaft-keyway.pdf`](drawings/t2c-stepped-shaft-keyway/t2c-stepped-shaft-keyway.pdf) |
 
+## AI best-effort drawings
+
+Nine text-to-cad parts and NIST CTC-01 are drawn twice from the same STEP file, to show what an
+agent can add through a Spec and what it can't:
+
+- **Baseline** (`t2c-<part>`, `nist-ctc-01`): the title block alone, so everything else is draftwright's default.
+- **AI best effort** (`t2c-<part>-ai`, `nist-ctc-01-ai`): a Spec an AI wrote using draftwright's analysis, plan and
+  review, with no hand-drawing and no edits to the output.
+
+The first three parts below mostly apply the review's own fixes, with
+[`review_loop.py`](specs/review_loop.py). The other six go further: an agent read the part as a
+designer would and authored dimensions to match its model source.
+
+Review is findings by impact: incomplete / decision / readability / advisory.
+
+| Part | Drawings | Sheet | Review | What changed, and what's still missing |
+| --- | --- | --- | --- | --- |
+| Mounting plate | [Baseline](drawings/t2c-mounting-plate/t2c-mounting-plate.pdf) · [AI](drawings/t2c-mounting-plate-ai/t2c-mounting-plate-ai.pdf) · [Spec](specs/t2c-mounting-plate-ai.spec.json) | A4 1:1 → A4 1:1 | 0/1/2/1 → 0/0/0/4 | Holes located from the left and bottom edges; radius leaders tidied; side and isometric views omitted. The review's own fixes also added a crossing line and an overrun callout. |
+| Electronics enclosure base | [Baseline](drawings/t2c-electronics-enclosure-base/t2c-electronics-enclosure-base.pdf) · [AI](drawings/t2c-electronics-enclosure-base-ai/t2c-electronics-enclosure-base-ai.pdf) · [Spec](specs/t2c-electronics-enclosure-base-ai.spec.json) | A4 1:2 → A3 1:1 | 1/1/2/3 → 1/0/1/2 | Holes located from the edges; the 50 and 35 drawn once; section arrows clear. The stepped detail has no room at 1:1 on A3. |
+| L bracket | [Baseline](drawings/t2c-l-bracket/t2c-l-bracket.pdf) · [AI](drawings/t2c-l-bracket-ai/t2c-l-bracket-ai.pdf) · [Spec](specs/t2c-l-bracket-ai.spec.json) | A4 1:2 → A4 1:2 | 0/1/1/10 → 0/0/1/6 | Four extension lines moved off the ⌀6 holes. The holes are still called 8 deep in an 8 mm plate; no Spec field can fix that. |
+| Angle bracket | [Baseline](drawings/t2c-angle-bracket/t2c-angle-bracket.pdf) · [AI](drawings/t2c-angle-bracket-ai/t2c-angle-bracket-ai.pdf) · [Spec](specs/t2c-angle-bracket-ai.spec.json) | A4 1:1 → A4 1:1 | 3/1/0/3 → 4/0/0/3 | Projection by-products (75.381, 93.072) replaced by the designer's 80, 40, 8 and 120°; the ⌀10 hole located. No auxiliary view is possible, so the flange is never shown true. |
+| Stepped shaft with keyway | [Baseline](drawings/t2c-stepped-shaft-keyway/t2c-stepped-shaft-keyway.pdf) · [AI](drawings/t2c-stepped-shaft-keyway-ai/t2c-stepped-shaft-keyway-ai.pdf) · [Spec](specs/t2c-stepped-shaft-keyway-ai.spec.json) | A4 1:1 → A4 1:1 | 0/1/0/1 → 1/0/0/1 | Keyway located from the shaft's end instead of a tangent; shoulders as 30 and 60; floor as a reference. No section through the keyway is possible. |
+| Circular flange | [Baseline](drawings/t2c-circular-flange/t2c-circular-flange.pdf) · [AI](drawings/t2c-circular-flange-ai/t2c-circular-flange-ai.pdf) · [Spec](specs/t2c-circular-flange-ai.spec.json) | A4 1:1 → A4 1:1 | 2/1/1/1 → 2/0/0/1 | ⌀30 leader moved off its centre line. The baseline's sizes were already right, so this is the smallest change. |
+| Guide bar | [Baseline](drawings/t2c-guide-bar/t2c-guide-bar.pdf) · [AI](drawings/t2c-guide-bar-ai/t2c-guide-bar-ai.pdf) · [Spec](specs/t2c-guide-bar-ai.spec.json) | A4 1:5 → A3 1:2 | 0/1/1/1 → 1/0/0/1 | Larger scale; holes 20 from each end of the bar; 600 + 30 instead of 600 and 630. No broken view is possible, and the overall length had to go. |
+| Perforated plate | [Baseline](drawings/t2c-perforated-plate/t2c-perforated-plate.pdf) · [AI](drawings/t2c-perforated-plate-ai/t2c-perforated-plate-ai.pdf) · [Spec](specs/t2c-perforated-plate-ai.spec.json) | A4 1:2 → A3 1:1 | 0/1/0/3 → 0/0/0/1 | Hole table replaces crowded dimensions; the ⌀6 rows now have a stated distance from the edge; the slot has its own location. |
+| Pivot mount plate | [Baseline](drawings/t2c-pivot-mount-plate/t2c-pivot-mount-plate.pdf) · [AI](drawings/t2c-pivot-mount-plate-ai/t2c-pivot-mount-plate-ai.pdf) · [Spec](specs/t2c-pivot-mount-plate-ai.spec.json) | A4 1:1 → A4 1:1 | 0/1/1/2 → 0/0/0/1 | Holes 12 from the edges, as the source defines them; datums A, B and C; leaders and labels clear. |
+| NIST CTC-01 | [Baseline](drawings/nist-ctc-01/nist-ctc-01.pdf) · [AI](drawings/nist-ctc-01-ai/nist-ctc-01-ai.pdf) · [Spec](specs/nist-ctc-01-ai.spec.json) | A3 1:5 → A3 1:5 | 17/1/4/24 → 17/0/7/33 | PMI kept, with the ear edges, rectangular notches and bar edge added. Four values with no nominal in the file's PMI stay missing. |
+
+How to read the comparison:
+
+- **The review count isn't the measure of progress.** The angle bracket, stepped shaft and guide bar
+  each gain an `incomplete` finding, because lint doesn't credit the authored dimensions that make
+  those drawings better. Nor does a quiet review prove a drawing complete: on the perforated plate,
+  adding the hole table left the slot unlocated, no finding mentioned it, and only the render showed it.
+- **Decision findings clear because a tolerance was stated.** The text-to-cad AI drawings state ISO
+  2768-m, which isn't in the STEP file or the model file; CTC-01 states `UNSPECIFIED`.
+- **The last six parts had a model source to read.** Their design dimensions and material come from
+  it, not from the STEP file. An agent given only a STEP file couldn't recover that intent.
+- **A3 is used only where A4 was tried and read worse.** The guide bar is too long for A4 at a useful
+  scale; the enclosure's section marks collide with its dimensions at 1:2; and on the perforated plate,
+  A4 at 1:1 can't place the table, while 1:2 runs three lines through a ⌀10 hole.
+- **None of these has been judged fit to manufacture from.** Like the rest of this repository, they
+  are unreviewed output. The pivot mount plate's bushing bore, for example, has no fit stated because
+  the model file gives none.
+
+[`specs/README.md`](specs/README.md) has the detail for each part, including the choices not taken
+from the source and the draftwright issues each one raised.
+
 ## Assemblies
 
 | Assembly | STEP input | Pack PDF | Parts list CSV |
@@ -109,8 +158,8 @@ as a successful build; failed parts and GA failures are printed and recorded in 
 Each drawing directory holds:
 
 - `<name>.pdf`, the drawing;
-- `<name>.drawing.json`, the draftwright Spec it was drawn from (only the title block is set;
-  everything else is draftwright's default);
+- `<name>.drawing.json`, the draftwright Spec it was drawn from (only the title block is set,
+  and everything else is draftwright's default, except on the AI best-effort drawings);
 - `<name>.review.json`, the output of `draftwright review` without the SVG: its problems,
   lint and summary.
 
@@ -124,7 +173,7 @@ also counts as an error. A version bump therefore shows up in one small file as 
 ## How a drawing is defined
 
 ```toml
-draftwright = "v0.2.5"   # the draftwright-rust release tag that builds every drawing
+draftwright = "v0.2.9"   # the draftwright-rust release tag that builds every drawing
 formats = ["pdf"]
 
 [[drawing]]
@@ -141,7 +190,8 @@ number = "GRM-00"
 ```
 
 For each `[[drawing]]` entry `build.py` writes `drawings/<name>/<name>.drawing.json`, a Spec
-holding only the title block, then runs
+holding only the title block, or the file an optional `spec` key names with the title block added,
+then runs
 
 ```
 draftwright render <step> --spec <spec> -o drawings/<name>/<name> --formats pdf
@@ -163,14 +213,14 @@ folder's README, add an entry, and run the build.
 
 ## Building locally
 
-Use the [draftwright-rust release](https://github.com/pzfreo/draftwright-rust/releases/tag/v0.2.5)
+Use the [draftwright-rust release](https://github.com/pzfreo/draftwright-rust/releases/tag/v0.2.9)
 matching the tag in `drawings.toml`, and verify the archive against its `.sha256` asset.
 Pass the extracted binary with `--cli` if another draftwright is on PATH (the Python
 package is a different CLI). Alternatively, build from the pinned tag; the repository
 pins its Rust toolchain:
 
 ```
-git clone --depth 1 --branch v0.2.5 https://github.com/pzfreo/draftwright-rust
+git clone --depth 1 --branch v0.2.9 https://github.com/pzfreo/draftwright-rust
 (cd draftwright-rust && cargo install --locked --path . --bin draftwright)
 python3 build.py                 # rebuild everything (Python 3.11 or later)
 python3 build.py nist-ctc-03     # rebuild one drawing
