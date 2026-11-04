@@ -1017,6 +1017,28 @@
     },
     {
       "kind": "drawing",
+      "name": "t2c-perforated-plate-ai",
+      "step": "steps/text-to-cad/perforated-plate.step",
+      "title": "Perforated plate",
+      "review": {
+        "errors": 0,
+        "warnings": 1,
+        "infos": 0,
+        "impacts": {
+          "advisory": 1,
+          "decision": 0,
+          "incomplete": 0,
+          "readability": 0
+        }
+      },
+      "files": [
+        "t2c-perforated-plate-ai.drawing.json",
+        "t2c-perforated-plate-ai.pdf",
+        "t2c-perforated-plate-ai.review.json"
+      ]
+    },
+    {
+      "kind": "drawing",
       "name": "t2c-pivot-mount-plate",
       "step": "steps/text-to-cad/pivot-mount-plate.step",
       "title": "Pivot mount plate",

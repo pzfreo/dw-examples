@@ -29,6 +29,7 @@ those of v0.2.9; a Draftwright bump may need them set again.
 | Stepped shaft with keyway | see below | | see below |
 | Circular flange | see below | | see below |
 | Guide bar | see below | | see below |
+| Perforated plate | see below | | see below |
 
 The spring in the shock-absorber pack (simplified coil with a data table) needs Draftwright
 work and has no `-ai` version yet.
@@ -208,3 +209,46 @@ Each was reproduced against the release binary with this Spec.
    ("may not fit A3 at 1:2; A3 at 1:5 fits") with every view on the sheet at 20% fill, and on A2 as
    well. Shrinking a view can't make the sheet overflow, and the offered fix returns the bar to 1:5.
    The factor is left out here, so the isometric stays large.
+
+## Perforated plate: best effort with a hole table
+
+| STEP | Baseline | AI best effort | Spec |
+|---|---|---|---|
+| [`perforated-plate.step`](../steps/text-to-cad/perforated-plate.step) | [PDF](../drawings/t2c-perforated-plate/t2c-perforated-plate.pdf) | [PDF](../drawings/t2c-perforated-plate-ai/t2c-perforated-plate-ai.pdf) | [`t2c-perforated-plate-ai.spec.json`](t2c-perforated-plate-ai.spec.json) |
+
+- **Baseline:** A4 at 1:2 with the plan view crowded by location dimensions. Nothing printed gives the
+  ⌀6 rows' distance from an edge (15), only their spacing (70). The slot's across location is only
+  implied by the ⌀10's 50.
+- **AI:** A3 at 1:1 with a hole table, as the [model source](https://github.com/amywork777/text-to-cad-upstream/blob/85d8fdbfb467ebd7e22994fe8bcd86afa6626ed3/models/examples/src/perforated_plate.py)
+  describes the part ("the part a hole table documents"). Every hole has its own X and Y; the slot
+  has its own 50 across; the side view, which added nothing, is omitted; material from the source.
+  Each value matches the source: the slot's centre is 98 + 12 = 110 from the left edge, the source's
+  30 from the plate's centre.
+- **Review:** baseline 1 decision, 3 advisory; AI 1 advisory. This time the count follows the drawing.
+  The advisory is fair: the slot's 50 runs through a ⌀10 on whichever side it's placed, because the
+  slot lies between the two ⌀10 holes.
+- **Choices not from the source:** ISO 2768-m is assumed. The slot's 50 is measured from the far edge
+  (issue 2). Nobody has judged this drawing fit to manufacture from.
+
+### Issues found (v0.2.9)
+
+Each was reproduced against the release binary with this Spec. None is filed yet.
+
+1. **A hole table can leave a slot unlocated, and lint stays quiet.** With `hole_table: always`, the
+   slot's `location_slot_across` stays "covered" by the ⌀10's y, which is now only a table row for a
+   different feature. Nothing on the drawing locates the slot across the plate, and the review reports
+   no finding. Setting that dimension or its `view` doesn't bring it back.
+2. **K6 again** ([draftwright-rust#294](https://github.com/pzfreo/draftwright-rust/issues/294)). An
+   authored 50 from the near edge to the slot is refused as a duplicate of the ⌀10's y. Workaround:
+   measure from the far edge, a true but arbitrary choice.
+3. **A slot's centre can't be referenced.** `axis:f:slot:1` is refused ("several cylinder axes"), and
+   only the end arcs' axes can be named. So the source's 110 to the centre can't be printed; the
+   drawing keeps 98 to the near end. Authoring 102 to an end arc's axis instead leaves
+   `slot_requirement_missing`, as in [draftwright-rust#301](https://github.com/pzfreo/draftwright-rust/issues/301).
+4. **The table is refused with paper to spare.** On A3 at 1:1 with all views, `hole_table_unavailable`
+   says "no clear place" on a sheet the plan reports as 49% full. Omitting the side view makes it fit; the
+   message doesn't say what blocks it, so that took trial.
+5. **Table tags aren't in reading order.** The top row reads C9, C10, C2, C3, C4 and the bottom C1, C5,
+   C6, C7, C8, so a reader hunts for a row. No Spec field orders them.
+6. **A confusing reference message.** "choose axis:face:<fingerprint>" doesn't say the fingerprint
+   keeps its `v1:` but drops `face:`; a copied `face:v1:…` gives "Unknown reference face:face:v1:…".

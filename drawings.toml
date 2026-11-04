@@ -343,3 +343,10 @@ step = "steps/text-to-cad/guide-bar.step"
 spec = "specs/t2c-guide-bar-ai.spec.json"
 title = "Guide bar"
 number = "T2C-GUIDE-BAR"
+
+[[drawing]]
+name = "t2c-perforated-plate-ai"
+step = "steps/text-to-cad/perforated-plate.step"
+spec = "specs/t2c-perforated-plate-ai.spec.json"
+title = "Perforated plate"
+number = "T2C-PERFORATED-PLATE"

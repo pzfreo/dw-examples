@@ -1,0 +1,209 @@
+{
+ "drawing_consumer": {
+  "holes": [
+   {
+    "carriers": [
+     "hole_schedule_plan/C1/size"
+    ],
+    "feature": "f:hole:1",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C5/size"
+    ],
+    "feature": "f:hole:2",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C6/size"
+    ],
+    "feature": "f:hole:3",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C7/size"
+    ],
+    "feature": "f:hole:4",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C8/size"
+    ],
+    "feature": "f:hole:5",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A2/size"
+    ],
+    "feature": "f:hole:6",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C9/size"
+    ],
+    "feature": "f:hole:7",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C10/size"
+    ],
+    "feature": "f:hole:8",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/B1/size"
+    ],
+    "feature": "f:hole:9",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/A1/size"
+    ],
+    "feature": "f:hole:10",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C2/size"
+    ],
+    "feature": "f:hole:11",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C3/size"
+    ],
+    "feature": "f:hole:12",
+    "state": "supported"
+   },
+   {
+    "carriers": [
+     "hole_schedule_plan/C4/size"
+    ],
+    "feature": "f:hole:13",
+    "state": "supported"
+   }
+  ],
+  "supported": 13,
+  "unknown": 0,
+  "unsupported": 0
+ },
+ "lint": [],
+ "problems": [
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:authored:slot_y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 50 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 50 crosses the \u230010 hole. [extension_through_feature] The second extension line of 50 crosses the \u230024 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:authored:slot_y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:authored:slot_y|f:hole:10:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 50 crosses the \u230010 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:authored:slot_y",
+    "f:hole:10"
+   ]
+  }
+ ],
+ "structural": [],
+ "summary": {
+  "groups": {
+   "extension_through_feature": 1
+  },
+  "impacts": {
+   "advisory": {
+    "findings": 1,
+    "groups": 1
+   },
+   "decision": {
+    "findings": 0,
+    "groups": 0
+   },
+   "incomplete": {
+    "findings": 0,
+    "groups": 0
+   },
+   "readability": {
+    "findings": 0,
+    "groups": 0
+   }
+  }
+ }
+}
