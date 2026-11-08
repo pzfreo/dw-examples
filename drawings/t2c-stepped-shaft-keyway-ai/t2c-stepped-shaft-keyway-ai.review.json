@@ -29,23 +29,11 @@
     "face:3",
     "face:13"
    ]
-  },
-  {
-   "code": "dimension_edit_unapplied",
-   "group": "dimension_edit_unapplied",
-   "id": "p:dimension_edit_unapplied:dimensions/d:f:section_recess:1~1location_pocket.location.y",
-   "impact": "decision",
-   "message": "A dimension named by the saved Spec has no current measurement; its edit is retained but cannot be applied.",
-   "severity": "warning",
-   "subjects": [
-    "dimensions/d:f:section_recess:1~1location_pocket.location.y"
-   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "dimension_edit_unapplied": 1,
    "location_on_axis": 1,
    "unclaimed_geometry": 1
   },
@@ -55,8 +43,8 @@
     "groups": 2
    },
    "decision": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    },
    "incomplete": {
     "findings": 0,

@@ -317,13 +317,13 @@
       "title": "NIST CTC-01",
       "review": {
         "errors": 0,
-        "warnings": 35,
-        "infos": 14,
+        "warnings": 19,
+        "infos": 17,
         "impacts": {
-          "advisory": 42,
-          "decision": 1,
+          "advisory": 28,
+          "decision": 3,
           "incomplete": 0,
-          "readability": 6
+          "readability": 5
         }
       },
       "files": [
@@ -1155,11 +1155,11 @@
       "title": "Stepped shaft with keyway",
       "review": {
         "errors": 0,
-        "warnings": 1,
+        "warnings": 0,
         "infos": 2,
         "impacts": {
           "advisory": 2,
-          "decision": 1,
+          "decision": 0,
           "incomplete": 0,
           "readability": 0
         }

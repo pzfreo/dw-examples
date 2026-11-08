@@ -146,35 +146,6 @@
    ]
   },
   {
-   "code": "feature_located_twice",
-   "fix": "State the location length x of the rectangular through notch in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the rectangular through notch in a view that shows its true size or location.",
-   "group": "feature_located_twice",
-   "id": "l:feature_located_twice:f:rectangular_through_notch:2/location.length.x",
-   "impact": "advisory",
-   "measurements": [
-    "f:rectangular_through_notch:2/location.length.x"
-   ],
-   "message": "f:rectangular_through_notch:2 on x: independent drawn dimension chains reach an origin (d:authored:notch_left, d:authored:notch_left_w, d:f:rectangular_through_notch:2/location.length.x, d:f:rectangular_through_notch:2/notch_width.length).",
-   "related": [
-    "d:authored:notch_left",
-    "d:authored:notch_left_w",
-    "d:f:rectangular_through_notch:2/location.length.x",
-    "d:f:rectangular_through_notch:2/notch_width.length"
-   ],
-   "requirements": [
-    {
-     "feature": "f:rectangular_through_notch:2",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:rectangular_through_notch:2"
-   ]
-  },
-  {
    "annotation": "d:f:fillet:32/fillet.radius",
    "at": [
     138.2928,
@@ -208,8 +179,8 @@
   {
    "annotation": "d:f:fillet:4/fillet.radius",
    "at": [
-    79.4644,
-    217.33440000000002
+    176.5356,
+    170.5356
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
@@ -229,39 +200,6 @@
     "f:fillet:7",
     "f:fillet:11",
     "f:fillet:16"
-   ],
-   "view": "v:plan"
-  },
-  {
-   "annotation": "d:f:fillet:2/fillet.radius",
-   "at": [
-    75.071,
-    148.799
-   ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:2/fillet.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:fillet:1/fillet.radius",
-    "f:fillet:2/fillet.radius",
-    "f:fillet:3/fillet.radius",
-    "f:fillet:8/fillet.radius",
-    "f:fillet:9/fillet.radius",
-    "f:fillet:10/fillet.radius",
-    "f:fillet:17/fillet.radius"
-   ],
-   "message": "d:f:fillet:2/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:fillet:1",
-    "f:fillet:2",
-    "f:fillet:3",
-    "f:fillet:8",
-    "f:fillet:9",
-    "f:fillet:10",
-    "f:fillet:17"
    ],
    "view": "v:plan"
   }
@@ -311,66 +249,6 @@
    "message": "A feature lies on the selected datum; its location has no nonzero distance to draw.",
    "severity": "info",
    "subjects": []
-  },
-  {
-   "code": "duplicate_measurement",
-   "group": "duplicate_measurement",
-   "id": "p:duplicate_measurement:d:authored:notch_depth:d:f:rectangular_through_notch:1/notch_depth.length",
-   "impact": "advisory",
-   "message": "25 repeats a measurement already stated by 25; both truthful statements are retained.",
-   "severity": "warning",
-   "subjects": [
-    "d:authored:notch_depth",
-    "d:f:rectangular_through_notch:1/notch_depth.length"
-   ]
-  },
-  {
-   "code": "duplicate_measurement",
-   "group": "duplicate_measurement",
-   "id": "p:duplicate_measurement:d:authored:notch_depth:d:f:rectangular_through_notch:2/notch_depth.length",
-   "impact": "advisory",
-   "message": "25 repeats a measurement already stated by 25; both truthful statements are retained.",
-   "severity": "warning",
-   "subjects": [
-    "d:authored:notch_depth",
-    "d:f:rectangular_through_notch:2/notch_depth.length"
-   ]
-  },
-  {
-   "code": "duplicate_measurement",
-   "group": "duplicate_measurement",
-   "id": "p:duplicate_measurement:d:authored:notch_left:d:f:rectangular_through_notch:2/location.length.x",
-   "impact": "advisory",
-   "message": "207.5 repeats a measurement already stated by 207.5; both truthful statements are retained.",
-   "severity": "warning",
-   "subjects": [
-    "d:authored:notch_left",
-    "d:f:rectangular_through_notch:2/location.length.x"
-   ]
-  },
-  {
-   "code": "duplicate_measurement",
-   "group": "duplicate_measurement",
-   "id": "p:duplicate_measurement:d:authored:notch_left_w:d:f:rectangular_through_notch:2/notch_width.length",
-   "impact": "advisory",
-   "message": "85 repeats a measurement already stated by 85; both truthful statements are retained.",
-   "severity": "warning",
-   "subjects": [
-    "d:authored:notch_left_w",
-    "d:f:rectangular_through_notch:2/notch_width.length"
-   ]
-  },
-  {
-   "code": "duplicate_measurement",
-   "group": "duplicate_measurement",
-   "id": "p:duplicate_measurement:d:authored:notch_right_w:d:f:rectangular_through_notch:1/notch_width.length",
-   "impact": "advisory",
-   "message": "85 repeats a measurement already stated by 85; both truthful statements are retained.",
-   "severity": "warning",
-   "subjects": [
-    "d:authored:notch_right_w",
-    "d:f:rectangular_through_notch:1/notch_width.length"
-   ]
   },
   {
    "code": "pmi_read_fact",
@@ -465,717 +343,6 @@
    ],
    "severity": "info",
    "subjects": []
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 R20 callout to the left of the plan view, nearest the view. Trade-off: adds these findings: A line of 40 runs through the label of 2\u00d7 R20. [annotation_ink_overlap] The leader of 2\u00d7 R20 crosses a line of 225. [annotation_leader_crossing] The leader of 2\u00d7 R20 crosses a line of 40. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_end_radius.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:slot:1/slot_end_radius.radius|d:f:slot:2/slot_width.length",
-   "impact": "advisory",
-   "message": "The leader of 2\u00d7 R20 crosses a line of 50.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_end_radius.radius",
-    "d:f:slot:2/slot_width.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:chamfer:1~1chamfer.length/place",
-     "value": {
-      "along": "end",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the C50 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of C50 crosses a line of 100. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:chamfer:1~1chamfer.length/place",
-       "value": {
-        "along": "end",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:chamfer:1/chamfer.length|d:authored:notch_right",
-   "impact": "advisory",
-   "message": "The leader of C50 crosses a line of 207.5.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:chamfer:1/chamfer.length",
-    "d:authored:notch_right"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:15~1fillet.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 18\u00d7 R10 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of 18\u00d7 R10 crosses a line of 507.5. [annotation_leader_crossing] The leader of 18\u00d7 R10 crosses a line of 100. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:15~1fillet.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:fillet:15/fillet.radius|d:authored:notch_depth",
-   "impact": "advisory",
-   "message": "The leader of 18\u00d7 R10 crosses a line of 25.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:fillet:15/fillet.radius",
-    "d:authored:notch_depth"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:8~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the \u230025 \u00b10.15 THRU callout above the plan view, nearest the view. Trade-off: adds these findings: A line of 507.5 runs through the label of \u230025 \u00b10.15 THRU. [annotation_ink_overlap] The leader of \u230025 \u00b10.15 THRU crosses a line of 507.5. [annotation_leader_crossing] The leader of \u230025 \u00b10.15 THRU crosses a line of 100. [annotation_leader_crossing] The leader of \u230025 \u00b10.15 THRU crosses a line of 25. [annotation_leader_crossing] The leader of \u230025 \u00b10.15 THRU crosses a line of 85. [annotation_leader_crossing] A line of 85 runs through the label of \u230025 \u00b10.15 THRU. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:8~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:8/bore.diameter|d:f:slot:2/slot_width.length",
-   "impact": "advisory",
-   "message": "The leader of \u230025 \u00b10.15 THRU crosses a line of 50.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:8/bore.diameter",
-    "d:f:slot:2/slot_width.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:8~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the \u230025 \u00b10.15 THRU callout above the plan view, nearest the view. Trade-off: adds these findings: A line of 507.5 runs through the label of \u230025 \u00b10.15 THRU. [annotation_ink_overlap] The leader of \u230025 \u00b10.15 THRU crosses a line of 507.5. [annotation_leader_crossing] The leader of \u230025 \u00b10.15 THRU crosses a line of 100. [annotation_leader_crossing] The leader of \u230025 \u00b10.15 THRU crosses a line of 25. [annotation_leader_crossing] The leader of \u230025 \u00b10.15 THRU crosses a line of 85. [annotation_leader_crossing] A line of 85 runs through the label of \u230025 \u00b10.15 THRU. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:8~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:8/bore.diameter|d:envelope/notch_depth.length.f97_e104_e108",
-   "impact": "advisory",
-   "message": "The leader of \u230025 \u00b10.15 THRU crosses a line of 2\u00d7 50.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:8/bore.diameter",
-    "d:envelope/notch_depth.length.f97_e104_e108"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:7~1bore.diameter/place",
-     "value": {
-      "offset": [
-       4.373980359565728,
-       -10.428187943803806
-      ],
-      "pinned": true,
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the leader bend of the \u230035 0/-0.2 THRU callout 4.374 mm right and 10.428 mm down from its tip, in the plan view. Trade-off: adds these findings: The labels of 7\u00d7 R50 and \u230035 0/-0.2 THRU overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 320 runs through the label of \u230035 0/-0.2 THRU. [annotation_ink_overlap] A line of 120 runs through the label of \u230035 0/-0.2 THRU. [annotation_ink_overlap] A line of 150 runs through the label of \u230035 0/-0.2 THRU. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:7~1bore.diameter/place",
-       "value": {
-        "offset": [
-         4.373980359565728,
-         -10.428187943803806
-        ],
-        "pinned": true,
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:7/bore.diameter|d:f:slot:1/slot_length.length",
-   "impact": "advisory",
-   "message": "The leader of \u230035 0/-0.2 THRU crosses a line of 120.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:7/bore.diameter",
-    "d:f:slot:1/slot_length.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:7~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the \u230035 0/-0.2 THRU callout above the plan view, nearest the view. Trade-off: adds these findings: A line of 507.5 runs through the label of \u230035 0/-0.2 THRU. [annotation_ink_overlap] The leader of \u230035 0/-0.2 THRU crosses a line of 3\u00d7 \u230025 THRU. [annotation_leader_crossing] The leader of \u230035 0/-0.2 THRU crosses a line of 225. [annotation_leader_crossing] The leader of \u230035 0/-0.2 THRU crosses a line of 50. [annotation_leader_crossing] The leader of \u230035 0/-0.2 THRU crosses a line of 507.5. [annotation_leader_crossing] The leader of \u230035 0/-0.2 THRU crosses a line of 2\u00d7 50. [annotation_leader_crossing] The leader of \u230035 0/-0.2 THRU crosses a line of 150. [annotation_leader_crossing] The leader of \u230035 0/-0.2 THRU crosses a line of 25. [annotation_leader_crossing] The leader of \u230035 0/-0.2 THRU crosses a line of 85. [annotation_leader_crossing] The leader of \u230035 0/-0.2 THRU crosses a line of 85. [annotation_leader_crossing] A line of 85 runs through the label of \u230035 0/-0.2 THRU. [annotation_ink_overlap] The leader of \u230035 0/-0.2 THRU crosses the \u230025 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:7~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:7/bore.diameter|d:f:slot:1/location_slot.length",
-   "impact": "advisory",
-   "message": "The leader of \u230035 0/-0.2 THRU crosses a line of 55.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:7/bore.diameter",
-    "d:f:slot:1/location_slot.length"
-   ]
   },
   {
    "code": "annotation_leader_crossing",
@@ -1563,90 +730,6 @@
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f22,23:ref=A,B,C",
     "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:10"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.col|f:slot:1:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 650 crosses the 40 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.col",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:10"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.col|f:slot:2:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 650 crosses the 50 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.col",
-    "f:slot:2"
    ]
   },
   {
@@ -2144,10 +1227,108 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:slot:2~1slot_length.length/place",
+     "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
      "value": {
       "along": "middle",
       "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 225 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: A line of 225 runs through the label of 90. [annotation_ink_overlap] A line of 225 runs through the label of 7\u00d7 R50. [annotation_ink_overlap] The second extension line of 225 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:1/location.length.y|f:slot:2:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 225 crosses the 50 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.y",
+    "f:slot:2"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:slot:2~1slot_length.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
       "side": "below",
       "view": "plan"
      }
@@ -2175,14 +1356,14 @@
    ],
    "fixes": [
     {
-     "description": "Move the 100 dimension below the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 100 crosses the \u230035 hole. [extension_through_feature].",
+     "description": "Move the 100 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 100 runs through the label of 150. [annotation_ink_overlap] The leader of 18\u00d7 R10 crosses a line of 100. [annotation_leader_crossing] The leader of 4\u00d7 R25 crosses a line of 100. [annotation_leader_crossing] The second extension line of 100 crosses the \u230035 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:slot:2~1slot_length.length/place",
        "value": {
         "along": "middle",
-        "lane": 0,
+        "lane": 1,
         "side": "below",
         "view": "plan"
        }
@@ -2242,108 +1423,10 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:authored:ear_left/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 150 dimension above the front view, in the second row of dimensions. Trade-off: adds these findings: A line of 150 runs through the label of 290. [annotation_ink_overlap] The leader of the feature control frame \u2313 0.5 A crosses a line of 150. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:authored:ear_left/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:authored:ear_left|f:slot:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 150 crosses the 40 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:authored:ear_left",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
      "path": "dimensions/d:authored:ear_right/place",
      "value": {
       "along": "middle",
-      "lane": 1,
+      "lane": 0,
       "side": "above",
       "view": "plan"
      }
@@ -2371,14 +1454,14 @@
    ],
    "fixes": [
     {
-     "description": "Move the 150 dimension above the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 650 runs through the label of 150. [annotation_ink_overlap] A line of 100 runs through the label of 150. [annotation_ink_overlap] The leader of C50 crosses a line of 150. [annotation_leader_crossing].",
+     "description": "Move the 150 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 100 runs through the label of 150. [annotation_ink_overlap] The leader of C50 crosses a line of 150. [annotation_leader_crossing] The leader of 18\u00d7 R10 crosses a line of 150. [annotation_leader_crossing] The leader of 2\u00d7 \u230035 \u00b10.2 THRU crosses a line of 150. [annotation_leader_crossing] A line of 150 runs through the label of 2\u00d7 \u230035 \u00b10.2 THRU. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:authored:ear_right/place",
        "value": {
         "along": "middle",
-        "lane": 1,
+        "lane": 0,
         "side": "above",
         "view": "plan"
        }
@@ -2434,119 +1517,6 @@
    ]
   },
   {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 225 dimension to the right of the plan view, nearest the view. Trade-off: adds these findings: The leader of \u230025 \u00b10.15 THRU crosses a line of 225. [annotation_leader_crossing] The second extension line of 225 crosses the 50 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/location.length.y|f:slot:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 225 crosses the 40 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:1/location.length.y",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "feature_located_twice",
-   "group": "feature_located_twice",
-   "id": "p:feature_located_twice:f:rectangular_through_notch:2/location.length.x",
-   "impact": "advisory",
-   "message": "the rectangular through notch on x: independent drawn dimension chains reach an origin (dimension 207.5, dimension 207.5_w, dimension 207.5, dimension 85).",
-   "severity": "warning",
-   "subjects": [
-    "f:rectangular_through_notch:2",
-    "d:authored:notch_left",
-    "d:authored:notch_left_w",
-    "d:f:rectangular_through_notch:2/location.length.x",
-    "d:f:rectangular_through_notch:2/notch_width.length"
-   ]
-  },
-  {
    "code": "label_crowded",
    "group": "label_crowded",
    "id": "p:label_crowded:d:envelope/notch_location_x.length.f97_e104_e108|d:f:hole:2/bore.diameter",
@@ -2556,6 +1526,48 @@
    "subjects": [
     "d:envelope/notch_location_x.length.f97_e104_e108",
     "d:f:hole:2/bore.diameter"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:hole_pattern:1/location.length.y|d:f:hole_pattern:2/grid_pitch.length.row",
+   "impact": "advisory",
+   "message": "Line-work of 225 passes less than 0.5 mm from the label of 350, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole_pattern:1/location.length.y",
+    "d:f:hole_pattern:2/grid_pitch.length.row"
+   ]
+  },
+  {
+   "code": "gdt_position_changed",
+   "group": "gdt_position_changed",
+   "id": "p:gdt_position_changed:pmi:datum.datum:f75,76:t=C",
+   "impact": "decision",
+   "message": "Datum feature symbol C moved from its automatic position to make room for the requested place of 510.",
+   "refs": [
+    "dimensions/d:envelope~1notch_location_x.length.f97_e104_e108/place"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f75,76:t=C",
+    "d:envelope/notch_location_x.length.f97_e104_e108"
+   ]
+  },
+  {
+   "code": "gdt_position_changed",
+   "group": "gdt_position_changed",
+   "id": "p:gdt_position_changed:pmi:datum.datum:f89,90:t=B",
+   "impact": "decision",
+   "message": "Datum feature symbol B moved from its automatic position to make room for the requested place of 510.",
+   "refs": [
+    "dimensions/d:envelope~1notch_location_x.length.f97_e104_e108/place"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f89,90:t=B",
+    "d:envelope/notch_location_x.length.f97_e104_e108"
    ]
   },
   {
@@ -2574,31 +1586,53 @@
    ]
   }
  ],
- "structural": [],
+ "structural": [
+  {
+   "annotation": "d:f:slot:1/slot_width.length",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:plan:d:f:slot:1/slot_width.length",
+   "impact": "advisory",
+   "message": "label of annotation '40' lies inside view 'plan' extents [x=48.0\u2013208.0, y=152.0\u2013242.0] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:plan"
+  },
+  {
+   "annotation": "pmi:datum.datum:f89,90:t=B",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:plan:pmi:datum.datum:f89,90:t=B",
+   "impact": "advisory",
+   "message": "label of annotation 'B' lies inside view 'plan' extents [x=48.0\u2013208.0, y=152.0\u2013242.0] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:plan"
+  }
+ ],
  "summary": {
   "groups": {
    "annotation_leader_crossing:dimension_line": 2,
-   "annotation_leader_crossing:extension_line": 9,
+   "annotation_leader_crossing:extension_line": 2,
    "closed_dimension_chain": 1,
    "datum_origin_unusable": 2,
    "detail_unplaceable": 1,
-   "duplicate_measurement": 5,
-   "extension_through_feature": 11,
-   "feature_located_twice": 2,
-   "gdt_position_changed": 1,
-   "label_crowded": 1,
+   "extension_through_feature": 8,
+   "gdt_position_changed": 3,
+   "label_crowded": 2,
    "location_on_datum": 1,
    "pmi_not_extracted": 6,
    "pmi_read_fact:dimension": 4,
-   "radius_leader_not_radial": 3
+   "radius_leader_not_radial": 2,
+   "view_annotation_inside_extents": 2
   },
   "impacts": {
    "advisory": {
-    "findings": 42,
-    "groups": 10
+    "findings": 28,
+    "groups": 9
    },
    "decision": {
-    "findings": 1,
+    "findings": 3,
     "groups": 1
    },
    "incomplete": {
@@ -2606,7 +1640,7 @@
     "groups": 0
    },
    "readability": {
-    "findings": 6,
+    "findings": 5,
     "groups": 3
    }
   }
