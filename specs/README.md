@@ -276,6 +276,10 @@ Each was reproduced against the release binary with this Spec.
   tolerance cites them, because the source gives no values to use. The ⌀16 takes a pressed bushing,
   and no fit is stated because the source gives none; someone needs to choose one before making it.
   Nobody has judged this drawing fit to manufacture from.
+- **v0.2.14:** the authored 12 and 12 from the left and front edges are removed, by the maintainer's
+  decision. Draftwright now credits the hole pattern as located from the ⌀16 (50, 35) and its pitches,
+  so the 12s drew two `feature_located_twice` warnings. The pattern is now located by symmetry about
+  the ⌀16.
 
 ### Issues found (v0.2.9)
 
