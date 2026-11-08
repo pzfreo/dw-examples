@@ -14,26 +14,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -44,26 +24,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -83,6 +43,17 @@
    ]
   },
   {
+   "code": "location_on_axis",
+   "group": "location_on_axis",
+   "id": "p:location_on_axis:f:section_recess:1/y",
+   "impact": "advisory",
+   "message": "The section recess is centred on the turning axis in y; no tangent location is needed.",
+   "severity": "info",
+   "subjects": [
+    "f:section_recess:1"
+   ]
+  },
+  {
    "code": "unclaimed_geometry",
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
@@ -99,12 +70,13 @@
  "summary": {
   "groups": {
    "general_tolerance_missing": 1,
+   "location_on_axis": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 1,
-    "groups": 1
+    "findings": 2,
+    "groups": 2
    },
    "decision": {
     "findings": 1,

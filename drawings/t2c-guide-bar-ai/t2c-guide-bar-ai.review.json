@@ -20,28 +20,7 @@
   "unknown": 0,
   "unsupported": 0
  },
- "lint": [
-  {
-   "code": "feature_not_located",
-   "fix": "Locate each hole from a datum along each axis named, in the view that looks along it.",
-   "fix_description": "Locate each hole from a datum along each axis named, in the view that looks along it.",
-   "group": "feature_not_located:hole",
-   "id": "l:feature_not_located:holes",
-   "impact": "incomplete",
-   "message": "1 hole(s) have no locating dimension",
-   "requirements": [
-    {
-     "feature": "f:hole:2",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole:2"
-   ]
-  }
- ],
+ "lint": [],
  "problems": [
   {
    "code": "unclaimed_geometry",
@@ -59,7 +38,6 @@
  "structural": [],
  "summary": {
   "groups": {
-   "feature_not_located:hole": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -72,8 +50,8 @@
     "groups": 0
    },
    "incomplete": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    },
    "readability": {
     "findings": 0,

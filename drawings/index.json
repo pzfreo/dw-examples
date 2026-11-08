@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.2.9",
+  "draftwright": "v0.2.14",
   "drawings": [
     {
       "kind": "drawing",
@@ -103,7 +103,7 @@
         "ga_failed": false,
         "errors": 0,
         "warnings": 30,
-        "infos": 23
+        "infos": 24
       },
       "files": [
         "gramil-pack.csv",
@@ -294,14 +294,14 @@
       "step": "steps/nist/nist_ctc_01_asme1_ap242.stp",
       "title": "NIST CTC-01",
       "review": {
-        "errors": 12,
-        "warnings": 22,
-        "infos": 12,
+        "errors": 0,
+        "warnings": 14,
+        "infos": 14,
         "impacts": {
           "advisory": 24,
           "decision": 1,
-          "incomplete": 17,
-          "readability": 4
+          "incomplete": 0,
+          "readability": 3
         }
       },
       "files": [
@@ -316,14 +316,14 @@
       "step": "steps/nist/nist_ctc_01_asme1_ap242.stp",
       "title": "NIST CTC-01",
       "review": {
-        "errors": 12,
-        "warnings": 28,
-        "infos": 17,
+        "errors": 0,
+        "warnings": 35,
+        "infos": 14,
         "impacts": {
-          "advisory": 33,
-          "decision": 0,
-          "incomplete": 17,
-          "readability": 7
+          "advisory": 42,
+          "decision": 1,
+          "incomplete": 0,
+          "readability": 6
         }
       },
       "files": [
@@ -339,12 +339,12 @@
       "title": "NIST CTC-02",
       "review": {
         "errors": 106,
-        "warnings": 182,
-        "infos": 139,
+        "warnings": 178,
+        "infos": 141,
         "impacts": {
-          "advisory": 159,
+          "advisory": 161,
           "decision": 1,
-          "incomplete": 244,
+          "incomplete": 240,
           "readability": 23
         }
       },
@@ -361,12 +361,12 @@
       "title": "NIST CTC-03",
       "review": {
         "errors": 66,
-        "warnings": 48,
-        "infos": 54,
+        "warnings": 44,
+        "infos": 55,
         "impacts": {
-          "advisory": 63,
+          "advisory": 64,
           "decision": 1,
-          "incomplete": 90,
+          "incomplete": 86,
           "readability": 14
         }
       },
@@ -384,9 +384,9 @@
       "review": {
         "errors": 36,
         "warnings": 273,
-        "infos": 103,
+        "infos": 104,
         "impacts": {
-          "advisory": 237,
+          "advisory": 238,
           "decision": 1,
           "incomplete": 87,
           "readability": 87
@@ -406,9 +406,9 @@
       "review": {
         "errors": 37,
         "warnings": 31,
-        "infos": 80,
+        "infos": 76,
         "impacts": {
-          "advisory": 80,
+          "advisory": 76,
           "decision": 1,
           "incomplete": 52,
           "readability": 15
@@ -427,12 +427,12 @@
       "title": "NIST FTC-06",
       "review": {
         "errors": 162,
-        "warnings": 59,
+        "warnings": 50,
         "infos": 240,
         "impacts": {
           "advisory": 245,
           "decision": 1,
-          "incomplete": 191,
+          "incomplete": 182,
           "readability": 24
         }
       },
@@ -471,12 +471,12 @@
       "title": "NIST FTC-08",
       "review": {
         "errors": 85,
-        "warnings": 105,
-        "infos": 128,
+        "warnings": 94,
+        "infos": 126,
         "impacts": {
-          "advisory": 143,
+          "advisory": 141,
           "decision": 1,
-          "incomplete": 101,
+          "incomplete": 90,
           "readability": 73
         }
       },
@@ -493,12 +493,12 @@
       "title": "NIST FTC-10",
       "review": {
         "errors": 89,
-        "warnings": 189,
+        "warnings": 183,
         "infos": 71,
         "impacts": {
           "advisory": 163,
           "decision": 1,
-          "incomplete": 107,
+          "incomplete": 101,
           "readability": 78
         }
       },
@@ -516,9 +516,9 @@
       "review": {
         "errors": 15,
         "warnings": 21,
-        "infos": 22,
+        "infos": 20,
         "impacts": {
-          "advisory": 22,
+          "advisory": 20,
           "decision": 1,
           "incomplete": 26,
           "readability": 9
@@ -538,9 +538,9 @@
       "review": {
         "errors": 56,
         "warnings": 70,
-        "infos": 907,
+        "infos": 905,
         "impacts": {
-          "advisory": 943,
+          "advisory": 941,
           "decision": 1,
           "incomplete": 66,
           "readability": 23
@@ -559,12 +559,12 @@
       "title": "NIST STC-07",
       "review": {
         "errors": 144,
-        "warnings": 70,
+        "warnings": 66,
         "infos": 91,
         "impacts": {
           "advisory": 101,
           "decision": 1,
-          "incomplete": 181,
+          "incomplete": 177,
           "readability": 22
         }
       },
@@ -581,12 +581,12 @@
       "title": "NIST STC-08",
       "review": {
         "errors": 100,
-        "warnings": 45,
+        "warnings": 34,
         "infos": 137,
         "impacts": {
           "advisory": 147,
           "decision": 1,
-          "incomplete": 123,
+          "incomplete": 112,
           "readability": 11
         }
       },
@@ -625,12 +625,12 @@
       "title": "NIST STC-10",
       "review": {
         "errors": 80,
-        "warnings": 175,
-        "infos": 68,
+        "warnings": 169,
+        "infos": 66,
         "impacts": {
-          "advisory": 148,
+          "advisory": 146,
           "decision": 1,
-          "incomplete": 98,
+          "incomplete": 92,
           "readability": 76
         }
       },
@@ -758,9 +758,9 @@
       "review": {
         "errors": 0,
         "warnings": 4,
-        "infos": 3,
+        "infos": 2,
         "impacts": {
-          "advisory": 3,
+          "advisory": 2,
           "decision": 0,
           "incomplete": 4,
           "readability": 0
@@ -779,12 +779,12 @@
       "title": "Circular flange",
       "review": {
         "errors": 0,
-        "warnings": 4,
+        "warnings": 2,
         "infos": 1,
         "impacts": {
           "advisory": 1,
           "decision": 1,
-          "incomplete": 2,
+          "incomplete": 0,
           "readability": 1
         }
       },
@@ -801,12 +801,12 @@
       "title": "Circular flange",
       "review": {
         "errors": 0,
-        "warnings": 2,
+        "warnings": 0,
         "infos": 1,
         "impacts": {
           "advisory": 1,
           "decision": 0,
-          "incomplete": 2,
+          "incomplete": 0,
           "readability": 0
         }
       },
@@ -823,13 +823,13 @@
       "title": "Electronics enclosure base",
       "review": {
         "errors": 0,
-        "warnings": 4,
+        "warnings": 3,
         "infos": 3,
         "impacts": {
           "advisory": 3,
           "decision": 1,
           "incomplete": 1,
-          "readability": 2
+          "readability": 1
         }
       },
       "files": [
@@ -889,12 +889,12 @@
       "title": "Guide bar",
       "review": {
         "errors": 0,
-        "warnings": 1,
+        "warnings": 0,
         "infos": 1,
         "impacts": {
           "advisory": 1,
           "decision": 0,
-          "incomplete": 1,
+          "incomplete": 0,
           "readability": 0
         }
       },
@@ -911,10 +911,10 @@
       "title": "L bracket",
       "review": {
         "errors": 0,
-        "warnings": 6,
-        "infos": 6,
+        "warnings": 10,
+        "infos": 1,
         "impacts": {
-          "advisory": 10,
+          "advisory": 9,
           "decision": 1,
           "incomplete": 0,
           "readability": 1
@@ -933,11 +933,11 @@
       "title": "L bracket",
       "review": {
         "errors": 0,
-        "warnings": 1,
-        "infos": 6,
+        "warnings": 7,
+        "infos": 1,
         "impacts": {
-          "advisory": 6,
-          "decision": 0,
+          "advisory": 5,
+          "decision": 2,
           "incomplete": 0,
           "readability": 1
         }
@@ -961,8 +961,8 @@
         "failed_parts": 0,
         "ga_failed": false,
         "errors": 0,
-        "warnings": 179,
-        "infos": 24
+        "warnings": 23,
+        "infos": 13
       },
       "files": [
         "t2c-motorcycle-shock-absorber-pack.csv",
@@ -1000,11 +1000,11 @@
       "title": "Mounting plate",
       "review": {
         "errors": 0,
-        "warnings": 2,
+        "warnings": 3,
         "infos": 2,
         "impacts": {
           "advisory": 4,
-          "decision": 0,
+          "decision": 1,
           "incomplete": 0,
           "readability": 0
         }
@@ -1088,10 +1088,10 @@
       "title": "Pivot mount plate",
       "review": {
         "errors": 0,
-        "warnings": 1,
+        "warnings": 5,
         "infos": 0,
         "impacts": {
-          "advisory": 1,
+          "advisory": 5,
           "decision": 0,
           "incomplete": 0,
           "readability": 0
@@ -1134,9 +1134,9 @@
       "review": {
         "errors": 0,
         "warnings": 1,
-        "infos": 1,
+        "infos": 2,
         "impacts": {
-          "advisory": 1,
+          "advisory": 2,
           "decision": 1,
           "incomplete": 0,
           "readability": 0
@@ -1156,11 +1156,11 @@
       "review": {
         "errors": 0,
         "warnings": 1,
-        "infos": 1,
+        "infos": 2,
         "impacts": {
-          "advisory": 1,
-          "decision": 0,
-          "incomplete": 1,
+          "advisory": 2,
+          "decision": 1,
+          "incomplete": 0,
           "readability": 0
         }
       },

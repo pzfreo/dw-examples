@@ -6122,19 +6122,6 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#11930 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
-   "group": "pmi_not_extracted:finding",
-   "id": "l:pmi_not_extracted:finding:#11930",
-   "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "info",
-   "sources": [
-    "finding:#11930"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
    "evidence": "AP242 other finding:#4088 was discovered but not extracted: haecceity unresolved-reference: items that are not faces, edges or geometry the reader holds: manifold_solid_brep; feature not read",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#4088",
@@ -6501,26 +6488,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A0"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -6531,26 +6498,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A0"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -13925,20 +13872,6 @@
   {
    "code": "pmi_not_extracted",
    "group": "pmi_not_extracted:finding",
-   "id": "p:pmi_not_extracted:finding:#11930",
-   "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
-   "refs": [
-    "finding:#11930",
-    "default_model_geometric_view",
-    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
    "id": "p:pmi_not_extracted:finding:#4088",
    "impact": "advisory",
    "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
@@ -19038,7 +18971,7 @@
    "nominal_rounded": 10,
    "pmi_not_extracted": 889,
    "pmi_not_extracted:dimension": 2,
-   "pmi_not_extracted:finding": 6,
+   "pmi_not_extracted:finding": 4,
    "pmi_not_extracted:geometric_tolerance": 8,
    "pmi_not_extracted:graphical_callout": 1,
    "pmi_not_lowered:datum": 1,
@@ -19058,7 +18991,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 943,
+    "findings": 941,
     "groups": 13
    },
    "decision": {

@@ -221,19 +221,6 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#11 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
-   "group": "pmi_not_extracted:finding",
-   "id": "l:pmi_not_extracted:finding:#11",
-   "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "info",
-   "sources": [
-    "finding:#11"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
    "evidence": "AP242 other finding:#281 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read\ngraphical_callout:#353; Graphical callout #353 (\"Cutting Plane Symbol B (1)\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#281",
@@ -400,26 +387,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -430,26 +397,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -628,20 +575,6 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
     "graphical_callout:#355",
     "graphical_text:\"Note (22)\""
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
-   "id": "p:pmi_not_extracted:finding:#11",
-   "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
-   "refs": [
-    "finding:#11",
-    "default_model_geometric_view",
-    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
    ],
    "severity": "info",
    "subjects": []
@@ -1228,7 +1161,7 @@
    "nominal_rounded": 1,
    "pmi_not_extracted": 6,
    "pmi_not_extracted:dimension": 1,
-   "pmi_not_extracted:finding": 4,
+   "pmi_not_extracted:finding": 2,
    "pmi_not_extracted:finding+graphical_callout": 2,
    "pmi_not_extracted:graphical_callout": 6,
    "pmi_not_lowered:dimension": 3,
@@ -1243,7 +1176,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 22,
+    "findings": 20,
     "groups": 8
    },
    "decision": {

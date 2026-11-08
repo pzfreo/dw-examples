@@ -240,294 +240,6 @@
    ]
   },
   {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/location.length.x"
-   ],
-   "message": "f:hole_pattern:1 has no proven x location of its centre on the drawing.",
-   "related": [
-    "f:hole:3",
-    "f:hole:1",
-    "f:hole:2",
-    "f:hole:4"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length y of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.y",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/location.length.y"
-   ],
-   "message": "f:hole_pattern:1 has no proven y location of its centre on the drawing.",
-   "related": [
-    "f:hole:3",
-    "f:hole:1",
-    "f:hole:2",
-    "f:hole:4"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 285.75",
-   "fix": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:grid_pitch.length.col",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/grid_pitch.length.col",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/grid_pitch.length.col"
-   ],
-   "message": "f:hole_pattern:1: grid_pitch.length.col is not proved by the printed drawing.",
-   "related": [
-    "f:hole:3",
-    "f:hole:1",
-    "f:hole:2",
-    "f:hole:4"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "grid_pitch.length.col"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 196.85",
-   "fix": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:grid_pitch.length.row",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/grid_pitch.length.row",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/grid_pitch.length.row"
-   ],
-   "message": "f:hole_pattern:1: grid_pitch.length.row is not proved by the printed drawing.",
-   "related": [
-    "f:hole:3",
-    "f:hole:1",
-    "f:hole:2",
-    "f:hole:4"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "grid_pitch.length.row"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/location.length.x"
-   ],
-   "message": "f:hole_pattern:2 has no proven x location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:5",
-    "f:hole:14",
-    "f:hole:13"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length y of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.y",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/location.length.y"
-   ],
-   "message": "f:hole_pattern:2 has no proven y location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:5",
-    "f:hole:14",
-    "f:hole:13"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 44.45",
-   "fix": "State the pitch length of the feature in a view that shows its true size or location.",
-   "fix_description": "State the pitch length of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:pitch.length",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/pitch.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/pitch.length"
-   ],
-   "message": "f:hole_pattern:2: pitch.length is not proved by the printed drawing.",
-   "related": [
-    "f:hole:5",
-    "f:hole:14",
-    "f:hole:13"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "pitch.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:3/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:3/location.length.x"
-   ],
-   "message": "f:hole_pattern:3 has no proven x location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:8",
-    "f:hole:9",
-    "f:hole:10"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:3",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:3"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length y of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.y",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:3/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:3/location.length.y"
-   ],
-   "message": "f:hole_pattern:3 has no proven y location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:8",
-    "f:hole:9",
-    "f:hole:10"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:3",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:3"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 44.45",
-   "fix": "State the pitch length of the feature in a view that shows its true size or location.",
-   "fix_description": "State the pitch length of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:pitch.length",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:3/pitch.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:3/pitch.length"
-   ],
-   "message": "f:hole_pattern:3: pitch.length is not proved by the printed drawing.",
-   "related": [
-    "f:hole:8",
-    "f:hole:9",
-    "f:hole:10"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:3",
-     "parameter": "pitch.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:3"
-   ]
-  },
-  {
    "code": "pmi_not_extracted",
    "evidence": "AP242 dimension dimension:#60 was discovered but not extracted: the dimension modifier Reference is not carried\ngraphical_callout:#1264; Graphical callout #1264 (\"Linear Dimension (35)\").",
    "group": "pmi_not_extracted:dimension",
@@ -971,19 +683,6 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#10 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
-   "group": "pmi_not_extracted:finding",
-   "id": "l:pmi_not_extracted:finding:#10",
-   "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "info",
-   "sources": [
-    "finding:#10"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
    "evidence": "AP242 other finding:#986 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read\ngraphical_callout:#1238; Graphical callout #1238 (\"Note (55)\").",
    "group": "pmi_not_extracted:finding",
    "id": "l:pmi_not_extracted:finding:#986",
@@ -1374,29 +1073,6 @@
   },
   {
    "code": "feature_not_located",
-   "fix": "State the location length x of the hole in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the hole in a view that shows its true size or location.",
-   "group": "feature_not_located:hole",
-   "id": "l:feature_not_located:f:hole:17/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole:17/location.length.x"
-   ],
-   "message": "f:hole:17 on x: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:hole:17",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole:17"
-   ]
-  },
-  {
-   "code": "feature_not_located",
    "fix": "State the location length y of the slot in a view that shows its true size or location.",
    "fix_description": "State the location length y of the slot in a view that shows its true size or location.",
    "group": "feature_not_located:slot",
@@ -1619,26 +1295,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -1649,26 +1305,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -2107,20 +1743,6 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
-   "id": "p:pmi_not_extracted:finding:#10",
-   "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
-   "refs": [
-    "finding:#10",
-    "default_model_geometric_view",
-    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
-   ],
-   "severity": "info",
    "subjects": []
   },
   {
@@ -3028,8 +2650,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h46_99/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3063,8 +2683,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h46_99/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3113,8 +2731,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3148,8 +2764,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3199,8 +2813,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h10_16/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3234,8 +2846,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h10_16/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3284,8 +2894,6 @@
      "op": "set",
      "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3319,8 +2927,6 @@
        "op": "set",
        "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3370,8 +2976,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h46_99/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3405,8 +3009,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h46_99/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3456,8 +3058,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h46_99/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3491,8 +3091,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h46_99/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3542,8 +3140,6 @@
      "op": "set",
      "path": "dimensions/d:f:plate:2~1thickness.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3577,8 +3173,6 @@
        "op": "set",
        "path": "dimensions/d:f:plate:2~1thickness.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3712,8 +3306,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3747,8 +3339,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3798,8 +3388,6 @@
      "op": "set",
      "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3833,8 +3421,6 @@
        "op": "set",
        "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3884,8 +3470,6 @@
      "op": "set",
      "path": "dimensions/d:f:section_recess:5~1channel_width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3919,8 +3503,6 @@
        "op": "set",
        "path": "dimensions/d:f:section_recess:5~1channel_width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3970,8 +3552,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -4005,8 +3585,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -4385,8 +3963,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -4420,8 +3996,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -7265,20 +6839,14 @@
    "dimensions_not_ported:section_recess": 2,
    "extension_off_centreline": 4,
    "extension_through_feature": 13,
-   "feature_not_located:hole": 1,
    "feature_not_located:slot": 2,
    "general_tolerance_missing": 1,
-   "hole_pattern_requirement_missing:grid_pitch.length.col": 1,
-   "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
-   "hole_pattern_requirement_missing:location.length.x": 3,
-   "hole_pattern_requirement_missing:location.length.y": 3,
-   "hole_pattern_requirement_missing:pitch.length": 2,
    "label_crowded": 4,
    "leader_through_feature": 19,
    "nominal_rounded": 80,
    "pmi_not_extracted": 23,
    "pmi_not_extracted:dimension": 1,
-   "pmi_not_extracted:finding": 6,
+   "pmi_not_extracted:finding": 4,
    "pmi_not_extracted:finding+graphical_callout": 4,
    "pmi_not_extracted:geometric_tolerance": 16,
    "pmi_not_extracted:graphical_callout": 11,
@@ -7298,7 +6866,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 143,
+    "findings": 141,
     "groups": 12
    },
    "decision": {
@@ -7306,8 +6874,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 101,
-    "groups": 21
+    "findings": 90,
+    "groups": 15
    },
    "readability": {
     "findings": 73,

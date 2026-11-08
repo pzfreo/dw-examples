@@ -4,7 +4,28 @@
     {
       "key": "mounting_eye:lower",
       "item": 1,
+      "process": "machined",
       "name": "mounting_eye:lower",
+      "product_ids": [
+        "mounting_eye:lower",
+        "mounting_eye:upper"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "1"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "mounting_eye:lower",
@@ -40,26 +61,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "2:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -71,26 +72,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "2:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -136,7 +117,27 @@
     {
       "key": "eye_shank",
       "item": 2,
+      "process": "machined",
       "name": "eye_shank",
+      "product_ids": [
+        "eye_shank"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "2"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "eye_shank"
@@ -170,26 +171,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "2:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -201,26 +182,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "2:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -266,7 +227,27 @@
     {
       "key": "pressure_tube",
       "item": 3,
+      "process": "machined",
       "name": "pressure_tube",
+      "product_ids": [
+        "pressure_tube"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "3"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "pressure_tube"
@@ -291,7 +272,7 @@
           "subjects": [],
           "refs": [
             "thin_wall_bodies",
-            "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
+            "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
             "Python quiddity's recognition (tools/recognise.py) gives these families"
           ]
         },
@@ -314,26 +295,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:2"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -345,26 +306,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:2"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -410,7 +351,27 @@
     {
       "key": "gland_cap",
       "item": 4,
+      "process": "machined",
       "name": "gland_cap",
+      "product_ids": [
+        "gland_cap"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "4"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "gland_cap"
@@ -444,26 +405,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A3"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "2:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -475,26 +416,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A3"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "2:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -540,7 +461,27 @@
     {
       "key": "preload_adjuster_collar",
       "item": 5,
+      "process": "machined",
       "name": "preload_adjuster_collar",
+      "product_ids": [
+        "preload_adjuster_collar"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "5"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "preload_adjuster_collar"
@@ -574,26 +515,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -605,26 +526,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -670,7 +571,27 @@
     {
       "key": "lower_spring_seat",
       "item": 6,
+      "process": "machined",
       "name": "lower_spring_seat",
+      "product_ids": [
+        "lower_spring_seat"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "6"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "lower_spring_seat"
@@ -704,26 +625,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -735,26 +636,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -800,7 +681,27 @@
     {
       "key": "rebound_adjuster_knob",
       "item": 7,
+      "process": "machined",
       "name": "rebound_adjuster_knob",
+      "product_ids": [
+        "rebound_adjuster_knob"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "7"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "rebound_adjuster_knob"
@@ -834,31 +735,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "5:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
-            },
-            {
-              "op": "set",
-              "path": "sheet/dimension_spacing",
-              "value": "compact"
             }
           ],
           "fixes": [
@@ -870,31 +746,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "5:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/dimension_spacing",
-                  "value": "compact"
                 }
               ]
             }
@@ -940,7 +791,27 @@
     {
       "key": "piston_rod:chrome",
       "item": 8,
+      "process": "machined",
       "name": "piston_rod:chrome",
+      "product_ids": [
+        "piston_rod:chrome"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "9"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "piston_rod:chrome"
@@ -974,26 +845,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:2"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1005,26 +856,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:2"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1070,7 +901,27 @@
     {
       "key": "upper_spring_seat",
       "item": 9,
+      "process": "machined",
       "name": "upper_spring_seat",
+      "product_ids": [
+        "upper_spring_seat"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "10"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "upper_spring_seat"
@@ -1104,26 +955,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1135,26 +966,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1200,7 +1011,27 @@
     {
       "key": "coil_spring",
       "item": 10,
+      "process": "machined",
       "name": "coil_spring",
+      "product_ids": [
+        "coil_spring"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "13"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "coil_spring"
@@ -1234,26 +1065,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:2"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1265,2318 +1076,20 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:2"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
           ]
         },
         {
-          "id": "p:feature_not_dimensioned:f:boss:1",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:1"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:2",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:2"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:3",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:3"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:4",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:4"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:5",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:5"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:6",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:6"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:7",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:7"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:8",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:8"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:9",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:9"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:10",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:10"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:11",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:11"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:12",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:12"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:13",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:13"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:14",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:14"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:15",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:15"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:16",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:16"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:17",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:17"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:18",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:18"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:19",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:19"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:20",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:20"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:21",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:21"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:22",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:22"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:23",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:23"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:24",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:24"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:25",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:25"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:26",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:26"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:27",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:27"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:28",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:28"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:29",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:29"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:30",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:30"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:31",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:31"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:32",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:32"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:33",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:33"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:34",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:34"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:35",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:35"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:36",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:36"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:37",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:37"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:38",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:38"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:39",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:39"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:40",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:40"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:41",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:41"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:42",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:42"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:43",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:43"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:44",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:44"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:45",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:45"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:46",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:46"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:47",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:47"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:48",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:48"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:49",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:49"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:50",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:50"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:51",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:51"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:52",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:52"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:53",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:53"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:54",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:54"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:55",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:55"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:56",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:56"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:57",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:57"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:58",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:58"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:59",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:59"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:60",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:60"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:61",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:61"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:62",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:62"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:63",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:63"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:64",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:64"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:65",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:65"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:66",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:66"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:67",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:67"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:68",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:68"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:69",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:69"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:70",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:70"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:71",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:71"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:72",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:72"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:73",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:73"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:74",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:74"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:75",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:75"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:76",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:76"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:77",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:77"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:78",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:78"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:79",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:79"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:80",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:80"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:81",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:81"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:82",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:82"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:83",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:83"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:84",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:84"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:85",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:85"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:86",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:86"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:87",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:87"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:88",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:88"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:89",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:89"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:90",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:90"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:91",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:91"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:92",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:92"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:93",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:93"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:94",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:94"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:95",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:95"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:96",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:96"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:97",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:97"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:98",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:98"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:99",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:99"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:100",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:100"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:101",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:101"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:102",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:102"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:103",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:103"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:104",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:104"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:105",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:105"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:106",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:106"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:107",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:107"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:108",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:108"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:109",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:109"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:110",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:110"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:111",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:111"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:112",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:112"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:113",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:113"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:114",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:114"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:115",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:115"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:116",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:116"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:117",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:117"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:118",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:118"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:119",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:119"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:120",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:120"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:121",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:121"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:122",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:122"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:123",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:123"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:124",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:124"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:125",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:125"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:126",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:126"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:127",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:127"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:128",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:128"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:129",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:129"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:130",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:130"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:131",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:131"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:132",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:132"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:133",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:133"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:134",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:134"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:135",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:135"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:136",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:136"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:137",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:137"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:138",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:138"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:139",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:139"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:140",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:140"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:141",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:141"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:142",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:142"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:143",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:143"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:144",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:144"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:145",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:145"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:146",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:146"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:147",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:147"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:148",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:148"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:149",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:149"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:150",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:150"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:151",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:151"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:152",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:152"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:153",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:153"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:154",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:154"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:155",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:155"
-          ]
-        },
-        {
-          "id": "p:feature_not_dimensioned:f:boss:156",
-          "code": "feature_not_dimensioned",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "feature_not_dimensioned:boss",
-          "message": "The ⌀9 boss's height and location are not dimensioned: its axis is inclined to every principal axis, so they need a view square to it; its diameter is called out where it is seen most nearly end-on.",
-          "subjects": [
-            "f:boss:156"
-          ]
-        },
-        {
-          "id": "p:annotation_leader_search_capped:d:f:boss:1/boss.diameter|d:f:boss:2/boss.diameter|d:f:boss:3/boss.diameter|d:f:boss:10/boss.diameter|d:f:boss:11/boss.diameter|d:f:boss:12/boss.diameter|d:f:boss:13/boss.diameter|d:f:boss:14/boss.diameter|d:f:boss:15/boss.diameter|d:f:boss:22/boss.diameter|d:f:boss:23/boss.diameter|d:f:boss:24/boss.diameter",
-          "code": "annotation_leader_search_capped",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "annotation_leader_search_capped",
-          "message": "The leaders of 12 callouts were placed together by a search that stopped at its bound of 200000 steps: their places are the best found, not proved the best.",
-          "subjects": [
-            "d:f:boss:1/boss.diameter",
-            "d:f:boss:2/boss.diameter",
-            "d:f:boss:3/boss.diameter",
-            "d:f:boss:10/boss.diameter",
-            "d:f:boss:11/boss.diameter",
-            "d:f:boss:12/boss.diameter",
-            "d:f:boss:13/boss.diameter",
-            "d:f:boss:14/boss.diameter",
-            "d:f:boss:15/boss.diameter",
-            "d:f:boss:22/boss.diameter",
-            "d:f:boss:23/boss.diameter",
-            "d:f:boss:24/boss.diameter"
-          ],
-          "fix": [
-            {
-              "op": "set",
-              "path": "dimensions/d:f:boss:1~1boss.diameter/place",
-              "value": {
-                "along": "outside",
-                "lane": 0,
-                "side": "above",
-                "view": "front"
-              }
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:2"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
-            }
-          ],
-          "fixes": [
-            {
-              "scope": "local",
-              "description": "Move the dimension above the front view, nearest the view.",
-              "ops": [
-                {
-                  "op": "set",
-                  "path": "dimensions/d:f:boss:1~1boss.diameter/place",
-                  "value": {
-                    "along": "outside",
-                    "lane": 0,
-                    "side": "above",
-                    "view": "front"
-                  }
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:2"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "p:annotation_leader_search_capped:d:f:boss:4/boss.diameter|d:f:boss:5/boss.diameter|d:f:boss:6/boss.diameter|d:f:boss:7/boss.diameter|d:f:boss:8/boss.diameter|d:f:boss:9/boss.diameter|d:f:boss:16/boss.diameter|d:f:boss:17/boss.diameter|d:f:boss:18/boss.diameter|d:f:boss:19/boss.diameter|d:f:boss:20/boss.diameter|d:f:boss:21/boss.diameter",
-          "code": "annotation_leader_search_capped",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "annotation_leader_search_capped",
-          "message": "The leaders of 12 callouts were placed together by a search that stopped at its bound of 200000 steps: their places are the best found, not proved the best.",
-          "subjects": [
-            "d:f:boss:4/boss.diameter",
-            "d:f:boss:5/boss.diameter",
-            "d:f:boss:6/boss.diameter",
-            "d:f:boss:7/boss.diameter",
-            "d:f:boss:8/boss.diameter",
-            "d:f:boss:9/boss.diameter",
-            "d:f:boss:16/boss.diameter",
-            "d:f:boss:17/boss.diameter",
-            "d:f:boss:18/boss.diameter",
-            "d:f:boss:19/boss.diameter",
-            "d:f:boss:20/boss.diameter",
-            "d:f:boss:21/boss.diameter"
-          ],
-          "fix": [
-            {
-              "op": "set",
-              "path": "dimensions/d:f:boss:4~1boss.diameter/place",
-              "value": {
-                "along": "outside",
-                "lane": 0,
-                "side": "above",
-                "view": "side"
-              }
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:2"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
-            }
-          ],
-          "fixes": [
-            {
-              "scope": "local",
-              "description": "Move the dimension above the side view, nearest the view.",
-              "ops": [
-                {
-                  "op": "set",
-                  "path": "dimensions/d:f:boss:4~1boss.diameter/place",
-                  "value": {
-                    "along": "outside",
-                    "lane": 0,
-                    "side": "above",
-                    "view": "side"
-                  }
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:2"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
-          "code": "nominal_rounded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "nominal_rounded",
-          "message": "The dimension \"85.096\" has modelled nominal 85.095559 but prints 85.096 at the default three-place limit.",
-          "subjects": [
-            "d:envelope/depth.length"
-          ]
-        },
-        {
-          "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
+          "id": "p:nominal_rounded:d:f:helical_spring:1/free_length:d:f:helical_spring:1/free_length",
           "code": "nominal_rounded",
           "severity": "info",
           "impact": "advisory",
           "group": "nominal_rounded",
           "message": "The dimension \"109.569\" has modelled nominal 109.568838 but prints 109.569 at the default three-place limit.",
           "subjects": [
-            "d:envelope/height.length"
-          ]
-        },
-        {
-          "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
-          "code": "nominal_rounded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "nominal_rounded",
-          "message": "The dimension \"85.096\" has modelled nominal 85.095559 but prints 85.096 at the default three-place limit.",
-          "subjects": [
-            "d:envelope/width.length"
-          ]
-        },
-        {
-          "id": "p:unclaimed_geometry:sheet",
-          "code": "unclaimed_geometry",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "unclaimed_geometry",
-          "message": "Analysis features claim 492 of 778 faces; 286 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
-          "subjects": [
-            "face:1",
-            "face:4",
-            "face:5",
-            "face:6",
-            "face:9",
-            "face:11",
-            "face:14",
-            "face:16",
-            "face:19",
-            "face:21",
-            "face:24",
-            "face:29",
-            "face:31",
-            "face:36",
-            "face:39",
-            "face:41",
-            "face:44",
-            "face:46",
-            "face:49",
-            "face:51",
-            "face:54",
-            "face:56",
-            "face:59",
-            "face:61",
-            "face:64",
-            "face:66",
-            "face:69",
-            "face:71",
-            "face:74",
-            "face:76",
-            "face:79",
-            "face:81",
-            "face:84",
-            "face:89",
-            "face:91",
-            "face:96",
-            "face:99",
-            "face:101",
-            "face:104",
-            "face:106",
-            "face:109",
-            "face:111",
-            "face:114",
-            "face:116",
-            "face:119",
-            "face:121",
-            "face:124",
-            "face:126",
-            "face:129",
-            "face:131",
-            "face:134",
-            "face:136",
-            "face:139",
-            "face:141",
-            "face:144",
-            "face:149",
-            "face:151",
-            "face:156",
-            "face:159",
-            "face:161",
-            "face:164",
-            "face:166",
-            "face:169",
-            "face:171",
-            "face:174",
-            "face:176",
-            "face:179",
-            "face:181",
-            "face:184",
-            "face:186",
-            "face:189",
-            "face:191",
-            "face:194",
-            "face:196",
-            "face:199",
-            "face:201",
-            "face:204",
-            "face:209",
-            "face:211",
-            "face:216",
-            "face:219",
-            "face:221",
-            "face:224",
-            "face:226",
-            "face:229",
-            "face:231",
-            "face:234",
-            "face:236",
-            "face:239",
-            "face:241",
-            "face:244",
-            "face:246",
-            "face:249",
-            "face:251",
-            "face:254",
-            "face:256",
-            "face:259",
-            "face:261",
-            "face:264",
-            "face:269",
-            "face:271",
-            "face:276",
-            "face:279",
-            "face:281",
-            "face:284",
-            "face:286",
-            "face:289",
-            "face:291",
-            "face:294",
-            "face:296",
-            "face:299",
-            "face:301",
-            "face:304",
-            "face:306",
-            "face:309",
-            "face:311",
-            "face:314",
-            "face:316",
-            "face:319",
-            "face:321",
-            "face:324",
-            "face:329",
-            "face:331",
-            "face:336",
-            "face:339",
-            "face:341",
-            "face:344",
-            "face:346",
-            "face:349",
-            "face:351",
-            "face:354",
-            "face:356",
-            "face:359",
-            "face:361",
-            "face:364",
-            "face:366",
-            "face:369",
-            "face:371",
-            "face:374",
-            "face:376",
-            "face:379",
-            "face:381",
-            "face:384",
-            "face:389",
-            "face:391",
-            "face:396",
-            "face:399",
-            "face:401",
-            "face:404",
-            "face:406",
-            "face:409",
-            "face:411",
-            "face:414",
-            "face:416",
-            "face:419",
-            "face:421",
-            "face:424",
-            "face:426",
-            "face:429",
-            "face:431",
-            "face:434",
-            "face:436",
-            "face:439",
-            "face:441",
-            "face:444",
-            "face:449",
-            "face:451",
-            "face:456",
-            "face:459",
-            "face:461",
-            "face:464",
-            "face:466",
-            "face:469",
-            "face:471",
-            "face:474",
-            "face:476",
-            "face:479",
-            "face:481",
-            "face:484",
-            "face:486",
-            "face:489",
-            "face:491",
-            "face:494",
-            "face:496",
-            "face:499",
-            "face:501",
-            "face:504",
-            "face:509",
-            "face:511",
-            "face:516",
-            "face:519",
-            "face:521",
-            "face:524",
-            "face:526",
-            "face:529",
-            "face:531",
-            "face:534",
-            "face:536",
-            "face:539",
-            "face:541",
-            "face:544",
-            "face:546",
-            "face:549",
-            "face:551",
-            "face:554",
-            "face:556",
-            "face:559",
-            "face:561",
-            "face:564",
-            "face:569",
-            "face:571",
-            "face:576",
-            "face:579",
-            "face:581",
-            "face:584",
-            "face:586",
-            "face:589",
-            "face:591",
-            "face:594",
-            "face:596",
-            "face:599",
-            "face:601",
-            "face:604",
-            "face:606",
-            "face:609",
-            "face:611",
-            "face:614",
-            "face:616",
-            "face:619",
-            "face:621",
-            "face:624",
-            "face:629",
-            "face:631",
-            "face:636",
-            "face:639",
-            "face:641",
-            "face:644",
-            "face:646",
-            "face:649",
-            "face:651",
-            "face:654",
-            "face:656",
-            "face:659",
-            "face:661",
-            "face:664",
-            "face:666",
-            "face:669",
-            "face:671",
-            "face:674",
-            "face:676",
-            "face:679",
-            "face:681",
-            "face:684",
-            "face:689",
-            "face:691",
-            "face:696",
-            "face:699",
-            "face:701",
-            "face:704",
-            "face:706",
-            "face:709",
-            "face:711",
-            "face:714",
-            "face:716",
-            "face:719",
-            "face:721",
-            "face:724",
-            "face:726",
-            "face:729",
-            "face:731",
-            "face:734",
-            "face:736",
-            "face:739",
-            "face:741",
-            "face:744",
-            "face:749",
-            "face:751",
-            "face:756",
-            "face:759",
-            "face:761",
-            "face:764",
-            "face:766",
-            "face:769",
-            "face:771",
-            "face:774",
-            "face:776"
-          ]
-        },
-        {
-          "id": "p:label_crowded:d:envelope/height.length|d:f:boss:1/boss.diameter",
-          "code": "label_crowded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "label_crowded",
-          "message": "Line-work of 109.569 passes less than 0.5 mm from the label of 7× ø9, so it touches the text.",
-          "subjects": [
-            "d:envelope/height.length",
-            "d:f:boss:1/boss.diameter"
-          ]
-        },
-        {
-          "id": "p:label_crowded:d:f:boss:17/boss.diameter|d:f:boss:19/boss.diameter",
-          "code": "label_crowded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "label_crowded",
-          "message": "Line-work of 6× ø9 passes less than 0.5 mm from the label of 6× ø9, so it touches the text.",
-          "subjects": [
-            "d:f:boss:17/boss.diameter",
-            "d:f:boss:19/boss.diameter"
-          ]
-        },
-        {
-          "id": "p:label_crowded:d:envelope/height.length|d:f:boss:22/boss.diameter",
-          "code": "label_crowded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "label_crowded",
-          "message": "Line-work of 109.569 passes less than 0.5 mm from the label of 6× ø9, so it touches the text.",
-          "subjects": [
-            "d:envelope/height.length",
-            "d:f:boss:22/boss.diameter"
-          ]
-        },
-        {
-          "id": "p:label_crowded:d:envelope/height.length|d:f:boss:23/boss.diameter",
-          "code": "label_crowded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "label_crowded",
-          "message": "Line-work of 109.569 passes less than 0.5 mm from the label of 6× ø9, so it touches the text.",
-          "subjects": [
-            "d:envelope/height.length",
-            "d:f:boss:23/boss.diameter"
-          ]
-        },
-        {
-          "id": "p:label_crowded:d:envelope/height.length|d:f:boss:24/boss.diameter",
-          "code": "label_crowded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "label_crowded",
-          "message": "Line-work of 109.569 passes less than 0.5 mm from the label of 6× ø9, so it touches the text.",
-          "subjects": [
-            "d:envelope/height.length",
-            "d:f:boss:24/boss.diameter"
+            "d:f:helical_spring:1/free_length"
           ]
         },
         {
@@ -4066,7 +1579,7 @@
         ]
       ],
       "default": false,
-      "basis": "authored: the spec's table t:1 (tables/0), towards the sheet's br corner as draftwright places a declared table",
+      "basis": "authored: the spec's table t:1 (tables/0), towards the sheet's br corner as draftwright places a declared table; Spec: hole_table; sheet keys [table_columns, title]; notes; tables; Automatic tag order and block placement unavailable (#309)",
       "state": {
         "kind": "shown"
       },
@@ -4336,26 +1849,6 @@
             "op": "set",
             "path": "sheet/title/tolerance",
             "value": "UNSPECIFIED"
-          },
-          {
-            "op": "set",
-            "path": "sheet/keep_layout",
-            "value": true
-          },
-          {
-            "op": "set",
-            "path": "sheet/size",
-            "value": "A3"
-          },
-          {
-            "op": "set",
-            "path": "sheet/scale",
-            "value": "1:2"
-          },
-          {
-            "op": "set",
-            "path": "sheets/max",
-            "value": 1
           }
         ],
         "fixes": [
@@ -4367,26 +1860,6 @@
                 "op": "set",
                 "path": "sheet/title/tolerance",
                 "value": "UNSPECIFIED"
-              },
-              {
-                "op": "set",
-                "path": "sheet/keep_layout",
-                "value": true
-              },
-              {
-                "op": "set",
-                "path": "sheet/size",
-                "value": "A3"
-              },
-              {
-                "op": "set",
-                "path": "sheet/scale",
-                "value": "1:2"
-              },
-              {
-                "op": "set",
-                "path": "sheets/max",
-                "value": 1
               }
             ]
           }
@@ -5293,15 +2766,6 @@
           "face:819",
           "face:820"
         ]
-      },
-      {
-        "id": "p:ga:nominal_rounded",
-        "code": "nominal_rounded",
-        "severity": "info",
-        "impact": "advisory",
-        "group": "nominal_rounded",
-        "message": "1 dimension(s) print a nominal the model does not have, rounded to the sheet's precision; the largest is '85.1' for 85.0956 (0.0044 mm). Within a general tolerance this is ordinary. Where a fit depends on it, the dimension needs more places (set precision for its measurement ID)",
-        "subjects": []
       }
     ],
     "views": [
@@ -5861,7 +3325,7 @@
               {
                 "Line": [
                   [
-                    155.03637211240414,
+                    155.0363721124041,
                     149.2197281376835
                   ],
                   [
@@ -6345,7 +3809,7 @@
                     149.2197281376835
                   ],
                   [
-                    165.36106378503166,
+                    165.3610637850317,
                     154.4669622153162
                   ]
                 ]
@@ -12716,11 +10180,11 @@
                 "Line": [
                   [
                     275.2994141541849,
-                    164.46517514821704
+                    164.465175148217
                   ],
                   [
                     283.75213697352285,
-                    153.44937230045338
+                    153.4493723004534
                   ]
                 ]
               }
@@ -13676,11 +11140,11 @@
                 "Line": [
                   [
                     275.2994141541849,
-                    164.46517514821704
+                    164.465175148217
                   ],
                   [
                     283.75213697352285,
-                    153.44937230045338
+                    153.4493723004534
                   ]
                 ]
               }
@@ -15393,11 +12857,11 @@
                 "Line": [
                   [
                     142.9739320597428,
-                    90.1972126076146
+                    90.19721260761462
                   ],
                   [
                     143.88504229923194,
-                    76.40217070080351
+                    76.4021707008035
                   ]
                 ]
               }
@@ -16573,11 +14037,11 @@
                 "Line": [
                   [
                     161.88418846999883,
-                    76.40217070080297
+                    76.40217070080296
                   ],
                   [
                     162.79529870948798,
-                    90.19721260761395
+                    90.19721260761396
                   ]
                 ]
               }
@@ -17053,7 +14517,7 @@
                 "Line": [
                   [
                     169.57649616230685,
-                    76.40217070080297
+                    76.40217070080296
                   ],
                   [
                     170.487606401796,

@@ -41,7 +41,64 @@
   "unknown": 0,
   "unsupported": 0
  },
- "lint": [],
+ "lint": [
+  {
+   "code": "feature_located_twice",
+   "fix": "State the location length y of the hole in a view that shows its true size or location.",
+   "fix_description": "State the location length y of the hole in a view that shows its true size or location.",
+   "group": "feature_located_twice",
+   "id": "l:feature_located_twice:f:hole:1/location.length.y",
+   "impact": "advisory",
+   "measurements": [
+    "f:hole:1/location.length.y"
+   ],
+   "message": "f:hole:1 on y: independent drawn dimension chains reach an origin (d:authored:hole_y, d:f:hole:4/location.length.y, d:f:hole_pattern:1/grid_pitch.length.row).",
+   "related": [
+    "d:authored:hole_y",
+    "d:f:hole:4/location.length.y",
+    "d:f:hole_pattern:1/grid_pitch.length.row"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole:1",
+     "parameter": "location.length.y"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "feature_located_twice",
+   "fix": "State the location length x of the hole in a view that shows its true size or location.",
+   "fix_description": "State the location length x of the hole in a view that shows its true size or location.",
+   "group": "feature_located_twice",
+   "id": "l:feature_located_twice:f:hole:3/location.length.x",
+   "impact": "advisory",
+   "measurements": [
+    "f:hole:3/location.length.x"
+   ],
+   "message": "f:hole:3 on x: independent drawn dimension chains reach an origin (d:authored:hole_x, d:f:hole:4/location.length.x, d:f:hole_pattern:1/grid_pitch.length.col).",
+   "related": [
+    "d:authored:hole_x",
+    "d:f:hole:4/location.length.x",
+    "d:f:hole_pattern:1/grid_pitch.length.col"
+   ],
+   "requirements": [
+    {
+     "feature": "f:hole:3",
+     "parameter": "location.length.x"
+    }
+   ],
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:3"
+   ]
+  }
+ ],
  "problems": [
   {
    "code": "assembly_principal_drawn",
@@ -56,17 +113,46 @@
    ],
    "severity": "warning",
    "subjects": []
+  },
+  {
+   "code": "feature_located_twice",
+   "group": "feature_located_twice",
+   "id": "p:feature_located_twice:f:hole:1/location.length.y",
+   "impact": "advisory",
+   "message": "the \u23006.6 hole on y: independent drawn dimension chains reach an origin (dimension 12, dimension 35, dimension 46).",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:1",
+    "d:authored:hole_y",
+    "d:f:hole:4/location.length.y",
+    "d:f:hole_pattern:1/grid_pitch.length.row"
+   ]
+  },
+  {
+   "code": "feature_located_twice",
+   "group": "feature_located_twice",
+   "id": "p:feature_located_twice:f:hole:3/location.length.x",
+   "impact": "advisory",
+   "message": "the \u23006.6 hole on x: independent drawn dimension chains reach an origin (dimension 12, dimension 50, dimension 76).",
+   "severity": "warning",
+   "subjects": [
+    "f:hole:3",
+    "d:authored:hole_x",
+    "d:f:hole:4/location.length.x",
+    "d:f:hole_pattern:1/grid_pitch.length.col"
+   ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "assembly_principal_drawn": 1
+   "assembly_principal_drawn": 1,
+   "feature_located_twice": 4
   },
   "impacts": {
    "advisory": {
-    "findings": 1,
-    "groups": 1
+    "findings": 5,
+    "groups": 2
    },
    "decision": {
     "findings": 0,

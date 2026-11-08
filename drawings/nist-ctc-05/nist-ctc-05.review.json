@@ -446,32 +446,6 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:7 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
-   "group": "pmi_not_extracted",
-   "id": "l:pmi_not_extracted:attribute_set:0:7",
-   "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "info",
-   "sources": [
-    "attribute_set:0:7"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "evidence": "AP242 other attribute_set:0:8 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
-   "group": "pmi_not_extracted",
-   "id": "l:pmi_not_extracted:attribute_set:0:8",
-   "impact": "advisory",
-   "message": "A STEP attribute set annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "info",
-   "sources": [
-    "attribute_set:0:8"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
    "evidence": "AP242 other attribute_set:0:9 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:9",
@@ -899,7 +873,7 @@
    "message": "Unrecognised features on this part: 4 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -912,26 +886,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -942,26 +896,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -1239,34 +1173,6 @@
    "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
    "refs": [
     "attribute_set:0:6",
-    "general_property_association",
-    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
-   "id": "p:pmi_not_extracted:attribute_set:0:7",
-   "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
-   "refs": [
-    "attribute_set:0:7",
-    "general_property_association",
-    "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted",
-   "id": "p:pmi_not_extracted:attribute_set:0:8",
-   "impact": "advisory",
-   "message": "A STEP attribute set is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
-   "refs": [
-    "attribute_set:0:8",
     "general_property_association",
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
@@ -2365,7 +2271,7 @@
    "leader_to_hidden_edge": 1,
    "nominal_rounded": 28,
    "pmi_graphical_not_drawn:graphical_callout": 2,
-   "pmi_not_extracted": 26,
+   "pmi_not_extracted": 22,
    "pmi_not_extracted:datum": 2,
    "pmi_not_extracted:dimension": 5,
    "pmi_not_extracted:finding": 16,
@@ -2388,7 +2294,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 80,
+    "findings": 76,
     "groups": 9
    },
    "decision": {

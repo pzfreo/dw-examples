@@ -182,124 +182,6 @@
    "subjects": []
   },
   {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:3/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:3/location.length.x"
-   ],
-   "message": "f:hole_pattern:3 has no proven x location of its centre on the drawing.",
-   "related": [
-    "f:hole:7",
-    "f:hole:5",
-    "f:hole:8",
-    "f:hole:6"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:3",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:3"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length z of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length z of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.z",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:3/location.length.z",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:3/location.length.z"
-   ],
-   "message": "f:hole_pattern:3 has no proven z location of its centre on the drawing.",
-   "related": [
-    "f:hole:7",
-    "f:hole:5",
-    "f:hole:8",
-    "f:hole:6"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:3",
-     "parameter": "location.length.z"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:3"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 285.75",
-   "fix": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:grid_pitch.length.col",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:3/grid_pitch.length.col",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:3/grid_pitch.length.col"
-   ],
-   "message": "f:hole_pattern:3: grid_pitch.length.col is not proved by the printed drawing.",
-   "related": [
-    "f:hole:7",
-    "f:hole:5",
-    "f:hole:8",
-    "f:hole:6"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:3",
-     "parameter": "grid_pitch.length.col"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:3"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 196.85",
-   "fix": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:grid_pitch.length.row",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:3/grid_pitch.length.row",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:3/grid_pitch.length.row"
-   ],
-   "message": "f:hole_pattern:3: grid_pitch.length.row is not proved by the printed drawing.",
-   "related": [
-    "f:hole:7",
-    "f:hole:5",
-    "f:hole:8",
-    "f:hole:6"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:3",
-     "parameter": "grid_pitch.length.row"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:3"
-   ]
-  },
-  {
    "code": "pmi_not_extracted",
    "evidence": "AP242 dimension dimension:#14028 was discovered but not extracted: the dimension modifier ContinuousFeature is not carried; haecceity nonconformance on #14663 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimension modifiers type 2\" (\u00a75.3: 'modifiers'); read as the modifiers\ngraphical_callout:#11422; Graphical callout #11422 (\"Linear Size.1\").",
    "group": "pmi_not_extracted:dimension",
@@ -2062,7 +1944,7 @@
    "message": "Unrecognised features on this part: 20 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -2075,26 +1957,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -2105,26 +1967,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -3679,8 +3521,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -3714,8 +3554,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -3764,8 +3602,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "side"
      }
@@ -3799,8 +3635,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole_pattern:4~1pitch.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "side"
        }
@@ -3849,8 +3683,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole_pattern:4~1location.length.y/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -3884,8 +3716,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole_pattern:4~1location.length.y/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -3934,8 +3764,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "side"
      }
@@ -3969,8 +3797,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "side"
        }
@@ -6409,10 +6235,6 @@
    "feature_not_located:polygonal_boss": 16,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "hole_pattern_requirement_missing:grid_pitch.length.col": 1,
-   "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
-   "hole_pattern_requirement_missing:location.length.x": 1,
-   "hole_pattern_requirement_missing:location.length.z": 1,
    "label_crowded": 1,
    "leader_through_feature": 6,
    "nominal_rounded": 59,
@@ -6446,8 +6268,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 181,
-    "groups": 20
+    "findings": 177,
+    "groups": 16
    },
    "readability": {
     "findings": 22,
