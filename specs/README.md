@@ -121,6 +121,9 @@ Each was reproduced against the release binary with this Spec. Filed as: 1 alrea
   floor is (12) from the axis as a reference; material from the source. No readability findings.
 - **Review:** baseline 1 warning (decision: no tolerance); AI 1 warning (incomplete: lint wants the
   keyway's location at its centre, issue 2). The count again doesn't show the change.
+- **v0.2.14:** the Spec's omit of the tangent location (`d:f:section_recess:1/location_pocket.location.y`)
+  is removed. Since #302 the engine no longer draws that location, so the omit had nothing to apply to
+  and drew a `dimension_edit_unapplied` warning.
 - **Choices not from the source:** ISO 2768-m is assumed. The source names a chromium-molybdenum
   alloy steel without a grade. No fit is stated on the keyway, as the source gives none. Nobody has
   judged this drawing fit to manufacture from.
@@ -307,6 +310,9 @@ Reproduced against the release binary with this Spec.
   7 readability, 33 advisory. The count got worse while the drawing got better.
 - **Not checked:** this hasn't been compared with NIST's own drawing, and nobody has judged it fit to
   manufacture from.
+- **v0.2.14:** draftwright now recognises and dimensions the rectangular notches (207.5, 85, 25 deep),
+  so the five authored notch dimensions are removed. Kept, they printed each notch dimension two or
+  three times.
 
 ### Issues found (v0.2.9)
 
