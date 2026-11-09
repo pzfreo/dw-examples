@@ -1,8 +1,8 @@
 # dw-examples
 
-Prebuilt [draftwright](https://github.com/pzfreo/draftwright-rust) drawings and assembly packs
+Prebuilt [draftwright](https://github.com/pzfreo/draftwright) drawings and assembly packs
 for public STEP files. Every drawing here is produced by the stock `draftwright` CLI from
-[draftwright-rust](https://github.com/pzfreo/draftwright-rust): no custom scripts, no hand edits,
+[draftwright-rust](https://github.com/pzfreo/draftwright): no custom scripts, no hand edits,
 no post-processing. Most drawings set only a title block, in [`drawings.toml`](drawings.toml).
 The [AI best-effort drawings](#ai-best-effort-drawings) also use a Spec from [`specs/`](specs/README.md).
 
@@ -213,14 +213,14 @@ folder's README, add an entry, and run the build.
 
 ## Building locally
 
-Use the [draftwright-rust release](https://github.com/pzfreo/draftwright-rust/releases/tag/v0.2.14)
+Use the [draftwright-rust release](https://github.com/pzfreo/draftwright/releases/tag/v0.2.14)
 matching the tag in `drawings.toml`, and verify the archive against its `.sha256` asset.
 Pass the extracted binary with `--cli` if another draftwright is on PATH (the Python
 package is a different CLI). Alternatively, build from the pinned tag; the repository
 pins its Rust toolchain:
 
 ```
-git clone --depth 1 --branch v0.2.14 https://github.com/pzfreo/draftwright-rust
+git clone --depth 1 --branch v0.2.14 https://github.com/pzfreo/draftwright
 (cd draftwright-rust && cargo install --locked --path . --bin draftwright)
 python3 build.py                 # rebuild everything (Python 3.11 or later)
 python3 build.py nist-ctc-03     # rebuild one drawing
