@@ -113,124 +113,6 @@
  },
  "lint": [
   {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/location.length.x"
-   ],
-   "message": "f:hole_pattern:2 has no proven x location of its centre on the drawing.",
-   "related": [
-    "f:hole:3",
-    "f:hole:4",
-    "f:hole:5",
-    "f:hole:2"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length y of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.y",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/location.length.y"
-   ],
-   "message": "f:hole_pattern:2 has no proven y location of its centre on the drawing.",
-   "related": [
-    "f:hole:3",
-    "f:hole:4",
-    "f:hole:5",
-    "f:hole:2"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 203.2",
-   "fix": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:grid_pitch.length.col",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/grid_pitch.length.col",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/grid_pitch.length.col"
-   ],
-   "message": "f:hole_pattern:2: grid_pitch.length.col is not proved by the printed drawing.",
-   "related": [
-    "f:hole:3",
-    "f:hole:4",
-    "f:hole:5",
-    "f:hole:2"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "grid_pitch.length.col"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 447.345",
-   "fix": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:grid_pitch.length.row",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/grid_pitch.length.row",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/grid_pitch.length.row"
-   ],
-   "message": "f:hole_pattern:2: grid_pitch.length.row is not proved by the printed drawing.",
-   "related": [
-    "f:hole:3",
-    "f:hole:4",
-    "f:hole:5",
-    "f:hole:2"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "grid_pitch.length.row"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
    "code": "pmi_not_extracted",
    "evidence": "AP242 dimension dimension:#97 was discovered but not extracted: the dimension modifier Reference is not carried\ngraphical_callout:#805; Graphical callout #805 (\"Linear Size.11\").",
    "group": "pmi_not_extracted:dimension",
@@ -323,7 +205,7 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#269 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#804; Graphical callout #804 (\"Linear Size.10\").",
+   "evidence": "AP242 dimension dimension:#269 was discovered but not extracted: haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#804; Graphical callout #804 (\"Linear Size.10\").",
    "group": "pmi_not_extracted:dimension",
    "id": "l:pmi_not_extracted:dimension:#269",
    "impact": "incomplete",
@@ -752,7 +634,7 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#804; Graphical callout #804 (\"Linear Size.10\").",
+   "evidence": "haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group\ngraphical_callout:#804; Graphical callout #804 (\"Linear Size.10\").",
    "group": "pmi_not_lowered:dimension",
    "id": "l:pmi_not_lowered:dimension:#269",
    "impact": "incomplete",
@@ -1200,7 +1082,7 @@
    "refs": [
     "sheet_metal_bodies",
     "thin_wall_bodies",
-    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -1213,26 +1095,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -1243,26 +1105,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -1498,10 +1340,10 @@
    "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#269",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#269 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; the STEP reader nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #804 (\"Linear Size.10\").",
+   "message": "PMI dimension dimension:#269 (\u230038.1) is not drawn: the STEP reader nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group. Graphical callout #804 (\"Linear Size.10\").",
    "refs": [
     "dimension:#269",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #269 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one; haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
+    "haecceity nonconformance on #349 (composite_shape_aspect): a composite_shape_aspect stating 'multiple elements' or 'pattern of features' (\u00a76.4: composite_group_shape_aspect); read as that group",
     "graphical_callout:#804",
     "graphical_text:\"Linear Size.10\""
    ],
@@ -1536,6 +1378,21 @@
     "graphical_text:\"Linear Size.3\""
    ],
    "severity": "error",
+   "subjects": []
+  },
+  {
+   "code": "pmi_read_fact",
+   "group": "pmi_read_fact:dimension+graphical_callout",
+   "id": "p:pmi_read_fact:dimension:#269:measured_nominal",
+   "impact": "advisory",
+   "message": "PMI dimension dimension:#269: a dimension without a dimensional_characteristic_representation: no value is stated. Its nominal 38.1 mm was measured from the referenced geometry; the file states no nominal, and only explicitly stated tolerances are retained. Graphical callout #804 (\"Linear Size.10\").",
+   "refs": [
+    "dimension:#269",
+    "#269",
+    "graphical_callout:#804",
+    "graphical_text:\"Linear Size.10\""
+   ],
+   "severity": "info",
    "subjects": []
   },
   {
@@ -1895,8 +1752,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -1930,8 +1785,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -1980,8 +1833,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -2015,8 +1866,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -2065,8 +1914,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -2100,8 +1947,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -2150,8 +1995,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -2185,8 +2028,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -2235,8 +2076,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -2270,8 +2109,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -2404,8 +2241,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -2439,8 +2274,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -2489,8 +2322,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -2524,8 +2355,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h1_908/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -2574,8 +2403,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -2609,8 +2436,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h76_2/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -2659,8 +2484,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -2694,8 +2517,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h78_108/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -2828,8 +2649,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -2863,8 +2682,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -3632,10 +3449,6 @@
    "feature_not_located:slot": 2,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "hole_pattern_requirement_missing:grid_pitch.length.col": 1,
-   "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
-   "hole_pattern_requirement_missing:location.length.x": 1,
-   "hole_pattern_requirement_missing:location.length.y": 1,
    "label_crowded": 1,
    "leader_across_view": 2,
    "nominal_rounded": 25,
@@ -3651,22 +3464,23 @@
    "pmi_not_lowered:dimension+graphical_callout": 10,
    "pmi_not_lowered:geometric_tolerance": 10,
    "pmi_not_lowered:geometric_tolerance+graphical_callout": 10,
+   "pmi_read_fact:dimension+graphical_callout": 1,
    "profile_corner_unlocated:profile_angle.location": 2,
    "radius_leader_not_radial": 2,
    "view_annotation_inside_extents": 2
   },
   "impacts": {
    "advisory": {
-    "findings": 63,
-    "groups": 8
+    "findings": 64,
+    "groups": 9
    },
    "decision": {
     "findings": 1,
     "groups": 1
    },
    "incomplete": {
-    "findings": 90,
-    "groups": 18
+    "findings": 86,
+    "groups": 14
    },
    "readability": {
     "findings": 14,

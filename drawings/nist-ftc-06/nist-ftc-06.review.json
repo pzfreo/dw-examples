@@ -278,94 +278,6 @@
    ]
   },
   {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/location.length.x"
-   ],
-   "message": "f:hole_pattern:2 has no proven x location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:9",
-    "f:hole:10",
-    "f:hole:11",
-    "f:hole:12"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length y of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.y",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/location.length.y"
-   ],
-   "message": "f:hole_pattern:2 has no proven y location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:9",
-    "f:hole:10",
-    "f:hole:11",
-    "f:hole:12"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 72.39",
-   "fix": "State the pitch length of the feature in a view that shows its true size or location.",
-   "fix_description": "State the pitch length of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:pitch.length",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:2/pitch.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:2/pitch.length"
-   ],
-   "message": "f:hole_pattern:2: pitch.length is not proved by the printed drawing.",
-   "related": [
-    "f:hole:9",
-    "f:hole:10",
-    "f:hole:11",
-    "f:hole:12"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:2",
-     "parameter": "pitch.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:2"
-   ]
-  },
-  {
    "code": "pmi_not_extracted",
    "evidence": "AP242 dimension dimension:#155 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#2000; Graphical callout #2000 (\"Dimension.1\").",
    "group": "pmi_not_extracted:dimension",
@@ -3123,29 +3035,6 @@
   },
   {
    "code": "feature_not_located",
-   "fix": "State the location length x of the boss in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the boss in a view that shows its true size or location.",
-   "group": "feature_not_located:boss",
-   "id": "l:feature_not_located:f:boss:2/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:boss:2/location.length.x"
-   ],
-   "message": "f:boss:2 on x: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:boss:2",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:2"
-   ]
-  },
-  {
-   "code": "feature_not_located",
    "fix": "State the location length z of the boss in a view that shows its true size or location.",
    "fix_description": "State the location length z of the boss in a view that shows its true size or location.",
    "group": "feature_not_located:boss",
@@ -3165,29 +3054,6 @@
    "severity": "warning",
    "subjects": [
     "f:boss:2"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "fix": "State the location length x of the boss in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the boss in a view that shows its true size or location.",
-   "group": "feature_not_located:boss",
-   "id": "l:feature_not_located:f:boss:8/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:boss:8/location.length.x"
-   ],
-   "message": "f:boss:8 on x: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:boss:8",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:8"
    ]
   },
   {
@@ -3473,26 +3339,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A2"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -3503,26 +3349,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A2"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -6171,8 +5997,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -6206,8 +6030,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -6257,8 +6079,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_position.length.y46_99/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -6292,8 +6112,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_position.length.y46_99/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -6343,8 +6161,6 @@
      "op": "set",
      "path": "dimensions/d:f:section_recess:5~1channel_width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -6378,8 +6194,6 @@
        "op": "set",
        "path": "dimensions/d:f:section_recess:5~1channel_width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -6428,8 +6242,6 @@
      "op": "set",
      "path": "dimensions/d:f:boss:2~1boss_height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -6463,8 +6275,6 @@
        "op": "set",
        "path": "dimensions/d:f:boss:2~1boss_height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -6596,8 +6406,6 @@
      "op": "set",
      "path": "dimensions/d:f:boss:1~1boss_height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -6631,8 +6439,6 @@
        "op": "set",
        "path": "dimensions/d:f:boss:1~1boss_height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -6766,8 +6572,6 @@
      "op": "set",
      "path": "dimensions/d:f:boss:1~1boss_height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -6801,8 +6605,6 @@
        "op": "set",
        "path": "dimensions/d:f:boss:1~1boss_height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -6852,8 +6654,6 @@
      "op": "set",
      "path": "dimensions/d:f:boss:2~1boss_height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -6887,8 +6687,6 @@
        "op": "set",
        "path": "dimensions/d:f:boss:2~1boss_height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -7187,8 +6985,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_position.length.x168_275/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "plan"
      }
@@ -7222,8 +7018,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_position.length.x168_275/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "plan"
        }
@@ -7274,8 +7068,6 @@
      "op": "set",
      "path": "dimensions/d:f:boss:1~1boss_height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -7309,8 +7101,6 @@
        "op": "set",
        "path": "dimensions/d:f:boss:1~1boss_height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -7361,8 +7151,6 @@
      "op": "set",
      "path": "dimensions/d:f:boss:2~1boss_height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -7396,8 +7184,6 @@
        "op": "set",
        "path": "dimensions/d:f:boss:2~1boss_height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -7448,8 +7234,6 @@
      "op": "set",
      "path": "dimensions/d:f:plate:1~1thickness.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -7483,8 +7267,6 @@
        "op": "set",
        "path": "dimensions/d:f:plate:1~1thickness.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -8201,50 +7983,6 @@
    ]
   },
   {
-   "code": "feature_not_located",
-   "group": "feature_not_located:boss",
-   "id": "p:feature_not_located:f:boss:2/location.length.x",
-   "impact": "incomplete",
-   "message": "the \u230031.75 boss on x: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:2"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:boss",
-   "id": "p:feature_not_located:f:boss:2/location.length.z",
-   "impact": "incomplete",
-   "message": "the \u230031.75 boss on z: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:2"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:boss",
-   "id": "p:feature_not_located:f:boss:8/location.length.x",
-   "impact": "incomplete",
-   "message": "the \u230031.75 boss on x: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:8"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:boss",
-   "id": "p:feature_not_located:f:boss:8/location.length.z",
-   "impact": "incomplete",
-   "message": "the \u230031.75 boss on z: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:boss:8"
-   ]
-  },
-  {
    "code": "label_crowded",
    "group": "label_crowded",
    "id": "p:label_crowded:d:f:boss:2/boss.diameter|d:f:boss:4/boss.diameter",
@@ -8377,14 +8115,11 @@
    "datum_origin_unusable": 6,
    "dimensions_not_ported:section_recess": 2,
    "extension_through_feature": 2,
-   "feature_not_located:boss": 8,
+   "feature_not_located:boss": 2,
    "feature_not_located:hole": 6,
    "general_tolerance_missing": 1,
    "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
-   "hole_pattern_requirement_missing:location.length.x": 1,
-   "hole_pattern_requirement_missing:location.length.y": 1,
    "hole_pattern_requirement_missing:location.length.z": 1,
-   "hole_pattern_requirement_missing:pitch.length": 1,
    "label_crowded": 4,
    "leader_through_feature": 4,
    "leader_to_hidden_edge": 2,
@@ -8423,8 +8158,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 191,
-    "groups": 28
+    "findings": 182,
+    "groups": 25
    },
    "readability": {
     "findings": 24,

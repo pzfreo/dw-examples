@@ -79,58 +79,6 @@
  "lint": [
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#24 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#625; Graphical callout #625 (\"Linear Size.10\").",
-   "group": "pmi_not_extracted:dimension",
-   "id": "l:pmi_not_extracted:dimension:#24",
-   "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #625 (\"Linear Size.10\").",
-   "severity": "error",
-   "sources": [
-    "dimension:#24"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#25 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#626; Graphical callout #626 (\"Linear Size.11\").",
-   "group": "pmi_not_extracted:dimension",
-   "id": "l:pmi_not_extracted:dimension:#25",
-   "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #626 (\"Linear Size.11\").",
-   "severity": "error",
-   "sources": [
-    "dimension:#25"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#126 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#616; Graphical callout #616 (\"Linear Size.5\").",
-   "group": "pmi_not_extracted:dimension",
-   "id": "l:pmi_not_extracted:dimension:#126",
-   "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #616 (\"Linear Size.5\").",
-   "severity": "error",
-   "sources": [
-    "dimension:#126"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "evidence": "AP242 dimension dimension:#127 was discovered but not extracted: the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#617; Graphical callout #617 (\"Linear Size.6\").",
-   "group": "pmi_not_extracted:dimension",
-   "id": "l:pmi_not_extracted:dimension:#127",
-   "impact": "incomplete",
-   "message": "A STEP dimension annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually. Graphical callout #617 (\"Linear Size.6\").",
-   "severity": "error",
-   "sources": [
-    "dimension:#127"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
    "evidence": "AP242 other attribute_set:0:2 was discovered but not extracted: read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)",
    "group": "pmi_not_extracted",
    "id": "l:pmi_not_extracted:attribute_set:0:2",
@@ -169,58 +117,6 @@
    "subjects": []
   },
   {
-   "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#625; Graphical callout #625 (\"Linear Size.10\").",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#24",
-   "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment. Graphical callout #625 (\"Linear Size.10\").",
-   "severity": "error",
-   "sources": [
-    "dimension:#24"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#626; Graphical callout #626 (\"Linear Size.11\").",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#25",
-   "impact": "incomplete",
-   "message": "The STEP linear annotation could not be drawn. Review its requirement and attachment. Graphical callout #626 (\"Linear Size.11\").",
-   "severity": "error",
-   "sources": [
-    "dimension:#25"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#616; Graphical callout #616 (\"Linear Size.5\").",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#126",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #616 (\"Linear Size.5\").",
-   "severity": "error",
-   "sources": [
-    "dimension:#126"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_lowered",
-   "evidence": "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one\ngraphical_callout:#617; Graphical callout #617 (\"Linear Size.6\").",
-   "group": "pmi_not_lowered:dimension",
-   "id": "l:pmi_not_lowered:dimension:#127",
-   "impact": "incomplete",
-   "message": "The STEP diameter annotation could not be drawn. Review its requirement and attachment. Graphical callout #617 (\"Linear Size.6\").",
-   "severity": "error",
-   "sources": [
-    "dimension:#127"
-   ],
-   "subjects": []
-  },
-  {
    "annotation": "d:step_level/step_height.length.h50",
    "code": "closed_dimension_chain",
    "fix": "State the step height length h50 of the feature in a view that shows its true size or location.",
@@ -247,52 +143,6 @@
    "severity": "warning",
    "subjects": [
     "step_level"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "fix": "State the location length y of the slot in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the slot in a view that shows its true size or location.",
-   "group": "feature_not_located:slot",
-   "id": "l:feature_not_located:f:slot:1/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:slot:1/location.length.y"
-   ],
-   "message": "f:slot:1 on y: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:slot:1",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "fix": "State the location length y of the slot in a view that shows its true size or location.",
-   "fix_description": "State the location length y of the slot in a view that shows its true size or location.",
-   "group": "feature_not_located:slot",
-   "id": "l:feature_not_located:f:slot:2/location.length.y",
-   "impact": "incomplete",
-   "measurements": [
-    "f:slot:2/location.length.y"
-   ],
-   "message": "f:slot:2 on y: no drawn dimension chain reaches an origin.",
-   "requirements": [
-    {
-     "feature": "f:slot:2",
-     "parameter": "location.length.y"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:slot:2"
    ]
   },
   {
@@ -356,56 +206,11 @@
  ],
  "problems": [
   {
-   "code": "features_not_recognised",
-   "group": "features_not_recognised",
-   "id": "p:features_not_recognised:part",
-   "impact": "incomplete",
-   "message": "Unrecognised features on this part: 2 rectangular through notches. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
-   "refs": [
-    "rectangular_through_notches",
-    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
-    "Python quiddity's recognition (tools/recognise.py) gives these families"
-   ],
-   "severity": "warning",
-   "subjects": []
-  },
-  {
-   "code": "page_fit_uncertain",
-   "fix": [
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:10"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "page_fit_uncertain",
-   "id": "p:page_fit_uncertain:sheet",
-   "impact": "readability",
-   "message": "The views may not fit A3 at 1:5, as the spec asks; A3 at 1:10 fits.",
-   "severity": "warning",
-   "subjects": [
-    "sheet"
-   ]
-  },
-  {
    "code": "detail_unplaceable",
    "group": "detail_unplaceable",
    "id": "p:detail_unplaceable:v:detail_a",
    "impact": "readability",
-   "message": "prismatic-steps detail has no reserved room or source view; its dimensions remain on the parent.",
+   "message": "Detail detail_a has insufficient layout space for its crop at scale 1:2.500; its dimensions remain on the parent.",
    "refs": [
     "v:detail_a"
    ],
@@ -446,63 +251,55 @@
    "subjects": []
   },
   {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension+graphical_callout",
-   "id": "p:pmi_not_lowered:dimension:#24",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#24 (linear) is not drawn: the file states no nominal value; the STEP reader nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one. Graphical callout #625 (\"Linear Size.10\").",
+   "code": "pmi_read_fact",
+   "group": "pmi_read_fact:dimension",
+   "id": "p:pmi_read_fact:dimension:#24:measured_nominal",
+   "impact": "advisory",
+   "message": "PMI dimension dimension:#24: a dimension without a dimensional_characteristic_representation: no value is stated. Its nominal 85 mm was measured from the referenced geometry; the file states no nominal, and only explicitly stated tolerances are retained.",
    "refs": [
     "dimension:#24",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #24 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
-    "graphical_callout:#625",
-    "graphical_text:\"Linear Size.10\""
+    "#24"
    ],
-   "severity": "error",
+   "severity": "info",
    "subjects": []
   },
   {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension+graphical_callout",
-   "id": "p:pmi_not_lowered:dimension:#25",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#25 (linear) is not drawn: the file states no nominal value; the STEP reader nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one. Graphical callout #626 (\"Linear Size.11\").",
+   "code": "pmi_read_fact",
+   "group": "pmi_read_fact:dimension",
+   "id": "p:pmi_read_fact:dimension:#25:measured_nominal",
+   "impact": "advisory",
+   "message": "PMI dimension dimension:#25: a dimension without a dimensional_characteristic_representation: no value is stated. Its nominal 50 mm was measured from the referenced geometry; the file states no nominal, and only explicitly stated tolerances are retained.",
    "refs": [
     "dimension:#25",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #25 (dimensional_location): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
-    "graphical_callout:#626",
-    "graphical_text:\"Linear Size.11\""
+    "#25"
    ],
-   "severity": "error",
+   "severity": "info",
    "subjects": []
   },
   {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension+graphical_callout",
-   "id": "p:pmi_not_lowered:dimension:#126",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#126 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one. Graphical callout #616 (\"Linear Size.5\").",
+   "code": "pmi_read_fact",
+   "group": "pmi_read_fact:dimension",
+   "id": "p:pmi_read_fact:dimension:#126:measured_nominal",
+   "impact": "advisory",
+   "message": "PMI dimension dimension:#126: a dimension without a dimensional_characteristic_representation: no value is stated. Its nominal 35 mm was measured from the referenced geometry; the file states no nominal, and only explicitly stated tolerances are retained.",
    "refs": [
     "dimension:#126",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #126 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
-    "graphical_callout:#616",
-    "graphical_text:\"Linear Size.5\""
+    "#126"
    ],
-   "severity": "error",
+   "severity": "info",
    "subjects": []
   },
   {
-   "code": "pmi_not_lowered",
-   "group": "pmi_not_lowered:dimension+graphical_callout",
-   "id": "p:pmi_not_lowered:dimension:#127",
-   "impact": "incomplete",
-   "message": "PMI dimension dimension:#127 (diameter) is not drawn: the file states no nominal value; the STEP reader nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one. Graphical callout #617 (\"Linear Size.6\").",
+   "code": "pmi_read_fact",
+   "group": "pmi_read_fact:dimension",
+   "id": "p:pmi_read_fact:dimension:#127:measured_nominal",
+   "impact": "advisory",
+   "message": "PMI dimension dimension:#127: a dimension without a dimensional_characteristic_representation: no value is stated. Its nominal 35 mm was measured from the referenced geometry; the file states no nominal, and only explicitly stated tolerances are retained.",
    "refs": [
     "dimension:#127",
-    "the file states no nominal value (haecceity reads it without one); haecceity nonconformance on #127 (dimensional_size): a dimension without a dimensional_characteristic_representation: no value is stated (\u00a75.2.1: the nominal value shall always be given); read without one",
-    "graphical_callout:#617",
-    "graphical_text:\"Linear Size.6\""
+    "#127"
    ],
-   "severity": "error",
+   "severity": "info",
    "subjects": []
   },
   {
@@ -555,414 +352,8 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:chamfer:1~1chamfer.length/place",
-     "value": {
-      "along": "end",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the C50 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of C50 crosses a line of 100. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:chamfer:1~1chamfer.length/place",
-       "value": {
-        "along": "end",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:chamfer:1/chamfer.length|d:f:slot:2/slot_length.length",
-   "impact": "advisory",
-   "message": "The leader of C50 crosses a line of 100.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:chamfer:1/chamfer.length",
-    "d:f:slot:2/slot_length.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:fillet:15~1fillet.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 18\u00d7 R10 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of 18\u00d7 R10 crosses a line of 100. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:fillet:15~1fillet.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:fillet:15/fillet.radius|d:authored:notch_depth",
-   "impact": "advisory",
-   "message": "The leader of 18\u00d7 R10 crosses a line of 25.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:fillet:15/fillet.radius",
-    "d:authored:notch_depth"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:8~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the \u230025 \u00b10.15 THRU callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of \u230025 \u00b10.15 THRU crosses a line of 100. [annotation_leader_crossing] The leader of \u230025 \u00b10.15 THRU crosses a line of 25. [annotation_leader_crossing] The leader of \u230025 \u00b10.15 THRU crosses a line of 85. [annotation_leader_crossing] A line of 85 runs through the label of \u230025 \u00b10.15 THRU. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:8~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:8/bore.diameter|d:f:hole_pattern:1/location.length.x",
-   "impact": "advisory",
-   "message": "The leader of \u230025 \u00b10.15 THRU crosses a line of 400.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:8/bore.diameter",
-    "d:f:hole_pattern:1/location.length.x"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:4~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 \u230035 \u00b10.2 THRU callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 \u230035 \u00b10.2 THRU crosses a line of 100. [annotation_leader_crossing] The leader of 2\u00d7 \u230035 \u00b10.2 THRU crosses a line of 635. [annotation_leader_crossing] The leader of 2\u00d7 \u230035 \u00b10.2 THRU crosses a line of 207.5. [annotation_leader_crossing] The leader of 2\u00d7 \u230035 \u00b10.2 THRU crosses a line of 85. [annotation_leader_crossing] A line of 85 runs through the label of 2\u00d7 \u230035 \u00b10.2 THRU. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:4~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:4/bore.diameter|d:f:slot:1/slot_length.length",
-   "impact": "advisory",
-   "message": "The leader of 2\u00d7 \u230035 \u00b10.2 THRU crosses a line of 120.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:4/bore.diameter",
-    "d:f:slot:1/slot_length.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
      "path": "dimensions/d:f:polygonal_boss:1~1boss_height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -996,8 +387,6 @@
        "op": "set",
        "path": "dimensions/d:f:polygonal_boss:1~1boss_height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -1062,8 +451,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -1097,8 +484,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -1163,8 +548,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1notch_location_x.length.f97_e92_e96/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -1198,8 +581,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1notch_location_x.length.f97_e92_e96/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -1264,8 +645,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -1299,8 +678,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -1850,16 +1227,72 @@
    "fix": [
     {
      "op": "set",
-     "path": "hole_table",
-     "value": "always"
+     "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:10"
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
     }
    ],
    "fixes": [
+    {
+     "description": "Move the 225 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: A line of 225 runs through the label of 90. [annotation_ink_overlap] A line of 225 runs through the label of 7\u00d7 R50. [annotation_ink_overlap] The second extension line of 225 crosses the 40 wide slot. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -1892,16 +1325,72 @@
    "fix": [
     {
      "op": "set",
-     "path": "hole_table",
-     "value": "always"
+     "path": "dimensions/d:f:slot:2~1slot_length.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A3"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:10"
+     "value": "1:5"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
     }
    ],
    "fixes": [
+    {
+     "description": "Move the 100 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 100 runs through the label of 150. [annotation_ink_overlap] The leader of 18\u00d7 R10 crosses a line of 100. [annotation_leader_crossing] The leader of 4\u00d7 R25 crosses a line of 100. [annotation_leader_crossing] The second extension line of 100 crosses the \u230035 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:slot:2~1slot_length.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 1,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A3"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:5"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -1936,7 +1425,7 @@
      "op": "set",
      "path": "dimensions/d:authored:ear_right/place",
      "value": {
-      "along": "start",
+      "along": "middle",
       "lane": 0,
       "side": "above",
       "view": "plan"
@@ -1965,13 +1454,13 @@
    ],
    "fixes": [
     {
-     "description": "Move the 150 dimension above the plan view, nearest the view.",
+     "description": "Move the 150 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 100 runs through the label of 150. [annotation_ink_overlap] The leader of C50 crosses a line of 150. [annotation_leader_crossing] The leader of 18\u00d7 R10 crosses a line of 150. [annotation_leader_crossing] The leader of 2\u00d7 \u230035 \u00b10.2 THRU crosses a line of 150. [annotation_leader_crossing] A line of 150 runs through the label of 2\u00d7 \u230035 \u00b10.2 THRU. [annotation_ink_overlap].",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:authored:ear_right/place",
        "value": {
-        "along": "start",
+        "along": "middle",
         "lane": 0,
         "side": "above",
         "view": "plan"
@@ -2028,141 +1517,6 @@
    ]
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1height.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 150 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 150 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1height.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.perpendicularity:f24:ref=A|d:envelope/height.length",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u27c2 1.5 A crosses a line of 150.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.perpendicularity:f24:ref=A",
-    "d:envelope/height.length"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:slot",
-   "id": "p:feature_not_located:f:slot:1/location.length.y",
-   "impact": "incomplete",
-   "message": "the 40 wide slot on y: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "feature_not_located",
-   "group": "feature_not_located:slot",
-   "id": "p:feature_not_located:f:slot:2/location.length.y",
-   "impact": "incomplete",
-   "message": "the 50 wide slot on y: no drawn dimension chain reaches an origin.",
-   "severity": "warning",
-   "subjects": [
-    "f:slot:2"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:authored:ear_right|d:f:hole:6/bore.diameter",
-   "impact": "advisory",
-   "message": "Line-work of 150 passes less than 0.5 mm from the label of \u230035 +0.2/0 THRU, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:authored:ear_right",
-    "d:f:hole:6/bore.diameter"
-   ]
-  },
-  {
    "code": "label_crowded",
    "group": "label_crowded",
    "id": "p:label_crowded:d:envelope/notch_location_x.length.f97_e104_e108|d:f:hole:2/bore.diameter",
@@ -2172,18 +1526,6 @@
    "subjects": [
     "d:envelope/notch_location_x.length.f97_e104_e108",
     "d:f:hole:2/bore.diameter"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:1/location.length.y|d:f:hole_pattern:1/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "Line-work of 225 passes less than 0.5 mm from the label of 90, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:1/location.length.y",
-    "d:f:hole_pattern:1/grid_pitch.length.row"
    ]
   },
   {
@@ -2199,62 +1541,62 @@
    ]
   },
   {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:1/grid_pitch.length.col|d:f:hole:7/bore.diameter",
-   "impact": "advisory",
-   "message": "Line-work of 320 passes less than 0.5 mm from the label of \u230035 0/-0.2 THRU, so it touches the text.",
-   "severity": "info",
+   "code": "gdt_position_changed",
+   "group": "gdt_position_changed",
+   "id": "p:gdt_position_changed:pmi:datum.datum:f75,76:t=C",
+   "impact": "decision",
+   "message": "Datum feature symbol C moved from its automatic position to make room for the requested place of 510.",
+   "refs": [
+    "dimensions/d:envelope~1notch_location_x.length.f97_e104_e108/place"
+   ],
+   "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:1/grid_pitch.length.col",
-    "d:f:hole:7/bore.diameter"
+    "pmi:datum.datum:f75,76:t=C",
+    "d:envelope/notch_location_x.length.f97_e104_e108"
    ]
   },
   {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:2/grid_pitch.length.row|d:authored:bar_back",
-   "impact": "advisory",
-   "message": "Line-work of 350 passes less than 0.5 mm from the label of 100, so it touches the text.",
-   "severity": "info",
+   "code": "gdt_position_changed",
+   "group": "gdt_position_changed",
+   "id": "p:gdt_position_changed:pmi:datum.datum:f89,90:t=B",
+   "impact": "decision",
+   "message": "Datum feature symbol B moved from its automatic position to make room for the requested place of 510.",
+   "refs": [
+    "dimensions/d:envelope~1notch_location_x.length.f97_e104_e108/place"
+   ],
+   "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.row",
-    "d:authored:bar_back"
+    "pmi:datum.datum:f89,90:t=B",
+    "d:envelope/notch_location_x.length.f97_e104_e108"
    ]
   },
   {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:2/grid_pitch.length.col|d:authored:ear_right",
-   "impact": "advisory",
-   "message": "Line-work of 650 passes less than 0.5 mm from the label of 150, so it touches the text.",
-   "severity": "info",
+   "code": "gdt_position_changed",
+   "group": "gdt_position_changed",
+   "id": "p:gdt_position_changed:pmi:datum.datum:f97:t=A",
+   "impact": "decision",
+   "message": "Datum feature symbol A moved from its automatic position to make room for the requested place of 510.",
+   "refs": [
+    "dimensions/d:envelope~1notch_location_x.length.f97_e104_e108/place"
+   ],
+   "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.col",
-    "d:authored:ear_right"
+    "pmi:datum.datum:f97:t=A",
+    "d:envelope/notch_location_x.length.f97_e104_e108"
    ]
   }
  ],
  "structural": [
   {
-   "annotation": "d:f:hole:6/bore.diameter",
-   "at": [
-    221.8345,
-    148.88299999999998
-   ],
-   "code": "annotation_ink_overlap",
-   "fix": "move what is drawn, not just the text",
-   "fix_description": "Move what is drawn, not just the text.",
-   "group": "annotation_ink_overlap",
-   "id": "l:annotation_ink_overlap:d:f:hole:6/bore.diameter+d:authored:ear_right",
-   "impact": "readability",
-   "message": "'150' draws 2.7 mm of line-work through the label '\u230035 +0.2/0 THRU' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
-   "related": [
-    "d:authored:ear_right"
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
+   "annotation": "d:f:slot:1/slot_width.length",
+   "code": "view_annotation_inside_extents",
+   "group": "view_annotation_inside_extents",
+   "id": "l:view_annotation_inside_extents:v:plan:d:f:slot:1/slot_width.length",
+   "impact": "advisory",
+   "message": "label of annotation '40' lies inside view 'plan' extents [x=48.0\u2013208.0, y=152.0\u2013242.0] over a blank region \u2014 legitimate for callouts on large faces",
+   "severity": "info",
+   "subjects": [],
+   "view": "v:plan"
   },
   {
    "annotation": "pmi:datum.datum:f89,90:t=B",
@@ -2270,41 +1612,36 @@
  ],
  "summary": {
   "groups": {
-   "annotation_ink_overlap": 1,
    "annotation_leader_crossing:dimension_line": 2,
-   "annotation_leader_crossing:extension_line": 7,
+   "annotation_leader_crossing:extension_line": 2,
    "closed_dimension_chain": 1,
    "datum_origin_unusable": 2,
    "detail_unplaceable": 1,
    "extension_through_feature": 8,
-   "feature_not_located:slot": 4,
-   "features_not_recognised": 1,
-   "label_crowded": 7,
+   "gdt_position_changed": 3,
+   "label_crowded": 2,
    "location_on_datum": 1,
-   "page_fit_uncertain": 1,
    "pmi_not_extracted": 6,
-   "pmi_not_extracted:dimension": 4,
-   "pmi_not_lowered:dimension": 4,
-   "pmi_not_lowered:dimension+graphical_callout": 4,
+   "pmi_read_fact:dimension": 4,
    "radius_leader_not_radial": 2,
-   "view_annotation_inside_extents": 1
+   "view_annotation_inside_extents": 2
   },
   "impacts": {
    "advisory": {
-    "findings": 33,
-    "groups": 8
+    "findings": 28,
+    "groups": 9
    },
    "decision": {
+    "findings": 3,
+    "groups": 1
+   },
+   "incomplete": {
     "findings": 0,
     "groups": 0
    },
-   "incomplete": {
-    "findings": 17,
-    "groups": 5
-   },
    "readability": {
-    "findings": 7,
-    "groups": 5
+    "findings": 5,
+    "groups": 3
    }
   }
  }

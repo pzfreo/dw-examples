@@ -311,6 +311,20 @@
     "face:35",
     "face:38"
    ]
+  },
+  {
+   "code": "placement_displaced",
+   "group": "placement_displaced",
+   "id": "p:placement_displaced:d:scheme:holes-y/23c244b80eadd066",
+   "impact": "decision",
+   "message": "The requested place of 59 was displaced in lane by the final collision and sheet-boundary layout. The drawing is retained at its recorded position; adjust the placement or release the conflicting constraint.",
+   "refs": [
+    "dimensions/d:scheme:holes-y~123c244b80eadd066/place"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "d:scheme:holes-y/23c244b80eadd066"
+   ]
   }
  ],
  "structural": [],
@@ -319,6 +333,7 @@
    "annotation_leader_crossing:extension_line": 1,
    "annotation_outside_area": 1,
    "extension_through_feature": 1,
+   "placement_displaced": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -327,8 +342,8 @@
     "groups": 4
    },
    "decision": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    },
    "incomplete": {
     "findings": 0,

@@ -865,26 +865,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -895,26 +875,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -1114,7 +1074,7 @@
    "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#10115",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#10115 (38.1 \u00b10.3048) is not drawn: linear reference-station span 33.3375 mm differs from nominal 38.1 mm. Graphical callout #10126 (\"Linear Size.30\").",
+   "message": "PMI dimension dimension:#10115 (38.1 \u00b10.3048) is not drawn: linear reference-station span 33.3375 mm differs from nominal 38.1 mm; reference face groups [[103], [105]] (STEP faces [3715, 3770]). Graphical callout #10126 (\"Linear Size.30\").",
    "refs": [
     "dimension:#10115",
     "linear reference-station span 33.3375 mm differs from nominal 38.1 mm",

@@ -863,7 +863,7 @@
   },
   {
    "code": "pmi_not_extracted",
-   "evidence": "AP242 geometric_tolerance geometric_tolerance:#18891 was discovered but not extracted: the projected tolerance zone is not carried; applies to supplemental geometry (geometric_curve_set), not only the part's faces and edges; haecceity nonconformance on #18891 (geometric_tolerance+geometric_tolerance_with_datum_reference+position_tolerance): the projected zone's projection end identifies no face (\u00a76.9.2.2); read without the end; haecceity nonconformance on #18894 (shape_aspect): shape aspect identifies no face or edge; not read\ngraphical_callout:#18909; Graphical callout #18909 (\"Position.3\").",
+   "evidence": "AP242 geometric_tolerance geometric_tolerance:#18891 was discovered but not extracted: the projected tolerance zone is not carried; applies to supplemental geometry (geometric_curve_set), not only the part's faces and edges\ngraphical_callout:#18909; Graphical callout #18909 (\"Position.3\").",
    "group": "pmi_not_extracted:geometric_tolerance",
    "id": "l:pmi_not_extracted:geometric_tolerance:#18891",
    "impact": "incomplete",
@@ -1552,11 +1552,11 @@
   },
   {
    "code": "pmi_not_lowered",
-   "evidence": "PMI geometric_tolerance:#18891 (position 0.75) is not drawn: the projected tolerance zone is not carried; applies to supplemental geometry (geometric_curve_set), not only the part's faces and edges; the STEP reader nonconformance on #18891 (geometric_tolerance+geometric_tolerance_with_datum_reference+position_tolerance): the projected zone's projection end identifies no face (\u00a76.9.2.2); read without the end; the STEP reader nonconformance on #18894 (shape_aspect): shape aspect identifies no face or edge; not read.\ngraphical_callout:#18909; Graphical callout #18909 (\"Position.3\").",
+   "evidence": "PMI geometric_tolerance:#18891 (position 0.75) is not drawn: the projected tolerance zone is not carried; applies to supplemental geometry (geometric_curve_set), not only the part's faces and edges.\ngraphical_callout:#18909; Graphical callout #18909 (\"Position.3\").",
    "group": "pmi_not_lowered:geometric_tolerance",
    "id": "l:pmi_not_lowered:geometric_tolerance:#18891",
    "impact": "incomplete",
-   "message": "The STEP position annotation could not be drawn. Review its requirement and attachment. Graphical callout #18909 (\"Position.3\").",
+   "message": "The STEP position annotation could not be drawn: the projected tolerance zone is not carried; applies to supplemental geometry (geometric_curve_set), not only the part's faces and edges. Review its requirement and attachment. Graphical callout #18909 (\"Position.3\").",
    "severity": "error",
    "sources": [
     "geometric_tolerance:#18891"
@@ -1897,26 +1897,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -1927,26 +1907,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -2288,6 +2248,19 @@
     "d:f:fillet:29/fillet.radius",
     "d:f:fillet:6/fillet.radius"
    ]
+  },
+  {
+   "code": "pmi_read_fact",
+   "group": "pmi_read_fact",
+   "id": "p:pmi_read_fact:18897:projected zone states a projection-end shape aspect with no geometry",
+   "impact": "advisory",
+   "message": "The STEP reader preserved a PMI statement: projected zone states a projection-end shape aspect with no geometry.",
+   "refs": [
+    "#18897",
+    "#18894"
+   ],
+   "severity": "info",
+   "subjects": []
   },
   {
    "code": "pmi_not_extracted",
@@ -2959,13 +2932,11 @@
    "group": "pmi_not_lowered:geometric_tolerance+graphical_callout",
    "id": "p:pmi_not_lowered:geometric_tolerance:#18891",
    "impact": "incomplete",
-   "message": "PMI geometric_tolerance:#18891 (position 0.75) is not drawn: the projected tolerance zone is not carried; applies to supplemental geometry (geometric_curve_set), not only the part's faces and edges; the STEP reader nonconformance on #18891 (geometric_tolerance+geometric_tolerance_with_datum_reference+position_tolerance): the projected zone's projection end identifies no face (\u00a76.9.2.2); read without the end; the STEP reader nonconformance on #18894 (shape_aspect): shape aspect identifies no face or edge; not read. Graphical callout #18909 (\"Position.3\").",
+   "message": "PMI geometric_tolerance:#18891 (position 0.75) is not drawn: the projected tolerance zone is not carried; applies to supplemental geometry (geometric_curve_set), not only the part's faces and edges. Graphical callout #18909 (\"Position.3\").",
    "refs": [
     "geometric_tolerance:#18891",
     "the projected tolerance zone is not carried",
     "applies to supplemental geometry (geometric_curve_set), not only the part's faces and edges",
-    "haecceity nonconformance on #18891 (geometric_tolerance+geometric_tolerance_with_datum_reference+position_tolerance): the projected zone's projection end identifies no face (\u00a76.9.2.2); read without the end",
-    "haecceity nonconformance on #18894 (shape_aspect): shape aspect identifies no face or edge; not read",
     "graphical_callout:#18909",
     "graphical_text:\"Position.3\""
    ],
@@ -2977,7 +2948,7 @@
    "group": "hole_table_unavailable",
    "id": "p:hole_table_unavailable:sheet",
    "impact": "advisory",
-   "message": "The selected hole table or one of its tags has no clear place; the original dimensions are kept.",
+   "message": "The automatic hole table or its tags have no clear place; the original dimensions are kept.",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -6132,8 +6103,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6167,8 +6136,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6217,8 +6184,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h10_604/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6252,8 +6217,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h10_604/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6302,8 +6265,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h60_604/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6337,8 +6298,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h60_604/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6387,8 +6346,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h85_729/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6422,8 +6379,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h85_729/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6472,8 +6427,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h86_854/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6507,8 +6460,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h86_854/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6557,8 +6508,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h100_604/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6592,8 +6541,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h100_604/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6643,8 +6590,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h114_793/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6678,8 +6623,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h114_793/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6725,8 +6668,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6760,8 +6701,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6811,8 +6750,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6846,8 +6783,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6896,8 +6831,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h10_604/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -6931,8 +6864,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h10_604/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -6981,8 +6912,6 @@
      "op": "set",
      "path": "dimensions/d:pmi:dimension.linear.basic:f15,16,17,18~1linear.basic/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -7016,8 +6945,6 @@
        "op": "set",
        "path": "dimensions/d:pmi:dimension.linear.basic:f15,16,17,18~1linear.basic/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -7066,8 +6993,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1height.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -7101,8 +7026,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1height.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -7152,8 +7075,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h10_604/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -7187,8 +7108,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h10_604/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -7237,8 +7156,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h10_604/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -7272,8 +7189,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h10_604/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -7322,8 +7237,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h60_604/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -7357,8 +7270,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h60_604/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -7407,8 +7318,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h85_729/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -7442,8 +7351,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h85_729/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -7492,8 +7399,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h86_854/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -7527,8 +7432,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h86_854/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -7577,8 +7480,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h114_793/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -7612,8 +7513,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h114_793/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -18396,6 +18295,7 @@
    "pmi_not_lowered:geometric_tolerance": 5,
    "pmi_not_lowered:geometric_tolerance+graphical_callout": 5,
    "pmi_not_rendered:dimension": 2,
+   "pmi_read_fact": 1,
    "radius_leader_not_radial": 1,
    "shape_not_recognised:chamfer": 2,
    "sheet_preference_exceeded": 1,
@@ -18406,8 +18306,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 237,
-    "groups": 15
+    "findings": 238,
+    "groups": 16
    },
    "decision": {
     "findings": 1,

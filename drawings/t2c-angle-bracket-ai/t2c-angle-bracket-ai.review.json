@@ -123,30 +123,20 @@
    "severity": "info",
    "subjects": [],
    "view": "v:front"
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "l:nominal_rounded",
-   "impact": "advisory",
-   "message": "1 dimension(s) print a nominal the model does not have, rounded to the sheet's precision; the largest is '38.6' for 38.6410 (0.0410 mm). Within a general tolerance this is ordinary. Where a fit depends on it, the dimension needs more places (set precision for its measurement ID)",
-   "severity": "info",
-   "subjects": []
   }
  ],
  "summary": {
   "groups": {
    "feature_not_dimensioned:hole": 1,
    "feature_not_located:hole": 1,
-   "nominal_rounded": 1,
    "unclaimed_geometry": 1,
    "unrecognised_defining_geometry": 2,
    "view_annotation_inside_extents": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 3,
-    "groups": 3
+    "findings": 2,
+    "groups": 2
    },
    "decision": {
     "findings": 0,

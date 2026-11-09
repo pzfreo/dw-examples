@@ -259,181 +259,6 @@
    "subjects": []
   },
   {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/location.length.x"
-   ],
-   "message": "f:hole_pattern:1 has no proven x location of its centre on the drawing.",
-   "related": [
-    "f:hole:2",
-    "f:hole:1",
-    "f:hole:29",
-    "f:hole:30"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length z of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length z of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.z",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/location.length.z",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/location.length.z"
-   ],
-   "message": "f:hole_pattern:1 has no proven z location of its centre on the drawing.",
-   "related": [
-    "f:hole:2",
-    "f:hole:1",
-    "f:hole:29",
-    "f:hole:30"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "location.length.z"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 140",
-   "fix": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length col of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:grid_pitch.length.col",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/grid_pitch.length.col",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/grid_pitch.length.col"
-   ],
-   "message": "f:hole_pattern:1: grid_pitch.length.col is not proved by the printed drawing.",
-   "related": [
-    "f:hole:2",
-    "f:hole:1",
-    "f:hole:29",
-    "f:hole:30"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "grid_pitch.length.col"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 57",
-   "fix": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "fix_description": "State the grid pitch length row of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:grid_pitch.length.row",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:1/grid_pitch.length.row",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:1/grid_pitch.length.row"
-   ],
-   "message": "f:hole_pattern:1: grid_pitch.length.row is not proved by the printed drawing.",
-   "related": [
-    "f:hole:2",
-    "f:hole:1",
-    "f:hole:29",
-    "f:hole:30"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:1",
-     "parameter": "grid_pitch.length.row"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:1"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "fix": "State the location length x of the feature in a view that shows its true size or location.",
-   "fix_description": "State the location length x of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:location.length.x",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:4/location.length.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:4/location.length.x"
-   ],
-   "message": "f:hole_pattern:4 has no proven x location of its physical member anchor on the drawing.",
-   "related": [
-    "f:hole:9",
-    "f:hole:14",
-    "f:hole:15"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:4",
-     "parameter": "location.length.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:4"
-   ]
-  },
-  {
-   "code": "hole_pattern_requirement_missing",
-   "evidence": "Expected 11",
-   "fix": "State the pitch length of the feature in a view that shows its true size or location.",
-   "fix_description": "State the pitch length of the feature in a view that shows its true size or location.",
-   "group": "hole_pattern_requirement_missing:pitch.length",
-   "id": "l:hole_pattern_requirement_missing:f:hole_pattern:4/pitch.length",
-   "impact": "incomplete",
-   "measurements": [
-    "f:hole_pattern:4/pitch.length"
-   ],
-   "message": "f:hole_pattern:4: pitch.length is not proved by the printed drawing.",
-   "related": [
-    "f:hole:9",
-    "f:hole:14",
-    "f:hole:15"
-   ],
-   "requirements": [
-    {
-     "feature": "f:hole_pattern:4",
-     "parameter": "pitch.length"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": [
-    "f:hole_pattern:4"
-   ]
-  },
-  {
    "code": "pmi_not_extracted",
    "evidence": "AP242 dimension dimension:#313 was discovered but not extracted: applies to supplemental geometry (trimmed_curve), not only the part's faces and edges\ngraphical_callout:#1615; Graphical callout #1615 (\"Radial Hole and Thread Callout (330)\").",
    "group": "pmi_not_extracted:dimension",
@@ -950,19 +775,6 @@
    "severity": "error",
    "sources": [
     "tolerance_relation:0:2"
-   ],
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
-   "evidence": "AP242 other finding:#15 was discovered but not extracted: haecceity nonconformance: shape aspect identifies no face or edge; not read",
-   "group": "pmi_not_extracted:finding",
-   "id": "l:pmi_not_extracted:finding:#15",
-   "impact": "advisory",
-   "message": "A STEP finding annotation is not fully represented on the drawing. Add the requirement to the Spec and review it manually.",
-   "severity": "info",
-   "sources": [
-    "finding:#15"
    ],
    "subjects": []
   },
@@ -1685,7 +1497,7 @@
    "message": "Unrecognised features on this part: 1 freeform surface. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.4.3 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -1696,7 +1508,7 @@
    "group": "detail_unplaceable",
    "id": "p:detail_unplaceable:v:detail_b",
    "impact": "readability",
-   "message": "prismatic-steps detail has no reserved room or source view; its dimensions remain on the parent.",
+   "message": "Detail detail_b has insufficient layout space for its crop at scale 5:1; its dimensions remain on the parent.",
    "refs": [
     "v:detail_b"
    ],
@@ -1710,26 +1522,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -1740,26 +1532,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -2451,20 +2223,6 @@
   },
   {
    "code": "pmi_not_extracted",
-   "group": "pmi_not_extracted:finding",
-   "id": "p:pmi_not_extracted:finding:#15",
-   "impact": "advisory",
-   "message": "A STEP finding is not drawn because its annotation is not supported. Add the requirement to the Spec and review it manually.",
-   "refs": [
-    "finding:#15",
-    "default_model_geometric_view",
-    "haecceity nonconformance: shape aspect identifies no face or edge; not read"
-   ],
-   "severity": "info",
-   "subjects": []
-  },
-  {
-   "code": "pmi_not_extracted",
    "group": "pmi_not_extracted:finding+graphical_callout",
    "id": "p:pmi_not_extracted:finding:#2827",
    "impact": "advisory",
@@ -2821,8 +2579,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -2836,8 +2592,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -2866,8 +2620,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:4~1location.length.y/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -2881,8 +2633,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:4~1location.length.y/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -2911,8 +2661,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:5~1location.length.y/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -2926,8 +2674,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:5~1location.length.y/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -2956,8 +2702,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:4~1location.length.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "side"
      }
@@ -2971,8 +2715,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:4~1location.length.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "side"
        }
@@ -3001,8 +2743,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:5~1location.length.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "side"
      }
@@ -3016,8 +2756,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:5~1location.length.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "side"
        }
@@ -3046,8 +2784,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -3061,8 +2797,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -3091,8 +2825,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:4~1location.length.y/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -3106,8 +2838,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:4~1location.length.y/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -3136,8 +2866,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:5~1location.length.y/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -3151,8 +2879,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:5~1location.length.y/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -3181,8 +2907,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -3216,8 +2940,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -3266,8 +2988,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h10/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3301,8 +3021,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h10/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3351,8 +3069,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h65/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -3386,8 +3102,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h65/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -3438,8 +3152,6 @@
      "op": "set",
      "path": "dimensions/d:pmi:dimension.linear:f41,44~1linear/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -3473,8 +3185,6 @@
        "op": "set",
        "path": "dimensions/d:pmi:dimension.linear:f41,44~1linear/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -3523,8 +3233,6 @@
      "op": "set",
      "path": "dimensions/d:pmi:dimension.linear:f39,43~1linear/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -3558,8 +3266,6 @@
        "op": "set",
        "path": "dimensions/d:pmi:dimension.linear:f39,43~1linear/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -3649,8 +3355,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -3664,8 +3368,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -3695,8 +3397,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1depth.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -3710,8 +3410,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1depth.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -3740,8 +3438,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:5~1location.length.y/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -3755,8 +3451,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:5~1location.length.y/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -3785,8 +3479,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:4~1location.length.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "side"
      }
@@ -3800,8 +3492,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:4~1location.length.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "side"
        }
@@ -3961,8 +3651,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -3996,8 +3684,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -4046,8 +3732,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h10/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -4081,8 +3765,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h10/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -4131,8 +3813,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h65/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -4166,8 +3846,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h65/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -4218,8 +3896,6 @@
      "op": "set",
      "path": "dimensions/d:pmi:dimension.linear:f41,44~1linear/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -4253,8 +3929,6 @@
        "op": "set",
        "path": "dimensions/d:pmi:dimension.linear:f41,44~1linear/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -4303,8 +3977,6 @@
      "op": "set",
      "path": "dimensions/d:pmi:dimension.linear:f39,43~1linear/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -4338,8 +4010,6 @@
        "op": "set",
        "path": "dimensions/d:pmi:dimension.linear:f39,43~1linear/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -4432,8 +4102,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:5~1location.length.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "side"
      }
@@ -4447,8 +4115,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:5~1location.length.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "side"
        }
@@ -4522,8 +4188,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:5~1location.length.y/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "side"
      }
@@ -4537,8 +4201,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:5~1location.length.y/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "side"
        }
@@ -4567,8 +4229,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole:5~1location.length.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "side"
      }
@@ -4582,8 +4242,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole:5~1location.length.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "side"
        }
@@ -4655,8 +4313,6 @@
      "op": "set",
      "path": "dimensions/d:envelope~1width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -4690,8 +4346,6 @@
        "op": "set",
        "path": "dimensions/d:envelope~1width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -4740,8 +4394,6 @@
      "op": "set",
      "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -4775,8 +4427,6 @@
        "op": "set",
        "path": "dimensions/d:f:hole_pattern:4~1location.length.z/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -4825,8 +4475,6 @@
      "op": "set",
      "path": "dimensions/d:f:slot:1~1slot_width.length/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -4860,8 +4508,6 @@
        "op": "set",
        "path": "dimensions/d:f:slot:1~1slot_width.length/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -4910,8 +4556,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h10/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -4945,8 +4589,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h10/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -4995,8 +4637,6 @@
      "op": "set",
      "path": "dimensions/d:step_level~1step_height.length.h65/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "left",
       "view": "front"
      }
@@ -5030,8 +4670,6 @@
        "op": "set",
        "path": "dimensions/d:step_level~1step_height.length.h65/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "left",
         "view": "front"
        }
@@ -5080,8 +4718,6 @@
      "op": "set",
      "path": "dimensions/d:pmi:dimension.linear:f41,44~1linear/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -5115,8 +4751,6 @@
        "op": "set",
        "path": "dimensions/d:pmi:dimension.linear:f41,44~1linear/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -5165,8 +4799,6 @@
      "op": "set",
      "path": "dimensions/d:pmi:dimension.linear:f39,43~1linear/place",
      "value": {
-      "along": "outside",
-      "lane": 0,
       "side": "above",
       "view": "front"
      }
@@ -5200,8 +4832,6 @@
        "op": "set",
        "path": "dimensions/d:pmi:dimension.linear:f39,43~1linear/place",
        "value": {
-        "along": "outside",
-        "lane": 0,
         "side": "above",
         "view": "front"
        }
@@ -11003,11 +10633,6 @@
    "feature_not_located:slot": 2,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "hole_pattern_requirement_missing:grid_pitch.length.col": 1,
-   "hole_pattern_requirement_missing:grid_pitch.length.row": 1,
-   "hole_pattern_requirement_missing:location.length.x": 2,
-   "hole_pattern_requirement_missing:location.length.z": 1,
-   "hole_pattern_requirement_missing:pitch.length": 1,
    "label_crowded": 3,
    "leader_across_view": 2,
    "leader_along_centreline": 3,
@@ -11016,7 +10641,7 @@
    "nominal_rounded": 1,
    "pmi_not_extracted": 38,
    "pmi_not_extracted:dimension": 6,
-   "pmi_not_extracted:finding": 12,
+   "pmi_not_extracted:finding": 10,
    "pmi_not_extracted:finding+graphical_callout": 6,
    "pmi_not_extracted:geometric_tolerance": 12,
    "pmi_not_extracted:graphical_callout": 6,
@@ -11033,7 +10658,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 148,
+    "findings": 146,
     "groups": 11
    },
    "decision": {
@@ -11041,8 +10666,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 98,
-    "groups": 18
+    "findings": 92,
+    "groups": 13
    },
    "readability": {
     "findings": 76,

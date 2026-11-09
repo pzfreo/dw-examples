@@ -4,7 +4,27 @@
     {
       "key": "GRM-01 shank",
       "item": 1,
+      "process": "machined",
       "name": "GRM-01 shank",
+      "product_ids": [
+        "SOLID"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "1"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "GRM-01",
       "products": [
         "GRM-01 shank"
@@ -38,26 +58,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "1:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -69,26 +69,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "1:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -356,7 +336,27 @@
     {
       "key": "GRM-02 shaft",
       "item": 2,
+      "process": "machined",
       "name": "GRM-02 shaft",
+      "product_ids": [
+        "SOLID"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "3"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "GRM-02",
       "products": [
         "GRM-02 shaft"
@@ -390,26 +390,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A3"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "5:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -421,26 +401,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A3"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "5:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1048,7 +1008,27 @@
     {
       "key": "GRM-06 blade retainer",
       "item": 3,
+      "process": "machined",
       "name": "GRM-06 blade retainer",
+      "product_ids": [
+        "SOLID"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "5"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "GRM-06",
       "products": [
         "GRM-06 blade retainer"
@@ -1082,26 +1062,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "10:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1113,26 +1073,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "10:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1200,7 +1140,28 @@
     {
       "key": "GRM-07 blade",
       "item": 4,
+      "process": "machined",
       "name": "GRM-07 blade",
+      "product_ids": [
+        "GRM-07 blade"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "8",
+        "9"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "GRM-07",
       "products": [
         "GRM-07 blade"
@@ -1234,26 +1195,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "5:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1265,26 +1206,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "5:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1341,7 +1262,27 @@
     {
       "key": "GRM-04 drive plate",
       "item": 5,
+      "process": "machined",
       "name": "GRM-04 drive plate",
+      "product_ids": [
+        "GRM-04 drive plate"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "14"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "GRM-04",
       "products": [
         "GRM-04 drive plate"
@@ -1375,26 +1316,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A3"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "5:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1406,26 +1327,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A3"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "5:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1446,15 +1347,27 @@
           ]
         },
         {
-          "id": "p:label_crowded:d:envelope/depth.length|d:f:hole:2/bore.diameter",
+          "id": "p:label_crowded:d:envelope/depth.length|d:f:blend:1/blend.radius",
           "code": "label_crowded",
           "severity": "info",
           "impact": "advisory",
           "group": "label_crowded",
-          "message": "Line-work of 8 passes less than 0.5 mm from the label of ⌀2.4 THRU, so it touches the text.",
+          "message": "Line-work of 8 passes less than 0.5 mm from the label of R4, so it touches the text.",
           "subjects": [
             "d:envelope/depth.length",
-            "d:f:hole:2/bore.diameter"
+            "d:f:blend:1/blend.radius"
+          ]
+        },
+        {
+          "id": "p:label_crowded:d:step_level/step_height.length.h2_5|d:step_level/step_height.length.h5_5",
+          "code": "label_crowded",
+          "severity": "info",
+          "impact": "advisory",
+          "group": "label_crowded",
+          "message": "Line-work of 2.5 passes less than 0.5 mm from the label of 5.5, so it touches the text.",
+          "subjects": [
+            "d:step_level/step_height.length.h2_5",
+            "d:step_level/step_height.length.h5_5"
           ]
         },
         {
@@ -1497,7 +1410,27 @@
     {
       "key": "GRM-03 thumbwheel drive screw",
       "item": 6,
+      "process": "machined",
       "name": "GRM-03 thumbwheel drive screw",
+      "product_ids": [
+        "SOLID"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "19"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "GRM-03",
       "products": [
         "GRM-03 thumbwheel drive screw"
@@ -1531,26 +1464,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "5:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1562,26 +1475,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "5:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1650,7 +1543,27 @@
     {
       "key": "GRM-05 depth-lock bolt",
       "item": 7,
+      "process": "machined",
       "name": "GRM-05 depth-lock bolt",
+      "product_ids": [
+        "SOLID"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "21"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "GRM-05",
       "products": [
         "GRM-05 depth-lock bolt"
@@ -1684,26 +1597,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "2:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1715,26 +1608,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "2:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1780,7 +1653,27 @@
     {
       "key": "push rod",
       "item": 8,
+      "process": "machined",
       "name": "push rod",
+      "product_ids": [
+        "SOLID"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "23"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "process": "guess",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "push rod"
@@ -1814,26 +1707,6 @@
               "op": "set",
               "path": "sheet/title/tolerance",
               "value": "UNSPECIFIED"
-            },
-            {
-              "op": "set",
-              "path": "sheet/keep_layout",
-              "value": true
-            },
-            {
-              "op": "set",
-              "path": "sheet/size",
-              "value": "A4"
-            },
-            {
-              "op": "set",
-              "path": "sheet/scale",
-              "value": "2:1"
-            },
-            {
-              "op": "set",
-              "path": "sheets/max",
-              "value": 1
             }
           ],
           "fixes": [
@@ -1845,26 +1718,6 @@
                   "op": "set",
                   "path": "sheet/title/tolerance",
                   "value": "UNSPECIFIED"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/keep_layout",
-                  "value": true
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/size",
-                  "value": "A4"
-                },
-                {
-                  "op": "set",
-                  "path": "sheet/scale",
-                  "value": "2:1"
-                },
-                {
-                  "op": "set",
-                  "path": "sheets/max",
-                  "value": 1
                 }
               ]
             }
@@ -1911,6 +1764,24 @@
       "key": "grub screw M4x5",
       "item": 9,
       "name": "grub screw M4x5",
+      "product_ids": [
+        "SOLID"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "12"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "grub screw M4x5"
@@ -1930,6 +1801,24 @@
       "key": "flat washer M2",
       "item": 10,
       "name": "flat washer M2",
+      "product_ids": [
+        "SOLID"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "15"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "flat washer M2"
@@ -1949,6 +1838,24 @@
       "key": "pan-head screw M2x6",
       "item": 11,
       "name": "pan-head screw M2x6",
+      "product_ids": [
+        "pan-head screw M2x6"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "17"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "pan-head screw M2x6"
@@ -1968,6 +1875,24 @@
       "key": "pan-head screw M2x10",
       "item": 12,
       "name": "pan-head screw M2x10",
+      "product_ids": [
+        "pan-head screw M2x10"
+      ],
+      "categories": [
+        "part"
+      ],
+      "occurrence_references": [
+        "18"
+      ],
+      "sources": {
+        "categories": "file",
+        "item": "guess",
+        "name": "file",
+        "occurrence_references": "file",
+        "product_ids": "file",
+        "qty": "file",
+        "supply": "guess"
+      },
       "reference": "",
       "products": [
         "pan-head screw M2x10"
@@ -2501,7 +2426,7 @@
         ]
       ],
       "default": false,
-      "basis": "authored: the spec's table t:1 (tables/0), towards the sheet's br corner as draftwright places a declared table",
+      "basis": "authored: the spec's table t:1 (tables/0), towards the sheet's br corner as draftwright places a declared table; Spec: hole_table; sheet keys [table_columns, title]; notes; tables; Automatic tag order and block placement unavailable (#309)",
       "state": {
         "kind": "shown"
       },
@@ -2832,26 +2757,6 @@
             "op": "set",
             "path": "sheet/title/tolerance",
             "value": "UNSPECIFIED"
-          },
-          {
-            "op": "set",
-            "path": "sheet/keep_layout",
-            "value": true
-          },
-          {
-            "op": "set",
-            "path": "sheet/size",
-            "value": "A3"
-          },
-          {
-            "op": "set",
-            "path": "sheet/scale",
-            "value": "1:1"
-          },
-          {
-            "op": "set",
-            "path": "sheets/max",
-            "value": 1
           }
         ],
         "fixes": [
@@ -2863,26 +2768,6 @@
                 "op": "set",
                 "path": "sheet/title/tolerance",
                 "value": "UNSPECIFIED"
-              },
-              {
-                "op": "set",
-                "path": "sheet/keep_layout",
-                "value": true
-              },
-              {
-                "op": "set",
-                "path": "sheet/size",
-                "value": "A3"
-              },
-              {
-                "op": "set",
-                "path": "sheet/scale",
-                "value": "1:1"
-              },
-              {
-                "op": "set",
-                "path": "sheets/max",
-                "value": 1
               }
             ]
           }

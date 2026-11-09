@@ -43,26 +43,6 @@
      "op": "set",
      "path": "sheet/title/tolerance",
      "value": "UNSPECIFIED"
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
     }
    ],
    "fixes": [
@@ -73,26 +53,6 @@
        "op": "set",
        "path": "sheet/title/tolerance",
        "value": "UNSPECIFIED"
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
       }
      ],
      "scope": "local"
@@ -109,50 +69,6 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "hole_bottom_unknown",
-   "group": "hole_bottom_unknown",
-   "id": "p:hole_bottom_unknown:f:hole:1",
-   "impact": "advisory",
-   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
-   "severity": "info",
-   "subjects": [
-    "f:hole:1"
-   ]
-  },
-  {
-   "code": "hole_bottom_unknown",
-   "group": "hole_bottom_unknown",
-   "id": "p:hole_bottom_unknown:f:hole:2",
-   "impact": "advisory",
-   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
-   "severity": "info",
-   "subjects": [
-    "f:hole:2"
-   ]
-  },
-  {
-   "code": "hole_bottom_unknown",
-   "group": "hole_bottom_unknown",
-   "id": "p:hole_bottom_unknown:f:hole:3",
-   "impact": "advisory",
-   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
-   "severity": "info",
-   "subjects": [
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "hole_bottom_unknown",
-   "group": "hole_bottom_unknown",
-   "id": "p:hole_bottom_unknown:f:hole:4",
-   "impact": "advisory",
-   "message": "The \u23006 hole is called out blind to its recognised depth (8), but recognition did not establish its bottom (unknown); check whether it is through.",
-   "severity": "info",
-   "subjects": [
-    "f:hole:4"
    ]
   },
   {
@@ -500,18 +416,6 @@
    ]
   },
   {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:1/location.length.y|ink:v:plan:cut:A:arrow:0",
-   "impact": "advisory",
-   "message": "The dimension 15 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:1/location.length.y",
-    "v:section_aa"
-   ]
-  },
-  {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
    "id": "p:leader_to_hidden_edge:d:f:fillet:1/fillet.radius",
@@ -522,6 +426,62 @@
     "d:f:fillet:1/fillet.radius",
     "v:side"
    ]
+  },
+  {
+   "code": "hole_exit_obstructed",
+   "group": "hole_exit_obstructed",
+   "id": "p:hole_exit_obstructed:f:hole:1:0",
+   "impact": "advisory",
+   "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
+   "refs": [
+    "face:14"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "f:hole:1"
+   ]
+  },
+  {
+   "code": "hole_exit_obstructed",
+   "group": "hole_exit_obstructed",
+   "id": "p:hole_exit_obstructed:f:hole:2:0",
+   "impact": "advisory",
+   "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
+   "refs": [
+    "face:17"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "f:hole:2"
+   ]
+  },
+  {
+   "code": "hole_exit_obstructed",
+   "group": "hole_exit_obstructed",
+   "id": "p:hole_exit_obstructed:f:hole:3:0",
+   "impact": "advisory",
+   "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
+   "refs": [
+    "face:15"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "f:hole:3"
+   ]
+  },
+  {
+   "code": "hole_exit_obstructed",
+   "group": "hole_exit_obstructed",
+   "id": "p:hole_exit_obstructed:f:hole:4:0",
+   "impact": "advisory",
+   "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
+   "refs": [
+    "face:18"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "f:hole:4"
+   ]
   }
  ],
  "structural": [],
@@ -529,15 +489,14 @@
   "groups": {
    "extension_through_feature": 4,
    "general_tolerance_missing": 1,
-   "hole_bottom_unknown": 4,
-   "label_crowded": 1,
+   "hole_exit_obstructed": 4,
    "leader_to_hidden_edge": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 10,
-    "groups": 4
+    "findings": 9,
+    "groups": 3
    },
    "decision": {
     "findings": 1,

@@ -5,32 +5,19 @@
   "unknown": 0,
   "unsupported": 0
  },
- "lint": [
+ "lint": [],
+ "problems": [
   {
-   "code": "pocket_requirement_missing",
-   "fix": "State its location 60 along x from the part's corner for the section recess: the pocket's callout in the view that looks into it, and linear dimensions of its location from the part's corner.",
-   "fix_description": "State its location 60 along x from the part's corner for the section recess: the pocket's callout in the view that looks into it, and linear dimensions of its location from the part's corner.",
-   "group": "pocket_requirement_missing:location_pocket.location.x",
-   "id": "l:pocket_requirement_missing:f:section_recess:1/location_pocket.location.x",
-   "impact": "incomplete",
-   "measurements": [
-    "f:section_recess:1/location_pocket.location.x"
-   ],
-   "message": "blind pocket f:section_recess:1 6 \u00d7 40 \u00d7 3 deep along z, at (60, 0, 13.5): requirement location_pocket.location.x (its location 60 along x from the part's corner) is not stated on the sheet",
-   "requirements": [
-    {
-     "feature": "f:section_recess:1",
-     "parameter": "location_pocket.location.x"
-    }
-   ],
-   "scope": "sheet",
-   "severity": "warning",
+   "code": "location_on_axis",
+   "group": "location_on_axis",
+   "id": "p:location_on_axis:f:section_recess:1/y",
+   "impact": "advisory",
+   "message": "The section recess is centred on the turning axis in y; no tangent location is needed.",
+   "severity": "info",
    "subjects": [
     "f:section_recess:1"
    ]
-  }
- ],
- "problems": [
+  },
   {
    "code": "unclaimed_geometry",
    "group": "unclaimed_geometry",
@@ -47,21 +34,21 @@
  "structural": [],
  "summary": {
   "groups": {
-   "pocket_requirement_missing:location_pocket.location.x": 1,
+   "location_on_axis": 1,
    "unclaimed_geometry": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 1,
-    "groups": 1
+    "findings": 2,
+    "groups": 2
    },
    "decision": {
     "findings": 0,
     "groups": 0
    },
    "incomplete": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    },
    "readability": {
     "findings": 0,
