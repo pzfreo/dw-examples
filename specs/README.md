@@ -59,7 +59,7 @@ would, and authored the dimensions from `Analysis.edge_ink.references`.
 ### Issues found (v0.2.9)
 
 Each was reproduced against the release binary with this Spec. Filed as: 1 already open as
-[draftwright-rust#232](https://github.com/pzfreo/draftwright-rust/issues/232) and [draftwright-rust#278](https://github.com/pzfreo/draftwright-rust/issues/278); 2 [draftwright-rust#293](https://github.com/pzfreo/draftwright-rust/issues/293); 3 [draftwright-rust#300](https://github.com/pzfreo/draftwright-rust/issues/300); 4 [draftwright-rust#294](https://github.com/pzfreo/draftwright-rust/issues/294); 5 [draftwright-rust#295](https://github.com/pzfreo/draftwright-rust/issues/295); 6 [draftwright-rust#296](https://github.com/pzfreo/draftwright-rust/issues/296); 7 [draftwright-rust#297](https://github.com/pzfreo/draftwright-rust/issues/297); 8 and 9 [draftwright-rust#298](https://github.com/pzfreo/draftwright-rust/issues/298); 10–13 [draftwright-rust#299](https://github.com/pzfreo/draftwright-rust/issues/299).
+[draftwright-rust#232](https://github.com/pzfreo/draftwright/issues/232) and [draftwright-rust#278](https://github.com/pzfreo/draftwright/issues/278); 2 [draftwright-rust#293](https://github.com/pzfreo/draftwright/issues/293); 3 [draftwright-rust#300](https://github.com/pzfreo/draftwright/issues/300); 4 [draftwright-rust#294](https://github.com/pzfreo/draftwright/issues/294); 5 [draftwright-rust#295](https://github.com/pzfreo/draftwright/issues/295); 6 [draftwright-rust#296](https://github.com/pzfreo/draftwright/issues/296); 7 [draftwright-rust#297](https://github.com/pzfreo/draftwright/issues/297); 8 and 9 [draftwright-rust#298](https://github.com/pzfreo/draftwright/issues/298); 10–13 [draftwright-rust#299](https://github.com/pzfreo/draftwright/issues/299).
 
 **Stops the drawing being right**
 
@@ -132,17 +132,17 @@ Each was reproduced against the release binary with this Spec. Filed as: 1 alrea
 
 Each was reproduced against the release binary with this Spec.
 
-1. **No section through a keyway** ([draftwright-rust#304](https://github.com/pzfreo/draftwright-rust/issues/304)). `section_aa` needs a z-axis hole, a half section a part
+1. **No section through a keyway** ([draftwright-rust#304](https://github.com/pzfreo/draftwright/issues/304)). `section_aa` needs a z-axis hole, a half section a part
    turned whole, and an enlarged detail is refused on this A4 sheet (it's accepted on A2). The
    depth shows only in hidden lines.
-2. **Lint doesn't credit authored pocket dimensions** ([draftwright-rust#301](https://github.com/pzfreo/draftwright-rust/issues/301)). A location from the keyway's end
+2. **Lint doesn't credit authored pocket dimensions** ([draftwright-rust#301](https://github.com/pzfreo/draftwright/issues/301)). A location from the keyway's end
    stays reported as missing, and so do an authored width and length replacing the callout.
-3. **"3 MAX DEEP" reads like a limit** ([draftwright-rust#305](https://github.com/pzfreo/draftwright-rust/issues/305)), and by design the wording can't be changed. A
+3. **"3 MAX DEEP" reads like a limit** ([draftwright-rust#305](https://github.com/pzfreo/draftwright/issues/305)), and by design the wording can't be changed. A
    dimension of 27 across the shaft isn't possible, as a cylinder's far side has nothing to
    reference, so (12) from the axis stands in.
-4. **A centred keyway is located from a tangent** ([draftwright-rust#302](https://github.com/pzfreo/draftwright-rust/issues/302)), and `origin` can't name the axis. A
+4. **A centred keyway is located from a tangent** ([draftwright-rust#302](https://github.com/pzfreo/draftwright/issues/302)), and `origin` can't name the axis. A
    note with `note_satisfies` was the route that worked.
-5. **Smaller** ([draftwright-rust#303](https://github.com/pzfreo/draftwright-rust/issues/303)): no keyway fit classes (N9 is refused); the plan view is dropped under
+5. **Smaller** ([draftwright-rust#303](https://github.com/pzfreo/draftwright/issues/303)): no keyway fit classes (N9 is refused); the plan view is dropped under
    authored dimensions until `views/plan` is set.
 
 ## Circular flange: little left to improve
@@ -162,20 +162,20 @@ Each was reproduced against the release binary with this Spec.
 
 Each was reproduced against the release binary with this Spec.
 
-1. **Lint disagrees with the plan about a bolt circle.** ([draftwright-rust#310](https://github.com/pzfreo/draftwright-rust/issues/310)) The plan says the circle is "located by its
+1. **Lint disagrees with the plan about a bolt circle.** ([draftwright-rust#310](https://github.com/pzfreo/draftwright/issues/310)) The plan says the circle is "located by its
    centre"; lint reports `hole_pattern_requirement_missing` for its x and y. A note with
    `note_satisfies` clears it, but the note can only attach in the front view (issue 3), where it
    tells a reader nothing, so this drawing leaves the warnings standing.
-2. **A note on the pattern changes another feature's dimensions.** ([draftwright-rust#311](https://github.com/pzfreo/draftwright-rust/issues/311)) Any note on `f:hole_pattern:1`,
+2. **A note on the pattern changes another feature's dimensions.** ([draftwright-rust#311](https://github.com/pzfreo/draftwright/issues/311)) Any note on `f:hole_pattern:1`,
    with or without `note_satisfies`, adds 40 and 40 to the ⌀30, measured from tangents to the ⌀80,
    the plan's "on the axis" reasoning having gone. They can be omitted, but nothing in the review
    says why they appeared.
-3. **A pattern's note can't go where the pattern is seen.** ([draftwright-rust#312](https://github.com/pzfreo/draftwright-rust/issues/312)) `annotations/<id>/place/view: plan` is
+3. **A pattern's note can't go where the pattern is seen.** ([draftwright-rust#312](https://github.com/pzfreo/draftwright/issues/312)) `annotations/<id>/place/view: plan` is
    refused ("cannot attach in the plan view"; the only choice is `front`). The plan records the note
    against the holes' cylindrical faces, which may be the reason; the message doesn't say.
-4. **`⌀` in a note prints as an empty box** ([draftwright-rust#313](https://github.com/pzfreo/draftwright-rust/issues/313)), though the engine's own labels print a diameter sign.
+4. **`⌀` in a note prints as an empty box** ([draftwright-rust#313](https://github.com/pzfreo/draftwright/issues/313)), though the engine's own labels print a diameter sign.
    `ø` prints. The sign also varies within a sheet: "ø 30 THRU" against "ø80".
-5. **No section for plain through holes.** ([draftwright-rust#314](https://github.com/pzfreo/draftwright-rust/issues/314)) `section_aa` is refused because no hole has a counterbore,
+5. **No section for plain through holes.** ([draftwright-rust#314](https://github.com/pzfreo/draftwright/issues/314)) `section_aa` is refused because no hole has a counterbore,
    spotface or bottom, and `half_section` because a part with a bolt circle isn't "turned whole". Not
    a loss on this part, whose holes read clearly as hidden lines, but no Spec field can ask for it.
 
@@ -199,17 +199,17 @@ Each was reproduced against the release binary with this Spec.
 
 Each was reproduced against the release binary with this Spec.
 
-1. **No broken view.** ([draftwright-rust#315](https://github.com/pzfreo/draftwright-rust/issues/315)) The source calls this "a long part of constant section, which a drawing
+1. **No broken view.** ([draftwright-rust#315](https://github.com/pzfreo/draftwright/issues/315)) The source calls this "a long part of constant section, which a drawing
    breaks". `views/front/break` is refused as an unknown field, and no other field does it. So the 560 mm
    between the holes sets the scale: 1:2 on A3, where a break would allow a larger scale on a smaller sheet.
-2. **Lint credits a reference but not the real dimension.** ([draftwright-rust#316](https://github.com/pzfreo/draftwright-rust/issues/316)) The authored 20 from the shoulder leaves
+2. **Lint credits a reference but not the real dimension.** ([draftwright-rust#316](https://github.com/pzfreo/draftwright/issues/316)) The authored 20 from the shoulder leaves
    `feature_not_located` on the hole; a reference (580) clears it, though a reference states no
-   requirement. The same gap as [draftwright-rust#301](https://github.com/pzfreo/draftwright-rust/issues/301), here for a hole.
-3. **A reference overall length hides the real dimension.** ([draftwright-rust#317](https://github.com/pzfreo/draftwright-rust/issues/317)) With 630 set to `style: reference`, the
+   requirement. The same gap as [draftwright-rust#301](https://github.com/pzfreo/draftwright/issues/301), here for a hole.
+3. **A reference overall length hides the real dimension.** ([draftwright-rust#317](https://github.com/pzfreo/draftwright/issues/317)) With 630 set to `style: reference`, the
    30 stays "covered" by it and doesn't print, even with its `view` set; an authored 30 is refused as
    a duplicate of the hidden one (K6). So (630) and 30 can't both appear, and this drawing omits the
    overall length.
-4. **`iso_scale_factor` raises a false fit warning.** ([draftwright-rust#318](https://github.com/pzfreo/draftwright-rust/issues/318)) Setting it to 0.5 gives `page_fit_uncertain`
+4. **`iso_scale_factor` raises a false fit warning.** ([draftwright-rust#318](https://github.com/pzfreo/draftwright/issues/318)) Setting it to 0.5 gives `page_fit_uncertain`
    ("may not fit A3 at 1:2; A3 at 1:5 fits") with every view on the sheet at 20% fill, and on A2 as
    well. Shrinking a view can't make the sheet overflow, and the offered fix returns the bar to 1:5.
    The factor is left out here, so the isometric stays large.
@@ -238,23 +238,23 @@ Each was reproduced against the release binary with this Spec.
 
 Each was reproduced against the release binary with this Spec.
 
-1. **A hole table can leave a slot unlocated, and lint stays quiet.** ([draftwright-rust#319](https://github.com/pzfreo/draftwright-rust/issues/319)) With `hole_table: always`, the
+1. **A hole table can leave a slot unlocated, and lint stays quiet.** ([draftwright-rust#319](https://github.com/pzfreo/draftwright/issues/319)) With `hole_table: always`, the
    slot's `location_slot_across` stays "covered" by the ⌀10's y, which is now only a table row for a
    different feature. Nothing on the drawing locates the slot across the plate, and no finding in the
    review mentions it. Setting that dimension or its `view` doesn't bring it back.
-2. **K6 again** ([draftwright-rust#294](https://github.com/pzfreo/draftwright-rust/issues/294)). An
+2. **K6 again** ([draftwright-rust#294](https://github.com/pzfreo/draftwright/issues/294)). An
    authored 50 from the near edge to the slot is refused as a duplicate of the ⌀10's y. Workaround:
    measure from the far edge, a true but arbitrary choice.
-3. **A slot's centre can't be referenced.** ([draftwright-rust#320](https://github.com/pzfreo/draftwright-rust/issues/320)) `axis:f:slot:1` is refused ("several cylinder axes"), and
+3. **A slot's centre can't be referenced.** ([draftwright-rust#320](https://github.com/pzfreo/draftwright/issues/320)) `axis:f:slot:1` is refused ("several cylinder axes"), and
    only the end arcs' axes can be named. So the source's 110 to the centre can't be printed; the
    drawing keeps 98 to the near end. Authoring 102 to an end arc's axis instead leaves
-   `slot_requirement_missing`, as in [draftwright-rust#301](https://github.com/pzfreo/draftwright-rust/issues/301).
-4. **The table is refused with paper to spare.** ([draftwright-rust#321](https://github.com/pzfreo/draftwright-rust/issues/321)) On A3 at 1:1 with all views, `hole_table_unavailable`
+   `slot_requirement_missing`, as in [draftwright-rust#301](https://github.com/pzfreo/draftwright/issues/301).
+4. **The table is refused with paper to spare.** ([draftwright-rust#321](https://github.com/pzfreo/draftwright/issues/321)) On A3 at 1:1 with all views, `hole_table_unavailable`
    says "no clear place" on a sheet the plan reports as 49% full. Omitting the side view makes it fit; the
    message doesn't say what blocks it, so that took trial.
-5. **Table tags aren't in reading order.** ([draftwright-rust#322](https://github.com/pzfreo/draftwright-rust/issues/322)) The top row reads C9, C10, C2, C3, C4 and the bottom C1, C5,
+5. **Table tags aren't in reading order.** ([draftwright-rust#322](https://github.com/pzfreo/draftwright/issues/322)) The top row reads C9, C10, C2, C3, C4 and the bottom C1, C5,
    C6, C7, C8, so a reader hunts for a row. No Spec field orders them.
-6. **A confusing reference message.** ([draftwright-rust#323](https://github.com/pzfreo/draftwright-rust/issues/323)) "choose axis:face:<fingerprint>" doesn't say the fingerprint
+6. **A confusing reference message.** ([draftwright-rust#323](https://github.com/pzfreo/draftwright/issues/323)) "choose axis:face:<fingerprint>" doesn't say the fingerprint
    keeps its `v1:` but drops `face:`; a copied `face:v1:…` gives "Unknown reference face:face:v1:…".
 
 ## Pivot mount plate: best effort with the source's datums
@@ -285,12 +285,12 @@ Each was reproduced against the release binary with this Spec.
 
 Reproduced against the release binary with this Spec.
 
-1. **A Spec can't name the part it draws.** ([draftwright-rust#324](https://github.com/pzfreo/draftwright-rust/issues/324)) The STEP is an assembly and the plate is drawn alone, with
+1. **A Spec can't name the part it draws.** ([draftwright-rust#324](https://github.com/pzfreo/draftwright/issues/324)) The STEP is an assembly and the plate is drawn alone, with
    `assembly_principal_drawn` and a general note. `--part 0` clears the finding, but `part` isn't a
    Spec field (it's refused as unknown), so the choice can't be saved with the rest of the drawing's
    intent, and `build.py` runs without it. Omitting the note with `annotations/n:assembly/omit` leaves
    the finding.
-2. **A pin elsewhere silently overrides an explicit placement.** ([draftwright-rust#325](https://github.com/pzfreo/draftwright-rust/issues/325)) With the ⌀16's leader pinned at
+2. **A pin elsewhere silently overrides an explicit placement.** ([draftwright-rust#325](https://github.com/pzfreo/draftwright/issues/325)) With the ⌀16's leader pinned at
    `[-20, -14]`, the 76's `side: above` and `along: 0.25` are ignored: it prints below the view at the
    middle, with no finding, and its basis still says "the spec places it". Pinned at `[14, 12]`, the
    same placement is honoured, which is what this Spec uses.
@@ -322,17 +322,17 @@ Reproduced against the release binary with this Spec.
 
 Each was reproduced against the release binary with this Spec.
 
-1. **Lint doesn't ask for all the outline's faces.** ([draftwright-rust#327](https://github.com/pzfreo/draftwright-rust/issues/327)) Nothing names the missing 150s, the gap
-   [draftwright-rust#307](https://github.com/pzfreo/draftwright-rust/issues/307) proposes to close.
-2. **Slots on a located centre line still report as unlocated.** ([draftwright-rust#328](https://github.com/pzfreo/draftwright-rust/issues/328)) `feature_not_located` stays on both slots,
+1. **Lint doesn't ask for all the outline's faces.** ([draftwright-rust#327](https://github.com/pzfreo/draftwright/issues/327)) Nothing names the missing 150s, the gap
+   [draftwright-rust#307](https://github.com/pzfreo/draftwright/issues/307) proposes to close.
+2. **Slots on a located centre line still report as unlocated.** ([draftwright-rust#328](https://github.com/pzfreo/draftwright/issues/328)) `feature_not_located` stays on both slots,
    though the plan says the 225 covers them. Authored 200 and 205 don't clear it either, as in
-   [draftwright-rust#316](https://github.com/pzfreo/draftwright-rust/issues/316).
-3. **Values missing from the PMI stay missing.** ([draftwright-rust#329](https://github.com/pzfreo/draftwright-rust/issues/329)) Four dimensions (`#24`, `#25`, `#126`, `#127`) have no
+   [draftwright-rust#316](https://github.com/pzfreo/draftwright/issues/316).
+3. **Values missing from the PMI stay missing.** ([draftwright-rust#329](https://github.com/pzfreo/draftwright/issues/329)) Four dimensions (`#24`, `#25`, `#126`, `#127`) have no
    nominal in the file's semantic PMI, only tessellated callouts, which draftwright can't read. They remain
    as errors, and a Spec can't clear them.
-4. **Moving one dimension rearranges others.** ([draftwright-rust#330](https://github.com/pzfreo/draftwright-rust/issues/330)) Placing the 510 below also moved datums A and B and the
-   perpendicularity frame, with no finding, as in [draftwright-rust#325](https://github.com/pzfreo/draftwright-rust/issues/325).
-5. **`page_fit_uncertain` on a drawing that fits.** ([draftwright-rust#331](https://github.com/pzfreo/draftwright-rust/issues/331)) The same placement raises "may not fit", with everything
-   on the sheet, as in [draftwright-rust#318](https://github.com/pzfreo/draftwright-rust/issues/318).
-6. **Dimension stacks don't nest.** ([draftwright-rust#326](https://github.com/pzfreo/draftwright-rust/issues/326)) The 150 and 120 sit outside the 635, 400 and 207.5, so their
+4. **Moving one dimension rearranges others.** ([draftwright-rust#330](https://github.com/pzfreo/draftwright/issues/330)) Placing the 510 below also moved datums A and B and the
+   perpendicularity frame, with no finding, as in [draftwright-rust#325](https://github.com/pzfreo/draftwright/issues/325).
+5. **`page_fit_uncertain` on a drawing that fits.** ([draftwright-rust#331](https://github.com/pzfreo/draftwright/issues/331)) The same placement raises "may not fit", with everything
+   on the sheet, as in [draftwright-rust#318](https://github.com/pzfreo/draftwright/issues/318).
+6. **Dimension stacks don't nest.** ([draftwright-rust#326](https://github.com/pzfreo/draftwright/issues/326)) The 150 and 120 sit outside the 635, 400 and 207.5, so their
    extension lines cross all three. The Spec's `lane` can't fix it.

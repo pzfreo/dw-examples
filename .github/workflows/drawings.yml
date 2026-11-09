@@ -49,7 +49,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           set -euo pipefail
-          git clone --depth 1 --branch "${{ steps.dw.outputs.tag }}" https://github.com/pzfreo/draftwright-rust "$RUNNER_TEMP/draftwright-rust"
+          git clone --depth 1 --branch "${{ steps.dw.outputs.tag }}" https://github.com/pzfreo/draftwright "$RUNNER_TEMP/draftwright-rust"
           # The repository's rust-toolchain.toml picks the toolchain.
           cd "$RUNNER_TEMP/draftwright-rust"
           rustup toolchain install
