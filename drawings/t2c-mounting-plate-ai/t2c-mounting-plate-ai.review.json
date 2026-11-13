@@ -3,37 +3,37 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f20/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f20",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f20/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f21",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:3/bore.diameter"
+     "d:f:hole:f22/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f22",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f20/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f23",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f20/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f24",
     "state": "supported"
    }
   ],
@@ -45,83 +45,13 @@
  "problems": [
   {
    "code": "annotation_outside_area",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the plan view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "annotation_outside_area",
-   "id": "p:annotation_outside_area:d:f:hole_pattern:1/bore.diameter|v:plan",
+   "id": "p:annotation_outside_area:d:f:hole_pattern:f20/bore.diameter|v:plan",
    "impact": "advisory",
    "message": "The dimension 4\u00d7 \u23005.5 THRU runs up to 24.9 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond.",
    "severity": "info",
    "subjects": [
-    "d:f:hole_pattern:1/bore.diameter",
+    "d:f:hole_pattern:f20/bore.diameter",
     "v:plan"
    ]
   },
@@ -133,7 +63,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
+     "path": "dimensions/d:f:hole_pattern:f20~1bore.diameter/place",
      "value": {
       "along": "end",
       "lane": 0,
@@ -168,7 +98,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
+       "path": "dimensions/d:f:hole_pattern:f20~1bore.diameter/place",
        "value": {
         "along": "end",
         "lane": 0,
@@ -201,95 +131,25 @@
     }
    ],
    "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole_pattern:1/bore.diameter|d:envelope/depth.length",
+   "id": "p:annotation_leader_crossing:d:f:hole_pattern:f20/bore.diameter|d:envelope/depth.length",
    "impact": "advisory",
    "message": "The leader of 4\u00d7 \u23005.5 THRU crosses a line of 70.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:1/bore.diameter",
+    "d:f:hole_pattern:f20/bore.diameter",
     "d:envelope/depth.length"
    ]
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 8 dimension below the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 8 crosses the \u23005.5 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:5:line:1",
+   "id": "p:extension_through_feature:d:f:slot:f39/slot_width.length|f:hole:f24:line:1",
    "impact": "advisory",
    "message": "The second extension line of 8 crosses the \u23005.5 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "f:hole:5"
+    "d:f:slot:f39/slot_width.length",
+    "f:hole:f24"
    ]
   },
   {
@@ -315,15 +175,15 @@
   {
    "code": "placement_displaced",
    "group": "placement_displaced",
-   "id": "p:placement_displaced:d:scheme:holes-y/23c244b80eadd066",
+   "id": "p:placement_displaced:d:scheme:holes-y/b692eed9eed9c9df",
    "impact": "decision",
    "message": "The requested place of 59 was displaced in lane by the final collision and sheet-boundary layout. The drawing is retained at its recorded position; adjust the placement or release the conflicting constraint.",
    "refs": [
-    "dimensions/d:scheme:holes-y~123c244b80eadd066/place"
+    "dimensions/d:scheme:holes-y~1b692eed9eed9c9df/place"
    ],
    "severity": "warning",
    "subjects": [
-    "d:scheme:holes-y/23c244b80eadd066"
+    "d:scheme:holes-y/b692eed9eed9c9df"
    ]
   }
  ],

@@ -3,30 +3,30 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f7/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f7",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f7/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f9",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:3/bore.diameter"
+     "d:f:hole:f19/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f19",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:3/bore.diameter"
+     "d:f:hole:f19/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f20",
     "state": "supported"
    }
   ],
@@ -73,166 +73,26 @@
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:3~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 15 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 15 runs up to 1.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:3~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:3/location.length.x|f:hole:1:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f19/location.length.x|f:hole:f7:line:1",
    "impact": "advisory",
    "message": "The second extension line of 15 crosses the \u23006 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:3/location.length.x",
-    "f:hole:1"
+    "d:f:hole:f19/location.length.x",
+    "f:hole:f7"
    ]
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:4~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 65 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 65 runs up to 1.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:4~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:4/location.length.x|f:hole:2:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f20/location.length.x|f:hole:f9:line:1",
    "impact": "advisory",
    "message": "The second extension line of 65 crosses the \u23006 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:4/location.length.x",
-    "f:hole:2"
+    "d:f:hole:f20/location.length.x",
+    "f:hole:f9"
    ]
   },
   {
@@ -240,7 +100,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:1~1location.length.x/place",
+     "path": "dimensions/d:f:hole:f7~1location.length.x/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -275,7 +135,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole:1~1location.length.x/place",
+       "path": "dimensions/d:f:hole:f7~1location.length.x/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -308,13 +168,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:1/location.length.x|f:hole:3:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f7/location.length.x|f:hole:f19:line:1",
    "impact": "advisory",
    "message": "The second extension line of 15 crosses the \u23006 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:1/location.length.x",
-    "f:hole:3"
+    "d:f:hole:f7/location.length.x",
+    "f:hole:f19"
    ]
   },
   {
@@ -322,7 +182,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:2~1location.length.x/place",
+     "path": "dimensions/d:f:hole:f9~1location.length.x/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -357,7 +217,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole:2~1location.length.x/place",
+       "path": "dimensions/d:f:hole:f9~1location.length.x/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -390,13 +250,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:2/location.length.x|f:hole:4:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f9/location.length.x|f:hole:f20:line:1",
    "impact": "advisory",
    "message": "The second extension line of 65 crosses the \u23006 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:2/location.length.x",
-    "f:hole:4"
+    "d:f:hole:f9/location.length.x",
+    "f:hole:f20"
    ]
   },
   {
@@ -418,19 +278,19 @@
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:fillet:1/fillet.radius",
+   "id": "p:leader_to_hidden_edge:d:f:fillet:f2/fillet.radius",
    "impact": "readability",
    "message": "The leader of R2 ends on an edge the side view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:1/fillet.radius",
+    "d:f:fillet:f2/fillet.radius",
     "v:side"
    ]
   },
   {
    "code": "hole_exit_obstructed",
    "group": "hole_exit_obstructed",
-   "id": "p:hole_exit_obstructed:f:hole:1:0",
+   "id": "p:hole_exit_obstructed:f:hole:f7:0",
    "impact": "advisory",
    "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
    "refs": [
@@ -438,13 +298,13 @@
    ],
    "severity": "warning",
    "subjects": [
-    "f:hole:1"
+    "f:hole:f7"
    ]
   },
   {
    "code": "hole_exit_obstructed",
    "group": "hole_exit_obstructed",
-   "id": "p:hole_exit_obstructed:f:hole:2:0",
+   "id": "p:hole_exit_obstructed:f:hole:f9:0",
    "impact": "advisory",
    "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
    "refs": [
@@ -452,13 +312,13 @@
    ],
    "severity": "warning",
    "subjects": [
-    "f:hole:2"
+    "f:hole:f9"
    ]
   },
   {
    "code": "hole_exit_obstructed",
    "group": "hole_exit_obstructed",
-   "id": "p:hole_exit_obstructed:f:hole:3:0",
+   "id": "p:hole_exit_obstructed:f:hole:f19:0",
    "impact": "advisory",
    "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
    "refs": [
@@ -466,13 +326,13 @@
    ],
    "severity": "warning",
    "subjects": [
-    "f:hole:3"
+    "f:hole:f19"
    ]
   },
   {
    "code": "hole_exit_obstructed",
    "group": "hole_exit_obstructed",
-   "id": "p:hole_exit_obstructed:f:hole:4:0",
+   "id": "p:hole_exit_obstructed:f:hole:f20:0",
    "impact": "advisory",
    "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
    "refs": [
@@ -480,7 +340,7 @@
    ],
    "severity": "warning",
    "subjects": [
-    "f:hole:4"
+    "f:hole:f20"
    ]
   }
  ],

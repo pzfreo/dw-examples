@@ -3,65 +3,65 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f6/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f6",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f7/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f7",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f7/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f8",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f7/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f9",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f7/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f10",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f11/bore.diameter"
     ],
-    "feature": "f:hole:6",
+    "feature": "f:hole:f11",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f11/bore.diameter"
     ],
-    "feature": "f:hole:7",
+    "feature": "f:hole:f12",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f11/bore.diameter"
     ],
-    "feature": "f:hole:8",
+    "feature": "f:hole:f13",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f11/bore.diameter"
     ],
-    "feature": "f:hole:9",
+    "feature": "f:hole:f14",
     "state": "supported"
    }
   ],
@@ -108,83 +108,13 @@
   },
   {
    "code": "annotation_outside_area",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1bore.diameter/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "annotation_outside_area",
-   "id": "p:annotation_outside_area:d:f:hole_pattern:1/bore.diameter|v:front",
+   "id": "p:annotation_outside_area:d:f:hole_pattern:f7/bore.diameter|v:front",
    "impact": "advisory",
    "message": "The dimension 4\u00d7 \u23003.4 \u21a7 15 EQ SP ON \u00f816\nBC runs up to 11.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond.",
    "severity": "info",
    "subjects": [
-    "d:f:hole_pattern:1/bore.diameter",
+    "d:f:hole_pattern:f7/bore.diameter",
     "v:front"
    ]
   },
@@ -193,7 +123,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+     "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
      "value": {
       "along": "middle",
       "lane": 1,
@@ -228,7 +158,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+       "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
        "value": {
         "along": "middle",
         "lane": 1,
@@ -261,13 +191,95 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.row|f:hole:1:line:0",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f11/grid_pitch.length.row|f:hole:f10:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 20 crosses the \u23003.4 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f11/grid_pitch.length.row",
+    "f:hole:f10"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
+      "side": "right",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 20 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 20 runs through the label of 15. [annotation_ink_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
+       "value": {
+        "along": "middle",
+        "lane": 1,
+        "side": "right",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f11/grid_pitch.length.row|f:hole:f6:line:0",
    "impact": "advisory",
    "message": "The first extension line of 20 crosses the \u230010.2 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.row",
-    "f:hole:1"
+    "d:f:hole_pattern:f11/grid_pitch.length.row",
+    "f:hole:f6"
    ]
   },
   {
@@ -275,7 +287,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+     "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
      "value": {
       "along": "middle",
       "lane": 1,
@@ -310,7 +322,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+       "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
        "value": {
         "along": "middle",
         "lane": 1,
@@ -343,13 +355,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.row|f:hole:2:line:0",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f11/grid_pitch.length.row|f:hole:f7:line:0",
    "impact": "advisory",
    "message": "The first extension line of 20 crosses the \u23003.4 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.row",
-    "f:hole:2"
+    "d:f:hole_pattern:f11/grid_pitch.length.row",
+    "f:hole:f7"
    ]
   },
   {
@@ -357,7 +369,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+     "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
      "value": {
       "along": "middle",
       "lane": 1,
@@ -392,7 +404,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+       "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
        "value": {
         "along": "middle",
         "lane": 1,
@@ -425,13 +437,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.row|f:hole:3:line:0",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f11/grid_pitch.length.row|f:hole:f8:line:0",
    "impact": "advisory",
    "message": "The first extension line of 20 crosses the \u23003.4 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.row",
-    "f:hole:3"
+    "d:f:hole_pattern:f11/grid_pitch.length.row",
+    "f:hole:f8"
    ]
   },
   {
@@ -439,7 +451,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+     "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
      "value": {
       "along": "middle",
       "lane": 1,
@@ -474,7 +486,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+       "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
        "value": {
         "along": "middle",
         "lane": 1,
@@ -507,13 +519,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.row|f:hole:4:line:0",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f11/grid_pitch.length.row|f:hole:f9:line:0",
    "impact": "advisory",
    "message": "The first extension line of 20 crosses the \u23003.4 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.row",
-    "f:hole:4"
+    "d:f:hole_pattern:f11/grid_pitch.length.row",
+    "f:hole:f9"
    ]
   },
   {
@@ -521,7 +533,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+     "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
      "value": {
       "along": "middle",
       "lane": 1,
@@ -556,7 +568,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
+       "path": "dimensions/d:f:hole_pattern:f11~1grid_pitch.length.row/place",
        "value": {
         "along": "middle",
         "lane": 1,
@@ -589,247 +601,91 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.row|f:hole:5:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 20 crosses the \u23003.4 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.row",
-    "f:hole:5"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 20 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 20 runs through the label of 15. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/grid_pitch.length.row|f:hole:1:line:1",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f11/grid_pitch.length.row|f:hole:f6:line:1",
    "impact": "advisory",
    "message": "The second extension line of 20 crosses the \u230010.2 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.row",
-    "f:hole:1"
+    "d:f:hole_pattern:f11/grid_pitch.length.row",
+    "f:hole:f6"
    ]
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1location.length.y/place",
-     "value": {
-      "offset": [
-       -28.0,
-       0.0
-      ],
-      "pinned": true,
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 15 dimension 28 mm left of where draftwright placed it, in the plan view. Trade-off: adds these findings: The label of 15 lies over the plan view. [annotation_over_view] The leader of 4\u00d7 \u23004.5 \u21a7 15 crosses a line of 15. [annotation_leader_crossing] A line of 20 runs through the label of 15. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1location.length.y/place",
-       "value": {
-        "offset": [
-         -28.0,
-         0.0
-        ],
-        "pinned": true,
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/location.length.y|f:hole:4:line:1",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f11/location.length.y|f:hole:f9:line:1",
    "impact": "advisory",
    "message": "The second extension line of 15 crosses the \u23003.4 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/location.length.y",
-    "f:hole:4"
+    "d:f:hole_pattern:f11/location.length.y",
+    "f:hole:f9"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:envelope/width.length|d:f:hole:1/bore.diameter",
+   "id": "p:label_crowded:d:envelope/width.length|d:f:hole:f6/bore.diameter",
    "impact": "advisory",
    "message": "Line-work of 34 passes less than 0.5 mm from the label of \u230010.2 THRU, so it touches the text.",
    "severity": "info",
    "subjects": [
     "d:envelope/width.length",
-    "d:f:hole:1/bore.diameter"
+    "d:f:hole:f6/bore.diameter"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:2/location.length.x|d:f:hole_pattern:2/grid_pitch.length.col",
+   "id": "p:label_crowded:d:f:hole_pattern:f11/location.length.x|d:f:hole_pattern:f11/grid_pitch.length.col",
    "impact": "advisory",
    "message": "Line-work of 17 passes less than 0.5 mm from the label of 24, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "d:f:hole_pattern:2/location.length.x",
-    "d:f:hole_pattern:2/grid_pitch.length.col"
+    "d:f:hole_pattern:f11/location.length.x",
+    "d:f:hole_pattern:f11/grid_pitch.length.col"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:2/grid_pitch.length.row|ink:v:plan:cut:A:arrow:0",
+   "id": "p:label_crowded:d:f:hole_pattern:f11/grid_pitch.length.row|ink:v:plan:cut:A:arrow:0",
    "impact": "advisory",
    "message": "The dimension 20 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
    "severity": "info",
    "subjects": [
-    "d:f:hole_pattern:2/grid_pitch.length.row",
+    "d:f:hole_pattern:f11/grid_pitch.length.row",
     "v:section_aa"
    ]
   },
   {
    "code": "label_section_furniture_overlap",
    "group": "label_section_furniture_overlap",
-   "id": "p:label_section_furniture_overlap:d:f:hole_pattern:2/location.length.y|ink:v:plan:cut:A:arrow:1",
+   "id": "p:label_section_furniture_overlap:d:f:hole_pattern:f11/location.length.y|ink:v:plan:cut:A:arrow:1",
    "impact": "readability",
    "message": "A line of 15 runs through the section A cutting-plane arrowhead.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/location.length.y",
+    "d:f:hole_pattern:f11/location.length.y",
     "v:section_aa"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:2/location.length.y|ink:v:plan:cut:A:letter:1",
+   "id": "p:label_crowded:d:f:hole_pattern:f11/location.length.y|ink:v:plan:cut:A:letter:1",
    "impact": "advisory",
    "message": "The dimension 15 is less than 0.5 mm from the section A cutting-plane letter, so it reads as part of the mark.",
    "severity": "info",
    "subjects": [
-    "d:f:hole_pattern:2/location.length.y",
+    "d:f:hole_pattern:f11/location.length.y",
     "v:section_aa"
    ]
   }
  ],
  "structural": [
   {
-   "annotation": "d:f:hole:1/bore.diameter",
+   "annotation": "d:f:hole:f6/bore.diameter",
    "at": [
     76.5595,
     57.03801
@@ -838,7 +694,7 @@
    "fix": "move what is drawn, not just the text",
    "fix_description": "Move what is drawn, not just the text.",
    "group": "annotation_ink_overlap",
-   "id": "l:annotation_ink_overlap:d:f:hole:1/bore.diameter+d:envelope/width.length",
+   "id": "l:annotation_ink_overlap:d:f:hole:f6/bore.diameter+d:envelope/width.length",
    "impact": "readability",
    "message": "'34' draws 2.2 mm of line-work through the label '\u230010.2 THRU' \u2014 the labels clear each other, so this is a dimension line, an extension line or a leader over text; move what is drawn, not just the text",
    "related": [

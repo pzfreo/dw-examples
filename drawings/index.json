@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.2.14",
+  "draftwright": "v0.6.0-alpha.2",
   "drawings": [
     {
       "kind": "drawing",
@@ -185,12 +185,12 @@
       "title": "L joining plate, 5 holes",
       "review": {
         "errors": 0,
-        "warnings": 2,
+        "warnings": 1,
         "infos": 1,
         "impacts": {
           "advisory": 1,
           "decision": 1,
-          "incomplete": 1,
+          "incomplete": 0,
           "readability": 0
         }
       },
@@ -295,13 +295,13 @@
       "title": "NIST CTC-01",
       "review": {
         "errors": 0,
-        "warnings": 14,
-        "infos": 14,
+        "warnings": 13,
+        "infos": 23,
         "impacts": {
-          "advisory": 24,
+          "advisory": 33,
           "decision": 1,
           "incomplete": 0,
-          "readability": 3
+          "readability": 2
         }
       },
       "files": [
@@ -317,13 +317,13 @@
       "title": "NIST CTC-01",
       "review": {
         "errors": 0,
-        "warnings": 19,
+        "warnings": 18,
         "infos": 17,
         "impacts": {
           "advisory": 28,
           "decision": 3,
           "incomplete": 0,
-          "readability": 5
+          "readability": 4
         }
       },
       "files": [
@@ -361,13 +361,13 @@
       "title": "NIST CTC-03",
       "review": {
         "errors": 66,
-        "warnings": 44,
-        "infos": 55,
+        "warnings": 37,
+        "infos": 56,
         "impacts": {
-          "advisory": 64,
+          "advisory": 62,
           "decision": 1,
           "incomplete": 86,
-          "readability": 14
+          "readability": 10
         }
       },
       "files": [
@@ -383,13 +383,13 @@
       "title": "NIST CTC-04",
       "review": {
         "errors": 36,
-        "warnings": 273,
+        "warnings": 280,
         "infos": 104,
         "impacts": {
-          "advisory": 238,
+          "advisory": 236,
           "decision": 1,
           "incomplete": 87,
-          "readability": 87
+          "readability": 96
         }
       },
       "files": [
@@ -405,12 +405,12 @@
       "title": "NIST CTC-05",
       "review": {
         "errors": 37,
-        "warnings": 31,
+        "warnings": 30,
         "infos": 76,
         "impacts": {
           "advisory": 76,
           "decision": 1,
-          "incomplete": 52,
+          "incomplete": 51,
           "readability": 15
         }
       },
@@ -427,13 +427,13 @@
       "title": "NIST FTC-06",
       "review": {
         "errors": 162,
-        "warnings": 50,
-        "infos": 240,
+        "warnings": 47,
+        "infos": 239,
         "impacts": {
-          "advisory": 245,
+          "advisory": 247,
           "decision": 1,
           "incomplete": 182,
-          "readability": 24
+          "readability": 18
         }
       },
       "files": [
@@ -449,13 +449,13 @@
       "title": "NIST FTC-07",
       "review": {
         "errors": 78,
-        "warnings": 93,
-        "infos": 121,
+        "warnings": 86,
+        "infos": 119,
         "impacts": {
-          "advisory": 154,
+          "advisory": 148,
           "decision": 1,
-          "incomplete": 109,
-          "readability": 28
+          "incomplete": 113,
+          "readability": 21
         }
       },
       "files": [
@@ -471,13 +471,13 @@
       "title": "NIST FTC-08",
       "review": {
         "errors": 85,
-        "warnings": 94,
-        "infos": 126,
+        "warnings": 124,
+        "infos": 124,
         "impacts": {
-          "advisory": 141,
+          "advisory": 138,
           "decision": 1,
           "incomplete": 90,
-          "readability": 73
+          "readability": 104
         }
       },
       "files": [
@@ -492,14 +492,14 @@
       "step": "steps/nist/nist_ftc_10_asme1_ap242-e2.stp",
       "title": "NIST FTC-10",
       "review": {
-        "errors": 89,
-        "warnings": 183,
+        "errors": 87,
+        "warnings": 173,
         "infos": 71,
         "impacts": {
-          "advisory": 163,
+          "advisory": 158,
           "decision": 1,
-          "incomplete": 101,
-          "readability": 78
+          "incomplete": 98,
+          "readability": 74
         }
       },
       "files": [
@@ -537,13 +537,13 @@
       "title": "NIST STC-06",
       "review": {
         "errors": 56,
-        "warnings": 70,
-        "infos": 905,
+        "warnings": 54,
+        "infos": 907,
         "impacts": {
-          "advisory": 941,
+          "advisory": 930,
           "decision": 1,
           "incomplete": 66,
-          "readability": 23
+          "readability": 20
         }
       },
       "files": [
@@ -559,13 +559,13 @@
       "title": "NIST STC-07",
       "review": {
         "errors": 144,
-        "warnings": 66,
-        "infos": 91,
+        "warnings": 50,
+        "infos": 90,
         "impacts": {
-          "advisory": 101,
+          "advisory": 97,
           "decision": 1,
           "incomplete": 177,
-          "readability": 22
+          "readability": 9
         }
       },
       "files": [
@@ -581,13 +581,13 @@
       "title": "NIST STC-08",
       "review": {
         "errors": 100,
-        "warnings": 34,
-        "infos": 137,
+        "warnings": 39,
+        "infos": 138,
         "impacts": {
-          "advisory": 147,
+          "advisory": 149,
           "decision": 1,
           "incomplete": 112,
-          "readability": 11
+          "readability": 15
         }
       },
       "files": [
@@ -602,14 +602,14 @@
       "step": "steps/nist/nist_stc_09_asme1_ap242-e4.stp",
       "title": "NIST STC-09",
       "review": {
-        "errors": 36,
-        "warnings": 361,
-        "infos": 101,
+        "errors": 40,
+        "warnings": 386,
+        "infos": 93,
         "impacts": {
-          "advisory": 212,
+          "advisory": 236,
           "decision": 1,
           "incomplete": 54,
-          "readability": 231
+          "readability": 228
         }
       },
       "files": [
@@ -624,14 +624,14 @@
       "step": "steps/nist/nist_stc_10_asme1_ap242-e2.stp",
       "title": "NIST STC-10",
       "review": {
-        "errors": 80,
-        "warnings": 169,
-        "infos": 66,
+        "errors": 82,
+        "warnings": 154,
+        "infos": 65,
         "impacts": {
-          "advisory": 146,
+          "advisory": 148,
           "decision": 1,
-          "incomplete": 92,
-          "readability": 76
+          "incomplete": 97,
+          "readability": 55
         }
       },
       "files": [
@@ -669,12 +669,12 @@
       "title": "SHF08 shaft support",
       "review": {
         "errors": 0,
-        "warnings": 8,
-        "infos": 4,
+        "warnings": 6,
+        "infos": 6,
         "impacts": {
-          "advisory": 4,
+          "advisory": 6,
           "decision": 1,
-          "incomplete": 7,
+          "incomplete": 5,
           "readability": 0
         }
       },
@@ -691,12 +691,12 @@
       "title": "SK08 shaft support",
       "review": {
         "errors": 0,
-        "warnings": 6,
-        "infos": 1,
+        "warnings": 4,
+        "infos": 3,
         "impacts": {
-          "advisory": 4,
+          "advisory": 6,
           "decision": 1,
-          "incomplete": 2,
+          "incomplete": 0,
           "readability": 0
         }
       },
@@ -823,13 +823,13 @@
       "title": "Electronics enclosure base",
       "review": {
         "errors": 0,
-        "warnings": 3,
+        "warnings": 2,
         "infos": 3,
         "impacts": {
           "advisory": 3,
           "decision": 1,
           "incomplete": 1,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -1177,12 +1177,12 @@
       "title": "T8 flange nut",
       "review": {
         "errors": 0,
-        "warnings": 4,
+        "warnings": 3,
         "infos": 3,
         "impacts": {
           "advisory": 3,
           "decision": 1,
-          "incomplete": 3,
+          "incomplete": 2,
           "readability": 0
         }
       },

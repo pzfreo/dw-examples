@@ -3,30 +3,30 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f7/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f7",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f7/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f10",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f7/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f11",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f7/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f12",
     "state": "supported"
    }
   ],
@@ -74,12 +74,12 @@
   {
    "code": "thread_designation_measured",
    "group": "thread_designation_measured",
-   "id": "p:thread_designation_measured:f:modelled_thread:1",
+   "id": "p:thread_designation_measured:f:modelled_thread:f16",
    "impact": "advisory",
    "message": "No unique ISO 261 diameter/pitch match within the documented inference tolerance; the callout states measured diameter and pitch. Set features/<id>/modelled_thread/designation to author the intended designation.",
    "severity": "info",
    "subjects": [
-    "f:modelled_thread:1"
+    "f:modelled_thread:f16"
    ]
   },
   {
@@ -87,34 +87,13 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features claim 52 of 60 faces; 8 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features claim 56 of 60 faces; 4 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
-    "face:1",
-    "face:4",
-    "face:5",
-    "face:6",
     "face:9",
     "face:14",
     "face:15",
     "face:39"
-   ]
-  },
-  {
-   "code": "shape_not_recognised",
-   "group": "shape_not_recognised:chamfer",
-   "id": "p:shape_not_recognised:face:1",
-   "impact": "incomplete",
-   "message": "Faces 1, 4, 5, 6 form 4 congruent shapes, each a 0.25 \u00d7 45\u00b0 chamfer on the edge of a \u00f83.4 cylinder, the first at (0, -8, 4.88); no hole callout or chamfer dimension states them. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
-   "refs": [
-    "shape:chamfer"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "face:1",
-    "face:4",
-    "face:5",
-    "face:6"
    ]
   },
   {
@@ -135,24 +114,24 @@
   {
    "code": "feature_not_dimensioned",
    "group": "feature_not_dimensioned:plate",
-   "id": "p:feature_unplanned:f:plate:1",
+   "id": "p:feature_unplanned:f:plate:f0",
    "impact": "incomplete",
    "message": "The 3.5 thick plate has no dimension drawn or carried by the hole table; review its omitted or undrawable items.",
    "severity": "warning",
    "subjects": [
-    "f:plate:1"
+    "f:plate:f0"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:modelled_thread:1/thread|d:f:hole:1/bore.diameter",
+   "id": "p:label_crowded:d:f:modelled_thread:f16/thread|d:f:hole:f7/bore.diameter",
    "impact": "advisory",
-   "message": "Line-work of \u23008.3 \u00d7 P2 4 STARTS passes less than 0.5 mm from the label of 4\u00d7 \u23003.4 THRU, so it touches the text.",
+   "message": "Line-work of \u23008.3 \u00d7 P2 4 STARTS passes less than 0.5 mm from the label of 4\u00d7 \u23003.4 THRU C0.25, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "d:f:modelled_thread:1/thread",
-    "d:f:hole:1/bore.diameter"
+    "d:f:modelled_thread:f16/thread",
+    "d:f:hole:f7/bore.diameter"
    ]
   }
  ],
@@ -162,7 +141,7 @@
    "feature_not_dimensioned:plate": 1,
    "general_tolerance_missing": 1,
    "label_crowded": 1,
-   "shape_not_recognised:chamfer": 2,
+   "shape_not_recognised:chamfer": 1,
    "thread_designation_measured": 1,
    "unclaimed_geometry": 1
   },
@@ -176,7 +155,7 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 3,
+    "findings": 2,
     "groups": 2
    },
    "readability": {

@@ -3,9 +3,9 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f5/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f5",
     "state": "supported"
    }
   ],
@@ -337,44 +337,44 @@
    "subjects": []
   },
   {
-   "annotation": "d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "annotation": "d:f:cylindrical_profile:f13/cylindrical_profile.radius",
    "at": [
     49.1695318085257,
-    129.62933980572205
+    128.62933980572205
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:f13/cylindrical_profile.radius",
    "impact": "readability",
    "measurements": [
-    "f:cylindrical_profile:1/cylindrical_profile.radius"
+    "f:cylindrical_profile:f13/cylindrical_profile.radius"
    ],
-   "message": "d:f:cylindrical_profile:1/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:cylindrical_profile:f13/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:cylindrical_profile:1"
+    "f:cylindrical_profile:f13"
    ],
    "view": "v:plan"
   },
   {
-   "annotation": "d:f:cylindrical_profile:2/cylindrical_profile.radius",
+   "annotation": "d:f:cylindrical_profile:f17/cylindrical_profile.radius",
    "at": [
     49.76303585741704,
-    129.4607139383767
+    128.4607139383767
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:2/cylindrical_profile.radius",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:f17/cylindrical_profile.radius",
    "impact": "readability",
    "measurements": [
-    "f:cylindrical_profile:2/cylindrical_profile.radius"
+    "f:cylindrical_profile:f17/cylindrical_profile.radius"
    ],
-   "message": "d:f:cylindrical_profile:2/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:cylindrical_profile:f17/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:cylindrical_profile:2"
+    "f:cylindrical_profile:f17"
    ],
    "view": "v:plan"
   }
@@ -679,7 +679,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:cylindrical_profile:1~1cylindrical_profile.radius/place",
+     "path": "dimensions/d:f:cylindrical_profile:f13~1cylindrical_profile.radius/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -694,7 +694,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:cylindrical_profile:1~1cylindrical_profile.radius/place",
+       "path": "dimensions/d:f:cylindrical_profile:f13~1cylindrical_profile.radius/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -723,13 +723,13 @@
     }
    ],
    "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:1/cylindrical_profile.radius|d:f:cylindrical_profile:2/cylindrical_profile.radius",
+   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:f13/cylindrical_profile.radius|d:f:cylindrical_profile:f17/cylindrical_profile.radius",
    "impact": "readability",
    "message": "The leader of R0.082 crosses a line of R0.692.",
    "severity": "warning",
    "subjects": [
-    "d:f:cylindrical_profile:1/cylindrical_profile.radius",
-    "d:f:cylindrical_profile:2/cylindrical_profile.radius"
+    "d:f:cylindrical_profile:f13/cylindrical_profile.radius",
+    "d:f:cylindrical_profile:f17/cylindrical_profile.radius"
    ]
   },
   {
@@ -740,7 +740,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:cylindrical_profile:1~1cylindrical_profile.radius/place",
+     "path": "dimensions/d:f:cylindrical_profile:f13~1cylindrical_profile.radius/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -755,7 +755,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:cylindrical_profile:1~1cylindrical_profile.radius/place",
+       "path": "dimensions/d:f:cylindrical_profile:f13~1cylindrical_profile.radius/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -784,13 +784,13 @@
     }
    ],
    "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:1/cylindrical_profile.radius|d:f:fillet:1/fillet.radius",
+   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:f13/cylindrical_profile.radius|d:f:fillet:f23/fillet.radius",
    "impact": "readability",
    "message": "The leader of R0.082 crosses a line of R0.826.",
    "severity": "warning",
    "subjects": [
-    "d:f:cylindrical_profile:1/cylindrical_profile.radius",
-    "d:f:fillet:1/fillet.radius"
+    "d:f:cylindrical_profile:f13/cylindrical_profile.radius",
+    "d:f:fillet:f23/fillet.radius"
    ]
   },
   {
@@ -801,7 +801,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:cylindrical_profile:2~1cylindrical_profile.radius/place",
+     "path": "dimensions/d:f:cylindrical_profile:f17~1cylindrical_profile.radius/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -816,7 +816,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:cylindrical_profile:2~1cylindrical_profile.radius/place",
+       "path": "dimensions/d:f:cylindrical_profile:f17~1cylindrical_profile.radius/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -845,13 +845,13 @@
     }
    ],
    "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:2/cylindrical_profile.radius|d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:f17/cylindrical_profile.radius|d:f:cylindrical_profile:f13/cylindrical_profile.radius",
    "impact": "readability",
    "message": "The leader of R0.692 crosses a line of R0.082.",
    "severity": "warning",
    "subjects": [
-    "d:f:cylindrical_profile:2/cylindrical_profile.radius",
-    "d:f:cylindrical_profile:1/cylindrical_profile.radius"
+    "d:f:cylindrical_profile:f17/cylindrical_profile.radius",
+    "d:f:cylindrical_profile:f13/cylindrical_profile.radius"
    ]
   },
   {
@@ -863,7 +863,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:cylindrical_profile:2~1cylindrical_profile.radius/place",
+     "path": "dimensions/d:f:cylindrical_profile:f17~1cylindrical_profile.radius/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -878,7 +878,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:cylindrical_profile:2~1cylindrical_profile.radius/place",
+       "path": "dimensions/d:f:cylindrical_profile:f17~1cylindrical_profile.radius/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -907,13 +907,13 @@
     }
    ],
    "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:2/cylindrical_profile.radius|d:f:fillet:1/fillet.radius",
+   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:f17/cylindrical_profile.radius|d:f:fillet:f23/fillet.radius",
    "impact": "readability",
    "message": "The leader of R0.692 crosses a line of R0.826.",
    "severity": "warning",
    "subjects": [
-    "d:f:cylindrical_profile:2/cylindrical_profile.radius",
-    "d:f:fillet:1/fillet.radius"
+    "d:f:cylindrical_profile:f17/cylindrical_profile.radius",
+    "d:f:fillet:f23/fillet.radius"
    ]
   },
   {
@@ -924,7 +924,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:fillet:1~1fillet.radius/place",
+     "path": "dimensions/d:f:fillet:f23~1fillet.radius/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -939,7 +939,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:fillet:1~1fillet.radius/place",
+       "path": "dimensions/d:f:fillet:f23~1fillet.radius/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -968,13 +968,13 @@
     }
    ],
    "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:d:f:fillet:1/fillet.radius|d:f:cylindrical_profile:1/cylindrical_profile.radius",
+   "id": "p:annotation_leader_crossing:d:f:fillet:f23/fillet.radius|d:f:cylindrical_profile:f13/cylindrical_profile.radius",
    "impact": "readability",
    "message": "The leader of R0.826 crosses a line of R0.082.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:1/fillet.radius",
-    "d:f:cylindrical_profile:1/cylindrical_profile.radius"
+    "d:f:fillet:f23/fillet.radius",
+    "d:f:cylindrical_profile:f13/cylindrical_profile.radius"
    ]
   },
   {
@@ -986,7 +986,7 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:fillet:1~1fillet.radius/place",
+     "path": "dimensions/d:f:fillet:f23~1fillet.radius/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -1001,7 +1001,7 @@
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:fillet:1~1fillet.radius/place",
+       "path": "dimensions/d:f:fillet:f23~1fillet.radius/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -1030,13 +1030,13 @@
     }
    ],
    "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:d:f:fillet:1/fillet.radius|d:f:cylindrical_profile:2/cylindrical_profile.radius",
+   "id": "p:annotation_leader_crossing:d:f:fillet:f23/fillet.radius|d:f:cylindrical_profile:f17/cylindrical_profile.radius",
    "impact": "readability",
    "message": "The leader of R0.826 crosses a line of R0.692.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:1/fillet.radius",
-    "d:f:cylindrical_profile:2/cylindrical_profile.radius"
+    "d:f:fillet:f23/fillet.radius",
+    "d:f:cylindrical_profile:f17/cylindrical_profile.radius"
    ]
   },
   {
@@ -1073,7 +1073,7 @@
    "group": "shape_not_recognised:step",
    "id": "p:shape_not_recognised:face:0",
    "impact": "incomplete",
-   "message": "Faces 0, 3, 4, 6, 7 form a turned step or land, its shoulder \u00f856.98, 63 \u00d7 63 \u00d7 3 mm at (0, 0, 0); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "message": "Faces 0, 3, 4, 6, 7 form a turned step or land, its shoulder \u00f856.98, 63 \u00d7 63 \u00d7 1.5 mm at (0, 0, 0.75); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
    "refs": [
     "shape:step"
    ],
@@ -1128,12 +1128,12 @@
   {
    "code": "leader_across_view",
    "group": "leader_across_view",
-   "id": "p:leader_across_view:d:f:fillet:1/fillet.radius",
+   "id": "p:leader_across_view:d:f:fillet:f23/fillet.radius",
    "impact": "readability",
    "message": "The leader of R0.826 runs 37.2 mm across the plan view, crossing 7 of its lines where a leader leaving the other way would cross 3.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:1/fillet.radius",
+    "d:f:fillet:f23/fillet.radius",
     "v:plan"
    ]
   }

@@ -11,13 +11,13 @@
    "fix": "Review and dimension the angle, legs and run of the angled step by hand.",
    "fix_description": "Review and dimension the angle, legs and run of the angled step by hand.",
    "group": "angled_step_requirement_unsupported",
-   "id": "l:angled_step_requirement_unsupported:f:angled_step:1",
+   "id": "l:angled_step_requirement_unsupported:f:angled_step:f30",
    "impact": "incomplete",
-   "message": "angled step f:angled_step:1: recognised angled blind step at 45 degrees with 2 mm run (1 of 2), at (1, -11.5, 11.5) is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval",
+   "message": "angled step f:angled_step:f30: recognised angled blind step at 45 degrees with 2 mm run (1 of 2), at (1, -11.5, 11.5) is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval",
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:angled_step:1"
+    "f:angled_step:f30"
    ]
   },
   {
@@ -25,13 +25,13 @@
    "fix": "Review and dimension the angle, legs and run of the angled step by hand.",
    "fix_description": "Review and dimension the angle, legs and run of the angled step by hand.",
    "group": "angled_step_requirement_unsupported",
-   "id": "l:angled_step_requirement_unsupported:f:angled_step:2",
+   "id": "l:angled_step_requirement_unsupported:f:angled_step:f31",
    "impact": "incomplete",
-   "message": "angled step f:angled_step:2: recognised angled blind step at 45 degrees with 2 mm run (2 of 2), at (16, -11.5, 11.5) is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval",
+   "message": "angled step f:angled_step:f31: recognised angled blind step at 45 degrees with 2 mm run (2 of 2), at (16, -11.5, 11.5) is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval",
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:angled_step:2"
+    "f:angled_step:f31"
    ]
   }
  ],
@@ -74,23 +74,23 @@
   {
    "code": "angled_step_requirement_unsupported",
    "group": "angled_step_requirement_unsupported",
-   "id": "p:angled_step_requirement_unsupported:f:angled_step:1",
+   "id": "p:angled_step_requirement_unsupported:f:angled_step:f30",
    "impact": "incomplete",
    "message": "The 45\u00b0 angled step is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval.",
    "severity": "warning",
    "subjects": [
-    "f:angled_step:1"
+    "f:angled_step:f30"
    ]
   },
   {
    "code": "angled_step_requirement_unsupported",
    "group": "angled_step_requirement_unsupported",
-   "id": "p:angled_step_requirement_unsupported:f:angled_step:2",
+   "id": "p:angled_step_requirement_unsupported:f:angled_step:f31",
    "impact": "incomplete",
    "message": "The 45\u00b0 angled step is not represented by Draftwright dimensions; review and define its manufacturing geometry outside automatic drawing approval.",
    "severity": "warning",
    "subjects": [
-    "f:angled_step:2"
+    "f:angled_step:f31"
    ]
   },
   {

@@ -3,23 +3,23 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f46/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f46",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:2/bore.diameter"
+     "d:f:hole:f49/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f49",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:3/bore.diameter"
+     "d:f:hole:f50/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f50",
     "state": "supported"
    }
   ],
@@ -83,72 +83,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:3~1location.length.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "5:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "2:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 12.5 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The leader of \u00f89.6 crosses a line of 12.5. [annotation_leader_crossing] A line of 12.5 runs through the label of \u00f813.4. [annotation_ink_overlap] A line of 12.5 runs through the label of \u00f89.6. [annotation_ink_overlap] A line of 12.5 runs through the label of 3\u00d7 C0.2. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:3~1location.length.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "5:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -167,13 +111,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:3/location.length.z|f:hole:2:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f50/location.length.z|f:hole:f49:line:1",
    "impact": "advisory",
    "message": "The second extension line of 12.5 crosses the \u23003 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:3/location.length.z",
-    "f:hole:2"
+    "d:f:hole:f50/location.length.z",
+    "f:hole:f49"
    ]
   },
   {

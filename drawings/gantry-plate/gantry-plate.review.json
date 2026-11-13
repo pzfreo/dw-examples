@@ -3,107 +3,107 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f16/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f16",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f16/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f17",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f16/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f18",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f43/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f43",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f43/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f44",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f43/bore.diameter"
     ],
-    "feature": "f:hole:6",
+    "feature": "f:hole:f45",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:7/bore.diameter"
+     "d:f:hole:f46/bore.diameter"
     ],
-    "feature": "f:hole:7",
+    "feature": "f:hole:f46",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f43/bore.diameter"
     ],
-    "feature": "f:hole:8",
+    "feature": "f:hole:f47",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:7/bore.diameter"
+     "d:f:hole:f46/bore.diameter"
     ],
-    "feature": "f:hole:9",
+    "feature": "f:hole:f48",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:2/bore.diameter"
+     "d:f:hole_pattern:f43/bore.diameter"
     ],
-    "feature": "f:hole:10",
+    "feature": "f:hole:f49",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:7/bore.diameter"
+     "d:f:hole:f46/bore.diameter"
     ],
-    "feature": "f:hole:11",
+    "feature": "f:hole:f50",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:7/bore.diameter"
+     "d:f:hole:f46/bore.diameter"
     ],
-    "feature": "f:hole:12",
+    "feature": "f:hole:f51",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:7/bore.diameter"
+     "d:f:hole:f46/bore.diameter"
     ],
-    "feature": "f:hole:13",
+    "feature": "f:hole:f52",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:7/bore.diameter"
+     "d:f:hole:f46/bore.diameter"
     ],
-    "feature": "f:hole:14",
+    "feature": "f:hole:f53",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:7/bore.diameter"
+     "d:f:hole:f46/bore.diameter"
     ],
-    "feature": "f:hole:15",
+    "feature": "f:hole:f54",
     "state": "supported"
    }
   ],
@@ -117,22 +117,22 @@
    "fix": "State its centre 32.75 from the part's x edge for the slot pattern: a grouped slot callout, pitch or location dimension, in the view that looks through the slots.",
    "fix_description": "State its centre 32.75 from the part's x edge for the slot pattern: a grouped slot callout, pitch or location dimension, in the view that looks through the slots.",
    "group": "slot_requirement_missing:location_slot_pattern.length.x",
-   "id": "l:slot_requirement_missing:f:slot_pattern:1/location_slot_pattern.length.x",
+   "id": "l:slot_requirement_missing:f:slot_pattern:f19/location_slot_pattern.length.x",
    "impact": "incomplete",
    "measurements": [
-    "f:slot_pattern:1/location_slot_pattern.length.x"
+    "f:slot_pattern:f19/location_slot_pattern.length.x"
    ],
-   "message": "slot pattern f:slot_pattern:1 of 6 slots: requirement location_slot_pattern.length.x (its centre 32.75 from the part's x edge) is not stated on the sheet",
+   "message": "slot pattern f:slot_pattern:f19 of 6 slots: requirement location_slot_pattern.length.x (its centre 32.75 from the part's x edge) is not stated on the sheet",
    "requirements": [
     {
-     "feature": "f:slot_pattern:1",
+     "feature": "f:slot_pattern:f19",
      "parameter": "location_slot_pattern.length.x"
     }
    ],
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:slot_pattern:1"
+    "f:slot_pattern:f19"
    ]
   },
   {
@@ -140,22 +140,22 @@
    "fix": "State its centre 32.75 from the part's y edge for the slot pattern: a grouped slot callout, pitch or location dimension, in the view that looks through the slots.",
    "fix_description": "State its centre 32.75 from the part's y edge for the slot pattern: a grouped slot callout, pitch or location dimension, in the view that looks through the slots.",
    "group": "slot_requirement_missing:location_slot_pattern.length.y",
-   "id": "l:slot_requirement_missing:f:slot_pattern:1/location_slot_pattern.length.y",
+   "id": "l:slot_requirement_missing:f:slot_pattern:f19/location_slot_pattern.length.y",
    "impact": "incomplete",
    "measurements": [
-    "f:slot_pattern:1/location_slot_pattern.length.y"
+    "f:slot_pattern:f19/location_slot_pattern.length.y"
    ],
-   "message": "slot pattern f:slot_pattern:1 of 6 slots: requirement location_slot_pattern.length.y (its centre 32.75 from the part's y edge) is not stated on the sheet",
+   "message": "slot pattern f:slot_pattern:f19 of 6 slots: requirement location_slot_pattern.length.y (its centre 32.75 from the part's y edge) is not stated on the sheet",
    "requirements": [
     {
-     "feature": "f:slot_pattern:1",
+     "feature": "f:slot_pattern:f19",
      "parameter": "location_slot_pattern.length.y"
     }
    ],
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:slot_pattern:1"
+    "f:slot_pattern:f19"
    ]
   }
  ],
@@ -212,72 +212,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:7~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 12.9 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 12.9 runs up to 1.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 12.9 runs through the label of 6\u00d7 SLOT 3 \u00d7 9.5. [annotation_ink_overlap] The second extension line of 12.9 crosses the 3 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:7~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -296,13 +240,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:7/location.length.x|f:slot:7:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f46/location.length.x|f:slot:f35:line:1",
    "impact": "advisory",
    "message": "The second extension line of 12.9 crosses the 3 wide slot.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:7/location.length.x",
-    "f:slot:7"
+    "d:f:hole:f46/location.length.x",
+    "f:slot:f35"
    ]
   },
   {
@@ -310,72 +254,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:13~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 22.75 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 22.75 runs up to 1.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 22.75 runs through the label of 3\u00d7 \u23007.2 THRU. [annotation_ink_overlap] A line of 22.75 runs through the label of 7\u00d7 \u23005.1 THRU. [annotation_ink_overlap] A line of 22.75 runs through the label of 6\u00d7 SLOT 3 \u00d7 9.5. [annotation_ink_overlap] A line of 22.75 runs through the label of 2\u00d7 20.15. [annotation_ink_overlap] The second extension line of 22.75 crosses the 5 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:13~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -394,13 +282,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:13/location.length.x|f:slot:1:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f52/location.length.x|f:slot:f8:line:1",
    "impact": "advisory",
    "message": "The second extension line of 22.75 crosses the 5 wide slot.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:13/location.length.x",
-    "f:slot:1"
+    "d:f:hole:f52/location.length.x",
+    "f:slot:f8"
    ]
   },
   {
@@ -408,72 +296,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:9~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 32.75 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 32.75 runs up to 1.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 32.75 runs through the label of 6\u00d7 SLOT 3 \u00d7 9.5. [annotation_ink_overlap] The second extension line of 32.75 crosses the 5 wide slot. [extension_through_feature] The second extension line of 32.75 crosses the 3 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:9~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -492,111 +324,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:9/location.length.x|f:slot:1:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 32.75 crosses the 5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:9/location.length.x",
-    "f:slot:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:9~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 32.75 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 32.75 runs up to 1.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 32.75 runs through the label of 6\u00d7 SLOT 3 \u00d7 9.5. [annotation_ink_overlap] The second extension line of 32.75 crosses the 5 wide slot. [extension_through_feature] The second extension line of 32.75 crosses the 3 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:9~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:9/location.length.x|f:slot:4:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f48/location.length.x|f:slot:f23:line:1",
    "impact": "advisory",
    "message": "The second extension line of 32.75 crosses the 3 wide slot.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:9/location.length.x",
-    "f:slot:4"
+    "d:f:hole:f48/location.length.x",
+    "f:slot:f23"
    ]
   },
   {
@@ -604,72 +338,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:14~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 42.75 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 42.75 runs up to 1.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 42.75 runs through the label of 5\u00d7 \u23005.1 THRU. [annotation_ink_overlap] A line of 42.75 runs through the label of 6\u00d7 SLOT 3 \u00d7 9.5. [annotation_ink_overlap] The second extension line of 42.75 crosses the 5 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:14~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -688,13 +366,55 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:14/location.length.x|f:slot:1:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f48/location.length.x|f:slot:f8:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 32.75 crosses the 5 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:f48/location.length.x",
+    "f:slot:f8"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:1"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:1"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:f53/location.length.x|f:slot:f8:line:1",
    "impact": "advisory",
    "message": "The second extension line of 42.75 crosses the 5 wide slot.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:14/location.length.x",
-    "f:slot:1"
+    "d:f:hole:f53/location.length.x",
+    "f:slot:f8"
    ]
   },
   {
@@ -702,72 +422,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:2~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 52.6 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 52.6 runs up to 1.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 52.6 runs through the label of 6\u00d7 SLOT 3 \u00d7 9.5. [annotation_ink_overlap] A line of 52.6 runs through the label of 2\u00d7 SLOT 5 \u00d7 25. [annotation_ink_overlap] The second extension line of 52.6 crosses the 3 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:2~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -786,13 +450,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:2/location.length.x|f:slot:3:line:1",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f43/location.length.x|f:slot:f19:line:1",
    "impact": "advisory",
    "message": "The second extension line of 52.6 crosses the 3 wide slot.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:2/location.length.x",
-    "f:slot:3"
+    "d:f:hole_pattern:f43/location.length.x",
+    "f:slot:f19"
    ]
   },
   {
@@ -828,13 +492,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:11/location.length.y|f:hole:10:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f50/location.length.y|f:hole:f49:line:1",
    "impact": "advisory",
    "message": "The second extension line of 22.75 crosses the \u23005.1 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:11/location.length.y",
-    "f:hole:10"
+    "d:f:hole:f50/location.length.y",
+    "f:hole:f49"
    ]
   },
   {
@@ -870,13 +534,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:12/location.length.y|f:hole:3:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f51/location.length.y|f:hole:f18:line:1",
    "impact": "advisory",
    "message": "The second extension line of 32.75 crosses the \u23007.2 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:12/location.length.y",
-    "f:hole:3"
+    "d:f:hole:f51/location.length.y",
+    "f:hole:f18"
    ]
   },
   {
@@ -912,13 +576,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:7/location.length.y|f:hole:6:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f46/location.length.y|f:hole:f45:line:1",
    "impact": "advisory",
    "message": "The second extension line of 42.75 crosses the \u23005.1 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:7/location.length.y",
-    "f:hole:6"
+    "d:f:hole:f46/location.length.y",
+    "f:hole:f45"
    ]
   },
   {
@@ -954,13 +618,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/location_slot_across.length|f:hole:1:line:1",
+   "id": "p:extension_through_feature:d:f:slot:f8/location_slot_across.length|f:hole:f16:line:1",
    "impact": "advisory",
    "message": "The second extension line of 52.75 crosses the \u23007.2 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:slot:1/location_slot_across.length",
-    "f:hole:1"
+    "d:f:slot:f8/location_slot_across.length",
+    "f:hole:f16"
    ]
   }
  ],

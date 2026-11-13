@@ -3,16 +3,16 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f6/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f6",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:2/bore.diameter"
+     "d:f:hole:f9/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f9",
     "state": "supported"
    }
   ],
@@ -31,14 +31,14 @@
    "message": "1 hole(s) have no locating dimension",
    "requirements": [
     {
-     "feature": "f:hole:2",
+     "feature": "f:hole:f9",
      "parameter": "location.length.z"
     }
    ],
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:hole:2"
+    "f:hole:f9"
    ]
   },
   {
@@ -104,12 +104,12 @@
   {
    "code": "feature_not_dimensioned",
    "group": "feature_not_dimensioned:hole",
-   "id": "p:feature_not_dimensioned:f:hole:2",
+   "id": "p:feature_not_dimensioned:f:hole:f9",
    "impact": "incomplete",
    "message": "The \u230010 hole's location is not dimensioned: its axis is inclined to every principal axis, so it needs a view square to it; its size is called out where it is seen most nearly end-on.",
    "severity": "warning",
    "subjects": [
-    "f:hole:2"
+    "f:hole:f9"
    ]
   },
   {

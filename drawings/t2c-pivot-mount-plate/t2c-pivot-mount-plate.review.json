@@ -3,37 +3,37 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f10",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f11",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f12",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:4/bore.diameter"
+     "d:f:hole:f13/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f13",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f14",
     "state": "supported"
    }
   ],
@@ -95,28 +95,28 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole:4/location.length.x|d:f:hole_pattern:1/grid_pitch.length.col",
+   "id": "p:label_crowded:d:f:hole:f13/location.length.x|d:f:hole_pattern:f10/grid_pitch.length.col",
    "impact": "advisory",
    "message": "Line-work of 50 passes less than 0.5 mm from the label of 76, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:4/location.length.x",
-    "d:f:hole_pattern:1/grid_pitch.length.col"
+    "d:f:hole:f13/location.length.x",
+    "d:f:hole_pattern:f10/grid_pitch.length.col"
    ]
   }
  ],
  "structural": [
   {
-   "annotation": "d:f:hole:4/bore.diameter",
+   "annotation": "d:f:hole:f13/bore.diameter",
    "code": "leader_centerline_overlap",
    "fix": "move the annotation clear of the fixed ink",
    "fix_description": "Move the annotation clear of the fixed ink.",
    "group": "leader_centerline_overlap",
-   "id": "l:leader_centerline_overlap:d:f:hole:4/bore.diameter+ink:v:plan:f:hole:4",
+   "id": "l:leader_centerline_overlap:d:f:hole:f13/bore.diameter+ink:v:plan:f:hole:f13",
    "impact": "readability",
-   "message": "'\u230016 THRU' touches fixed ink 'ink:v:plan:f:hole:4'",
+   "message": "'\u230016 THRU' touches fixed ink 'ink:v:plan:f:hole:f13'",
    "related": [
-    "ink:v:plan:f:hole:4"
+    "ink:v:plan:f:hole:f13"
    ],
    "scope": "sheet",
    "severity": "warning",

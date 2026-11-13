@@ -5,147 +5,147 @@
     "carriers": [
      "hole_schedule_plan/D1/size"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f127",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/D2/size"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f129",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/D3/size"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f131",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/D4/size"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f133",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B6/size"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f157",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B7/size"
     ],
-    "feature": "f:hole:6",
+    "feature": "f:hole:f159",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B8/size"
     ],
-    "feature": "f:hole:7",
+    "feature": "f:hole:f161",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B9/size"
     ],
-    "feature": "f:hole:8",
+    "feature": "f:hole:f163",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B10/size"
     ],
-    "feature": "f:hole:9",
+    "feature": "f:hole:f165",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B1/size"
     ],
-    "feature": "f:hole:10",
+    "feature": "f:hole:f167",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B2/size"
     ],
-    "feature": "f:hole:11",
+    "feature": "f:hole:f169",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B3/size"
     ],
-    "feature": "f:hole:12",
+    "feature": "f:hole:f171",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B4/size"
     ],
-    "feature": "f:hole:13",
+    "feature": "f:hole:f173",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B5/size"
     ],
-    "feature": "f:hole:14",
+    "feature": "f:hole:f175",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/F1/size"
     ],
-    "feature": "f:hole:15",
+    "feature": "f:hole:f177",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/F2/size"
     ],
-    "feature": "f:hole:16",
+    "feature": "f:hole:f179",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C1/size"
     ],
-    "feature": "f:hole:17",
+    "feature": "f:hole:f181",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C2/size"
     ],
-    "feature": "f:hole:18",
+    "feature": "f:hole:f183",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/E1/size"
     ],
-    "feature": "f:hole:19",
+    "feature": "f:hole:f185",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/E2/size"
     ],
-    "feature": "f:hole:20",
+    "feature": "f:hole:f187",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/A1/size"
     ],
-    "feature": "f:hole:21",
+    "feature": "f:hole:f231",
     "state": "supported"
    }
   ],
@@ -160,13 +160,13 @@
    "fix": "Review and dimension the section of the section recess by hand.",
    "fix_description": "Review and dimension the section of the section recess by hand.",
    "group": "prismatic_pocket_requirement_unsupported",
-   "id": "l:prismatic_pocket_requirement_unsupported:f:section_recess:3",
+   "id": "l:prismatic_pocket_requirement_unsupported:f:section_recess:f236",
    "impact": "incomplete",
    "message": "recognised 12-sided blind prismatic recess 2.54 mm deep (1 of 2) is not represented by Draftwright dimensions: general pocket requires a rounded rectangular profile; review and define its manufacturing section outside automatic drawing approval",
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:section_recess:3"
+    "f:section_recess:f236"
    ]
   },
   {
@@ -175,13 +175,13 @@
    "fix": "Review and dimension the section of the section recess by hand.",
    "fix_description": "Review and dimension the section of the section recess by hand.",
    "group": "prismatic_pocket_requirement_unsupported",
-   "id": "l:prismatic_pocket_requirement_unsupported:f:section_recess:4",
+   "id": "l:prismatic_pocket_requirement_unsupported:f:section_recess:f249",
    "impact": "incomplete",
    "message": "recognised 20-sided blind prismatic recess 2.54 mm deep (2 of 2) is not represented by Draftwright dimensions: general pocket requires a rounded rectangular profile; review and define its manufacturing section outside automatic drawing approval",
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:section_recess:4"
+    "f:section_recess:f249"
    ]
   },
   {
@@ -201,42 +201,42 @@
    "code": "channel_requirement_unverifiable",
    "evidence": "0 of quiddity's plates along z run from the part's box to the channel's near wall, not one",
    "group": "channel_requirement_unverifiable:thickness.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:6/plate.thickness.length",
+   "id": "l:channel_requirement_unverifiable:f:section_recess:f252_1/plate.thickness.length",
    "impact": "incomplete",
    "measurements": [
-    "f:section_recess:6/thickness.length"
+    "f:section_recess:f252_1/thickness.length"
    ],
-   "message": "open channel f:section_recess:6 3.103 wide, running along y, at (144.748, 8.194, 32.871): measurement plate.thickness.length cannot be checked: 0 of recognised plates along z run from the part's box to the channel's near wall, not one. Review this measurement manually",
+   "message": "open channel f:section_recess:f252_1 3.103 wide, running along y, at (144.748, 8.194, 32.871): measurement plate.thickness.length cannot be checked: 0 of recognised plates along z run from the part's box to the channel's near wall, not one. Review this measurement manually",
    "requirements": [
     {
-     "feature": "f:section_recess:6",
+     "feature": "f:section_recess:f252_1",
      "parameter": "thickness.length"
     }
    ],
    "severity": "warning",
    "subjects": [
-    "f:section_recess:6"
+    "f:section_recess:f252_1"
    ]
   },
   {
    "code": "channel_requirement_unverifiable",
    "evidence": "0 of quiddity's plates along z run from the part's box to the channel's near wall, not one",
    "group": "channel_requirement_unverifiable:thickness.length",
-   "id": "l:channel_requirement_unverifiable:f:section_recess:5/plate.thickness.length",
+   "id": "l:channel_requirement_unverifiable:f:section_recess:f252_0/plate.thickness.length",
    "impact": "incomplete",
    "measurements": [
-    "f:section_recess:5/thickness.length"
+    "f:section_recess:f252_0/thickness.length"
    ],
-   "message": "open channel f:section_recess:5 3.103 wide, running along y, at (144.748, 5.421, 26.952): measurement plate.thickness.length cannot be checked: 0 of recognised plates along z run from the part's box to the channel's near wall, not one. Review this measurement manually",
+   "message": "open channel f:section_recess:f252_0 3.103 wide, running along y, at (144.748, 5.421, 26.952): measurement plate.thickness.length cannot be checked: 0 of recognised plates along z run from the part's box to the channel's near wall, not one. Review this measurement manually",
    "requirements": [
     {
-     "feature": "f:section_recess:5",
+     "feature": "f:section_recess:f252_0",
      "parameter": "thickness.length"
     }
    ],
    "severity": "warning",
    "subjects": [
-    "f:section_recess:5"
+    "f:section_recess:f252_0"
    ]
   },
   {
@@ -1466,87 +1466,87 @@
    "fix": "State the location length y of the slot in a view that shows its true size or location.",
    "fix_description": "State the location length y of the slot in a view that shows its true size or location.",
    "group": "feature_not_located:slot",
-   "id": "l:feature_not_located:f:slot:1/location.length.y",
+   "id": "l:feature_not_located:f:slot:f117/location.length.y",
    "impact": "incomplete",
    "measurements": [
-    "f:slot:1/location.length.y"
+    "f:slot:f117/location.length.y"
    ],
-   "message": "f:slot:1 on y: no drawn dimension chain reaches an origin.",
+   "message": "f:slot:f117 on y: no drawn dimension chain reaches an origin.",
    "requirements": [
     {
-     "feature": "f:slot:1",
+     "feature": "f:slot:f117",
      "parameter": "location.length.y"
     }
    ],
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:slot:1"
+    "f:slot:f117"
    ]
   },
   {
-   "annotation": "d:f:fillet:68/fillet.radius",
+   "annotation": "d:f:fillet:f84/fillet.radius",
    "at": [
-    478.859750001691,
-    162.01374999945816
+    449.4805875000934,
+    202.64587499972907
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:68/fillet.radius",
+   "id": "l:radius_leader_not_radial:d:f:fillet:f84/fillet.radius",
    "impact": "readability",
    "measurements": [
-    "f:fillet:67/fillet.radius",
-    "f:fillet:68/fillet.radius",
-    "f:fillet:69/fillet.radius",
-    "f:fillet:86/fillet.radius"
+    "f:fillet:f82/fillet.radius",
+    "f:fillet:f84/fillet.radius",
+    "f:fillet:f85/fillet.radius",
+    "f:fillet:f135/fillet.radius"
    ],
-   "message": "d:f:fillet:68/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:fillet:f84/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:fillet:67",
-    "f:fillet:68",
-    "f:fillet:69",
-    "f:fillet:86"
+    "f:fillet:f82",
+    "f:fillet:f84",
+    "f:fillet:f85",
+    "f:fillet:f135"
    ],
    "view": "v:side"
   },
   {
-   "annotation": "d:f:cylindrical_profile:11/cylindrical_profile.radius",
+   "annotation": "d:f:cylindrical_profile:f210/cylindrical_profile.radius",
    "at": [
-    139.49427558604714,
-    385.15246469027267
+    146.01210515436983,
+    309.5265151328747
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:11/cylindrical_profile.radius",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:f210/cylindrical_profile.radius",
    "impact": "readability",
    "measurements": [
-    "f:cylindrical_profile:2/cylindrical_profile.radius",
-    "f:cylindrical_profile:3/cylindrical_profile.radius",
-    "f:cylindrical_profile:4/cylindrical_profile.radius",
-    "f:cylindrical_profile:5/cylindrical_profile.radius",
-    "f:cylindrical_profile:6/cylindrical_profile.radius",
-    "f:cylindrical_profile:7/cylindrical_profile.radius",
-    "f:cylindrical_profile:8/cylindrical_profile.radius",
-    "f:cylindrical_profile:9/cylindrical_profile.radius",
-    "f:cylindrical_profile:10/cylindrical_profile.radius",
-    "f:cylindrical_profile:11/cylindrical_profile.radius"
+    "f:cylindrical_profile:f189/cylindrical_profile.radius",
+    "f:cylindrical_profile:f191/cylindrical_profile.radius",
+    "f:cylindrical_profile:f193/cylindrical_profile.radius",
+    "f:cylindrical_profile:f196/cylindrical_profile.radius",
+    "f:cylindrical_profile:f198/cylindrical_profile.radius",
+    "f:cylindrical_profile:f201/cylindrical_profile.radius",
+    "f:cylindrical_profile:f203/cylindrical_profile.radius",
+    "f:cylindrical_profile:f205/cylindrical_profile.radius",
+    "f:cylindrical_profile:f208/cylindrical_profile.radius",
+    "f:cylindrical_profile:f210/cylindrical_profile.radius"
    ],
-   "message": "d:f:cylindrical_profile:11/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:cylindrical_profile:f210/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:cylindrical_profile:2",
-    "f:cylindrical_profile:3",
-    "f:cylindrical_profile:4",
-    "f:cylindrical_profile:5",
-    "f:cylindrical_profile:6",
-    "f:cylindrical_profile:7",
-    "f:cylindrical_profile:8",
-    "f:cylindrical_profile:9",
-    "f:cylindrical_profile:10",
-    "f:cylindrical_profile:11"
+    "f:cylindrical_profile:f189",
+    "f:cylindrical_profile:f191",
+    "f:cylindrical_profile:f193",
+    "f:cylindrical_profile:f196",
+    "f:cylindrical_profile:f198",
+    "f:cylindrical_profile:f201",
+    "f:cylindrical_profile:f203",
+    "f:cylindrical_profile:f205",
+    "f:cylindrical_profile:f208",
+    "f:cylindrical_profile:f210"
    ],
    "view": "v:plan"
   }
@@ -1590,23 +1590,23 @@
   {
    "code": "dimensions_not_ported",
    "group": "dimensions_not_ported:section_recess",
-   "id": "p:dimensions_not_ported:f:section_recess:3",
+   "id": "p:dimensions_not_ported:f:section_recess:f236",
    "impact": "incomplete",
    "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
    "severity": "warning",
    "subjects": [
-    "f:section_recess:3"
+    "f:section_recess:f236"
    ]
   },
   {
    "code": "dimensions_not_ported",
    "group": "dimensions_not_ported:section_recess",
-   "id": "p:dimensions_not_ported:f:section_recess:4",
+   "id": "p:dimensions_not_ported:f:section_recess:f249",
    "impact": "incomplete",
    "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
    "severity": "warning",
    "subjects": [
-    "f:section_recess:4"
+    "f:section_recess:f249"
    ]
   },
   {
@@ -2701,12 +2701,133 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "extension_line"
+    "dimension_line"
    ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f133,134:t=B|d:envelope/height.length",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of 48.26.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f133,134:t=B",
+    "d:envelope/height.length"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f133,134:t=B|d:step_level/step_height.length.f67",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of 10.16.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f133,134:t=B",
+    "d:step_level/step_height.length.f67"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f133,134:t=B|d:f:section_recess:f156/seat_location.location.z",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol B crosses a line of 46.545.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f133,134:t=B",
+    "d:f:section_recess:f156/seat_location.location.z"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around|pmi:geometric_tolerance.profile_surface:f67:ref=A,B,C",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 1.016 D E crosses a line of the feature control frame \u2313 1.27 A B C.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around",
+    "pmi:geometric_tolerance.profile_surface:f67:ref=A,B,C"
+   ]
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader",
+    "arrow"
+   ],
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f67:ref=A,B,C|pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 1.27 A B C crosses a line of the feature control frame \u2313 1.016 D E.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f67:ref=A,B,C",
+    "pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:f117/slot_width.length|f:hole:f127:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 192.21 crosses the \u23006.032 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:f117/slot_width.length",
+    "f:hole:f127"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:f117/slot_width.length|f:hole:f131:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 192.21 crosses the \u23006.032 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:f117/slot_width.length",
+    "f:hole:f131"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:f152/slot_width.length|f:hole:f183:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 2\u00d7 15.24 crosses the \u23005.791 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:f152/slot_width.length",
+    "f:hole:f183"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:f:cylindrical_profile:f210/cylindrical_profile.radius|v:plan:line:0",
+   "impact": "readability",
+   "message": "The leader of 10\u00d7 R7.62 crosses a feature.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:cylindrical_profile:f210/cylindrical_profile.radius",
+    "v:plan"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:cylindrical_profile:11~1cylindrical_profile.radius/place",
+     "path": "dimensions/d:f:section_recess:f156~1seat_location.location.x/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -2727,7 +2848,7 @@
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -2737,11 +2858,11 @@
    ],
    "fixes": [
     {
-     "description": "Move the 10\u00d7 R7.62 callout below the plan view, nearest the view. Trade-off: adds these findings: The leader of 10\u00d7 R7.62 crosses a line of 31.75. [annotation_leader_crossing] The leader of 10\u00d7 R7.62 crosses a line of 49.117. [annotation_leader_crossing] The leader of 10\u00d7 R7.62 crosses a line of 223.107. [annotation_leader_crossing].",
+     "description": "Move the 223.107 dimension below the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 223.107 crosses the \u23005.791 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:cylindrical_profile:11~1cylindrical_profile.radius/place",
+       "path": "dimensions/d:f:section_recess:f156~1seat_location.location.x/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -2762,419 +2883,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:11/cylindrical_profile.radius|d:f:slot:3/slot_length.length",
-   "impact": "advisory",
-   "message": "The leader of 10\u00d7 R7.62 crosses a line of 31.75.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:cylindrical_profile:11/cylindrical_profile.radius",
-    "d:f:slot:3/slot_length.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
-     "value": {
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
-       "value": {
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f270|d:envelope/depth.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.381 crosses a line of 222.695.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f270",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.flatness:f270/place",
-     "value": {
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.flatness:f270/place",
-       "value": {
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f270|pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.381 crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f270",
-    "pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
-     "value": {
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
-       "value": {
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C|d:envelope/depth.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 222.695.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "annotations/pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C/place",
-     "value": {
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the annotation above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "annotations/pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C/place",
-       "value": {
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C|pmi:geometric_tolerance.flatness:f270",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u23e5 0.381.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f52:ref=A,B,C",
-    "pmi:geometric_tolerance.flatness:f270"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 192.21 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: The leader of 10\u00d7 R7.62 crosses a line of 192.21. [annotation_leader_crossing] The leader of 4\u00d7 C21.075 crosses a line of 192.21. [annotation_leader_crossing] The first extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature] The second extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3186,259 +2895,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:1:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 192.21 crosses the \u23006.032 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "f:hole:1"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 192.21 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: The leader of 10\u00d7 R7.62 crosses a line of 192.21. [annotation_leader_crossing] The leader of 4\u00d7 C21.075 crosses a line of 192.21. [annotation_leader_crossing] The first extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature] The second extension line of 192.21 crosses the \u23006.032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1slot_width.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/slot_width.length|f:hole:3:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 192.21 crosses the \u23006.032 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:1/slot_width.length",
-    "f:hole:3"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:2~1slot_width.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 15.24 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 2\u00d7 15.24 runs through the label of 2\u00d7 R7.62. [annotation_ink_overlap] The leader of 2\u00d7 R7.62 crosses a line of 2\u00d7 15.24. [annotation_leader_crossing] A line of 215.487 runs through the label of 2\u00d7 15.24. [annotation_ink_overlap] The second extension line of 2\u00d7 15.24 crosses the \u23005.791 hole. [extension_through_feature] The second extension line of 2\u00d7 15.24 crosses the \u23006.147 hole. [extension_through_feature] The second extension line of 2\u00d7 15.24 crosses the \u23006.147 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:2~1slot_width.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:2/slot_width.length|f:hole:18:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 2\u00d7 15.24 crosses the \u23005.791 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:2/slot_width.length",
-    "f:hole:18"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 223.107 dimension above the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 223.107 crosses the \u23005.791 hole. [extension_through_feature] The second extension line of 223.107 crosses the \u23006.147 hole. [extension_through_feature] The second extension line of 223.107 crosses the \u23006.147 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.x|f:hole:18:line:1",
+   "id": "p:extension_through_feature:d:f:section_recess:f156/seat_location.location.x|f:hole:f181:line:1",
    "impact": "advisory",
    "message": "The second extension line of 223.107 crosses the \u23005.791 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:section_recess:1/seat_location.location.x",
-    "f:hole:18"
+    "d:f:section_recess:f156/seat_location.location.x",
+    "f:hole:f181"
    ]
   },
   {
@@ -3446,257 +2909,11 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
+     "path": "dimensions/d:f:section_recess:f156~1seat_location.location.x/place",
      "value": {
       "along": "middle",
       "lane": 0,
-      "side": "left",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 46.545 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The dimension 46.545 runs up to 12.6 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.791 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.z|f:hole:15:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 46.545 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:section_recess:1/seat_location.location.z",
-    "f:hole:15"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "right",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 46.545 dimension to the right of the side view, nearest the view. Trade-off: adds these findings: The dimension 46.545 runs up to 11.5 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of the feature control frame \u2225 0.508 D crosses a line of 46.545. [annotation_leader_crossing] The leader of the feature control frame \u2313 1.524 A B C crosses a line of 46.545. [annotation_leader_crossing] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.791 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23006.147 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23006.147 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the 15.24 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "right",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.z|f:hole:16:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 46.545 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:section_recess:1/seat_location.location.z",
-    "f:hole:16"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 46.545 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The dimension 46.545 runs up to 12.6 mm past the area reserved for the side view and its bands; it may crowd what lies beyond. [annotation_outside_area] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.791 hole. [extension_through_feature] The second extension line of 46.545 crosses the \u23005.410 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:section_recess:1~1seat_location.location.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:section_recess:1/seat_location.location.z|f:hole:21:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 46.545 crosses the \u230030.559 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:section_recess:1/seat_location.location.z",
-    "f:hole:21"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1profile_location_x.length.f1_0_1/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
+      "side": "below",
       "view": "plan"
      }
     },
@@ -3713,7 +2930,7 @@
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
     },
     {
      "op": "set",
@@ -3723,15 +2940,15 @@
    ],
    "fixes": [
     {
-     "description": "Move the 2\u00d7 12.827 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 36.532 runs through the label of 2\u00d7 12.827. [annotation_ink_overlap] A line of 215.487 runs through the label of 2\u00d7 12.827. [annotation_ink_overlap] The leader of 29\u00d7 R3.175 crosses a line of 2\u00d7 12.827. [annotation_leader_crossing] The second extension line of 2\u00d7 12.827 crosses the \u23006.032 hole. [extension_through_feature].",
+     "description": "Move the 223.107 dimension below the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 223.107 crosses the \u23005.791 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:envelope~1profile_location_x.length.f1_0_1/place",
+       "path": "dimensions/d:f:section_recess:f156~1seat_location.location.x/place",
        "value": {
         "along": "middle",
         "lane": 0,
-        "side": "above",
+        "side": "below",
         "view": "plan"
        }
       },
@@ -3748,7 +2965,7 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
       },
       {
        "op": "set",
@@ -3760,95 +2977,167 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:envelope/profile_location_x.length.f1_0_1|f:hole:1:line:1",
+   "id": "p:extension_through_feature:d:f:section_recess:f156/seat_location.location.x|f:hole:f185:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 223.107 crosses the \u23006.147 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:f156/seat_location.location.x",
+    "f:hole:f185"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:section_recess:f156~1seat_location.location.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A1"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 223.107 dimension below the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 223.107 crosses the \u23005.791 hole. [extension_through_feature].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:section_recess:f156~1seat_location.location.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A1"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:section_recess:f156/seat_location.location.x|f:hole:f187:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 223.107 crosses the \u23006.147 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:f156/seat_location.location.x",
+    "f:hole:f187"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:section_recess:f156/seat_location.location.z|f:hole:f177:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 46.545 crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:f156/seat_location.location.z",
+    "f:hole:f177"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:section_recess:f156/seat_location.location.z|f:hole:f179:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 46.545 crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:f156/seat_location.location.z",
+    "f:hole:f179"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:section_recess:f156/seat_location.location.z|f:hole:f231:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 46.545 crosses the \u230030.559 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:section_recess:f156/seat_location.location.z",
+    "f:hole:f231"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:envelope/profile_location_x.length.f1_0_1|f:hole:f127:line:1",
    "impact": "advisory",
    "message": "The second extension line of 2\u00d7 12.827 crosses the \u23006.032 hole.",
    "severity": "warning",
    "subjects": [
     "d:envelope/profile_location_x.length.f1_0_1",
-    "f:hole:1"
+    "f:hole:f127"
    ]
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1profile_location_y.length.f1_2_3/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 2\u00d7 11.938 dimension to the right of the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 157.702 runs through the label of 2\u00d7 11.938. [annotation_ink_overlap] The leader of 4\u00d7 C21.075 crosses a line of 2\u00d7 11.938. [annotation_leader_crossing] The second extension line of 2\u00d7 11.938 crosses the \u23006.032 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1profile_location_y.length.f1_2_3/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:envelope/profile_location_y.length.f1_2_3|f:hole:1:line:1",
+   "id": "p:extension_through_feature:d:envelope/profile_location_y.length.f1_2_3|f:hole:f127:line:1",
    "impact": "advisory",
    "message": "The second extension line of 2\u00d7 11.938 crosses the \u23006.032 hole.",
    "severity": "warning",
    "subjects": [
     "d:envelope/profile_location_y.length.f1_2_3",
-    "f:hole:1"
+    "f:hole:f127"
+   ]
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.profile_surface:f15,16,217,218,219,220,221,222,223,224,225,226:ref=D,J,H:mod=all_around|f:slot:f117:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 0.381 D J H crosses the 192.21 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:f15,16,217,218,219,220,221,222,223,224,225,226:ref=D,J,H:mod=all_around",
+    "f:slot:f117"
    ]
   },
   {
@@ -3876,150 +3165,150 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:1/seat_location.location.x:d:f:section_recess:1/seat_location.location.x",
+   "id": "p:nominal_rounded:d:f:section_recess:f156/seat_location.location.x:d:f:section_recess:f156/seat_location.location.x",
    "impact": "advisory",
    "message": "The dimension \"223.107\" has modelled nominal 223.10725 but prints 223.107 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:section_recess:1/seat_location.location.x"
+    "d:f:section_recess:f156/seat_location.location.x"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:1/seat_location.location.x:d:f:section_recess:2/seat_location.location.x",
+   "id": "p:nominal_rounded:d:f:section_recess:f156/seat_location.location.x:d:f:section_recess:f222/seat_location.location.x",
    "impact": "advisory",
    "message": "The dimension \"223.107\" has modelled nominal 223.10725 but prints 223.107 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:section_recess:1/seat_location.location.x"
+    "d:f:section_recess:f156/seat_location.location.x"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:1/seat_location.location.y:d:f:section_recess:1/seat_location.location.y",
+   "id": "p:nominal_rounded:d:f:section_recess:f156/seat_location.location.y:d:f:section_recess:f156/seat_location.location.y",
    "impact": "advisory",
    "message": "The dimension \"64.992\" has modelled nominal 64.99225 but prints 64.992 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:section_recess:1/seat_location.location.y"
+    "d:f:section_recess:f156/seat_location.location.y"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:1/seat_location.location.z:d:f:section_recess:1/seat_location.location.z",
+   "id": "p:nominal_rounded:d:f:section_recess:f156/seat_location.location.z:d:f:section_recess:f156/seat_location.location.z",
    "impact": "advisory",
    "message": "The dimension \"46.545\" has modelled nominal 46.5455 but prints 46.545 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:section_recess:1/seat_location.location.z"
+    "d:f:section_recess:f156/seat_location.location.z"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:1/seat_location.location.z:d:f:section_recess:2/seat_location.location.z",
+   "id": "p:nominal_rounded:d:f:section_recess:f156/seat_location.location.z:d:f:section_recess:f222/seat_location.location.z",
    "impact": "advisory",
    "message": "The dimension \"46.545\" has modelled nominal 46.5455 but prints 46.545 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:section_recess:1/seat_location.location.z"
+    "d:f:section_recess:f156/seat_location.location.z"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:2/seat_location.location.y:d:f:section_recess:2/seat_location.location.y",
+   "id": "p:nominal_rounded:d:f:section_recess:f222/seat_location.location.y:d:f:section_recess:f222/seat_location.location.y",
    "impact": "advisory",
    "message": "The dimension \"157.702\" has modelled nominal 157.70225 but prints 157.702 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:section_recess:2/seat_location.location.y"
+    "d:f:section_recess:f222/seat_location.location.y"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:6/channel_width.length:d:f:section_recess:5/channel_width.length",
+   "id": "p:nominal_rounded:d:f:section_recess:f252_1/channel_width.length:d:f:section_recess:f252_0/channel_width.length",
    "impact": "advisory",
    "message": "The dimension \"2\u00d7 3.103\" has modelled nominal 3.1032 but prints 3.103 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:section_recess:6/channel_width.length"
+    "d:f:section_recess:f252_1/channel_width.length"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:section_recess:6/channel_width.length:d:f:section_recess:6/channel_width.length",
+   "id": "p:nominal_rounded:d:f:section_recess:f252_1/channel_width.length:d:f:section_recess:f252_1/channel_width.length",
    "impact": "advisory",
    "message": "The dimension \"2\u00d7 3.103\" has modelled nominal 3.1034 but prints 3.103 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:section_recess:6/channel_width.length"
+    "d:f:section_recess:f252_1/channel_width.length"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:slot:1/location_slot.length:d:f:slot:1/location_slot.length",
+   "id": "p:nominal_rounded:d:f:slot:f117/location_slot.length:d:f:slot:f117/location_slot.length",
    "impact": "advisory",
    "message": "The dimension \"36.532\" has modelled nominal 36.53225 but prints 36.532 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:slot:1/location_slot.length"
+    "d:f:slot:f117/location_slot.length"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:slot:2/location_slot.length:d:f:slot:2/location_slot.length",
+   "id": "p:nominal_rounded:d:f:slot:f152/location_slot.length:d:f:slot:f152/location_slot.length",
    "impact": "advisory",
    "message": "The dimension \"49.117\" has modelled nominal 49.11725 but prints 49.117 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:slot:2/location_slot.length"
+    "d:f:slot:f152/location_slot.length"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:slot:2/location_slot_across.length:d:f:slot:2/location_slot_across.length",
+   "id": "p:nominal_rounded:d:f:slot:f152/location_slot_across.length:d:f:slot:f152/location_slot_across.length",
    "impact": "advisory",
    "message": "The dimension \"215.487\" has modelled nominal 215.48725 but prints 215.487 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:slot:2/location_slot_across.length"
+    "d:f:slot:f152/location_slot_across.length"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:slot:2/location_slot_across.length:d:f:slot:3/location_slot_across.length",
+   "id": "p:nominal_rounded:d:f:slot:f152/location_slot_across.length:d:f:slot:f220/location_slot_across.length",
    "impact": "advisory",
    "message": "The dimension \"215.487\" has modelled nominal 215.48725 but prints 215.487 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:slot:2/location_slot_across.length"
+    "d:f:slot:f152/location_slot_across.length"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:slot:3/location_slot.length:d:f:slot:3/location_slot.length",
+   "id": "p:nominal_rounded:d:f:slot:f220/location_slot.length:d:f:slot:f220/location_slot.length",
    "impact": "advisory",
    "message": "The dimension \"141.827\" has modelled nominal 141.82725 but prints 141.827 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:slot:3/location_slot.length"
+    "d:f:slot:f220/location_slot.length"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:1/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f127/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"D1 \u23006.032 THRU 12.922 12.922 0 / +Z\" has modelled nominal 6.0325 but prints 6.032 at the default three-place limit.",
    "severity": "info",
@@ -4030,7 +3319,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:1/location.length.x",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f127/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"D1 \u23006.032 THRU 12.922 12.922 0 / +Z\" has modelled nominal 12.92225 but prints 12.922 at the default three-place limit.",
    "severity": "info",
@@ -4041,7 +3330,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:1/location.length.y",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f127/location.length.y",
    "impact": "advisory",
    "message": "The dimension \"D1 \u23006.032 THRU 12.922 12.922 0 / +Z\" has modelled nominal 12.92225 but prints 12.922 at the default three-place limit.",
    "severity": "info",
@@ -4052,271 +3341,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:10/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:10/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 186.02325 but prints 186.023 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:10/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 136.74725 but prints 136.747 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:11/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:11/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 49.37125 but prints 49.371 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:11/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 85.94725 but prints 85.947 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:12/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:12/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 49.37125 but prints 49.371 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:12/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 136.74725 but prints 136.747 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:13/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:14/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:15/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 265.01725 but prints 265.017 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:15/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 90.39225 but prints 90.392 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:16/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 265.01725 but prints 265.017 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:16/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 33.24225 but prints 33.242 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:17/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z\" has modelled nominal 5.7912 but prints 5.791 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:17/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 225.64725 but prints 225.647 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:17/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 136.74725 but prints 136.747 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:18/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z\" has modelled nominal 5.7912 but prints 5.791 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:18/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 225.64725 but prints 225.647 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:18/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 44.03725 but prints 44.037 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:19/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z\" has modelled nominal 6.1468 but prints 6.147 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:19/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 225.64725 but prints 225.647 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:19/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 178.65725 but prints 178.657 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:2/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f129/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"D2 \u23006.032 THRU 298.672 12.922 0 / +Z\" has modelled nominal 6.0325 but prints 6.032 at the default three-place limit.",
    "severity": "info",
@@ -4327,7 +3352,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:2/location.length.x",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f129/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"D2 \u23006.032 THRU 298.672 12.922 0 / +Z\" has modelled nominal 298.67225 but prints 298.672 at the default three-place limit.",
    "severity": "info",
@@ -4338,7 +3363,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:2/location.length.y",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f129/location.length.y",
    "impact": "advisory",
    "message": "The dimension \"D2 \u23006.032 THRU 298.672 12.922 0 / +Z\" has modelled nominal 12.92225 but prints 12.922 at the default three-place limit.",
    "severity": "info",
@@ -4349,73 +3374,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:20/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z\" has modelled nominal 6.1468 but prints 6.147 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:20/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 225.64725 but prints 225.647 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:20/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 85.94725 but prints 85.947 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:21/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z\" has modelled nominal 30.5587 but prints 30.559 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:21/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z\" has modelled nominal 267.55725 but prints 267.557 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:21/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z\" has modelled nominal 174.84725 but prints 174.847 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:3/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f131/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"D3 \u23006.032 THRU 12.922 209.772 0 / +Z\" has modelled nominal 6.0325 but prints 6.032 at the default three-place limit.",
    "severity": "info",
@@ -4426,7 +3385,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:4/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f133/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"D4 \u23006.032 THRU 298.672 209.772 0 / +Z\" has modelled nominal 6.0325 but prints 6.032 at the default three-place limit.",
    "severity": "info",
@@ -4437,7 +3396,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:5/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f157/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
    "severity": "info",
@@ -4448,7 +3407,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:6/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f159/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
    "severity": "info",
@@ -4459,7 +3418,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:7/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f161/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
    "severity": "info",
@@ -4470,7 +3429,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:8/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f163/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
    "severity": "info",
@@ -4481,7 +3440,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:9/bore.diameter",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f165/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
    "severity": "info",
@@ -4492,7 +3451,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:9/location.length.x",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f165/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 186.02325 but prints 186.023 at the default three-place limit.",
    "severity": "info",
@@ -4503,7 +3462,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:9/location.length.y",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f165/location.length.y",
    "impact": "advisory",
    "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 85.94725 but prints 85.947 at the default three-place limit.",
    "severity": "info",
@@ -4514,7 +3473,337 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:2/location.length.x",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f167/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f167/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 186.02325 but prints 186.023 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f167/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 136.74725 but prints 136.747 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f169/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f169/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 49.37125 but prints 49.371 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f169/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 85.94725 but prints 85.947 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f171/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f171/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 49.37125 but prints 49.371 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f171/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 136.74725 but prints 136.747 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f173/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f175/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z\" has modelled nominal 5.4102 but prints 5.410 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f177/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 265.01725 but prints 265.017 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f177/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 90.39225 but prints 90.392 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f179/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 265.01725 but prints 265.017 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f179/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 33.24225 but prints 33.242 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f181/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z\" has modelled nominal 5.7912 but prints 5.791 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f181/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 225.64725 but prints 225.647 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f181/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 136.74725 but prints 136.747 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f183/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z\" has modelled nominal 5.7912 but prints 5.791 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f183/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 225.64725 but prints 225.647 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f183/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 44.03725 but prints 44.037 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f185/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z\" has modelled nominal 6.1468 but prints 6.147 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f185/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 225.64725 but prints 225.647 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f185/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 178.65725 but prints 178.657 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f187/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z\" has modelled nominal 6.1468 but prints 6.147 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f187/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 225.64725 but prints 225.647 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f187/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 85.94725 but prints 85.947 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f231/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z\" has modelled nominal 30.5587 but prints 30.559 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f231/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z\" has modelled nominal 267.55725 but prints 267.557 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f231/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z\" has modelled nominal 174.84725 but prints 174.847 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:f157/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 73.24725 but prints 73.247 at the default three-place limit.",
    "severity": "info",
@@ -4525,7 +3814,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:2/location.length.y",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:f157/location.length.y",
    "impact": "advisory",
    "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 166.97325 but prints 166.973 at the default three-place limit.",
    "severity": "info",
@@ -4536,7 +3825,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:3/location.length.x",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:f163/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 73.24725 but prints 73.247 at the default three-place limit.",
    "severity": "info",
@@ -4547,7 +3836,7 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:3/location.length.y",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:f163/location.length.y",
    "impact": "advisory",
    "message": "The dimension \"A1 \u230030.559 THRU 267.557 174.847 44.831 / +Z B1 \u23005.410 THRU 186.023 136.747 44.831 / +Z B2 \u23005.410 THRU 49.371 85.947 44.831 / +Z B3 \u23005.410 THRU 49.371 136.747 44.831 / +Z B4 \u23005.410 THRU 73.247 55.721 44.831 / +Z B5 \u23005.410 THRU 117.697 55.721 44.831 / +Z B6 \u23005.410 THRU 162.147 166.973 44.831 / +Z B7 \u23005.410 THRU 117.697 166.973 44.831 / +Z B8 \u23005.410 THRU 73.247 166.973 44.831 / +Z B9 \u23005.410 THRU 162.147 55.721 44.831 / +Z B10 \u23005.410 THRU 186.023 85.947 44.831 / +Z C1 \u23005.791 THRU 225.647 136.747 44.831 / +Z C2 \u23005.791 THRU 225.647 44.037 44.831 / +Z D1 \u23006.032 THRU 12.922 12.922 0 / +Z D2 \u23006.032 THRU 298.672 12.922 0 / +Z D3 \u23006.032 THRU 12.922 209.772 0 / +Z D4 \u23006.032 THRU 298.672 209.772 0 / +Z E1 \u23006.147 THRU 225.647 178.657 44.831 / +Z E2 \u23006.147 THRU 225.647 85.947 44.831 / +Z F1 \u23006.35 THRU 265.017 90.392 44.831 / +Z F2 \u23006.35 THRU 265.017 33.242 44.831 / +Z\" has modelled nominal 55.72125 but prints 55.721 at the default three-place limit.",
    "severity": "info",
@@ -4563,10 +3852,10 @@
    "message": "Grouped shallow relief radii are governed by the placed model-profile note.",
    "severity": "info",
    "subjects": [
-    "f:blend:1",
-    "f:blend:2",
-    "f:blend:3",
-    "f:fillet:95",
+    "f:blend:f240",
+    "f:blend:f248",
+    "f:blend:f251",
+    "f:fillet:f269",
     "n:f:blend:relief/profiles"
    ]
   },
@@ -4656,7 +3945,7 @@
    "group": "sheet_preference_exceeded",
    "id": "p:sheet_preference_exceeded:sheet",
    "impact": "advisory",
-   "message": "Preferred paper size exceeded: using 1 sheet(s) of A1 at 1:1. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
+   "message": "Preferred paper size exceeded: using 1 sheet(s) of A1 at 1:2. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
    "severity": "info",
    "subjects": [
     "sheet"
@@ -4665,62 +3954,33 @@
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "dimension_line",
-    "extension_line"
-   ],
-   "group": "annotation_leader_crossing:dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f133,134:t=B|d:step_level/step_height.length.h10_16",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol B crosses a line of 10.16.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f133,134:t=B",
-    "d:step_level/step_height.length.h10_16"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
+    "leader",
     "arrow"
    ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C|pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around",
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f1:ref=A|pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2313 1.016 D E.",
+   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of the feature control frame \u2313 1.524 A B C.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-    "pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around|pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.016 D E crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around",
+    "pmi:geometric_tolerance.parallelism:f1:ref=A",
     "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C"
    ]
   },
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
+    "leader",
     "arrow"
    ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around|pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C",
+   "group": "annotation_leader_crossing:arrow+leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C|pmi:geometric_tolerance.parallelism:f1:ref=A",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.016 D E crosses a line of the feature control frame \u2313 1.524 A B C.",
+   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2225 0.762 A.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212:ref=D,E:mod=all_around",
-    "pmi:geometric_tolerance.profile_surface:f2:ref=A,B,C"
+    "pmi:geometric_tolerance.profile_surface:f1:ref=A,B,C",
+    "pmi:geometric_tolerance.parallelism:f1:ref=A"
    ]
   },
   {
@@ -4755,40 +4015,98 @@
   {
    "code": "feature_not_located",
    "group": "feature_not_located:slot",
-   "id": "p:feature_not_located:f:slot:1/location.length.y",
+   "id": "p:feature_not_located:f:slot:f117/location.length.y",
    "impact": "incomplete",
    "message": "the 192.21 wide slot on y: no drawn dimension chain reaches an origin.",
    "severity": "warning",
    "subjects": [
-    "f:slot:1"
+    "f:slot:f117"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:pmi:datum.datum:f133,134:t=B|d:step_level/step_height.length.h10_16",
+   "id": "p:label_crowded:d:f:slot:f152/slot_width.length|d:f:slot:f152/slot_end_radius.radius",
    "impact": "advisory",
-   "message": "Line-work of datum feature symbol B passes less than 0.5 mm from the label of 10.16, so it touches the text.",
+   "message": "Line-work of 2\u00d7 15.24 passes less than 0.5 mm from the label of 2\u00d7 R7.62, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "pmi:datum.datum:f133,134:t=B",
-    "d:step_level/step_height.length.h10_16"
+    "d:f:slot:f152/slot_width.length",
+    "d:f:slot:f152/slot_end_radius.radius"
+   ]
+  },
+  {
+   "code": "label_crowded",
+   "group": "label_crowded",
+   "id": "p:label_crowded:d:f:section_recess:f252_1/channel_width.length|d:f:section_recess:f156/seat_location.location.z",
+   "impact": "advisory",
+   "message": "Line-work of 2\u00d7 3.103 passes less than 0.5 mm from the label of 46.545, so it touches the text.",
+   "severity": "info",
+   "subjects": [
+    "d:f:section_recess:f252_1/channel_width.length",
+    "d:f:section_recess:f156/seat_location.location.z"
    ]
   },
   {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
-   "id": "p:extension_off_centreline:d:envelope/profile_location_x.length.f1_0_1|ink:v:plan:f:hole:1",
+   "id": "p:extension_off_centreline:d:envelope/profile_location_x.length.f1_0_1|ink:v:plan:f:hole:f127",
    "impact": "readability",
-   "message": "An extension line of 2\u00d7 12.827 runs 0.10 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "message": "An extension line of 2\u00d7 12.827 runs 0.05 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
     "d:envelope/profile_location_x.length.f1_0_1",
-    "f:hole:1"
+    "f:hole:f127"
+   ]
+  },
+  {
+   "code": "extension_off_centreline",
+   "group": "extension_off_centreline",
+   "id": "p:extension_off_centreline:d:envelope/profile_location_y.length.f1_2_3|ink:v:plan:f:hole:f127",
+   "impact": "readability",
+   "message": "An extension line of 2\u00d7 11.938 runs 0.49 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "severity": "warning",
+   "subjects": [
+    "d:envelope/profile_location_y.length.f1_2_3",
+    "f:hole:f127"
    ]
   }
  ],
  "structural": [
+  {
+   "annotation": "pmi:datum.datum:f131,132:t=C",
+   "at": [
+    95.20671249927389,
+    183.86537499974835
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f131,132:t=C",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f131,132:t=C is 28.2 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
+  {
+   "annotation": "pmi:datum.datum:f133,134:t=B",
+   "at": [
+    316.2309624998709,
+    182.8493749997443
+   ],
+   "code": "datum_leader_remote",
+   "fix": "set the datum symbol closer to its surface",
+   "fix_description": "Set the datum symbol closer to its surface.",
+   "group": "datum_leader_remote",
+   "id": "l:datum_leader_remote:pmi:datum.datum:f133,134:t=B",
+   "impact": "readability",
+   "message": "datum leader pmi:datum.datum:f133,134:t=B is 47.0 mm from its surface",
+   "scope": "sheet",
+   "severity": "warning",
+   "subjects": []
+  },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
@@ -4801,20 +4119,20 @@
  ],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:arrow": 3,
-   "annotation_leader_crossing:arrow+leader": 2,
-   "annotation_leader_crossing:dimension_line": 2,
-   "annotation_leader_crossing:dimension_line+extension_line": 1,
-   "annotation_leader_crossing:extension_line": 1,
+   "annotation_leader_crossing:arrow+leader": 3,
+   "annotation_leader_crossing:dimension_line": 3,
+   "annotation_leader_crossing:leader": 1,
    "channel_requirement_unverifiable:thickness.length": 2,
+   "datum_leader_remote": 2,
    "datum_origin_unusable": 6,
    "dimensions_not_ported:section_recess": 2,
-   "extension_off_centreline": 1,
-   "extension_through_feature": 9,
+   "extension_off_centreline": 2,
+   "extension_through_feature": 11,
    "feature_not_located:slot": 2,
    "frame_datum_not_drawn:geometric_tolerance": 2,
    "general_tolerance_missing": 1,
-   "label_crowded": 1,
+   "label_crowded": 2,
+   "leader_through_feature": 2,
    "nominal_rounded": 65,
    "pmi_not_extracted": 8,
    "pmi_not_extracted:datum": 2,
@@ -4841,8 +4159,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 147,
-    "groups": 10
+    "findings": 149,
+    "groups": 9
    },
    "decision": {
     "findings": 1,
@@ -4853,8 +4171,8 @@
     "groups": 22
    },
    "readability": {
-    "findings": 11,
-    "groups": 6
+    "findings": 15,
+    "groups": 7
    }
   }
  }

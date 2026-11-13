@@ -3,37 +3,37 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f10",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f11",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f12",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:4/bore.diameter"
+     "d:f:hole:f13/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f13",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f14",
     "state": "supported"
    }
   ],

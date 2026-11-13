@@ -3,72 +3,72 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:10/bore.diameter"
+     "d:f:hole:f95/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f0",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:2/bore.diameter"
+     "d:f:hole:f50/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f50",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:3/bore.diameter"
+     "d:f:hole:f52/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f52",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:4/bore.diameter"
+     "d:f:hole:f71/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f71",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:4/bore.diameter"
+     "d:f:hole:f71/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f73",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:6/bore.diameter"
+     "d:f:hole:f75/bore.diameter"
     ],
-    "feature": "f:hole:6",
+    "feature": "f:hole:f75",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:7/bore.diameter"
+     "d:f:hole:f89/bore.diameter"
     ],
-    "feature": "f:hole:7",
+    "feature": "f:hole:f89",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:8/bore.diameter"
+     "d:f:hole:f91/bore.diameter"
     ],
-    "feature": "f:hole:8",
+    "feature": "f:hole:f91",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:10/bore.diameter"
+     "d:f:hole:f95/bore.diameter"
     ],
-    "feature": "f:hole:9",
+    "feature": "f:hole:f93",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:10/bore.diameter"
+     "d:f:hole:f95/bore.diameter"
     ],
-    "feature": "f:hole:10",
+    "feature": "f:hole:f95",
     "state": "supported"
    }
   ],
@@ -117,26 +117,26 @@
    "subjects": []
   },
   {
-   "annotation": "d:step_level/step_height.length.h50",
+   "annotation": "d:step_level/step_height.length.f2",
    "code": "closed_dimension_chain",
-   "fix": "State the step height length h50 of the feature in a view that shows its true size or location.",
-   "fix_description": "State the step height length h50 of the feature in a view that shows its true size or location.",
+   "fix": "State the step height length f2 of the feature in a view that shows its true size or location.",
+   "fix_description": "State the step height length f2 of the feature in a view that shows its true size or location.",
    "group": "closed_dimension_chain",
-   "id": "l:closed_dimension_chain:step_level/step_height.length.h50",
+   "id": "l:closed_dimension_chain:step_level/step_height.length.f2",
    "impact": "advisory",
    "measurements": [
-    "step_level/step_height.length.h50"
+    "step_level/step_height.length.f2"
    ],
    "message": "A dimension chain and its total are all stated; omit a redundant member or show it in parentheses as reference.",
    "related": [
-    "d:step_level/step_height.length.h50",
+    "d:step_level/step_height.length.f2",
     "d:envelope/height.length",
-    "d:f:polygonal_boss:1/boss_height.length"
+    "d:f:polygonal_boss:f104/boss_height.length"
    ],
    "requirements": [
     {
      "feature": "step_level",
-     "parameter": "step_height.length.h50"
+     "parameter": "step_height.length.f2"
     }
    ],
    "scope": "sheet",
@@ -146,60 +146,60 @@
    ]
   },
   {
-   "annotation": "d:f:fillet:32/fillet.radius",
+   "annotation": "d:f:fillet:f100/fillet.radius",
    "at": [
     138.2928,
-    100.29281
+    98.29281
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:32/fillet.radius",
+   "id": "l:radius_leader_not_radial:d:f:fillet:f100/fillet.radius",
    "impact": "readability",
    "measurements": [
-    "f:fillet:30/fillet.radius",
-    "f:fillet:31/fillet.radius",
-    "f:fillet:32/fillet.radius",
-    "f:fillet:33/fillet.radius",
-    "f:fillet:34/fillet.radius",
-    "f:fillet:35/fillet.radius"
+    "f:fillet:f98/fillet.radius",
+    "f:fillet:f99/fillet.radius",
+    "f:fillet:f100/fillet.radius",
+    "f:fillet:f101/fillet.radius",
+    "f:fillet:f102/fillet.radius",
+    "f:fillet:f103/fillet.radius"
    ],
-   "message": "d:f:fillet:32/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:fillet:f100/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:fillet:30",
-    "f:fillet:31",
-    "f:fillet:32",
-    "f:fillet:33",
-    "f:fillet:34",
-    "f:fillet:35"
+    "f:fillet:f98",
+    "f:fillet:f99",
+    "f:fillet:f100",
+    "f:fillet:f101",
+    "f:fillet:f102",
+    "f:fillet:f103"
    ],
    "view": "v:front"
   },
   {
-   "annotation": "d:f:fillet:4/fillet.radius",
+   "annotation": "d:f:fillet:f9/fillet.radius",
    "at": [
     176.5356,
-    170.5356
+    170.0356
    ],
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:4/fillet.radius",
+   "id": "l:radius_leader_not_radial:d:f:fillet:f9/fillet.radius",
    "impact": "readability",
    "measurements": [
-    "f:fillet:4/fillet.radius",
-    "f:fillet:7/fillet.radius",
-    "f:fillet:11/fillet.radius",
-    "f:fillet:16/fillet.radius"
+    "f:fillet:f9/fillet.radius",
+    "f:fillet:f19/fillet.radius",
+    "f:fillet:f29/fillet.radius",
+    "f:fillet:f43/fillet.radius"
    ],
-   "message": "d:f:fillet:4/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:fillet:f9/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:fillet:4",
-    "f:fillet:7",
-    "f:fillet:11",
-    "f:fillet:16"
+    "f:fillet:f9",
+    "f:fillet:f19",
+    "f:fillet:f29",
+    "f:fillet:f43"
    ],
    "view": "v:plan"
   }
@@ -244,7 +244,7 @@
   {
    "code": "location_on_datum",
    "group": "location_on_datum",
-   "id": "p:location_on_datum:d:step_level/step_height.length.h100",
+   "id": "p:location_on_datum:d:step_level/step_height.length.f97",
    "impact": "advisory",
    "message": "A feature lies on the selected datum; its location has no nonzero distance to draw.",
    "severity": "info",
@@ -352,68 +352,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:polygonal_boss:1~1boss_height.length/place",
-     "value": {
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:polygonal_boss:1~1boss_height.length/place",
-       "value": {
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -432,110 +380,13 @@
     }
    ],
    "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f97:t=A|d:f:polygonal_boss:1/boss_height.length",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f97:t=A|d:f:polygonal_boss:f104/boss_height.length",
    "impact": "advisory",
    "message": "The leader of datum feature symbol A crosses a line of 50.",
    "severity": "warning",
    "subjects": [
     "pmi:datum.datum:f97:t=A",
-    "d:f:polygonal_boss:1/boss_height.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
-     "value": {
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
-       "value": {
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f37,41:ref=A,B,C|d:envelope/depth.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 0.75 A B C crosses a line of 450.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f37,41:ref=A,B,C",
-    "d:envelope/depth.length"
+    "d:f:polygonal_boss:f104/boss_height.length"
    ]
   },
   {
@@ -546,68 +397,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:envelope~1notch_location_x.length.f97_e92_e96/place",
-     "value": {
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1notch_location_x.length.f97_e92_e96/place",
-       "value": {
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -643,68 +442,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:envelope~1depth.length/place",
-     "value": {
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the dimension above the side view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:envelope~1depth.length/place",
-       "value": {
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -737,72 +484,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:2~1location.length.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:2~1location.length.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -821,111 +512,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:hole:10:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 25 crosses the \u230025 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:2/location.length.z",
-    "f:hole:10"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:2~1location.length.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:2~1location.length.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:10"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:hole:4:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f50/location.length.z|f:hole:f71:line:1",
    "impact": "advisory",
    "message": "The second extension line of 25 crosses the \u230035 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:2/location.length.z",
-    "f:hole:4"
+    "d:f:hole:f50/location.length.z",
+    "f:hole:f71"
    ]
   },
   {
@@ -933,72 +526,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:2~1location.length.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:2~1location.length.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -1017,13 +554,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:hole:6:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f50/location.length.z|f:hole:f75:line:1",
    "impact": "advisory",
    "message": "The second extension line of 25 crosses the \u230035 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:2/location.length.z",
-    "f:hole:6"
+    "d:f:hole:f50/location.length.z",
+    "f:hole:f75"
    ]
   },
   {
@@ -1031,72 +568,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:2~1location.length.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:2~1location.length.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -1115,13 +596,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:hole:8:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f50/location.length.z|f:hole:f91:line:1",
    "impact": "advisory",
    "message": "The second extension line of 25 crosses the \u230025 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:2/location.length.z",
-    "f:hole:8"
+    "d:f:hole:f50/location.length.z",
+    "f:hole:f91"
    ]
   },
   {
@@ -1129,72 +610,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:2~1location.length.z/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 25 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: A line of 25 runs through the label of the feature control frame \u2313 0.5 A. [annotation_ink_overlap] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230035 hole. [extension_through_feature] The second extension line of 25 crosses the \u230025 hole. [extension_through_feature] The second extension line of 25 crosses the 40 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:2~1location.length.z/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -1213,13 +638,55 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:2/location.length.z|f:slot:2:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f50/location.length.z|f:hole:f95:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 25 crosses the \u230025 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:f50/location.length.z",
+    "f:hole:f95"
+   ]
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:10"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:10"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:f50/location.length.z|f:slot:f82:line:1",
    "impact": "advisory",
    "message": "The second extension line of 25 crosses the 50 wide slot.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:2/location.length.z",
-    "f:slot:2"
+    "d:f:hole:f50/location.length.z",
+    "f:slot:f82"
    ]
   },
   {
@@ -1227,72 +694,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 225 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: A line of 225 runs through the label of 90. [annotation_ink_overlap] A line of 225 runs through the label of 7\u00d7 R50. [annotation_ink_overlap] The second extension line of 225 crosses the 40 wide slot. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:1~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -1311,13 +722,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:1/location.length.y|f:slot:2:line:1",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f0/location.length.y|f:slot:f82:line:1",
    "impact": "advisory",
    "message": "The second extension line of 225 crosses the 50 wide slot.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:1/location.length.y",
-    "f:slot:2"
+    "d:f:hole_pattern:f0/location.length.y",
+    "f:slot:f82"
    ]
   },
   {
@@ -1325,72 +736,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:slot:2~1slot_length.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 100 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: A line of 100 runs through the label of 150. [annotation_ink_overlap] The leader of 18\u00d7 R10 crosses a line of 100. [annotation_leader_crossing] The leader of 4\u00d7 R25 crosses a line of 100. [annotation_leader_crossing] The second extension line of 100 crosses the \u230035 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:2~1slot_length.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -1409,13 +764,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:2/slot_length.length|f:hole:4:line:1",
+   "id": "p:extension_through_feature:d:f:slot:f82/slot_length.length|f:hole:f71:line:1",
    "impact": "advisory",
    "message": "The second extension line of 100 crosses the \u230035 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:slot:2/slot_length.length",
-    "f:hole:4"
+    "d:f:slot:f82/slot_length.length",
+    "f:hole:f71"
    ]
   },
   {
@@ -1423,72 +778,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:authored:ear_right/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:5"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:10"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 150 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 100 runs through the label of 150. [annotation_ink_overlap] The leader of C50 crosses a line of 150. [annotation_leader_crossing] The leader of 18\u00d7 R10 crosses a line of 150. [annotation_leader_crossing] The leader of 2\u00d7 \u230035 \u00b10.2 THRU crosses a line of 150. [annotation_leader_crossing] A line of 150 runs through the label of 2\u00d7 \u230035 \u00b10.2 THRU. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:authored:ear_right/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:5"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:10. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -1507,37 +806,37 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:authored:ear_right|f:slot:2:line:1",
+   "id": "p:extension_through_feature:d:authored:ear_right|f:slot:f82:line:1",
    "impact": "advisory",
    "message": "The second extension line of 150 crosses the 50 wide slot.",
    "severity": "warning",
    "subjects": [
     "d:authored:ear_right",
-    "f:slot:2"
+    "f:slot:f82"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:envelope/notch_location_x.length.f97_e104_e108|d:f:hole:2/bore.diameter",
+   "id": "p:label_crowded:d:envelope/notch_location_x.length.f97_e104_e108|d:f:hole:f50/bore.diameter",
    "impact": "advisory",
    "message": "Line-work of 510 passes less than 0.5 mm from the label of \u230020 +0.1/-0.05 \u21a7 45, so it touches the text.",
    "severity": "info",
    "subjects": [
     "d:envelope/notch_location_x.length.f97_e104_e108",
-    "d:f:hole:2/bore.diameter"
+    "d:f:hole:f50/bore.diameter"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:1/location.length.y|d:f:hole_pattern:2/grid_pitch.length.row",
+   "id": "p:label_crowded:d:f:hole_pattern:f0/location.length.y|d:f:hole_pattern:f71/grid_pitch.length.row",
    "impact": "advisory",
    "message": "Line-work of 225 passes less than 0.5 mm from the label of 350, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "d:f:hole_pattern:1/location.length.y",
-    "d:f:hole_pattern:2/grid_pitch.length.row"
+    "d:f:hole_pattern:f0/location.length.y",
+    "d:f:hole_pattern:f71/grid_pitch.length.row"
    ]
   },
   {
@@ -1588,12 +887,12 @@
  ],
  "structural": [
   {
-   "annotation": "d:f:slot:1/slot_width.length",
+   "annotation": "d:f:slot:f77/slot_width.length",
    "code": "view_annotation_inside_extents",
    "group": "view_annotation_inside_extents",
-   "id": "l:view_annotation_inside_extents:v:plan:d:f:slot:1/slot_width.length",
+   "id": "l:view_annotation_inside_extents:v:plan:d:f:slot:f77/slot_width.length",
    "impact": "advisory",
-   "message": "label of annotation '40' lies inside view 'plan' extents [x=48.0\u2013208.0, y=152.0\u2013242.0] over a blank region \u2014 legitimate for callouts on large faces",
+   "message": "label of annotation '40' lies inside view 'plan' extents [x=48.0\u2013208.0, y=151.5\u2013241.5] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
    "view": "v:plan"
@@ -1604,7 +903,7 @@
    "group": "view_annotation_inside_extents",
    "id": "l:view_annotation_inside_extents:v:plan:pmi:datum.datum:f89,90:t=B",
    "impact": "advisory",
-   "message": "label of annotation 'B' lies inside view 'plan' extents [x=48.0\u2013208.0, y=152.0\u2013242.0] over a blank region \u2014 legitimate for callouts on large faces",
+   "message": "label of annotation 'B' lies inside view 'plan' extents [x=48.0\u2013208.0, y=151.5\u2013241.5] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
    "view": "v:plan"
@@ -1612,7 +911,7 @@
  ],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:dimension_line": 2,
+   "annotation_leader_crossing:dimension_line": 1,
    "annotation_leader_crossing:extension_line": 2,
    "closed_dimension_chain": 1,
    "datum_origin_unusable": 2,
@@ -1640,7 +939,7 @@
     "groups": 0
    },
    "readability": {
-    "findings": 5,
+    "findings": 4,
     "groups": 3
    }
   }

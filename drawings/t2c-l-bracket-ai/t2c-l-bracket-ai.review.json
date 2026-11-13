@@ -3,30 +3,30 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f7/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f7",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f7/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f9",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:3/bore.diameter"
+     "d:f:hole:f19/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f19",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:3/bore.diameter"
+     "d:f:hole:f19/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f20",
     "state": "supported"
    }
   ],
@@ -55,19 +55,19 @@
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:fillet:1/fillet.radius",
+   "id": "p:leader_to_hidden_edge:d:f:fillet:f2/fillet.radius",
    "impact": "readability",
    "message": "The leader of R2 ends on an edge the side view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:1/fillet.radius",
+    "d:f:fillet:f2/fillet.radius",
     "v:side"
    ]
   },
   {
    "code": "hole_exit_obstructed",
    "group": "hole_exit_obstructed",
-   "id": "p:hole_exit_obstructed:f:hole:1:0",
+   "id": "p:hole_exit_obstructed:f:hole:f7:0",
    "impact": "advisory",
    "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
    "refs": [
@@ -75,13 +75,13 @@
    ],
    "severity": "warning",
    "subjects": [
-    "f:hole:1"
+    "f:hole:f7"
    ]
   },
   {
    "code": "hole_exit_obstructed",
    "group": "hole_exit_obstructed",
-   "id": "p:hole_exit_obstructed:f:hole:2:0",
+   "id": "p:hole_exit_obstructed:f:hole:f9:0",
    "impact": "advisory",
    "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
    "refs": [
@@ -89,13 +89,13 @@
    ],
    "severity": "warning",
    "subjects": [
-    "f:hole:2"
+    "f:hole:f9"
    ]
   },
   {
    "code": "hole_exit_obstructed",
    "group": "hole_exit_obstructed",
-   "id": "p:hole_exit_obstructed:f:hole:3:0",
+   "id": "p:hole_exit_obstructed:f:hole:f19:0",
    "impact": "advisory",
    "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
    "refs": [
@@ -103,13 +103,13 @@
    ],
    "severity": "warning",
    "subjects": [
-    "f:hole:3"
+    "f:hole:f19"
    ]
   },
   {
    "code": "hole_exit_obstructed",
    "group": "hole_exit_obstructed",
-   "id": "p:hole_exit_obstructed:f:hole:4:0",
+   "id": "p:hole_exit_obstructed:f:hole:f20:0",
    "impact": "advisory",
    "message": "The \u23006 hole: exit about 29% covered by an adjacent face; drawn THRU \u2014 check the exit is clear.",
    "refs": [
@@ -117,35 +117,35 @@
    ],
    "severity": "warning",
    "subjects": [
-    "f:hole:4"
+    "f:hole:f20"
    ]
   },
   {
    "code": "placement_displaced",
    "group": "placement_displaced",
-   "id": "p:placement_displaced:d:f:hole:4/location.length.x",
+   "id": "p:placement_displaced:d:f:hole:f20/location.length.x",
    "impact": "decision",
    "message": "The requested place of 65 was displaced in lane by the final collision and sheet-boundary layout. The drawing is retained at its recorded position; adjust the placement or release the conflicting constraint.",
    "refs": [
-    "dimensions/d:f:hole:4~1location.length.x/place"
+    "dimensions/d:f:hole:f20~1location.length.x/place"
    ],
    "severity": "warning",
    "subjects": [
-    "d:f:hole:4/location.length.x"
+    "d:f:hole:f20/location.length.x"
    ]
   },
   {
    "code": "placement_displaced",
    "group": "placement_displaced",
-   "id": "p:placement_displaced:d:f:hole:2/location.length.x",
+   "id": "p:placement_displaced:d:f:hole:f9/location.length.x",
    "impact": "decision",
    "message": "The requested place of 65 was displaced in lane by the final collision and sheet-boundary layout. The drawing is retained at its recorded position; adjust the placement or release the conflicting constraint.",
    "refs": [
-    "dimensions/d:f:hole:2~1location.length.x/place"
+    "dimensions/d:f:hole:f9~1location.length.x/place"
    ],
    "severity": "warning",
    "subjects": [
-    "d:f:hole:2/location.length.x"
+    "d:f:hole:f9/location.length.x"
    ]
   }
  ],
