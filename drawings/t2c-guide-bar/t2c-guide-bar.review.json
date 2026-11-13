@@ -3,16 +3,16 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f2/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f2",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f2/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f3",
     "state": "supported"
    }
   ],
@@ -72,13 +72,13 @@
   {
    "code": "leader_along_centreline",
    "group": "leader_along_centreline",
-   "id": "p:leader_along_centreline:d:f:chamfer:1/chamfer.length|ink:v:front:f:turned_step:1",
+   "id": "p:leader_along_centreline:d:f:chamfer:f1/chamfer.length|ink:v:front:f:turned_step:f0",
    "impact": "readability",
    "message": "The leader of C1 runs along a centre line, so the two read as one line.",
    "severity": "warning",
    "subjects": [
-    "d:f:chamfer:1/chamfer.length",
-    "f:turned_step:1"
+    "d:f:chamfer:f1/chamfer.length",
+    "f:turned_step:f0"
    ]
   }
  ],

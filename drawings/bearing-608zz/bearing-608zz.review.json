@@ -3,9 +3,9 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f10/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f10",
     "state": "supported"
    }
   ],
@@ -15,7 +15,7 @@
  },
  "lint": [
   {
-   "annotation": "d:f:chamfer:2/chamfer.length",
+   "annotation": "d:f:chamfer:f5/chamfer.length",
    "at": [
     43.25,
     56.75001
@@ -23,17 +23,17 @@
    "code": "chamfer_leader_target_unverifiable",
    "evidence": "no coaxial turned band holds its station",
    "group": "chamfer_leader_target_unverifiable",
-   "id": "l:chamfer_leader_target_unverifiable:d:f:chamfer:2/chamfer.length",
+   "id": "l:chamfer_leader_target_unverifiable:d:f:chamfer:f5/chamfer.length",
    "impact": "advisory",
    "measurements": [
-    "f:chamfer:1/chamfer.length",
-    "f:chamfer:2/chamfer.length"
+    "f:chamfer:f1/chamfer.length",
+    "f:chamfer:f5/chamfer.length"
    ],
-   "message": "d:f:chamfer:2/chamfer.length: the chamfer leader's target cannot be verified in this view",
+   "message": "d:f:chamfer:f5/chamfer.length: the chamfer leader's target cannot be verified in this view",
    "severity": "info",
    "subjects": [
-    "f:chamfer:1",
-    "f:chamfer:2"
+    "f:chamfer:f1",
+    "f:chamfer:f5"
    ],
    "view": "v:front"
   }
@@ -77,45 +77,45 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:face_groove:1/annular_groove_outer.diameter:d:f:face_groove:1/face_groove_inner_wall_angle.angle",
+   "id": "p:nominal_rounded:d:f:face_groove:f2/annular_groove_outer.diameter:d:f:face_groove:f2/face_groove_inner_wall_angle.angle",
    "impact": "advisory",
    "message": "The dimension \"2\u00d7 \u230018.5 \u00d7 \u230013 \u21a7 0.25\\nOUTER 45.000\u00b0 INNER 45.000\u00b0\" has modelled nominal 44.999972 but prints 45.000 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:face_groove:1/annular_groove_outer.diameter"
+    "d:f:face_groove:f2/annular_groove_outer.diameter"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:face_groove:1/annular_groove_outer.diameter:d:f:face_groove:1/face_groove_outer_wall_angle.angle",
+   "id": "p:nominal_rounded:d:f:face_groove:f2/annular_groove_outer.diameter:d:f:face_groove:f2/face_groove_outer_wall_angle.angle",
    "impact": "advisory",
    "message": "The dimension \"2\u00d7 \u230018.5 \u00d7 \u230013 \u21a7 0.25\\nOUTER 45.000\u00b0 INNER 45.000\u00b0\" has modelled nominal 44.999972 but prints 45.000 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:face_groove:1/annular_groove_outer.diameter"
+    "d:f:face_groove:f2/annular_groove_outer.diameter"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:face_groove:1/annular_groove_outer.diameter:d:f:face_groove:2/face_groove_inner_wall_angle.angle",
+   "id": "p:nominal_rounded:d:f:face_groove:f2/annular_groove_outer.diameter:d:f:face_groove:f9/face_groove_inner_wall_angle.angle",
    "impact": "advisory",
    "message": "The dimension \"2\u00d7 \u230018.5 \u00d7 \u230013 \u21a7 0.25\\nOUTER 45.000\u00b0 INNER 45.000\u00b0\" has modelled nominal 44.999972 but prints 45.000 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:face_groove:1/annular_groove_outer.diameter"
+    "d:f:face_groove:f2/annular_groove_outer.diameter"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:face_groove:1/annular_groove_outer.diameter:d:f:face_groove:2/face_groove_outer_wall_angle.angle",
+   "id": "p:nominal_rounded:d:f:face_groove:f2/annular_groove_outer.diameter:d:f:face_groove:f9/face_groove_outer_wall_angle.angle",
    "impact": "advisory",
    "message": "The dimension \"2\u00d7 \u230018.5 \u00d7 \u230013 \u21a7 0.25\\nOUTER 45.000\u00b0 INNER 45.000\u00b0\" has modelled nominal 44.999972 but prints 45.000 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:face_groove:1/annular_groove_outer.diameter"
+    "d:f:face_groove:f2/annular_groove_outer.diameter"
    ]
   }
  ],

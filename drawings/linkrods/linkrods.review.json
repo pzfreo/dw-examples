@@ -3,16 +3,16 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f10/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f10",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:2/bore.diameter"
+     "d:f:hole:f11/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f11",
     "state": "supported"
    }
   ],
@@ -30,7 +30,7 @@
    "message": "Unrecognised features on this part: 18 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -76,72 +76,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:step_level~1step_height.length.h1_475/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "10:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "5:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 1.475 dimension to the left of the front view, nearest the view. Trade-off: adds these findings: The second extension line of 1.475 crosses the \u23001.034 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:step_level~1step_height.length.h1_475/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "10:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 5:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -160,13 +104,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.h1_475|f:hole:2:line:1",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.f34|f:hole:f11:line:1",
    "impact": "advisory",
    "message": "The second extension line of 1.475 crosses the \u23000.440 hole.",
    "severity": "warning",
    "subjects": [
-    "d:step_level/step_height.length.h1_475",
-    "f:hole:2"
+    "d:step_level/step_height.length.f34",
+    "f:hole:f11"
    ]
   },
   {
@@ -183,45 +127,45 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:boss:1/boss.diameter:d:f:boss:1/boss.diameter",
+   "id": "p:nominal_rounded:d:f:boss:f1/boss.diameter:d:f:boss:f1/boss.diameter",
    "impact": "advisory",
    "message": "The dimension \"\u00f80.791\" has modelled nominal 0.790569 but prints 0.791 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:boss:1/boss.diameter"
+    "d:f:boss:f1/boss.diameter"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:1/bore.diameter",
+   "id": "p:nominal_rounded:d:f:hole:f10/bore.diameter:d:f:hole:f10/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"\u23001.034 THRU\" has modelled nominal 1.03447 but prints 1.034 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:1/bore.diameter"
+    "d:f:hole:f10/bore.diameter"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:2/bore.diameter:d:f:hole:2/bore.diameter",
+   "id": "p:nominal_rounded:d:f:hole:f11/bore.diameter:d:f:hole:f11/bore.diameter",
    "impact": "advisory",
    "message": "The dimension \"\u23000.440 THRU\" has modelled nominal 0.439847 but prints 0.440 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:2/bore.diameter"
+    "d:f:hole:f11/bore.diameter"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.h1_475:d:step_level/step_height.length.h1_475",
+   "id": "p:nominal_rounded:d:step_level/step_height.length.f34:d:step_level/step_height.length.f34",
    "impact": "advisory",
    "message": "The dimension \"1.475\" has modelled nominal 1.474931 but prints 1.475 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:step_level/step_height.length.h1_475"
+    "d:step_level/step_height.length.f34"
    ]
   },
   {

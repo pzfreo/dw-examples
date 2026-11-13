@@ -3,23 +3,23 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f9/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f9",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:2/bore.diameter"
+     "d:f:hole:f12/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f12",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:2/bore.diameter"
+     "d:f:hole:f12/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f13",
     "state": "supported"
    }
   ],
@@ -33,22 +33,22 @@
    "fix": "State its low end 0.001 from the part's z edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
    "fix_description": "State its low end 0.001 from the part's z edge for the slot: a linear dimension or radius callout, in the view that sees the slot's outline.",
    "group": "slot_requirement_missing:location_slot.length",
-   "id": "l:slot_requirement_missing:f:slot:1/location_slot.length",
+   "id": "l:slot_requirement_missing:f:slot:f7/location_slot.length",
    "impact": "incomplete",
    "measurements": [
-    "f:slot:1/location_slot.length"
+    "f:slot:f7/location_slot.length"
    ],
-   "message": "slot f:slot:1 1.64 \u00d7 3.38, long along (0, 0, 1): requirement location_slot.length (its low end 0.001 from the part's z edge) is not stated on the sheet",
+   "message": "slot f:slot:f7 1.64 \u00d7 3.38, long along (0, 0, 1): requirement location_slot.length (its low end 0.001 from the part's z edge) is not stated on the sheet",
    "requirements": [
     {
-     "feature": "f:slot:1",
+     "feature": "f:slot:f7",
      "parameter": "location_slot.length"
     }
    ],
    "scope": "sheet",
    "severity": "warning",
    "subjects": [
-    "f:slot:1"
+    "f:slot:f7"
    ]
   }
  ],
@@ -105,72 +105,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:2~1bore.diameter/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "5:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "2:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 2\u00d7 \u23001.5 THRU callout above the front view, nearest the view. Trade-off: adds these findings: The leader of 2\u00d7 \u23001.5 THRU crosses a line of 6.149. [annotation_leader_crossing] The leader of 2\u00d7 \u23001.5 THRU crosses a line of 2\u00d7 8.269 A/F. [annotation_leader_crossing] The leader of 2\u00d7 8.269 A/F crosses a line of 2\u00d7 \u23001.5 THRU. [annotation_leader_crossing] The leader of 2\u00d7 \u23001.5 THRU crosses the \u23009.297 hole. [leader_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:2~1bore.diameter/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "5:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -189,13 +133,13 @@
     }
    ],
    "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:2/bore.diameter|d:f:slot:1/slot_length.length",
+   "id": "p:annotation_leader_crossing:d:f:hole:f12/bore.diameter|d:f:slot:f7/slot_length.length",
    "impact": "advisory",
    "message": "The leader of 2\u00d7 \u23001.5 THRU crosses a line of 3.38.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:2/bore.diameter",
-    "d:f:slot:1/slot_length.length"
+    "d:f:hole:f12/bore.diameter",
+    "d:f:slot:f7/slot_length.length"
    ]
   },
   {
@@ -203,72 +147,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:flat:1~1flat.length/place",
-     "value": {
-      "along": "start",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "5:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "2:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 2\u00d7 8.269 A/F callout above the front view, nearest the view. Trade-off: adds these findings: The labels of 6.149 and 2\u00d7 8.269 A/F overlap. [annotation_overlap] The leader of 2\u00d7 8.269 A/F crosses a line of 6.149. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:flat:1~1flat.length/place",
-       "value": {
-        "along": "start",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "5:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -287,13 +175,13 @@
     }
    ],
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:flat:1/flat.length|f:hole:1:line:0",
+   "id": "p:leader_through_feature:d:f:flat:f0/flat.length|f:hole:f9:line:0",
    "impact": "readability",
    "message": "The leader of 2\u00d7 8.269 A/F crosses the \u23009.297 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:flat:1/flat.length",
-    "f:hole:1"
+    "d:f:flat:f0/flat.length",
+    "f:hole:f9"
    ]
   },
   {
@@ -321,100 +209,100 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:boss:1/boss.diameter:d:f:boss:1/boss.diameter",
+   "id": "p:nominal_rounded:d:f:boss:f3/boss.diameter:d:f:boss:f3/boss.diameter",
    "impact": "advisory",
    "message": "The dimension \"\u00f812.298\" has modelled nominal 12.2983 but prints 12.298 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:boss:1/boss.diameter"
+    "d:f:boss:f3/boss.diameter"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:boss:1/location.length.z:d:f:boss:1/location.length.z",
+   "id": "p:nominal_rounded:d:f:boss:f3/location.length.z:d:f:boss:f3/location.length.z",
    "impact": "advisory",
    "message": "The dimension \"8.388\" has modelled nominal 8.388235 but prints 8.388 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:boss:1/location.length.z"
+    "d:f:boss:f3/location.length.z"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:1/bore.diameter:d:f:hole:1/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"\u23009.297 THRU\" has modelled nominal 9.29666 but prints 9.297 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:1/location.length.x:d:f:hole:1/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"6.149\" has modelled nominal 6.14913 but prints 6.149 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:1/location.length.x"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:1/location.length.z:d:f:hole:1/location.length.z",
-   "impact": "advisory",
-   "message": "The dimension \"7.958\" has modelled nominal 7.957962 but prints 7.958 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:1/location.length.z"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:2/location.length.x:d:f:hole:2/location.length.x",
+   "id": "p:nominal_rounded:d:f:hole:f12/location.length.x:d:f:hole:f12/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"8.649\" has modelled nominal 8.64913 but prints 8.649 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:2/location.length.x"
+    "d:f:hole:f12/location.length.x"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:2/location.length.z:d:f:hole:2/location.length.z",
+   "id": "p:nominal_rounded:d:f:hole:f12/location.length.z:d:f:hole:f12/location.length.z",
    "impact": "advisory",
    "message": "The dimension \"2.258\" has modelled nominal 2.257962 but prints 2.258 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:2/location.length.z"
+    "d:f:hole:f12/location.length.z"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:2/location.length.z:d:f:hole:3/location.length.z",
+   "id": "p:nominal_rounded:d:f:hole:f12/location.length.z:d:f:hole:f13/location.length.z",
    "impact": "advisory",
    "message": "The dimension \"2.258\" has modelled nominal 2.257962 but prints 2.258 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:2/location.length.z"
+    "d:f:hole:f12/location.length.z"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:3/location.length.x:d:f:hole:3/location.length.x",
+   "id": "p:nominal_rounded:d:f:hole:f13/location.length.x:d:f:hole:f13/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"3.649\" has modelled nominal 3.64913 but prints 3.649 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:3/location.length.x"
+    "d:f:hole:f13/location.length.x"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:f9/bore.diameter:d:f:hole:f9/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"\u23009.297 THRU\" has modelled nominal 9.29666 but prints 9.297 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:f9/bore.diameter"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:f9/location.length.x:d:f:hole:f9/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"6.149\" has modelled nominal 6.14913 but prints 6.149 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:f9/location.length.x"
+   ]
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:f9/location.length.z:d:f:hole:f9/location.length.z",
+   "impact": "advisory",
+   "message": "The dimension \"7.958\" has modelled nominal 7.957962 but prints 7.958 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:f9/location.length.z"
    ]
   },
   {

@@ -3,37 +3,37 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f38/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f38",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f38/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f39",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:3/bore.diameter"
+     "d:f:hole:f40/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f40",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f38/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f41",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f38/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f42",
     "state": "supported"
    }
   ],
@@ -43,7 +43,7 @@
  },
  "lint": [
   {
-   "annotation": "d:f:fillet:3/fillet.radius",
+   "annotation": "d:f:fillet:f6/fillet.radius",
    "at": [
     67.56049999999999,
     51.439509999999984
@@ -51,20 +51,20 @@
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:3/fillet.radius",
+   "id": "l:radius_leader_not_radial:d:f:fillet:f6/fillet.radius",
    "impact": "readability",
    "measurements": [
-    "f:fillet:3/fillet.radius"
+    "f:fillet:f6/fillet.radius"
    ],
-   "message": "d:f:fillet:3/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:fillet:f6/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:fillet:3"
+    "f:fillet:f6"
    ],
    "view": "v:front"
   },
   {
-   "annotation": "d:f:blend:1/blend.radius",
+   "annotation": "d:f:blend:f22/blend.radius",
    "at": [
     66.48096988312783,
     52.654339141908736
@@ -72,15 +72,15 @@
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:blend:1/blend.radius",
+   "id": "l:radius_leader_not_radial:d:f:blend:f22/blend.radius",
    "impact": "readability",
    "measurements": [
-    "f:blend:1/blend.radius"
+    "f:blend:f22/blend.radius"
    ],
-   "message": "d:f:blend:1/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:blend:f22/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:blend:1"
+    "f:blend:f22"
    ],
    "view": "v:front"
   }
@@ -123,166 +123,26 @@
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 40 dimension to the left of the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 40 runs up to 0.1 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 40 runs through the label of 2\u00d7 C4. [annotation_ink_overlap] The leader of 2\u00d7 C4 crosses a line of 40. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/location_slot_across.length|f:hole:1:line:1",
+   "id": "p:extension_through_feature:d:f:slot:f12/location_slot_across.length|f:hole:f38:line:1",
    "impact": "advisory",
    "message": "The second extension line of 40 crosses the \u23004 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:slot:1/location_slot_across.length",
-    "f:hole:1"
+    "d:f:slot:f12/location_slot_across.length",
+    "f:hole:f38"
    ]
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 40 dimension to the left of the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 40 runs up to 0.1 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 40 runs through the label of 2\u00d7 C4. [annotation_ink_overlap] The leader of 2\u00d7 C4 crosses a line of 40. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:slot:1~1location_slot_across.length/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:1/location_slot_across.length|f:hole:5:line:1",
+   "id": "p:extension_through_feature:d:f:slot:f12/location_slot_across.length|f:hole:f42:line:1",
    "impact": "advisory",
    "message": "The second extension line of 40 crosses the \u23004 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:slot:1/location_slot_across.length",
-    "f:hole:5"
+    "d:f:slot:f12/location_slot_across.length",
+    "f:hole:f42"
    ]
   },
   {
@@ -304,48 +164,48 @@
   {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
-   "id": "p:extension_off_centreline:d:f:slot:1/location_slot_across.length|ink:v:plan:f:hole:1",
+   "id": "p:extension_off_centreline:d:f:slot:f12/location_slot_across.length|ink:v:plan:f:hole:f38",
    "impact": "readability",
    "message": "An extension line of 40 runs 0.25 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
-    "d:f:slot:1/location_slot_across.length",
-    "f:hole:1"
+    "d:f:slot:f12/location_slot_across.length",
+    "f:hole:f38"
    ]
   },
   {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
-   "id": "p:extension_off_centreline:d:f:hole:3/location.length.z|ink:v:side:f:hole_pattern:1",
+   "id": "p:extension_off_centreline:d:f:hole:f40/location.length.z|ink:v:side:f:hole_pattern:f38",
    "impact": "readability",
    "message": "An extension line of 28.75 runs 0.05 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:3/location.length.z",
-    "f:hole_pattern:1"
+    "d:f:hole:f40/location.length.z",
+    "f:hole_pattern:f38"
    ]
   },
   {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
-   "id": "p:extension_off_centreline:d:f:hole_pattern:1/location.length.z|ink:v:side:f:hole:3",
+   "id": "p:extension_off_centreline:d:f:hole_pattern:f38/location.length.z|ink:v:side:f:hole:f40",
    "impact": "readability",
    "message": "An extension line of 28.85 runs 0.05 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:1/location.length.z",
-    "f:hole:3"
+    "d:f:hole_pattern:f38/location.length.z",
+    "f:hole:f40"
    ]
   },
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
-   "id": "p:leader_to_hidden_edge:d:f:blend:1/blend.radius",
+   "id": "p:leader_to_hidden_edge:d:f:blend:f22/blend.radius",
    "impact": "readability",
    "message": "The leader of R0.5 ends on an edge the front view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
-    "d:f:blend:1/blend.radius",
+    "d:f:blend:f22/blend.radius",
     "v:front"
    ]
   }

@@ -45,12 +45,12 @@
   {
    "code": "location_on_axis",
    "group": "location_on_axis",
-   "id": "p:location_on_axis:f:section_recess:1/y",
+   "id": "p:location_on_axis:f:section_recess:f6/y",
    "impact": "advisory",
    "message": "The section recess is centred on the turning axis in y; no tangent location is needed.",
    "severity": "info",
    "subjects": [
-    "f:section_recess:1"
+    "f:section_recess:f6"
    ]
   },
   {

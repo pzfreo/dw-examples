@@ -3,9 +3,9 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f10/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f10",
     "state": "supported"
    }
   ],
@@ -52,83 +52,13 @@
   },
   {
    "code": "annotation_outside_area",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:1~1bore.diameter/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the dimension above the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:1~1bore.diameter/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "annotation_outside_area",
-   "id": "p:annotation_outside_area:d:f:hole:1/bore.diameter|v:front",
+   "id": "p:annotation_outside_area:d:f:hole:f10/bore.diameter|v:front",
    "impact": "advisory",
    "message": "The dimension \u230010 THRU \u2334 \u230016.4 \u21a7 1.4 BOTH SIDES runs up to 16.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:1/bore.diameter",
+    "d:f:hole:f10/bore.diameter",
     "v:front"
    ]
   }

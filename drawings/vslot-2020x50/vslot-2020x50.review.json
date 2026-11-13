@@ -3,9 +3,9 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f62/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f62",
     "state": "supported"
    }
   ],
@@ -199,7 +199,7 @@
    ]
   },
   {
-   "annotation": "d:f:blend:1/blend.radius",
+   "annotation": "d:f:blend:f2/blend.radius",
    "at": [
     33.07612046748872,
     176.8826834323651
@@ -207,21 +207,21 @@
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:blend:1/blend.radius",
+   "id": "l:radius_leader_not_radial:d:f:blend:f2/blend.radius",
    "impact": "readability",
    "measurements": [
-    "f:blend:1/blend.radius",
-    "f:blend:2/blend.radius",
-    "f:blend:3/blend.radius",
-    "f:blend:4/blend.radius"
+    "f:blend:f2/blend.radius",
+    "f:blend:f30/blend.radius",
+    "f:blend:f33/blend.radius",
+    "f:blend:f60/blend.radius"
    ],
-   "message": "d:f:blend:1/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:blend:f2/blend.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:blend:1",
-    "f:blend:2",
-    "f:blend:3",
-    "f:blend:4"
+    "f:blend:f2",
+    "f:blend:f30",
+    "f:blend:f33",
+    "f:blend:f60"
    ],
    "view": "v:front"
   }
@@ -235,7 +235,7 @@
    "message": "Unrecognised features on this part: 1 circular face pattern. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "circular_face_patterns",
-    "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -369,72 +369,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:v_channel:3~1v_channel.angle/place",
-     "value": {
-      "along": "outside",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:1"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 90\u00b0 V \u00d7 0.2 DEEP callout above the front view, nearest the view. Trade-off: adds these findings: The dimension 90\u00b0 V \u00d7 0.2 DEEP runs up to 8.6 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of \u23004.2 THRU crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 8\u00d7 C2.661 crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 20. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of \u23004.2 THRU. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 10. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 10. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 8\u00d7 C2.661. [annotation_leader_crossing] A line of 90\u00b0 V \u00d7 0.2 DEEP runs through the label of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_ink_overlap] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 90\u00b0 V \u00d7 0.2 DEEP. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 13.9. [annotation_leader_crossing] The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses a line of 18.2. [annotation_leader_crossing].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:v_channel:3~1v_channel.angle/place",
-       "value": {
-        "along": "outside",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -453,25 +397,25 @@
     }
    ],
    "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:v_channel:3/v_channel.angle|f:hole:1:line:0",
+   "id": "p:leader_through_feature:d:f:v_channel:f44/v_channel.angle|f:hole:f62:line:0",
    "impact": "readability",
    "message": "The leader of 90\u00b0 V \u00d7 0.2 DEEP crosses the \u23004.2 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:v_channel:3/v_channel.angle",
-    "f:hole:1"
+    "d:f:v_channel:f44/v_channel.angle",
+    "f:hole:f62"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:step_level/step_height.length.h15_5|d:f:chamfer:3/chamfer.length",
+   "id": "p:label_crowded:d:step_level/step_height.length.f8|d:f:chamfer:f20/chamfer.length",
    "impact": "advisory",
    "message": "Line-work of 15.5 passes less than 0.5 mm from the label of 8\u00d7 C2.661, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "d:step_level/step_height.length.h15_5",
-    "d:f:chamfer:3/chamfer.length"
+    "d:step_level/step_height.length.f8",
+    "d:f:chamfer:f20/chamfer.length"
    ]
   }
  ],

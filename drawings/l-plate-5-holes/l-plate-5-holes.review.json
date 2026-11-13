@@ -3,37 +3,37 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f22/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f22",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f22/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f23",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f22/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f24",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f22/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f25",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f22/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f26",
     "state": "supported"
    }
   ],
@@ -79,55 +79,23 @@
    ]
   },
   {
-   "code": "unclaimed_geometry",
-   "group": "unclaimed_geometry",
-   "id": "p:unclaimed_geometry:sheet",
+   "code": "annotation_outside_area",
+   "group": "annotation_outside_area",
+   "id": "p:annotation_outside_area:d:f:hole:f22/bore.diameter|v:front",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 17 of 27 faces; 10 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "The dimension 5\u00d7 \u23005.5 THRU C0.5 BOTH SIDES runs up to 2.1 mm past the area reserved for the front view and its bands; it may crowd what lies beyond.",
    "severity": "info",
    "subjects": [
-    "face:9",
-    "face:11",
-    "face:12",
-    "face:13",
-    "face:14",
-    "face:16",
-    "face:17",
-    "face:18",
-    "face:20",
-    "face:21"
-   ]
-  },
-  {
-   "code": "shape_not_recognised",
-   "group": "shape_not_recognised:chamfer",
-   "id": "p:shape_not_recognised:face:9",
-   "impact": "incomplete",
-   "message": "Faces 9, 11, 12, 13, 14, 16, 17, 18, 20, 21 form 10 congruent shapes, each a 0.5 \u00d7 45\u00b0 chamfer on the edge of a \u00f85.5 cylinder, the first at (-20, -3.75, 10); no hole callout or chamfer dimension states them. State it with a note on one of its faces in the Spec's faces (its size, as a chamfer callout), which withdraws this warning; otherwise review it manually.",
-   "refs": [
-    "shape:chamfer"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "face:9",
-    "face:11",
-    "face:12",
-    "face:13",
-    "face:14",
-    "face:16",
-    "face:17",
-    "face:18",
-    "face:20",
-    "face:21"
+    "d:f:hole:f22/bore.diameter",
+    "v:front"
    ]
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "general_tolerance_missing": 1,
-   "shape_not_recognised:chamfer": 1,
-   "unclaimed_geometry": 1
+   "annotation_outside_area": 1,
+   "general_tolerance_missing": 1
   },
   "impacts": {
    "advisory": {
@@ -139,8 +107,8 @@
     "groups": 1
    },
    "incomplete": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    },
    "readability": {
     "findings": 0,

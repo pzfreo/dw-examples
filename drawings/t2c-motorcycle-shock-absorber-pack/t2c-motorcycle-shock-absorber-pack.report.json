@@ -272,7 +272,7 @@
           "subjects": [],
           "refs": [
             "thin_wall_bodies",
-            "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
+            "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
             "Python quiddity's recognition (tools/recognise.py) gives these families"
           ]
         },
@@ -1082,14 +1082,14 @@
           ]
         },
         {
-          "id": "p:nominal_rounded:d:f:helical_spring:1/free_length:d:f:helical_spring:1/free_length",
+          "id": "p:nominal_rounded:d:f:helical_spring:f0/free_length:d:f:helical_spring:f0/free_length",
           "code": "nominal_rounded",
           "severity": "info",
           "impact": "advisory",
           "group": "nominal_rounded",
           "message": "The dimension \"109.569\" has modelled nominal 109.568838 but prints 109.569 at the default three-place limit.",
           "subjects": [
-            "d:f:helical_spring:1/free_length"
+            "d:f:helical_spring:f0/free_length"
           ]
         },
         {

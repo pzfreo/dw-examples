@@ -75,15 +75,15 @@
           ]
         },
         {
-          "id": "p:label_crowded:d:f:hole:4/location.length.x|d:f:hole_pattern:1/grid_pitch.length.col",
+          "id": "p:label_crowded:d:f:hole:f13/location.length.x|d:f:hole_pattern:f10/grid_pitch.length.col",
           "code": "label_crowded",
           "severity": "info",
           "impact": "advisory",
           "group": "label_crowded",
           "message": "Line-work of 50 passes less than 0.5 mm from the label of 76, so it touches the text.",
           "subjects": [
-            "d:f:hole:4/location.length.x",
-            "d:f:hole_pattern:1/grid_pitch.length.col"
+            "d:f:hole:f13/location.length.x",
+            "d:f:hole_pattern:f10/grid_pitch.length.col"
           ]
         },
         {
@@ -171,7 +171,7 @@
           "subjects": [],
           "refs": [
             "thin_wall_bodies",
-            "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
+            "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
             "Python quiddity's recognition (tools/recognise.py) gives these families"
           ]
         },
@@ -295,7 +295,7 @@
           "subjects": [],
           "refs": [
             "thin_wall_bodies",
-            "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
+            "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
             "Python quiddity's recognition (tools/recognise.py) gives these families"
           ]
         },

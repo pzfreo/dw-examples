@@ -3,30 +3,30 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f3/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f3",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f3/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f24",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f3/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f25",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f3/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f26",
     "state": "supported"
    }
   ],
@@ -44,7 +44,7 @@
    "message": "Unrecognised features on this part: 1 thin wall body. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "thin_wall_bodies",
-    "quiddity-rust 0.4.9 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
@@ -67,28 +67,24 @@
    "group": "unclaimed_geometry",
    "id": "p:unclaimed_geometry:sheet",
    "impact": "advisory",
-   "message": "Analysis features and dimensioned stock claim 23 of 31 faces; 8 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "message": "Analysis features and dimensioned stock claim 27 of 31 faces; 4 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
    "severity": "info",
    "subjects": [
     "face:1",
-    "face:11",
     "face:13",
     "face:14",
-    "face:15",
-    "face:28",
-    "face:29",
-    "face:30"
+    "face:15"
    ]
   },
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:scheme:holes-y/f3a283587e5816a7|ink:v:plan:cut:A:arrow:0",
+   "id": "p:label_crowded:d:scheme:holes-y/e29b048c7b39e96e|ink:v:plan:cut:A:arrow:0",
    "impact": "advisory",
    "message": "The dimension 10 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
    "severity": "info",
    "subjects": [
-    "d:scheme:holes-y/f3a283587e5816a7",
+    "d:scheme:holes-y/e29b048c7b39e96e",
     "v:section_aa"
    ]
   }

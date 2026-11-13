@@ -3,9 +3,9 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f93/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f93",
     "state": "supported"
    }
   ],
@@ -15,7 +15,7 @@
  },
  "lint": [
   {
-   "annotation": "d:f:cylindrical_profile:7/cylindrical_profile.radius",
+   "annotation": "d:f:cylindrical_profile:f18/cylindrical_profile.radius",
    "at": [
     74.64654874464104,
     113.97858251411587
@@ -23,34 +23,34 @@
    "code": "radius_leader_not_radial",
    "evidence": "the shaft is more than 15 degrees off radial",
    "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:7/cylindrical_profile.radius",
+   "id": "l:radius_leader_not_radial:d:f:cylindrical_profile:f18/cylindrical_profile.radius",
    "impact": "readability",
    "measurements": [
-    "f:cylindrical_profile:2/cylindrical_profile.radius",
-    "f:cylindrical_profile:3/cylindrical_profile.radius",
-    "f:cylindrical_profile:6/cylindrical_profile.radius",
-    "f:cylindrical_profile:7/cylindrical_profile.radius",
-    "f:cylindrical_profile:8/cylindrical_profile.radius",
-    "f:cylindrical_profile:9/cylindrical_profile.radius",
-    "f:cylindrical_profile:10/cylindrical_profile.radius",
-    "f:cylindrical_profile:11/cylindrical_profile.radius"
+    "f:cylindrical_profile:f6/cylindrical_profile.radius",
+    "f:cylindrical_profile:f8/cylindrical_profile.radius",
+    "f:cylindrical_profile:f17/cylindrical_profile.radius",
+    "f:cylindrical_profile:f18/cylindrical_profile.radius",
+    "f:cylindrical_profile:f23/cylindrical_profile.radius",
+    "f:cylindrical_profile:f24/cylindrical_profile.radius",
+    "f:cylindrical_profile:f29/cylindrical_profile.radius",
+    "f:cylindrical_profile:f30/cylindrical_profile.radius"
    ],
-   "message": "d:f:cylindrical_profile:7/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
+   "message": "d:f:cylindrical_profile:f18/cylindrical_profile.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
    "severity": "warning",
    "subjects": [
-    "f:cylindrical_profile:2",
-    "f:cylindrical_profile:3",
-    "f:cylindrical_profile:6",
-    "f:cylindrical_profile:7",
-    "f:cylindrical_profile:8",
-    "f:cylindrical_profile:9",
-    "f:cylindrical_profile:10",
-    "f:cylindrical_profile:11"
+    "f:cylindrical_profile:f6",
+    "f:cylindrical_profile:f8",
+    "f:cylindrical_profile:f17",
+    "f:cylindrical_profile:f18",
+    "f:cylindrical_profile:f23",
+    "f:cylindrical_profile:f24",
+    "f:cylindrical_profile:f29",
+    "f:cylindrical_profile:f30"
    ],
    "view": "v:plan"
   },
   {
-   "annotation": "d:f:fillet:2/fillet.radius",
+   "annotation": "d:f:fillet:f4/fillet.radius",
    "at": [
     112.20854635633177,
     33.65801000337601
@@ -58,17 +58,17 @@
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
    "group": "radius_leader_target_unverifiable",
-   "id": "l:radius_leader_target_unverifiable:d:f:fillet:2/fillet.radius",
+   "id": "l:radius_leader_target_unverifiable:d:f:fillet:f4/fillet.radius",
    "impact": "advisory",
    "measurements": [
-    "f:fillet:1/fillet.radius",
-    "f:fillet:2/fillet.radius"
+    "f:fillet:f2/fillet.radius",
+    "f:fillet:f4/fillet.radius"
    ],
-   "message": "d:f:fillet:2/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
+   "message": "d:f:fillet:f4/fillet.radius: the radius leader's trimmed profile arc cannot be verified",
    "severity": "info",
    "subjects": [
-    "f:fillet:1",
-    "f:fillet:2"
+    "f:fillet:f2",
+    "f:fillet:f4"
    ],
    "view": "v:front"
   }
@@ -134,23 +134,23 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:1/location.length.x:d:f:hole:1/location.length.x",
+   "id": "p:nominal_rounded:d:f:hole:f93/location.length.x:d:f:hole:f93/location.length.x",
    "impact": "advisory",
    "message": "The dimension \"18.114\" has modelled nominal 18.113853 but prints 18.114 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:1/location.length.x"
+    "d:f:hole:f93/location.length.x"
    ]
   },
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:1/location.length.y:d:f:hole:1/location.length.y",
+   "id": "p:nominal_rounded:d:f:hole:f93/location.length.y:d:f:hole:f93/location.length.y",
    "impact": "advisory",
    "message": "The dimension \"18.114\" has modelled nominal 18.113853 but prints 18.114 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:1/location.length.y"
+    "d:f:hole:f93/location.length.y"
    ]
   },
   {
@@ -184,13 +184,13 @@
   {
    "code": "label_crowded",
    "group": "label_crowded",
-   "id": "p:label_crowded:d:f:cylindrical_profile:22/cylindrical_profile.radius|d:f:cylindrical_profile:7/cylindrical_profile.radius",
+   "id": "p:label_crowded:d:f:cylindrical_profile:f70/cylindrical_profile.radius|d:f:cylindrical_profile:f18/cylindrical_profile.radius",
    "impact": "advisory",
    "message": "Line-work of 16\u00d7 R6.67 passes less than 0.5 mm from the label of 8\u00d7 R3.932, so it touches the text.",
    "severity": "info",
    "subjects": [
-    "d:f:cylindrical_profile:22/cylindrical_profile.radius",
-    "d:f:cylindrical_profile:7/cylindrical_profile.radius"
+    "d:f:cylindrical_profile:f70/cylindrical_profile.radius",
+    "d:f:cylindrical_profile:f18/cylindrical_profile.radius"
    ]
   }
  ],

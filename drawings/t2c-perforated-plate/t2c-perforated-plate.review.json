@@ -3,93 +3,93 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f10",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f11",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f12",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f13",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f14",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:6/bore.diameter"
+     "d:f:hole:f15/bore.diameter"
     ],
-    "feature": "f:hole:6",
+    "feature": "f:hole:f15",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:7",
+    "feature": "f:hole:f16",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:8",
+    "feature": "f:hole:f17",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:9/bore.diameter"
+     "d:f:hole:f18/bore.diameter"
     ],
-    "feature": "f:hole:9",
+    "feature": "f:hole:f18",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole:6/bore.diameter"
+     "d:f:hole:f15/bore.diameter"
     ],
-    "feature": "f:hole:10",
+    "feature": "f:hole:f23",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:11",
+    "feature": "f:hole:f24",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:12",
+    "feature": "f:hole:f25",
     "state": "supported"
    },
    {
     "carriers": [
-     "d:f:hole_pattern:1/bore.diameter"
+     "d:f:hole_pattern:f10/bore.diameter"
     ],
-    "feature": "f:hole:13",
+    "feature": "f:hole:f26",
     "state": "supported"
    }
   ],
@@ -139,72 +139,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:6~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:5"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 20 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 20 runs up to 6.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] The second extension line of 20 crosses the \u23006 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:6~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -223,13 +167,13 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:6/location.length.x|f:hole:7:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f15/location.length.x|f:hole:f16:line:1",
    "impact": "advisory",
    "message": "The second extension line of 20 crosses the \u23006 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:6/location.length.x",
-    "f:hole:7"
+    "d:f:hole:f15/location.length.x",
+    "f:hole:f16"
    ]
   },
   {
@@ -237,72 +181,16 @@
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:hole:10~1location.length.x/place",
-     "value": {
-      "along": "middle",
-      "lane": 1,
-      "side": "below",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
+     "path": "hole_table",
+     "value": "always"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:2"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
+     "value": "1:5"
     }
    ],
    "fixes": [
-    {
-     "description": "Move the 140 dimension below the plan view, in the second row of dimensions. Trade-off: adds these findings: The dimension 140 runs up to 6.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] A line of 140 runs through the label of 2\u00d7 R4. [annotation_ink_overlap] The second extension line of 140 crosses the \u23006 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:10~1location.length.x/place",
-       "value": {
-        "along": "middle",
-        "lane": 1,
-        "side": "below",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
     {
      "description": "List the holes in a hole table and draw at 1:5. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
@@ -321,22 +209,22 @@
     }
    ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:10/location.length.x|f:hole:13:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f23/location.length.x|f:hole:f26:line:1",
    "impact": "advisory",
    "message": "The second extension line of 140 crosses the \u23006 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:10/location.length.x",
-    "f:hole:13"
+    "d:f:hole:f23/location.length.x",
+    "f:hole:f26"
    ]
   }
  ],
  "structural": [
   {
-   "annotation": "d:f:hole_pattern:1/grid_pitch.length.row",
+   "annotation": "d:f:hole_pattern:f10/grid_pitch.length.row",
    "code": "view_annotation_inside_extents",
    "group": "view_annotation_inside_extents",
-   "id": "l:view_annotation_inside_extents:v:plan:d:f:hole_pattern:1/grid_pitch.length.row",
+   "id": "l:view_annotation_inside_extents:v:plan:d:f:hole_pattern:f10/grid_pitch.length.row",
    "impact": "advisory",
    "message": "label of annotation '70' lies inside view 'plan' extents [x=29.3\u2013109.3, y=109.2\u2013159.2] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",

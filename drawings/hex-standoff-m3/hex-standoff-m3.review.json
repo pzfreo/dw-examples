@@ -3,9 +3,9 @@
   "holes": [
    {
     "carriers": [
-     "d:f:hole:1/bore.diameter"
+     "d:f:hole:f11/bore.diameter"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f11",
     "state": "supported"
    }
   ],
@@ -15,7 +15,7 @@
  },
  "lint": [
   {
-   "annotation": "d:f:chamfer:1/chamfer.length",
+   "annotation": "d:f:chamfer:f1/chamfer.length",
    "at": [
     36.0,
     60.58301
@@ -23,15 +23,15 @@
    "code": "chamfer_leader_target_unverifiable",
    "evidence": "no coaxial turned band holds its station",
    "group": "chamfer_leader_target_unverifiable",
-   "id": "l:chamfer_leader_target_unverifiable:d:f:chamfer:1/chamfer.length",
+   "id": "l:chamfer_leader_target_unverifiable:d:f:chamfer:f1/chamfer.length",
    "impact": "advisory",
    "measurements": [
-    "f:chamfer:1/chamfer.length"
+    "f:chamfer:f1/chamfer.length"
    ],
-   "message": "d:f:chamfer:1/chamfer.length: the chamfer leader's target cannot be verified in this view",
+   "message": "d:f:chamfer:f1/chamfer.length: the chamfer leader's target cannot be verified in this view",
    "severity": "info",
    "subjects": [
-    "f:chamfer:1"
+    "f:chamfer:f1"
    ],
    "view": "v:front"
   }
@@ -40,23 +40,23 @@
   {
    "code": "possible_thread",
    "group": "possible_thread:boss",
-   "id": "p:possible_thread:f:boss:1",
+   "id": "p:possible_thread:f:boss:f0",
    "impact": "advisory",
-   "message": "The \u23003 boss is at the major diameter of the M3 this part is named for, but no thread is modelled or recognised, so the sheet states it plain. If it is threaded, set features/f:boss:1/thread to its designation.",
+   "message": "The \u23003 boss is at the major diameter of the M3 this part is named for, but no thread is modelled or recognised, so the sheet states it plain. If it is threaded, set features/f:boss:f0/thread to its designation.",
    "severity": "info",
    "subjects": [
-    "f:boss:1"
+    "f:boss:f0"
    ]
   },
   {
    "code": "possible_thread",
    "group": "possible_thread:hole",
-   "id": "p:possible_thread:f:hole:1",
+   "id": "p:possible_thread:f:hole:f11",
    "impact": "advisory",
-   "message": "The \u23003 hole is at the major diameter of the M3 this part is named for, but no thread is modelled or recognised, so the sheet states it plain. If it is threaded, set features/f:hole:1/thread to its designation.",
+   "message": "The \u23003 hole is at the major diameter of the M3 this part is named for, but no thread is modelled or recognised, so the sheet states it plain. If it is threaded, set features/f:hole:f11/thread to its designation.",
    "severity": "info",
    "subjects": [
-    "f:hole:1"
+    "f:hole:f11"
    ]
   },
   {
@@ -108,12 +108,12 @@
   {
    "code": "nominal_rounded",
    "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:1/location.length.y:d:f:hole:1/location.length.y",
+   "id": "p:nominal_rounded:d:f:hole:f11/location.length.y:d:f:hole:f11/location.length.y",
    "impact": "advisory",
    "message": "The dimension \"3.175\" has modelled nominal 3.175426 but prints 3.175 at the default three-place limit.",
    "severity": "info",
    "subjects": [
-    "d:f:hole:1/location.length.y"
+    "d:f:hole:f11/location.length.y"
    ]
   },
   {
@@ -133,12 +133,12 @@
   {
    "code": "label_section_furniture_overlap",
    "group": "label_section_furniture_overlap",
-   "id": "p:label_section_furniture_overlap:d:f:hole:1/location.length.y|ink:v:plan:cut:A:arrow:0",
+   "id": "p:label_section_furniture_overlap:d:f:hole:f11/location.length.y|ink:v:plan:cut:A:arrow:0",
    "impact": "readability",
    "message": "A line of 3.175 runs through the section A cutting-plane arrowhead.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole:1/location.length.y",
+    "d:f:hole:f11/location.length.y",
     "v:section_aa"
    ]
   },

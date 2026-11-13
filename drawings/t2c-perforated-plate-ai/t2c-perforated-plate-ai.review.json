@@ -5,91 +5,91 @@
     "carriers": [
      "hole_schedule_plan/C1/size"
     ],
-    "feature": "f:hole:1",
+    "feature": "f:hole:f10",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C5/size"
     ],
-    "feature": "f:hole:2",
+    "feature": "f:hole:f11",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C6/size"
     ],
-    "feature": "f:hole:3",
+    "feature": "f:hole:f12",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C7/size"
     ],
-    "feature": "f:hole:4",
+    "feature": "f:hole:f13",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C8/size"
     ],
-    "feature": "f:hole:5",
+    "feature": "f:hole:f14",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/A2/size"
     ],
-    "feature": "f:hole:6",
+    "feature": "f:hole:f15",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C9/size"
     ],
-    "feature": "f:hole:7",
+    "feature": "f:hole:f16",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C10/size"
     ],
-    "feature": "f:hole:8",
+    "feature": "f:hole:f17",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/B1/size"
     ],
-    "feature": "f:hole:9",
+    "feature": "f:hole:f18",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/A1/size"
     ],
-    "feature": "f:hole:10",
+    "feature": "f:hole:f23",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C2/size"
     ],
-    "feature": "f:hole:11",
+    "feature": "f:hole:f24",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C3/size"
     ],
-    "feature": "f:hole:12",
+    "feature": "f:hole:f25",
     "state": "supported"
    },
    {
     "carriers": [
      "hole_schedule_plan/C4/size"
     ],
-    "feature": "f:hole:13",
+    "feature": "f:hole:f26",
     "state": "supported"
    }
   ],
@@ -101,84 +101,14 @@
  "problems": [
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:authored:slot_y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A3"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 50 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The second extension line of 50 crosses the \u230010 hole. [extension_through_feature] The second extension line of 50 crosses the \u230024 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:authored:slot_y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A3"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:authored:slot_y|f:hole:10:line:1",
+   "id": "p:extension_through_feature:d:authored:slot_y|f:hole:f23:line:1",
    "impact": "advisory",
    "message": "The second extension line of 50 crosses the \u230010 hole.",
    "severity": "warning",
    "subjects": [
     "d:authored:slot_y",
-    "f:hole:10"
+    "f:hole:f23"
    ]
   }
  ],
