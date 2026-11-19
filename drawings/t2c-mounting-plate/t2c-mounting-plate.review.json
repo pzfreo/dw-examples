@@ -41,94 +41,7 @@
   "unknown": 0,
   "unsupported": 0
  },
- "lint": [
-  {
-   "annotation": "d:f:fillet:f2/fillet.radius",
-   "at": [
-    107.76599999999999,
-    61.234
-   ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:f2/fillet.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:fillet:f2/fillet.radius",
-    "f:fillet:f3/fillet.radius",
-    "f:fillet:f5/fillet.radius",
-    "f:fillet:f6/fillet.radius",
-    "f:fillet:f9/fillet.radius",
-    "f:fillet:f11/fillet.radius",
-    "f:fillet:f13/fillet.radius",
-    "f:fillet:f14/fillet.radius",
-    "f:fillet:f16/fillet.radius",
-    "f:fillet:f17/fillet.radius",
-    "f:fillet:f18/fillet.radius",
-    "f:fillet:f19/fillet.radius",
-    "f:fillet:f25/fillet.radius",
-    "f:fillet:f28/fillet.radius",
-    "f:fillet:f29/fillet.radius",
-    "f:fillet:f30/fillet.radius",
-    "f:fillet:f31/fillet.radius",
-    "f:fillet:f32/fillet.radius",
-    "f:fillet:f33/fillet.radius",
-    "f:fillet:f36/fillet.radius"
-   ],
-   "message": "d:f:fillet:f2/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:fillet:f2",
-    "f:fillet:f3",
-    "f:fillet:f5",
-    "f:fillet:f6",
-    "f:fillet:f9",
-    "f:fillet:f11",
-    "f:fillet:f13",
-    "f:fillet:f14",
-    "f:fillet:f16",
-    "f:fillet:f17",
-    "f:fillet:f18",
-    "f:fillet:f19",
-    "f:fillet:f25",
-    "f:fillet:f28",
-    "f:fillet:f29",
-    "f:fillet:f30",
-    "f:fillet:f31",
-    "f:fillet:f32",
-    "f:fillet:f33",
-    "f:fillet:f36"
-   ],
-   "view": "v:front"
-  },
-  {
-   "annotation": "d:f:fillet:f1/fillet.radius",
-   "at": [
-    31.464,
-    99.83399
-   ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:f1/fillet.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:fillet:f1/fillet.radius",
-    "f:fillet:f4/fillet.radius",
-    "f:fillet:f15/fillet.radius",
-    "f:fillet:f37/fillet.radius"
-   ],
-   "message": "d:f:fillet:f1/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:fillet:f1",
-    "f:fillet:f4",
-    "f:fillet:f15",
-    "f:fillet:f37"
-   ],
-   "view": "v:plan"
-  }
- ],
+ "lint": [],
  "problems": [
   {
    "code": "general_tolerance_missing",
@@ -163,7 +76,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "unclaimed_geometry",
@@ -183,14 +97,14 @@
     "face:34",
     "face:35",
     "face:38"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
    "general_tolerance_missing": 1,
-   "radius_leader_not_radial": 2,
    "unclaimed_geometry": 1
   },
   "impacts": {
@@ -207,8 +121,8 @@
     "groups": 0
    },
    "readability": {
-    "findings": 2,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    }
   }
  }

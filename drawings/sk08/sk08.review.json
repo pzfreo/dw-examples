@@ -44,6 +44,45 @@
  "lint": [],
  "problems": [
   {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:f6/location.length.y|f:hole:f14:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 7 crosses the \u23008 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:f6/location.length.y",
+    "f:hole:f14"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:f6/location.length.y|f:hole:f18:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 7 crosses the \u23005.5 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:f6/location.length.y",
+    "f:hole:f18"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:f6/location.length.y|f:hole:f19:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 7 crosses the \u23005.5 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:f6/location.length.y",
+    "f:hole:f19"
+   ],
+   "tier": "tidy"
+  },
+  {
    "code": "general_tolerance_missing",
    "fix": [
     {
@@ -76,343 +115,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "annotation_outside_area",
-   "group": "annotation_outside_area",
-   "id": "p:annotation_outside_area:d:f:hole:f6/bore.diameter|v:side",
-   "impact": "advisory",
-   "message": "The dimension \u23007 THRU C0.5 FAR SIDE runs up to 27.3 mm past the area reserved for the side view and its bands; it may crowd what lies beyond.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f6/bore.diameter",
-    "v:side"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:f6~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    },
-    {
-     "op": "set",
-     "path": "sheet/dimension_spacing",
-     "value": "compact"
-    }
    ],
-   "fixes": [
-    {
-     "description": "Move the 7 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 7 runs through the label of \u23007 THRU C0.5 FAR SIDE. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:f6~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      },
-      {
-       "op": "set",
-       "path": "sheet/dimension_spacing",
-       "value": "compact"
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:f6/location.length.y|f:hole:f14:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 7 crosses the \u23008 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:f6/location.length.y",
-    "f:hole:f14"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:f6~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    },
-    {
-     "op": "set",
-     "path": "sheet/dimension_spacing",
-     "value": "compact"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 7 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 7 runs through the label of \u23007 THRU C0.5 FAR SIDE. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:f6~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      },
-      {
-       "op": "set",
-       "path": "sheet/dimension_spacing",
-       "value": "compact"
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:f6/location.length.y|f:hole:f18:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 7 crosses the \u23005.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:f6/location.length.y",
-    "f:hole:f18"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:f6~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "side"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A4"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    },
-    {
-     "op": "set",
-     "path": "sheet/dimension_spacing",
-     "value": "compact"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 7 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of 7 runs through the label of \u23007 THRU C0.5 FAR SIDE. [annotation_ink_overlap].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:f6~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "side"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A4"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      },
-      {
-       "op": "set",
-       "path": "sheet/dimension_spacing",
-       "value": "compact"
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:f6/location.length.y|f:hole:f19:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 7 crosses the \u23005.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:f6/location.length.y",
-    "f:hole:f19"
-   ]
+   "tier": "fix_before_printing"
   },
   {
    "code": "label_crowded",
@@ -424,7 +128,8 @@
    "subjects": [
     "d:f:hole:f14/location.length.x",
     "d:envelope/width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -436,21 +141,21 @@
    "subjects": [
     "d:f:hole:f6/location.length.y",
     "d:envelope/depth.length"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "annotation_outside_area": 1,
    "extension_through_feature": 3,
    "general_tolerance_missing": 1,
    "label_crowded": 2
   },
   "impacts": {
    "advisory": {
-    "findings": 6,
-    "groups": 3
+    "findings": 5,
+    "groups": 2
    },
    "decision": {
     "findings": 1,

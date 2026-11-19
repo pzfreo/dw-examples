@@ -228,7 +228,8 @@
    "message": "dimension-relevant source geometry is absent from recognised IR: unsupported internal profile on a principal boundary face",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "pmi_not_extracted",
@@ -241,7 +242,8 @@
    "sources": [
     "dimension:#20119"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -254,7 +256,8 @@
    "sources": [
     "dimension:#20148"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -267,7 +270,8 @@
    "sources": [
     "dimension:#20177"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -280,7 +284,8 @@
    "sources": [
     "dimension:#20632"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -293,7 +298,8 @@
    "sources": [
     "dimension:#20659"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -306,7 +312,8 @@
    "sources": [
     "dimension:#20686"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -319,7 +326,8 @@
    "sources": [
     "geometric_tolerance:#19060"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -332,7 +340,8 @@
    "sources": [
     "geometric_tolerance:#19077"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -345,7 +354,8 @@
    "sources": [
     "geometric_tolerance:#19079"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -358,7 +368,8 @@
    "sources": [
     "geometric_tolerance:#19248"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -371,7 +382,8 @@
    "sources": [
     "geometric_tolerance:#19418"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -384,7 +396,8 @@
    "sources": [
     "geometric_tolerance:#19420"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -397,7 +410,8 @@
    "sources": [
     "geometric_tolerance:#19580"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -410,7 +424,8 @@
    "sources": [
     "geometric_tolerance:#19617"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -423,7 +438,8 @@
    "sources": [
     "geometric_tolerance:#19654"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -436,7 +452,8 @@
    "sources": [
     "geometric_tolerance:#19674"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -449,7 +466,8 @@
    "sources": [
     "geometric_tolerance:#19676"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -462,7 +480,8 @@
    "sources": [
     "datum:#18320"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -475,7 +494,8 @@
    "sources": [
     "datum:#18347"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -488,7 +508,8 @@
    "sources": [
     "attribute_set:0:17"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -501,7 +522,8 @@
    "sources": [
     "attribute_set:0:24"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -514,7 +536,8 @@
    "sources": [
     "attribute_set:0:26"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -527,7 +550,8 @@
    "sources": [
     "attribute_set:0:27"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -540,7 +564,8 @@
    "sources": [
     "attribute_set:0:29"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -553,7 +578,8 @@
    "sources": [
     "attribute_set:0:31"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -566,7 +592,8 @@
    "sources": [
     "attribute_set:0:33"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -579,7 +606,8 @@
    "sources": [
     "standard:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -592,7 +620,8 @@
    "sources": [
     "attribute_set:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -605,7 +634,8 @@
    "sources": [
     "attribute_set:0:1"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -618,7 +648,8 @@
    "sources": [
     "attribute_set:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -631,7 +662,8 @@
    "sources": [
     "attribute_set:0:3"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -644,7 +676,8 @@
    "sources": [
     "attribute_set:0:4"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -657,7 +690,8 @@
    "sources": [
     "attribute_set:0:5"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -670,7 +704,8 @@
    "sources": [
     "attribute_set:0:6"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -683,7 +718,8 @@
    "sources": [
     "attribute_set:0:7"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -696,7 +732,8 @@
    "sources": [
     "attribute_set:0:8"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -709,7 +746,8 @@
    "sources": [
     "attribute_set:0:9"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -722,7 +760,8 @@
    "sources": [
     "attribute_set:0:10"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -735,7 +774,8 @@
    "sources": [
     "attribute_set:0:11"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -748,7 +788,8 @@
    "sources": [
     "attribute_set:0:12"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -761,7 +802,8 @@
    "sources": [
     "attribute_set:0:13"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -774,7 +816,8 @@
    "sources": [
     "attribute_set:0:14"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -787,7 +830,8 @@
    "sources": [
     "attribute_set:0:15"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -800,7 +844,8 @@
    "sources": [
     "attribute_set:0:16"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -813,7 +858,8 @@
    "sources": [
     "attribute_set:0:25"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -826,7 +872,8 @@
    "sources": [
     "attribute_set:0:28"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -839,7 +886,8 @@
    "sources": [
     "datum_target:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -852,7 +900,8 @@
    "sources": [
     "datum_target:0:1"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -865,7 +914,8 @@
    "sources": [
     "datum_target:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -878,7 +928,8 @@
    "sources": [
     "datum_target:0:3"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -891,7 +942,8 @@
    "sources": [
     "tolerance_relation:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -904,7 +956,8 @@
    "sources": [
     "tolerance_relation:0:1"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -917,7 +970,8 @@
    "sources": [
     "tolerance_relation:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -930,7 +984,8 @@
    "sources": [
     "dimension:#20047"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -943,7 +998,8 @@
    "sources": [
     "dimension:#20119"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -956,7 +1012,8 @@
    "sources": [
     "dimension:#20148"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -969,7 +1026,8 @@
    "sources": [
     "dimension:#20177"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -982,7 +1040,8 @@
    "sources": [
     "dimension:#20321"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -995,7 +1054,8 @@
    "sources": [
     "dimension:#20401"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1008,7 +1068,8 @@
    "sources": [
     "dimension:#20491"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1021,7 +1082,8 @@
    "sources": [
     "dimension:#20632"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1034,7 +1096,8 @@
    "sources": [
     "dimension:#20659"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1047,7 +1110,8 @@
    "sources": [
     "dimension:#20686"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1060,7 +1124,8 @@
    "sources": [
     "dimension:#20824"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1073,7 +1138,8 @@
    "sources": [
     "geometric_tolerance:#19060"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1086,7 +1152,8 @@
    "sources": [
     "geometric_tolerance:#19077"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1099,7 +1166,8 @@
    "sources": [
     "geometric_tolerance:#19079"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1112,7 +1180,8 @@
    "sources": [
     "geometric_tolerance:#19248"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1125,7 +1194,8 @@
    "sources": [
     "geometric_tolerance:#19418"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1138,7 +1208,8 @@
    "sources": [
     "geometric_tolerance:#19420"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1151,7 +1222,8 @@
    "sources": [
     "geometric_tolerance:#19580"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1164,7 +1236,8 @@
    "sources": [
     "geometric_tolerance:#19617"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1177,7 +1250,8 @@
    "sources": [
     "geometric_tolerance:#19654"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1190,7 +1264,8 @@
    "sources": [
     "geometric_tolerance:#19674"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1203,7 +1278,8 @@
    "sources": [
     "geometric_tolerance:#19676"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1216,7 +1292,8 @@
    "sources": [
     "datum:#18320"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1229,7 +1306,8 @@
    "sources": [
     "datum:#18347"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_rendered",
@@ -1242,7 +1320,8 @@
    "sources": [
     "dimension:#19954"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_rendered",
@@ -1255,7 +1334,8 @@
    "sources": [
     "dimension:#20206"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_rendered",
@@ -1268,7 +1348,8 @@
    "sources": [
     "dimension:#20540"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1291,7 +1372,8 @@
    "severity": "warning",
    "subjects": [
     "f:slot:f155"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "annotation": "d:f:fillet:f56/fillet.radius",
@@ -1426,6 +1508,7 @@
     "f:fillet:f259",
     "f:fillet:f260"
    ],
+   "tier": "tidy",
    "view": "v:side"
   },
   {
@@ -1461,6 +1544,7 @@
     "f:fillet:f153",
     "f:fillet:f154"
    ],
+   "tier": "tidy",
    "view": "v:front"
   }
  ],
@@ -1473,11 +1557,12 @@
    "message": "Unrecognised features on this part: 1 freeform surface. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.4 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "detail_unplaceable",
@@ -1489,7 +1574,8 @@
     "v:detail_b"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "general_tolerance_missing",
@@ -1524,7 +1610,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "dimensions_not_ported",
@@ -1535,7 +1622,8 @@
    "severity": "warning",
    "subjects": [
     "f:section_recess:f5"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "dimensions_not_ported",
@@ -1546,7 +1634,8 @@
    "severity": "warning",
    "subjects": [
     "f:section_recess:f8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "datum_origin_unusable",
@@ -1558,7 +1647,8 @@
     "datum:#18109"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1570,7 +1660,8 @@
     "datum:#18135"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1582,7 +1673,8 @@
     "datum:#18192"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1594,7 +1686,8 @@
     "datum:#18219"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1606,7 +1699,8 @@
     "datum:#18246"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1618,7 +1712,8 @@
     "datum:#18293"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1632,7 +1727,8 @@
     "graphical_text:\"Simple Datum.10\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1646,7 +1742,8 @@
     "graphical_text:\"Simple Datum.11\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -1661,7 +1758,8 @@
     "graphical_text:\"Linear Size.7\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1676,7 +1774,8 @@
     "graphical_text:\"Linear Size.9\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1691,7 +1790,8 @@
     "graphical_text:\"Linear Size.11\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1706,7 +1806,8 @@
     "graphical_text:\"Linear Size.12\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1721,7 +1822,8 @@
     "graphical_text:\"Linear Size.13\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1736,7 +1838,8 @@
     "graphical_text:\"Linear Size.14\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1751,7 +1854,8 @@
     "graphical_text:\"Oriented Linear Dimension.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1766,7 +1870,8 @@
     "graphical_text:\"Linear Size.16\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1781,7 +1886,8 @@
     "graphical_text:\"Oriented Linear Dimension.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1796,7 +1902,8 @@
     "graphical_text:\"Linear Size.18\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1811,7 +1918,8 @@
     "graphical_text:\"Linear Size.19\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1826,7 +1934,8 @@
     "graphical_text:\"Linear Size.20\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1841,7 +1950,8 @@
     "graphical_text:\"Linear Size.21\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1857,7 +1967,8 @@
     "graphical_text:\"Text.7\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1873,7 +1984,8 @@
     "graphical_text:\"Oriented Linear Dimension.1\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1889,7 +2001,8 @@
     "graphical_text:\"Oriented Linear Dimension.2\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1905,7 +2018,8 @@
     "graphical_text:\"Oriented Linear Dimension.3\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1921,7 +2035,8 @@
     "graphical_text:\"Oriented Linear Dimension.4\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1937,7 +2052,8 @@
     "graphical_text:\"Oriented Linear Dimension.5\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1953,7 +2069,8 @@
     "graphical_text:\"Text.6\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1967,7 +2084,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (standard)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1981,7 +2099,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1995,7 +2114,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2009,7 +2129,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2023,7 +2144,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2037,7 +2159,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2051,7 +2174,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2065,7 +2189,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2079,7 +2204,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2093,7 +2219,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2107,7 +2234,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2121,7 +2249,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2135,7 +2264,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2149,7 +2279,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2163,7 +2294,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2177,7 +2309,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2191,7 +2324,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2207,7 +2341,8 @@
     "graphical_text:\"Text.1\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2223,7 +2358,8 @@
     "graphical_text:\"Text.9\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2239,7 +2375,8 @@
     "graphical_text:\"Text.14\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2255,7 +2392,8 @@
     "graphical_text:\"Datum Target.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2271,7 +2409,8 @@
     "graphical_text:\"Datum Target.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2287,7 +2426,8 @@
     "graphical_text:\"Datum Target.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2303,7 +2443,8 @@
     "graphical_text:\"Datum Target.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2317,7 +2458,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2331,7 +2473,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2345,7 +2488,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2360,7 +2504,8 @@
     "graphical_text:\"Text.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2375,7 +2520,8 @@
     "graphical_text:\"Straightness.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2390,7 +2536,8 @@
     "graphical_text:\"Position surfacic profile.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2405,7 +2552,8 @@
     "graphical_text:\"Position surfacic profile.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2421,7 +2569,8 @@
     "graphical_text:\"Position.10\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2436,7 +2585,8 @@
     "graphical_text:\"Position surfacic profile.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2451,7 +2601,8 @@
     "graphical_text:\"Position surfacic profile.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2467,7 +2618,8 @@
     "graphical_text:\"Position.16\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2483,7 +2635,8 @@
     "graphical_text:\"Position.17\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2499,7 +2652,8 @@
     "graphical_text:\"Position.18\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2514,7 +2668,8 @@
     "graphical_text:\"Position surfacic profile.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2529,7 +2684,8 @@
     "graphical_text:\"Position surfacic profile.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2544,7 +2700,8 @@
     "graphical_text:\"Simple Datum.10\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2559,7 +2716,8 @@
     "graphical_text:\"Simple Datum.11\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2574,7 +2732,8 @@
    "subjects": [
     "d:f:hole:f74/bore.diameter",
     "d:pmi:dimension.diameter:f268,269/diameter"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2589,7 +2748,8 @@
    "subjects": [
     "d:pmi:dimension.diameter:f268,269/diameter",
     "d:f:hole:f74/bore.diameter"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2604,7 +2764,8 @@
    "subjects": [
     "d:pmi:dimension.diameter:f274,275/diameter",
     "pmi:geometric_tolerance.perpendicularity:f177,178,179,180,280,281:ref=H:mod=all_around"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2645,7 +2806,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: A line of 12.5 runs through the label of 4. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -2689,7 +2850,8 @@
    "subjects": [
     "pmi:datum.datum:f4,7,10:t=D",
     "d:f:hole:f74/location.length.z"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2704,37 +2866,8 @@
    "subjects": [
     "pmi:datum.datum:f4,7,10:t=D",
     "d:f:hole:f76/location.length.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
    ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f242,243:t=4|d:f:hole:f74/location.length.z",
-   "impact": "advisory",
-   "message": "The leader of 4 crosses a line of 12.5.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f242,243:t=4",
-    "d:f:hole:f74/location.length.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f242,243:t=4|pmi:geometric_tolerance.flatness:f213",
-   "impact": "readability",
-   "message": "The leader of 4 crosses a line of the feature control frame \u23e5 0.2.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f242,243:t=4",
-    "pmi:geometric_tolerance.flatness:f213"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2749,7 +2882,8 @@
    "subjects": [
     "pmi:dimension.common_label:f244,245:t=4",
     "d:envelope/depth.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2792,7 +2926,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -2836,7 +2970,8 @@
    "subjects": [
     "pmi:dimension.common_label:f244,245:t=4",
     "d:f:hole:f76/location.length.y"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2852,7 +2987,8 @@
    "subjects": [
     "pmi:dimension.common_label:f244,245:t=4",
     "pmi:dimension.common_label:f254,255:t=4"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2867,7 +3003,8 @@
    "subjects": [
     "pmi:dimension.common_label:f254,255:t=4",
     "d:envelope/depth.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2910,7 +3047,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -2954,7 +3091,8 @@
    "subjects": [
     "pmi:dimension.common_label:f254,255:t=4",
     "d:f:hole:f76/location.length.y"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2970,122 +3108,8 @@
    "subjects": [
     "pmi:dimension.common_label:f254,255:t=4",
     "pmi:dimension.common_label:f244,245:t=4"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
    ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f77,78,79,80,81,82:t=4|d:f:slot:f155/slot_width.length",
-   "impact": "advisory",
-   "message": "The leader of 4 crosses a line of 50.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f77,78,79,80,81,82:t=4",
-    "d:f:slot:f155/slot_width.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:pmi:dimension.linear:f183,185~1linear/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 5 \u00b10.2 dimension above the plan view, nearest the view. Trade-off: adds these findings: A line of 5 \u00b10.2 runs through the label of 4\u00d7 \u23007 \u00b10.25 THRU \u2334 \u230010\n\u21a7 10 BOTH SIDES. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23001.2 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing] The second extension line of 5 \u00b10.2 crosses the \u23003.5 hole. [extension_through_feature] The second extension line of 5 \u00b10.2 crosses the \u23002.459 hole. [extension_through_feature].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:pmi:dimension.linear:f183,185~1linear/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f77,78,79,80,81,82:t=4|d:pmi:dimension.linear:f183,185/linear",
-   "impact": "advisory",
-   "message": "The leader of 4 crosses a line of 5 \u00b10.2.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f77,78,79,80,81,82:t=4",
-    "d:pmi:dimension.linear:f183,185/linear"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f77,78,79,80,81,82:t=4|d:pmi:dimension.linear:f134,139,144,149,189/linear",
-   "impact": "advisory",
-   "message": "The leader of 4 crosses a line of 10 \u00b10.2.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f77,78,79,80,81,82:t=4",
-    "d:pmi:dimension.linear:f134,139,144,149,189/linear"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3102,7 +3126,8 @@
    "subjects": [
     "pmi:geometric_tolerance.flatness:f213",
     "d:envelope/depth.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3119,7 +3144,8 @@
    "subjects": [
     "pmi:geometric_tolerance.flatness:f213",
     "d:f:hole:f74/location.length.y"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3162,7 +3188,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -3206,22 +3232,8 @@
    "subjects": [
     "pmi:geometric_tolerance.flatness:f213",
     "d:f:hole:f76/location.length.y"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f213|pmi:dimension.common_label:f242,243:t=4",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u23e5 0.2 crosses a line of 4.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.flatness:f213",
-    "pmi:dimension.common_label:f242,243:t=4"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3236,7 +3248,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f177,178,179,180,280,281:ref=H:mod=all_around",
     "d:pmi:dimension.diameter:f274,275/diameter"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3252,7 +3265,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f118,119,120,121,122,123,124,125:ref=A,B,C:mod=diameter_zone:t=position%200.8",
     "pmi:geometric_tolerance.position:f118,119,120,121,122,123,124,125:ref=A,B,C:mod=diameter_zone:t=position%201.2"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3268,7 +3282,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f118,119,120,121,122,123,124,125:ref=A,B,C:mod=diameter_zone:t=position%200.8",
     "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%200.8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3284,7 +3299,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f118,119,120,121,122,123,124,125:ref=A,B,C:mod=diameter_zone:t=position%201.2",
     "pmi:geometric_tolerance.position:f118,119,120,121,122,123,124,125:ref=A,B,C:mod=diameter_zone:t=position%200.8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3300,7 +3316,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f118,119,120,121,122,123,124,125:ref=A,B,C:mod=diameter_zone:t=position%201.2",
     "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%200.8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3316,7 +3333,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%200.8",
     "pmi:geometric_tolerance.position:f118,119,120,121,122,123,124,125:ref=A,B,C:mod=diameter_zone:t=position%200.8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3332,22 +3350,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%200.8",
     "pmi:geometric_tolerance.position:f118,119,120,121,122,123,124,125:ref=A,B,C:mod=diameter_zone:t=position%201.2"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses a line of the feature control frame \u2313 1.5 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3362,37 +3366,8 @@
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f177,178,179,180,280,281:ref=A,B,C:mod=all_around",
     "d:f:hole:f76/location.length.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
    ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f232:ref=A,B,C|d:f:hole:f76/location.length.z",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.75 A B C crosses a line of 61.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f232:ref=A,B,C",
-    "d:f:hole:f76/location.length.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over|pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.5 A B C crosses a line of the feature control frame \u2316 \u23001.2 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over",
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3407,7 +3382,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "d:envelope/width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3422,7 +3398,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "d:f:hole_pattern:f242/location.length.z"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3437,7 +3414,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "d:f:slot:f155/slot_width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3478,7 +3456,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 5 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4 crosses a line of 5 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -3522,7 +3500,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "d:pmi:dimension.linear:f183,185/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3563,7 +3542,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -3607,7 +3586,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "d:pmi:dimension.linear:f181,187/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3622,7 +3602,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "d:pmi:dimension.linear:f134,139,144,149,189/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -3707,7 +3688,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "d:pmi:dimension.linear:f100,103,106,109,234/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -3719,7 +3701,8 @@
    "subjects": [
     "d:f:hole_pattern:f242/location.length.z",
     "f:hole:f161"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -3731,7 +3714,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.y",
     "f:hole:f31"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -3743,7 +3727,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.y",
     "f:hole:f33"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -3755,7 +3740,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.y",
     "f:hole:f37"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -3793,7 +3779,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -3837,7 +3823,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f130"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -3875,7 +3862,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -3919,7 +3906,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f132"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -3957,7 +3945,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4001,7 +3989,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f135"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4039,7 +4028,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4083,7 +4072,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f137"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4121,7 +4111,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4165,7 +4155,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f140"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4203,7 +4194,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4247,7 +4238,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f142"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4285,7 +4277,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4329,7 +4321,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f145"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4367,7 +4360,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4411,7 +4404,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f147"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4449,7 +4443,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4493,7 +4487,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f242"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4531,7 +4526,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4575,7 +4570,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f244"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4613,7 +4609,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4657,7 +4653,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f254"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4695,7 +4692,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4739,7 +4736,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f29"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4777,7 +4775,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4821,7 +4819,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f31"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4859,7 +4858,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4903,7 +4902,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f33"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -4941,7 +4941,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -4985,7 +4985,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f34"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5023,7 +5024,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -5067,7 +5068,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f35"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5105,7 +5107,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: A line of the feature control frame \u2316 \u23000.8 H K L runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing] A line of the feature control frame \u2313 1.2 A B C runs through the label of 18. [annotation_ink_overlap] The leader of the feature control frame \u2313 1.2 A B C crosses a line of 18. [annotation_leader_crossing].",
+     "description": "Move the 18 dimension above the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of 18. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -5149,7 +5151,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.y",
     "f:hole:f37"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5187,7 +5190,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: A line of 12.5 runs through the label of 4. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -5231,7 +5234,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.z",
     "f:hole:f101"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5269,7 +5273,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: A line of 12.5 runs through the label of 4. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -5313,7 +5317,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.z",
     "f:hole:f104"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5351,7 +5356,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: A line of 12.5 runs through the label of 4. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -5395,7 +5400,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.z",
     "f:hole:f107"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5433,7 +5439,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: A line of 12.5 runs through the label of 4. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -5477,7 +5483,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.z",
     "f:hole:f110"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5515,7 +5522,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: A line of 12.5 runs through the label of 4. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -5559,7 +5566,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.z",
     "f:hole:f242"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5597,7 +5605,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: A line of 12.5 runs through the label of 4. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -5641,7 +5649,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.z",
     "f:hole:f244"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5679,7 +5688,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: A line of 12.5 runs through the label of 4. [annotation_ink_overlap] The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
+     "description": "Move the 12.5 dimension to the left of the side view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u23e5 0.2 crosses a line of 12.5. [annotation_leader_crossing] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature] The second extension line of 12.5 crosses the \u23006 hole. [extension_through_feature].",
      "ops": [
       {
        "op": "set",
@@ -5723,7 +5732,8 @@
    "subjects": [
     "d:f:hole:f74/location.length.z",
     "f:hole:f254"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5735,7 +5745,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.z",
     "f:hole:f77"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5747,7 +5758,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.z",
     "f:hole:f79"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5759,7 +5771,8 @@
    "subjects": [
     "d:f:hole:f76/location.length.z",
     "f:hole:f81"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5771,7 +5784,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f161"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5783,7 +5797,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f242"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5795,7 +5810,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f244"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5807,7 +5823,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f254"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5819,7 +5836,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f74"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5831,7 +5849,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f163"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5843,7 +5862,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f76"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5855,7 +5875,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f77"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5867,7 +5888,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f79"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5879,7 +5901,8 @@
    "subjects": [
     "d:f:slot:f155/slot_width.length",
     "f:hole:f81"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5891,7 +5914,8 @@
    "subjects": [
     "d:step_level/step_height.length.f256",
     "f:hole:f161"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5903,7 +5927,8 @@
    "subjects": [
     "d:step_level/step_height.length.f180",
     "f:hole:f163"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -5941,7 +5966,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 5 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4 crosses a line of 5 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -5985,7 +6010,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f183,185/linear",
     "f:hole:f244"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6023,7 +6049,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 5 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4 crosses a line of 5 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6067,7 +6093,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f183,185/linear",
     "f:hole:f34"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6105,7 +6132,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 5 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4 crosses a line of 5 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6149,7 +6176,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f183,185/linear",
     "f:hole:f74"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6187,7 +6215,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 5 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4 crosses a line of 5 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6231,7 +6259,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f183,185/linear",
     "f:hole:f76"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6269,7 +6298,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 5 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4 crosses a line of 5 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6313,7 +6342,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f183,185/linear",
     "f:hole:f74"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6351,7 +6381,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 5 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 5 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] The leader of 4 crosses a line of 5 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 5 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 5 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 5 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6395,7 +6425,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f183,185/linear",
     "f:hole:f76"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6433,7 +6464,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6477,7 +6508,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f181,187/linear",
     "f:hole:f74"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6515,7 +6547,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6559,7 +6591,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f181,187/linear",
     "f:hole:f76"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6597,7 +6630,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6641,7 +6674,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f181,187/linear",
     "f:hole:f79"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6679,7 +6713,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6723,7 +6757,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f181,187/linear",
     "f:hole:f254"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6761,7 +6796,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6805,7 +6840,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f181,187/linear",
     "f:hole:f31"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6843,7 +6879,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6887,7 +6923,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f181,187/linear",
     "f:hole:f74"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -6925,7 +6962,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -6969,7 +7006,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f181,187/linear",
     "f:hole:f76"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7007,7 +7045,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -7051,7 +7089,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f181,187/linear",
     "f:hole:f81"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7063,7 +7102,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f134,139,144,149,189/linear",
     "f:hole:f163"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7145,7 +7185,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f100,103,106,109,234/linear",
     "f:hole:f161"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7227,31 +7268,8 @@
    "subjects": [
     "d:pmi:dimension.linear:f100,103,106,109,234/linear",
     "f:hole:f74"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:dimension.common_label:f242,243:t=4|f:hole:f126:line:0",
-   "impact": "readability",
-   "message": "The leader of 4 crosses the \u23006 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f242,243:t=4",
-    "f:hole:f126"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:dimension.common_label:f242,243:t=4|f:hole:f161:line:0",
-   "impact": "readability",
-   "message": "The leader of 4 crosses the \u23006 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f242,243:t=4",
-    "f:hole:f161"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7263,7 +7281,8 @@
    "subjects": [
     "pmi:dimension.common_label:f244,245:t=4",
     "f:hole:f31"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7275,7 +7294,8 @@
    "subjects": [
     "pmi:dimension.common_label:f244,245:t=4",
     "f:hole:f33"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7287,7 +7307,8 @@
    "subjects": [
     "pmi:dimension.common_label:f244,245:t=4",
     "f:hole:f37"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7299,7 +7320,8 @@
    "subjects": [
     "pmi:dimension.common_label:f254,255:t=4",
     "f:hole:f31"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7311,7 +7333,8 @@
    "subjects": [
     "pmi:dimension.common_label:f254,255:t=4",
     "f:hole:f33"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7323,175 +7346,8 @@
    "subjects": [
     "pmi:dimension.common_label:f254,255:t=4",
     "f:hole:f37"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f104:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23007 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f104"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f107:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23007 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f107"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f242:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23003.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f242"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f244:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23003.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f244"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f254:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23003.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f254"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f29:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23002.459 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f29"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f31:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23002.459 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f31"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f33:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23002.459 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f33"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f34:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23002.459 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f34"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f35:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23002.459 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f35"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f37:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23002.459 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f37"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f77:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23003.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f77"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f79:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23003.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f79"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:hole:f81:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the \u23003.5 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "f:hole:f81"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7503,7 +7359,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "f:hole:f74"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7515,7 +7372,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "f:hole:f76"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7527,7 +7385,8 @@
    "subjects": [
     "pmi:geometric_tolerance.symmetry:f183,185:ref=A,J",
     "f:hole:f77"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "unclaimed_geometry",
@@ -7620,7 +7479,8 @@
     "face:279",
     "face:280",
     "face:281"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "shape_not_recognised",
@@ -7637,7 +7497,8 @@
     "face:184",
     "face:186",
     "face:228"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "shape_not_recognised",
@@ -7652,7 +7513,8 @@
    "subjects": [
     "face:276",
     "face:277"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "shape_not_recognised",
@@ -7667,7 +7529,8 @@
    "subjects": [
     "face:278",
     "face:279"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "sheet_preference_exceeded",
@@ -7678,22 +7541,8 @@
    "severity": "info",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f77,78,79,80,81,82:t=4|pmi:geometric_tolerance.position:f181,187:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of 4 crosses a line of the feature control frame \u2316 1 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f77,78,79,80,81,82:t=4",
-    "pmi:geometric_tolerance.position:f181,187:ref=A,B,C"
-   ]
+   "tier": "information"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7708,7 +7557,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f181,187:ref=A",
     "d:pmi:dimension.linear:f134,139,144,149,189/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7723,37 +7573,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f181,187:ref=A,B,C",
     "d:pmi:dimension.linear:f134,139,144,149,189/linear"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f181,187:ref=A,B,C|pmi:dimension.common_label:f77,78,79,80,81,82:t=4",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 1 A B C crosses a line of 4.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f181,187:ref=A,B,C",
-    "pmi:dimension.common_label:f77,78,79,80,81,82:t=4"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f130,131,132,133,135,136,137,138,140,141,142,143,145,146,147,148:t=4|pmi:geometric_tolerance.perpendicularity:f242,243:ref=D:mod=diameter_zone",
-   "impact": "readability",
-   "message": "The leader of 4 crosses a line of the feature control frame \u27c2 \u23000.12 D.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:dimension.common_label:f130,131,132,133,135,136,137,138,140,141,142,143,145,146,147,148:t=4",
-    "pmi:geometric_tolerance.perpendicularity:f242,243:ref=D:mod=diameter_zone"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7768,7 +7589,8 @@
    "subjects": [
     "pmi:geometric_tolerance.cylindricity:f77,78,79,80,81,82",
     "d:f:slot:f155/slot_width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7783,7 +7605,8 @@
    "subjects": [
     "pmi:geometric_tolerance.cylindricity:f77,78,79,80,81,82",
     "d:step_level/step_height.length.f178"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7798,7 +7621,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f163,164:ref=A:mod=diameter_zone",
     "d:step_level/step_height.length.f182"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7813,7 +7637,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f163,164:ref=A:mod=diameter_zone",
     "d:step_level/step_height.length.f184"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7828,22 +7653,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f163,164:ref=A:mod=diameter_zone",
     "d:pmi:dimension.linear:f134,139,144,149,189/linear"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.perpendicularity:f242,243:ref=D:mod=diameter_zone|pmi:dimension.common_label:f130,131,132,133,135,136,137,138,140,141,142,143,145,146,147,148:t=4",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u27c2 \u23000.12 D crosses a line of 4.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.perpendicularity:f242,243:ref=D:mod=diameter_zone",
-    "pmi:dimension.common_label:f130,131,132,133,135,136,137,138,140,141,142,143,145,146,147,148:t=4"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7859,7 +7670,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f244,245:ref=D:mod=diameter_zone",
     "d:f:slot:f155/slot_length.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7900,7 +7712,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
+     "description": "Move the 15 \u00b10.2 dimension above the front view, nearest the view. Trade-off: adds these findings: The labels of 15 \u00b10.2 and 4 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u27c2 0.1 A. [annotation_ink_overlap] A line of 15 \u00b10.2 runs through the label of the feature control frame \u2316 \u23000.8 D B C. [annotation_ink_overlap] The leader of 4 crosses a line of 15 \u00b10.2. [annotation_leader_crossing] The leader of the feature control frame \u27c2 0.1 A crosses a line of 15 \u00b10.2. [annotation_leader_crossing] A line of the feature control frame \u2316 1 A B C runs through the label of 15 \u00b10.2. [annotation_ink_overlap] The leader of the feature control frame \u2316 1 A B C crosses a line of 15 \u00b10.2. [annotation_leader_crossing].",
      "ops": [
       {
        "op": "set",
@@ -7944,7 +7756,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f244,245:ref=D:mod=diameter_zone",
     "d:pmi:dimension.linear:f181,187/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8029,7 +7842,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f244,245:ref=D:mod=diameter_zone",
     "d:pmi:dimension.linear:f100,103,106,109,234/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8044,7 +7858,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "d:envelope/width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8059,7 +7874,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "d:step_level/step_height.length.f256"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8074,7 +7890,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "d:step_level/step_height.length.f0"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8089,7 +7906,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "d:step_level/step_height.length.f178"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8104,7 +7922,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "d:step_level/step_height.length.f180"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8119,7 +7938,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "d:step_level/step_height.length.f182"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8134,7 +7954,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "d:step_level/step_height.length.f184"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8219,7 +8040,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "d:pmi:dimension.linear:f100,103,106,109,234/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8234,7 +8056,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f161,162,165,166:ref=A,B,C:mod=diameter_zone",
     "d:envelope/width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8249,22 +8072,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f161,162,165,166:ref=A,B,C:mod=diameter_zone",
     "d:f:slot:f155/location_slot.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.position:f221,222,270,271:ref=H,K,L:mod=diameter_zone|pmi:geometric_tolerance.profile_surface:f89,90,91,92,95,96,97,98,115,151,152,153,154,155,156,157,158:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23000.8 H K L crosses a line of the feature control frame \u2313 1.2 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f221,222,270,271:ref=H,K,L:mod=diameter_zone",
-    "pmi:geometric_tolerance.profile_surface:f89,90,91,92,95,96,97,98,115,151,152,153,154,155,156,157,158:ref=A,B,C"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8279,7 +8088,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f244,245:ref=D,B,C:mod=diameter_zone",
     "d:f:slot:f155/slot_width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8294,7 +8104,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f244,245:ref=D,B,C:mod=diameter_zone",
     "d:pmi:dimension.linear:f134,139,144,149,189/linear"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -8302,14 +8113,102 @@
     "leader"
    ],
    "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f89,90,91,92,95,96,97,98,115,151,152,153,154,155,156,157,158:ref=A,B,C|pmi:geometric_tolerance.position:f221,222,270,271:ref=H,K,L:mod=diameter_zone",
+   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f242,243:t=4|pmi:geometric_tolerance.flatness:f213",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.2 A B C crosses a line of the feature control frame \u2316 \u23000.8 H K L.",
+   "message": "The leader of 4 crosses a line of the feature control frame \u23e5 0.2.",
    "severity": "warning",
    "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f89,90,91,92,95,96,97,98,115,151,152,153,154,155,156,157,158:ref=A,B,C",
-    "pmi:geometric_tolerance.position:f221,222,270,271:ref=H,K,L:mod=diameter_zone"
-   ]
+    "pmi:dimension.common_label:f242,243:t=4",
+    "pmi:geometric_tolerance.flatness:f213"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f77,78,79,80,81,82:t=4|d:f:slot:f155/slot_width.length",
+   "impact": "advisory",
+   "message": "The leader of 4 crosses a line of 50.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:dimension.common_label:f77,78,79,80,81,82:t=4",
+    "d:f:slot:f155/slot_width.length"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:pmi:dimension.common_label:f77,78,79,80,81,82:t=4|d:pmi:dimension.linear:f134,139,144,149,189/linear",
+   "impact": "advisory",
+   "message": "The leader of 4 crosses a line of 10 \u00b10.2.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:dimension.common_label:f77,78,79,80,81,82:t=4",
+    "d:pmi:dimension.linear:f134,139,144,149,189/linear"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "leader"
+   ],
+   "group": "annotation_leader_crossing:leader",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.flatness:f213|pmi:dimension.common_label:f242,243:t=4",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u23e5 0.2 crosses a line of 4.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.flatness:f213",
+    "pmi:dimension.common_label:f242,243:t=4"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:dimension.common_label:f242,243:t=4|f:hole:f126:line:0",
+   "impact": "readability",
+   "message": "The leader of 4 crosses the \u23006 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:dimension.common_label:f242,243:t=4",
+    "f:hole:f126"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:dimension.common_label:f242,243:t=4|f:hole:f161:line:0",
+   "impact": "readability",
+   "message": "The leader of 4 crosses the \u23006 hole.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:dimension.common_label:f242,243:t=4",
+    "f:hole:f161"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|f:slot:f155:line:0",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2316 \u23001.2 A B C crosses the 50 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
+    "f:slot:f155"
+   ],
+   "tier": "tidy"
   },
   {
    "code": "frame_datum_not_drawn",
@@ -8324,7 +8223,8 @@
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.position:f221,222,270,271:ref=H,K,L:mod=diameter_zone"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "frame_datum_not_drawn",
@@ -8339,7 +8239,8 @@
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.position:f77,78,79,80,81,82:ref=H,K,L:mod=diameter_zone,least_material_requirement"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -8350,31 +8251,8 @@
    "severity": "warning",
    "subjects": [
     "f:slot:f155"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:pmi:geometric_tolerance.profile_surface:f232:ref=A,B,C|d:f:cylindrical_profile:f232/cylindrical_profile.radius",
-   "impact": "advisory",
-   "message": "Line-work of the feature control frame \u2313 1.75 A B C passes less than 0.5 mm from the label of R6, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f232:ref=A,B,C",
-    "d:f:cylindrical_profile:f232/cylindrical_profile.radius"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over|d:f:fillet:f197/fillet.radius",
-   "impact": "advisory",
-   "message": "Line-work of the feature control frame \u2313 1.5 A B C passes less than 0.5 mm from the label of 3\u00d7 R12.5, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over",
-    "d:f:fillet:f197/fillet.radius"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "label_crowded",
@@ -8386,7 +8264,8 @@
    "subjects": [
     "d:f:hole_pattern:f242/location.length.z",
     "d:step_level/step_height.length.f256"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -8401,20 +8280,8 @@
     "d:f:hole:f74/location.length.y",
     "d:f:hole:f76/location.length.y",
     "pmi:geometric_tolerance.flatness:f213"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:pmi:geometric_tolerance.perpendicularity:f181,187:ref=A|pmi:dimension.common_label:f77,78,79,80,81,82:t=4|pmi:geometric_tolerance.position:f181,187:ref=A,B,C",
-   "impact": "advisory",
-   "message": "Line-work of the feature control frame \u27c2 0.1 A and of the feature control frame \u2316 1 A B C passes less than 0.5 mm from the label of 4, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "pmi:geometric_tolerance.perpendicularity:f181,187:ref=A",
-    "pmi:dimension.common_label:f77,78,79,80,81,82:t=4",
-    "pmi:geometric_tolerance.position:f181,187:ref=A,B,C"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -8426,19 +8293,8 @@
    "subjects": [
     "d:f:hole_pattern:f101/location.length.y",
     "v:section_aa"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2|ink:v:plan:cut:A:arrow:1",
-   "impact": "advisory",
-   "message": "The feature control frame \u2316 \u23001.2 A B C is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
-   "severity": "info",
-   "subjects": [
-    "pmi:geometric_tolerance.position:f204,205,206,207,208,209,210,211:ref=A,B,C:mod=diameter_zone:t=position%201.2",
-    "v:section_aa"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -8450,7 +8306,8 @@
    "subjects": [
     "pmi:datum.datum:f242,243:t=E",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -8462,7 +8319,8 @@
    "subjects": [
     "pmi:datum.datum:f254,255:t=G",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -8474,7 +8332,8 @@
    "subjects": [
     "pmi:geometric_tolerance.cylindricity:f77,78,79,80,81,82",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -8486,7 +8345,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f242,243:ref=D:mod=diameter_zone",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -8498,7 +8358,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f244,245:ref=D:mod=diameter_zone",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -8510,7 +8371,8 @@
    "subjects": [
     "pmi:geometric_tolerance.perpendicularity:f254,255:ref=D:mod=diameter_zone",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -8522,7 +8384,8 @@
    "subjects": [
     "pmi:geometric_tolerance.position:f244,245:ref=D,B,C:mod=diameter_zone",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],
@@ -8531,10 +8394,10 @@
    "annotation_leader_crossing:arrow": 2,
    "annotation_leader_crossing:arrow+dimension_line+extension_line": 5,
    "annotation_leader_crossing:arrow+leader": 8,
-   "annotation_leader_crossing:dimension_line": 11,
+   "annotation_leader_crossing:dimension_line": 10,
    "annotation_leader_crossing:dimension_line+extension_line": 1,
-   "annotation_leader_crossing:extension_line": 27,
-   "annotation_leader_crossing:leader": 12,
+   "annotation_leader_crossing:extension_line": 25,
+   "annotation_leader_crossing:leader": 4,
    "datum_origin_unusable": 8,
    "detail_unplaceable": 1,
    "dimensions_not_ported:section_recess": 2,
@@ -8543,8 +8406,8 @@
    "features_not_recognised": 1,
    "frame_datum_not_drawn:geometric_tolerance": 2,
    "general_tolerance_missing": 1,
-   "label_crowded": 7,
-   "leader_through_feature": 25,
+   "label_crowded": 3,
+   "leader_through_feature": 12,
    "leader_to_hidden_edge": 7,
    "pmi_not_extracted": 54,
    "pmi_not_extracted:datum": 2,
@@ -8567,7 +8430,7 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 158,
+    "findings": 152,
     "groups": 8
    },
    "decision": {
@@ -8579,7 +8442,7 @@
     "groups": 19
    },
    "readability": {
-    "findings": 74,
+    "findings": 52,
     "groups": 10
    }
   }

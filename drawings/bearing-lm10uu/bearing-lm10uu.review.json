@@ -48,31 +48,19 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "annotation_outside_area",
-   "group": "annotation_outside_area",
-   "id": "p:annotation_outside_area:d:f:hole:f10/bore.diameter|v:front",
-   "impact": "advisory",
-   "message": "The dimension \u230010 THRU \u2334 \u230016.4 \u21a7 1.4 BOTH SIDES runs up to 16.3 mm past the area reserved for the front view and its bands; it may crowd what lies beyond.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f10/bore.diameter",
-    "v:front"
-   ]
+   ],
+   "tier": "fix_before_printing"
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "annotation_outside_area": 1,
    "general_tolerance_missing": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    },
    "decision": {
     "findings": 1,

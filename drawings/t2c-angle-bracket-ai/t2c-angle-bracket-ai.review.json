@@ -39,7 +39,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f9"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "unrecognised_defining_geometry",
@@ -62,7 +63,8 @@
    "severity": "warning",
    "subjects": [
     "step_level"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "unrecognised_defining_geometry",
@@ -85,7 +87,8 @@
    "severity": "warning",
    "subjects": [
     "step_level"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "problems": [
@@ -98,7 +101,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f9"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "unclaimed_geometry",
@@ -109,7 +113,8 @@
    "severity": "info",
    "subjects": [
     "face:8"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [
@@ -122,6 +127,7 @@
    "message": "label of annotation '120\u00b0' lies inside view 'front' extents [x=33.0\u2013133.0, y=72.7\u2013111.3] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
+   "tier": "information",
    "view": "v:front"
   }
  ],

@@ -53,7 +53,8 @@
    "subjects": [
     "d:f:hole_pattern:f20/bore.diameter",
     "v:plan"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -138,7 +139,8 @@
    "subjects": [
     "d:f:hole_pattern:f20/bore.diameter",
     "d:envelope/depth.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -150,7 +152,8 @@
    "subjects": [
     "d:f:slot:f39/slot_width.length",
     "f:hole:f24"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "unclaimed_geometry",
@@ -170,7 +173,8 @@
     "face:34",
     "face:35",
     "face:38"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "placement_displaced",
@@ -184,7 +188,8 @@
    "severity": "warning",
    "subjects": [
     "d:scheme:holes-y/b692eed9eed9c9df"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

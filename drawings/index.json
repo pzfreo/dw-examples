@@ -1,5 +1,5 @@
 {
-  "draftwright": "v0.6.0-alpha.2",
+  "draftwright": "v0.6.1",
   "drawings": [
     {
       "kind": "drawing",
@@ -31,9 +31,9 @@
       "review": {
         "errors": 0,
         "warnings": 1,
-        "infos": 1,
+        "infos": 0,
         "impacts": {
-          "advisory": 1,
+          "advisory": 0,
           "decision": 1,
           "incomplete": 0,
           "readability": 0
@@ -74,13 +74,13 @@
       "title": "Gantry plate 20 mm V-slot",
       "review": {
         "errors": 0,
-        "warnings": 13,
-        "infos": 1,
+        "warnings": 21,
+        "infos": 2,
         "impacts": {
-          "advisory": 11,
+          "advisory": 19,
           "decision": 1,
           "incomplete": 2,
-          "readability": 0
+          "readability": 1
         }
       },
       "files": [
@@ -103,7 +103,7 @@
         "ga_failed": false,
         "errors": 0,
         "warnings": 30,
-        "infos": 24
+        "infos": 21
       },
       "files": [
         "gramil-pack.csv",
@@ -142,9 +142,9 @@
       "review": {
         "errors": 0,
         "warnings": 2,
-        "infos": 7,
+        "infos": 6,
         "impacts": {
-          "advisory": 7,
+          "advisory": 6,
           "decision": 1,
           "incomplete": 0,
           "readability": 1
@@ -295,13 +295,13 @@
       "title": "NIST CTC-01",
       "review": {
         "errors": 0,
-        "warnings": 13,
-        "infos": 23,
+        "warnings": 11,
+        "infos": 15,
         "impacts": {
-          "advisory": 33,
+          "advisory": 24,
           "decision": 1,
           "incomplete": 0,
-          "readability": 2
+          "readability": 1
         }
       },
       "files": [
@@ -339,13 +339,13 @@
       "title": "NIST CTC-02",
       "review": {
         "errors": 106,
-        "warnings": 178,
+        "warnings": 174,
         "infos": 141,
         "impacts": {
-          "advisory": 161,
+          "advisory": 160,
           "decision": 1,
           "incomplete": 240,
-          "readability": 23
+          "readability": 20
         }
       },
       "files": [
@@ -361,13 +361,13 @@
       "title": "NIST CTC-03",
       "review": {
         "errors": 66,
-        "warnings": 37,
-        "infos": 56,
+        "warnings": 28,
+        "infos": 55,
         "impacts": {
-          "advisory": 62,
+          "advisory": 58,
           "decision": 1,
           "incomplete": 86,
-          "readability": 10
+          "readability": 4
         }
       },
       "files": [
@@ -383,13 +383,13 @@
       "title": "NIST CTC-04",
       "review": {
         "errors": 36,
-        "warnings": 280,
-        "infos": 104,
+        "warnings": 271,
+        "infos": 103,
         "impacts": {
-          "advisory": 236,
+          "advisory": 230,
           "decision": 1,
           "incomplete": 87,
-          "readability": 96
+          "readability": 92
         }
       },
       "files": [
@@ -405,13 +405,13 @@
       "title": "NIST CTC-05",
       "review": {
         "errors": 37,
-        "warnings": 30,
-        "infos": 76,
+        "warnings": 20,
+        "infos": 48,
         "impacts": {
-          "advisory": 76,
+          "advisory": 48,
           "decision": 1,
-          "incomplete": 51,
-          "readability": 15
+          "incomplete": 52,
+          "readability": 4
         }
       },
       "files": [
@@ -427,13 +427,13 @@
       "title": "NIST FTC-06",
       "review": {
         "errors": 162,
-        "warnings": 47,
-        "infos": 239,
+        "warnings": 42,
+        "infos": 238,
         "impacts": {
-          "advisory": 247,
+          "advisory": 251,
           "decision": 1,
           "incomplete": 182,
-          "readability": 18
+          "readability": 8
         }
       },
       "files": [
@@ -449,13 +449,13 @@
       "title": "NIST FTC-07",
       "review": {
         "errors": 78,
-        "warnings": 86,
-        "infos": 119,
+        "warnings": 62,
+        "infos": 68,
         "impacts": {
-          "advisory": 148,
+          "advisory": 84,
           "decision": 1,
           "incomplete": 113,
-          "readability": 21
+          "readability": 10
         }
       },
       "files": [
@@ -470,14 +470,14 @@
       "step": "steps/nist/nist_ftc_08_asme1_ap242-e2.stp",
       "title": "NIST FTC-08",
       "review": {
-        "errors": 85,
-        "warnings": 124,
-        "infos": 124,
+        "errors": 86,
+        "warnings": 175,
+        "infos": 57,
         "impacts": {
-          "advisory": 138,
+          "advisory": 101,
           "decision": 1,
-          "incomplete": 90,
-          "readability": 104
+          "incomplete": 96,
+          "readability": 120
         }
       },
       "files": [
@@ -493,13 +493,13 @@
       "title": "NIST FTC-10",
       "review": {
         "errors": 87,
-        "warnings": 173,
-        "infos": 71,
+        "warnings": 149,
+        "infos": 67,
         "impacts": {
-          "advisory": 158,
+          "advisory": 152,
           "decision": 1,
           "incomplete": 98,
-          "readability": 74
+          "readability": 52
         }
       },
       "files": [
@@ -515,13 +515,13 @@
       "title": "NIST FTC-11",
       "review": {
         "errors": 15,
-        "warnings": 21,
+        "warnings": 19,
         "infos": 20,
         "impacts": {
           "advisory": 20,
           "decision": 1,
           "incomplete": 26,
-          "readability": 9
+          "readability": 7
         }
       },
       "files": [
@@ -537,13 +537,13 @@
       "title": "NIST STC-06",
       "review": {
         "errors": 56,
-        "warnings": 54,
+        "warnings": 47,
         "infos": 907,
         "impacts": {
-          "advisory": 930,
+          "advisory": 929,
           "decision": 1,
           "incomplete": 66,
-          "readability": 20
+          "readability": 14
         }
       },
       "files": [
@@ -559,13 +559,13 @@
       "title": "NIST STC-07",
       "review": {
         "errors": 144,
-        "warnings": 50,
-        "infos": 90,
+        "warnings": 44,
+        "infos": 34,
         "impacts": {
-          "advisory": 97,
+          "advisory": 41,
           "decision": 1,
           "incomplete": 177,
-          "readability": 9
+          "readability": 3
         }
       },
       "files": [
@@ -582,9 +582,9 @@
       "review": {
         "errors": 100,
         "warnings": 39,
-        "infos": 138,
+        "infos": 139,
         "impacts": {
-          "advisory": 149,
+          "advisory": 150,
           "decision": 1,
           "incomplete": 112,
           "readability": 15
@@ -602,14 +602,14 @@
       "step": "steps/nist/nist_stc_09_asme1_ap242-e4.stp",
       "title": "NIST STC-09",
       "review": {
-        "errors": 40,
-        "warnings": 386,
-        "infos": 93,
+        "errors": 36,
+        "warnings": 217,
+        "infos": 62,
         "impacts": {
-          "advisory": 236,
+          "advisory": 141,
           "decision": 1,
           "incomplete": 54,
-          "readability": 228
+          "readability": 119
         }
       },
       "files": [
@@ -625,13 +625,13 @@
       "title": "NIST STC-10",
       "review": {
         "errors": 82,
-        "warnings": 154,
+        "warnings": 112,
         "infos": 65,
         "impacts": {
-          "advisory": 148,
+          "advisory": 142,
           "decision": 1,
           "incomplete": 97,
-          "readability": 55
+          "readability": 19
         }
       },
       "files": [
@@ -647,13 +647,13 @@
       "title": "DIN 471 M10 retaining ring",
       "review": {
         "errors": 0,
-        "warnings": 4,
+        "warnings": 2,
         "infos": 13,
         "impacts": {
-          "advisory": 14,
+          "advisory": 13,
           "decision": 1,
           "incomplete": 1,
-          "readability": 1
+          "readability": 0
         }
       },
       "files": [
@@ -669,13 +669,13 @@
       "title": "SHF08 shaft support",
       "review": {
         "errors": 0,
-        "warnings": 6,
-        "infos": 6,
+        "warnings": 7,
+        "infos": 4,
         "impacts": {
-          "advisory": 6,
+          "advisory": 4,
           "decision": 1,
           "incomplete": 5,
-          "readability": 0
+          "readability": 1
         }
       },
       "files": [
@@ -692,9 +692,9 @@
       "review": {
         "errors": 0,
         "warnings": 4,
-        "infos": 3,
+        "infos": 2,
         "impacts": {
-          "advisory": 6,
+          "advisory": 5,
           "decision": 1,
           "incomplete": 0,
           "readability": 0
@@ -912,9 +912,9 @@
       "review": {
         "errors": 0,
         "warnings": 10,
-        "infos": 1,
+        "infos": 2,
         "impacts": {
-          "advisory": 9,
+          "advisory": 10,
           "decision": 1,
           "incomplete": 0,
           "readability": 1
@@ -961,8 +961,8 @@
         "failed_parts": 0,
         "ga_failed": false,
         "errors": 0,
-        "warnings": 23,
-        "infos": 13
+        "warnings": 24,
+        "infos": 14
       },
       "files": [
         "t2c-motorcycle-shock-absorber-pack.csv",
@@ -978,13 +978,13 @@
       "title": "Mounting plate",
       "review": {
         "errors": 0,
-        "warnings": 3,
+        "warnings": 1,
         "infos": 1,
         "impacts": {
           "advisory": 1,
           "decision": 1,
           "incomplete": 0,
-          "readability": 2
+          "readability": 0
         }
       },
       "files": [
@@ -1177,13 +1177,13 @@
       "title": "T8 flange nut",
       "review": {
         "errors": 0,
-        "warnings": 3,
+        "warnings": 4,
         "infos": 3,
         "impacts": {
           "advisory": 3,
           "decision": 1,
           "incomplete": 2,
-          "readability": 0
+          "readability": 1
         }
       },
       "files": [
@@ -1221,13 +1221,13 @@
       "title": "2020 V-slot extrusion x 50",
       "review": {
         "errors": 0,
-        "warnings": 12,
+        "warnings": 10,
         "infos": 9,
         "impacts": {
           "advisory": 9,
           "decision": 1,
           "incomplete": 9,
-          "readability": 2
+          "readability": 0
         }
       },
       "files": [

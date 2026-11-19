@@ -33,6 +33,7 @@
    "subjects": [
     "f:chamfer:f1"
    ],
+   "tier": "fix_before_printing",
    "view": "v:front"
   }
  ],
@@ -46,7 +47,8 @@
    "severity": "info",
    "subjects": [
     "f:boss:f0"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "possible_thread",
@@ -57,7 +59,8 @@
    "severity": "info",
    "subjects": [
     "f:hole:f11"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "general_tolerance_missing",
@@ -92,7 +95,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "nominal_rounded",
@@ -103,7 +107,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/depth.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -114,7 +119,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f11/location.length.y"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -128,7 +134,8 @@
     "face:4",
     "face:9",
     "face:10"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "label_section_furniture_overlap",
@@ -140,19 +147,8 @@
    "subjects": [
     "d:f:hole:f11/location.length.y",
     "v:section_aa"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:envelope/profile_angle.angle.f10|ink:v:plan:cut:A:arrow:1",
-   "impact": "advisory",
-   "message": "The dimension 6\u00d7 120\u00b0 is less than 0.5 mm from the section A cutting-plane arrowhead, so it reads as part of the mark.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/profile_angle.angle.f10",
-    "v:section_aa"
-   ]
+   ],
+   "tier": "fix_before_printing"
   }
  ],
  "structural": [],
@@ -160,7 +156,6 @@
   "groups": {
    "chamfer_leader_target_unverifiable": 1,
    "general_tolerance_missing": 1,
-   "label_crowded": 1,
    "label_section_furniture_overlap": 1,
    "nominal_rounded": 2,
    "possible_thread:boss": 1,
@@ -169,8 +164,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 7,
-    "groups": 6
+    "findings": 6,
+    "groups": 5
    },
    "decision": {
     "findings": 1,

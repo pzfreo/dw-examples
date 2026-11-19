@@ -133,7 +133,8 @@
    "severity": "warning",
    "subjects": [
     "f:slot_pattern:f19"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "slot_requirement_missing",
@@ -156,7 +157,8 @@
    "severity": "warning",
    "subjects": [
     "f:slot_pattern:f19"
-   ]
+   ],
+   "tier": "fix_before_printing"
   }
  ],
  "problems": [
@@ -170,7 +172,8 @@
     "Pad"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "general_tolerance_missing",
@@ -205,40 +208,538 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "extension_line"
+   ],
+   "group": "annotation_leader_crossing:extension_line",
+   "id": "p:annotation_leader_crossing:d:f:slot:f8/slot_width.length|d:f:hole_pattern:f43/location.length.x",
+   "impact": "advisory",
+   "message": "The leader of 2\u00d7 SLOT 5 \u00d7 25 crosses a line of 52.6.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:f8/slot_width.length",
+    "d:f:hole_pattern:f43/location.length.x"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "leader_through_feature",
+   "group": "leader_through_feature",
+   "id": "p:leader_through_feature:d:f:hole_pattern:f16/bore.diameter|f:slot:f27:line:0",
+   "impact": "readability",
+   "message": "The leader of 3\u00d7 \u23007.2 THRU crosses the 3 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f16/bore.diameter",
+    "f:slot:f27"
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
    "fix": [
     {
      "op": "set",
-     "path": "hole_table",
-     "value": "always"
+     "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 2\u00d7 20 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The labels of 2\u00d7 20 and 12.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap].",
      "ops": [
       {
        "op": "set",
-       "path": "hole_table",
-       "value": "always"
+       "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
       }
      ],
-     "scope": "sheet"
+     "scope": "local"
     }
    ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f16/pitch.length|f:hole:f43:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 2\u00d7 20 crosses the \u23005.1 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f16/pitch.length",
+    "f:hole:f43"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 20 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The labels of 2\u00d7 20 and 12.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f16/pitch.length|f:slot:f12:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 2\u00d7 20 crosses the 5 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f16/pitch.length",
+    "f:slot:f12"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 20 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The labels of 2\u00d7 20 and 12.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f16/pitch.length|f:hole:f47:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 2\u00d7 20 crosses the \u23005.1 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f16/pitch.length",
+    "f:hole:f47"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 20 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The labels of 2\u00d7 20 and 12.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f16/pitch.length|f:hole:f51:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 2\u00d7 20 crosses the \u23005.1 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f16/pitch.length",
+    "f:hole:f51"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 20 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The labels of 2\u00d7 20 and 12.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f16/pitch.length|f:hole:f52:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 2\u00d7 20 crosses the \u23005.1 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f16/pitch.length",
+    "f:hole:f52"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 2\u00d7 20 dimension to the left of the plan view, nearest the view. Trade-off: adds these findings: The labels of 2\u00d7 20 and 12.75 overlap; line-work also crosses a label, so separating the text is not enough: move what is drawn, not just the text. [annotation_overlap].",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f16~1pitch.length/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f16/pitch.length|f:hole:f53:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 2\u00d7 20 crosses the \u23005.1 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f16/pitch.length",
+    "f:hole:f53"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:f:hole:f46/location.length.x|f:slot:f35:line:1",
    "impact": "advisory",
@@ -247,40 +748,11 @@
    "subjects": [
     "d:f:hole:f46/location.length.x",
     "f:slot:f35"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:f:hole:f52/location.length.x|f:slot:f8:line:1",
    "impact": "advisory",
@@ -289,40 +761,11 @@
    "subjects": [
     "d:f:hole:f52/location.length.x",
     "f:slot:f8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:f:hole:f48/location.length.x|f:slot:f23:line:1",
    "impact": "advisory",
@@ -331,40 +774,11 @@
    "subjects": [
     "d:f:hole:f48/location.length.x",
     "f:slot:f23"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:f:hole:f48/location.length.x|f:slot:f8:line:1",
    "impact": "advisory",
@@ -373,40 +787,11 @@
    "subjects": [
     "d:f:hole:f48/location.length.x",
     "f:slot:f8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:f:hole:f53/location.length.x|f:slot:f8:line:1",
    "impact": "advisory",
@@ -415,40 +800,11 @@
    "subjects": [
     "d:f:hole:f53/location.length.x",
     "f:slot:f8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:f:hole_pattern:f43/location.length.x|f:slot:f19:line:1",
    "impact": "advisory",
@@ -457,40 +813,11 @@
    "subjects": [
     "d:f:hole_pattern:f43/location.length.x",
     "f:slot:f19"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
    "group": "extension_through_feature",
    "id": "p:extension_through_feature:d:f:hole:f50/location.length.y|f:hole:f49:line:1",
    "impact": "advisory",
@@ -499,80 +826,92 @@
    "subjects": [
     "d:f:hole:f50/location.length.y",
     "f:hole:f49"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:f51/location.length.y|f:hole:f18:line:1",
+   "id": "p:extension_through_feature:d:f:hole:f51/location.length.y|f:hole:f47:line:1",
    "impact": "advisory",
-   "message": "The second extension line of 32.75 crosses the \u23007.2 hole.",
+   "message": "The second extension line of 32.75 crosses the \u23005.1 hole.",
    "severity": "warning",
    "subjects": [
     "d:f:hole:f51/location.length.y",
-    "f:hole:f18"
-   ]
+    "f:hole:f47"
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
    "fix": [
     {
      "op": "set",
-     "path": "hole_table",
-     "value": "always"
+     "path": "dimensions/d:f:hole:f46~1location.length.y/place",
+     "value": {
+      "along": "middle",
+      "lane": 1,
+      "side": "left",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "A4"
     },
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:1"
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 42.75 dimension to the left of the plan view, in the second row of dimensions.",
      "ops": [
       {
        "op": "set",
-       "path": "hole_table",
-       "value": "always"
+       "path": "dimensions/d:f:hole:f46~1location.length.y/place",
+       "value": {
+        "along": "middle",
+        "lane": 1,
+        "side": "left",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "A4"
       },
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:1"
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
       }
      ],
-     "scope": "sheet"
+     "scope": "local"
     }
    ],
    "group": "extension_through_feature",
@@ -583,64 +922,51 @@
    "subjects": [
     "d:f:hole:f46/location.length.y",
     "f:hole:f45"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
    "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:f8/location_slot_across.length|f:hole:f16:line:1",
+   "id": "p:extension_through_feature:d:f:slot:f8/location_slot_across.length|f:hole:f44:line:1",
    "impact": "advisory",
-   "message": "The second extension line of 52.75 crosses the \u23007.2 hole.",
+   "message": "The second extension line of 52.75 crosses the \u23005.1 hole.",
    "severity": "warning",
    "subjects": [
     "d:f:slot:f8/location_slot_across.length",
-    "f:hole:f16"
-   ]
+    "f:hole:f44"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "automatic_scale_limited",
+   "group": "automatic_scale_limited",
+   "id": "p:automatic_scale_limited:sheet",
+   "impact": "advisory",
+   "message": "Automatic scale kept at 1:2 on A4. A4 at 1:1 was not used: Annotation ink impairs the legibility of another annotation; leader-through-text is included.",
+   "severity": "info",
+   "subjects": [
+    "sheet"
+   ],
+   "tier": "information"
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
+   "annotation_leader_crossing:extension_line": 1,
+   "automatic_scale_limited": 1,
    "coincident_bodies": 1,
-   "extension_through_feature": 10,
+   "extension_through_feature": 16,
    "general_tolerance_missing": 1,
+   "leader_through_feature": 1,
    "slot_requirement_missing:location_slot_pattern.length.x": 1,
    "slot_requirement_missing:location_slot_pattern.length.y": 1
   },
   "impacts": {
    "advisory": {
-    "findings": 11,
-    "groups": 2
+    "findings": 19,
+    "groups": 4
    },
    "decision": {
     "findings": 1,
@@ -651,8 +977,8 @@
     "groups": 2
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    }
   }
  }

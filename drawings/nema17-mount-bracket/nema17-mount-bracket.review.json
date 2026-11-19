@@ -61,6 +61,7 @@
    "subjects": [
     "f:fillet:f6"
    ],
+   "tier": "tidy",
    "view": "v:front"
   },
   {
@@ -82,6 +83,7 @@
    "subjects": [
     "f:blend:f22"
    ],
+   "tier": "tidy",
    "view": "v:front"
   }
  ],
@@ -119,7 +121,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_through_feature",
@@ -131,7 +134,8 @@
    "subjects": [
     "d:f:slot:f12/location_slot_across.length",
     "f:hole:f38"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -143,7 +147,8 @@
    "subjects": [
     "d:f:slot:f12/location_slot_across.length",
     "f:hole:f42"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "unclaimed_geometry",
@@ -159,7 +164,8 @@
     "face:31",
     "face:33",
     "face:36"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "extension_off_centreline",
@@ -171,7 +177,8 @@
    "subjects": [
     "d:f:slot:f12/location_slot_across.length",
     "f:hole:f38"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_off_centreline",
@@ -183,7 +190,8 @@
    "subjects": [
     "d:f:hole:f40/location.length.z",
     "f:hole_pattern:f38"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_off_centreline",
@@ -195,7 +203,8 @@
    "subjects": [
     "d:f:hole_pattern:f38/location.length.z",
     "f:hole:f40"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -207,7 +216,8 @@
    "subjects": [
     "d:f:blend:f22/blend.radius",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

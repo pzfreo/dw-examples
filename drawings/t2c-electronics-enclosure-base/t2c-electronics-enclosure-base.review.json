@@ -44,11 +44,12 @@
    "message": "Unrecognised features on this part: 1 thin wall body. This feature is not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "thin_wall_bodies",
-    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.4 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "general_tolerance_missing",
@@ -83,7 +84,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "unclaimed_geometry",
@@ -97,7 +99,8 @@
     "face:13",
     "face:14",
     "face:15"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "label_crowded",
@@ -109,7 +112,8 @@
    "subjects": [
     "d:f:hole_pattern:f3/location.length.y",
     "d:f:hole_pattern:f3/grid_pitch.length.row"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -121,7 +125,8 @@
    "subjects": [
     "d:f:hole_pattern:f3/grid_pitch.length.row",
     "v:section_aa"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

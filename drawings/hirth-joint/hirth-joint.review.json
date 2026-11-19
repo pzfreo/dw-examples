@@ -24,11 +24,12 @@
    "refs": [
     "circular_face_patterns",
     "freeform_surfaces",
-    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.4 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "general_tolerance_missing",
@@ -63,7 +64,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "nominal_rounded",
@@ -74,7 +76,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/height.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -85,7 +88,8 @@
    "severity": "info",
    "subjects": [
     "face:1"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [],

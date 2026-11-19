@@ -25,7 +25,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -38,7 +39,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -51,7 +53,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -64,7 +67,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -77,7 +81,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -90,7 +95,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -103,7 +109,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "angular_requirement_missing",
@@ -126,7 +133,8 @@
    "severity": "warning",
    "subjects": [
     "outer_profile:f20:e49:e45"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -139,7 +147,8 @@
    "sources": [
     "dimension:#110"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -152,7 +161,8 @@
    "sources": [
     "attribute_set:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -165,7 +175,8 @@
    "sources": [
     "attribute_set:0:1"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -178,7 +189,8 @@
    "sources": [
     "attribute_set:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -191,7 +203,8 @@
    "sources": [
     "attribute_set:0:3"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -204,7 +217,8 @@
    "sources": [
     "attribute_set:0:4"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -217,7 +231,8 @@
    "sources": [
     "attribute_set:0:5"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -230,7 +245,8 @@
    "sources": [
     "finding:#281"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -243,7 +259,8 @@
    "sources": [
     "finding:#283"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -256,7 +273,8 @@
    "sources": [
     "dimension:#110"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -269,7 +287,8 @@
    "sources": [
     "dimension:#112"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -282,7 +301,8 @@
    "sources": [
     "dimension:#113"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -295,7 +315,8 @@
    "sources": [
     "geometric_tolerance:#52"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -308,7 +329,8 @@
    "sources": [
     "geometric_tolerance:#53"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -321,7 +343,8 @@
    "sources": [
     "geometric_tolerance:#72"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -334,7 +357,8 @@
    "sources": [
     "geometric_tolerance:#78"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "annotation": "d:f:cylindrical_profile:f13/cylindrical_profile.radius",
@@ -355,6 +379,7 @@
    "subjects": [
     "f:cylindrical_profile:f13"
    ],
+   "tier": "tidy",
    "view": "v:plan"
   },
   {
@@ -376,6 +401,7 @@
    "subjects": [
     "f:cylindrical_profile:f17"
    ],
+   "tier": "tidy",
    "view": "v:plan"
   }
  ],
@@ -413,7 +439,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "datum_origin_unusable",
@@ -425,7 +452,8 @@
     "datum:#54"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -440,7 +468,8 @@
     "graphical_text:\"Arc Length Dimension (14)\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -455,7 +484,8 @@
     "graphical_text:\"Radial Dimension (11)\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -470,7 +500,8 @@
     "graphical_text:\"Radial Dimension (21)\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "angular_dimension_dropped",
@@ -481,7 +512,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/profile_angle.angle.f20_e49_e45"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "pmi_not_extracted",
@@ -497,7 +529,8 @@
     "graphical_text:\"Radial Dimension (11)\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -513,7 +546,8 @@
     "graphical_text:\"Radial Dimension (21)\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -529,7 +563,8 @@
     "graphical_text:\"Linear Dimension (5)\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -545,7 +580,8 @@
     "graphical_text:\"Linear Dimension (6)\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -561,7 +597,8 @@
     "graphical_text:\"Cutting Plane Symbol B (1)\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -577,7 +614,8 @@
     "graphical_text:\"Note (22)\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -593,7 +631,8 @@
     "graphical_text:\"Cutting Plane Symbol B (1)\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -609,7 +648,8 @@
     "graphical_text:\"Note (22)\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -624,7 +664,8 @@
     "graphical_text:\"Feature Control Frame (16)\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -639,7 +680,8 @@
     "graphical_text:\"Feature Control Frame (18)\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -654,7 +696,8 @@
     "graphical_text:\"Feature Control Frame (15)\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -669,7 +712,8 @@
     "graphical_text:\"Feature Control Frame (7)\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "annotation_leader_crossing",
@@ -690,7 +734,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the R0.082 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.082 crosses a line of 31.5. [annotation_leader_crossing] The leader of R0.082 crosses a line of R0.215. [annotation_leader_crossing] The leader of R0.215 crosses a line of R0.082. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the R0.082 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.082 crosses a line of 31.5. [annotation_leader_crossing] The leader of R0.082 crosses a line of R0.826. [annotation_leader_crossing] The leader of R0.082 crosses a line of R0.215. [annotation_leader_crossing] The leader of R0.826 crosses a line of R0.082. [annotation_leader_crossing] The leader of R0.215 crosses a line of R0.082. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -730,68 +774,8 @@
    "subjects": [
     "d:f:cylindrical_profile:f13/cylindrical_profile.radius",
     "d:f:cylindrical_profile:f17/cylindrical_profile.radius"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "arrow"
    ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:cylindrical_profile:f13~1cylindrical_profile.radius/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "plan"
-     }
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the R0.082 callout to the left of the plan view, nearest the view. Trade-off: adds these findings: R0.082 runs up to 6.0 mm past the area reserved for the plan view and its bands; it may crowd what lies beyond. [annotation_outside_area] The leader of R0.082 crosses a line of 31.5. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:cylindrical_profile:f13~1cylindrical_profile.radius/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "plan"
-       }
-      }
-     ],
-     "scope": "sheet"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:f13/cylindrical_profile.radius|d:f:fillet:f23/fillet.radius",
-   "impact": "readability",
-   "message": "The leader of R0.082 crosses a line of R0.826.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:cylindrical_profile:f13/cylindrical_profile.radius",
-    "d:f:fillet:f23/fillet.radius"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -812,7 +796,7 @@
    ],
    "fixes": [
     {
-     "description": "Move the R0.692 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.692 crosses a line of 31.5. [annotation_leader_crossing] The leader of R0.692 crosses a line of R0.215. [annotation_leader_crossing] The leader of R0.215 crosses a line of R0.692. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the R0.692 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.692 crosses a line of 31.5. [annotation_leader_crossing] The leader of R0.692 crosses a line of R0.215. [annotation_leader_crossing] The leader of R0.826 crosses a line of R0.692. [annotation_leader_crossing] The leader of R0.215 crosses a line of R0.692. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -852,12 +836,102 @@
    "subjects": [
     "d:f:cylindrical_profile:f17/cylindrical_profile.radius",
     "d:f:cylindrical_profile:f13/cylindrical_profile.radius"
-   ]
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "unclaimed_geometry",
+   "group": "unclaimed_geometry",
+   "id": "p:unclaimed_geometry:sheet",
+   "impact": "advisory",
+   "message": "Analysis features claim 23 of 42 faces; 19 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
+   "severity": "info",
+   "subjects": [
+    "face:0",
+    "face:1",
+    "face:3",
+    "face:4",
+    "face:6",
+    "face:7",
+    "face:9",
+    "face:12",
+    "face:15",
+    "face:18",
+    "face:20",
+    "face:21",
+    "face:26",
+    "face:27",
+    "face:30",
+    "face:33",
+    "face:35",
+    "face:36",
+    "face:41"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:step",
+   "id": "p:shape_not_recognised:face:0",
+   "impact": "incomplete",
+   "message": "Faces 0, 3, 4, 6, 7 form a turned step or land, its shoulder \u00f856.98, 63 \u00d7 63 \u00d7 1.5 mm at (0, 0, 0.75); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:step"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:0",
+    "face:3",
+    "face:4",
+    "face:6",
+    "face:7"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:cut",
+   "id": "p:shape_not_recognised:face:9",
+   "impact": "incomplete",
+   "message": "Faces 9, 12, 15, 18, 20 form a cut of 3.04 \u00d7 3.89 \u00d7 0.1 mm at (-23.6, -3.96, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:cut"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:9",
+    "face:12",
+    "face:15",
+    "face:18",
+    "face:20"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "shape_not_recognised",
+   "group": "shape_not_recognised:cut",
+   "id": "p:shape_not_recognised:face:21",
+   "impact": "incomplete",
+   "message": "Faces 21, 26, 27, 30, 33, 35, 36, 41 form a cut of 2.95 \u00d7 6.91 \u00d7 0.11 mm at (-23.56, 1.83, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
+   "refs": [
+    "shape:cut"
+   ],
+   "severity": "warning",
+   "subjects": [
+    "face:21",
+    "face:26",
+    "face:27",
+    "face:30",
+    "face:33",
+    "face:35",
+    "face:36",
+    "face:41"
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader",
     "arrow"
    ],
    "fix": [
@@ -865,24 +939,24 @@
      "op": "set",
      "path": "dimensions/d:f:cylindrical_profile:f17~1cylindrical_profile.radius/place",
      "value": {
-      "along": "middle",
+      "along": "start",
       "lane": 0,
-      "side": "above",
+      "side": "below",
       "view": "plan"
      }
     }
    ],
    "fixes": [
     {
-     "description": "Move the R0.692 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.692 crosses a line of 31.5. [annotation_leader_crossing] The leader of R0.692 crosses a line of R0.215. [annotation_leader_crossing] The leader of R0.215 crosses a line of R0.692. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the R0.692 callout below the plan view, nearest the view. Trade-off: adds these findings: A line of R0.692 runs through the label of R0.082. [annotation_ink_overlap]. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
        "path": "dimensions/d:f:cylindrical_profile:f17~1cylindrical_profile.radius/place",
        "value": {
-        "along": "middle",
+        "along": "start",
         "lane": 0,
-        "side": "above",
+        "side": "below",
         "view": "plan"
        }
       }
@@ -906,7 +980,7 @@
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:arrow+leader",
+   "group": "annotation_leader_crossing:arrow",
    "id": "p:annotation_leader_crossing:d:f:cylindrical_profile:f17/cylindrical_profile.radius|d:f:fillet:f23/fillet.radius",
    "impact": "readability",
    "message": "The leader of R0.692 crosses a line of R0.826.",
@@ -914,7 +988,8 @@
    "subjects": [
     "d:f:cylindrical_profile:f17/cylindrical_profile.radius",
     "d:f:fillet:f23/fillet.radius"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -968,25 +1043,25 @@
     }
    ],
    "group": "annotation_leader_crossing:arrow",
-   "id": "p:annotation_leader_crossing:d:f:fillet:f23/fillet.radius|d:f:cylindrical_profile:f13/cylindrical_profile.radius",
+   "id": "p:annotation_leader_crossing:d:f:fillet:f23/fillet.radius|d:f:blend:f39/blend.radius",
    "impact": "readability",
-   "message": "The leader of R0.826 crosses a line of R0.082.",
+   "message": "The leader of R0.826 crosses a line of R0.215.",
    "severity": "warning",
    "subjects": [
     "d:f:fillet:f23/fillet.radius",
-    "d:f:cylindrical_profile:f13/cylindrical_profile.radius"
-   ]
+    "d:f:blend:f39/blend.radius"
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "leader",
     "arrow"
    ],
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:f:fillet:f23~1fillet.radius/place",
+     "path": "dimensions/d:f:blend:f39~1blend.radius/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -997,11 +1072,11 @@
    ],
    "fixes": [
     {
-     "description": "Move the R0.826 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.826 crosses a line of 31.5. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the R0.215 callout above the plan view, nearest the view. Trade-off: adds these findings: The leader of R0.215 crosses a line of 31.5. [annotation_leader_crossing]. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:f:fillet:f23~1fillet.radius/place",
+       "path": "dimensions/d:f:blend:f39~1blend.radius/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -1029,113 +1104,16 @@
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:d:f:fillet:f23/fillet.radius|d:f:cylindrical_profile:f17/cylindrical_profile.radius",
+   "group": "annotation_leader_crossing:arrow",
+   "id": "p:annotation_leader_crossing:d:f:blend:f39/blend.radius|d:f:fillet:f23/fillet.radius",
    "impact": "readability",
-   "message": "The leader of R0.826 crosses a line of R0.692.",
+   "message": "The leader of R0.215 crosses a line of R0.826.",
    "severity": "warning",
    "subjects": [
-    "d:f:fillet:f23/fillet.radius",
-    "d:f:cylindrical_profile:f17/cylindrical_profile.radius"
-   ]
-  },
-  {
-   "code": "unclaimed_geometry",
-   "group": "unclaimed_geometry",
-   "id": "p:unclaimed_geometry:sheet",
-   "impact": "advisory",
-   "message": "Analysis features claim 23 of 42 faces; 19 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
-   "severity": "info",
-   "subjects": [
-    "face:0",
-    "face:1",
-    "face:3",
-    "face:4",
-    "face:6",
-    "face:7",
-    "face:9",
-    "face:12",
-    "face:15",
-    "face:18",
-    "face:20",
-    "face:21",
-    "face:26",
-    "face:27",
-    "face:30",
-    "face:33",
-    "face:35",
-    "face:36",
-    "face:41"
-   ]
-  },
-  {
-   "code": "shape_not_recognised",
-   "group": "shape_not_recognised:step",
-   "id": "p:shape_not_recognised:face:0",
-   "impact": "incomplete",
-   "message": "Faces 0, 3, 4, 6, 7 form a turned step or land, its shoulder \u00f856.98, 63 \u00d7 63 \u00d7 1.5 mm at (0, 0, 0.75); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
-   "refs": [
-    "shape:step"
+    "d:f:blend:f39/blend.radius",
+    "d:f:fillet:f23/fillet.radius"
    ],
-   "severity": "warning",
-   "subjects": [
-    "face:0",
-    "face:3",
-    "face:4",
-    "face:6",
-    "face:7"
-   ]
-  },
-  {
-   "code": "shape_not_recognised",
-   "group": "shape_not_recognised:cut",
-   "id": "p:shape_not_recognised:face:9",
-   "impact": "incomplete",
-   "message": "Faces 9, 12, 15, 18, 20 form a cut of 3.04 \u00d7 3.89 \u00d7 0.1 mm at (-23.6, -3.96, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
-   "refs": [
-    "shape:cut"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "face:9",
-    "face:12",
-    "face:15",
-    "face:18",
-    "face:20"
-   ]
-  },
-  {
-   "code": "shape_not_recognised",
-   "group": "shape_not_recognised:cut",
-   "id": "p:shape_not_recognised:face:21",
-   "impact": "incomplete",
-   "message": "Faces 21, 26, 27, 30, 33, 35, 36, 41 form a cut of 2.95 \u00d7 6.91 \u00d7 0.11 mm at (-23.56, 1.83, 0.38); recognition does not give it, so it is neither sized nor located. If it is a hole, boss, turned step, slot or pocket, declare it in the Spec's feature_declarations using its face fingerprints; otherwise state it with a note or feature control frame on one of its faces in the Spec's faces, which withdraws this warning.",
-   "refs": [
-    "shape:cut"
-   ],
-   "severity": "warning",
-   "subjects": [
-    "face:21",
-    "face:26",
-    "face:27",
-    "face:30",
-    "face:33",
-    "face:35",
-    "face:36",
-    "face:41"
-   ]
-  },
-  {
-   "code": "leader_across_view",
-   "group": "leader_across_view",
-   "id": "p:leader_across_view:d:f:fillet:f23/fillet.radius",
-   "impact": "readability",
-   "message": "The leader of R0.826 runs 37.2 mm across the plan view, crossing 7 of its lines where a leader leaving the other way would cross 3.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:fillet:f23/fillet.radius",
-    "v:plan"
-   ]
+   "tier": "tidy"
   }
  ],
  "structural": [
@@ -1146,18 +1124,17 @@
    "impact": "advisory",
    "message": "1 dimension(s) print a nominal the model does not have, rounded to the sheet's precision; the largest is '1.925 \u00b10.08' for 1.9300 (0.0050 mm). Within a general tolerance this is ordinary. Where a fit depends on it, the dimension needs more places (set precision for its measurement ID)",
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   }
  ],
  "summary": {
   "groups": {
    "angular_dimension_dropped": 1,
    "angular_requirement_missing:profile_angle.angle": 1,
-   "annotation_leader_crossing:arrow": 4,
-   "annotation_leader_crossing:arrow+leader": 2,
+   "annotation_leader_crossing:arrow": 5,
    "datum_origin_unusable": 1,
    "general_tolerance_missing": 1,
-   "leader_across_view": 1,
    "nominal_rounded": 1,
    "pmi_not_extracted": 6,
    "pmi_not_extracted:dimension": 1,
@@ -1188,8 +1165,8 @@
     "groups": 9
    },
    "readability": {
-    "findings": 9,
-    "groups": 4
+    "findings": 7,
+    "groups": 2
    }
   }
  }

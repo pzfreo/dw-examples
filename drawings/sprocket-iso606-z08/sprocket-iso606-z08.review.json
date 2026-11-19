@@ -47,6 +47,7 @@
     "f:cylindrical_profile:f29",
     "f:cylindrical_profile:f30"
    ],
+   "tier": "tidy",
    "view": "v:plan"
   },
   {
@@ -70,6 +71,7 @@
     "f:fillet:f2",
     "f:fillet:f4"
    ],
+   "tier": "fix_before_printing",
    "view": "v:front"
   }
  ],
@@ -107,7 +109,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "nominal_rounded",
@@ -118,7 +121,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/depth.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -129,7 +133,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/width.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -140,7 +145,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f93/location.length.x"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -151,7 +157,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f93/location.length.y"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -179,7 +186,8 @@
     "face:82",
     "face:89",
     "face:92"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "label_crowded",
@@ -191,7 +199,8 @@
    "subjects": [
     "d:f:cylindrical_profile:f70/cylindrical_profile.radius",
     "d:f:cylindrical_profile:f18/cylindrical_profile.radius"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

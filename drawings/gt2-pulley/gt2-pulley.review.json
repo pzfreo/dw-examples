@@ -41,7 +41,8 @@
     "PoleaGT2"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "general_tolerance_missing",
@@ -76,7 +77,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_through_feature",
@@ -118,7 +120,8 @@
    "subjects": [
     "d:f:hole:f50/location.length.z",
     "f:hole:f49"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "unclaimed_geometry",
@@ -150,7 +153,8 @@
     "face:41",
     "face:44",
     "face:48"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "shape_not_recognised",
@@ -183,7 +187,8 @@
     "face:37",
     "face:39",
     "face:41"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],
