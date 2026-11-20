@@ -613,7 +613,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -626,7 +627,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -639,7 +641,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "section_recess_recognition_refused",
@@ -652,7 +655,8 @@
    "message": "section recess recognition on body 0 refused: unsupported_support_geometry",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "annotation": "d:f:section_recess:f469/seat_location.location.y",
@@ -678,6 +682,7 @@
    "subjects": [
     "f:section_recess:f469"
    ],
+   "tier": "fix_before_printing",
    "view": "v:plan"
   },
   {
@@ -704,6 +709,7 @@
    "subjects": [
     "f:section_recess:f469"
    ],
+   "tier": "fix_before_printing",
    "view": "v:front"
   },
   {
@@ -730,6 +736,7 @@
    "subjects": [
     "f:section_recess:f473"
    ],
+   "tier": "fix_before_printing",
    "view": "v:plan"
   },
   {
@@ -756,6 +763,7 @@
    "subjects": [
     "f:section_recess:f473"
    ],
+   "tier": "fix_before_printing",
    "view": "v:front"
   },
   {
@@ -769,7 +777,8 @@
    "message": "dimension-relevant source geometry is absent from recognised IR: unsupported internal profile on a principal boundary face",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -797,7 +806,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f106"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -827,7 +837,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f109"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -858,7 +869,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f109"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -886,7 +898,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f114"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -915,7 +928,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f114"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -943,7 +957,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f121"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -973,7 +988,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f124"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -1004,7 +1020,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f124"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -1032,7 +1049,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f129"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -1061,7 +1079,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f129"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -1091,7 +1110,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f208"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -1122,7 +1142,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f208"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -1152,7 +1173,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f213"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -1183,7 +1205,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f213"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_pattern_requirement_missing",
@@ -1212,7 +1235,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole_pattern:f218"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1225,7 +1249,8 @@
    "sources": [
     "dimension:#403"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1238,7 +1263,8 @@
    "sources": [
     "dimension:#404"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1251,7 +1277,8 @@
    "sources": [
     "dimension:#405"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1264,7 +1291,8 @@
    "sources": [
     "dimension:#406"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1277,7 +1305,8 @@
    "sources": [
     "dimension:#407"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1290,7 +1319,8 @@
    "sources": [
     "dimension:#408"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1303,7 +1333,8 @@
    "sources": [
     "dimension:#409"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1316,7 +1347,8 @@
    "sources": [
     "geometric_tolerance:#53"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1329,7 +1361,8 @@
    "sources": [
     "geometric_tolerance:#56"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1342,7 +1375,8 @@
    "sources": [
     "geometric_tolerance:#57"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1355,7 +1389,8 @@
    "sources": [
     "geometric_tolerance:#58"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1368,7 +1403,8 @@
    "sources": [
     "geometric_tolerance:#59"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1381,7 +1417,8 @@
    "sources": [
     "geometric_tolerance:#60"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1394,7 +1431,8 @@
    "sources": [
     "geometric_tolerance:#62"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1407,7 +1445,8 @@
    "sources": [
     "geometric_tolerance:#63"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1420,7 +1459,8 @@
    "sources": [
     "geometric_tolerance:#65"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1433,7 +1473,8 @@
    "sources": [
     "geometric_tolerance:#67"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1446,7 +1487,8 @@
    "sources": [
     "geometric_tolerance:#68"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1459,7 +1501,8 @@
    "sources": [
     "geometric_tolerance:#69"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1472,7 +1515,8 @@
    "sources": [
     "geometric_tolerance:#81"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1485,7 +1529,8 @@
    "sources": [
     "geometric_tolerance:#82"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1498,7 +1543,8 @@
    "sources": [
     "geometric_tolerance:#183"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1511,7 +1557,8 @@
    "sources": [
     "geometric_tolerance:#184"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1524,7 +1571,8 @@
    "sources": [
     "geometric_tolerance:#185"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1537,7 +1585,8 @@
    "sources": [
     "datum:#125"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1550,7 +1599,8 @@
    "sources": [
     "datum:#126"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1563,7 +1613,8 @@
    "sources": [
     "datum:#127"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1576,7 +1627,8 @@
    "sources": [
     "datum:#79"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1589,7 +1641,8 @@
    "sources": [
     "datum:#134"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1602,7 +1655,8 @@
    "sources": [
     "surface_label:#22163"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1615,7 +1669,8 @@
    "sources": [
     "attribute_set:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1628,7 +1683,8 @@
    "sources": [
     "attribute_set:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1641,7 +1697,8 @@
    "sources": [
     "attribute_set:0:3"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1654,7 +1711,8 @@
    "sources": [
     "attribute_set:0:4"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1667,7 +1725,8 @@
    "sources": [
     "datum_target:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1680,7 +1739,8 @@
    "sources": [
     "datum_target:0:1"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1693,7 +1753,8 @@
    "sources": [
     "datum_target:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1706,7 +1767,8 @@
    "sources": [
     "datum_target:0:3"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1719,7 +1781,8 @@
    "sources": [
     "datum_target:0:4"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1732,7 +1795,8 @@
    "sources": [
     "datum_target:0:5"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1745,7 +1809,8 @@
    "sources": [
     "datum_target:0:6"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1758,7 +1823,8 @@
    "sources": [
     "datum_target:0:7"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1771,7 +1837,8 @@
    "sources": [
     "datum_target:0:8"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1784,7 +1851,8 @@
    "sources": [
     "finding:#488"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1797,7 +1865,8 @@
    "sources": [
     "finding:#490"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1810,7 +1879,8 @@
    "sources": [
     "finding:#492"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1823,7 +1893,8 @@
    "sources": [
     "finding:#494"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1836,7 +1907,8 @@
    "sources": [
     "finding:#495"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1849,7 +1921,8 @@
    "sources": [
     "finding:#498"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1862,7 +1935,8 @@
    "sources": [
     "finding:#1530"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1875,7 +1949,8 @@
    "sources": [
     "finding:#1531"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1888,7 +1963,8 @@
    "sources": [
     "finding:#1532"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1901,7 +1977,8 @@
    "sources": [
     "finding:#1554"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1914,7 +1991,8 @@
    "sources": [
     "finding:#22134"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1927,7 +2005,8 @@
    "sources": [
     "finding:#22136"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1940,7 +2019,8 @@
    "sources": [
     "finding:#22138"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1953,7 +2033,8 @@
    "sources": [
     "finding:#22140"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1966,7 +2047,8 @@
    "sources": [
     "finding:#22141"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1979,7 +2061,8 @@
    "sources": [
     "finding:#22142"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1992,7 +2075,8 @@
    "sources": [
     "finding:#22143"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2005,7 +2089,8 @@
    "sources": [
     "finding:#22144"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2018,7 +2103,8 @@
    "sources": [
     "finding:#22145"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2031,7 +2117,8 @@
    "sources": [
     "finding:#22146"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2044,7 +2131,8 @@
    "sources": [
     "finding:#22147"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2057,7 +2145,8 @@
    "sources": [
     "finding:#22148"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2070,7 +2159,8 @@
    "sources": [
     "finding:#22149"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2083,7 +2173,8 @@
    "sources": [
     "finding:#22150"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2096,7 +2187,8 @@
    "sources": [
     "finding:#22151"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2109,7 +2201,8 @@
    "sources": [
     "finding:#22152"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2122,7 +2215,8 @@
    "sources": [
     "finding:#22153"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2135,7 +2229,8 @@
    "sources": [
     "finding:#22154"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2148,7 +2243,8 @@
    "sources": [
     "finding:#1533"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2161,7 +2257,8 @@
    "sources": [
     "finding:#1534"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2174,7 +2271,8 @@
    "sources": [
     "finding:#1535"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2187,7 +2285,8 @@
    "sources": [
     "finding:#1536"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2200,7 +2299,8 @@
    "sources": [
     "finding:#1537"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2213,7 +2313,8 @@
    "sources": [
     "finding:#22134"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2226,7 +2327,8 @@
    "sources": [
     "finding:#22136"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2239,7 +2341,8 @@
    "sources": [
     "finding:#22138"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2252,7 +2355,8 @@
    "sources": [
     "finding:#22140"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2265,7 +2369,8 @@
    "sources": [
     "finding:#22141"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2278,7 +2383,8 @@
    "sources": [
     "finding:#22142"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2291,7 +2397,8 @@
    "sources": [
     "finding:#22143"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2304,7 +2411,8 @@
    "sources": [
     "finding:#22144"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2317,7 +2425,8 @@
    "sources": [
     "finding:#22145"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2330,7 +2439,8 @@
    "sources": [
     "finding:#22146"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2343,7 +2453,8 @@
    "sources": [
     "finding:#22147"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2356,7 +2467,8 @@
    "sources": [
     "finding:#22148"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2369,7 +2481,8 @@
    "sources": [
     "finding:#22149"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2382,7 +2495,8 @@
    "sources": [
     "finding:#22150"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2395,7 +2509,8 @@
    "sources": [
     "finding:#22151"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2408,7 +2523,8 @@
    "sources": [
     "finding:#22152"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2421,7 +2537,8 @@
    "sources": [
     "finding:#22153"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2434,7 +2551,8 @@
    "sources": [
     "finding:#22154"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -2447,7 +2565,8 @@
    "sources": [
     "dimension:#403"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2460,7 +2579,8 @@
    "sources": [
     "dimension:#404"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2473,7 +2593,8 @@
    "sources": [
     "dimension:#405"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2486,7 +2607,8 @@
    "sources": [
     "dimension:#406"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2499,7 +2621,8 @@
    "sources": [
     "dimension:#407"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2512,7 +2635,8 @@
    "sources": [
     "dimension:#408"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2525,7 +2649,8 @@
    "sources": [
     "dimension:#409"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2538,7 +2663,8 @@
    "sources": [
     "geometric_tolerance:#53"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2551,7 +2677,8 @@
    "sources": [
     "geometric_tolerance:#56"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2564,7 +2691,8 @@
    "sources": [
     "geometric_tolerance:#57"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2577,7 +2705,8 @@
    "sources": [
     "geometric_tolerance:#58"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2590,7 +2719,8 @@
    "sources": [
     "geometric_tolerance:#59"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2603,7 +2733,8 @@
    "sources": [
     "geometric_tolerance:#60"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2616,7 +2747,8 @@
    "sources": [
     "geometric_tolerance:#62"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2629,7 +2761,8 @@
    "sources": [
     "geometric_tolerance:#63"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2642,7 +2775,8 @@
    "sources": [
     "geometric_tolerance:#65"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2655,7 +2789,8 @@
    "sources": [
     "geometric_tolerance:#67"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2668,7 +2803,8 @@
    "sources": [
     "geometric_tolerance:#68"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2681,7 +2817,8 @@
    "sources": [
     "geometric_tolerance:#69"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2694,7 +2831,8 @@
    "sources": [
     "geometric_tolerance:#81"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2707,7 +2845,8 @@
    "sources": [
     "geometric_tolerance:#82"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2720,7 +2859,8 @@
    "sources": [
     "geometric_tolerance:#183"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2733,7 +2873,8 @@
    "sources": [
     "geometric_tolerance:#184"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2746,7 +2887,8 @@
    "sources": [
     "geometric_tolerance:#185"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2759,7 +2901,8 @@
    "sources": [
     "datum:#125"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2772,7 +2915,8 @@
    "sources": [
     "datum:#126"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2785,7 +2929,8 @@
    "sources": [
     "datum:#127"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2798,7 +2943,8 @@
    "sources": [
     "datum:#134"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2811,7 +2957,8 @@
    "sources": [
     "surface_label:#22163"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2834,7 +2981,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f106"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2857,7 +3005,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f107"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2880,7 +3029,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f108"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2903,7 +3053,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f109"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2926,7 +3077,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f110"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2949,7 +3101,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f111"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2972,7 +3125,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f112"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2995,7 +3149,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f113"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3018,7 +3173,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f114"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3041,7 +3197,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f115"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3064,7 +3221,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f116"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3087,7 +3245,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f117"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3110,7 +3269,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f118"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3133,7 +3293,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f119"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3156,7 +3317,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f120"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3179,7 +3341,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f121"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3202,7 +3365,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f122"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3225,7 +3389,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f123"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3248,7 +3413,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f124"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3271,7 +3437,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f125"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3294,7 +3461,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f126"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3317,7 +3485,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f127"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3340,7 +3509,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f128"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3363,7 +3533,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f129"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3386,7 +3557,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f130"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3409,7 +3581,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f131"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3432,7 +3605,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f132"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3455,7 +3629,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f133"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3478,7 +3653,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f134"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3501,7 +3677,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f135"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3524,7 +3701,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f165"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3547,7 +3725,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f165"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3570,7 +3749,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f167"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3593,7 +3773,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f167"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3616,7 +3797,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f169"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3639,7 +3821,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f169"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3662,7 +3845,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f171"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3685,7 +3869,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f171"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3708,7 +3893,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f173"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3731,7 +3917,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f173"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3754,7 +3941,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f175"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3777,7 +3965,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f175"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3800,7 +3989,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f177"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3823,7 +4013,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f177"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3846,7 +4037,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f179"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3869,7 +4061,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f179"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3892,7 +4085,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f181"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3915,7 +4109,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f181"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3938,7 +4133,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f183"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3961,7 +4157,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f183"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -3984,7 +4181,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f208"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4007,7 +4205,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f209"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4030,7 +4229,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f210"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4053,7 +4253,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f211"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4076,7 +4277,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f212"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4099,7 +4301,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f213"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4122,7 +4325,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f214"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4145,7 +4349,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f215"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4168,7 +4373,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f216"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4191,7 +4397,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f217"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4214,7 +4421,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f218"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4237,7 +4445,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f219"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4260,7 +4469,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f220"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4283,7 +4493,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f221"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4306,7 +4517,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f222"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4329,7 +4541,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f223"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4352,7 +4565,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f224"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4375,7 +4589,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f225"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4398,7 +4613,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f226"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4421,7 +4637,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f227"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4444,7 +4661,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f228"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4467,7 +4685,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f229"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4490,7 +4709,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f233"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4513,7 +4733,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f233"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4536,7 +4757,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f234"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4559,7 +4781,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f234"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4582,7 +4805,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f235"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4605,7 +4829,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f235"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4628,7 +4853,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f236"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4651,7 +4877,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f236"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4674,7 +4901,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f237"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4697,7 +4925,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f237"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4720,7 +4949,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f238"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4743,7 +4973,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f238"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4766,7 +4997,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f239"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4789,7 +5021,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f239"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4812,7 +5045,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f240"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4835,7 +5069,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f240"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4858,7 +5093,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f241"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4881,7 +5117,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f241"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4904,7 +5141,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f242"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4927,7 +5165,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f242"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4950,7 +5189,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f303"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4973,7 +5213,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f303"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -4996,7 +5237,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f469"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -5019,7 +5261,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f55"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -5042,7 +5285,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f65"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -5065,7 +5309,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f86"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -5088,7 +5333,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f88"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -5111,7 +5357,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f98"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -5134,7 +5381,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f98"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "annotation": "d:f:fillet:f627/fillet.radius",
@@ -5161,6 +5409,7 @@
     "f:fillet:f627",
     "f:fillet:f629"
    ],
+   "tier": "tidy",
    "view": "v:front"
   },
   {
@@ -5192,6 +5441,7 @@
     "f:fillet:f456",
     "f:fillet:f457"
    ],
+   "tier": "tidy",
    "view": "v:side"
   },
   {
@@ -5223,6 +5473,7 @@
     "f:fillet:f161",
     "f:fillet:f163"
    ],
+   "tier": "tidy",
    "view": "v:plan"
   },
   {
@@ -5294,6 +5545,7 @@
     "f:fillet:f630",
     "f:fillet:f631"
    ],
+   "tier": "fix_before_printing",
    "view": "v:plan"
   }
  ],
@@ -5306,11 +5558,12 @@
    "message": "Unrecognised features on this part: 34 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.4 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "general_tolerance_missing",
@@ -5345,7 +5598,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "hole_bottom_unknown",
@@ -5356,7 +5610,8 @@
    "severity": "info",
    "subjects": [
     "f:hole:f55"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_bottom_unknown",
@@ -5367,7 +5622,8 @@
    "severity": "info",
    "subjects": [
     "f:hole:f65"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_bottom_unknown",
@@ -5378,7 +5634,8 @@
    "severity": "info",
    "subjects": [
     "f:hole:f67"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_bottom_unknown",
@@ -5389,7 +5646,8 @@
    "severity": "info",
    "subjects": [
     "f:hole:f86"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_bottom_unknown",
@@ -5400,7 +5658,8 @@
    "severity": "info",
    "subjects": [
     "f:hole:f88"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_bottom_unknown",
@@ -5411,7 +5670,8 @@
    "severity": "info",
    "subjects": [
     "f:hole:f136"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -5423,7 +5683,8 @@
     "datum:#125"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -5435,7 +5696,8 @@
     "datum:#126"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -5447,7 +5709,8 @@
     "datum:#127"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -5459,7 +5722,8 @@
     "datum:#75"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -5471,7 +5735,8 @@
     "datum:#76"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -5483,7 +5748,8 @@
     "datum:#77"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -5495,7 +5761,8 @@
     "datum:#78"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "location_on_datum",
@@ -5504,7 +5771,8 @@
    "impact": "advisory",
    "message": "A feature lies on the selected datum; its location has no nonzero distance to draw.",
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -5519,7 +5787,8 @@
     "graphical_text:\"Linear Size.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -5534,7 +5803,8 @@
     "graphical_text:\"Linear Size.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -5549,7 +5819,8 @@
     "graphical_text:\"Linear Size.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -5564,7 +5835,8 @@
     "graphical_text:\"Linear Size.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -5579,7 +5851,8 @@
     "graphical_text:\"Linear Size.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -5594,7 +5867,8 @@
     "graphical_text:\"Linear Size.7\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -5609,7 +5883,8 @@
     "graphical_text:\"Linear Size.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5625,7 +5900,8 @@
     "graphical_text:\"Text.2\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5639,7 +5915,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5653,7 +5930,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5667,7 +5945,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5683,7 +5962,8 @@
     "graphical_text:\"Datum Target.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5699,7 +5979,8 @@
     "graphical_text:\"Datum Target.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5715,7 +5996,8 @@
     "graphical_text:\"Datum Target.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5731,7 +6013,8 @@
     "graphical_text:\"Datum Target.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5747,7 +6030,8 @@
     "graphical_text:\"Datum Target.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5763,7 +6047,8 @@
     "graphical_text:\"Datum Target.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5779,7 +6064,8 @@
     "graphical_text:\"Datum Target.7\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5795,7 +6081,8 @@
     "graphical_text:\"Datum Target.8\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5811,7 +6098,8 @@
     "graphical_text:\"Datum Target.10\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -5827,7 +6115,8 @@
     "graphical_text:\"Simple Datum.7\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5843,7 +6132,8 @@
     "graphical_text:\"Simple Datum.8\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5859,7 +6149,8 @@
     "graphical_text:\"Simple Datum.10\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5875,7 +6166,8 @@
     "graphical_text:\"Simple Datum.11\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5891,7 +6183,8 @@
     "graphical_text:\"Text.2\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5907,7 +6200,8 @@
     "graphical_text:\"Simple Datum.9\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5921,7 +6215,8 @@
     "haecceity nonconformance: shape aspect identifies no face or edge; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5935,7 +6230,8 @@
     "haecceity nonconformance: shape aspect identifies no face or edge; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5949,7 +6245,8 @@
     "haecceity nonconformance: shape aspect identifies no face or edge; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5965,7 +6262,8 @@
     "graphical_text:\"Text.1\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5979,7 +6277,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -5993,7 +6292,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6007,7 +6307,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6021,7 +6322,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6035,7 +6337,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6049,7 +6352,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6063,7 +6367,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6077,7 +6382,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6091,7 +6397,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6105,7 +6412,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6119,7 +6427,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6133,7 +6442,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6147,7 +6457,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6161,7 +6472,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6175,7 +6487,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6189,7 +6502,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6203,7 +6517,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6217,7 +6532,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6231,7 +6547,8 @@
     "haecceity not-modelled: CATIA Geometric Set: CATIA-specific, to be ignored by other systems (UDA practice \u00a76.3)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6245,7 +6562,8 @@
     "haecceity not-modelled: CATIA Geometric Set: CATIA-specific, to be ignored by other systems (UDA practice \u00a76.3)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6259,7 +6577,8 @@
     "haecceity not-modelled: CATIA Geometric Set: CATIA-specific, to be ignored by other systems (UDA practice \u00a76.3)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6273,7 +6592,8 @@
     "haecceity not-modelled: CATIA Geometric Set: CATIA-specific, to be ignored by other systems (UDA practice \u00a76.3)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6287,7 +6607,8 @@
     "haecceity not-modelled: CATIA Geometric Set: CATIA-specific, to be ignored by other systems (UDA practice \u00a76.3)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6301,7 +6622,8 @@
     "haecceity not-modelled: property \"\" (\"shape for solid data with which properties are associated\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6315,7 +6637,8 @@
     "haecceity not-modelled: property \"\" (\"shape for solid data with which properties are associated\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6329,7 +6652,8 @@
     "haecceity not-modelled: property \"\" (\"shape for solid data with which properties are associated\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6343,7 +6667,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6357,7 +6682,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6371,7 +6697,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6385,7 +6712,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6399,7 +6727,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6413,7 +6742,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6427,7 +6757,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6441,7 +6772,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6455,7 +6787,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6469,7 +6802,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6483,7 +6817,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6497,7 +6832,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6511,7 +6847,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6525,7 +6862,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -6539,7 +6877,8 @@
     "haecceity not-modelled: property \"\" (\"CATIA Geometric Set\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -6554,7 +6893,8 @@
     "graphical_text:\"Profile tolerance of any surface.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6569,7 +6909,8 @@
     "graphical_text:\"Position surfacic profile.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6584,7 +6925,8 @@
     "graphical_text:\"Position surfacic profile.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6599,7 +6941,8 @@
     "graphical_text:\"Position surfacic profile.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6614,7 +6957,8 @@
     "graphical_text:\"Position surfacic profile.9\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6629,7 +6973,8 @@
     "graphical_text:\"Position surfacic profile.10\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6644,7 +6989,8 @@
     "graphical_text:\"Position surfacic profile.12\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6659,7 +7005,8 @@
     "graphical_text:\"Position surfacic profile.13\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6674,7 +7021,8 @@
     "graphical_text:\"Position surfacic profile.15\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6689,7 +7037,8 @@
     "graphical_text:\"Position surfacic profile.7\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6704,7 +7053,8 @@
     "graphical_text:\"Perpendicularity.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6719,7 +7069,8 @@
     "graphical_text:\"Position.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6734,7 +7085,8 @@
     "graphical_text:\"Perpendicularity.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6749,7 +7101,8 @@
     "graphical_text:\"Perpendicularity.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6764,7 +7117,8 @@
     "graphical_text:\"Position.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6779,7 +7133,8 @@
     "graphical_text:\"Position.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6794,7 +7149,8 @@
     "graphical_text:\"Position.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6810,7 +7166,8 @@
     "datum reference surface is unavailable"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6826,7 +7183,8 @@
     "datum reference surface is unavailable"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6842,7 +7200,8 @@
     "datum reference surface is unavailable"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6855,7 +7214,8 @@
     "established by 1 datum target(s), which are not carried"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -6872,7 +7232,8 @@
     "graphical_text:\"Text.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "nominal_rounded",
@@ -6883,7 +7244,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/height.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6894,7 +7256,8 @@
    "severity": "info",
    "subjects": [
     "d:f:section_recess:f469/seat_diameter.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6905,7 +7268,8 @@
    "severity": "info",
    "subjects": [
     "d:f:section_recess:f469/seat_diameter.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6916,7 +7280,8 @@
    "severity": "info",
    "subjects": [
     "d:f:section_recess:f469/seat_diameter.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6927,7 +7292,8 @@
    "severity": "info",
    "subjects": [
     "d:f:section_recess:f469/seat_diameter.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6938,7 +7304,8 @@
    "severity": "info",
    "subjects": [
     "d:f:section_recess:f469/seat_location.location.x"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6949,7 +7316,8 @@
    "severity": "info",
    "subjects": [
     "d:f:section_recess:f469/seat_location.location.x"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6960,7 +7328,8 @@
    "severity": "info",
    "subjects": [
     "d:step_level/step_height.length.f71"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6971,7 +7340,8 @@
    "severity": "info",
    "subjects": [
     "hole_schedule_plan"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6982,7 +7352,8 @@
    "severity": "info",
    "subjects": [
     "hole_schedule_plan"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -6993,7 +7364,8 @@
    "severity": "info",
    "subjects": [
     "hole_schedule_plan"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -7004,7 +7376,8 @@
    "severity": "info",
    "subjects": [
     "hole_schedule_plan"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -7143,7 +7516,8 @@
     "face:619",
     "face:635",
     "face:636"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "shape_not_recognised",
@@ -7160,7 +7534,8 @@
     "face:104",
     "face:506",
     "face:507"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "shape_not_recognised",
@@ -7185,7 +7560,8 @@
     "face:381",
     "face:383",
     "face:385"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "shape_not_recognised",
@@ -7203,7 +7579,8 @@
     "face:151",
     "face:156",
     "face:160"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "shape_not_recognised",
@@ -7222,7 +7599,8 @@
     "face:374",
     "face:375",
     "face:447"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "shape_not_recognised",
@@ -7239,7 +7617,8 @@
     "face:361",
     "face:443",
     "face:444"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "shape_not_recognised",
@@ -7258,17 +7637,119 @@
     "face:365",
     "face:409",
     "face:410"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
     "dimension_line"
    ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:envelope/height.length",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 400.000.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:envelope/height.length"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:f:hole:f205/location.length.z",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 140.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:f:hole:f205/location.length.z"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.f151",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 352.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:step_level/step_height.length.f151"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.f91",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 330.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:step_level/step_height.length.f91"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
+   "group": "annotation_leader_crossing:arrow+dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.f74",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 290.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:step_level/step_height.length.f74"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.f71",
+   "impact": "readability",
+   "message": "The leader of datum feature symbol F crosses a line of 41.126.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:datum.datum:f620,621:t=F",
+    "d:step_level/step_height.length.f71"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line",
+    "arrow"
+   ],
    "fix": [
     {
      "op": "set",
-     "path": "dimensions/d:envelope~1height.length/place",
+     "path": "dimensions/d:f:section_recess:f469~1seat_location.location.z/place",
      "value": {
       "along": "middle",
       "lane": 0,
@@ -7299,11 +7780,11 @@
    ],
    "fixes": [
     {
-     "description": "Move the 400.000 dimension to the left of the front view, nearest the view.",
+     "description": "Move the 310 dimension to the left of the front view, nearest the view.",
      "ops": [
       {
        "op": "set",
-       "path": "dimensions/d:envelope~1height.length/place",
+       "path": "dimensions/d:f:section_recess:f469~1seat_location.location.z/place",
        "value": {
         "along": "middle",
         "lane": 0,
@@ -7335,101 +7816,6 @@
      "scope": "local"
     }
    ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:envelope/height.length",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 400.000.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:envelope/height.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:f:hole:f205/location.length.z",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 140.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:f:hole:f205/location.length.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.f151",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 352.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:step_level/step_height.length.f151"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.f91",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 330.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:step_level/step_height.length.f91"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.f74",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 290.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:step_level/step_height.length.f74"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:step_level/step_height.length.f71",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol F crosses a line of 41.126.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f620,621:t=F",
-    "d:step_level/step_height.length.f71"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
    "group": "annotation_leader_crossing:arrow+dimension_line",
    "id": "p:annotation_leader_crossing:pmi:datum.datum:f620,621:t=F|d:f:section_recess:f469/seat_location.location.z",
    "impact": "readability",
@@ -7438,7 +7824,8 @@
    "subjects": [
     "pmi:datum.datum:f620,621:t=F",
     "d:f:section_recess:f469/seat_location.location.z"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -7453,56 +7840,8 @@
    "subjects": [
     "pmi:geometric_tolerance.profile_line:f18:ref=A,B,C",
     "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
    ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f365:ref=A,B,C|d:envelope/depth.length",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.75 A B C crosses a line of 860.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f365:ref=A,B,C",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "extension_line",
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J|d:envelope/width.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.8 G H J crosses a line of 680.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J",
-    "d:envelope/width.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "extension_line",
-    "arrow"
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line+extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J|d:f:hole:f205/location.length.x",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.8 G H J crosses a line of 340.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f497:ref=G,H,J",
-    "d:f:hole:f205/location.length.x"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7514,7 +7853,8 @@
    "subjects": [
     "d:f:hole:f205/location.length.x",
     "f:hole:f469"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7526,7 +7866,8 @@
    "subjects": [
     "d:f:hole:f205/location.length.z",
     "f:hole:f303"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7538,7 +7879,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f55"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7550,7 +7892,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f65"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7562,7 +7905,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f67"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7574,7 +7918,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f208"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7586,7 +7931,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f220"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7598,7 +7944,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f221"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7610,7 +7957,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f222"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7622,7 +7970,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f223"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7634,7 +7983,8 @@
    "subjects": [
     "d:step_level/step_height.length.f151",
     "f:hole:f225"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7646,7 +7996,8 @@
    "subjects": [
     "d:step_level/step_height.length.f91",
     "f:hole:f65"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7658,7 +8009,8 @@
    "subjects": [
     "d:step_level/step_height.length.f91",
     "f:hole:f67"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7670,7 +8022,8 @@
    "subjects": [
     "d:step_level/step_height.length.f74",
     "f:hole:f55"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7682,7 +8035,8 @@
    "subjects": [
     "d:step_level/step_height.length.f74",
     "f:hole:f65"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7694,7 +8048,8 @@
    "subjects": [
     "d:step_level/step_height.length.f74",
     "f:hole:f67"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7706,7 +8061,8 @@
    "subjects": [
     "d:f:section_recess:f469/seat_location.location.x",
     "f:hole:f231"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7718,7 +8074,8 @@
    "subjects": [
     "d:f:section_recess:f469/seat_location.location.y",
     "f:hole:f127"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -7730,7 +8087,8 @@
    "subjects": [
     "d:f:section_recess:f469/seat_location.location.y",
     "f:hole:f165"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7742,7 +8100,8 @@
    "subjects": [
     "pmi:datum.datum:f620,621:t=F",
     "f:hole:f65"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_through_feature",
@@ -7754,7 +8113,8 @@
    "subjects": [
     "pmi:datum.datum:f620,621:t=F",
     "f:hole:f67"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "sheet_preference_exceeded",
@@ -7765,7 +8125,8 @@
    "severity": "info",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "frame_datum_not_drawn",
@@ -7781,7 +8142,8 @@
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_line:f18:ref=A,B,C"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "frame_datum_not_drawn",
@@ -7797,7 +8159,8 @@
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f365:ref=A,B,C"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "leader_along_centreline",
@@ -7809,7 +8172,8 @@
    "subjects": [
     "d:f:hole:f231/bore.diameter",
     "f:hole:f205"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_off_centreline",
@@ -7821,19 +8185,8 @@
    "subjects": [
     "d:f:section_recess:f469/seat_location.location.y",
     "f:hole:f127"
-   ]
-  },
-  {
-   "code": "leader_across_view",
-   "group": "leader_across_view",
-   "id": "p:leader_across_view:d:f:hole:f205/bore.diameter",
-   "impact": "readability",
-   "message": "The leader of \u230040 THRU \u2334 \u2300120 \u21a7 8 runs 48.0 mm across the front view, crossing 19 of its lines where a leader leaving the other way would cross 8.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:f205/bore.diameter",
-    "v:front"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -7845,7 +8198,8 @@
    "subjects": [
     "d:f:fillet:f524/fillet.radius",
     "v:plan"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_across_view",
@@ -7857,7 +8211,8 @@
    "subjects": [
     "d:f:fillet:f524/fillet.radius",
     "v:plan"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -7869,7 +8224,8 @@
    "subjects": [
     "d:f:fillet:f155/fillet.radius",
     "v:plan"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_across_view",
@@ -7881,7 +8237,8 @@
    "subjects": [
     "d:f:section_recess:f469/seat_diameter.diameter",
     "v:plan"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "hole_table_tag_order_retained",
@@ -7892,7 +8249,8 @@
    "severity": "info",
    "subjects": [
     "hole_schedule_plan"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_table_tag_order_retained",
@@ -7903,7 +8261,8 @@
    "severity": "info",
    "subjects": [
     "hole_schedule_side"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [
@@ -7922,15 +8281,14 @@
    "message": "datum leader pmi:datum.datum:f620,621:t=F is 93.6 mm from its surface",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   }
  ],
  "summary": {
   "groups": {
    "annotation_leader_crossing:arrow+dimension_line": 5,
-   "annotation_leader_crossing:arrow+dimension_line+extension_line": 2,
    "annotation_leader_crossing:dimension_line": 3,
-   "annotation_leader_crossing:extension_line": 1,
    "circular_channel_requirement_unverifiable:seat_location.location.y": 2,
    "circular_channel_requirement_unverifiable:seat_location.location.z": 2,
    "datum_leader_remote": 1,
@@ -7945,7 +8303,7 @@
    "hole_pattern_requirement_missing:location.length.y": 9,
    "hole_pattern_requirement_missing:pitch.length": 6,
    "hole_table_tag_order_retained": 2,
-   "leader_across_view": 3,
+   "leader_across_view": 2,
    "leader_along_centreline": 1,
    "leader_through_feature": 2,
    "leader_to_hidden_edge": 2,
@@ -7978,8 +8336,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 161,
-    "groups": 14
+    "findings": 160,
+    "groups": 13
    },
    "decision": {
     "findings": 1,
@@ -7990,8 +8348,8 @@
     "groups": 25
    },
    "readability": {
-    "findings": 23,
-    "groups": 10
+    "findings": 20,
+    "groups": 9
    }
   }
  }

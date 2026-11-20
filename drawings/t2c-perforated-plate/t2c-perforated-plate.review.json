@@ -132,7 +132,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_through_feature",
@@ -174,7 +175,8 @@
    "subjects": [
     "d:f:hole:f15/location.length.x",
     "f:hole:f16"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -216,7 +218,8 @@
    "subjects": [
     "d:f:hole:f23/location.length.x",
     "f:hole:f26"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [
@@ -229,6 +232,7 @@
    "message": "label of annotation '70' lies inside view 'plan' extents [x=29.3\u2013109.3, y=109.2\u2013159.2] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
+   "tier": "information",
    "view": "v:plan"
   }
  ],

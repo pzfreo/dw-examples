@@ -44,6 +44,44 @@
  "lint": [],
  "problems": [
   {
+   "code": "dimensions_not_ported",
+   "group": "dimensions_not_ported:through_step",
+   "id": "p:dimensions_not_ported:f:through_step:f14",
+   "impact": "incomplete",
+   "message": "The through step is not dimensioned as a through step: as in draftwright, its legs are stated by the 3 plate thickness, the overall z extent, the 3 plate thickness and the overall x extent, but those dimensions do not claim it.",
+   "severity": "warning",
+   "subjects": [
+    "f:through_step:f14"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:f23/location_slot_across.length|f:slot:f27:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 5 crosses the 4.5 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:f23/location_slot_across.length",
+    "f:slot:f27"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:slot:f35/location_slot_across.length|f:slot:f39:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 36 crosses the 4.5 wide slot.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:slot:f35/location_slot_across.length",
+    "f:slot:f39"
+   ],
+   "tier": "tidy"
+  },
+  {
    "code": "general_tolerance_missing",
    "fix": [
     {
@@ -76,102 +114,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "dimensions_not_ported",
-   "group": "dimensions_not_ported:through_step",
-   "id": "p:dimensions_not_ported:f:through_step:f14",
-   "impact": "incomplete",
-   "message": "The through step is not dimensioned as a through step: as in draftwright, its legs are stated by the 3 plate thickness, the overall z extent, the 3 plate thickness and the overall x extent, but those dimensions do not claim it.",
-   "severity": "warning",
-   "subjects": [
-    "f:through_step:f14"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
    ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:f23/location_slot_across.length|f:slot:f27:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 5 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:f23/location_slot_across.length",
-    "f:slot:f27"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:slot:f35/location_slot_across.length|f:slot:f39:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 36 crosses the 4.5 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:slot:f35/location_slot_across.length",
-    "f:slot:f39"
-   ]
+   "tier": "fix_before_printing"
   },
   {
    "code": "unclaimed_geometry",
@@ -193,7 +137,8 @@
     "face:36",
     "face:38",
     "face:40"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [],

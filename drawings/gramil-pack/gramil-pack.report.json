@@ -43,6 +43,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -78,6 +79,7 @@
           "id": "p:annotation_outside_area:d:f:hole:f6/bore.diameter|v:side",
           "code": "annotation_outside_area",
           "severity": "info",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "annotation_outside_area",
           "message": "The dimension ⌀8 THRU runs up to 16.0 mm past the area reserved for the side view and its bands; it may crowd what lies beyond.",
@@ -90,6 +92,7 @@
           "id": "p:extension_through_feature:d:f:hole:f6/location.length.y|f:hole:f20:line:1",
           "code": "extension_through_feature",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "extension_through_feature",
           "message": "The second extension line of 5.5 crosses the ⌀5 hole.",
@@ -188,6 +191,7 @@
           "id": "p:unclaimed_geometry:sheet",
           "code": "unclaimed_geometry",
           "severity": "info",
+          "tier": "information",
           "impact": "advisory",
           "group": "unclaimed_geometry",
           "message": "Analysis features claim 19 of 27 faces; 8 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
@@ -206,6 +210,7 @@
           "id": "p:label_crowded:d:envelope/depth.length|d:f:hole:f6/location.length.y",
           "code": "label_crowded",
           "severity": "info",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "label_crowded",
           "message": "Line-work of 11 passes less than 0.5 mm from the label of 5.5, so it touches the text.",
@@ -218,6 +223,7 @@
           "id": "p:label_section_furniture_overlap:d:f:hole:f20/location.length.y|ink:v:plan:cut:A:arrow:0",
           "code": "label_section_furniture_overlap",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "readability",
           "group": "label_section_furniture_overlap",
           "message": "A line of 5.5 runs through the section A cutting-plane arrowhead.",
@@ -230,6 +236,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -302,9 +309,22 @@
       ],
       "problems": [
         {
+          "id": "p:dimensions_not_ported:f:section_recess:f8",
+          "code": "dimensions_not_ported",
+          "severity": "warning",
+          "tier": "tidy",
+          "impact": "incomplete",
+          "group": "dimensions_not_ported:section_recess",
+          "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
+          "subjects": [
+            "f:section_recess:f8"
+          ]
+        },
+        {
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -337,26 +357,16 @@
           ]
         },
         {
-          "id": "p:dimensions_not_ported:f:section_recess:f8",
-          "code": "dimensions_not_ported",
-          "severity": "warning",
-          "impact": "incomplete",
-          "group": "dimensions_not_ported:section_recess",
-          "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
-          "subjects": [
-            "f:section_recess:f8"
-          ]
-        },
-        {
-          "id": "p:extension_through_feature:d:f:slot:f4/location_slot_across.length|f:hole:f14:line:1",
+          "id": "p:extension_through_feature:d:f:slot:f4/location_slot_across.length|f:hole:f15:line:1",
           "code": "extension_through_feature",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "extension_through_feature",
-          "message": "The second extension line of 4 crosses the ⌀3.3 hole.",
+          "message": "The second extension line of 4 crosses the ⌀1.6 hole.",
           "subjects": [
             "d:f:slot:f4/location_slot_across.length",
-            "f:hole:f14"
+            "f:hole:f15"
           ],
           "fix": [
             {
@@ -367,13 +377,13 @@
             {
               "op": "set",
               "path": "sheet/scale",
-              "value": "2:1"
+              "value": "1:1"
             }
           ],
           "fixes": [
             {
               "scope": "sheet",
-              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
               "ops": [
                 {
                   "op": "set",
@@ -383,7 +393,7 @@
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "2:1"
+                  "value": "1:1"
                 }
               ]
             }
@@ -393,6 +403,7 @@
           "id": "p:extension_through_feature:d:step_level/step_height.length.f8|f:hole:f14:line:1",
           "code": "extension_through_feature",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "extension_through_feature",
           "message": "The second extension line of 1.9 crosses the ⌀3.3 hole.",
@@ -419,12 +430,12 @@
             {
               "op": "set",
               "path": "sheet/size",
-              "value": "A3"
+              "value": "A4"
             },
             {
               "op": "set",
               "path": "sheet/scale",
-              "value": "5:1"
+              "value": "2:1"
             },
             {
               "op": "set",
@@ -455,12 +466,12 @@
                 {
                   "op": "set",
                   "path": "sheet/size",
-                  "value": "A3"
+                  "value": "A4"
                 },
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "5:1"
+                  "value": "2:1"
                 },
                 {
                   "op": "set",
@@ -471,7 +482,7 @@
             },
             {
               "scope": "sheet",
-              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
               "ops": [
                 {
                   "op": "set",
@@ -481,7 +492,7 @@
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "2:1"
+                  "value": "1:1"
                 }
               ]
             }
@@ -491,6 +502,7 @@
           "id": "p:extension_through_feature:d:step_level/step_height.length.f8|f:slot:f4:line:1",
           "code": "extension_through_feature",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "extension_through_feature",
           "message": "The second extension line of 1.9 crosses the 4.75 wide slot.",
@@ -517,12 +529,12 @@
             {
               "op": "set",
               "path": "sheet/size",
-              "value": "A3"
+              "value": "A4"
             },
             {
               "op": "set",
               "path": "sheet/scale",
-              "value": "5:1"
+              "value": "2:1"
             },
             {
               "op": "set",
@@ -553,12 +565,12 @@
                 {
                   "op": "set",
                   "path": "sheet/size",
-                  "value": "A3"
+                  "value": "A4"
                 },
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "5:1"
+                  "value": "2:1"
                 },
                 {
                   "op": "set",
@@ -569,7 +581,7 @@
             },
             {
               "scope": "sheet",
-              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
               "ops": [
                 {
                   "op": "set",
@@ -579,7 +591,7 @@
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "2:1"
+                  "value": "1:1"
                 }
               ]
             }
@@ -589,6 +601,7 @@
           "id": "p:extension_through_feature:d:step_level/step_height.length.f10|f:hole:f14:line:1",
           "code": "extension_through_feature",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "extension_through_feature",
           "message": "The second extension line of 4.9 crosses the ⌀3.3 hole.",
@@ -615,12 +628,12 @@
             {
               "op": "set",
               "path": "sheet/size",
-              "value": "A3"
+              "value": "A4"
             },
             {
               "op": "set",
               "path": "sheet/scale",
-              "value": "5:1"
+              "value": "2:1"
             },
             {
               "op": "set",
@@ -651,12 +664,12 @@
                 {
                   "op": "set",
                   "path": "sheet/size",
-                  "value": "A3"
+                  "value": "A4"
                 },
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "5:1"
+                  "value": "2:1"
                 },
                 {
                   "op": "set",
@@ -667,7 +680,7 @@
             },
             {
               "scope": "sheet",
-              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
               "ops": [
                 {
                   "op": "set",
@@ -677,7 +690,7 @@
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "2:1"
+                  "value": "1:1"
                 }
               ]
             }
@@ -687,6 +700,7 @@
           "id": "p:extension_through_feature:d:step_level/step_height.length.f10|f:slot:f4:line:1",
           "code": "extension_through_feature",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "extension_through_feature",
           "message": "The second extension line of 4.9 crosses the 4.75 wide slot.",
@@ -713,12 +727,12 @@
             {
               "op": "set",
               "path": "sheet/size",
-              "value": "A3"
+              "value": "A4"
             },
             {
               "op": "set",
               "path": "sheet/scale",
-              "value": "5:1"
+              "value": "2:1"
             },
             {
               "op": "set",
@@ -749,12 +763,12 @@
                 {
                   "op": "set",
                   "path": "sheet/size",
-                  "value": "A3"
+                  "value": "A4"
                 },
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "5:1"
+                  "value": "2:1"
                 },
                 {
                   "op": "set",
@@ -765,7 +779,7 @@
             },
             {
               "scope": "sheet",
-              "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
+              "description": "List the holes in a hole table and draw at 1:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
               "ops": [
                 {
                   "op": "set",
@@ -775,7 +789,7 @@
                 {
                   "op": "set",
                   "path": "sheet/scale",
-                  "value": "2:1"
+                  "value": "1:1"
                 }
               ]
             }
@@ -785,6 +799,7 @@
           "id": "p:unclaimed_geometry:sheet",
           "code": "unclaimed_geometry",
           "severity": "info",
+          "tier": "information",
           "impact": "advisory",
           "group": "unclaimed_geometry",
           "message": "Analysis features claim 15 of 17 faces; 2 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
@@ -794,38 +809,15 @@
           ]
         },
         {
-          "id": "p:label_crowded:d:envelope/depth.length|d:f:hole:f15/bore.diameter",
+          "id": "p:label_crowded:d:envelope/depth.length|d:f:flat:f2/flat.length",
           "code": "label_crowded",
           "severity": "info",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "label_crowded",
-          "message": "Line-work of 8 passes less than 0.5 mm from the label of ⌀1.6 ↧ 3.5, so it touches the text.",
+          "message": "Line-work of 8 passes less than 0.5 mm from the label of 7.4, so it touches the text.",
           "subjects": [
             "d:envelope/depth.length",
-            "d:f:hole:f15/bore.diameter"
-          ]
-        },
-        {
-          "id": "p:label_crowded:d:envelope/depth.length|d:f:boss:f0/boss.diameter",
-          "code": "label_crowded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "label_crowded",
-          "message": "Line-work of 8 passes less than 0.5 mm from the label of ø8, so it touches the text.",
-          "subjects": [
-            "d:envelope/depth.length",
-            "d:f:boss:f0/boss.diameter"
-          ]
-        },
-        {
-          "id": "p:label_crowded:d:f:hole:f15/bore.diameter|d:f:flat:f2/flat.length",
-          "code": "label_crowded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "label_crowded",
-          "message": "Line-work of ⌀1.6 ↧ 3.5 passes less than 0.5 mm from the label of 7.4, so it touches the text.",
-          "subjects": [
-            "d:f:hole:f15/bore.diameter",
             "d:f:flat:f2/flat.length"
           ]
         },
@@ -833,6 +825,7 @@
           "id": "p:leader_to_hidden_edge:d:f:hole:f15/bore.diameter",
           "code": "leader_to_hidden_edge",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "readability",
           "group": "leader_to_hidden_edge",
           "message": "The leader of ⌀1.6 ↧ 3.5 ends on an edge the side view shows hidden, so it points at dashed line-work.",
@@ -845,6 +838,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -920,6 +914,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -955,6 +950,7 @@
           "id": "p:dimensions_not_ported:f:section_recess:f4",
           "code": "dimensions_not_ported",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "incomplete",
           "group": "dimensions_not_ported:section_recess",
           "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
@@ -966,6 +962,7 @@
           "id": "p:dimensions_not_ported:f:section_recess:f13",
           "code": "dimensions_not_ported",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "incomplete",
           "group": "dimensions_not_ported:section_recess",
           "message": "The section recess is not dimensioned: no dimensions for section recess are ported yet.",
@@ -977,6 +974,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1053,6 +1051,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1088,6 +1087,7 @@
           "id": "p:unclaimed_geometry:sheet",
           "code": "unclaimed_geometry",
           "severity": "info",
+          "tier": "information",
           "impact": "advisory",
           "group": "unclaimed_geometry",
           "message": "Analysis features and dimensioned stock claim 7 of 8 faces; 1 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
@@ -1099,6 +1099,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1174,6 +1175,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1209,6 +1211,7 @@
           "id": "p:unclaimed_geometry:sheet",
           "code": "unclaimed_geometry",
           "severity": "info",
+          "tier": "information",
           "impact": "advisory",
           "group": "unclaimed_geometry",
           "message": "Analysis features claim 8 of 12 faces; 4 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
@@ -1220,21 +1223,10 @@
           ]
         },
         {
-          "id": "p:label_crowded:d:envelope/depth.length|d:f:blend:f0/blend.radius",
-          "code": "label_crowded",
-          "severity": "info",
-          "impact": "advisory",
-          "group": "label_crowded",
-          "message": "Line-work of 8 passes less than 0.5 mm from the label of R4, so it touches the text.",
-          "subjects": [
-            "d:envelope/depth.length",
-            "d:f:blend:f0/blend.radius"
-          ]
-        },
-        {
           "id": "p:label_crowded:d:step_level/step_height.length.f4|d:step_level/step_height.length.f11",
           "code": "label_crowded",
           "severity": "info",
+          "tier": "tidy",
           "impact": "advisory",
           "group": "label_crowded",
           "message": "Line-work of 2.5 passes less than 0.5 mm from the label of 5.5, so it touches the text.",
@@ -1247,6 +1239,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1322,6 +1315,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1357,6 +1351,7 @@
           "id": "p:feature_unplanned:f:plate:f0",
           "code": "feature_not_dimensioned",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "incomplete",
           "group": "feature_not_dimensioned:plate",
           "message": "The 2.5 thick plate has no dimension drawn or carried by the hole table; review its omitted or undrawable items.",
@@ -1368,6 +1363,7 @@
           "id": "p:leader_to_hidden_edge:d:f:hole:f14/bore.diameter",
           "code": "leader_to_hidden_edge",
           "severity": "warning",
+          "tier": "tidy",
           "impact": "readability",
           "group": "leader_to_hidden_edge",
           "message": "The leader of ⌀1.6 ↧ 8 ends on an edge the side view shows hidden, so it points at dashed line-work.",
@@ -1380,6 +1376,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1455,6 +1452,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1490,6 +1488,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1565,6 +1564,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1600,6 +1600,7 @@
           "id": "p:general_tolerance_missing:sheet",
           "code": "general_tolerance_missing",
           "severity": "warning",
+          "tier": "fix_before_printing",
           "impact": "decision",
           "group": "general_tolerance_missing",
           "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -1886,15 +1887,15 @@
     "size": "A3",
     "scale": "1:1",
     "envelope": [
-      96.5,
+      42.6,
       11.0,
-      42.6
+      96.5
     ],
     "frame": [
       [
-        0.0,
-        0.0,
         1.0,
+        0.0,
+        0.0,
         0.0
       ],
       [
@@ -1904,9 +1905,9 @@
         0.0
       ],
       [
-        -1.0,
         0.0,
         0.0,
+        1.0,
         0.0
       ]
     ],
@@ -1918,17 +1919,17 @@
         "face": 8,
         "instance": 0,
         "point": [
-          3.6015625,
+          -3.1000000000000014,
           -5.5,
-          -3.5000000000000018
+          3.6015625
         ],
         "tip": [
-          62.6015725,
-          102.0
+          80.69999999999999,
+          79.3515625
         ],
         "at": [
-          27.000010000000003,
-          102.0
+          44.0,
+          79.3515625
         ],
         "radius": 6.0,
         "interior": true,
@@ -1941,17 +1942,17 @@
         "face": 27,
         "instance": 1,
         "point": [
-          65.7234375,
+          -13.9,
           -3.9904276943197137,
-          10.299999999999997
+          65.7234375
         ],
         "tip": [
-          124.7234475,
-          115.8
+          69.89999999999999,
+          141.4734375
         ],
         "at": [
-          124.7234475,
-          145.3
+          44.0,
+          143.28281249999998
         ],
         "radius": 6.0,
         "interior": true,
@@ -1961,20 +1962,20 @@
         "item": 3,
         "key": "GRM-06 blade retainer",
         "view": "v:side",
-        "face": 144,
+        "face": 147,
         "instance": 7,
         "point": [
-          70.96795962342979,
-          1.7368421052631575,
-          -12.5
+          13.200000000000001,
+          -2.3157894736842106,
+          61.501562500000006
         ],
         "tip": [
-          194.93685210526314,
-          93.0
+          153.9842105263158,
+          137.2515625
         ],
         "at": [
-          214.70001,
-          93.0
+          134.8,
+          136.44739583333336
         ],
         "radius": 6.0,
         "interior": true,
@@ -1983,21 +1984,21 @@
       {
         "item": 4,
         "key": "GRM-07 blade",
-        "view": "v:iso",
-        "face": 88,
-        "instance": 4,
+        "view": "v:side",
+        "face": 102,
+        "instance": 5,
         "point": [
-          74.63636214507281,
-          -1.7564408852302638,
-          -10.1
+          11.5,
+          0.0,
+          55.470312500000006
         ],
         "tip": [
-          371.72969784191014,
-          190.69091920690641
+          156.3,
+          131.2203125
         ],
         "at": [
-          397.0069944887769,
-          190.69091920690641
+          134.8,
+          119.44739583333335
         ],
         "radius": 6.0,
         "interior": true,
@@ -2006,21 +2007,21 @@
       {
         "item": 5,
         "key": "GRM-04 drive plate",
-        "view": "v:plan",
-        "face": 152,
+        "view": "v:front",
+        "face": 151,
         "instance": 9,
         "point": [
-          70.5484375,
-          -0.5789473684210522,
-          21.8
+          -20.5,
+          -2.961240090079444,
+          63.310937499999994
         ],
         "tip": [
-          129.5484475,
-          179.22105263157897
+          63.3,
+          139.0609375
         ],
         "at": [
-          92.2234475,
-          158.3
+          44.0,
+          126.28281249999999
         ],
         "radius": 6.0,
         "interior": true,
@@ -2029,21 +2030,21 @@
       {
         "item": 6,
         "key": "GRM-03 thumbwheel drive screw",
-        "view": "v:side",
-        "face": 178,
+        "view": "v:iso",
+        "face": 179,
         "instance": 13,
         "point": [
-          80.20000000000027,
-          0.0,
-          16.3
+          -15.237363508714441,
+          -2.2003414093183444,
+          76.68680145030196
         ],
         "tip": [
-          193.20001,
-          121.8
+          204.5374475570954,
+          133.79271771019415
         ],
         "at": [
-          171.70001,
-          121.8
+          180.14953826420054,
+          133.79271771019415
         ],
         "radius": 6.0,
         "interior": true,
@@ -2056,17 +2057,17 @@
         "face": 193,
         "instance": 14,
         "point": [
-          -8.999999999999545,
           0.0,
-          0.0
+          0.0,
+          -9.000000000000654
         ],
         "tip": [
-          190.50001000000043,
-          243.2
+          229.6,
+          177.49999999999935
         ],
         "at": [
-          167.50000999999997,
-          243.2
+          264.4,
+          177.49999999999935
         ],
         "radius": 6.0,
         "interior": true,
@@ -2079,17 +2080,17 @@
         "face": 202,
         "instance": 15,
         "point": [
-          36.85000000000008,
+          -2.842170943040401e-14,
           0.0,
-          0.0
+          56.85000000000002
         ],
         "tip": [
-          236.35001000000005,
-          243.2
+          229.59999999999997,
+          243.35000000000002
         ],
         "at": [
-          272.75001,
-          208.39999999999998
+          264.4,
+          243.35000000000002
         ],
         "radius": 6.0,
         "interior": true,
@@ -2099,20 +2100,20 @@
         "item": 9,
         "key": "grub screw M4x5",
         "view": "v:side",
-        "face": 148,
+        "face": 149,
         "instance": 8,
         "point": [
-          66.99165493060087,
-          -1.736842105263158,
-          -14.3
+          18.2,
+          0.0,
+          65.1203125
         ],
         "tip": [
-          191.46316789473684,
-          91.2
+          156.3,
+          140.8703125
         ],
         "at": [
-          171.70001,
-          91.2
+          134.8,
+          153.44739583333336
         ],
         "radius": 6.0,
         "interior": true,
@@ -2122,20 +2123,20 @@
         "item": 10,
         "key": "flat washer M2",
         "view": "v:plan",
-        "face": 165,
+        "face": 163,
         "instance": 10,
         "point": [
-          74.7703125,
+          -22.3,
           -2.3157894736842106,
-          22.299999999999997
+          76.44187000885123
         ],
         "tip": [
-          133.77032250000002,
-          177.4842105263158
+          61.5,
+          204.43421052631578
         ],
         "at": [
-          109.2234475,
-          158.3
+          44.0,
+          204.43421052631578
         ],
         "radius": 6.0,
         "interior": true,
@@ -2144,21 +2145,21 @@
       {
         "item": 11,
         "key": "pan-head screw M2x6",
-        "view": "v:plan",
-        "face": 169,
+        "view": "v:front",
+        "face": 167,
         "instance": 11,
         "point": [
-          77.1828125,
-          0.5789473684210522,
-          23.8
+          -23.5,
+          -0.5021414104550361,
+          73.5640625
         ],
         "tip": [
-          136.1828225,
-          180.37894736842105
+          60.3,
+          149.3140625
         ],
         "at": [
-          155.50001,
-          180.37894736842105
+          44.0,
+          160.28281249999998
         ],
         "radius": 6.0,
         "interior": true,
@@ -2167,25 +2168,25 @@
       {
         "item": 12,
         "key": "pan-head screw M2x10",
-        "view": "v:plan",
-        "face": 174,
+        "view": "v:section_aa",
+        "face": 172,
         "instance": 12,
         "point": [
-          65.7234375,
+          -21.515571793016903,
           0.0,
-          23.3
+          66.03024010565125
         ],
         "tip": [
-          124.7234475,
-          179.8
+          208.0844282069831,
+          252.53024010565125
         ],
         "at": [
-          124.7234475,
-          201.3
+          189.79999999999998,
+          252.53024010565125
         ],
         "radius": 6.0,
         "interior": true,
-        "section": false
+        "section": true
       }
     ],
     "unballooned": [],
@@ -2615,6 +2616,7 @@
         "id": "p:general_tolerance_missing:sheet",
         "code": "general_tolerance_missing",
         "severity": "warning",
+        "tier": "fix_before_printing",
         "impact": "decision",
         "group": "general_tolerance_missing",
         "message": "GEN. TOL. is blank: no general tolerance is drawn from the Spec or usable PMI. Set sheet/title/tolerance to the intended requirement. The offered fix explicitly states UNSPECIFIED; it acknowledges the missing requirement without inventing a manufacturing tolerance.",
@@ -2650,6 +2652,7 @@
         "id": "p:unclaimed_geometry:sheet",
         "code": "unclaimed_geometry",
         "severity": "info",
+        "tier": "information",
         "impact": "advisory",
         "group": "unclaimed_geometry",
         "message": "Analysis features claim 0 of 205 faces; 205 faces are unclaimed. Review the geometry: ordinary stock faces may also be unclaimed; this is not a count of missed features.",
@@ -2876,15 +2879,15 @@
           1.0
         ],
         "at": [
-          91.25001,
+          81.3,
           108.0
         ],
         "scale": 1.0,
         "area": [
-          23.00001,
-          66.7,
-          159.50001,
-          131.3
+          40.0,
+          39.75,
+          122.60000000000001,
+          158.25
         ],
         "default": false,
         "basis": "the principal view, its box and annotation bands packed from the lower left; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
@@ -2899,12 +2902,12 @@
               {
                 "Line": [
                   [
-                    59.00001,
-                    111.275
+                    78.02499999999999,
+                    75.75
                   ],
                   [
-                    138.92058010157302,
-                    111.275
+                    78.02499999999999,
+                    155.670570101573
                   ]
                 ]
               }
@@ -2919,12 +2922,12 @@
               {
                 "Line": [
                   [
-                    59.00001,
-                    111.275
+                    78.02499999999999,
+                    75.75
                   ],
                   [
-                    138.92058010157302,
-                    111.275
+                    78.02499999999999,
+                    155.670570101573
                   ]
                 ]
               }
@@ -2939,12 +2942,12 @@
               {
                 "Line": [
                   [
-                    125.00001,
-                    131.8
+                    57.5,
+                    141.75
                   ],
                   [
-                    125.00001,
-                    83.7
+                    105.6,
+                    141.75
                   ]
                 ]
               }
@@ -2959,12 +2962,12 @@
               {
                 "Line": [
                   [
-                    134.50001,
-                    132.3
+                    57.0,
+                    151.25
                   ],
                   [
-                    134.50001,
-                    95.725
+                    93.575,
+                    151.25
                   ]
                 ]
               }
@@ -2979,12 +2982,12 @@
               {
                 "Line": [
                   [
-                    56.00001,
-                    106.835
+                    82.465,
+                    72.75
                   ],
                   [
-                    141.22382971346002,
-                    106.835
+                    82.465,
+                    157.97381971346
                   ]
                 ]
               }
@@ -2999,12 +3002,12 @@
               {
                 "Line": [
                   [
-                    138.00001,
-                    111.861902647382
+                    77.438097352618,
+                    154.75
                   ],
                   [
-                    138.00001,
-                    99.86750249748
+                    89.43249750252,
+                    154.75
                   ]
                 ]
               }
@@ -3019,12 +3022,12 @@
               {
                 "Line": [
                   [
-                    138.00001,
-                    111.861902647382
+                    77.438097352618,
+                    154.75
                   ],
                   [
-                    138.00001,
-                    99.86750249583
+                    89.43249750417,
+                    154.75
                   ]
                 ]
               }
@@ -3039,12 +3042,12 @@
               {
                 "Line": [
                   [
-                    41.50001,
-                    105.5
+                    83.8,
+                    58.25
                   ],
                   [
-                    124.877511000801,
-                    105.5
+                    83.8,
+                    141.62750100080098
                   ]
                 ]
               }
@@ -3059,12 +3062,12 @@
               {
                 "Line": [
                   [
-                    60.00001,
-                    112.275
+                    77.02499999999999,
+                    76.75
                   ],
                   [
-                    60.00001,
-                    99.087993256265
+                    90.212006743735,
+                    76.75
                   ]
                 ]
               }
@@ -3079,12 +3082,12 @@
               {
                 "Line": [
                   [
-                    60.00001,
-                    112.275
+                    77.02499999999999,
+                    76.75
                   ],
                   [
-                    60.00001,
-                    99.087993256265
+                    90.212006743735,
+                    76.75
                   ]
                 ]
               }
@@ -3099,12 +3102,12 @@
               {
                 "Line": [
                   [
-                    121.37501,
-                    98.1
+                    91.19999999999999,
+                    138.125
                   ],
                   [
-                    121.37501,
-                    91.3
+                    98.0,
+                    138.125
                   ]
                 ]
               }
@@ -3119,12 +3122,12 @@
               {
                 "Line": [
                   [
-                    121.30001,
-                    98.39999999999999
+                    90.89999999999999,
+                    138.05
                   ],
                   [
-                    121.30001,
-                    91.0
+                    98.3,
+                    138.05
                   ]
                 ]
               }
@@ -3139,12 +3142,12 @@
               {
                 "Line": [
                   [
-                    121.30001,
-                    98.39999999999999
+                    90.89999999999999,
+                    138.05
                   ],
                   [
-                    121.30001,
-                    91.0
+                    98.3,
+                    138.05
                   ]
                 ]
               }
@@ -3159,12 +3162,12 @@
               {
                 "Line": [
                   [
-                    128.62501,
-                    98.1
+                    91.19999999999999,
+                    145.375
                   ],
                   [
-                    128.62501,
-                    91.3
+                    98.0,
+                    145.375
                   ]
                 ]
               }
@@ -3179,12 +3182,12 @@
               {
                 "Line": [
                   [
-                    121.37501,
-                    98.1
+                    91.19999999999999,
+                    138.125
                   ],
                   [
-                    121.37501,
-                    91.3
+                    98.0,
+                    138.125
                   ]
                 ]
               }
@@ -3199,12 +3202,12 @@
               {
                 "Line": [
                   [
-                    128.70001000000002,
-                    98.39999999999999
+                    90.89999999999999,
+                    145.45
                   ],
                   [
-                    128.70001000000002,
-                    91.0
+                    98.3,
+                    145.45
                   ]
                 ]
               }
@@ -3219,12 +3222,12 @@
               {
                 "Line": [
                   [
-                    128.70001000000002,
-                    98.39999999999999
+                    90.89999999999999,
+                    145.45
                   ],
                   [
-                    128.70001000000002,
-                    91.0
+                    98.3,
+                    145.45
                   ]
                 ]
               }
@@ -3239,12 +3242,12 @@
               {
                 "Line": [
                   [
-                    128.62501,
-                    98.1
+                    91.19999999999999,
+                    145.375
                   ],
                   [
-                    128.62501,
-                    91.3
+                    98.0,
+                    145.375
                   ]
                 ]
               }
@@ -3259,12 +3262,12 @@
               {
                 "Line": [
                   [
-                    112.80001,
-                    97.20000000000002
+                    92.09999999999998,
+                    129.55
                   ],
                   [
-                    112.80001,
-                    92.2
+                    97.1,
+                    129.55
                   ]
                 ]
               }
@@ -3293,15 +3296,15 @@
           0.0
         ],
         "at": [
-          91.25001,
-          179.8
+          81.3,
+          206.75
         ],
         "scale": 1.0,
         "area": [
-          23.00001,
-          156.3,
-          159.50001,
-          205.3
+          40.0,
+          183.25,
+          122.60000000000001,
+          232.25
         ],
         "default": false,
         "basis": "third-angle: the plan sits above the front, past both views' bands; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
@@ -3316,32 +3319,12 @@
               {
                 "Line": [
                   [
-                    39.00001,
-                    179.8
+                    56.0,
+                    206.75
                   ],
                   [
-                    143.50001,
-                    179.8
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:plan:ga_axis:0",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    59.00001,
-                    175.3
-                  ],
-                  [
-                    138.92058010157302,
-                    175.3
+                    106.6,
+                    206.75
                   ]
                 ]
               }
@@ -3356,32 +3339,12 @@
               {
                 "Line": [
                   [
-                    60.00001,
-                    174.3
+                    78.02499999999999,
+                    201.25
                   ],
                   [
-                    60.00001,
-                    185.3
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:plan:ga_axis:2",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    59.00001,
-                    184.3
-                  ],
-                  [
-                    138.92058010157302,
-                    184.3
+                    78.02499999999999,
+                    212.25
                   ]
                 ]
               }
@@ -3396,12 +3359,52 @@
               {
                 "Line": [
                   [
-                    138.00001,
-                    175.180694127322
+                    78.02499999999999,
+                    202.130694127322
                   ],
                   [
-                    138.00001,
-                    184.41930587267802
+                    78.02499999999999,
+                    211.369305872678
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:4",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    57.5,
+                    206.75
+                  ],
+                  [
+                    105.6,
+                    206.75
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:5",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    57.0,
+                    206.75
+                  ],
+                  [
+                    93.575,
+                    206.75
                   ]
                 ]
               }
@@ -3416,12 +3419,12 @@
               {
                 "Line": [
                   [
-                    138.00001,
-                    178.159025252627
+                    89.575,
+                    205.109025252627
                   ],
                   [
-                    138.00001,
-                    181.44097474737302
+                    89.575,
+                    208.390974747373
                   ]
                 ]
               }
@@ -3430,18 +3433,18 @@
             "global_axis": false
           },
           {
-            "id": "ink:v:plan:ga_axis:7",
+            "id": "ink:v:plan:ga_axis:8",
             "kind": "axis",
             "curves": [
               {
                 "Line": [
                   [
-                    56.00001,
-                    179.8
+                    77.438097352618,
+                    202.25
                   ],
                   [
-                    141.22382971346002,
-                    179.8
+                    89.43249750252,
+                    202.25
                   ]
                 ]
               }
@@ -3450,18 +3453,58 @@
             "global_axis": false
           },
           {
-            "id": "ink:v:plan:ga_axis:10",
+            "id": "ink:v:plan:ga_axis:9",
             "kind": "axis",
             "curves": [
               {
                 "Line": [
                   [
-                    41.50001,
-                    179.8
+                    77.438097352618,
+                    211.25
                   ],
                   [
-                    124.877511000801,
-                    179.8
+                    89.43249750417,
+                    211.25
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:11",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    77.02499999999999,
+                    202.25
+                  ],
+                  [
+                    90.212006743735,
+                    202.25
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:12",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    77.02499999999999,
+                    211.25
+                  ],
+                  [
+                    90.212006743735,
+                    211.25
                   ]
                 ]
               }
@@ -3476,12 +3519,192 @@
               {
                 "Line": [
                   [
-                    60.00001,
-                    174.898718159374
+                    89.575,
+                    201.848718159374
                   ],
                   [
-                    60.00001,
-                    184.70128184062602
+                    89.575,
+                    211.651281840626
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:14",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    91.19999999999999,
+                    204.5
+                  ],
+                  [
+                    98.0,
+                    204.5
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:15",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    90.89999999999999,
+                    205.3
+                  ],
+                  [
+                    98.3,
+                    205.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:16",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    90.89999999999999,
+                    208.2
+                  ],
+                  [
+                    98.3,
+                    208.2
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:17",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    91.19999999999999,
+                    204.5
+                  ],
+                  [
+                    98.0,
+                    204.5
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:18",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    91.19999999999999,
+                    209.0
+                  ],
+                  [
+                    98.0,
+                    209.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:19",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    90.89999999999999,
+                    205.3
+                  ],
+                  [
+                    98.3,
+                    205.3
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:20",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    90.89999999999999,
+                    208.2
+                  ],
+                  [
+                    98.3,
+                    208.2
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:21",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    91.19999999999999,
+                    209.0
+                  ],
+                  [
+                    98.0,
+                    209.0
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:plan:ga_axis:22",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    92.09999999999998,
+                    206.75
+                  ],
+                  [
+                    97.1,
+                    206.75
                   ]
                 ]
               }
@@ -3510,15 +3733,15 @@
           1.0
         ],
         "at": [
-          193.20001,
+          156.3,
           108.0
         ],
         "scale": 1.0,
         "area": [
-          184.50001,
-          72.7,
-          218.70001,
-          129.3
+          147.60000000000002,
+          45.75,
+          181.8,
+          156.25
         ],
         "default": false,
         "basis": "third-angle: the right side sits right of the front, past both views' bands; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",
@@ -3527,18 +3750,58 @@
         },
         "line_work": [
           {
+            "id": "ink:v:side:ga_axis:0",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    151.8,
+                    75.75
+                  ],
+                  [
+                    151.8,
+                    155.670570101573
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
             "id": "ink:v:side:ga_axis:1",
             "kind": "axis",
             "curves": [
               {
                 "Line": [
                   [
-                    187.70001,
-                    111.275
+                    150.8,
+                    76.75
                   ],
                   [
-                    198.70001,
-                    111.275
+                    161.8,
+                    76.75
+                  ]
+                ]
+              }
+            ],
+            "radial": false,
+            "global_axis": false
+          },
+          {
+            "id": "ink:v:side:ga_axis:2",
+            "kind": "axis",
+            "curves": [
+              {
+                "Line": [
+                  [
+                    160.8,
+                    75.75
+                  ],
+                  [
+                    160.8,
+                    155.670570101573
                   ]
                 ]
               }
@@ -3553,52 +3816,12 @@
               {
                 "Line": [
                   [
-                    188.58070412732198,
-                    111.275
+                    151.680694127322,
+                    154.75
                   ],
                   [
-                    197.819315872678,
-                    111.275
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:4",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    193.20001,
-                    131.8
-                  ],
-                  [
-                    193.20001,
-                    83.7
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:5",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    193.20001,
-                    132.3
-                  ],
-                  [
-                    193.20001,
-                    95.725
+                    160.91930587267802,
+                    154.75
                   ]
                 ]
               }
@@ -3613,12 +3836,12 @@
               {
                 "Line": [
                   [
-                    191.55903525262698,
-                    99.725
+                    154.659025252627,
+                    154.75
                   ],
                   [
-                    194.840984747373,
-                    99.725
+                    157.94097474737302,
+                    154.75
                   ]
                 ]
               }
@@ -3627,18 +3850,18 @@
             "global_axis": false
           },
           {
-            "id": "ink:v:side:ga_axis:8",
+            "id": "ink:v:side:ga_axis:7",
             "kind": "axis",
             "curves": [
               {
                 "Line": [
                   [
-                    188.70001,
-                    111.861902647382
+                    156.3,
+                    72.75
                   ],
                   [
-                    188.70001,
-                    99.86750249748
+                    156.3,
+                    157.97381971346
                   ]
                 ]
               }
@@ -3647,58 +3870,18 @@
             "global_axis": false
           },
           {
-            "id": "ink:v:side:ga_axis:9",
+            "id": "ink:v:side:ga_axis:10",
             "kind": "axis",
             "curves": [
               {
                 "Line": [
                   [
-                    197.70001,
-                    111.861902647382
+                    156.3,
+                    58.25
                   ],
                   [
-                    197.70001,
-                    99.86750249583
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:11",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    188.70001,
-                    112.275
-                  ],
-                  [
-                    188.70001,
-                    99.087993256265
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:12",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    197.70001,
-                    112.275
-                  ],
-                  [
-                    197.70001,
-                    99.087993256265
+                    156.3,
+                    141.62750100080098
                   ]
                 ]
               }
@@ -3713,192 +3896,12 @@
               {
                 "Line": [
                   [
-                    188.29872815937398,
-                    99.725
+                    151.398718159374,
+                    76.75
                   ],
                   [
-                    198.101291840626,
-                    99.725
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:14",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    190.95001,
-                    98.1
-                  ],
-                  [
-                    190.95001,
-                    91.3
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:15",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    191.75001,
-                    98.39999999999999
-                  ],
-                  [
-                    191.75001,
-                    91.0
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:16",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    194.65000999999998,
-                    98.39999999999999
-                  ],
-                  [
-                    194.65000999999998,
-                    91.0
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:17",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    190.95001,
-                    98.1
-                  ],
-                  [
-                    190.95001,
-                    91.3
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:18",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    195.45001,
-                    98.1
-                  ],
-                  [
-                    195.45001,
-                    91.3
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:19",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    191.75001,
-                    98.39999999999999
-                  ],
-                  [
-                    191.75001,
-                    91.0
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:20",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    194.65000999999998,
-                    98.39999999999999
-                  ],
-                  [
-                    194.65000999999998,
-                    91.0
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:21",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    195.45001,
-                    98.1
-                  ],
-                  [
-                    195.45001,
-                    91.3
-                  ]
-                ]
-              }
-            ],
-            "radial": false,
-            "global_axis": false
-          },
-          {
-            "id": "ink:v:side:ga_axis:22",
-            "kind": "axis",
-            "curves": [
-              {
-                "Line": [
-                  [
-                    193.20001,
-                    97.20000000000002
-                  ],
-                  [
-                    193.20001,
-                    92.2
+                    161.20128184062602,
+                    76.75
                   ]
                 ]
               }
@@ -3927,14 +3930,14 @@
           1.0
         ],
         "at": [
-          231.75000999999997,
-          245.7
+          227.1,
+          218.75
         ],
         "scale": 1.0,
         "area": [
-          165.50001,
-          200.4,
-          298.00001,
+          187.8,
+          146.5,
+          266.4,
           283.0
         ],
         "default": false,
@@ -3950,12 +3953,12 @@
               {
                 "Line": [
                   [
-                    199.50000999999997,
-                    248.975
+                    223.825,
+                    186.5
                   ],
                   [
-                    279.42058010157297,
-                    248.975
+                    223.825,
+                    266.420570101573
                   ]
                 ]
               }
@@ -3970,12 +3973,12 @@
               {
                 "Line": [
                   [
-                    199.50000999999997,
-                    248.975
+                    223.825,
+                    186.5
                   ],
                   [
-                    279.42058010157297,
-                    248.975
+                    223.825,
+                    266.420570101573
                   ]
                 ]
               }
@@ -3990,12 +3993,12 @@
               {
                 "Line": [
                   [
-                    265.50001,
-                    269.5
+                    203.29999999999998,
+                    252.5
                   ],
                   [
-                    265.50001,
-                    221.39999999999998
+                    251.4,
+                    252.5
                   ]
                 ]
               }
@@ -4010,12 +4013,12 @@
               {
                 "Line": [
                   [
-                    275.00001,
-                    270.0
+                    202.8,
+                    262.0
                   ],
                   [
-                    275.00001,
-                    233.42499999999998
+                    239.375,
+                    262.0
                   ]
                 ]
               }
@@ -4030,12 +4033,12 @@
               {
                 "Line": [
                   [
-                    196.50000999999997,
-                    244.535
+                    228.265,
+                    183.5
                   ],
                   [
-                    281.72382971345996,
-                    244.535
+                    228.265,
+                    268.72381971346
                   ]
                 ]
               }
@@ -4050,12 +4053,12 @@
               {
                 "Line": [
                   [
-                    278.50001,
-                    249.561902647382
+                    223.23809735261798,
+                    265.5
                   ],
                   [
-                    278.50001,
-                    237.56750249747998
+                    235.23249750252,
+                    265.5
                   ]
                 ]
               }
@@ -4070,12 +4073,12 @@
               {
                 "Line": [
                   [
-                    278.50001,
-                    249.561902647382
+                    223.23809735261798,
+                    265.5
                   ],
                   [
-                    278.50001,
-                    237.56750249582998
+                    235.23249750417,
+                    265.5
                   ]
                 ]
               }
@@ -4090,12 +4093,12 @@
               {
                 "Line": [
                   [
-                    182.00000999999997,
-                    243.2
+                    229.6,
+                    169.0
                   ],
                   [
-                    265.37751100080095,
-                    243.2
+                    229.6,
+                    252.37750100080098
                   ]
                 ]
               }
@@ -4110,12 +4113,12 @@
               {
                 "Line": [
                   [
-                    200.50000999999997,
-                    249.975
+                    222.825,
+                    187.5
                   ],
                   [
-                    200.50000999999997,
-                    236.787993256265
+                    236.012006743735,
+                    187.5
                   ]
                 ]
               }
@@ -4130,12 +4133,12 @@
               {
                 "Line": [
                   [
-                    200.50000999999997,
-                    249.975
+                    222.825,
+                    187.5
                   ],
                   [
-                    200.50000999999997,
-                    236.787993256265
+                    236.012006743735,
+                    187.5
                   ]
                 ]
               }
@@ -4150,12 +4153,12 @@
               {
                 "Line": [
                   [
-                    261.87501,
-                    235.79999999999998
+                    237.0,
+                    248.875
                   ],
                   [
-                    261.87501,
-                    229.0
+                    243.8,
+                    248.875
                   ]
                 ]
               }
@@ -4170,12 +4173,12 @@
               {
                 "Line": [
                   [
-                    261.80001,
-                    236.1
+                    236.7,
+                    248.8
                   ],
                   [
-                    261.80001,
-                    228.7
+                    244.10000000000002,
+                    248.8
                   ]
                 ]
               }
@@ -4190,12 +4193,12 @@
               {
                 "Line": [
                   [
-                    261.80001,
-                    236.1
+                    236.7,
+                    248.8
                   ],
                   [
-                    261.80001,
-                    228.7
+                    244.10000000000002,
+                    248.8
                   ]
                 ]
               }
@@ -4210,12 +4213,12 @@
               {
                 "Line": [
                   [
-                    269.12501,
-                    235.79999999999998
+                    237.0,
+                    256.125
                   ],
                   [
-                    269.12501,
-                    229.0
+                    243.8,
+                    256.125
                   ]
                 ]
               }
@@ -4230,12 +4233,12 @@
               {
                 "Line": [
                   [
-                    261.87501,
-                    235.79999999999998
+                    237.0,
+                    248.875
                   ],
                   [
-                    261.87501,
-                    229.0
+                    243.8,
+                    248.875
                   ]
                 ]
               }
@@ -4250,12 +4253,12 @@
               {
                 "Line": [
                   [
-                    269.20000999999996,
-                    236.1
+                    236.7,
+                    256.2
                   ],
                   [
-                    269.20000999999996,
-                    228.7
+                    244.10000000000002,
+                    256.2
                   ]
                 ]
               }
@@ -4270,12 +4273,12 @@
               {
                 "Line": [
                   [
-                    269.20000999999996,
-                    236.1
+                    236.7,
+                    256.2
                   ],
                   [
-                    269.20000999999996,
-                    228.7
+                    244.10000000000002,
+                    256.2
                   ]
                 ]
               }
@@ -4290,12 +4293,12 @@
               {
                 "Line": [
                   [
-                    269.12501,
-                    235.79999999999998
+                    237.0,
+                    256.125
                   ],
                   [
-                    269.12501,
-                    229.0
+                    243.8,
+                    256.125
                   ]
                 ]
               }
@@ -4310,12 +4313,12 @@
               {
                 "Line": [
                   [
-                    253.30001,
-                    234.9
+                    237.89999999999998,
+                    240.3
                   ],
                   [
-                    253.30001,
-                    229.89999999999998
+                    242.9,
+                    240.3
                   ]
                 ]
               }
@@ -4358,15 +4361,15 @@
           1.0
         ],
         "at": [
-          343.000005,
-          219.0
+          215.10000000000002,
+          93.2085
         ],
         "scale": 1.0,
         "area": [
-          280.00001,
-          143.0,
-          406.0,
-          283.0
+          181.8,
+          14.0,
+          248.4,
+          160.417
         ],
         "default": false,
         "basis": "Orientation view fitted after the GA section/detail reservations; Spec line work: sheet/hidden (sections retain no hidden or cosmetic ink)",

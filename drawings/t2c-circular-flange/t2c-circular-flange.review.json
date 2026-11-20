@@ -90,7 +90,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "unclaimed_geometry",
@@ -102,7 +103,8 @@
    "subjects": [
     "face:3",
     "face:4"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "leader_along_centreline",
@@ -114,7 +116,8 @@
    "subjects": [
     "d:f:hole:f7/bore.diameter",
     "f:hole:f7"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

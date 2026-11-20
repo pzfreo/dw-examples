@@ -55,7 +55,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "unclaimed_geometry",
@@ -67,7 +68,8 @@
    "subjects": [
     "face:5",
     "face:7"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "leader_along_centreline",
@@ -79,7 +81,8 @@
    "subjects": [
     "d:f:chamfer:f1/chamfer.length",
     "f:turned_step:f0"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

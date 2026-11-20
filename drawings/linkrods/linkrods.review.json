@@ -30,11 +30,12 @@
    "message": "Unrecognised features on this part: 18 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.4 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "general_tolerance_missing",
@@ -69,7 +70,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_through_feature",
@@ -111,7 +113,8 @@
    "subjects": [
     "d:step_level/step_height.length.f34",
     "f:hole:f11"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "nominal_rounded",
@@ -122,7 +125,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/width.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -133,7 +137,8 @@
    "severity": "info",
    "subjects": [
     "d:f:boss:f1/boss.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -144,7 +149,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f10/bore.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -155,7 +161,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f11/bore.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -166,7 +173,8 @@
    "severity": "info",
    "subjects": [
     "d:step_level/step_height.length.f34"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -187,7 +195,8 @@
     "face:28",
     "face:29",
     "face:34"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [],

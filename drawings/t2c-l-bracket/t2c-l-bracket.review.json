@@ -69,7 +69,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_through_feature",
@@ -81,7 +82,8 @@
    "subjects": [
     "d:f:hole:f19/location.length.x",
     "f:hole:f7"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -93,7 +95,8 @@
    "subjects": [
     "d:f:hole:f20/location.length.x",
     "f:hole:f9"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -175,7 +178,8 @@
    "subjects": [
     "d:f:hole:f7/location.length.x",
     "f:hole:f19"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -257,7 +261,8 @@
    "subjects": [
     "d:f:hole:f9/location.length.x",
     "f:hole:f20"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "unclaimed_geometry",
@@ -273,7 +278,8 @@
     "face:15",
     "face:17",
     "face:18"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -285,7 +291,20 @@
    "subjects": [
     "d:f:fillet:f2/fillet.radius",
     "v:side"
-   ]
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "automatic_scale_limited",
+   "group": "automatic_scale_limited",
+   "id": "p:automatic_scale_limited:sheet",
+   "impact": "advisory",
+   "message": "Automatic scale kept at 1:2 on A4. A4 at 1:1 was not used: annotations would leave the drawable area.",
+   "severity": "info",
+   "subjects": [
+    "sheet"
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_exit_obstructed",
@@ -299,7 +318,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f7"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_exit_obstructed",
@@ -313,7 +333,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f9"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_exit_obstructed",
@@ -327,7 +348,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f19"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_exit_obstructed",
@@ -341,12 +363,14 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f20"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
+   "automatic_scale_limited": 1,
    "extension_through_feature": 4,
    "general_tolerance_missing": 1,
    "hole_exit_obstructed": 4,
@@ -355,8 +379,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 9,
-    "groups": 3
+    "findings": 10,
+    "groups": 4
    },
    "decision": {
     "findings": 1,

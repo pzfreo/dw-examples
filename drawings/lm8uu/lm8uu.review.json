@@ -26,7 +26,8 @@
     "Metal"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "general_tolerance_missing",
@@ -61,7 +62,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   }
  ],
  "structural": [],

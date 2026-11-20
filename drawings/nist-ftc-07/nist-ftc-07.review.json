@@ -2,170 +2,147 @@
  "drawing_consumer": {
   "holes": [
    {
-    "carriers": [
-     "d:f:hole_pattern:f1/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f1",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f40/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f40",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f40/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f93",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f40/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f110",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f112/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f112",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f112/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f113",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f112/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f114",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f112/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f115",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f40/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f116",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f1/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f124",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f1/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f156",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f1/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f168",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole:f237/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f237",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole:f237/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f239",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f244/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f244",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f244/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f246",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole_pattern:f244/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f248",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole:f253/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f253",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole:f253/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f255",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole:f253/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f257",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole:f253/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f259",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole:f237/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f261",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    },
    {
-    "carriers": [
-     "d:f:hole:f237/bore.diameter"
-    ],
+    "carriers": [],
     "feature": "f:hole:f263",
-    "state": "supported"
+    "reason": "No rendered annotation states this hole's bore size.",
+    "state": "unsupported"
    }
   ],
-  "supported": 23,
+  "supported": 0,
   "unknown": 0,
-  "unsupported": 0
+  "unsupported": 23
  },
  "lint": [
   {
@@ -179,7 +156,8 @@
    "message": "dimension-relevant source geometry is absent from recognised IR: unsupported internal profile on a principal boundary face",
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "pmi_not_extracted",
@@ -192,7 +170,8 @@
    "sources": [
     "dimension:#15607"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -205,7 +184,8 @@
    "sources": [
     "geometric_tolerance:#13984"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -218,7 +198,8 @@
    "sources": [
     "geometric_tolerance:#14025"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -231,7 +212,8 @@
    "sources": [
     "geometric_tolerance:#14086"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -244,7 +226,8 @@
    "sources": [
     "geometric_tolerance:#14121"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -257,7 +240,8 @@
    "sources": [
     "geometric_tolerance:#14130"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -270,7 +254,8 @@
    "sources": [
     "geometric_tolerance:#14218"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -283,7 +268,8 @@
    "sources": [
     "geometric_tolerance:#14257"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -296,7 +282,8 @@
    "sources": [
     "geometric_tolerance:#14472"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -309,7 +296,8 @@
    "sources": [
     "geometric_tolerance:#14483"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -322,7 +310,8 @@
    "sources": [
     "geometric_tolerance:#14614"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -335,7 +324,8 @@
    "sources": [
     "geometric_tolerance:#14623"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -348,7 +338,8 @@
    "sources": [
     "geometric_tolerance:#14709"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -361,7 +352,8 @@
    "sources": [
     "geometric_tolerance:#14720"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -374,7 +366,8 @@
    "sources": [
     "geometric_tolerance:#15026"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -387,7 +380,8 @@
    "sources": [
     "geometric_tolerance:#15036"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -400,7 +394,8 @@
    "sources": [
     "geometric_tolerance:#15076"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -413,7 +408,8 @@
    "sources": [
     "geometric_tolerance:#15085"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -426,7 +422,8 @@
    "sources": [
     "attribute_set:0:18"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -439,7 +436,8 @@
    "sources": [
     "attribute_set:0:21"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -452,7 +450,8 @@
    "sources": [
     "attribute_set:0:22"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -465,7 +464,8 @@
    "sources": [
     "attribute_set:0:24"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -478,7 +478,8 @@
    "sources": [
     "attribute_set:0:25"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -491,7 +492,8 @@
    "sources": [
     "attribute_set:0:26"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -504,7 +506,8 @@
    "sources": [
     "attribute_set:0:27"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -517,7 +520,8 @@
    "sources": [
     "attribute_set:0:29"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -530,7 +534,8 @@
    "sources": [
     "attribute_set:0:30"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -543,7 +548,8 @@
    "sources": [
     "standard:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -556,7 +562,8 @@
    "sources": [
     "attribute_set:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -569,7 +576,8 @@
    "sources": [
     "attribute_set:0:1"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -582,7 +590,8 @@
    "sources": [
     "attribute_set:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -595,7 +604,8 @@
    "sources": [
     "attribute_set:0:3"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -608,7 +618,8 @@
    "sources": [
     "attribute_set:0:4"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -621,7 +632,8 @@
    "sources": [
     "attribute_set:0:5"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -634,7 +646,8 @@
    "sources": [
     "attribute_set:0:6"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -647,7 +660,8 @@
    "sources": [
     "attribute_set:0:7"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -660,7 +674,8 @@
    "sources": [
     "attribute_set:0:8"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -673,7 +688,8 @@
    "sources": [
     "attribute_set:0:9"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -686,7 +702,8 @@
    "sources": [
     "attribute_set:0:10"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -699,7 +716,8 @@
    "sources": [
     "attribute_set:0:11"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -712,7 +730,8 @@
    "sources": [
     "attribute_set:0:12"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -725,7 +744,8 @@
    "sources": [
     "attribute_set:0:13"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -738,7 +758,8 @@
    "sources": [
     "attribute_set:0:14"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -751,7 +772,8 @@
    "sources": [
     "attribute_set:0:15"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -764,7 +786,8 @@
    "sources": [
     "attribute_set:0:16"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -777,7 +800,8 @@
    "sources": [
     "attribute_set:0:17"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -790,7 +814,8 @@
    "sources": [
     "tolerance_relation:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -803,7 +828,8 @@
    "sources": [
     "tolerance_relation:0:1"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -816,7 +842,8 @@
    "sources": [
     "tolerance_relation:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -829,7 +856,8 @@
    "sources": [
     "tolerance_relation:0:3"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -842,7 +870,8 @@
    "sources": [
     "tolerance_relation:0:4"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -855,7 +884,8 @@
    "sources": [
     "tolerance_relation:0:5"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -868,7 +898,8 @@
    "sources": [
     "finding:#13281"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -881,7 +912,8 @@
    "sources": [
     "finding:#13544"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -894,7 +926,8 @@
    "sources": [
     "dimension:#15178"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -907,7 +940,8 @@
    "sources": [
     "dimension:#15285"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -920,7 +954,8 @@
    "sources": [
     "dimension:#15545"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -933,7 +968,8 @@
    "sources": [
     "dimension:#15607"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -946,7 +982,8 @@
    "sources": [
     "dimension:#16188"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -959,7 +996,8 @@
    "sources": [
     "dimension:#16423"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -972,7 +1010,8 @@
    "sources": [
     "dimension:#16482"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -985,7 +1024,8 @@
    "sources": [
     "geometric_tolerance:#13984"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -998,7 +1038,8 @@
    "sources": [
     "geometric_tolerance:#14025"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1011,7 +1052,8 @@
    "sources": [
     "geometric_tolerance:#14086"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1024,7 +1066,8 @@
    "sources": [
     "geometric_tolerance:#14121"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1037,7 +1080,8 @@
    "sources": [
     "geometric_tolerance:#14130"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1050,7 +1094,8 @@
    "sources": [
     "geometric_tolerance:#14218"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1063,7 +1108,8 @@
    "sources": [
     "geometric_tolerance:#14257"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1076,7 +1122,8 @@
    "sources": [
     "geometric_tolerance:#14391"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1089,7 +1136,8 @@
    "sources": [
     "geometric_tolerance:#14472"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1102,7 +1150,8 @@
    "sources": [
     "geometric_tolerance:#14483"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1115,7 +1164,8 @@
    "sources": [
     "geometric_tolerance:#14614"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1128,7 +1178,8 @@
    "sources": [
     "geometric_tolerance:#14623"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1141,7 +1192,8 @@
    "sources": [
     "geometric_tolerance:#14709"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1154,7 +1206,8 @@
    "sources": [
     "geometric_tolerance:#14720"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1167,7 +1220,8 @@
    "sources": [
     "geometric_tolerance:#15026"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1180,7 +1234,8 @@
    "sources": [
     "geometric_tolerance:#15036"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1193,7 +1248,8 @@
    "sources": [
     "geometric_tolerance:#15076"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1206,7 +1262,8 @@
    "sources": [
     "geometric_tolerance:#15085"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_rendered",
@@ -1219,7 +1276,8 @@
    "sources": [
     "dimension:#15883"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1242,7 +1300,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f253"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1265,7 +1324,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f255"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1288,7 +1348,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f257"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1311,7 +1372,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f259"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1334,7 +1396,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f265"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1357,7 +1420,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f265"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1380,7 +1444,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f266"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1403,7 +1468,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f266"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1426,7 +1492,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f267"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1449,7 +1516,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f267"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1472,7 +1540,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f3"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -1495,13 +1564,14 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f3"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "annotation": "d:f:fillet:f285/fillet.radius",
    "at": [
-    346.58801000348,
-    81.67799999999998
+    45.66297737174,
+    205.68998737174
    ],
    "code": "radius_leader_target_unverifiable",
    "evidence": "the view does not show a proven circular radius section end-on",
@@ -1546,6 +1616,7 @@
     "f:fillet:f284",
     "f:fillet:f285"
    ],
+   "tier": "fix_before_printing",
    "view": "v:front"
   }
  ],
@@ -1558,11 +1629,12 @@
    "message": "Unrecognised features on this part: 20 freeform surfaces. These features are not dimensioned, sectioned or checked. If a missed feature matches a supported type, declare it in the Spec's feature_declarations using its face fingerprints. Otherwise, add the required dimensions and review it manually.",
    "refs": [
     "freeform_surfaces",
-    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.4 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "general_tolerance_missing",
@@ -1597,7 +1669,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1608,7 +1681,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f253"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1619,7 +1693,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f255"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1630,7 +1705,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f257"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1641,7 +1717,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f259"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "datum_origin_unusable",
@@ -1653,7 +1730,8 @@
     "datum:#13726"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1665,14 +1743,15 @@
     "datum:#13767"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15178",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15178 (7.62 \u00b10.508) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm). Graphical callout #15209 (\"Oriented Linear Dimension.1\").",
+   "message": "PMI dimension dimension:#15178 (.300 \u00b1.020) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm). Graphical callout #15209 (\"Oriented Linear Dimension.1\").",
    "refs": [
     "dimension:#15178",
     "linear reference relationship does not lie in a principal projection plane (delta=(-142.875, -7.62, 98.425) mm)",
@@ -1680,14 +1759,15 @@
     "graphical_text:\"Oriented Linear Dimension.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15285",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15285 (7.62 \u00b10.508) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm). Graphical callout #15315 (\"Oriented Linear Dimension.2\").",
+   "message": "PMI dimension dimension:#15285 (.300 \u00b1.020) is not drawn: linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm). Graphical callout #15315 (\"Oriented Linear Dimension.2\").",
    "refs": [
     "dimension:#15285",
     "linear reference relationship does not lie in a principal projection plane (delta=(142.875, -7.62, 98.425) mm)",
@@ -1695,14 +1775,15 @@
     "graphical_text:\"Oriented Linear Dimension.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15545",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15545 (7.62 \u00b10.508) is not drawn: linear reference-station span 98.7195 mm differs from nominal 7.62 mm; reference face groups [[182], []] (STEP faces [9659]). Graphical callout #15578 (\"Oriented Linear Dimension.4\").",
+   "message": "PMI dimension dimension:#15545 (.300 \u00b1.020) is not drawn: linear reference-station span 98.7195 mm differs from nominal 7.62 mm; reference face groups [[182], []] (STEP faces [9659]). Graphical callout #15578 (\"Oriented Linear Dimension.4\").",
    "refs": [
     "dimension:#15545",
     "linear reference-station span 98.7195 mm differs from nominal 7.62 mm",
@@ -1710,14 +1791,15 @@
     "graphical_text:\"Oriented Linear Dimension.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15607",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15607 (\u230022.225 \u00b10.508) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers. Graphical callout #15623 (\"Linear Size.5\").",
+   "message": "PMI dimension dimension:#15607 (\u2300.875 \u00b1.020) is not drawn: the dimension modifier Statistical is not carried; the STEP reader nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers. Graphical callout #15623 (\"Linear Size.5\").",
    "refs": [
     "dimension:#15607",
     "the dimension modifier Statistical is not carried; haecceity nonconformance on #15604 (compound_representation_item): type 2 dimension modifiers in a compound item named \"dimensional note\" (\u00a75.3: 'modifiers'); read as the modifiers",
@@ -1725,14 +1807,15 @@
     "graphical_text:\"Linear Size.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#15883",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#15883 (\u230011.1252 \u00b10.254) is not drawn: standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists. Graphical callout #15899 (\"Linear Size.11\").",
+   "message": "PMI dimension dimension:#15883 (\u2300.438 \u00b1.010) is not drawn: standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists. Graphical callout #15899 (\"Linear Size.11\").",
    "refs": [
     "dimension:#15883",
     "standalone diameter fallback references multiple distinct cylinder axis lines; no single truthful leader target exists",
@@ -1740,14 +1823,15 @@
     "graphical_text:\"Linear Size.11\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
    "group": "pmi_not_lowered:dimension+graphical_callout",
    "id": "p:pmi_not_lowered:dimension:#16188",
    "impact": "incomplete",
-   "message": "PMI dimension dimension:#16188 (R0.3048 - R0.5588) is not drawn: one radius reference face is not cylindrical; radius references do not share one cylinder axis direction. Graphical callout #16200 (\"Linear Size.13\").",
+   "message": "PMI dimension dimension:#16188 (R.012 - R.022) is not drawn: one radius reference face is not cylindrical; radius references do not share one cylinder axis direction. Graphical callout #16200 (\"Linear Size.13\").",
    "refs": [
     "dimension:#16188",
     "one radius reference face is not cylindrical; radius references do not share one cylinder axis direction",
@@ -1755,7 +1839,8 @@
     "graphical_text:\"Linear Size.13\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -1771,7 +1856,8 @@
     "graphical_text:\"Text.4\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1787,7 +1873,8 @@
     "graphical_text:\"Text.5\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1803,7 +1890,8 @@
     "graphical_text:\"Text.8\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1819,7 +1907,8 @@
     "graphical_text:\"Oriented Linear Dimension.1\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1835,7 +1924,8 @@
     "graphical_text:\"Oriented Linear Dimension.2\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1851,7 +1941,8 @@
     "graphical_text:\"Oriented Linear Dimension.3\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1867,7 +1958,8 @@
     "graphical_text:\"Oriented Linear Dimension.4\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1883,7 +1975,8 @@
     "graphical_text:\"Oriented Linear Dimension.5\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1899,7 +1992,8 @@
     "graphical_text:\"Text.10\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1913,7 +2007,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (standard)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1927,7 +2022,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1941,7 +2037,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1955,7 +2052,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1969,7 +2067,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1983,7 +2082,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1997,7 +2097,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2011,7 +2112,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2025,7 +2127,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2039,7 +2142,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2053,7 +2157,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2067,7 +2172,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2081,7 +2187,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2095,7 +2202,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2109,7 +2217,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2123,7 +2232,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2137,7 +2247,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2153,7 +2264,8 @@
     "graphical_text:\"Text.1\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2169,7 +2281,8 @@
     "graphical_text:\"Text.6\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2183,7 +2296,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2197,7 +2311,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2211,7 +2326,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2225,7 +2341,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2239,7 +2356,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2253,7 +2371,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (tolerance relation)"
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -2267,7 +2386,8 @@
     "haecceity unresolved-reference: items that are not faces, edges or geometry the reader holds: manifold_solid_brep; feature not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -2281,7 +2401,8 @@
     "haecceity unconsumed: part of shape_aspect #13281, which is not read (its finding says why)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -2302,7 +2423,8 @@
     "graphical_text:\"Text.7\""
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2319,7 +2441,8 @@
     "graphical_text:\"Text.9\""
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2334,7 +2457,8 @@
     "graphical_text:\"Perpendicularity.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2349,7 +2473,8 @@
     "graphical_text:\"Position.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2364,7 +2489,8 @@
     "graphical_text:\"Position.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2379,7 +2505,8 @@
     "graphical_text:\"Position surfacic profile.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2394,7 +2521,8 @@
     "graphical_text:\"Position surfacic profile.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2409,7 +2537,8 @@
     "graphical_text:\"Position.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2424,7 +2553,8 @@
     "graphical_text:\"Flatness.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2439,7 +2569,8 @@
     "graphical_text:\"Position.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2454,7 +2585,8 @@
     "graphical_text:\"Position.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2469,7 +2601,8 @@
     "graphical_text:\"Position.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2484,7 +2617,8 @@
     "graphical_text:\"Position surfacic profile.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2499,7 +2633,8 @@
     "graphical_text:\"Position surfacic profile.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2514,7 +2649,8 @@
     "graphical_text:\"Position.8\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2529,7 +2665,8 @@
     "graphical_text:\"Position.8\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2544,7 +2681,8 @@
     "graphical_text:\"Position surfacic profile.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2559,7 +2697,8 @@
     "graphical_text:\"Position surfacic profile.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2574,7 +2713,8 @@
     "graphical_text:\"Position surfacic profile.7\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -2589,3235 +2729,161 @@
     "graphical_text:\"Position surfacic profile.7\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
+   "code": "nominal_rounded",
    "fix": [
     {
      "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
+     "path": "units",
+     "value": "mm"
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Set the units to mm. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
+       "path": "units",
+       "value": "mm"
+      }
+     ],
+     "scope": "sheet"
+    },
+    {
+     "description": "Print these dimensions to four decimal inch places The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
       {
        "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
+       "path": "precision",
+       "value": {
+        "d:envelope/height.length": 4,
+        "d:envelope/width.length": 4,
+        "d:f:hole:f1/counterbore.diameter": 4,
+        "d:f:hole:f124/counterbore.diameter": 4,
+        "d:f:hole:f156/counterbore.diameter": 4,
+        "d:f:hole:f168/counterbore.diameter": 4,
+        "d:f:hole:f237/bore.diameter": 4,
+        "d:f:hole:f237/location.length.x": 4,
+        "d:f:hole:f237/location.length.y": 4,
+        "d:f:hole:f239/bore.diameter": 4,
+        "d:f:hole:f239/location.length.x": 4,
+        "d:f:hole:f239/location.length.y": 4,
+        "d:f:hole:f261/bore.diameter": 4,
+        "d:f:hole:f261/location.length.x": 4,
+        "d:f:hole:f261/location.length.y": 4,
+        "d:f:hole:f263/bore.diameter": 4,
+        "d:f:hole:f263/location.length.x": 4,
+        "d:f:hole:f263/location.length.y": 4,
+        "d:f:hole_pattern:f1/location.length.x": 4,
+        "d:f:hole_pattern:f1/location.length.z": 4,
+        "d:f:hole_pattern:f112/location.length.x": 4,
+        "d:f:hole_pattern:f112/location.length.z": 4,
+        "d:f:hole_pattern:f244/location.length.z": 4,
+        "d:f:hole_pattern:f40/location.length.x": 4,
+        "d:f:hole_pattern:f40/location.length.z": 4,
+        "d:f:plate:f201/thickness.length": 4,
+        "d:f:plate:f274/thickness.length": 4,
+        "d:f:polygonal_boss:f265/polygon_across_flats.length": 4,
+        "d:f:polygonal_boss:f266/polygon_across_flats.length": 4,
+        "d:f:polygonal_boss:f267/polygon_across_flats.length": 4,
+        "d:f:polygonal_boss:f3/polygon_across_flats.length": 4,
+        "d:pmi:dimension.diameter:f237,238,239,240/diameter": 4,
+        "d:pmi:dimension.diameter:f261,262,263,264/diameter": 4,
+        "d:step_level/step_height.length.f133": 4,
+        "d:step_level/step_height.length.f141": 4,
+        "d:step_level/step_height.length.f176": 4,
+        "d:step_level/step_height.length.f177": 4,
+        "d:step_level/step_height.length.f205": 4,
+        "d:step_level/step_height.length.f213": 4,
+        "d:step_level/step_height.length.f276": 4,
+        "d:step_level/step_height.length.f287": 4,
+        "d:step_level/step_height.length.f289": 4
+       }
       }
      ],
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole_pattern:f40/bore.diameter|d:f:hole_pattern:f112/grid_pitch.length.row",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:sheet",
    "impact": "advisory",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 crosses a line of 196.85.",
-   "severity": "warning",
+   "message": "42 dimensions print rounded from non-inch nominals at three decimal inch places. Use millimetres or request four-place precision where needed.",
+   "refs": [
+    "The dimension \"8.768\": modelled nominal 222.705909 mm prints 8.768 in at the default three-place limit.",
+    "The dimension \"12.268\": modelled nominal 311.605909 mm prints 12.268 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.594 +.012/-.002 THRU\": modelled nominal 15.0825 mm prints .594 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.594 +.012/-.002 THRU\": modelled nominal 15.0825 mm prints .594 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.594 +.012/-.002 THRU\": modelled nominal 15.0825 mm prints .594 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.594 +.012/-.002 THRU\": modelled nominal 15.0825 mm prints .594 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.594 +.012/-.002 THRU\": modelled nominal 15.0825 mm prints .594 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.594 +.012/-.002 THRU\": modelled nominal 15.0825 mm prints .594 in at the default three-place limit.",
+    "The dimension \"7.693\": modelled nominal 195.402955 mm prints 7.693 in at the default three-place limit.",
+    "The dimension \"3.575\": modelled nominal 90.80216 mm prints 3.575 in at the default three-place limit.",
+    "The dimension \"3.575\": modelled nominal 90.80216 mm prints 3.575 in at the default three-place limit.",
+    "The dimension \"3.575\": modelled nominal 90.80216 mm prints 3.575 in at the default three-place limit.",
+    "The dimension \"3.575\": modelled nominal 90.80216 mm prints 3.575 in at the default three-place limit.",
+    "The dimension \"9.425\": modelled nominal 239.402955 mm prints 9.425 in at the default three-place limit.",
+    "The dimension \"6.827\": modelled nominal 173.402955 mm prints 6.827 in at the default three-place limit.",
+    "The dimension \"8.559\": modelled nominal 217.402955 mm prints 8.559 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.281 +.006/-.001 THRU\\n\u2334 \u2300.437 \u21a7 .300\": modelled nominal 11.11 mm prints .437 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.281 +.006/-.001 THRU\\n\u2334 \u2300.437 \u21a7 .300\": modelled nominal 11.11 mm prints .437 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.281 +.006/-.001 THRU\\n\u2334 \u2300.437 \u21a7 .300\": modelled nominal 11.11 mm prints .437 in at the default three-place limit.",
+    "The dimension \"4\u00d7 \u2300.281 +.006/-.001 THRU\\n\u2334 \u2300.437 \u21a7 .300\": modelled nominal 11.11 mm prints .437 in at the default three-place limit.",
+    "The dimension \"6.134\": modelled nominal 155.802955 mm prints 6.134 in at the default three-place limit.",
+    "The dimension \"6.134\": modelled nominal 155.802955 mm prints 6.134 in at the default three-place limit.",
+    "The dimension \"6.134\": modelled nominal 155.802955 mm prints 6.134 in at the default three-place limit.",
+    "The dimension \"4.384\": modelled nominal 111.352955 mm prints 4.384 in at the default three-place limit.",
+    "The dimension \"4.384\": modelled nominal 111.352955 mm prints 4.384 in at the default three-place limit.",
+    "The dimension \"4.384\": modelled nominal 111.352955 mm prints 4.384 in at the default three-place limit.",
+    "The dimension \"2.509\": modelled nominal 63.727955 mm prints 2.509 in at the default three-place limit.",
+    "The dimension \"2\u00d7 .366\": modelled nominal 9.297 mm prints .366 in at the default three-place limit.",
+    "The dimension \"2\u00d7 .366\": modelled nominal 9.297 mm prints .366 in at the default three-place limit.",
+    "The dimension \"4\u00d7 4-SIDED .998 A/F\": modelled nominal 25.3518 mm prints .998 in at the default three-place limit.",
+    "The dimension \"4\u00d7 4-SIDED .998 A/F\": modelled nominal 25.3518 mm prints .998 in at the default three-place limit.",
+    "The dimension \"4\u00d7 4-SIDED .998 A/F\": modelled nominal 25.3518 mm prints .998 in at the default three-place limit.",
+    "The dimension \"4\u00d7 4-SIDED .998 A/F\": modelled nominal 25.3518 mm prints .998 in at the default three-place limit.",
+    "The dimension \".184\": modelled nominal 4.682308 mm prints .184 in at the default three-place limit.",
+    "The dimension \"8.584\": modelled nominal 218.023601 mm prints 8.584 in at the default three-place limit.",
+    "The dimension \"1.634\": modelled nominal 41.502955 mm prints 1.634 in at the default three-place limit.",
+    "The dimension \"7.134\": modelled nominal 181.202955 mm prints 7.134 in at the default three-place limit.",
+    "The dimension \"8.398\": modelled nominal 213.308555 mm prints 8.398 in at the default three-place limit.",
+    "The dimension \".370\": modelled nominal 9.397355 mm prints .370 in at the default three-place limit.",
+    "The dimension \"8.268\": modelled nominal 210.005909 mm prints 8.268 in at the default three-place limit.",
+    "The dimension \"8.634\": modelled nominal 219.302955 mm prints 8.634 in at the default three-place limit.",
+    "The dimension \".134\": modelled nominal 3.402955 mm prints .134 in at the default three-place limit."
+   ],
+   "severity": "info",
    "subjects": [
-    "d:f:hole_pattern:f40/bore.diameter",
-    "d:f:hole_pattern:f112/grid_pitch.length.row"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:polygonal_boss:f3/polygon_across_flats.length|d:f:hole_pattern:f112/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "The leader of 4\u00d7 4-SIDED 25.352 A/F crosses a line of 196.85.",
-   "severity": "warning",
-   "subjects": [
+    "sheet",
+    "d:envelope/height.length",
+    "d:envelope/width.length",
+    "d:f:hole:f237/bore.diameter",
+    "d:f:hole:f237/location.length.x",
+    "d:f:hole:f237/location.length.y",
+    "d:f:hole:f239/location.length.x",
+    "d:f:hole:f261/location.length.x",
+    "d:f:hole:f263/location.length.x",
+    "d:f:hole_pattern:f1/bore.diameter",
+    "d:f:hole_pattern:f1/location.length.x",
+    "d:f:hole_pattern:f1/location.length.z",
+    "d:f:hole_pattern:f244/location.length.z",
+    "d:f:plate:f201/thickness.length",
     "d:f:polygonal_boss:f3/polygon_across_flats.length",
-    "d:f:hole_pattern:f112/grid_pitch.length.row"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f226:ref=A|d:envelope/depth.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of 135.89.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.parallelism:f226:ref=A|pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C|d:envelope/depth.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.1524 A B C crosses a line of 135.89.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C|d:f:hole_pattern:f244/pitch.length",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.1524 A B C crosses a line of 2\u00d7 47.625.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C",
-    "d:f:hole_pattern:f244/pitch.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C|d:f:hole_pattern:f244/location.length.y",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.1524 A B C crosses a line of 88.392.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C",
-    "d:f:hole_pattern:f244/location.length.y"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C|d:f:hole_pattern:f244/location.length.z",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 0.1524 A B C crosses a line of 63.728.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C",
-    "d:f:hole_pattern:f244/location.length.z"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "dimension_line"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C|d:envelope/depth.length",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 135.89.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C",
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader",
-    "arrow"
-   ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:arrow+leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C|pmi:geometric_tolerance.parallelism:f226:ref=A",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of the feature control frame \u2225 0.762 A.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C",
-    "pmi:geometric_tolerance.parallelism:f226:ref=A"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f1/grid_pitch.length.row|f:hole:f110:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 162.56 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f1/grid_pitch.length.row",
-    "f:hole:f110"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f1/grid_pitch.length.row|f:hole:f116:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 162.56 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f1/grid_pitch.length.row",
-    "f:hole:f116"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f1/grid_pitch.length.row|f:hole:f40:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 162.56 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f1/grid_pitch.length.row",
-    "f:hole:f40"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 162.56 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f1/grid_pitch.length.row|f:hole:f93:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 162.56 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f1/grid_pitch.length.row",
-    "f:hole:f93"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f40/grid_pitch.length.row|f:hole:f156:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 165.1 crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f40/grid_pitch.length.row",
-    "f:hole:f156"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f40/grid_pitch.length.row|f:hole:f168:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 165.1 crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f40/grid_pitch.length.row",
-    "f:hole:f168"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 3.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.col|f:hole:f244:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 285.75 crosses the \u230022.225 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.col",
-    "f:hole:f244"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 3.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.col|f:hole:f246:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 285.75 crosses the \u230022.225 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.col",
-    "f:hole:f246"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "above",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 285.75 dimension above the front view, nearest the view. Trade-off: adds these findings: The dimension 285.75 runs up to 3.0 mm past the area reserved for the front view and its bands; it may crowd what lies beyond. [annotation_outside_area].",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "above",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.col|f:hole:f248:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 285.75 crosses the \u230022.225 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.col",
-    "f:hole:f248"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.row|f:hole:f253:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 196.85 crosses the \u23004.394 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.row",
-    "f:hole:f253"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.row|f:hole:f255:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 196.85 crosses the \u23004.394 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.row",
-    "f:hole:f255"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.row|f:hole:f257:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 196.85 crosses the \u23004.394 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.row",
-    "f:hole:f257"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.row|f:hole:f259:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 196.85 crosses the \u23004.394 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.row",
-    "f:hole:f259"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.row|f:hole:f261:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 196.85 crosses the \u230015.082 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.row",
-    "f:hole:f261"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.row|f:hole:f263:line:0",
-   "impact": "advisory",
-   "message": "The first extension line of 196.85 crosses the \u230015.082 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.row",
-    "f:hole:f263"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.row|f:hole:f237:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 196.85 crosses the \u230015.082 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.row",
-    "f:hole:f237"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "left",
-      "view": "front"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 196.85 dimension to the left of the front view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.row/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "left",
-        "view": "front"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.row|f:hole:f239:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 196.85 crosses the \u230015.082 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f112/grid_pitch.length.row",
-    "f:hole:f239"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:f237~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 90.802 dimension to the right of the plan view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:f237~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:f237/location.length.y|f:hole:f244:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 90.802 crosses the \u230022.225 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:f237/location.length.y",
-    "f:hole:f244"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:f237~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 90.802 dimension to the right of the plan view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:f237~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:f237/location.length.y|f:hole:f246:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 90.802 crosses the \u230022.225 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:f237/location.length.y",
-    "f:hole:f246"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "dimensions/d:f:hole:f237~1location.length.y/place",
-     "value": {
-      "along": "middle",
-      "lane": 0,
-      "side": "right",
-      "view": "plan"
-     }
-    },
-    {
-     "op": "set",
-     "path": "sheet/keep_layout",
-     "value": true
-    },
-    {
-     "op": "set",
-     "path": "sheet/size",
-     "value": "A1"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:1"
-    },
-    {
-     "op": "set",
-     "path": "sheets/max",
-     "value": 1
-    }
-   ],
-   "fixes": [
-    {
-     "description": "Move the 90.802 dimension to the right of the plan view, nearest the view.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "dimensions/d:f:hole:f237~1location.length.y/place",
-       "value": {
-        "along": "middle",
-        "lane": 0,
-        "side": "right",
-        "view": "plan"
-       }
-      },
-      {
-       "op": "set",
-       "path": "sheet/keep_layout",
-       "value": true
-      },
-      {
-       "op": "set",
-       "path": "sheet/size",
-       "value": "A1"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:1"
-      },
-      {
-       "op": "set",
-       "path": "sheets/max",
-       "value": 1
-      }
-     ],
-     "scope": "local"
-    },
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole:f237/location.length.y|f:hole:f248:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 90.802 crosses the \u230022.225 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:f237/location.length.y",
-    "f:hole:f248"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f244/location.length.y|f:hole:f261:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 88.392 crosses the \u230015.082 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f244/location.length.y",
-    "f:hole:f261"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:f:hole_pattern:f244/location.length.y|f:hole:f263:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 88.392 crosses the \u230015.082 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole_pattern:f244/location.length.y",
-    "f:hole:f263"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.f203|f:hole:f115:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 12.7 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:step_level/step_height.length.f203",
-    "f:hole:f115"
-   ]
-  },
-  {
-   "code": "extension_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "extension_through_feature",
-   "id": "p:extension_through_feature:d:step_level/step_height.length.f276|f:hole:f112:line:1",
-   "impact": "advisory",
-   "message": "The second extension line of 210.006 crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
+    "d:step_level/step_height.length.f133",
+    "d:step_level/step_height.length.f141",
+    "d:step_level/step_height.length.f176",
+    "d:step_level/step_height.length.f177",
+    "d:step_level/step_height.length.f205",
+    "d:step_level/step_height.length.f213",
     "d:step_level/step_height.length.f276",
-    "f:hole:f112"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.parallelism:f226:ref=A|f:hole:f124:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "f:hole:f124"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.parallelism:f226:ref=A|f:hole:f156:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2225 0.762 A crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.parallelism:f226:ref=A",
-    "f:hole:f156"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C|f:hole:f113:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.1524 A B C crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C",
-    "f:hole:f113"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C|f:hole:f115:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.1524 A B C crosses the \u23006.35 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f165:ref=A,B,C",
-    "f:hole:f115"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C|f:hole:f124:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C",
-    "f:hole:f124"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "1:2"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "1:2"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C|f:hole:f156:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses the \u23007.137 hole.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f226:ref=A,B,C",
-    "f:hole:f156"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
-   "impact": "advisory",
-   "message": "The dimension \"222.706\" has modelled nominal 222.705909 but prints 222.706 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/height.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
-   "impact": "advisory",
-   "message": "The dimension \"311.606\" has modelled nominal 311.605909 but prints 311.606 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/width.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/bore.diameter:d:f:hole:f237/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/bore.diameter:d:f:hole:f239/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/bore.diameter:d:f:hole:f261/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/bore.diameter:d:f:hole:f263/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/bore.diameter:d:pmi:dimension.diameter:f237,238,239,240/diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/bore.diameter:d:pmi:dimension.diameter:f261,262,263,264/diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u230015.082\\n+0.3048/-0.0508 THRU\" has modelled nominal 15.0825 but prints 15.082 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/location.length.x:d:f:hole:f237/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"195.403\" has modelled nominal 195.402955 but prints 195.403 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/location.length.x"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/location.length.y:d:f:hole:f237/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"90.802\" has modelled nominal 90.80216 but prints 90.802 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/location.length.y"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/location.length.y:d:f:hole:f239/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"90.802\" has modelled nominal 90.80216 but prints 90.802 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/location.length.y"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/location.length.y:d:f:hole:f261/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"90.802\" has modelled nominal 90.80216 but prints 90.802 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/location.length.y"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f237/location.length.y:d:f:hole:f263/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"90.802\" has modelled nominal 90.80216 but prints 90.802 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f237/location.length.y"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f239/location.length.x:d:f:hole:f239/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"239.403\" has modelled nominal 239.402955 but prints 239.403 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f239/location.length.x"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f253/bore.diameter:d:f:hole:f253/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f253/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f253/bore.diameter:d:f:hole:f255/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f253/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f253/bore.diameter:d:f:hole:f257/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f253/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f253/bore.diameter:d:f:hole:f259/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f253/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f253/bore.diameter:d:pmi:dimension.diameter:f253,254,255,256,257,258,259,260/diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.394 +0.127/-0.0254\\nTHRU\" has modelled nominal 4.3942 but prints 4.394 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f253/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f261/location.length.x:d:f:hole:f261/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"173.403\" has modelled nominal 173.402955 but prints 173.403 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f261/location.length.x"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f263/location.length.x:d:f:hole:f263/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"217.403\" has modelled nominal 217.402955 but prints 217.403 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f263/location.length.x"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/bore.diameter:d:f:hole:f1/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/bore.diameter:d:f:hole:f124/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/bore.diameter:d:f:hole:f156/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/bore.diameter:d:f:hole:f168/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/bore.diameter:d:pmi:dimension.diameter:f1,2,183,184,185,186,187,188/diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23007.137 +0.1524/-0.0254\\nTHRU \u2334 \u230011.11 \u21a7 7.62\" has modelled nominal 7.1374 but prints 7.137 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/location.length.x:d:f:hole_pattern:f1/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"155.803\" has modelled nominal 155.802955 but prints 155.803 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.x"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/location.length.x:d:f:hole_pattern:f112/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"155.803\" has modelled nominal 155.802955 but prints 155.803 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.x"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/location.length.x:d:f:hole_pattern:f40/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"155.803\" has modelled nominal 155.802955 but prints 155.803 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.x"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/location.length.z:d:f:hole_pattern:f1/location.length.z",
-   "impact": "advisory",
-   "message": "The dimension \"111.353\" has modelled nominal 111.352955 but prints 111.353 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.z"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/location.length.z:d:f:hole_pattern:f112/location.length.z",
-   "impact": "advisory",
-   "message": "The dimension \"111.353\" has modelled nominal 111.352955 but prints 111.353 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.z"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f1/location.length.z:d:f:hole_pattern:f40/location.length.z",
-   "impact": "advisory",
-   "message": "The dimension \"111.353\" has modelled nominal 111.352955 but prints 111.353 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.z"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole_pattern:f244/location.length.z:d:f:hole_pattern:f244/location.length.z",
-   "impact": "advisory",
-   "message": "The dimension \"63.728\" has modelled nominal 63.727955 but prints 63.728 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f244/location.length.z"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:polygonal_boss:f3/polygon_across_flats.length:d:f:polygonal_boss:f265/polygon_across_flats.length",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 4-SIDED 25.352 A/F\" has modelled nominal 25.3518 but prints 25.352 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:polygonal_boss:f3/polygon_across_flats.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:polygonal_boss:f3/polygon_across_flats.length:d:f:polygonal_boss:f266/polygon_across_flats.length",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 4-SIDED 25.352 A/F\" has modelled nominal 25.3518 but prints 25.352 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:polygonal_boss:f3/polygon_across_flats.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:polygonal_boss:f3/polygon_across_flats.length:d:f:polygonal_boss:f267/polygon_across_flats.length",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 4-SIDED 25.352 A/F\" has modelled nominal 25.3518 but prints 25.352 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:polygonal_boss:f3/polygon_across_flats.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:polygonal_boss:f3/polygon_across_flats.length:d:f:polygonal_boss:f3/polygon_across_flats.length",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 4-SIDED 25.352 A/F\" has modelled nominal 25.3518 but prints 25.352 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:polygonal_boss:f3/polygon_across_flats.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f133:d:step_level/step_height.length.f133",
-   "impact": "advisory",
-   "message": "The dimension \"4.682\" has modelled nominal 4.682308 but prints 4.682 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f133"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f141:d:step_level/step_height.length.f141",
-   "impact": "advisory",
-   "message": "The dimension \"218.024\" has modelled nominal 218.023601 but prints 218.024 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f141"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f176:d:step_level/step_height.length.f176",
-   "impact": "advisory",
-   "message": "The dimension \"41.503\" has modelled nominal 41.502955 but prints 41.503 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f176"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f177:d:step_level/step_height.length.f177",
-   "impact": "advisory",
-   "message": "The dimension \"181.203\" has modelled nominal 181.202955 but prints 181.203 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f177"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f205:d:step_level/step_height.length.f205",
-   "impact": "advisory",
-   "message": "The dimension \"213.309\" has modelled nominal 213.308555 but prints 213.309 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f205"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f213:d:step_level/step_height.length.f213",
-   "impact": "advisory",
-   "message": "The dimension \"9.397\" has modelled nominal 9.397355 but prints 9.397 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f213"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f276:d:step_level/step_height.length.f276",
-   "impact": "advisory",
-   "message": "The dimension \"210.006\" has modelled nominal 210.005909 but prints 210.006 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f276"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f287:d:step_level/step_height.length.f287",
-   "impact": "advisory",
-   "message": "The dimension \"219.303\" has modelled nominal 219.302955 but prints 219.303 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f287"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f289:d:step_level/step_height.length.f289",
-   "impact": "advisory",
-   "message": "The dimension \"3.403\" has modelled nominal 3.402955 but prints 3.403 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
+    "d:step_level/step_height.length.f287",
     "d:step_level/step_height.length.f289"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -5944,7 +3010,8 @@
     "face:279",
     "face:304",
     "face:305"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "shape_not_recognised",
@@ -5959,23 +3026,25 @@
    "subjects": [
     "face:195",
     "face:202"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "sheet_preference_exceeded",
    "group": "sheet_preference_exceeded",
    "id": "p:sheet_preference_exceeded:sheet",
    "impact": "advisory",
-   "message": "Preferred paper size exceeded: using 1 sheet(s) of A1 at 1:1. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
+   "message": "Preferred paper size exceeded: using 1 sheet(s) of ANSI C at 1:2. No layout within preferred ANSI B paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
    "severity": "info",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "annotation_leader_crossing",
    "crossing_kinds": [
-    "extension_line"
+    "dimension_line"
    ],
    "fix": [
     {
@@ -5986,12 +3055,12 @@
     {
      "op": "set",
      "path": "sheet/scale",
-     "value": "1:2"
+     "value": "1:4"
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6001,42 +3070,397 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:4"
       }
      ],
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole_pattern:f1/bore.diameter|d:f:hole_pattern:f112/grid_pitch.length.row",
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over|d:f:hole:f261/location.length.x",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 .060 A B C crosses a line of 6.827.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over",
+    "d:f:hole:f261/location.length.x"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:4"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over|d:f:hole:f237/location.length.x",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 .060 A B C crosses a line of 7.693.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over",
+    "d:f:hole:f237/location.length.x"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:f263~1location.length.x/place",
+     "value": {
+      "along": "middle",
+      "lane": 0,
+      "side": "below",
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 8.559 dimension below the plan view, nearest the view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:f263~1location.length.x/place",
+       "value": {
+        "along": "middle",
+        "lane": 0,
+        "side": "below",
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over|d:f:hole:f263/location.length.x",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 .060 A B C crosses a line of 8.559.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over",
+    "d:f:hole:f263/location.length.x"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "annotation_leader_crossing",
+   "crossing_kinds": [
+    "dimension_line"
+   ],
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:4"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "annotation_leader_crossing:dimension_line",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over|d:f:hole:f239/location.length.x",
+   "impact": "readability",
+   "message": "The leader of the feature control frame \u2313 .060 A B C crosses a line of 9.425.",
+   "severity": "warning",
+   "subjects": [
+    "pmi:geometric_tolerance.profile_surface:ref=A,B,C:mod=all_over",
+    "d:f:hole:f239/location.length.x"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
+     "value": {
+      "offset": [
+       -168.22647737174,
+       0.0
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 6.400 dimension 168.226 mm left of where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
+       "value": {
+        "offset": [
+         -168.22647737174,
+         0.0
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f1/grid_pitch.length.row|f:hole:f110:line:0",
    "impact": "advisory",
-   "message": "The leader of 4\u00d7 \u23007.137 +0.1524/-0.0254\nTHRU \u2334 \u230011.11 \u21a7 7.62 crosses a line of 196.85.",
+   "message": "The first extension line of 6.400 crosses the \u23006.35 hole.",
    "severity": "warning",
    "subjects": [
-    "d:f:hole_pattern:f1/bore.diameter",
-    "d:f:hole_pattern:f112/grid_pitch.length.row"
-   ]
+    "d:f:hole_pattern:f1/grid_pitch.length.row",
+    "f:hole:f110"
+   ],
+   "tier": "tidy"
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
+   "code": "extension_through_feature",
    "fix": [
     {
      "op": "set",
-     "path": "hole_table",
-     "value": "always"
+     "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
+     "value": {
+      "offset": [
+       -168.22647737174,
+       0.0
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
     },
     {
      "op": "set",
      "path": "sheet/scale",
      "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 6.400 dimension 168.226 mm left of where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
+       "value": {
+        "offset": [
+         -168.22647737174,
+         0.0
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6046,42 +3470,100 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:4"
       }
      ],
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f149,150:t=C|pmi:datum.datum:f17,159,195,222:t=D",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol C crosses a line of datum feature symbol D.",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f1/grid_pitch.length.row|f:hole:f116:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 6.400 crosses the \u23006.35 hole.",
    "severity": "warning",
    "subjects": [
-    "pmi:datum.datum:f149,150:t=C",
-    "pmi:datum.datum:f17,159,195,222:t=D"
-   ]
+    "d:f:hole_pattern:f1/grid_pitch.length.row",
+    "f:hole:f116"
+   ],
+   "tier": "tidy"
   },
   {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
+   "code": "extension_through_feature",
    "fix": [
     {
      "op": "set",
-     "path": "hole_table",
-     "value": "always"
+     "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
+     "value": {
+      "offset": [
+       -168.22647737174,
+       0.0
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
     },
     {
      "op": "set",
      "path": "sheet/scale",
      "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
     }
    ],
    "fixes": [
     {
-     "description": "List the holes in a hole table and draw at 1:2. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "description": "Move the 6.400 dimension 168.226 mm left of where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
+       "value": {
+        "offset": [
+         -168.22647737174,
+         0.0
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
      "ops": [
       {
        "op": "set",
@@ -6091,21 +3573,1241 @@
       {
        "op": "set",
        "path": "sheet/scale",
-       "value": "1:2"
+       "value": "1:4"
       }
      ],
      "scope": "sheet"
     }
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f17,159,195,222:t=D|pmi:datum.datum:f149,150:t=C",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol D crosses a line of datum feature symbol C.",
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f1/grid_pitch.length.row|f:hole:f40:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 6.400 crosses the \u23006.35 hole.",
    "severity": "warning",
    "subjects": [
-    "pmi:datum.datum:f17,159,195,222:t=D",
-    "pmi:datum.datum:f149,150:t=C"
-   ]
+    "d:f:hole_pattern:f1/grid_pitch.length.row",
+    "f:hole:f40"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
+     "value": {
+      "offset": [
+       -168.22647737174,
+       0.0
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 6.400 dimension 168.226 mm left of where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f1~1grid_pitch.length.row/place",
+       "value": {
+        "offset": [
+         -168.22647737174,
+         0.0
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f1/grid_pitch.length.row|f:hole:f93:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 6.400 crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f1/grid_pitch.length.row",
+    "f:hole:f93"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f40~1grid_pitch.length.row/place",
+     "value": {
+      "offset": [
+       -140.87647737174,
+       0.0
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 6.500 dimension 140.876 mm left of where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f40~1grid_pitch.length.row/place",
+       "value": {
+        "offset": [
+         -140.87647737174,
+         0.0
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f40/grid_pitch.length.row|f:hole:f156:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 6.500 crosses the \u23007.137 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f40/grid_pitch.length.row",
+    "f:hole:f156"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f40~1grid_pitch.length.row/place",
+     "value": {
+      "offset": [
+       -140.87647737174,
+       0.0
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 6.500 dimension 140.876 mm left of where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f40~1grid_pitch.length.row/place",
+       "value": {
+        "offset": [
+         -140.87647737174,
+         0.0
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f40/grid_pitch.length.row|f:hole:f168:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 6.500 crosses the \u23007.137 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f40/grid_pitch.length.row",
+    "f:hole:f168"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
+     "value": {
+      "offset": [
+       0.0,
+       99.88897737174
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 11.250 dimension 99.889 mm up from where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
+       "value": {
+        "offset": [
+         0.0,
+         99.88897737174
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.col|f:hole:f244:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 11.250 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f112/grid_pitch.length.col",
+    "f:hole:f244"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
+     "value": {
+      "offset": [
+       0.0,
+       113.88897737174
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 11.250 dimension 113.889 mm up from where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
+       "value": {
+        "offset": [
+         0.0,
+         113.88897737174
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.col|f:hole:f246:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 11.250 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f112/grid_pitch.length.col",
+    "f:hole:f246"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
+     "value": {
+      "offset": [
+       0.0,
+       99.88897737174
+      ],
+      "pinned": true,
+      "view": "front"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 11.250 dimension 99.889 mm up from where draftwright placed it, in the front view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f112~1grid_pitch.length.col/place",
+       "value": {
+        "offset": [
+         0.0,
+         99.88897737174
+        ],
+        "pinned": true,
+        "view": "front"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f112/grid_pitch.length.col|f:hole:f248:line:0",
+   "impact": "advisory",
+   "message": "The first extension line of 11.250 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f112/grid_pitch.length.col",
+    "f:hole:f248"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:f237~1location.length.y/place",
+     "value": {
+      "offset": [
+       28.0,
+       28.0
+      ],
+      "pinned": true,
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 3.575 dimension 28 mm right and 28 mm up from where draftwright placed it, in the plan view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:f237~1location.length.y/place",
+       "value": {
+        "offset": [
+         28.0,
+         28.0
+        ],
+        "pinned": true,
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:f237/location.length.y|f:hole:f244:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 3.575 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:f237/location.length.y",
+    "f:hole:f244"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:f237~1location.length.y/place",
+     "value": {
+      "offset": [
+       28.0,
+       28.0
+      ],
+      "pinned": true,
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 3.575 dimension 28 mm right and 28 mm up from where draftwright placed it, in the plan view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:f237~1location.length.y/place",
+       "value": {
+        "offset": [
+         28.0,
+         28.0
+        ],
+        "pinned": true,
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:f237/location.length.y|f:hole:f246:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 3.575 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:f237/location.length.y",
+    "f:hole:f246"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole:f237~1location.length.y/place",
+     "value": {
+      "offset": [
+       28.0,
+       28.0
+      ],
+      "pinned": true,
+      "view": "plan"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 3.575 dimension 28 mm right and 28 mm up from where draftwright placed it, in the plan view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole:f237~1location.length.y/place",
+       "value": {
+        "offset": [
+         28.0,
+         28.0
+        ],
+        "pinned": true,
+        "view": "plan"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole:f237/location.length.y|f:hole:f248:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 3.575 crosses the \u230022.225 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole:f237/location.length.y",
+    "f:hole:f248"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f244~1location.length.y/place",
+     "value": {
+      "offset": [
+       28.0,
+       28.0
+      ],
+      "pinned": true,
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 3.480 dimension 28 mm right and 28 mm up from where draftwright placed it, in the side view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f244~1location.length.y/place",
+       "value": {
+        "offset": [
+         28.0,
+         28.0
+        ],
+        "pinned": true,
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f244/location.length.y|f:hole:f261:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 3.480 crosses the \u230015.082 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f244/location.length.y",
+    "f:hole:f261"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "dimensions/d:f:hole_pattern:f244~1location.length.y/place",
+     "value": {
+      "offset": [
+       28.0,
+       28.0
+      ],
+      "pinned": true,
+      "view": "side"
+     }
+    },
+    {
+     "op": "set",
+     "path": "sheet/keep_layout",
+     "value": true
+    },
+    {
+     "op": "set",
+     "path": "sheet/size",
+     "value": "ANSI C"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:2"
+    },
+    {
+     "op": "set",
+     "path": "sheets/max",
+     "value": 1
+    }
+   ],
+   "fixes": [
+    {
+     "description": "Move the 3.480 dimension 28 mm right and 28 mm up from where draftwright placed it, in the side view.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "dimensions/d:f:hole_pattern:f244~1location.length.y/place",
+       "value": {
+        "offset": [
+         28.0,
+         28.0
+        ],
+        "pinned": true,
+        "view": "side"
+       }
+      },
+      {
+       "op": "set",
+       "path": "sheet/keep_layout",
+       "value": true
+      },
+      {
+       "op": "set",
+       "path": "sheet/size",
+       "value": "ANSI C"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:2"
+      },
+      {
+       "op": "set",
+       "path": "sheets/max",
+       "value": 1
+      }
+     ],
+     "scope": "local"
+    },
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:f:hole_pattern:f244/location.length.y|f:hole:f263:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 3.480 crosses the \u230015.082 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:f:hole_pattern:f244/location.length.y",
+    "f:hole:f263"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:4"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.f203|f:hole:f115:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of .500 crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.f203",
+    "f:hole:f115"
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "extension_through_feature",
+   "fix": [
+    {
+     "op": "set",
+     "path": "hole_table",
+     "value": "always"
+    },
+    {
+     "op": "set",
+     "path": "sheet/scale",
+     "value": "1:4"
+    }
+   ],
+   "fixes": [
+    {
+     "description": "List the holes in a hole table and draw at 1:4. The whole sheet is laid out again, so placements you have moved by hand may change.",
+     "ops": [
+      {
+       "op": "set",
+       "path": "hole_table",
+       "value": "always"
+      },
+      {
+       "op": "set",
+       "path": "sheet/scale",
+       "value": "1:4"
+      }
+     ],
+     "scope": "sheet"
+    }
+   ],
+   "group": "extension_through_feature",
+   "id": "p:extension_through_feature:d:step_level/step_height.length.f276|f:hole:f112:line:1",
+   "impact": "advisory",
+   "message": "The second extension line of 8.268 crosses the \u23006.35 hole.",
+   "severity": "warning",
+   "subjects": [
+    "d:step_level/step_height.length.f276",
+    "f:hole:f112"
+   ],
+   "tier": "tidy"
   },
   {
    "code": "feature_not_located",
@@ -6116,7 +4818,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f253"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6127,7 +4830,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f255"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6138,7 +4842,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f257"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6149,7 +4854,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f259"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6160,7 +4866,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f265"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6171,7 +4878,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f265"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6182,7 +4890,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f266"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6193,7 +4902,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f266"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6204,7 +4914,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f267"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6215,7 +4926,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f267"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6226,7 +4938,8 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f3"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -6237,217 +4950,126 @@
    "severity": "warning",
    "subjects": [
     "f:polygonal_boss:f3"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:f40/grid_pitch.length.col|d:f:hole_pattern:f40/bore.diameter",
-   "impact": "advisory",
-   "message": "Line-work of 215.9 passes less than 0.5 mm from the label of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f40/grid_pitch.length.col",
-    "d:f:hole_pattern:f40/bore.diameter"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:step_level/step_height.length.f276|d:f:hole_pattern:f112/bore.diameter|d:step_level/step_height.length.f205",
-   "impact": "advisory",
-   "message": "Line-work of 210.006 and of 213.309 passes less than 0.5 mm from the label of 4\u00d7 \u23006.35 +0.0762/0 \u21a7 7.62, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f276",
-    "d:f:hole_pattern:f112/bore.diameter",
-    "d:step_level/step_height.length.f205"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:f1/location.length.x|d:f:hole_pattern:f1/grid_pitch.length.col",
-   "impact": "advisory",
-   "message": "Line-work of 155.803 passes less than 0.5 mm from the label of 241.3, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.x",
-    "d:f:hole_pattern:f1/grid_pitch.length.col"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:f1/location.length.z|d:f:hole_pattern:f1/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "Line-work of 111.353 passes less than 0.5 mm from the label of 162.56, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.z",
-    "d:f:hole_pattern:f1/grid_pitch.length.row"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:f1/location.length.x|d:f:hole_pattern:f40/grid_pitch.length.col",
-   "impact": "advisory",
-   "message": "Line-work of 155.803 passes less than 0.5 mm from the label of 215.9, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.x",
-    "d:f:hole_pattern:f40/grid_pitch.length.col"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:f1/location.length.z|d:f:hole_pattern:f40/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "Line-work of 111.353 passes less than 0.5 mm from the label of 165.1, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.z",
-    "d:f:hole_pattern:f40/grid_pitch.length.row"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:f1/location.length.x|d:f:hole_pattern:f112/grid_pitch.length.col",
-   "impact": "advisory",
-   "message": "Line-work of 155.803 passes less than 0.5 mm from the label of 285.75, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.x",
-    "d:f:hole_pattern:f112/grid_pitch.length.col"
-   ]
-  },
-  {
-   "code": "label_crowded",
-   "group": "label_crowded",
-   "id": "p:label_crowded:d:f:hole_pattern:f1/location.length.z|d:f:hole_pattern:f112/grid_pitch.length.row",
-   "impact": "advisory",
-   "message": "Line-work of 111.353 passes less than 0.5 mm from the label of 196.85, so it touches the text.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole_pattern:f1/location.length.z",
-    "d:f:hole_pattern:f112/grid_pitch.length.row"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:step_level/step_height.length.f203|ink:v:front:f:hole:f115",
    "impact": "readability",
-   "message": "An extension line of 12.7 runs 0.23 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "message": "An extension line of .500 runs 0.11 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
     "d:step_level/step_height.length.f203",
     "f:hole:f115"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:step_level/step_height.length.f276|ink:v:front:f:hole:f112",
    "impact": "readability",
-   "message": "An extension line of 210.006 runs 0.23 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "message": "An extension line of 8.268 runs 0.11 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
     "d:step_level/step_height.length.f276",
     "f:hole:f112"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "extension_off_centreline",
    "group": "extension_off_centreline",
    "id": "p:extension_off_centreline:d:f:plate:f201/thickness.length|ink:v:plan:f:hole:f112",
    "impact": "readability",
-   "message": "An extension line of 2\u00d7 9.297 runs 0.23 mm beside a centre line, so it reads as locating that centre, which it does not.",
+   "message": "An extension line of 2\u00d7 .366 runs 0.11 mm beside a centre line, so it reads as locating that centre, which it does not.",
    "severity": "warning",
    "subjects": [
     "d:f:plate:f201/thickness.length",
     "f:hole:f112"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
    "id": "p:leader_to_hidden_edge:d:f:hole_pattern:f40/bore.diameter",
    "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762/-0.0254\n\u21a7 7.62 ends on an edge the front view shows hidden, so it points at dashed line-work.",
+   "message": "The leader of 4\u00d7 \u2300.250 +.003/-.001\n\u21a7 .300 ends on an edge the front view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:f40/bore.diameter",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
    "id": "p:leader_to_hidden_edge:d:f:hole_pattern:f112/bore.diameter",
    "impact": "readability",
-   "message": "The leader of 4\u00d7 \u23006.35 +0.0762/0 \u21a7 7.62 ends on an edge the front view shows hidden, so it points at dashed line-work.",
+   "message": "The leader of 4\u00d7 \u2300.250 +.003/-.000\n\u21a7 .300 ends on an edge the front view shows hidden, so it points at dashed line-work.",
    "severity": "warning",
    "subjects": [
     "d:f:hole_pattern:f112/bore.diameter",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_to_hidden_edge",
    "group": "leader_to_hidden_edge",
    "id": "p:leader_to_hidden_edge:pmi:geometric_tolerance.position:f261,262,263,264:ref=A,B,C:mod=diameter_zone",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2316 \u23001.143 A B C ends on a hole the plan view shows hidden, so it points at dashed line-work: no view shows its holes visible and their mark has no place for it.",
+   "message": "The leader of the feature control frame \u2316 \u2300.045 A B C ends on a hole the plan view shows hidden, so it points at dashed line-work: no view shows its holes visible and their mark has no place for it.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.position:f261,262,263,264:ref=A,B,C:mod=diameter_zone",
     "v:plan"
-   ]
+   ],
+   "tier": "tidy"
+  },
+  {
+   "code": "declared_units",
+   "group": "declared_units",
+   "id": "p:declared_units:sheet",
+   "impact": "advisory",
+   "message": "The part's shape-representation contexts declare inches. With no Spec units preference, printed lengths use decimal inches; paper follows the drawing's paper preferences, defaulting to ANSI.",
+   "severity": "info",
+   "subjects": [
+    "sheet"
+   ],
+   "tier": "information"
   }
  ],
  "structural": [
   {
-   "annotation": "pmi:datum.datum:f17,159,195,222:t=D",
-   "at": [
-    642.43796474696,
-    274.59340535562535
-   ],
-   "code": "datum_leader_remote",
-   "fix": "set the datum symbol closer to its surface",
-   "fix_description": "Set the datum symbol closer to its surface.",
-   "group": "datum_leader_remote",
-   "id": "l:datum_leader_remote:pmi:datum.datum:f17,159,195,222:t=D",
-   "impact": "readability",
-   "message": "datum leader pmi:datum.datum:f17,159,195,222:t=D is 118.8 mm from its surface",
-   "scope": "sheet",
-   "severity": "warning",
-   "subjects": []
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "l:nominal_rounded",
+   "impact": "advisory",
+   "message": "20 dimension(s) print a nominal the model does not have, rounded to the sheet's precision; the largest is '8.584' for 218.0236 (0.0100 mm). Within a general tolerance this is ordinary. Where a fit depends on it, the dimension needs more places (set precision for its measurement ID)",
+   "severity": "info",
+   "subjects": [],
+   "tier": "information"
   }
  ],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:arrow+dimension_line": 2,
-   "annotation_leader_crossing:arrow+leader": 2,
-   "annotation_leader_crossing:dimension_line": 2,
-   "annotation_leader_crossing:extension_line": 5,
-   "annotation_leader_crossing:leader": 2,
-   "datum_leader_remote": 1,
+   "annotation_leader_crossing:dimension_line": 4,
    "datum_origin_unusable": 2,
+   "declared_units": 1,
    "extension_off_centreline": 3,
-   "extension_through_feature": 24,
+   "extension_through_feature": 16,
    "feature_not_dimensioned:hole": 4,
    "feature_not_located:hole": 8,
    "feature_not_located:polygonal_boss": 16,
    "features_not_recognised": 1,
    "general_tolerance_missing": 1,
-   "label_crowded": 8,
-   "leader_through_feature": 6,
    "leader_to_hidden_edge": 3,
-   "nominal_rounded": 46,
+   "nominal_rounded": 2,
    "pmi_not_extracted": 57,
    "pmi_not_extracted:dimension": 1,
    "pmi_not_extracted:finding": 4,
@@ -6466,8 +5088,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 148,
-    "groups": 11
+    "findings": 84,
+    "groups": 10
    },
    "decision": {
     "findings": 1,
@@ -6478,8 +5100,8 @@
     "groups": 14
    },
    "readability": {
-    "findings": 21,
-    "groups": 8
+    "findings": 10,
+    "groups": 3
    }
   }
  }

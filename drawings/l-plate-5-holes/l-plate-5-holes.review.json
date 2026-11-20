@@ -76,7 +76,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "annotation_outside_area",
@@ -88,7 +89,8 @@
    "subjects": [
     "d:f:hole:f22/bore.diameter",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

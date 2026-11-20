@@ -88,7 +88,8 @@
    "sources": [
     "attribute_set:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -101,7 +102,8 @@
    "sources": [
     "attribute_set:0:3"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -114,7 +116,8 @@
    "sources": [
     "attribute_set:0:4"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "annotation": "d:step_level/step_height.length.f2",
@@ -143,7 +146,8 @@
    "severity": "warning",
    "subjects": [
     "step_level"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "annotation": "d:f:fillet:f100/fillet.radius",
@@ -174,6 +178,7 @@
     "f:fillet:f102",
     "f:fillet:f103"
    ],
+   "tier": "tidy",
    "view": "v:front"
   },
   {
@@ -201,6 +206,7 @@
     "f:fillet:f29",
     "f:fillet:f43"
    ],
+   "tier": "tidy",
    "view": "v:plan"
   }
  ],
@@ -215,7 +221,8 @@
     "v:detail_a"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "datum_origin_unusable",
@@ -227,7 +234,8 @@
     "datum:#35"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -239,7 +247,8 @@
     "datum:#36"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "location_on_datum",
@@ -248,7 +257,8 @@
    "impact": "advisory",
    "message": "A feature lies on the selected datum; its location has no nonzero distance to draw.",
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_read_fact",
@@ -261,7 +271,8 @@
     "#24"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_read_fact",
@@ -274,7 +285,8 @@
     "#25"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_read_fact",
@@ -287,7 +299,8 @@
     "#126"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_read_fact",
@@ -300,7 +313,8 @@
     "#127"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -314,7 +328,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -328,7 +343,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -342,7 +358,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "annotation_leader_crossing",
@@ -387,7 +404,8 @@
    "subjects": [
     "pmi:datum.datum:f97:t=A",
     "d:f:polygonal_boss:f104/boss_height.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -432,7 +450,8 @@
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f105,106,107,108,109,110:ref=A:mod=all_around",
     "d:envelope/notch_location_x.length.f97_e92_e96"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -477,7 +496,8 @@
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f22,23:ref=A,B,C",
     "d:envelope/depth.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -519,7 +539,8 @@
    "subjects": [
     "d:f:hole:f50/location.length.z",
     "f:hole:f71"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -561,7 +582,8 @@
    "subjects": [
     "d:f:hole:f50/location.length.z",
     "f:hole:f75"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -603,7 +625,8 @@
    "subjects": [
     "d:f:hole:f50/location.length.z",
     "f:hole:f91"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -645,7 +668,8 @@
    "subjects": [
     "d:f:hole:f50/location.length.z",
     "f:hole:f95"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -687,7 +711,8 @@
    "subjects": [
     "d:f:hole:f50/location.length.z",
     "f:slot:f82"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -729,7 +754,8 @@
    "subjects": [
     "d:f:hole_pattern:f0/location.length.y",
     "f:slot:f82"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -771,7 +797,8 @@
    "subjects": [
     "d:f:slot:f82/slot_length.length",
     "f:hole:f71"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -813,7 +840,8 @@
    "subjects": [
     "d:authored:ear_right",
     "f:slot:f82"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -825,7 +853,8 @@
    "subjects": [
     "d:envelope/notch_location_x.length.f97_e104_e108",
     "d:f:hole:f50/bore.diameter"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -837,7 +866,8 @@
    "subjects": [
     "d:f:hole_pattern:f0/location.length.y",
     "d:f:hole_pattern:f71/grid_pitch.length.row"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "gdt_position_changed",
@@ -852,7 +882,8 @@
    "subjects": [
     "pmi:datum.datum:f75,76:t=C",
     "d:envelope/notch_location_x.length.f97_e104_e108"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "gdt_position_changed",
@@ -867,7 +898,8 @@
    "subjects": [
     "pmi:datum.datum:f89,90:t=B",
     "d:envelope/notch_location_x.length.f97_e104_e108"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "gdt_position_changed",
@@ -882,7 +914,8 @@
    "subjects": [
     "pmi:datum.datum:f97:t=A",
     "d:envelope/notch_location_x.length.f97_e104_e108"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [
@@ -895,6 +928,7 @@
    "message": "label of annotation '40' lies inside view 'plan' extents [x=48.0\u2013208.0, y=151.5\u2013241.5] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
+   "tier": "information",
    "view": "v:plan"
   },
   {
@@ -906,6 +940,7 @@
    "message": "label of annotation 'B' lies inside view 'plan' extents [x=48.0\u2013208.0, y=151.5\u2013241.5] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
+   "tier": "information",
    "view": "v:plan"
   }
  ],

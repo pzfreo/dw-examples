@@ -123,7 +123,8 @@
    "sources": [
     "dimension:#97"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -136,7 +137,8 @@
    "sources": [
     "dimension:#263"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -149,7 +151,8 @@
    "sources": [
     "dimension:#264"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -162,7 +165,8 @@
    "sources": [
     "dimension:#265"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -175,7 +179,8 @@
    "sources": [
     "dimension:#266"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -188,7 +193,8 @@
    "sources": [
     "dimension:#267"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -201,7 +207,8 @@
    "sources": [
     "dimension:#268"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -214,7 +221,8 @@
    "sources": [
     "dimension:#269"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -227,7 +235,8 @@
    "sources": [
     "dimension:#270"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -240,7 +249,8 @@
    "sources": [
     "dimension:#271"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -253,7 +263,8 @@
    "sources": [
     "geometric_tolerance:#35"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -266,7 +277,8 @@
    "sources": [
     "geometric_tolerance:#37"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -279,7 +291,8 @@
    "sources": [
     "geometric_tolerance:#40"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -292,7 +305,8 @@
    "sources": [
     "geometric_tolerance:#41"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -305,7 +319,8 @@
    "sources": [
     "geometric_tolerance:#42"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -318,7 +333,8 @@
    "sources": [
     "geometric_tolerance:#43"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -331,7 +347,8 @@
    "sources": [
     "geometric_tolerance:#44"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -344,7 +361,8 @@
    "sources": [
     "geometric_tolerance:#45"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -357,7 +375,8 @@
    "sources": [
     "geometric_tolerance:#79"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -370,7 +389,8 @@
    "sources": [
     "geometric_tolerance:#80"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -383,7 +403,8 @@
    "sources": [
     "datum:#95"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -396,7 +417,8 @@
    "sources": [
     "datum:#93"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_extracted",
@@ -409,7 +431,8 @@
    "sources": [
     "attribute_set:0:0"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -422,7 +445,8 @@
    "sources": [
     "attribute_set:0:1"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -435,7 +459,8 @@
    "sources": [
     "attribute_set:0:2"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -448,7 +473,8 @@
    "sources": [
     "finding:#350"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -461,7 +487,8 @@
    "sources": [
     "finding:#351"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -474,7 +501,8 @@
    "sources": [
     "finding:#353"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -487,7 +515,8 @@
    "sources": [
     "finding:#361"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -500,7 +529,8 @@
    "sources": [
     "finding:#365"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -513,7 +543,8 @@
    "sources": [
     "finding:#1058"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -526,7 +557,8 @@
    "sources": [
     "finding:#5810"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -539,7 +571,8 @@
    "sources": [
     "finding:#5810"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -552,7 +585,8 @@
    "sources": [
     "dimension:#97"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -565,7 +599,8 @@
    "sources": [
     "dimension:#263"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -578,7 +613,8 @@
    "sources": [
     "dimension:#264"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -591,7 +627,8 @@
    "sources": [
     "dimension:#265"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -604,7 +641,8 @@
    "sources": [
     "dimension:#266"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -617,7 +655,8 @@
    "sources": [
     "dimension:#267"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -630,7 +669,8 @@
    "sources": [
     "dimension:#268"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -643,7 +683,8 @@
    "sources": [
     "dimension:#269"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -656,7 +697,8 @@
    "sources": [
     "dimension:#270"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -669,7 +711,8 @@
    "sources": [
     "dimension:#271"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -682,7 +725,8 @@
    "sources": [
     "geometric_tolerance:#35"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -695,7 +739,8 @@
    "sources": [
     "geometric_tolerance:#37"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -708,7 +753,8 @@
    "sources": [
     "geometric_tolerance:#40"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -721,7 +767,8 @@
    "sources": [
     "geometric_tolerance:#41"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -734,7 +781,8 @@
    "sources": [
     "geometric_tolerance:#42"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -747,7 +795,8 @@
    "sources": [
     "geometric_tolerance:#43"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -760,7 +809,8 @@
    "sources": [
     "geometric_tolerance:#44"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -773,7 +823,8 @@
    "sources": [
     "geometric_tolerance:#45"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -786,7 +837,8 @@
    "sources": [
     "geometric_tolerance:#79"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -799,7 +851,8 @@
    "sources": [
     "geometric_tolerance:#80"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -812,7 +865,8 @@
    "sources": [
     "datum:#93"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -825,7 +879,8 @@
    "sources": [
     "datum:#96"
    ],
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -848,7 +903,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f0"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -871,7 +927,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f47"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -894,7 +951,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f50"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -917,7 +975,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f52"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -940,7 +999,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f54"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -963,7 +1023,8 @@
    "severity": "warning",
    "subjects": [
     "f:slot:f34"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "profile_corner_unlocated",
@@ -986,7 +1047,8 @@
    "severity": "warning",
    "subjects": [
     "outer_profile:f118:e339:e10"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "profile_corner_unlocated",
@@ -1009,67 +1071,8 @@
    "severity": "warning",
    "subjects": [
     "outer_profile:f118:e139:e346"
-   ]
-  },
-  {
-   "annotation": "d:f:fillet:f5/fillet.radius",
-   "at": [
-    195.70231532409292,
-    129.9466377963935
    ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:f5/fillet.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:fillet:f5/fillet.radius",
-    "f:fillet:f23/fillet.radius",
-    "f:fillet:f45/fillet.radius",
-    "f:fillet:f56/fillet.radius",
-    "f:fillet:f57/fillet.radius",
-    "f:fillet:f58/fillet.radius",
-    "f:fillet:f66/fillet.radius"
-   ],
-   "message": "d:f:fillet:f5/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:fillet:f5",
-    "f:fillet:f23",
-    "f:fillet:f45",
-    "f:fillet:f56",
-    "f:fillet:f57",
-    "f:fillet:f58",
-    "f:fillet:f66"
-   ],
-   "view": "v:side"
-  },
-  {
-   "annotation": "d:f:fillet:f119/fillet.radius",
-   "at": [
-    198.58031532409294,
-    151.9604377963935
-   ],
-   "code": "radius_leader_not_radial",
-   "evidence": "the shaft is more than 15 degrees off radial",
-   "group": "radius_leader_not_radial",
-   "id": "l:radius_leader_not_radial:d:f:fillet:f119/fillet.radius",
-   "impact": "readability",
-   "measurements": [
-    "f:fillet:f106/fillet.radius",
-    "f:fillet:f111/fillet.radius",
-    "f:fillet:f114/fillet.radius",
-    "f:fillet:f119/fillet.radius"
-   ],
-   "message": "d:f:fillet:f119/fillet.radius: radius leader must touch the middle 25\u201375% of the arc and approach within 15 degrees of radial from either side; automatic routing keeps the drawn route when no compliant candidate fits",
-   "severity": "warning",
-   "subjects": [
-    "f:fillet:f106",
-    "f:fillet:f111",
-    "f:fillet:f114",
-    "f:fillet:f119"
-   ],
-   "view": "v:side"
+   "tier": "fix_before_printing"
   }
  ],
  "problems": [
@@ -1082,11 +1085,12 @@
    "refs": [
     "sheet_metal_bodies",
     "thin_wall_bodies",
-    "quiddity-rust 0.5.1 (quiddity-rust/recognition/6)",
+    "quiddity-rust 0.5.4 (quiddity-rust/recognition/6)",
     "Python quiddity's recognition (tools/recognise.py) gives these families"
    ],
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "tidy"
   },
   {
    "code": "general_tolerance_missing",
@@ -1121,7 +1125,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1132,7 +1137,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f0"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1143,7 +1149,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f47"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1154,7 +1161,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f50"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1165,7 +1173,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f52"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -1176,7 +1185,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f54"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "datum_origin_unusable",
@@ -1188,7 +1198,8 @@
     "datum:#91"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1200,7 +1211,8 @@
     "datum:#92"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1214,7 +1226,8 @@
     "graphical_text:\"Simple Datum.5\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "datum_origin_unusable",
@@ -1228,7 +1241,8 @@
     "graphical_text:\"Simple Datum.6\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -1243,7 +1257,8 @@
     "graphical_text:\"Linear Size.11\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1258,7 +1273,8 @@
     "graphical_text:\"Linear Size.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1273,7 +1289,8 @@
     "graphical_text:\"Linear Size.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1288,7 +1305,8 @@
     "graphical_text:\"Linear Size.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1303,7 +1321,8 @@
     "graphical_text:\"Linear Size.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1318,7 +1337,8 @@
     "graphical_text:\"Linear Size.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1333,7 +1353,8 @@
     "graphical_text:\"Linear Size.7\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1348,7 +1369,8 @@
     "graphical_text:\"Linear Size.10\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1363,7 +1385,8 @@
     "graphical_text:\"Oriented Linear Dimension.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1378,7 +1401,8 @@
     "graphical_text:\"Linear Size.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_read_fact",
@@ -1393,7 +1417,8 @@
     "graphical_text:\"Linear Size.10\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1407,7 +1432,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1421,7 +1447,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1435,7 +1462,8 @@
     "read by haecceity; not projected to a draftwright record (the port projects dimensions, geometric tolerances, datums, manufacturing requirements, surface labels and common labels) (attribute set)"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1451,7 +1479,8 @@
     "graphical_text:\"Linear Size.11\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1467,7 +1496,8 @@
     "graphical_text:\"Simple Datum.2\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1483,7 +1513,8 @@
     "graphical_text:\"Simple Datum.3\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1499,7 +1530,8 @@
     "graphical_text:\"Simple Datum.1\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1515,7 +1547,8 @@
     "graphical_text:\"Simple Datum.6\""
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1529,7 +1562,8 @@
     "haecceity nonconformance: shape aspect identifies no face or edge; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1543,7 +1577,8 @@
     "haecceity nonconformance: a property on a shape aspect that identifies no face or edge; read as on the part"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_extracted",
@@ -1557,7 +1592,8 @@
     "haecceity not-modelled: property \"\" (\"shape for solid data with which properties are associated\") is not a construct the reader knows; not read"
    ],
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "pmi_not_lowered",
@@ -1572,7 +1608,8 @@
     "graphical_text:\"Profile tolerance of any surface.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1587,7 +1624,8 @@
     "graphical_text:\"Flatness.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1603,7 +1641,8 @@
     "graphical_text:\"Position.3\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1618,7 +1657,8 @@
     "graphical_text:\"Position.4\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1633,7 +1673,8 @@
     "graphical_text:\"Position.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1648,7 +1689,8 @@
     "graphical_text:\"Position.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1663,7 +1705,8 @@
     "graphical_text:\"Position.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1678,7 +1721,8 @@
     "graphical_text:\"Position.8\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1693,7 +1737,8 @@
     "graphical_text:\"Perpendicularity.1\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1708,7 +1753,8 @@
     "graphical_text:\"Perpendicularity.2\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1724,7 +1770,8 @@
     "graphical_text:\"Simple Datum.5\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   },
   {
    "code": "pmi_not_lowered",
@@ -1740,7 +1787,308 @@
     "graphical_text:\"Simple Datum.6\""
    ],
    "severity": "error",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
+   "impact": "advisory",
+   "message": "The dimension \"485.445\" has modelled nominal 485.4448 but prints 485.445 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/depth.length"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
+   "impact": "advisory",
+   "message": "The dimension \"162.690\" has modelled nominal 162.689737 but prints 162.690 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/height.length"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
+   "impact": "advisory",
+   "message": "The dimension \"302.960\" has modelled nominal 302.959786 but prints 302.960 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:envelope/width.length"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:f0/bore.diameter:d:f:hole:f0/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:f0/bore.diameter"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:f0/bore.diameter:d:f:hole:f50/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:f0/bore.diameter"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:f0/bore.diameter:d:f:hole:f52/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:f0/bore.diameter"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:hole:f0/bore.diameter:d:f:hole:f54/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:hole:f0/bore.diameter"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:slot:f30/location_slot.length:d:f:slot:f30/location_slot.length",
+   "impact": "advisory",
+   "message": "The dimension \"166.522\" has modelled nominal 166.5224 but prints 166.522 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:slot:f30/location_slot.length"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:slot:f30/location_slot_across.length:d:f:slot:f30/location_slot_across.length",
+   "impact": "advisory",
+   "message": "The dimension \"59.540\" has modelled nominal 59.54014 but prints 59.540 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:slot:f30/location_slot_across.length"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:f:slot:f34/location_slot_across.length:d:f:slot:f34/location_slot_across.length",
+   "impact": "advisory",
+   "message": "The dimension \"123.040\" has modelled nominal 123.04014 but prints 123.040 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:f:slot:f34/location_slot_across.length"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:step_level/step_height.length.f68:d:step_level/step_height.length.f68",
+   "impact": "advisory",
+   "message": "The dimension \"78.108\" has modelled nominal 78.10754 but prints 78.108 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:step_level/step_height.length.f68"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:d:step_level/step_height.length.f87:d:step_level/step_height.length.f87",
+   "impact": "advisory",
+   "message": "The dimension \"1.908\" has modelled nominal 1.90754 but prints 1.908 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "d:step_level/step_height.length.f87"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f11/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A2 \u230011.125 THRU 230.508 466.395 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f16/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A3 \u230011.125 THRU 230.508 19.05 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f16/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A3 \u230011.125 THRU 230.508 19.05 0 / +Z\" has modelled nominal 230.50754 but prints 230.508 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f18/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A4 \u230011.125 THRU 27.308 19.05 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f18/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A4 \u230011.125 THRU 27.308 19.05 0 / +Z\" has modelled nominal 27.30754 but prints 27.308 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f24/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"B2 \u230015.875 THRU 211.458 230.124 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f26/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"B3 \u230015.875 THRU 211.458 185.674 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f28/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"B4 \u230015.875 THRU 211.458 141.224 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f38/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"D1 \u230050.8 THRU 97.64 356.921 76.2 / +Z\" has modelled nominal 356.9208 but prints 356.921 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f40/location.length.y",
+   "impact": "advisory",
+   "message": "The dimension \"C1 \u230038.1 THRU 186.54 331.521 76.2 / +Z\" has modelled nominal 331.5208 but prints 331.521 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f42/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"B1 \u230015.875 THRU 211.458 96.774 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f9/bore.diameter",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230011.125 THRU 27.308 466.395 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
+  },
+  {
+   "code": "nominal_rounded",
+   "group": "nominal_rounded",
+   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:f24/location.length.x",
+   "impact": "advisory",
+   "message": "The dimension \"A1 \u230011.125 THRU 27.308 466.395 0 / +Z A2 \u230011.125 THRU 230.508 466.395 0 / +Z A3 \u230011.125 THRU 230.508 19.05 0 / +Z A4 \u230011.125 THRU 27.308 19.05 0 / +Z B1 \u230015.875 THRU 211.458 96.774 76.2 / +Z B2 \u230015.875 THRU 211.458 230.124 76.2 / +Z B3 \u230015.875 THRU 211.458 185.674 76.2 / +Z B4 \u230015.875 THRU 211.458 141.224 76.2 / +Z C1 \u230038.1 THRU 186.54 331.521 76.2 / +Z D1 \u230050.8 THRU 97.64 356.921 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
+   "severity": "info",
+   "subjects": [
+    "hole_schedule_plan"
+   ],
+   "tier": "information"
   },
   {
    "code": "annotation_leader_crossing",
@@ -1755,7 +2103,8 @@
    "subjects": [
     "pmi:datum.datum:f88,95:t=A",
     "d:envelope/width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -1763,369 +2112,15 @@
     "dimension_line"
    ],
    "group": "annotation_leader_crossing:dimension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:envelope/width.length",
+   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f68:ref=A,B,C|d:envelope/width.length",
    "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 302.960.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
-    "d:envelope/width.length"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.f87",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 1.908.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
-    "d:step_level/step_height.length.f87"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.f64",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 76.2.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
-    "d:step_level/step_height.length.f64"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|d:step_level/step_height.length.f68",
-   "impact": "advisory",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of 78.108.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
-    "d:step_level/step_height.length.f68"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.profile_surface:f68:ref=A,B,C|f:hole:f38:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.762 A B C crosses the \u230050.8 hole.",
+   "message": "The leader of the feature control frame \u2313 0.762 A B C crosses a line of 302.960.",
    "severity": "warning",
    "subjects": [
     "pmi:geometric_tolerance.profile_surface:f68:ref=A,B,C",
-    "f:hole:f38"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:pmi:geometric_tolerance.profile_surface:f68:ref=A,B,C|f:slot:f30:line:0",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 0.762 A B C crosses the 19.05 wide slot.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f68:ref=A,B,C",
-    "f:slot:f30"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:envelope/depth.length:d:envelope/depth.length",
-   "impact": "advisory",
-   "message": "The dimension \"485.445\" has modelled nominal 485.4448 but prints 485.445 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/depth.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:envelope/height.length:d:envelope/height.length",
-   "impact": "advisory",
-   "message": "The dimension \"162.690\" has modelled nominal 162.689737 but prints 162.690 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:envelope/height.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:envelope/width.length:d:envelope/width.length",
-   "impact": "advisory",
-   "message": "The dimension \"302.960\" has modelled nominal 302.959786 but prints 302.960 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
     "d:envelope/width.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f0/bore.diameter:d:f:hole:f0/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f0/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f0/bore.diameter:d:f:hole:f50/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f0/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f0/bore.diameter:d:f:hole:f52/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f0/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:hole:f0/bore.diameter:d:f:hole:f54/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"4\u00d7 \u23004.763 THRU\" has modelled nominal 4.7625 but prints 4.763 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:hole:f0/bore.diameter"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:slot:f30/location_slot.length:d:f:slot:f30/location_slot.length",
-   "impact": "advisory",
-   "message": "The dimension \"166.522\" has modelled nominal 166.5224 but prints 166.522 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:slot:f30/location_slot.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:slot:f30/location_slot_across.length:d:f:slot:f30/location_slot_across.length",
-   "impact": "advisory",
-   "message": "The dimension \"59.540\" has modelled nominal 59.54014 but prints 59.540 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:slot:f30/location_slot_across.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:f:slot:f34/location_slot_across.length:d:f:slot:f34/location_slot_across.length",
-   "impact": "advisory",
-   "message": "The dimension \"123.040\" has modelled nominal 123.04014 but prints 123.040 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:f:slot:f34/location_slot_across.length"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f68:d:step_level/step_height.length.f68",
-   "impact": "advisory",
-   "message": "The dimension \"78.108\" has modelled nominal 78.10754 but prints 78.108 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f68"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:d:step_level/step_height.length.f87:d:step_level/step_height.length.f87",
-   "impact": "advisory",
-   "message": "The dimension \"1.908\" has modelled nominal 1.90754 but prints 1.908 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "d:step_level/step_height.length.f87"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f11/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"A2 \u230011.125 THRU 230.508 466.395 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f16/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"A3 \u230011.125 THRU 230.508 19.05 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f16/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A3 \u230011.125 THRU 230.508 19.05 0 / +Z\" has modelled nominal 230.50754 but prints 230.508 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f18/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"A4 \u230011.125 THRU 27.308 19.05 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f18/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A4 \u230011.125 THRU 27.308 19.05 0 / +Z\" has modelled nominal 27.30754 but prints 27.308 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f24/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"B2 \u230015.875 THRU 211.458 230.124 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f26/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"B3 \u230015.875 THRU 211.458 185.674 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f28/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"B4 \u230015.875 THRU 211.458 141.224 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f38/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"D1 \u230050.8 THRU 97.64 356.921 76.2 / +Z\" has modelled nominal 356.9208 but prints 356.921 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f40/location.length.y",
-   "impact": "advisory",
-   "message": "The dimension \"C1 \u230038.1 THRU 186.54 331.521 76.2 / +Z\" has modelled nominal 331.5208 but prints 331.521 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f42/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"B1 \u230015.875 THRU 211.458 96.774 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole:f9/bore.diameter",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230011.125 THRU 27.308 466.395 0 / +Z\" has modelled nominal 11.1252 but prints 11.125 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "nominal_rounded",
-   "group": "nominal_rounded",
-   "id": "p:nominal_rounded:hole_schedule_plan:d:f:hole_pattern:f24/location.length.x",
-   "impact": "advisory",
-   "message": "The dimension \"A1 \u230011.125 THRU 27.308 466.395 0 / +Z A2 \u230011.125 THRU 230.508 466.395 0 / +Z A3 \u230011.125 THRU 230.508 19.05 0 / +Z A4 \u230011.125 THRU 27.308 19.05 0 / +Z B1 \u230015.875 THRU 211.458 96.774 76.2 / +Z B2 \u230015.875 THRU 211.458 230.124 76.2 / +Z B3 \u230015.875 THRU 211.458 185.674 76.2 / +Z B4 \u230015.875 THRU 211.458 141.224 76.2 / +Z C1 \u230038.1 THRU 186.54 331.521 76.2 / +Z D1 \u230050.8 THRU 97.64 356.921 76.2 / +Z\" has modelled nominal 211.45754 but prints 211.458 at the default three-place limit.",
-   "severity": "info",
-   "subjects": [
-    "hole_schedule_plan"
-   ]
-  },
-  {
-   "code": "sheet_preference_exceeded",
-   "group": "sheet_preference_exceeded",
-   "id": "p:sheet_preference_exceeded:sheet",
-   "impact": "advisory",
-   "message": "Preferred paper size exceeded: using 1 sheet(s) of A2 at 1:5. No layout within preferred A3 paper and 2 sheet(s) kept all ink inside the frame at a readable scale without unreadable ink or required losses.",
-   "severity": "info",
-   "subjects": [
-    "sheet"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2140,7 +2135,8 @@
    "subjects": [
     "pmi:datum.datum:f11,12:t=B",
     "d:step_level/step_height.length.f87"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2155,7 +2151,8 @@
    "subjects": [
     "pmi:datum.datum:f11,12:t=B",
     "d:step_level/step_height.length.f64"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "annotation_leader_crossing",
@@ -2170,37 +2167,8 @@
    "subjects": [
     "pmi:datum.datum:f11,12:t=B",
     "d:step_level/step_height.length.f68"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
    ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:datum.datum:f11,12:t=B|pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
-   "impact": "readability",
-   "message": "The leader of datum feature symbol B crosses a line of the feature control frame \u2313 1.524 A B C.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:datum.datum:f11,12:t=B",
-    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "leader"
-   ],
-   "group": "annotation_leader_crossing:leader",
-   "id": "p:annotation_leader_crossing:pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C|pmi:datum.datum:f11,12:t=B",
-   "impact": "readability",
-   "message": "The leader of the feature control frame \u2313 1.524 A B C crosses a line of datum feature symbol B.",
-   "severity": "warning",
-   "subjects": [
-    "pmi:geometric_tolerance.profile_surface:f110:ref=A,B,C",
-    "pmi:datum.datum:f11,12:t=B"
-   ]
+   "tier": "tidy"
   },
   {
    "code": "feature_not_located",
@@ -2211,7 +2179,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f0"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2222,7 +2191,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f47"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2233,7 +2203,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f50"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2244,7 +2215,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f52"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2255,7 +2227,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f54"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_located",
@@ -2266,7 +2239,8 @@
    "severity": "warning",
    "subjects": [
     "f:slot:f34"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "label_crowded",
@@ -2278,7 +2252,8 @@
    "subjects": [
     "d:f:chamfer:f97/chamfer.length",
     "d:f:slot:f30/slot_width.length"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_across_view",
@@ -2290,7 +2265,8 @@
    "subjects": [
     "d:f:hole:f0/bore.diameter",
     "v:side"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "leader_across_view",
@@ -2302,7 +2278,8 @@
    "subjects": [
     "d:f:hole:f47/bore.diameter",
     "v:side"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [
@@ -2312,9 +2289,10 @@
    "group": "view_annotation_inside_extents",
    "id": "l:view_annotation_inside_extents:v:front:pmi:datum.datum:f68:t=D",
    "impact": "advisory",
-   "message": "label of annotation 'D' lies inside view 'front' extents [x=58.4\u2013119.0, y=129.5\u2013162.0] over a blank region \u2014 legitimate for callouts on large faces",
+   "message": "label of annotation 'D' lies inside view 'front' extents [x=29.1\u201389.7, y=68.0\u2013100.5] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
+   "tier": "information",
    "view": "v:front"
   },
   {
@@ -2323,17 +2301,17 @@
    "group": "view_annotation_inside_extents",
    "id": "l:view_annotation_inside_extents:v:side:d:envelope/profile_angle.angle.f118_e339_e10_e139_e346",
    "impact": "advisory",
-   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=185.8\u2013282.9, y=129.5\u2013162.0] over a blank region \u2014 legitimate for callouts on large faces",
+   "message": "label of annotation '2\u00d7 135\u00b0' lies inside view 'side' extents [x=156.5\u2013253.6, y=68.0\u2013100.5] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
+   "tier": "information",
    "view": "v:side"
   }
  ],
  "summary": {
   "groups": {
    "annotation_leader_crossing:dimension_line": 2,
-   "annotation_leader_crossing:extension_line": 6,
-   "annotation_leader_crossing:leader": 2,
+   "annotation_leader_crossing:extension_line": 3,
    "datum_origin_unusable": 4,
    "feature_not_dimensioned:hole": 5,
    "feature_not_located:hole": 10,
@@ -2342,7 +2320,6 @@
    "general_tolerance_missing": 1,
    "label_crowded": 1,
    "leader_across_view": 2,
-   "leader_through_feature": 2,
    "nominal_rounded": 25,
    "pmi_not_extracted": 6,
    "pmi_not_extracted:datum": 2,
@@ -2358,14 +2335,12 @@
    "pmi_not_lowered:geometric_tolerance+graphical_callout": 10,
    "pmi_read_fact:dimension+graphical_callout": 1,
    "profile_corner_unlocated:profile_angle.location": 2,
-   "radius_leader_not_radial": 2,
-   "sheet_preference_exceeded": 1,
    "view_annotation_inside_extents": 2
   },
   "impacts": {
    "advisory": {
-    "findings": 62,
-    "groups": 10
+    "findings": 58,
+    "groups": 9
    },
    "decision": {
     "findings": 1,
@@ -2376,8 +2351,8 @@
     "groups": 14
    },
    "readability": {
-    "findings": 10,
-    "groups": 5
+    "findings": 4,
+    "groups": 2
    }
   }
  }

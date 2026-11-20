@@ -104,7 +104,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "annotation_outside_area",
@@ -116,7 +117,8 @@
    "subjects": [
     "d:f:hole_pattern:f7/bore.diameter",
     "v:front"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -198,7 +200,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/grid_pitch.length.row",
     "f:hole:f10"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -280,7 +283,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/grid_pitch.length.row",
     "f:hole:f6"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -362,7 +366,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/grid_pitch.length.row",
     "f:hole:f7"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -444,7 +449,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/grid_pitch.length.row",
     "f:hole:f8"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -526,7 +532,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/grid_pitch.length.row",
     "f:hole:f9"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -608,7 +615,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/grid_pitch.length.row",
     "f:hole:f6"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "extension_through_feature",
@@ -620,7 +628,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/location.length.y",
     "f:hole:f9"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -632,7 +641,8 @@
    "subjects": [
     "d:envelope/width.length",
     "d:f:hole:f6/bore.diameter"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -644,7 +654,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/location.length.x",
     "d:f:hole_pattern:f11/grid_pitch.length.col"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_crowded",
@@ -656,7 +667,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/grid_pitch.length.row",
     "v:section_aa"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "label_section_furniture_overlap",
@@ -668,7 +680,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/location.length.y",
     "v:section_aa"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "label_crowded",
@@ -680,7 +693,8 @@
    "subjects": [
     "d:f:hole_pattern:f11/location.length.y",
     "v:section_aa"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [
@@ -702,7 +716,8 @@
    ],
    "scope": "sheet",
    "severity": "warning",
-   "subjects": []
+   "subjects": [],
+   "tier": "fix_before_printing"
   }
  ],
  "summary": {

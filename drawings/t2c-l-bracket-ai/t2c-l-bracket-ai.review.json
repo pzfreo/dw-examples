@@ -50,7 +50,8 @@
     "face:15",
     "face:17",
     "face:18"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "leader_to_hidden_edge",
@@ -62,7 +63,8 @@
    "subjects": [
     "d:f:fillet:f2/fillet.radius",
     "v:side"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "hole_exit_obstructed",
@@ -76,7 +78,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f7"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_exit_obstructed",
@@ -90,7 +93,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f9"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_exit_obstructed",
@@ -104,7 +108,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f19"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "hole_exit_obstructed",
@@ -118,7 +123,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f20"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "placement_displaced",
@@ -132,7 +138,8 @@
    "severity": "warning",
    "subjects": [
     "d:f:hole:f20/location.length.x"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "placement_displaced",
@@ -146,7 +153,8 @@
    "severity": "warning",
    "subjects": [
     "d:f:hole:f9/location.length.x"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

@@ -37,6 +37,19 @@
  "lint": [],
  "problems": [
   {
+   "code": "detail_unplaceable",
+   "group": "detail_unplaceable",
+   "id": "p:detail_unplaceable:v:detail_a",
+   "impact": "readability",
+   "message": "Detail detail_a has insufficient layout space for its crop at scale 10:1; its dimensions remain on the parent.",
+   "refs": [
+    "v:detail_a"
+   ],
+   "severity": "warning",
+   "subjects": [],
+   "tier": "tidy"
+  },
+  {
    "code": "general_tolerance_missing",
    "fix": [
     {
@@ -69,7 +82,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "thread_designation_measured",
@@ -80,7 +94,8 @@
    "severity": "info",
    "subjects": [
     "f:modelled_thread:f16"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -94,7 +109,8 @@
     "face:14",
     "face:15",
     "face:39"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "shape_not_recognised",
@@ -109,7 +125,8 @@
    "subjects": [
     "face:14",
     "face:39"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "feature_not_dimensioned",
@@ -120,7 +137,8 @@
    "severity": "warning",
    "subjects": [
     "f:plate:f0"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "label_crowded",
@@ -132,12 +150,14 @@
    "subjects": [
     "d:f:modelled_thread:f16/thread",
     "d:f:hole:f7/bore.diameter"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
+   "detail_unplaceable": 1,
    "feature_not_dimensioned:plate": 1,
    "general_tolerance_missing": 1,
    "label_crowded": 1,
@@ -159,8 +179,8 @@
     "groups": 2
    },
    "readability": {
-    "findings": 0,
-    "groups": 0
+    "findings": 1,
+    "groups": 1
    }
   }
  }

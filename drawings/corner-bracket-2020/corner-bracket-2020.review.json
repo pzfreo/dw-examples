@@ -18,7 +18,8 @@
    "severity": "warning",
    "subjects": [
     "f:angled_step:f30"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "angled_step_requirement_unsupported",
@@ -32,7 +33,8 @@
    "severity": "warning",
    "subjects": [
     "f:angled_step:f31"
-   ]
+   ],
+   "tier": "fix_before_printing"
   }
  ],
  "problems": [
@@ -69,7 +71,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "angled_step_requirement_unsupported",
@@ -80,7 +83,8 @@
    "severity": "warning",
    "subjects": [
     "f:angled_step:f30"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "angled_step_requirement_unsupported",
@@ -91,7 +95,8 @@
    "severity": "warning",
    "subjects": [
     "f:angled_step:f31"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "unclaimed_geometry",
@@ -121,7 +126,8 @@
     "face:37",
     "face:38",
     "face:39"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "shape_not_recognised",
@@ -140,7 +146,8 @@
     "face:13",
     "face:15",
     "face:34"
-   ]
+   ],
+   "tier": "tidy"
   },
   {
    "code": "shape_not_recognised",
@@ -159,7 +166,8 @@
     "face:22",
     "face:24",
     "face:37"
-   ]
+   ],
+   "tier": "tidy"
   }
  ],
  "structural": [],

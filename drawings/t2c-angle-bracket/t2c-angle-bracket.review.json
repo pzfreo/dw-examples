@@ -39,7 +39,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f9"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "profile_corner_unlocated",
@@ -62,7 +63,8 @@
    "severity": "warning",
    "subjects": [
     "outer_profile:f1:e4:e8"
-   ]
+   ],
+   "tier": "fix_before_printing"
   }
  ],
  "problems": [
@@ -99,7 +101,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "feature_not_dimensioned",
@@ -110,7 +113,8 @@
    "severity": "warning",
    "subjects": [
     "f:hole:f9"
-   ]
+   ],
+   "tier": "fix_before_printing"
   },
   {
    "code": "nominal_rounded",
@@ -121,7 +125,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/height.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -132,7 +137,8 @@
    "severity": "info",
    "subjects": [
     "face:8"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [
@@ -145,6 +151,7 @@
    "message": "label of annotation '120\u00b0' lies inside view 'front' extents [x=28.1\u2013128.1, y=63.0\u2013101.6] over a blank region \u2014 legitimate for callouts on large faces",
    "severity": "info",
    "subjects": [],
+   "tier": "information",
    "view": "v:front"
   }
  ],

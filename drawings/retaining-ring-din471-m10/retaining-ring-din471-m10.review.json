@@ -49,7 +49,8 @@
    "severity": "warning",
    "subjects": [
     "f:slot:f7"
-   ]
+   ],
+   "tier": "fix_before_printing"
   }
  ],
  "problems": [
@@ -60,7 +61,8 @@
    "impact": "advisory",
    "message": "retaining-ring-din471-m10 lies 1.09\u00b0 off the file's axes, within 2\u00b0 of them, so it is drawn and dimensioned square, in its own frame: its sizes are its own, not a tilted box's.",
    "severity": "info",
-   "subjects": []
+   "subjects": [],
+   "tier": "information"
   },
   {
    "code": "general_tolerance_missing",
@@ -95,94 +97,8 @@
    "severity": "warning",
    "subjects": [
     "sheet"
-   ]
-  },
-  {
-   "code": "annotation_leader_crossing",
-   "crossing_kinds": [
-    "extension_line"
    ],
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "annotation_leader_crossing:extension_line",
-   "id": "p:annotation_leader_crossing:d:f:hole:f12/bore.diameter|d:f:slot:f7/slot_length.length",
-   "impact": "advisory",
-   "message": "The leader of 2\u00d7 \u23001.5 THRU crosses a line of 3.38.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:hole:f12/bore.diameter",
-    "d:f:slot:f7/slot_length.length"
-   ]
-  },
-  {
-   "code": "leader_through_feature",
-   "fix": [
-    {
-     "op": "set",
-     "path": "hole_table",
-     "value": "always"
-    },
-    {
-     "op": "set",
-     "path": "sheet/scale",
-     "value": "2:1"
-    }
-   ],
-   "fixes": [
-    {
-     "description": "List the holes in a hole table and draw at 2:1. The whole sheet is laid out again, so placements you have moved by hand may change.",
-     "ops": [
-      {
-       "op": "set",
-       "path": "hole_table",
-       "value": "always"
-      },
-      {
-       "op": "set",
-       "path": "sheet/scale",
-       "value": "2:1"
-      }
-     ],
-     "scope": "sheet"
-    }
-   ],
-   "group": "leader_through_feature",
-   "id": "p:leader_through_feature:d:f:flat:f0/flat.length|f:hole:f9:line:0",
-   "impact": "readability",
-   "message": "The leader of 2\u00d7 8.269 A/F crosses the \u23009.297 hole.",
-   "severity": "warning",
-   "subjects": [
-    "d:f:flat:f0/flat.length",
-    "f:hole:f9"
-   ]
+   "tier": "fix_before_printing"
   },
   {
    "code": "nominal_rounded",
@@ -193,7 +109,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/height.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -204,7 +121,8 @@
    "severity": "info",
    "subjects": [
     "d:envelope/width.length"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -215,7 +133,8 @@
    "severity": "info",
    "subjects": [
     "d:f:boss:f3/boss.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -226,7 +145,8 @@
    "severity": "info",
    "subjects": [
     "d:f:boss:f3/location.length.z"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -237,7 +157,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f12/location.length.x"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -248,7 +169,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f12/location.length.z"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -259,7 +181,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f12/location.length.z"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -270,7 +193,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f13/location.length.x"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -281,7 +205,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f9/bore.diameter"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -292,7 +217,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f9/location.length.x"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "nominal_rounded",
@@ -303,7 +229,8 @@
    "severity": "info",
    "subjects": [
     "d:f:hole:f9/location.length.z"
-   ]
+   ],
+   "tier": "information"
   },
   {
    "code": "unclaimed_geometry",
@@ -315,15 +242,14 @@
    "subjects": [
     "face:1",
     "face:4"
-   ]
+   ],
+   "tier": "information"
   }
  ],
  "structural": [],
  "summary": {
   "groups": {
-   "annotation_leader_crossing:extension_line": 1,
    "general_tolerance_missing": 1,
-   "leader_through_feature": 1,
    "nominal_rounded": 11,
    "part_squared_to_axes": 1,
    "slot_requirement_missing:location_slot.length": 1,
@@ -331,8 +257,8 @@
   },
   "impacts": {
    "advisory": {
-    "findings": 14,
-    "groups": 4
+    "findings": 13,
+    "groups": 3
    },
    "decision": {
     "findings": 1,
@@ -343,8 +269,8 @@
     "groups": 1
    },
    "readability": {
-    "findings": 1,
-    "groups": 1
+    "findings": 0,
+    "groups": 0
    }
   }
  }
